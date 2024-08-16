@@ -22,7 +22,9 @@
         "the_vault:wooden_cascade",
         "the_vault:plentiful",
         "the_vault:extended",
-        "the_vault:xp_gain"
+        "the_vault:xp_gain",
+        "the_vault:soul_boost",
+        "the_vault:random_positive"
       ]
     },
     "CURSE": {
@@ -33,7 +35,6 @@
         "the_vault:weakened",
         "the_vault:inert",
         "the_vault:locked",
-        "the_vault:frenzy",
         "the_vault:rotten",
         "the_vault:wounded",
         "the_vault:drained",
@@ -47,11 +48,25 @@
         "the_vault:tired_t2",
         "the_vault:slowed_t2",
         "the_vault:weakened_t2",
-        "the_vault:weakened_t3"
+        "the_vault:weakened_t3",
+        "the_vault:curse_collapsing",
+        "the_vault:curse_voiding",
+        "the_vault:curse_explosive",
+        "the_vault:curse_freezing",
+        "the_vault:curse",
+        "the_vault:poor",
+        "the_vault:mediocre",
+        "the_vault:corrosive",
+        "the_vault:nullifying",
+        "the_vault:piercing",
+        "the_vault:enervated",
+        "the_vault:chemical_bath",
+        "the_vault:impossible_difficulty"
       ]
     }
   },
-  "MODIFIER_POOL_GROUPS": [{
+  "MODIFIER_POOL_GROUPS": [
+    {
       "value": {
         "pools": [
           "the_vault:catalyst_positive"

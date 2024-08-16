@@ -49,6 +49,21 @@
         ]
       }
     ],
+    "gear_completion_crate_uscav": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic+",
+            "weight": 10
+          },
+          {
+            "value": "Omega",
+            "weight": 2
+          }
+        ]
+      }
+    ],
     "blackmarket": [
       {
         "level": 0,
@@ -211,6 +226,25 @@
         ]
       }
     ],
+    "gear_completion": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 50
+          },
+          {
+            "value": "Epic+",
+            "weight": 35
+          },
+          {
+            "value": "Omega",
+            "weight": 15
+          }
+        ]
+      }
+    ],
     "gear_completion_crate_mono": [
       {
         "level": 0,
@@ -270,6 +304,21 @@
           {
             "value": "Epic+",
             "weight": 4
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_completion": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic",
+            "weight": 3
           },
           {
             "value": "Omega",
@@ -347,7 +396,7 @@
             "value": "Omega",
             "weight": 1
           }
-         ]
+        ]
       }
     ],
     "jewel_high": [
@@ -528,15 +577,15 @@
           },
           {
             "value": "Rare+",
-            "weight": 30
+            "weight": 40
           },
           {
             "value": "Epic+",
-            "weight": 10
+            "weight": 12
           },
           {
             "value": "Omega",
-            "weight": 2
+            "weight": 8
           }
         ]
       }

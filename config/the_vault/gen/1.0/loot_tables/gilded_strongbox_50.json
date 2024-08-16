@@ -7,115 +7,85 @@
         "max": 26
       },
       "pool": [
-        { "weight": 70,
+        {
+          "weight": 80,
           "pool": [
             {
-                "weight": 8,
-                "item": {
+              "weight": 8,
+              "item": {
                 "id": "the_vault:gilded_sconce",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
-                }
-            },
-            {
-              "weight": 12,
-              "item": {
-              "id": "the_vault:gilded_ingot",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 2
                 }
               }
             },
             {
-                "weight": 8,
-                "item": {
+              "weight": 12,
+              "item": {
+                "id": "the_vault:gilded_ingot",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
                 "id": "the_vault:topaz_shard",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
-                }
-            },
-            {
-              "weight": 10,
-              "item": {
-              "id": "minecraft:experience_bottle",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 1
                 }
               }
             },
             {
-              "weight": 4,
+              "weight": 10,
               "item": {
-              "id": "the_vault:regret_nugget",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 1
+                "id": "minecraft:experience_bottle",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
               }
             }
           ]
         },
-        { "weight": 20,
-        "pool": [
-          {
-            "weight": 12,
-            "item": {
-              "id": "the_vault:regret_nugget",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 2
-                }
-            }
-          },
-          {
-            "weight": 12,
-            "item": {
-              "id": "the_vault:magic_silk",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 1
-                }
-            }
-          },
-          {
-            "weight": 8,
-            "item": {
-              "id": "the_vault:vault_essence",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 1
-                }
-            }
-          }
-        ]
-        },
-        { "weight": 8,
+        {
+          "weight": 20,
           "pool": [
             {
-              "weight": 11,
+              "weight": 12,
               "item": {
-                "id": "the_vault:relic_booster_pack",
+                "id": "the_vault:magic_silk",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:vault_essence",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "pool": [
             {
               "weight": 1,
               "item": {
@@ -127,7 +97,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -138,7 +108,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -149,7 +119,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -160,15 +130,16 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             }
-        ]
+          ]
         },
-        { "weight": 2,
+        {
+          "weight": 2,
           "pool": [
             {
-              "weight": 20,
+              "weight": 10,
               "item": {
                 "id": "the_vault:jewel",
                 "nbt": {
@@ -178,11 +149,11 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
-              "weight": 20,
+              "weight": 10,
               "item": {
                 "id": "the_vault:jewel",
                 "nbt": {
@@ -192,7 +163,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -203,7 +174,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -214,7 +185,46 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:altar_recatalyzer",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:loot_sack",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
               }
             }
           ]

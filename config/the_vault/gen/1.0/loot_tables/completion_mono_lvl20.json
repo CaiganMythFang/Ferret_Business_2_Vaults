@@ -7,7 +7,8 @@
         "max": 1
       },
       "pool": [
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 15,
@@ -31,7 +32,8 @@
         "max": 3
       },
       "pool": [
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 16,
@@ -156,7 +158,8 @@
         "max": 3
       },
       "pool": [
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 32,
@@ -183,7 +186,8 @@
         "max": 1
       },
       "pool": [
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 1,
@@ -207,7 +211,8 @@
         "max": 1
       },
       "pool": [
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 10,
@@ -254,17 +259,6 @@
               }
             },
             {
-              "weight": 6,
-              "item": {
-                "id": "the_vault:mote_purity",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
               "weight": 8,
               "item": {
                 "id": "the_vault:mod_box",
@@ -297,7 +291,8 @@
         "max": 3
       },
       "pool": [
-        { "weight": 1,
+        {
+          "weight": 1,
           "pool": [
             {
               "weight": 1,
@@ -347,17 +342,6 @@
               "weight": 1,
               "item": {
                 "id": "the_vault:bounty_pearl",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:mote_clarity",
                 "count": {
                   "type": "uniform",
                   "min": 1,

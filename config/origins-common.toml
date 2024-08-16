@@ -1,2 +1,464 @@
-origins = {}
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."tfb2:ocelot"]
+		enabled = true
+		"tfb2:movement/ocelot_senses" = true
+		"tfb2:movement/size_smallest_jump" = true
+		"tfb2:size/step_height_2_5" = true
+		"tfb2:size/ocelot_size" = true
+		"tfb2:buffs/ocelot_vision" = true
+		"tfb2:speed/speedup_6" = true
+		"tfb2:speed/swimup_3" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:food/hypercarnivore" = true
+		"tfb2:food/hypercarnivore2" = true
+		"tfb2:food/hypercarnivore3" = true
+		"tfb2:food/fish_lover" = true
+		"tfb2:size/health_hit_60" = true
+		"tfb2:damage/damage_minus_40" = true
+
+	[origins."tfb2:jerboa"]
+		enabled = true
+		"tfb2:buffs/hopping_to_it" = true
+		"tfb2:movement/jerboa_jump" = true
+		"tfb2:size/step_height_3_0" = true
+		"tfb2:size/jerboa_size" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3big" = true
+		"tfb2:buffs/rodent_vision" = true
+		"tfb2:size/health_hit_70" = true
+		"tfb2:damage/damage_minus_60" = true
+		"tfb2:speed/speedup_12" = true
+		"tfb2:speed/swimup_4" = true
+		"tfb2:food/herbivore" = true
+		"tfb2:food/herbivore2" = true
+		"tfb2:food/herbivore3" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."tfb2:rabbit"]
+		enabled = true
+		"tfb2:buffs/rabbit_vanish" = true
+		"tfb2:movement/rabbit_jump" = true
+		"tfb2:size/rabbit_size" = true
+		"tfb2:size/step_height_2_5" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:speed/bunny_burrow" = true
+		"tfb2:speed/bunny_burrow2" = true
+		"tfb2:speed/speedup_8" = true
+		"tfb2:speed/swimup_3" = true
+		"tfb2:food/herbivore" = true
+		"tfb2:food/herbivore2" = true
+		"tfb2:food/herbivore3" = true
+		"tfb2:size/health_hit_50" = true
+		"tfb2:damage/damage_minus_40" = true
+
+	[origins."tfb2:ferret"]
+		enabled = true
+		"tfb2:buffs/ferret_couch" = true
+		"tfb2:buffs/bandit_senses" = true
+		"tfb2:size/ferret_size" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:size/step_height_1_5" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:damage/distracted_looter" = true
+		"tfb2:size/health_hit_30" = true
+		"tfb2:damage/damage_minus_20" = true
+		"tfb2:speed/speedup_4" = true
+		"tfb2:speed/swimup_1" = true
+		"tfb2:food/hypercarnivore" = true
+		"tfb2:food/hypercarnivore2" = true
+		"tfb2:food/hypercarnivore3" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."tfb2:lynx"]
+		enabled = true
+		"tfb2:movement/lynx_stalk" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:size/step_height_1_7" = true
+		"tfb2:size/lynx_size" = true
+		"tfb2:speed/taiga_cat" = true
+		"tfb2:movement/no_freeze" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3small" = true
+		"tfb2:size/health_hit_30" = true
+		"tfb2:damage/damage_minus_20" = true
+		"tfb2:speed/speedup_2" = true
+		"tfb2:speed/swimup_1" = true
+		"tfb2:food/hypercarnivore" = true
+		"tfb2:food/hypercarnivore2" = true
+		"tfb2:food/hypercarnivore3" = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."tfb2:fox"]
+		enabled = true
+		"tfb2:movement/fox_jump" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:size/step_height_1_5" = true
+		"tfb2:size/fox_size" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:food/fox_food" = true
+		"tfb2:size/health_hit_30" = true
+		"tfb2:damage/sly_traveler" = true
+		"tfb2:speed/speedup_2" = true
+		"tfb2:speed/swimup_1" = true
+		"tfb2:damage/damage_minus_20" = true
+
+	[origins."tfb2:wolf"]
+		enabled = true
+		"tfb2:buffs/wolf_howl" = true
+		"tfb2:damage/pack_tactics1" = true
+		"tfb2:food/hypercarnivore" = true
+		"tfb2:food/hypercarnivore2" = true
+		"tfb2:food/hypercarnivore3" = true
+		"tfb2:damage/pack_tactics2" = true
+		"tfb2:damage/pack_tactics3" = true
+
+	[origins."tfb2:goat"]
+		enabled = true
+		"tfb2:buffs/escape_artist" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:size/step_height_1_5" = true
+		"tfb2:size/goat_size" = true
+		"tfb2:movement/mountain_goat" = true
+		"tfb2:speed/speedup_4" = true
+		"tfb2:speed/swimup_2" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3small" = true
+		"tfb2:food/herbivore" = true
+		"tfb2:food/herbivore2" = true
+		"tfb2:food/herbivore3" = true
+		"tfb2:size/health_hit_30" = true
+		"tfb2:damage/damage_minus_20" = true
+
+	[origins."tfb2:tiger"]
+		enabled = true
+		"tfb2:movement/eye_of_the_tiger" = true
+		"tfb2:size/tiger_size" = true
+		"tfb2:size/limb_length_1_5" = true
+		"tfb2:buffs/health_bonus_50" = true
+		"tfb2:damage/damage_bonus_50" = true
+		"tfb2:speed/slowdown_1" = true
+		"tfb2:food/big_carnivore1" = true
+		"tfb2:food/big_carnivore2" = true
+		"tfb2:food/big_carnivore3" = true
+		"tfb2:damage/large_fall_damage" = true
+
+	[origins."tfb2:snow_leopard"]
+		enabled = true
+		"tfb2:movement/snep_jump" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:size/step_height_1_5" = true
+		"tfb2:size/snep_size" = true
+		"tfb2:speed/snow_runner" = true
+		"tfb2:movement/no_freeze" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:food/hypercarnivore" = true
+		"tfb2:food/hypercarnivore2" = true
+		"tfb2:food/hypercarnivore3" = true
+		"tfb2:speed/speedup_1" = true
+		"tfb2:size/health_hit_20" = true
+		"tfb2:damage/damage_minus_10" = true
+
+	[origins."tfb2:lion"]
+		enabled = true
+		"tfb2:buffs/lion_roar" = true
+		"tfb2:size/lion_size" = true
+		"tfb2:buffs/health_bonus_30" = true
+		"tfb2:damage/damage_bonus_30" = true
+		"tfb2:speed/slowdown_1" = true
+		"tfb2:speed/savanna_cat" = true
+		"tfb2:food/big_carnivore1" = true
+		"tfb2:food/big_carnivore2" = true
+		"tfb2:food/big_carnivore3" = true
+		"tfb2:damage/large_fall_damage" = true
+		"tfb2:food/pride_hunger" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."tfb2:maned_wolf"]
+		enabled = true
+		"tfb2:damage/tamp" = true
+		"tfb2:size/maned_wolf_size" = true
+		"tfb2:food/maned_wolf_food" = true
+		"tfb2:size/limb_length_1_5" = true
+		"tfb2:speed/speedup_1" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:damage/medium_fall_damage" = true
+		"tfb2:damage/human_anxiety" = true
+
+	[origins."tfb2:mouse"]
+		enabled = true
+		"tfb2:buffs/lab_mouse" = true
+		"tfb2:movement/size_smaller_jump" = true
+		"tfb2:size/step_height_4_0" = true
+		"tfb2:buffs/rodent_vision" = true
+		"tfb2:movement/small_climber" = true
+		"tfb2:size/mouse_size" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3big" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:size/health_hit_80" = true
+		"tfb2:damage/damage_minus_60" = true
+		"tfb2:speed/speedup_14" = true
+		"tfb2:speed/swimup_5" = true
+
+	[origins."tfb2:synth"]
+		enabled = true
+		"tfb2:food/synth_food_base" = true
+		"tfb2:food/synth_food_copper" = true
+		"tfb2:food/synth_food_diamond" = true
+		"tfb2:food/synth_food_emerald" = true
+		"tfb2:food/synth_food_gold" = true
+		"tfb2:food/synth_food_iron" = true
+		"tfb2:food/synth_food_lapis" = true
+		"tfb2:food/synth_food_netherite" = true
+		"tfb2:food/synth_food_redstone" = true
+		"tfb2:food/synthetic" = true
+		"tfb2:food/synthetic2" = true
+		"tfb2:food/synthetic3" = true
+		"tfb2:damage/weak_to_magic" = true
+		"tfb2:damage/weak_to_magic2" = true
+		"tfb2:damage/weak_to_magic3" = true
+		"tfb2:damage/weak_to_magic4" = true
+		"tfb2:food/no_potions" = true
+
+	[origins."tfb2:coyote"]
+		enabled = true
+		"tfb2:buffs/coyote_howl" = true
+		"tfb2:size/coyote_size" = true
+		"tfb2:buffs/coyote_vision" = true
+		"tfb2:speed/plains_runner" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:size/health_hit_20" = true
+		"tfb2:damage/damage_minus_10" = true
+
+	[origins."tfb2:hare"]
+		enabled = true
+		"tfb2:buffs/hare_dash" = true
+		"tfb2:movement/rabbit_jump" = true
+		"tfb2:size/step_height_2_5" = true
+		"tfb2:size/rabbit_size" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:speed/hare_speed" = true
+		"tfb2:speed/hare_speed2" = true
+		"tfb2:movement/no_freeze" = true
+		"tfb2:size/health_hit_40" = true
+		"tfb2:damage/damage_minus_30" = true
+		"tfb2:speed/speedup_8" = true
+		"tfb2:speed/swimup_2" = true
+		"tfb2:food/herbivore" = true
+		"tfb2:food/herbivore2" = true
+		"tfb2:food/herbivore3" = true
+
+	[origins."tfb2:parrot"]
+		enabled = true
+		"tfb2:buffs/parrot_the_music" = true
+		"tfb2:movement/size_smallest_jump" = true
+		"tfb2:size/step_height_2_5" = true
+		"tfb2:size/parrot_size" = true
+		"tfb2:movement/glide_wing" = true
+		"tfb2:speed/parrot_jig" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3big" = true
+		"tfb2:size/health_hit_50" = true
+		"tfb2:damage/damage_minus_40" = true
+		"tfb2:speed/speedup_4" = true
+		"tfb2:speed/swimup_2" = true
+		"tfb2:food/herbivore" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."tfb2:serval"]
+		enabled = true
+		"tfb2:movement/serval_leap" = true
+		"tfb2:movement/size_smaller_jump" = true
+		"tfb2:size/step_height_2_5" = true
+		"tfb2:size/serval_size" = true
+		"tfb2:speed/savanna_cat" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:food/hypercarnivore" = true
+		"tfb2:food/hypercarnivore2" = true
+		"tfb2:food/hypercarnivore3" = true
+		"tfb2:speed/speedup_6" = true
+		"tfb2:speed/swimup_2" = true
+		"tfb2:size/health_hit_50" = true
+		"tfb2:damage/damage_minus_40" = true
+
+	[origins."tfb2:red_panda"]
+		enabled = true
+		"tfb2:buffs/threatening_aura" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:size/step_height_1_5" = true
+		"tfb2:size/red_panda_size" = true
+		"tfb2:buffs/red_panda_vision" = true
+		"tfb2:speed/speedup_4" = true
+		"tfb2:speed/swimup_1" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:size/health_hit_30" = true
+		"tfb2:damage/damage_minus_20" = true
+
+	[origins."tfb2:megabat"]
+		enabled = true
+		"tfb2:movement/big_bat_flight" = true
+		"tfb2:movement/size_smaller_jump" = true
+		"tfb2:size/step_height_2_0" = true
+		"tfb2:buffs/echolocation" = true
+		"tfb2:buffs/bat_vision" = true
+		"tfb2:size/bat_size" = true
+		"tfb2:movement/size_small_jump" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3medium" = true
+		"tfb2:size/health_hit_40" = true
+		"tfb2:damage/damage_minus_30" = true
+		"tfb2:speed/speedup_4" = true
+		"tfb2:speed/swimup_1" = true
+		"tfb2:food/frugivore" = true
+		"tfb2:food/frugivore2" = true
+		"tfb2:food/frugivore3" = true
+		"tfb2:food/frugivore4" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."tfb2:elephant"]
+		enabled = true
+		"tfb2:damage/war_stomp" = true
+		"tfb2:size/elephant_size" = true
+		"tfb2:size/limb_length_1_5" = true
+		"tfb2:buffs/health_bonus_50" = true
+		"tfb2:damage/damage_bonus_50" = true
+		"tfb2:speed/slowdown_1" = true
+		"tfb2:buffs/herd_family" = true
+		"tfb2:food/big_herbivore1" = true
+		"tfb2:food/big_herbivore2" = true
+		"tfb2:food/big_herbivore3" = true
+		"tfb2:damage/large_fall_damage" = true
+		"tfb2:movement/elephant_jump" = true
+
+	[origins."tfb2:jackal"]
+		enabled = true
+		"tfb2:movement/jackal_speed" = true
+		"tfb2:size/step_height_1_5" = true
+		"tfb2:size/jackal_size" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:size/health_hit_20" = true
+		"tfb2:damage/damage_minus_10" = true
+		"tfb2:damage/hug_cactus" = true
+		"tfb2:speed/cold_feet" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."tfb2:rat"]
+		enabled = true
+		"tfb2:movement/scurry" = true
+		"tfb2:movement/size_smaller_jump" = true
+		"tfb2:size/step_height_2_5" = true
+		"tfb2:size/rat_size" = true
+		"tfb2:movement/small_climber" = true
+		"tfb2:damage/small_fall" = true
+		"tfb2:damage/small_fall2" = true
+		"tfb2:damage/small_fall3big" = true
+		"tfb2:speed/speedup_4" = true
+		"tfb2:speed/swimup_2" = true
+		"tfb2:food/omnivore" = true
+		"tfb2:size/health_hit_70" = true
+		"tfb2:damage/damage_minus_50" = true
 
