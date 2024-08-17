@@ -1,0 +1,37 @@
+// priority: 0
+
+console.info('Hello, World! (You will only see this line once in console, during startup)')
+
+onEvent('item.registry', event => {
+	event.create('tfb2:grist_build').group('tfb2').displayName('Grist - Build')
+	event.create('tfb2:grist_amber').group('tfb2').displayName('Grist - Amber')
+	event.create('tfb2:grist_amethyst').group('tfb2').displayName('Grist - Amethyst')
+	event.create('tfb2:grist_artifact').group('tfb2').displayName('Grist - Artifact')
+	event.create('tfb2:grist_caulk').group('tfb2').displayName('Grist - Caulk')
+	event.create('tfb2:grist_chalk').group('tfb2').displayName('Grist - Chalk')
+	event.create('tfb2:grist_cobalt').group('tfb2').displayName('Grist - Cobalt')
+	event.create('tfb2:grist_diamond').group('tfb2').displayName('Grist - Diamond')
+	event.create('tfb2:grist_garnet').group('tfb2').displayName('Grist - Garnet')
+	event.create('tfb2:grist_gold').group('tfb2').displayName('Grist - Gold')
+	event.create('tfb2:grist_iodine').group('tfb2').displayName('Grist - Iodine')
+	event.create('tfb2:grist_marble').group('tfb2').displayName('Grist - Marble')
+	event.create('tfb2:grist_mercury').group('tfb2').displayName('Grist - Mercury')
+	event.create('tfb2:grist_quartz').group('tfb2').displayName('Grist - Quartz')
+	event.create('tfb2:grist_ruby').group('tfb2').displayName('Grist - Ruby')
+	event.create('tfb2:grist_rust').group('tfb2').displayName('Grist - Rust')
+	event.create('tfb2:grist_shale').group('tfb2').displayName('Grist - Shale')
+	event.create('tfb2:grist_sulfur').group('tfb2').displayName('Grist - Sulfur')
+	event.create('tfb2:grist_tar').group('tfb2').displayName('Grist - Tar')
+	event.create('tfb2:grist_uranium').group('tfb2').displayName('Grist - Uranium')
+	event.create('tfb2:grist_zillium').group('tfb2').displayName('Grist - Zillium')
+	event.create('tfb2:grist_rainbownium').group('tfb2').displayName('Grist - Rainbownium')
+	event.create('tfb2:grist_vitaminv').group('tfb2').displayName('Grist - Vitamin V')
+	event.create('tfb2:grist_ego').group('tfb2').displayName('Grist - Ego')
+	event.create('tfb2:grist_chroma').group('tfb2').displayName('Grist - Chroma')
+	event.create('tfb2:grist_morkite').group('tfb2').displayName('Grist - Morkite')
+})
+
+onEvent('block.registry', event => {
+	// Register new blocks here
+	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+})
