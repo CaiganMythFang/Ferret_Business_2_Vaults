@@ -1,0 +1,2005 @@
+{
+	id: "069C46E8E24CACCA"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 4
+	filename: "of_darkness_and_desert"
+	title: "Bright or Moody"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "Darkness or Brightness?!"
+			description: [
+				"&dHm, seems we got a few choices on where to go next. Four places actually. So we're going to split it into two and two to keep focus."
+				""
+				"&5Where are we going to start, sis?"
+				""
+				"&dHmm, Bandit just went through Lelyetia, so lets take a break from the forested places and go somewhere different."
+				""
+				"&5Yeck, I see. Guess you get to choose which one you start with, Bandit. We'll fork the quest chain here so you can work on either one at your own pace. They are...very different from each other, I have to say."
+			]
+			dependencies: ["0332B6DA83347AEB"]
+			id: "24E1C6762864AEC6"
+			tasks: [{
+				id: "5A507B2D491199DC"
+				type: "checkmark"
+				title: "Choices, Choices"
+			}]
+			rewards: [{
+				id: "2ECB7916F9D8A1C3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "To the Deep Dark"
+			x: 1.0d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"&dThe Deeplands is the furthest thing you can get from the endless sun of Barathos... well, without it being a fully underwater world."
+				""
+				"&5Please. Please no water temple..."
+				""
+				"&dNah, brother. This is the darkest of caves, the Deeplands. You'll need to bring a lot of light of some kind, there is no light from the sky."
+				""
+				"&5And to get to the Deeplands is easy. Bring some ore, place it on top of, or as close to Bedrock in the Overworld (the bottom most indestructable layer), and mine it while you have a Blank Runestone in your inventory."
+				""
+				"&dAnd bam, Deeplands Realmstone. Simple, no? Well, if it doesn't work with one ore, try something simple like Iron Ore."
+			]
+			dependencies: ["24E1C6762864AEC6"]
+			id: "20DC9D8BCD99C99E"
+			tasks: [{
+				id: "52C09B57B2D478E8"
+				type: "item"
+				item: "aoa3:deeplands_realmstone"
+			}]
+			rewards: [{
+				id: "6EF4F8ECEE5179A3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "To the Endless Sun"
+			x: 1.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"&dBarathos is an endless desert, with a relentless sun."
+				""
+				"&5A sun that shines even in the deepest cave... yuck."
+				""
+				"&dRight? But you'll need to explore and fight in Barathos a bit, as it is the home of two of the FOP Corporate Bosses. "
+				""
+				"&5To get the Barathos Realmstone, you'll need to find a Husk and beat it to death with a Blank Realmstone. As in, getting the killing blow while holding the Realmstone."
+				""
+				"&dGiven how... badly the FOP have patched and patched and added onto their own game server, Husks might be kind of hard to find. Usually, they spawn in the deserts at night instead of zombies but..."
+				""
+				"&5Just check out the Shop Tablet if you are having bad luck, Bandit."
+			]
+			dependencies: ["24E1C6762864AEC6"]
+			id: "59965C1CF354E4CE"
+			tasks: [{
+				id: "266E88C418292731"
+				type: "item"
+				item: "aoa3:barathos_realmstone"
+			}]
+			rewards: [{
+				id: "78D3EFCF64AA944B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Land So Bright"
+			x: 3.25d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"&dBarathos is a wide, barren world."
+				""
+				"&5It's bright, warm, and mostly empty. But there are, or used to be people living there. They've long since become Power Users, and most of them replaced by FOP NPCs and creatures."
+				""
+				"&dBut that's just the surface. Underground there is... a lot of rich ore to be found. Part of why the FOP goes after these barren worlds, the underground is less likely to be tapped."
+				""
+				"&5Full of riches for them to send Users to exploit."
+				""
+				"&dGo and explore. Most of the place is slightly hilly, but there should be a lot of structures around. I'd mark em all down on your map, you'll probably need to visit most of them."
+				""
+				"&5Be on your guard. The creatures can be pretty hardy and dangerous."
+			]
+			dependencies: ["59965C1CF354E4CE"]
+			id: "504DC166104A8063"
+			tasks: [{
+				id: "762CDDE7AAAC7F06"
+				type: "dimension"
+				title: "Travel to Barathos"
+				dimension: "aoa3:barathos"
+			}]
+			rewards: [{
+				id: "35A64F2CA80CFA3F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Red Lands"
+			x: 5.75d
+			y: -2.0d
+			shape: "pentagon"
+			description: [
+				"&dUnderground, Barathos is split into two halves."
+				""
+				"&5The upper 2/3rds is primarily Baron Stone. "
+				""
+				"&dAnd the last third is Hellstone and Lava. "
+				""
+				"&5There isn't much variation in the materials that make up the land. There are caves underground, but they might be harder to find. You might want to invest in some Ore searching gear. Scannes or Dousing Rods or something."
+				""
+				"&dCause you'll need to find the three Ores this world is known for : Baronyte and Varsium ore above Y 25..."
+				""
+				"&5...and Blazium below Y 25."
+			]
+			dependencies: ["504DC166104A8063"]
+			id: "783B07D340595603"
+			tasks: [
+				{
+					id: "6FF9408C6988EE37"
+					type: "item"
+					item: "aoa3:baronyte_ore"
+				}
+				{
+					id: "4AC27B482FBA5C91"
+					type: "item"
+					item: "aoa3:blazium_ore"
+				}
+				{
+					id: "0245EAEACF3CEEF6"
+					type: "item"
+					item: "aoa3:varsium_ore"
+				}
+			]
+			rewards: [{
+				id: "5A64A65A21251BC9"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 5.75d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["783B07D340595603"]
+			dependency_requirement: "one_started"
+			id: "6CF91C9EA12F1286"
+			tasks: [{
+				id: "478DBE6EA83EC17F"
+				type: "checkmark"
+				title: "DESERT FIGHTS"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -3.0d
+			shape: "square"
+			dependencies: ["783B07D340595603"]
+			dependency_requirement: "one_started"
+			id: "2F80E867398F3D43"
+			tasks: [{
+				id: "39917BFA6085D331"
+				type: "checkmark"
+				title: "DESERT CRAFTS"
+			}]
+		}
+		{
+			title: "Arkback and Cryptid"
+			x: 4.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&5Arkbacks can be found almost everywhere on Barathos. "
+				""
+				"&5Arkback do not attack you unless you attack first. They ignore all knockback, so don't rely on that for your strategy."
+				""
+				"&5Arkbacks can drop Armour Plating and Hive Chunks. Both are good for crafting, but the Hive Chunk especially is needed for facing one of the FOP Corporate Bosses."
+				""
+				"&5The Cryptid is a creature that spawns deep under the Barathos surface."
+				""
+				"&5The Cryptid will set blocks on fire it walks over."
+				""
+				"&5It can drop Sharp Claws, which are good for crafting."
+			]
+			dependencies: ["6CF91C9EA12F1286"]
+			id: "036F209762E6FCBE"
+			tasks: [
+				{
+					id: "679B21DA5867D6E5"
+					type: "kill"
+					entity: "aoa3:arkback"
+					value: 5L
+				}
+				{
+					id: "3B011AF3F1A5D1BA"
+					type: "item"
+					item: "aoa3:hive_chunk"
+				}
+				{
+					id: "71B220DCD807AFD0"
+					type: "kill"
+					entity: "aoa3:cryptid"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "3FAE9968039417DB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Staff of a Noble"
+			x: 5.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Baron Staff is made with Hive Chunks and Baronyte, both found on Barathos, as well as Power Runes. "
+				""
+				"&dIt uses Wind and Power Runes as ammunition, and fires out a projectile that damages and has a chance to weaken enemies."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "3BE49630B4DFCE74"
+			tasks: [{
+				id: "6EDFE8641CCFFB69"
+				type: "item"
+				item: {
+					id: "aoa3:baron_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "53B4611AD167B255"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Shot Shot Shotgun!"
+			x: 4.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Swarm-O-Tron is a blaster you can make with all three metals on Barathos, as well as Hive Chunks."
+				""
+				"&dIt uses your AoA Spirit as ammunition, fireing a shotgun style blast of 5 projectiles when fired."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "77CCA69FD916C696"
+			tasks: [{
+				id: "6900C402A594BE97"
+				type: "item"
+				item: {
+					id: "aoa3:swarmotron"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2b
+					}
+				}
+			}]
+			rewards: [{
+				id: "444840DDBDB39A69"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Bug Big Shot"
+			x: 6.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Hive Howitzer can be made with Varsium, Baronyte, and Hive Chunks, all found in Barathos."
+				""
+				"&dThe Hive Howitzer uses Cannonballs for ammunition. It does more damage to armored creatures, but the shots are affected by gravity so aim carefully."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "1E303CB23B7EBC2C"
+			tasks: [
+				{
+					id: "15A7F6B2A82B115D"
+					type: "item"
+					item: {
+						id: "aoa3:hive_howitzer"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "654E17FC3C73D157"
+					type: "item"
+					item: "aoa3:cannonball"
+				}
+			]
+			rewards: [{
+				id: "2261D62CB718F51D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Echodar and Emperor Beast"
+			x: 5.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&5The Echodar is a creature that spawns deep underground in Barathos."
+				""
+				"&5Echodar fly, and will attack you on sight."
+				""
+				"&5The Emperor Beast is a dangerous creature that spawns anywhere in Barathos. "
+				""
+				"&5The Emperor Beast will not attack unless attacked first. They are quite dangerous, completely ignoring any knockback attempts, and can knock you around easily. They can also cause Nausea, so be careful!"
+				""
+				"&5The Emperor Beast drops Hive Chunks, which is both needed for crafting, and to attract one of the FOP Corporate Bosses."
+			]
+			dependencies: ["6CF91C9EA12F1286"]
+			id: "72581B01412A50FA"
+			tasks: [
+				{
+					id: "0F45A8C3C9DDD4EA"
+					type: "kill"
+					entity: "aoa3:echodar"
+					value: 5L
+				}
+				{
+					id: "7FE11541E34D4006"
+					type: "kill"
+					entity: "aoa3:emperor_beast"
+					value: 5L
+				}
+				{
+					id: "50ECBC039B727A2D"
+					type: "item"
+					item: "aoa3:hive_chunk"
+				}
+			]
+			rewards: [{
+				id: "316A8F2A1454E1C7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Keeler and Nospike"
+			x: 6.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&5Keelers are creatures that spawn underground in Barathos."
+				""
+				"&5Keelers are quite dangerous as if they are left with a bit of health and not killed fast enough, they will fully heal themselves and continue to fight."
+				""
+				"&5Keelers can drop Ivory, which is good for crafting."
+				""
+				"&5Nospikes are creatures that can rarely spawn in Barathos."
+				""
+				"&5Nospikes can chase you at high speeds, but don't turn well."
+				""
+				"&5Nospikes can drop ivory, which is good for crafting. They can also drop Hive Chunks, which are both good for crafting and needed for one of the FOP Corporate Bosses."
+			]
+			dependencies: ["6CF91C9EA12F1286"]
+			id: "2606E4E37CA7C329"
+			tasks: [
+				{
+					id: "5D8B4D691AB95E28"
+					type: "kill"
+					entity: "aoa3:keeler"
+					value: 5L
+				}
+				{
+					id: "3C6AF4A3A6CAC1F7"
+					type: "kill"
+					entity: "aoa3:nospike"
+					value: 2L
+				}
+				{
+					id: "666C4BAC714F6DD0"
+					type: "item"
+					item: "aoa3:ivory"
+				}
+				{
+					id: "32C927146E611BD1"
+					type: "item"
+					item: "aoa3:hive_chunk"
+				}
+			]
+			rewards: [{
+				id: "0988A80E520A7D6D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Parasect and Ramradon"
+			x: 3.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&5Parasects are creatures that spawn underground in Barathos."
+				""
+				"&5Parasects can inflict Nausea on you if they land a hit."
+				""
+				"&5Ramradons are creatures that spawn on the surface of Barathos."
+				""
+				"&5Ramradons will heal themselves a bit if they attack you and their health is under 50%."
+				""
+				"&5Ramradons can drop Ivory, which is good for crafting."
+			]
+			dependencies: ["6CF91C9EA12F1286"]
+			id: "2C0DBBB5F7F43F8A"
+			tasks: [
+				{
+					id: "44D357C84E799B37"
+					type: "kill"
+					entity: "aoa3:parasect"
+					value: 5L
+				}
+				{
+					id: "797129688E1C2483"
+					type: "kill"
+					entity: "aoa3:ramradon"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "133EF71AD9502DF7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Squiggler and Tharafly"
+			x: 7.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&5Squigglers are creatures that can rarely spawn underground."
+				""
+				"&5If you are within line of sight of a Squiggler and they are close enough, they will set you on fire."
+				""
+				"&5Tharaflies are creatures that spawn on the surface of Barathos, and also in Baron Castles that can be found on the surface likewise."
+				""
+				"&5Tharaflies are flying creatures, and are considered Arthropods, so Bane of Arthropods will work on them."
+				""
+				"&5Tharaflies drop Chitin, which is good for crafting. They also drop Hive Chunks, good for both crafting and are needed to attract one of the FOP Corporate Bosses."
+			]
+			dependencies: ["6CF91C9EA12F1286"]
+			id: "79F643CCED256150"
+			tasks: [
+				{
+					id: "73F5F6639487D661"
+					type: "kill"
+					entity: "aoa3:squiggler"
+					value: 2L
+				}
+				{
+					id: "3B9A30D817525A11"
+					type: "kill"
+					entity: "aoa3:tharafly"
+					value: 5L
+				}
+				{
+					id: "18152C9D617B62DD"
+					type: "item"
+					item: "aoa3:chitin"
+				}
+				{
+					id: "7438832300C045C6"
+					type: "item"
+					item: "aoa3:hive_chunk"
+				}
+			]
+			rewards: [{
+				id: "7BB03CC79C3A6AEF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Attracting the Leaders"
+			x: 8.75d
+			y: -2.0d
+			shape: "pentagon"
+			description: [
+				"&dNow then, time to consider grabbing the attention of the two FOP Corporate Bosses here."
+				""
+				"&5To your benefit, Bandit, they don't quite get along. They were both assigned to head the same Sales team. But instead of having HR fix it..."
+				""
+				"&d...they split the team in half and began a war on each other. Seeing which team could sell the most product, using every underhanded tactic they could..."
+				""
+				"&5Well, aside from outright murdering the other team. It got close. But I think we can use this to our advantage, we just need the right items..."
+				""
+				"&dFor the Baroness, you'll need to make a Warlock Gem, an item of power."
+				""
+				"&5And the Hive King will need a Hive Egg. You can get this by taking a Hive Chunk and HITTING a Tharafly with it. Literally, smack it with the Hive Chunk."
+			]
+			dependencies: ["783B07D340595603"]
+			id: "09D75AF35A485E3C"
+			tasks: [
+				{
+					id: "143984A408594E19"
+					type: "item"
+					item: "aoa3:warlock_gem"
+				}
+				{
+					id: "304941DB058D1F50"
+					type: "item"
+					item: "aoa3:hive_egg"
+				}
+			]
+			rewards: [{
+				id: "3B8207D165C72573"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Sales Hawk"
+			x: 9.75d
+			y: -3.25d
+			shape: "hexagon"
+			description: [
+				"&dThe Baroness was a stern old hawk even before the Sales Wars took place. She belittled all the staff under her until they either did as she said, or left. "
+				""
+				"&5And if you followed her orders, she swapped to honeyed words. Teaching others to be as sharp and wiley as her with their sales tactics. "
+				""
+				"&dBut a wrong move would incur a whiplike lashing of words. And demerits. "
+				""
+				"&5With the Sales Wars, she became even sharper and angrier. She earned herself the title of Archwitch from other sales teams, and both her and the Hive King were allowed to become FOP Game Server bosses, as long as they shared the same world and continued to fight."
+				""
+				"&dSomehow their fighting was profitable, at least to the FOP."
+			]
+			dependencies: ["09D75AF35A485E3C"]
+			id: "73F19D407DDBD157"
+			tasks: [{
+				id: "7C7083A3038EA64B"
+				type: "item"
+				item: "aoa3:warlock_gem"
+			}]
+		}
+		{
+			title: "Sales Bull"
+			x: 9.75d
+			y: -0.75d
+			shape: "hexagon"
+			description: [
+				"&dThe Hive King was a bullheaded manager in Sales, usually getting his way by just barreling over the competition."
+				""
+				"&5He got everything done by basically strongarming and overpowering folks, or making them think he would. Very intimidating fellow."
+				""
+				"&dHe got all his sales workers on his side, using his own bullying tactics. And when you have a lot of force, you join them or you move aside. "
+				""
+				"&5Thats why he got the nickname The Swarm Leader. And why he was allowed to become a FOP Corporate Boss in the game, sheer numbers on his side."
+			]
+			dependencies: ["09D75AF35A485E3C"]
+			id: "26932C5205630A14"
+			tasks: [{
+				id: "71D1D3B23826ADE6"
+				type: "item"
+				item: "aoa3:hive_egg"
+			}]
+		}
+		{
+			title: "THE BARONESS"
+			x: 10.75d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dIf you are intent on facing The Baroness, you'll want to be prepared."
+				""
+				"&5Make sure you are resistant to explosions and fire, as her favorite tactic involves lots of both."
+				""
+				"&dTo summon her, you'll need to find one of her arenas. They are large platforms high up atop a tall spire. In the center is a Baroness Altar. Right Click the Warlock Gem onto it and she'll appear with a big BOOM."
+				""
+				"&5As you fight, be careful. Getting TOO close will cause her to use explosion spells to push you away."
+				""
+				"&dShe'll also drop Baroness Bombs, that will explode after a bit, and possibly set things on fire."
+				""
+				"&5Bandit, be sure to put those fires out fast if she's about dead. She's been known to throw her prized posessions into them at the last moment. That includes her Boss Card."
+			]
+			dependencies: ["73F19D407DDBD157"]
+			id: "14A7C949E30659BE"
+			tasks: [
+				{
+					id: "38B15409E01476DC"
+					type: "item"
+					item: "kubejs:boss_card_baroness"
+				}
+				{
+					id: "1124561DE909E83D"
+					type: "kill"
+					entity: "aoa3:baroness"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "758C1EC2AA91C855"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Prepare For War"
+			x: 10.75d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dIf you don't want to fight the Baroness yourself, you'll want to help her prep to continue the Sales Wars."
+				""
+				"&5Though given the two of them are now in a digital world, the 'try not to kill each other' thing is out the window."
+				""
+				"&dThat means to get on the Baroness' good side, you'll want to help arm her subjects for war."
+			]
+			dependencies: ["73F19D407DDBD157"]
+			id: "0773CAFD2BA92727"
+			tasks: [
+				{
+					id: "66E9CFE682C700D7"
+					type: "item"
+					item: "aoa3:spreadshot"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "66D84D2F69101F02"
+					type: "item"
+					item: "aoa3:metal_slug"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "74C2AA7516BFD8B8"
+					type: "item"
+					item: "aoa3:limonite_bullet"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "5AA8F5594BDED863"
+					type: "item"
+					item: "aoa3:cannonball"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "3E3F481F942D7AD6"
+					type: "item"
+					item: {
+						id: "aoa3:swarmotron"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "6B16DA3D943C6EE7"
+					type: "item"
+					item: {
+						id: "aoa3:hive_howitzer"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "0231E29CEC1303AB"
+					type: "item"
+					item: {
+						id: "aoa3:gauge_rifle"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "0726E302F16D66CA"
+					type: "item"
+					item: {
+						id: "aoa3:tommy"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "035E2982B0E5492A"
+					type: "item"
+					item: "kubejs:boss_card_baroness"
+				}
+				{
+					id: "78C1290688F2E33C"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+			]
+		}
+		{
+			title: "HIVE KING"
+			x: 10.75d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dWanting to face the Hive King? You better be prepared to fight an army as well, Bandit."
+				""
+				"&5As you fight the Hive King, he'll start summoning his troops now and then. They don't have a ton of health, but they all hit like a truck if you aren't careful."
+				""
+				"&dIf you are ready, look for the spheres all around, the ones with the bottoms cut off. Those are Hive Nests. In the center is a Hive Spawner, which you want to Right Click the Hive Egg onto. This will start to summon the Hive King."
+				""
+				"&5Don't hit him while he's showing up. That just annoys him and he'll leave immediately."
+			]
+			dependencies: ["26932C5205630A14"]
+			id: "53046F8B544D0534"
+			tasks: [
+				{
+					id: "5FC218EE66C9B7FF"
+					type: "item"
+					item: "kubejs:boss_card_hive_king"
+				}
+				{
+					id: "35876D5945739D0F"
+					type: "kill"
+					entity: "aoa3:hive_king"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "0876CB42985C6E5C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Feeding the Beasts"
+			x: 10.75d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dFighting a bull headed boss is the simplest, and also most difficult choice. It's hard to reason with them..."
+				""
+				"&5And it can be detrimental to your health."
+				""
+				"&dSo, for the Hive King, we've worked out how to appease him. With, of course, food."
+				""
+				"&5Not for him though. For his Swarm. Despite being absolutely bullheaded, the Hive King knows his Swarm needs to eat to live and work for him. So, giving a whole lot of food items should do well."
+				""
+				"&dMake sure the meats are not cooked. The fish can be however, though. Also some fruits and veggies for good measure."
+				""
+				"&5Oh, and some nuts! And cakes too!"
+			]
+			dependencies: ["26932C5205630A14"]
+			id: "623E5A41B28D31AA"
+			tasks: [
+				{
+					id: "170F0C6185D0FD96"
+					type: "item"
+					title: "Any 100 Raw Meats"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:rawmeats"
+						}
+					}
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "0BC714890EB11622"
+					type: "item"
+					title: "Any 100 Fish"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:fish"
+						}
+					}
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "138D3729AD6B6F88"
+					type: "item"
+					title: "Any 50 Fruits"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:fruits"
+						}
+					}
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "34C8A4FCD700A4C5"
+					type: "item"
+					title: "Any 50 Vegetables"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:vegetables"
+						}
+					}
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "4456FD4B00332877"
+					type: "item"
+					title: "Any 50 Nuts"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuts"
+						}
+					}
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "1C05942F23D1658F"
+					type: "item"
+					title: "Any #tfb2:cakes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:cakes"
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "49A3CDEAAC680146"
+					type: "item"
+					item: "kubejs:boss_card_hive_king"
+				}
+				{
+					id: "2965B38557D4A1CB"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+			]
+		}
+		{
+			title: "Taken Hold"
+			x: 12.0d
+			y: -3.25d
+			shape: "pentagon"
+			description: [
+				"&dGreat work Bandit."
+				""
+				"&5As always, another step closer. "
+			]
+			dependencies: [
+				"14A7C949E30659BE"
+				"0773CAFD2BA92727"
+			]
+			dependency_requirement: "one_completed"
+			id: "0DD5FFE281577AB5"
+			tasks: [{
+				id: "2B6A799AFE9A8A7E"
+				type: "item"
+				item: "kubejs:boss_card_baroness"
+			}]
+		}
+		{
+			title: "And What Army?"
+			x: 12.0d
+			y: -0.75d
+			shape: "pentagon"
+			description: [
+				"&dAwesome, that could have gotten pretty dicey."
+				""
+				"&5Quelled that horde pretty good, Bandit."
+			]
+			dependencies: [
+				"53046F8B544D0534"
+				"623E5A41B28D31AA"
+			]
+			dependency_requirement: "one_completed"
+			id: "04B444E8C926AAC9"
+			tasks: [{
+				id: "77E40548399D9AAF"
+				type: "item"
+				item: "kubejs:boss_card_hive_king"
+			}]
+		}
+		{
+			title: "The Sale is Over"
+			x: 13.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"&dWell, you overcame both of Barathos' bosses, but I doubt that is going to stop their Sales Wars in the long run."
+				""
+				"&5I was worried that with you taking out both of them, they might rejoin forces with you as their target. "
+				""
+				"&dThankfully, both are a bit to focused against each other, even with you showing up to interrupt their war."
+				""
+				"&5Actually it looks like each of them thinks you came from the other to do something underhanded."
+			]
+			dependencies: [
+				"0DD5FFE281577AB5"
+				"04B444E8C926AAC9"
+			]
+			id: "5B34F626832B338B"
+			tasks: [
+				{
+					id: "483FE360944D536A"
+					type: "item"
+					item: "kubejs:boss_card_baroness"
+				}
+				{
+					id: "740F7E0705FCCBDD"
+					type: "item"
+					item: "kubejs:boss_card_hive_king"
+				}
+			]
+			rewards: [{
+				id: "08904565C2E43C44"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Special Mineral Shop"
+			x: 5.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dWell well, look at this thing, Bandit. The Baroness calls it a \"Mineralization Station\"."
+				""
+				"&dIn her war efforts against the Hive King, she needs all the gems and metals she can get, so she offers a better 'deal' to Users than the FOP base game does. "
+				""
+				"&dYou can Right Click most any Advent of Ascension Gem or Metal Ingot onto the Mineralization Station to 'sell' it for some Scrypto. Usually gets you more coins than the FOP Digitalization system does."
+				""
+				"&dYou can find these at the top of the tall Baron Towers you can find in Barathos."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "282405CB9D08908F"
+			tasks: [{
+				id: "0BEB72D50BE0D5B0"
+				type: "item"
+				item: "aoa3:mineralization_station"
+			}]
+			rewards: [{
+				id: "34D81499EF0BF408"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sand Blasted Upgrades"
+			x: 7.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Predator Upgrade Kit is a very rare item you can get off of any Barathos creature."
+				""
+				"&dWhile not useful right now, I suggest saving it. You'll be able to use it later to upgrade certain weapons to more powerful versions."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "7A62423E56D40B35"
+			tasks: [{
+				id: "5D9EE4609038DF1A"
+				type: "item"
+				item: "aoa3:predator_upgrade_kit"
+			}]
+			rewards: [{
+				id: "0C29F026F0CD9DCE"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Land so Dark"
+			x: 3.25d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"&dThe Deeplands is just as it says, a very deep, very dark cave system. The entire world. "
+				""
+				"&5The surface was featureless and barren, so the FOP decided to just cover the world in Dimensional Fabric, which keeps its inhabitants on."
+				""
+				"&dThe world is dotted with crystal lights here and there, but I wouldn't rely on them, especially if you go exploring. "
+				""
+				"&5Some Night Vision Goggles are a good idea. Or a bunch of potions. "
+			]
+			dependencies: ["20DC9D8BCD99C99E"]
+			id: "35BD227E22471442"
+			tasks: [{
+				id: "066F276AE68431A3"
+				type: "dimension"
+				title: "Travel to the Deeplands"
+				dimension: "aoa3:deeplands"
+			}]
+			rewards: [{
+				id: "541B4A6F7191F0C3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Case of the Endless"
+			x: 5.75d
+			y: 3.0d
+			shape: "pentagon"
+			description: [
+				"&dThere isn't much in the way of resources here, Bandit, but what there is is enough of an interest to the FOP to set it into their world rotation."
+				""
+				"&5Charged Runium Ore is a rarer version of the Runium Ore you can find in the Overworld. It's best used for making more Runes, of course."
+				""
+				"&dAs well as other things. You'll also find Rune Cases, strange blocks that look like they have a face on them. Mostly underground."
+				""
+				"&5These are like little treasure chests in a way. Mining them may get you some Scrypto, or Runium, or..."
+				""
+				"&d...rarely a nice weapon or two."
+			]
+			dependencies: ["35BD227E22471442"]
+			id: "7D01A63A702AA3E4"
+			tasks: [{
+				id: "690D9E091A4ACDA7"
+				type: "item"
+				item: "aoa3:charged_runium_ore"
+			}]
+			rewards: [{
+				id: "22B6BEAB3350B849"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Darkness Charged"
+			x: 8.75d
+			y: 3.0d
+			shape: "pentagon"
+			description: [
+				"&dOne of the things you'll want to keep a look out for, Bandit, is a Charging Table. You can find them in Charging Fountains, which you can spot from a distance as they are pretty boxy looking structures, so they stand out."
+				""
+				"&5Be sure to grab it when you see it, it's the first step in facing the FOP Corporate Boss of the Deeplands."
+			]
+			dependencies: ["7D01A63A702AA3E4"]
+			id: "3519F34D2E8B2116"
+			tasks: [{
+				id: "26DEBD0694ABAD9E"
+				type: "item"
+				item: "aoa3:charging_table"
+			}]
+			rewards: [{
+				id: "29DCC63E3012A183"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Grabbing Attention"
+			x: 9.75d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"&dThe FOP Corporate Boss here is known as The Stone Giant. They got their name for being VERY TALL, as well as being very stoney in their stare."
+				""
+				"&5Said that their stare was so heavy that competition just kinda got rolled over by it. Unable to break that solid, unrelenting gaze."
+				""
+				"&dA stone cold glare from a very tall boss, that's a triple whammy there. "
+				""
+				"&5Well if you want to get Kror, the Stone Giant's attention, you'll need to make something nice and heavy and meaningful to them."
+				""
+				"&dThe Boulder Dash was a trophy they got for skipping rocks as a kid. Kind of an odd thing to have a contest over, but sounds kinda fun."
+				""
+				"&5I wonder if they were always tall for their age, or if they had a big growth spurt as a teenager?"
+			]
+			dependencies: ["3519F34D2E8B2116"]
+			id: "5497CCB6AC167995"
+			tasks: [{
+				id: "6BA74B0BD40E0939"
+				type: "item"
+				item: "aoa3:boulder_dash"
+			}]
+			rewards: [{
+				id: "32F1B96C31C8E096"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "KROR"
+			x: 11.25d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dIf you want to fight Kror, you'll need to find a cave down to their Altar. Be sure to bring the Charging Station and a Boulder Dash!"
+				""
+				"&5Place the Charging Station onto the Kror Altar, then Right Click the Boulder Dash onto the Charging Altar."
+				""
+				"&dYou don't want to rely on knockback in this fight, Bandit. Cause you aren't gonna be knocking the Stone Giant around, period."
+				""
+				"&5They also have fairly tough skin, and any ranged damage done with bows or guns will be halved."
+				""
+				"&dMelee is going to be your best bet, but be careful, getting smacked by Kror will slow you down a lot."
+			]
+			dependencies: ["5497CCB6AC167995"]
+			id: "1DCF4C406E60DB0D"
+			tasks: [
+				{
+					id: "5916F36E6FD2FC71"
+					type: "item"
+					item: "kubejs:boss_card_kror"
+				}
+				{
+					id: "621557444E1CF956"
+					type: "kill"
+					entity: "aoa3:kror"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "25A3D5564E7E553F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Strong Metals"
+			x: 11.25d
+			y: 4.25d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			dependencies: ["5497CCB6AC167995"]
+			id: "182F3E5E1A62102F"
+			tasks: [
+				{
+					id: "0683C60DB1ED4CC7"
+					type: "item"
+					item: "aoa3:baronyte_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "3BA05B043CB1A0F1"
+					type: "item"
+					item: "aoa3:emberstone_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "08B88E88A6D29D0B"
+					type: "item"
+					item: "aoa3:limonite_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "180D2726A9D6EA66"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "40914979F3BC1D43"
+					type: "item"
+					item: "aoa3:runium_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "5728420CF96B168E"
+					type: "item"
+					item: "aoa3:blazium_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "70891D9AA4937D71"
+					type: "item"
+					item: "aoa3:varsium_ore"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "26C6526710DE4930"
+					type: "item"
+					item: "aoa3:rosite_ore"
+					count: 25L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "282711FC21EE48DC"
+					type: "item"
+					item: "kubejs:boss_card_kror"
+				}
+				{
+					id: "75FE6E931D7C37AE"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+			]
+		}
+		{
+			x: 5.75d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["7D01A63A702AA3E4"]
+			id: "0B2F7C0BF6DBF195"
+			tasks: [{
+				id: "6C5902C1E4C7259F"
+				type: "checkmark"
+				title: "DARK FIGHTS"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["7D01A63A702AA3E4"]
+			id: "469E4FD8A3BFCEB3"
+			tasks: [{
+				id: "63DF0D7B27F66540"
+				type: "checkmark"
+				title: "DARK CRAFTS"
+			}]
+		}
+		{
+			title: "Arocknid and Cave Creep"
+			x: 4.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5Arocknids are creatures that in Arocknid Caves, domed structures found scattered in the Deeplands. "
+				""
+				"&5Arocknids can climb walls like Spiders, and will cause Weakness if they damage you."
+				""
+				"&5Arocknids can drop Chitin, which is good for Crafting. They also have a rare chance at dropping a Rock-Pick Sword."
+				""
+				"&5Cave Creeps are creatures that spawn all over the Deeplands."
+				""
+				"&5Cave Creeps can drop Chitin, which is good for crafting."
+			]
+			dependencies: ["0B2F7C0BF6DBF195"]
+			id: "3228458C31469019"
+			tasks: [
+				{
+					id: "095CE7A9426DBC47"
+					type: "kill"
+					entity: "aoa3:arocknid"
+					value: 5L
+				}
+				{
+					id: "76991874A1A47FB2"
+					type: "kill"
+					entity: "aoa3:cave_creep"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "6ECE076FF8165439"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 5.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5Case Constructs are creatures that can rarely be found in the Deeplands."
+				""
+				"&5Case Constructs are immune to all fire types of damage, including Lava."
+				""
+				"&5Case Constructs can drop Deep Cases."
+				""
+				"&5The Doubler is a rare creature that spawns in the Deeplands."
+				""
+				"&5The Doubler inflicts Blindness to enemies close to it."
+			]
+			dependencies: ["0B2F7C0BF6DBF195"]
+			id: "27DD56BC3F5221AD"
+			tasks: [
+				{
+					id: "4B88A3A461C00F22"
+					type: "kill"
+					entity: "aoa3:case_construct"
+					value: 2L
+				}
+				{
+					id: "1ACFD958DC92272D"
+					type: "kill"
+					entity: "aoa3:doubler"
+					value: 2L
+				}
+			]
+			rewards: [{
+				id: "261E37A76473C942"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Dweller and Rockbiter"
+			x: 6.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5The Dweller is a creature that spawns everywhere in the Deeplands."
+				""
+				"&5The Rockbiter is a creature that spawns in the Deeplands."
+				""
+				"&5The Rockbiter can drop Armor Plating, which is good for crafting."
+			]
+			dependencies: ["0B2F7C0BF6DBF195"]
+			id: "55C7C215972B6ECF"
+			tasks: [
+				{
+					id: "76965EB14377255A"
+					type: "kill"
+					entity: "aoa3:dweller"
+					value: 5L
+				}
+				{
+					id: "57AEF27D91ADF685"
+					type: "kill"
+					entity: "aoa3:rockbiter"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "0841F2A0E9862843"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 7.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5The Rock Crawler is a creature that spawns in the Deeplands."
+				""
+				"&5The Rock Crawler can climb up walls like Spiders."
+				""
+				"&5The Rock Crawler can drop Chitin, which is good for crafting."
+				""
+				"&5The Rock Critter is a creature that can spawn in the Deeplands."
+				""
+				"&5The Rock Critter can climb up walls like a Spider."
+				""
+				"&5The Rock Critter can drop Chitin, which is good for crafting."
+			]
+			dependencies: ["0B2F7C0BF6DBF195"]
+			id: "39D58D2FC85C8F04"
+			tasks: [
+				{
+					id: "37640D25F1FF0DF9"
+					type: "kill"
+					entity: "aoa3:rock_crawler"
+					value: 5L
+				}
+				{
+					id: "0525323E2BE00841"
+					type: "kill"
+					entity: "aoa3:rock_critter"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "3DA42A394B244A76"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Staff of Power"
+			x: 5.75d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Power Staff can be crafted with Dense Rock and Deep Crystals."
+				""
+				"&dThe Power Staff can be used fire projectiles that Weakens creatures it hits. It uses Wind and Power Runes as ammunition."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "605A5BB72754374C"
+			tasks: [{
+				id: "52414B03315F0B95"
+				type: "item"
+				item: {
+					id: "aoa3:power_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "510DA5E919B03791"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Having the High Ground"
+			x: 6.75d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Screamer Bow can be made with Dense Rock. It uses Arrows for ammunition."
+				""
+				"&dThe Screamer Bow deals extra damage the higher you are from your target."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "3FBB2F2109FD8889"
+			tasks: [{
+				id: "64683830A369888C"
+				type: "item"
+				item: {
+					id: "aoa3:screamer_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2284A87A1244F109"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Undeath Blade"
+			x: 4.75d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Underworld Greatblade is a greatblade that can be crafted with Dense Rock."
+				""
+				"&dThe Underworld Greatblade does extra damage against Undead creatures."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "3E23709B29474D28"
+			tasks: [{
+				id: "69BBEAA8E353F082"
+				type: "item"
+				item: {
+					id: "aoa3:underworld_greatblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "317F359DFE48C798"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Armor of Darkness"
+			x: 5.25d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dExoplate Armor can be made with Dense Rocks in an Infusion Table."
+				""
+				"&dExoplate Armor's resistances increase the darker it is around it. "
+				""
+				"&dThese resistances don't include environmental hazards like Lava. So continue to not jump into Lava, okay?"
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "08E69C2EC39F6238"
+			tasks: [{
+				id: "358A96BFCB22459A"
+				type: "item"
+				item: {
+					id: "aoa3:exoplate_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "335205B06E838EA6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Rocking Stone"
+			x: 3.75d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Jack Rocker is a cannon that can be made in the Infuser with Dense Rock. It uses Cobblestone as ammo."
+				""
+				"&dThe Jack Rocker can deal extra damage to Armored targets."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "0C2128C5985BD9B0"
+			tasks: [{
+				id: "18C972C2EDAD9BB4"
+				type: "item"
+				item: {
+					id: "aoa3:jack_rocker"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2b
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E1729944E2E0AA8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Rocked to the Bone"
+			x: 4.25d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dRockbone Armor can be made in an Infuser with Dense Rock. "
+				""
+				"&dEach piece of Rockbone Armor decreases the amount of Physical Ranged damage you receive. Physical ranged damage are things like Arrows and Rocks, but not things like Goblins casting magic missile of course."
+				""
+				"&dA full set of Rockbone Armor will give you a chance to fully negate each Physical Ranged attack that lands."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "7F65E22E22E9DD52"
+			tasks: [{
+				id: "4DEA8B54AFA42250"
+				type: "item"
+				item: {
+					id: "aoa3:rockbone_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "768242BA496BBB0B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Stared Down"
+			x: 13.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"&dGuess you stared them down in the end, Bandit."
+				""
+				"&5Great work. "
+			]
+			dependencies: [
+				"1DCF4C406E60DB0D"
+				"182F3E5E1A62102F"
+			]
+			dependency_requirement: "one_completed"
+			id: "4F97BBFAF00748E1"
+			tasks: [{
+				id: "4FB830C266E99A1A"
+				type: "item"
+				item: "kubejs:boss_card_kror"
+			}]
+			rewards: [{
+				id: "5FB849B910B8B035"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"&dHm, looks like we're run out of options on this tier of Worlds for the FOP Game Server, Bandit. Hate to say it, but you'll have to get the next Dimension DLC."
+				""
+				"&5You'll need to talk to the squeaker if you want to swashbuckle it, digital style."
+				""
+				"&dOr just pay the shop price. You should have lots of Scrypto at this point that you may have enough for a few DLC books the easy way."
+			]
+			dependencies: [
+				"5B34F626832B338B"
+				"4F97BBFAF00748E1"
+			]
+			id: "27D6F5C91318727E"
+			tasks: [{
+				id: "776F5464075DC2F7"
+				type: "gamestage"
+				title: "Dimension DLC - Orange"
+				icon: "kubejs:unlock_dimensions_orange"
+				stage: "dimensions_stage_orange"
+			}]
+			rewards: [{
+				id: "4615B5566E7FF9D8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Next Level"
+			x: 14.5d
+			y: 0.5d
+			shape: "pentagon"
+			description: [
+				"&dBack in business! Now that you got the Orange Dimension DLC, you can get the next step closer to getting out of there."
+				""
+				"&5And take apart the FOP in the process."
+				""
+				"&dYou'll want to make a little pit stop in The End, one of the original dimensions of the game server. "
+				""
+				"&5You'll want to face the Ender Dragon at some point, but you don't have to yet. Lot's more interesting things than facing an old foe."
+				""
+				"&dThough with some of the weaponry the FOP introduced in newer dimensions, the Ender Dragon is... well, it probably hasn't been updated in a while. Let's just say that."
+			]
+			dependencies: ["27D6F5C91318727E"]
+			id: "6CF74503417AAC2D"
+			tasks: [{
+				id: "3C2793913C4900F7"
+				type: "dimension"
+				title: "Travel to The End"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "0F483DEFB5AC0FA4"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Upgrading Rocks"
+			x: 6.25d
+			y: 6.0d
+			shape: "rsquare"
+			description: ["&dThe Rocky Upgrade Kit is a rare drop that can be found in the Deeplands. It is used to upgrade certain items in a Divine Station, which you will find in a later world."]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "584A7F93AB87E9D1"
+			tasks: [{
+				id: "7230AD2A6DED950E"
+				type: "item"
+				item: "aoa3:rocky_upgrade_kit"
+			}]
+			rewards: [{
+				id: "6D2B5E95E9343690"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Blazing Red"
+			x: 6.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: ["&dThe Red Rocket is a shotgun you can craft in an Infusion Table. It uses Spreadshot for ammunition."]
+			dependencies: ["2F80E867398F3D43"]
+			id: "14C5D6125DE80E91"
+			tasks: [{
+				id: "0D0D5B22C2DE2629"
+				type: "item"
+				item: {
+					id: "aoa3:red_rocket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66ED14D753A00358"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Cavern Music"
+			x: 7.25d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dThe FOP commissioned a bunch of music for their game server. Well, commissioned is a strong word here. Convinced? Hmm"
+				""
+				"&dWell, one of the tracks they have in a Music Disc takes a bit to obtain. You need to kill a Flying creature in the Deeplands."
+				""
+				"&dExcept, well, no flying creatures live in the Deeplands. So you'll need to bring one over."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "6C3BC6ABA182C33E"
+			tasks: [{
+				id: "618529C66243C379"
+				type: "item"
+				item: "aoa3:music_disc_caverns"
+			}]
+			rewards: [{
+				id: "3552A090AFEA0C88"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sword of Red"
+			x: 3.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Baron Sword is a sword you can craft."
+				""
+				"&dThe Baron Sword has a chance of doing extra damage every hit."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "0F71FF6EC3334CBE"
+			tasks: [{
+				id: "62B258FDD0CA89D4"
+				type: "item"
+				item: {
+					id: "aoa3:baron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0839D06A375CA5C6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Blade Royale"
+			x: 7.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Royal Greatblade is a greatblade you can craft."]
+			dependencies: ["2F80E867398F3D43"]
+			id: "37D945F8E38C0305"
+			tasks: [{
+				id: "5244119C3D151736"
+				type: "item"
+				item: {
+					id: "aoa3:royal_greatblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "231319D4C6B2834C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Baron Boom"
+			x: 4.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Baronator is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammo."
+				""
+				"&dEach shot from the Baronator has a chance of also launching a grenade. This grenade does not consume ammo."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "64EADF7971F554D2"
+			tasks: [{
+				id: "6062AFCF9926B88B"
+				type: "item"
+				item: {
+					id: "aoa3:baronator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "108A47F963E1C396"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Flash Insight"
+			x: 8.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Echo Gull is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dWhen you shoot a creature with the Echo Gull, all creatures nearby will glow for a moment."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "1BF7382696E1F780"
+			tasks: [{
+				id: "62694FC7287D6A5A"
+				type: "item"
+				item: {
+					id: "aoa3:echo_gull"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D381CB882B5A621"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Strength of Position"
+			x: 8.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Baron Bow is a bow you can craft. It uses Arrows for ammo."]
+			dependencies: ["2F80E867398F3D43"]
+			id: "02BF67B2248841A6"
+			tasks: [{
+				id: "132AC2DA05EEEDC3"
+				type: "item"
+				item: {
+					id: "aoa3:baron_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66B836ECC09F46F3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Burning Bow"
+			x: 2.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Infernal Bow is a bow you can craft. It uses Arrows for ammo."
+				""
+				"&dProjectiles from the Infernal Bow ignite creatures on fire."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "6BD38C7D2E0BE866"
+			tasks: [{
+				id: "5877CC983FD82308"
+				type: "item"
+				item: {
+					id: "aoa3:infernal_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AB89D75ECA3A139"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Mining Suit"
+			x: 7.75d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dSubterranean Armor is an armor set that you can craft in an Infusion Table."
+				""
+				"&dWhen wearing a full set of Subterranean Armor, you gain a modified Haste effect: your Mining speed is increase, but your attack speed is not."
+			]
+			dependencies: ["469E4FD8A3BFCEB3"]
+			id: "4FE8E6C2E6F0FAE8"
+			tasks: [{
+				id: "260263E971DABA08"
+				type: "item"
+				item: {
+					id: "aoa3:subterranean_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BB954872F385A5A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Heat Armor"
+			x: 3.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dEmbrodium Armor is an armor set that you can craft in an Infusion Table."
+				""
+				"&dWhen wearing a piece of Embrodium Armor, your Spirit energy regenerates faster if you are in a hot biome, such as most Nether biomes."
+				""
+				"&dWhen wearing a full set of Embrodium Armor, you get a bonus Spirit energy regeneration amount that is not effected by biome temperature."
+			]
+			dependencies: ["2F80E867398F3D43"]
+			id: "5569B6D705F2C333"
+			tasks: [{
+				id: "0F4D81F031452F83"
+				type: "item"
+				item: {
+					id: "aoa3:embrodium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "08AF6BEC3F05F8BD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

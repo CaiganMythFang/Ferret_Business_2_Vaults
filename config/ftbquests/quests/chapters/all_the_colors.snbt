@@ -1,0 +1,1774 @@
+{
+	id: "076A3B79E8E79DC5"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 7
+	filename: "all_the_colors"
+	title: "All the Colors"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tales of Laughter"
+			x: -7.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"&dOkay, we worked out that all the Tier 2 worlds in the FOP Game Server branch off of Tier 1 worlds. "
+				""
+				"&5To be fair to them, they DO have an image that shows this, but it was disabled last time we were able to check out the server."
+				""
+				"&dWhich was a long time ago... Well, you hold and Right Click a Blank Realmstone. Can't believe we forgot about that."
+				""
+				"&5Well, to be fair, I wouldn't be surprised if that was broken. The FOP have added, removed, and changed so many systems it's a wonder its only somewhat a buggy mess."
+				""
+				"&dWell, we have two destinations next, branching off of the first non-vanilla dimension: Lelyatia."
+				""
+				"&5And oooh boy are they doozies..."
+				""
+				"&dHonk Honk, brother."
+			]
+			dependencies: ["139A4328C69DF2C0"]
+			id: "5CCB73FF0AB748D0"
+			tasks: [{
+				id: "34F44F360632CD06"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "A Realm of Facepaints"
+			x: -5.25d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&5One of the two dimensions you can get to from Lelyatia is called Celeve. It's..."
+				""
+				"&d...a realm full of Clowns."
+				""
+				"&5It's a very strange and sad place. The worlds the FOP chooses for the Celeve spot don't start as clown worlds."
+				""
+				"&dThe world is controlled by the chief 'puppet master' of the FOP. We'll... talk about them later."
+				""
+				"&5Getting to the dimension is the concern. You'll need to visit Lelyatia, with a Blank Realmstone, a Crossbow, and some exploding Fireworks."
+				""
+				"&dYou'll need to make Fireworks WITH an Exploding Star, which is made by combining Gunpowder with any Dye."
+				""
+				"&5Then you need to kill a Lelytian Warrior with said Firework. That's where the Crossbow comes in. Put the stack of Fireworks in your offhand, and you'll load them into the Crossbow."
+			]
+			dependencies: ["5CCB73FF0AB748D0"]
+			id: "18FC872BCD190C01"
+			tasks: [{
+				id: "558619AA2CD50D53"
+				type: "item"
+				item: "aoa3:celeve_realmstone"
+			}]
+			rewards: [{
+				id: "182B805B20B4433D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Islands of Sad Joy"
+			x: -3.5d
+			y: -1.5d
+			shape: "pentagon"
+			description: [
+				"&dRemember how Leyletia had two sides and how dangerous that could be? Well, this iteration of Celeve is much more dangerous."
+				""
+				"&5You'll want to bring some way to fly, grapple hook, or otherwise, Bandit. Celeve is a lot of floating islands over the void right now."
+				""
+				"&dThis is the punishment for fighting back too well against the FOP. Like we said before, the worlds that become Celeve don't start like this."
+				""
+				"&5Instead, the FOP punish worlds that succeed in some way in fighting back. A digital virus is introduced that turns everyone into Clowns, and their lands are torn asunder slowly."
+			]
+			dependencies: ["18FC872BCD190C01"]
+			id: "15957CB357206700"
+			tasks: [{
+				id: "4B9AC4BAD13FD25E"
+				type: "dimension"
+				dimension: "aoa3:celeve"
+			}]
+			rewards: [{
+				id: "3C936D2EC21B40FB"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Circus Prizes"
+			x: -1.5d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"&5Bandit, there really isn't any ore or gems or anything left in Celeve. The FOP made sure of that early on."
+				""
+				"&dThe only thing left for Celeve residents to survive on are various Clownish plants, and the gear and materials they can gather and salvage. They make the best of its, but the Clown virus has twisted them."
+				""
+				"&5Most hostile residents of Celeve have a chance of dropping Confetti Piles, the primary crafting component of most of their gear. They also may drop a special, final act of rebellion against the FOP: The Circus Coin, their own currency seperated from the FOP's scrypto."
+				""
+				"&dThe Circus Coin can be traded in to certain friendly Clowns. As for the Confetti, you can gather enough of it to make Hard Confetti Balls, useful for other crafts."
+			]
+			dependencies: ["15957CB357206700"]
+			id: "2D2B122DDFFB7D30"
+			tasks: [
+				{
+					id: "0C226669EF9CBA4D"
+					type: "item"
+					item: "aoa3:confetti_pile"
+				}
+				{
+					id: "6E6EF62335E23923"
+					type: "item"
+					item: "aoa3:circus_coin"
+				}
+				{
+					id: "0CB3A04242B31283"
+					type: "item"
+					item: "aoa3:hardened_confetti_ball"
+				}
+			]
+			rewards: [{
+				id: "75FF630141B14E77"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["2D2B122DDFFB7D30"]
+			id: "2E2B62F5CA94E80E"
+			tasks: [{
+				id: "09E4BB5CBEC2EA2E"
+				type: "checkmark"
+				title: "LAUGHING CRAFTS"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			shape: "square"
+			dependencies: ["2D2B122DDFFB7D30"]
+			id: "02EF64833A64B954"
+			tasks: [{
+				id: "4BD378D06A3D6231"
+				type: "checkmark"
+				title: "LAUGHING BATTLES"
+			}]
+		}
+		{
+			title: "Bigger Grins"
+			x: -2.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Smile Upgrade Kit is an item that you can purchase from a Toy Merchant, which you can find at the top of Toy Towers."
+				""
+				"&dYou'll need to level up your trades with the Toy Merchant before it will offer the Smile Upgrade Kit."
+				""
+				"&dThe Kit is used to upgrade certain items with a Divine Station, which you will find in a later dimension."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "09FFD0C146394888"
+			tasks: [{
+				id: "29A447A1E991C379"
+				type: "item"
+				item: "aoa3:smiley_upgrade_kit"
+			}]
+			rewards: [{
+				id: "12E4918D925A8C98"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "More Chuckles"
+			x: -0.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Clown Upgrade Kit is an item that can rarely drop off any hostile creature in Celeve."
+				""
+				"&dIt is used to upgrade certain items in a Divine Station, which you can find in a later dimension."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "1B2459EAF5C6F2DF"
+			tasks: [{
+				id: "294DAF3A290319B7"
+				type: "item"
+				item: "aoa3:clown_upgrade_kit"
+			}]
+			rewards: [{
+				id: "320761074562847E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Balloon Fight"
+			x: -1.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Balloon Bomber is a cannon you can purchase from Toy Merchants in Celeve, found at the top of Toy Towers. They use Balloons for ammunition."
+				""
+				"&dYou'll need to level up your trades with the Toy Merchant before they'll offer you the Balloon Bomber. Toy Merchants offer Balloons at any level, and they can also be found on certain clowns."
+				""
+				"&dBalloons fired by the Balloon Bomber explode upon impact."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "43BB3CA4E8DA0529"
+			tasks: [
+				{
+					id: "335D4925CBBAF134"
+					type: "item"
+					item: {
+						id: "aoa3:balloon_bomber"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37C640325908342F"
+					type: "item"
+					item: "aoa3:balloon"
+				}
+			]
+			rewards: [{
+				id: "0C65A0F5D5427389"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Defy Gravity"
+			x: -3.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Gravitator is a device you can purchase from the Toy Merchant, who can be found at the top of Toy Towers. You'll need to level up the merchant a bit to be able to buy the Gravitator."
+				""
+				"&dWhen held in your main hand, the Gravitator will cause you to fall slowly and take no falling damage. It will also heavily boost your jumping."
+				""
+				"&dThough, for every block you fall, it will take a point of durabilty from the Gravitator."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "35C7FF3089410A8F"
+			tasks: [{
+				id: "52F1E6A40F3ABE87"
+				type: "item"
+				item: {
+					id: "aoa3:gravitator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A746AFA38E9014E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Confetti Cluster is a blaster you can purchase from the Toy Merchant, who can be found at the top of Toy Towers. Like all Blasters, it does not require ammunition, but uses your Spirit to shoot."
+				""
+				"&dThe Confetti Cluster is not really a weapon, but a fun toy. It will shoot out confetti that doesn't damage anything."
+				""
+				"&dYou'll need to upgrade the toy Merchant's trade offers before they'll offer the Confetti Cluster."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "736D84556CE379F8"
+			tasks: [{
+				id: "28960DA8BB558FEF"
+				type: "item"
+				item: {
+					id: "aoa3:confetti_cluster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2279B8C46EEF776A"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Deluxe Weapon"
+			x: -4.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Supremacy Sword is a sword you can craft."
+				""
+				"&dIf your opponent ends up with only a few hearts left after an attack, the Supremacy Sword instantly kills them."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "24C09030E80DB9A3"
+			tasks: [{
+				id: "7AE20FE076F05FE6"
+				type: "item"
+				item: {
+					id: "aoa3:supremacy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51B1701A0D2B8268"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Bozo Blaster is a cannon you can craft in an Infusion Table. It uses Cannonballs for ammunition."
+				""
+				"&dThe Bozo Blaster's shots are affected by gravity, so aim accordingly."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "7B4612197205DAEE"
+			tasks: [{
+				id: "03E88CA223A88848"
+				type: "item"
+				item: {
+					id: "aoa3:bozo_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6717CBDAA687692E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Chuckle on the Exhale"
+			x: -2.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["&dThe Clown Cracker is a sniper rifle you can craft in an Infusion Table. It uses Metal Slugs for ammunition."]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "271C9D4A30A10080"
+			tasks: [{
+				id: "178451C345C65F43"
+				type: "item"
+				item: {
+					id: "aoa3:clown_cracker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "06F0E1903374B66A"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Popping Off"
+			x: -1.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["&dThe Party Popper is a blaster you can craft in an Infusion table. Instead of ammunition, it uses your Spirit energy to fire shots."]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "0661495123BC92A9"
+			tasks: [{
+				id: "16B349CE5484E6E7"
+				type: "item"
+				item: {
+					id: "aoa3:party_popper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3877ABDA129D51BD"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Goofy Tools"
+			x: 0.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Goofy Pickaxe, Goofy Axe, and Goofy Shovel are tools you can craft."
+				""
+				"&dWhile these tools deal no damage to enemies, they will slowly repair themselves as long as they are in your inventory."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "2574F8BB3FF11B01"
+			tasks: [{
+				id: "56DA646F6F36ECD3"
+				type: "item"
+				item: {
+					id: "aoa3:goofy_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46B3AEEFF9B4DAD8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Goofy Greatblade is a greatblade that you can craft."
+				""
+				"&dEach hit does a random amount of damage between 17 and 27."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "562004CA19A6A408"
+			tasks: [{
+				id: "72FD3208EE3FADF9"
+				type: "item"
+				item: {
+					id: "aoa3:goofy_greatblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F1DEA5C28B87351"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Fast Staff"
+			x: 1.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Surge Staff is a magic staff you can make. It uses Fire and Energy runes to cast."
+				""
+				"&dWhen used, the Surge Staff gives you high speed for a few seconds."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "7AB32C63BFF2859A"
+			tasks: [{
+				id: "3BE3845263FDE19A"
+				type: "item"
+				item: {
+					id: "aoa3:surge_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03080060D823B71F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Main Attraction"
+			x: -4.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: ["&dThe Big Top is a gun you can craft with the Infusion Table. It uses Limonite Bullets for ammunition."]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "0C06280DBF71FEB4"
+			tasks: [{
+				id: "2030B750FF95F100"
+				type: "item"
+				item: {
+					id: "aoa3:big_top"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00842FFFA7D6FE69"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Destruction Shotgun is a shotgun you can craft with the Infusion Table. It uses Spreadshot for ammunition."
+				""
+				"&dEach pellet in a shot from the Destruction Shotgun has a small chance of dealing double damage."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "5EBDA5D174F2A0CA"
+			tasks: [{
+				id: "4C9E10B699DE4AE0"
+				type: "item"
+				item: {
+					id: "aoa3:destruction_shotgun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A48BDEF4F4A3E15"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crackin Shooter"
+			x: -5.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Sharpshooter Armor is an armor set you can craft in an Infusion Table. "
+				""
+				"&dEach piece of the Sharpshooter set will increase damage you do with guns."
+				""
+				"&dWearing the full set will further increase the damage you do, on top of each pieces addition."
+			]
+			dependencies: ["2E2B62F5CA94E80E"]
+			id: "7125192CCBAB69D6"
+			tasks: [{
+				id: "17E59315A05FF27B"
+				type: "item"
+				item: {
+					id: "aoa3:sharpshot_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "518180D29B8AABAF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Spread the Laughs (move to Haven)"
+			x: -5.0d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Whimsy Winder is a blaster you can craft in an Infusion Table. Like all blasters, it uses your Spirit energy instead of ammunition."
+				""
+				"&dWhen you hit an enemy with the Whimsy Winder, it will split out the damage to all enemies within a few blocks of your target. Each extra creature it hits will add a bit of extra damage."
+			]
+			dependencies: [
+				"2E2B62F5CA94E80E"
+				"6F3E38B70BD24DBB"
+			]
+			id: "2BD335F722DD1E3C"
+			tasks: [{
+				id: "597AECD2A791FCA9"
+				type: "item"
+				item: {
+					id: "aoa3:whimsy_winder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "23324ABD850ED571"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Bobo and Choco"
+			x: -2.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"&5Bobo and Chocko are hostile clowns that spawn in Celeve."
+				""
+				"&5Both Bobo and Chocko are melee fighters and can spawn in groups."
+			]
+			dependencies: ["02EF64833A64B954"]
+			id: "40851BE9E9B31CAE"
+			tasks: [
+				{
+					id: "4E90B0CD87ABB005"
+					type: "kill"
+					entity: "aoa3:bobo"
+					value: 5L
+				}
+				{
+					id: "73C1F00F17282DA7"
+					type: "kill"
+					entity: "aoa3:chocko"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "27314B054E023A9A"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Happy and Koko"
+			x: -0.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"&5Happy and Koko are hostile clowns that spawn in Celeve."
+				""
+				"&5Happy is a ranged attacker, while Koko is melee. Kokos also can spawn in groups."
+				""
+				"&5Happy has a chance of dropping a Confetti Cannon, an alternate version of the Confetti Cluster. It, too, does no damage, but looks amusing."
+			]
+			dependencies: ["02EF64833A64B954"]
+			id: "5C09685F476090B5"
+			tasks: [
+				{
+					id: "4EF67F2B04E35E51"
+					type: "kill"
+					entity: "aoa3:happy"
+					value: 5L
+				}
+				{
+					id: "10D38E73AA2E43CA"
+					type: "kill"
+					entity: "aoa3:koko"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "7A446C14041F7F0C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Jumbo"
+			x: -1.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"&5Jumbo is a rare hostile clown that can spawn in Celeve."
+				""
+				"&5Aside from occasionally dropping Torn Cloth and Hardened Confetti balls, both of which are good for crafting, Jumbo can also drop a rare gun called Spectacle."
+			]
+			dependencies: ["02EF64833A64B954"]
+			id: "4E4E2E5B5647144D"
+			tasks: [{
+				id: "496DF5B025653B2D"
+				type: "kill"
+				entity: "aoa3:jumbo"
+				value: 1L
+			}]
+			rewards: [{
+				id: "033703EA2E197649"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Kranky and Snappy"
+			x: -3.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"&5Kranky and Snappy are hostile clowns that can spawn in Celeve."
+				""
+				"&5Both are melee attackers. Kranky can sometimes drop Torn Cloth, which is good for crafting."
+			]
+			dependencies: ["02EF64833A64B954"]
+			id: "0870534D86D60D00"
+			tasks: [
+				{
+					id: "6ED850781E6043F5"
+					type: "kill"
+					entity: "aoa3:kranky"
+					value: 5L
+				}
+				{
+					id: "4D022155397EA9F4"
+					type: "kill"
+					entity: "aoa3:snappy"
+					value: 5L
+				}
+				{
+					id: "1818C9BDD4E5B2BA"
+					type: "item"
+					item: "aoa3:torn_cloth"
+				}
+			]
+			rewards: [{
+				id: "45DB6E2FD6AE4070"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Sticky, Stitches, and Tipsy"
+			x: 0.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"&5Sticky, Stitches, and Tipsy are hostile clowns that spawn in Celeve."
+				""
+				"&5All three are melee attackers. Occasionally, Sticky can drop Sticky Slime."
+			]
+			dependencies: ["02EF64833A64B954"]
+			id: "5297BB164F5FC951"
+			tasks: [
+				{
+					id: "7FC1BC10584C8601"
+					type: "kill"
+					entity: "aoa3:sticky"
+					value: 5L
+				}
+				{
+					id: "02BFCFAA57F19E06"
+					type: "kill"
+					entity: "aoa3:stitches"
+					value: 5L
+				}
+				{
+					id: "0630C91A5F3A6820"
+					type: "kill"
+					entity: "aoa3:tipsy"
+					value: 5L
+				}
+				{
+					id: "37E98D974850D27E"
+					type: "item"
+					item: "aoa3:sticky_slime"
+				}
+			]
+			rewards: [{
+				id: "6F716E64862B66A6"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Puppet Master"
+			x: 1.0d
+			y: -1.5d
+			shape: "pentagon"
+			description: [
+				"&5So, we mentioned the Puppet Master and how Celeve is always the world that is being punished by the FOP."
+				""
+				"&dUsually worlds they digitize have no chance of fighting back, and just... vanish. No one really gets out, and stories aren't believed. That's all in part to the FOP's Puppet Master, who rules over Celeve with an iron squeaky hammer."
+				""
+				"&5And when a world succeeds in fighting back in some way, it gets 'punished' and given to the master of Celeve. The boss of this world, the Puppet Master, is known as Gyro. He is also called The Final Act."
+				""
+				"&dA gruesome nod to how they treat the punished world. Infecting them with a virus to turn them into rabid clowns, and eventually destroying their world when the next one needs to be punished."
+			]
+			dependencies: ["2D2B122DDFFB7D30"]
+			id: "207D8FFCE6B3F07D"
+			tasks: [{
+				id: "6D64342BA3763E4B"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"&5If you are wanting to deal with Gyro, there's only one path forward : destroying the puppet master. No bribe option this time, unfortunately."
+				""
+				"&dGyro loves his job too much to be bribed, and the pain he's inflicted on planet after planet can't be ignored. I mean, just look at all the clowns. A job that's supposed to be fun, turned into a deadly horror show."
+				""
+				"&5So get yourself ready, Bandit. Arm up, armor up, make sure you got ways to jump, fly, or teleport cause you might need it. "
+				""
+				"&dThen, find yourself a Toy Merchant. One you've leveled up a bit, as the friendly clowns of Celeve won't risk your death if they don't trust you."
+				""
+				"&5Buy yourself a Toy Gyrocopter. Then find a nice, big island area you can run around on safely."
+			]
+			dependencies: ["207D8FFCE6B3F07D"]
+			id: "215BBBAF71A8819C"
+			tasks: [{
+				id: "06BB538943232467"
+				type: "item"
+				item: "aoa3:toy_gyrocopter"
+			}]
+			rewards: [{
+				id: "154A577038228AF9"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Flight of the Funny"
+			x: 4.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&5When you Right Click the Toy Gyrocopter, it will summon Gyro's gyrocopter. He loves his vehicle, and will not be far behind it."
+				""
+				"&dHis gyrocopter will float upward until he appears, and then he'll be very angry. He has a bottomless sack of ammo and will fire nonstop at you while flying around. "
+				""
+				"&5Basically he'll do his best to just overrun you with bullets. He has a ton of health and keeps moving, so plan accordingly."
+				""
+				"&dIf you beat him, there's a bunch of weapons he has a chance of dropping. Along with various amounts of ammo for guns, coins, etc."
+			]
+			dependencies: ["215BBBAF71A8819C"]
+			id: "1602DDC794467A2A"
+			tasks: [{
+				id: "5085F5D16EF65B48"
+				type: "item"
+				item: "kubejs:boss_card_gyro"
+			}]
+			rewards: [{
+				id: "17DBC8E2445B97E7"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "A Realm of Lies"
+			x: -5.25d
+			y: 3.5d
+			shape: "diamond"
+			description: [
+				"&dOne of the two dimensions you can get to from Lelyetia is Haven..."
+				""
+				"&5...a peaceful world thats but a false face..."
+				""
+				"&dMost of the creatures on Haven are peaceful. But there's a dark secret to uncover. Getting there isn't too hard, though."
+				""
+				"&5You'll need to bring a Blank Realmstone up to the top of the upper trees in Lelyetia. Then kill a Flye with a melee attack while up there."
+				""
+				"&dAs long as you are above, say, Y 120, killing a Flye with melee should do the trick."
+				""
+				"&5Like Lelyetia, be sure to bring grappling hooks, flying gear, etc. Haven is made up of large, floating islands."
+			]
+			dependencies: ["5CCB73FF0AB748D0"]
+			id: "07566848A25F5008"
+			tasks: [{
+				id: "4A37425BA654C566"
+				type: "item"
+				item: "aoa3:haven_realmstone"
+			}]
+			rewards: [{
+				id: "75E3B10424EDAF49"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Pretty Veneer"
+			x: -3.5d
+			y: 3.5d
+			shape: "pentagon"
+			description: [
+				"&dYou'll notice most every creature here is peaceful, Bandit. Docile."
+				""
+				"&5Mostly. And they were made that way. A lot of these creatures are... twisted manipulations by the FOP."
+				""
+				"&dWell, in progress ones. Testing, mutations, splicing, this is one of the 'test' worlds for the FOP. "
+				""
+				"&5They are working to create dangerous mutations and viruses, using these docile works as testing grounds."
+				""
+				"&dYou can see it especially if you go to certain areas, or attack specific creatures. The defenses come online, guards appear, etc."
+			]
+			dependencies: ["07566848A25F5008"]
+			id: "76F19A8CF2E1B9FB"
+			tasks: [{
+				id: "2E6EE9E18A0AB99C"
+				type: "dimension"
+				dimension: "aoa3:haven"
+			}]
+			rewards: [{
+				id: "047177C10A6D06D8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Weightless"
+			x: -1.5d
+			y: 3.5d
+			shape: "hexagon"
+			description: [
+				"&dThere is only one ore you can find in Haven, and that is called Crystallite."
+				""
+				"&5It's an interesting ore, its structure modified by the FOP for testing purposes. One that has lead to the creation of Floating Rocks."
+				""
+				"&dYeah, those are much more.... unique. You can find them on most defensive guardians, as well as the multiple Bosses. They can also just... appear from various different blocks you break, weirdly enough. But its fairly rare."
+				""
+				"&5We figure the FOP was trying to work out some teleporting technology and it didn't go quite right. Best guess we have right now."
+			]
+			dependencies: ["76F19A8CF2E1B9FB"]
+			id: "14E439A23D6A77B4"
+			tasks: [
+				{
+					id: "7F7A44632C222632"
+					type: "item"
+					item: "aoa3:crystallite"
+				}
+				{
+					id: "2D7CF70D3240E96E"
+					type: "item"
+					item: "aoa3:floating_stone"
+				}
+			]
+			rewards: [{
+				id: "6E52C62C6FF3F881"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			shape: "square"
+			dependencies: ["14E439A23D6A77B4"]
+			id: "6A431F6F3D26080D"
+			tasks: [{
+				id: "7C4A977C2768AB6D"
+				type: "checkmark"
+				title: "CALM FIGHTS"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			shape: "square"
+			dependencies: ["14E439A23D6A77B4"]
+			id: "6F3E38B70BD24DBB"
+			tasks: [{
+				id: "25B3D2FAA6A87F16"
+				type: "checkmark"
+				title: "CALM CRAFTS"
+			}]
+		}
+		{
+			title: "Spirit Guardian and Protectors"
+			x: -1.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["&5Spirit Guardians and Spirit Protectors are the defense units that appear when you attack certain creatures in Haven: specifically the Eeo."]
+			dependencies: ["6A431F6F3D26080D"]
+			id: "65200DFB3666820D"
+			tasks: [
+				{
+					id: "6D2EBB5963BFFF7A"
+					type: "kill"
+					entity: "aoa3:spirit_guardian"
+					value: 5L
+				}
+				{
+					id: "45C30357F09E3FF0"
+					type: "kill"
+					entity: "aoa3:spirit_protector"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "76A24B1B47E7C87F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			shape: "pentagon"
+			description: [
+				"&dTechnically, there are are two bosses of Haven : The Guardians of the Haven system..."
+				""
+				"&5...and the 'strongest' experiment to date."
+				""
+				"&dI'm not sure if we'll be able to bribe either of them, Bandit. But we'll look into it. It may not be so much a bribe as instead a..."
+				""
+				"&5...workaround."
+			]
+			dependencies: ["14E439A23D6A77B4"]
+			id: "4801694875CA6CA9"
+			tasks: [{
+				id: "4B1E81D36FA2C618"
+				type: "checkmark"
+				title: "Experimental"
+			}]
+		}
+		{
+			title: "Rocking It"
+			x: 3.25d
+			y: 2.25d
+			shape: "pentagon"
+			description: [
+				"&dThe 'strongest' experiment that Haven has produced is called Rockrider, nicknamed The Duo."
+				""
+				"&5This is because it's two of their experiments that got combined. In essence, they are one entity but...not? It's hard to explain."
+				""
+				"&dEither way, they are tough. Quite tough. And to get their attention, you'll need to throw down a challenge to them."
+				""
+				"&5You do this by creating a Heavy Boulder. Get one of those Floating Stones, and....throw it into the void. Usually just off the side of one of the sky islands."
+				""
+				"&dIt'll reappear high in the sky and fall back down the same area. You'll want to catch it for later."
+			]
+			dependencies: ["4801694875CA6CA9"]
+			id: "7AD8FF7AF46E5F0B"
+			tasks: [{
+				id: "1618D4608B3C9CA4"
+				type: "item"
+				item: "aoa3:heavy_boulder"
+			}]
+			rewards: [{
+				id: "54A12D7115D532CF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Rough Rider"
+			x: 4.5d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dIf you want to face Rockrider, you should find a large area on one of the sky islands, because you want to make sure you won't get knocked off."
+				""
+				"&5Rockrider hits hard and throws hard, Bandit. Be careful when fighting it. "
+				""
+				"&dWhen you are ready, take that Heavy Boulder and just... throw it on the ground. This will signal to Rockrider that you want to challenge them."
+				""
+				"&5Rockrider's dual nature lets them swap between two forms : one is very resistant to melee, the other very resistant to ranged attack."
+				""
+				"&dSo plan your arsenal accordingly. If you defeat them, you'll have a chance of getting a special sword or sniper rifle."
+			]
+			dependencies: ["7AD8FF7AF46E5F0B"]
+			id: "4F4D7E7860F465DC"
+			tasks: [{
+				id: "5967B19E784AC206"
+				type: "item"
+				item: "kubejs:boss_card_rockrider"
+			}]
+			rewards: [{
+				id: "0B9D00B5B933C61E"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Tough as Nails"
+			x: 4.5d
+			y: 2.75d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dOkay Bandit, we figured out a way you can get past Rockrider without actually fighting them."
+				""
+				"&5Well, you ARE going to challenge them, in a way. They love a challenge, it's what they were created for. "
+				""
+				"&dThey perhaps like being challenged a bit TOO much, even if its not an outright fight challenge."
+				""
+				"&5So you can challenge them to a game of strength. Just how powerful are they against some strong materials?"
+				""
+				"&dCompressing Obsidian twice over should be a good test. As well as giving them Wither armor, to see which breaks first: the armor or them."
+				""
+				"&5Don't forget, sis. Since they are a two in one being, they'll need two full sets."
+				""
+				"&dOh right right."
+			]
+			dependencies: ["7AD8FF7AF46E5F0B"]
+			id: "7B3D6CA115F8B36C"
+			tasks: [
+				{
+					id: "4EF595FD0C3469AC"
+					type: "item"
+					item: "prefab:block_double_compressed_obsidian"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "64FCD9B9C68E8648"
+					type: "item"
+					item: {
+						id: "aoa3:wither_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "441076FA86E2D0B9"
+					type: "item"
+					item: {
+						id: "aoa3:wither_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "59C4AE889059BE66"
+					type: "item"
+					item: {
+						id: "aoa3:wither_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "58BD4204CBB274A2"
+					type: "item"
+					item: {
+						id: "aoa3:wither_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5CCDF4468DD84EBF"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+				{
+					id: "44B60B2E37B124EA"
+					type: "item"
+					item: "kubejs:boss_card_rockrider"
+				}
+			]
+		}
+		{
+			title: "A Long Ride Over"
+			x: 5.75d
+			y: 2.25d
+			shape: "hexagon"
+			description: [
+				"&dFantastic work, Bandit. I'm not surprised you had to deal with one of the FOP's many experiments already."
+				""
+				"&5Expect this to be far from the last, of course. "
+			]
+			dependencies: [
+				"4F4D7E7860F465DC"
+				"7B3D6CA115F8B36C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C624C72CB810B73"
+			tasks: [{
+				id: "30C1A3F110B3E9DD"
+				type: "item"
+				item: "kubejs:boss_card_rockrider"
+			}]
+		}
+		{
+			title: "Protecting the Heart"
+			x: 3.25d
+			y: 4.75d
+			shape: "pentagon"
+			description: [
+				"&dThe main protection system for Haven comes in the form of Guardians. Entities built and programmed to protect the FOP's important experiments on Haven's denizens."
+				""
+				"&5Part of why you get Spirit Guardians and Protectors if you attempt to hurt an Eeo. And only an Eeo, since everything else is a finished experiment."
+				""
+				"&dBut if you want to face the overall protectors of Haven, you'll need to summon them by finding a Voliant Heart."
+				""
+				"&5You can find these on the Spirit Guardians we mentioned earlier. Then you'll need to find a Guardian Tower, and climb to the large purple arena at the top."
+				""
+				"&dThese are the data centers for the Four Guardians, the main protectors of Haven. Oh! Bring some Redstone! You'll need it as well."
+			]
+			dependencies: ["4801694875CA6CA9"]
+			id: "2E8A33A3CEF3A888"
+			tasks: [{
+				id: "5BB066C414BB30E8"
+				type: "item"
+				item: "aoa3:voliant_heart"
+			}]
+			rewards: [{
+				id: "61A84624F6DFF6B6"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Unfair Match"
+			x: 4.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dFound the Guardian Tower? Good work, Bandit! You'll need to climb to the top where the platform is. "
+				""
+				"&5Got that Redstone sis asked you to bring? You'll see four levers, one on each wall. You'll need to finish the Redstone connections, turn on the Levers, and finally Right Click the Volatile Heart onto the Guardian Altar in the center."
+				""
+				"&dThis will summon the Four Guardians in attack mode. Each one will fire projectiles at you as they fly around, each Guardian's shot causing a different effect if it hits you."
+				""
+				"&5Slowness, Blindness, explosions: the projectiles are all dangerous so be careful, Bandit. "
+				""
+				"&dFor defeating the Guardians, you might get a sword, or a special gun depending which one you defeat last."
+			]
+			dependencies: ["2E8A33A3CEF3A888"]
+			id: "0E5F29F829FC5044"
+			tasks: [{
+				id: "300CE25A8652E682"
+				type: "item"
+				item: "kubejs:boss_card_four_guardians"
+			}]
+			rewards: [{
+				id: "42C786840272997A"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Protecting Every Creature"
+			x: 4.5d
+			y: 5.25d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dWe've figured out how to get past the Four Guardians, Bandit. It involves acting as 'security' contractors and providing some much requested defense equipment."
+				""
+				"&5The FOP are very stingy with a lot of their systems, teams, and bosses. And given the Four Guardians are semi-advanced AI, we can't just bribe them directly."
+				""
+				"&dInstead, we can pose as approved contractors and supply some defense materials they've had requested for a long time."
+				""
+				"&5A lot of this is locked behind DLC, unfortunately. But getting all of it, and a Security Card, should be good."
+				""
+				"&dWell, not ALL of it. If they got ALL of what they requested, it'd get flagged quick. This is maybe 1/10th of their request."
+			]
+			dependencies: ["2E8A33A3CEF3A888"]
+			id: "601E7C9BFA0BF714"
+			tasks: [
+				{
+					id: "4264637587103A59"
+					type: "item"
+					item: "pneumaticcraft:sentry_turret"
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "064DB95E049215A9"
+					type: "item"
+					item: "k-turrets:bullet_turret_item"
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "49DFEA7046D21D78"
+					type: "item"
+					item: "k-turrets:gauss_turret_item"
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "03BD585B3F9CAD1F"
+					type: "item"
+					item: "torchmaster:megatorch"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "5BFF2D30C8607C80"
+					type: "item"
+					item: "torchmaster:dreadlamp"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "5D1F26590874CD5F"
+					type: "item"
+					title: "Any Walls"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:walls"
+						}
+					}
+					count: 1000L
+					consume_items: true
+				}
+				{
+					id: "0C2E37311D67F122"
+					type: "item"
+					item: "refinedstorage:security_card"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "51FCBD7932D3D29B"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+				{
+					id: "0FBA685F5E37ECB8"
+					type: "item"
+					item: "kubejs:boss_card_four_guardians"
+				}
+			]
+		}
+		{
+			title: "Security Level Decreased"
+			x: 5.75d
+			y: 4.75d
+			shape: "hexagon"
+			description: [
+				"&5Great work, the Four Guardians are of no concern now."
+				""
+				"&dOnce you deal with the Celeve boss and the experimental boss here, we can get you to the next worlds."
+			]
+			dependencies: [
+				"0E5F29F829FC5044"
+				"601E7C9BFA0BF714"
+			]
+			dependency_requirement: "one_completed"
+			id: "6A35E7FB82742174"
+			tasks: [{
+				id: "4B0CFAEC0CE03B6F"
+				type: "item"
+				item: "kubejs:boss_card_four_guardians"
+			}]
+		}
+		{
+			title: "Send Home the Clowns"
+			x: 5.75d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"&dGood work with Gyro, Bandit. Sorry we couldn't find a workaround, but there is no bribing the fanatical."
+				""
+				"&5Once you've dealt with the bosses of Haven as well, we can figure out the next locations to go."
+			]
+			dependencies: ["1602DDC794467A2A"]
+			id: "18E24282AF5DDBAD"
+			tasks: [{
+				id: "7DB3A424E01086A4"
+				type: "item"
+				item: "kubejs:boss_card_gyro"
+			}]
+		}
+		{
+			title: "Leaving Haven"
+			x: 7.75d
+			y: 3.5d
+			shape: "pentagon"
+			description: [
+				"&5I wish we could have left it in a better condition, sis."
+				""
+				"&dI know what you mean, but with Bandit's help we'll help it when this is all done."
+			]
+			dependencies: [
+				"6C624C72CB810B73"
+				"6A35E7FB82742174"
+			]
+			id: "3F290438631CC937"
+			tasks: [{
+				id: "06EBA03419F9B374"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Leaving Celeve"
+			x: 7.75d
+			y: -1.5d
+			shape: "pentagon"
+			description: [
+				"&dI think I need to watch something funny after that sad place..."
+				""
+				"&5No kidding..."
+			]
+			dependencies: ["18E24282AF5DDBAD"]
+			id: "13BE940CF19B4F5E"
+			tasks: [{
+				id: "01ACDA271F152F63"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: [
+				"13BE940CF19B4F5E"
+				"3F290438631CC937"
+			]
+			id: "0A67F99F89487841"
+			tasks: [
+				{
+					id: "01579A7F805006F3"
+					type: "item"
+					item: "kubejs:boss_card_gyro"
+				}
+				{
+					id: "30A0B28CC49700C7"
+					type: "item"
+					item: "kubejs:boss_card_rockrider"
+				}
+				{
+					id: "250E5F8EA9D8D21A"
+					type: "item"
+					item: "kubejs:boss_card_four_guardians"
+				}
+			]
+			rewards: [{
+				id: "42944BA0E51C6DA5"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Making Bright"
+			x: -1.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: ["&dThe Light Upgrade Kit is an item that can drop rarely in Haven. It is used to upgrade your weapons later using a Divine Station, which you will find in later worlds."]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "5F49C88A151ADAA3"
+			tasks: [{
+				id: "1704875840AD8B8E"
+				type: "item"
+				item: "aoa3:light_upgrade_kit"
+			}]
+			rewards: [{
+				id: "76FD091394D3D362"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Firing Up a Storm"
+			x: 1.75d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Stormer is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dEvery shot from the Stormer has a different fire rate than the last one."
+			]
+			dependencies: [
+				"2E2B62F5CA94E80E"
+				"6F3E38B70BD24DBB"
+			]
+			id: "3800F7F1640966B8"
+			tasks: [{
+				id: "4B5F6698B243C988"
+				type: "item"
+				item: {
+					id: "aoa3:stormer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "26689F446B45FFD0"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: ["&dThe Crystallite Sword is a sword you can craft."]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "780F29C54B98D098"
+			tasks: [{
+				id: "2CDE40D38A2D77AB"
+				type: "item"
+				item: {
+					id: "aoa3:crystallite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "187075882740CFA6"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Air Combo"
+			x: -2.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Horizon Maul is a maul you can craft."
+				""
+				"&dCreatures hit by the Horizon Maul will levitate."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "31EE8B54CAFCAC78"
+			tasks: [{
+				id: "2DD10B0205AF8281"
+				type: "item"
+				item: {
+					id: "aoa3:horizon_maul"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7FE530237BDBDDCC"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Arrow of Justice"
+			x: 0.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Justice Bow is a bow you can craft. It uses Arrows for ammo."
+				""
+				"&dIf you are attacked by a creature, this bow will do more damage for 5 seconds."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "5988EB2BEB570713"
+			tasks: [{
+				id: "3050F3F111F28891"
+				type: "item"
+				item: {
+					id: "aoa3:justice_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EDBE7A4544EE3D2"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Fast Arrow"
+			x: -3.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: ["&dThe Speed Bow is a bow you can craft. It uses Arrows for ammo."]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "73A3877A6E2D0FE1"
+			tasks: [{
+				id: "66D0685FAA1A175B"
+				type: "item"
+				item: {
+					id: "aoa3:speed_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "45DF255E95F324E8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Jump to the Sky"
+			x: 1.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Sky Staff is a staff you can craft. It uses Wind, Kinetic, and Energy Runes to cast."
+				""
+				"&dCasting with the Sky Staff will launch you in the direction you aim. If you aim straight down, it will launch you up into the air instead."
+				""
+				"&dThis only can be cast if you are standing on ground."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "4EAB4C823C2CDACF"
+			tasks: [{
+				id: "366CB49754E4D9ED"
+				type: "item"
+				item: {
+					id: "aoa3:sky_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D2D0CC7E0B83FAE"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Heavenly Staff"
+			x: -4.5d
+			y: 5.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Celestial Staff is a staff you can craft. It uses Compass, Lunar, and Energy Runes to cast."
+				""
+				"&dWhen you cast with the Lunar Staff, it creates a projectile above where you are aiming. This projectile falls and explodes on contact."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "18ED6E1DEA5EE253"
+			tasks: [{
+				id: "4A17A78BEAFB1991"
+				type: "item"
+				item: {
+					id: "aoa3:celestial_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33EFE91AFE1A573D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Blasting Off!"
+			x: -1.5d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Gravity Blaster is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."
+				""
+				"&dWhen you use the Gravity Blaster, it will launch you into the air and damage all creatures close to you."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "65B32BFC33C97964"
+			tasks: [{
+				id: "6C0990F5F723CD1A"
+				type: "item"
+				item: {
+					id: "aoa3:gravity_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60E72114A6996F17"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Cracking Crystals"
+			x: -2.5d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Gemcracker is a pickaxe you can craft."
+				""
+				"&dWhen used to mine ores that drop something different (such as gem ores, Redstone Dust, etc), the Gem Cracker has a chance of adding additional drops of that item."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "338D5A1DD504343F"
+			tasks: [{
+				id: "4735E6B6D688EAF4"
+				type: "item"
+				item: {
+					id: "aoa3:gemcracker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E3ED190670B5BA8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Safer Tumbles"
+			x: -0.5d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&dAlacrity Armor is an armor set you can craft in an Infusion Table."
+				""
+				"&dWearing a piece of Alacrity Armor will reduce the amount of fall damage you take. Each additional piece of Alacrity Armor will further reduce this damage."
+				""
+				"&dWearing a full set of Alacrity Armor will negate all fall damage."
+			]
+			dependencies: ["6F3E38B70BD24DBB"]
+			id: "7D00122CD355BDD2"
+			tasks: [{
+				id: "72A1740CA122318C"
+				type: "item"
+				item: {
+					id: "aoa3:alacrity_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64D3BBC5343C2F1C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

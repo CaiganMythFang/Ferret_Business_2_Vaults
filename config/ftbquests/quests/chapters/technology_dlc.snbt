@@ -1,0 +1,45 @@
+{
+	id: "5D413AB2AFC40B91"
+	group: "32994487763D5D3F"
+	order_index: 4
+	filename: "technology_dlc"
+	title: "Technology DLC"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Hand Electronics - Red Rank"
+		icon: "kubejs:unlock_hand_elec_red"
+		x: 2.5d
+		y: 0.25d
+		description: [
+			"&2Looking to utilize some handy dandy Hand Electronics? Some Calculators or handheld scanners?"
+			""
+			"&2The RED Rank DLC Unlocks the following mods : "
+			"&2Just Enough Calculation"
+			"&2Scannable"
+			"&2Advanced Finders"
+		]
+		dependencies: ["0B8CCC44B66134C8"]
+		id: "546BB1E9447BBC65"
+		tasks: [{
+			id: "56F75F8DDEAADC91"
+			type: "item"
+			item: "aoa3:copper_coin"
+			count: 250L
+			consume_items: true
+		}]
+		rewards: [
+			{
+				id: "3A941288C9A84718"
+				type: "item"
+				item: "kubejs:unlock_hand_elec_red"
+			}
+			{
+				id: "42CE3A9DDD2290EE"
+				type: "command"
+				command: "/ftbquests change_progress @p complete 0A911FE8EB9848E5"
+			}
+		]
+	}]
+	quest_links: [ ]
+}

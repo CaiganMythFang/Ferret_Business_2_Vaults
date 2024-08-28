@@ -1,0 +1,165 @@
+{
+	id: "25A1AC277F9C837B"
+	group: "32994487763D5D3F"
+	order_index: 0
+	filename: "new_player_start_here"
+	title: "New Player? Start Here!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "NEW PLAYER INTRODUCTION PART 1"
+			x: -0.5d
+			y: -3.0d
+			shape: "pentagon"
+			subtitle: "Welcome Power User!"
+			description: [
+				"&2Greetings new Power User! You have chosen or been chosen to be digitized fully into our FOPGame Server! We welcome you with open arms!"
+				""
+				"&2Here you will find many things to do, but our main attraction is Vault Hunters, which everything revolves around!"
+				""
+				"&2As you are digitzed into our GameServer, please be careful! As per the Terms of Service, Power Users maintain full control of their digital bodies, which includes our Survival System! Please take care and manage your Health, Oxygen, Sustenance, and all future systems!"
+				""
+				"&2The FOPGame Server has two major Zones : The Mainland, which consists of the Overworld, Nether, and End; and The Vaults, which are temporary portals into special worlds! "
+				""
+				"&2To continue, please follow the included Vault Hunter's Guidebook to get up to speed! Then submit (5) five Chromatic Iron Ingots to continue!"
+			]
+			dependencies: ["31711C6DAB9BA2E5"]
+			hide: true
+			id: "763620C2A16C72C1"
+			tasks: [{
+				id: "1F4FE22CFD352AEA"
+				type: "item"
+				item: "the_vault:chromatic_iron_ingot"
+				consume_items: true
+			}]
+		}
+		{
+			title: "NEW PLAYER INTRODUCTION PART 2"
+			x: -0.5d
+			y: -2.0d
+			shape: "pentagon"
+			subtitle: "DLC For Your Benefit!"
+			description: [
+				"&2[Thank you for purchasing NEW PLAYER INTRODUCTION PART 2]"
+				""
+				"&2As you may have noticed, much of the game's content is not accessable to a new Power User. This is for your safety!"
+				""
+				"&2Our GameServer is a very in depth and complicated series of systems, and as such we must ensure you can synergize with things at a safe pace! Chapters within the Vault Hunters Guidebook will unlock at a manageable pace for a New Power User!"
+				""
+				"&2You are currently what we call an IR Power user! That stands for InfraRed, our starter Power User tier! You have access to range of basic recipes, the Mainland, and most importantly : The ability to enter Vaults! "
+				""
+				"&2[Please Insert Chromatic Iron to Continue]"
+			]
+			dependencies: ["763620C2A16C72C1"]
+			hide: true
+			id: "6DAA3A1EAF213425"
+			tasks: [{
+				id: "502BE3C2872D9321"
+				type: "item"
+				item: "the_vault:chromatic_iron_ingot"
+				count: 5L
+				consume_items: true
+			}]
+		}
+		{
+			title: "NEW PLAYER INTRODUCTION PART 3"
+			x: -0.5d
+			y: -1.0d
+			shape: "pentagon"
+			subtitle: "Progression At Pace!"
+			description: [
+				"&2[Thank you for purchasing NEW PLAYER INTRODUCTION PART 3]"
+				""
+				"&2The FOPGame Server also provides a handy DLC SHOP for all Power Users! This DLC SHOP must be unlocked first before you can continue. Please provide 100&cERROR"
+				""
+				"&d[Quite enough of that....one sec Bandit...]"
+				""
+				"&2Thank you for your payment of 1000 Chromatic Iron Ingots, Power User. DLC Shop access has been granted!"
+				""
+				"&cDLC SHOP UNLOCK BUG DETECTED. SECURITY MEASURE ACTIVATED FOR FUTURE POWER USER PROTECTION."
+				""
+				"&d[Oh, of course. Well, at least it worked once...]"
+				""
+				"&2Please proceed to the first page of the DLC Shop to recieve your free gift!"
+				""
+				"&d[And head back to the first page. We gotta talk, Bandit.]"
+			]
+			dependencies: ["6DAA3A1EAF213425"]
+			hide: true
+			id: "1B6761988ABBBC4A"
+			tasks: [{
+				id: "15294FF5FF057E3C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "In Search of Chroma"
+			x: -1.3125d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "Battle Encouragement"
+			description: [
+				"&dWow you don't even get access to the DLC shop right off the bat. That doesn't seem like the FOP."
+				""
+				"&5Nah sis, just starting the carrot and stick right off the bat instead."
+				""
+				"&dHow so? You can only do basic things and enter vaults to start w... oh, ooh I see then... That's the loop, huh? Run the vaults, get resources to buy DLC. And I bet a couple will be 'free', huh?"
+				""
+				"&5The text says 5 Ingots here. But the quest itself wants less??"
+				""
+				"&dWeird. At least this Chromatic Iron is in the Mainland Overworld dimension..."
+				""
+				"&5At least, yea. Bandit, the usual rules apply I guess. Looks like Chromatic Iron Ore spawns best around Y -40... If you can send us a sample too, I have an idea..."
+			]
+			dependencies: ["763620C2A16C72C1"]
+			dependency_requirement: "all_started"
+			size: 0.75d
+			id: "086D17F389F668DF"
+			tasks: [{
+				id: "327AC152E36DE5A0"
+				type: "item"
+				item: "the_vault:chromatic_iron_ingot"
+			}]
+		}
+		{
+			x: -1.3571428571428754d
+			y: -1.982142857142854d
+			shape: "gear"
+			dependencies: ["6DAA3A1EAF213425"]
+			dependency_requirement: "all_started"
+			size: 0.75d
+			id: "42AA9E6419FF250E"
+			tasks: [{
+				id: "258AC029D629D83C"
+				type: "checkmark"
+				title: "The True Price"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -3.0d
+			shape: "octagon"
+			description: [
+				"Hey there! This is Caigan, actual Caigan, the modpack dev."
+				""
+				"This pack is built around the core of Vault Hunters, but with many added or changed mods, items, and mechanics. "
+				""
+				"Please keep in mind : balancing in this pack is handled differently than how the VH devs balance vanilla VH. The addition of the FMC and Grist systems (more on those later) fundamentally change how balance is approached."
+				""
+				"My goal is to strike a balance between Vault Hunters/Wold's Vaults and the core balancing I had with The Ferret Business 1."
+				""
+				"This Q.U.E.S.T. Tablet will go over many of the new and additional items and mechanics as you follow it. It will also provide a more in depth guide to playing Vault Hunters as a whole than the VH Quest Book."
+			]
+			dependencies: ["086D17F389F668DF"]
+			size: 0.75d
+			id: "7E1ADF6EA87391A1"
+			tasks: [{
+				id: "163A0C405DD9052C"
+				type: "checkmark"
+				title: "MOD PACK DEV NOTES!"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

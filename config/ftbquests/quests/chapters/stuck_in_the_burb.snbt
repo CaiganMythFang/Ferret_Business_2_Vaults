@@ -1,0 +1,4752 @@
+{
+	id: "69D15C436DD334DC"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 1
+	filename: "stuck_in_the_burb"
+	title: "Stuck in the BURB"
+	subtitle: ["MOD : Minestuck"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Remnants of a Lost Game"
+			x: -4.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "MOD : Minestuck"
+			description: [
+				"&7You have found something... quite interesting."
+				""
+				"&7Right now, the bosses are helping you break out of the system, while myself and the other Researchers are helping you survive until then."
+				""
+				"&7But what you just found? Might be just the thing that will help ALL of us. Especially you."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "2019F6F56C5A7D4B"
+			tasks: [{
+				id: "387B7D9AC801F060"
+				type: "item"
+				item: "minestuck:raw_cruxite"
+			}]
+		}
+		{
+			title: "Lost in the System"
+			x: -3.5d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7Okay, Bandit, the thing you found is called Cruxite. It's... hm, where should I begin."
+				""
+				"&7Well, long before the FOP and their Game Server, with it's Advent of Ascension core game, there used to be another game. Nobody knows who made it, but it was as expansive as the FOP Game Server. The game was known as SBurb. "
+				""
+				"&7Four or so years after SBurb came out, it suddenly went offline, and no further word or trace could be found of the original company. Exactly one week later, the FOP Game Server launched, and people... forgot about SBurb."
+				""
+				"&7What was it though? Well, I need to do some research... but explore deeper. See if you can find some Uranium Chunks for me... If you can, it'll confirm my suspicions."
+			]
+			dependencies: ["2019F6F56C5A7D4B"]
+			id: "48F1C97A76078762"
+			tasks: [{
+				id: "63EC3F17062D9873"
+				type: "item"
+				item: "minestuck:raw_uranium"
+			}]
+			rewards: [{
+				id: "044DD37481499ADE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Mysteriously Intact"
+			x: -2.25d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7I WAS right. Amazing!"
+				""
+				"&7Er, right then, what was SBurb? Well, it was basically a huge sandbox game. But instead of being 'digitized' and converted to data, the game was OVERLAYED on top of the real world. You could fight creatures, summon and build things, craft, join friends, etc. And eventually you could travel to other worlds, other places. Kind of like AoA's dimensions, but at the same time...not."
+				""
+				"&7And all of these was done in reality, in your own house, neighborhood, etc. The things you earned and built in the game, had physical presence. And you finding things from that game here..."
+				""
+				"&7You notice how the Cruxite and the special Uranium Ores weren't DLC gated? Even Coal Ore is locked behind DLC."
+			]
+			dependencies: ["48F1C97A76078762"]
+			id: "1FCB0E4A2F267C82"
+			tasks: [{
+				id: "6C06E44CF1B7ADCC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Temple of the Frog"
+			x: -3.5d
+			y: -1.25d
+			shape: "square"
+			description: [
+				"&7If I'm right, and so far I have been, then you should be able to find a Frog Temple in the game server somewhere."
+				""
+				"&7Even though the FOP have altered the world and how it generates, things from SBurb should be unaffected. Which means... yes, you should be able to make the Temple Scanner!"
+				""
+				"&7Craft this scanner. It should help you locate a Frog Temple. You'll need it to access SBurb."
+				""
+				"&7You heard right. It's time we bring SBurb back!"
+				""
+				"&7Since the Frog Temple is fairly rare, you may need to travel far to find it. Use these Waystones to mark your base, and along your journey. You can teleport from any activated Waystone to another."
+				""
+				"&7You know, we should probably call SBurb something new... let's go with Minestuck. That sounds good."
+			]
+			dependencies: ["1FCB0E4A2F267C82"]
+			id: "52754C14A4625112"
+			tasks: [{
+				id: "498E4416C31D09B0"
+				type: "item"
+				item: "minestuck:temple_scanner"
+			}]
+			rewards: [
+				{
+					id: "01D871E744042061"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "5B69E15E901DB066"
+					type: "item"
+					item: "waystones:waystone"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Lost Code in the Woods"
+			x: -2.25d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&7Have you found the temple? At the top, inside, you should find a giant Lotus. Right Click it a few times to open it up."
+				""
+				"&7What did it give you... a book of SBurb Code? Yes, this is exactly what we need! And some Computer Parts, good!"
+				""
+				"&7But one book of SBURB Code isn't enough... Scanning the Lotus, it looks like it will regrow in about... 5 real minutes? Hang around for a bit. Explore the area. Then check back. "
+				""
+				"&7I estimate you'll need about 8 SBURB Code books to start getting the game back online. "
+			]
+			dependencies: ["52754C14A4625112"]
+			id: "6A21DB08C3F1E5A7"
+			tasks: [
+				{
+					id: "746C6B880D44B4CF"
+					type: "item"
+					item: "minestuck:sburb_code"
+					count: 8L
+				}
+				{
+					id: "126C1B10D4E2433C"
+					type: "item"
+					item: "minestuck:computer_parts"
+				}
+			]
+			rewards: [{
+				id: "1D1B4EA005A717E9"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Where to Code?"
+			x: -3.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7Oh! That's what you can do while waiting!"
+				""
+				"&7You'll need somewhere to PUT the SBURB Code, right? If you explore some Dungeons, you may come across a Blank Disc. Those will work just fine."
+				""
+				"&7Or, you can go to the bottom of the Frog Temple, and search around for an opening. There should be a large chamber inside with pillars and... well, probably monsters. It's dark. "
+				""
+				"&7If you search around, you should be able to find some Blank Discs down there too. Just watch your step!"
+			]
+			dependencies: ["6A21DB08C3F1E5A7"]
+			id: "0D54B906CCE3EE45"
+			tasks: [{
+				id: "21DAC55CF5E3DF32"
+				type: "item"
+				item: "minestuck:blank_disk"
+				count: 2L
+			}]
+			rewards: [{
+				id: "132308C580F62C39"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Server Planning"
+			x: -2.25d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7Okay Bandit, I've scanned over the SBURB Code Books and discussed with some of our Researchers here."
+				""
+				"&7You'll want to craft three things : The SBURB Client Disc, the SBURB Server Disc, and a SBURB Computer. If you have other assistants with you? You can get away with only ONE of you making a Server Disc, but the rest of you need the Computer and Client Disc."
+				""
+				"&7&lTHIS IS VERY IMPORTANT!&r &7You'll want to place the Computer in the center of a large area you plan on moving. "
+				""
+				"&7Because soon it's going to be moved by force. I'd say...30 block radius around the Computer will get moved?"
+			]
+			dependencies: ["0D54B906CCE3EE45"]
+			id: "79F57A93686BD76B"
+			tasks: [
+				{
+					id: "680C4ACFAFED36E6"
+					type: "item"
+					item: "minestuck:client_disk"
+				}
+				{
+					id: "7C3798F60CA61DFD"
+					type: "item"
+					item: "minestuck:server_disk"
+				}
+				{
+					id: "223B083645EC3DD5"
+					type: "item"
+					item: "minestuck:computer"
+				}
+			]
+			rewards: [{
+				id: "1244515E126514D8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Building Up"
+			x: -1.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7Okay, got the SBURB Computer placed? Good. Now Right Click the Client and Server Discs onto the Computer to install them. Then Right Click the Computer to turn it on and then access the interface."
+				""
+				"&7The button in the upper right will swap you between Client and Server options. First you'll want to Select Color. Then you'll want to set the Server to Open to Clients. Then you'll want to connect with the Client."
+				""
+				"&7Now in the Server section, you can enter Edit Mode. You'll pop out of your body and the inventory will be different. You'll want to move the Cruxtruder, Totem Lathe, and Alchemiter to your hotbar and build them close by."
+				""
+				"&7And  you'll want to take that Captchalogue Card and drop it onto the ground with Q. Then you can exit Edit Mode by hitting X on your keyboard and pick it up."
+			]
+			dependencies: ["79F57A93686BD76B"]
+			id: "415FC4F6B22EA0F7"
+			tasks: [{
+				id: "5842C390D44BC87A"
+				type: "item"
+				item: {
+					id: "minestuck:captcha_card"
+					Count: 1b
+					tag: {
+						punched: 1b
+						contentID: "minestuck:cruxite_apple"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EF1761680E54AF8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Beginning Alchemy"
+			x: -1.0d
+			y: -1.25d
+			shape: "square"
+			description: [
+				"&7Now that you have all these machines, what to do with them? Well, first you'll want to go over to the Cruxtruder and take the Lid off. It's the 3x3 square platform looking one. Just break the lid off with your Pickaxe to open it up. "
+				""
+				"&7Now Right Click some Cruxite onto the opening, then Right Click the wheel on one side. You'll get a Cruxite Dowel in the color you chose earlier!"
+				""
+				"&7Now that Captchalogue Card? Take it over to the Totem Lathe. On one side is the green SBURB Symbol. There's a slot you can Right Click that Captchalogue Card into. Then Right Click the Cruxite Dowel into the open space to the right of the SBURB Symbol."
+				""
+				"&7Now, there's a gray square above the placed Cruxite Dowel. Right Click that to 'carve' the Dowel. This is the first step in basic Alchemy for SBURB... I mean Minestuck."
+			]
+			dependencies: ["415FC4F6B22EA0F7"]
+			id: "10E2B9F70E803BDB"
+			tasks: [
+				{
+					id: "28A6A35006F1B26F"
+					type: "item"
+					item: "minestuck:cruxtruder_lid"
+				}
+				{
+					id: "7EA55ECA3223D4E4"
+					type: "item"
+					item: {
+						id: "minestuck:cruxite_dowel"
+						Count: 1b
+						tag: {
+							contentID: "minestuck:cruxite_apple"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "10E83500EF2C7681"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "First Artifact"
+			x: -1.0d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7There's a lotta steps here, I know, but once you get the hang of it..."
+				""
+				"&7That Cruxite Dowel that now looks like an Hourglass? It's labeled with (Cruxite Artifact). That is what will be made when you Alchemize it. "
+				""
+				"&7The larger 4x4 platform is the Alchemiter. There's a tower on one corner with a platform, where you can place the Cruxite Dowel on. Then you can Right Click the platform and alchemize the Cruxite Artifact : a Cruxite Apple (Or sometimes a bottle)"
+				""
+				"&7&lDON'T EAT THE APPLE YET! You need to do a bit of prep first!"
+			]
+			dependencies: ["10E2B9F70E803BDB"]
+			id: "5C1E778DADF0B55B"
+			tasks: [{
+				id: "3574D5438A7AF261"
+				type: "item"
+				item: "minestuck:cruxite_apple"
+			}]
+			rewards: [
+				{
+					id: "6DBF91BA59E38657"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "0B71F8154E850066"
+					type: "item"
+					item: "waystones:waystone"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.25d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7Okay, I have a small checklist for you before you consume that Cruxite Artifact : "
+				""
+				"&71) Is your SBURB Computer inside a protected building? Much like protecting yourself against zombies, skeletons, etc. Make sure it is inside."
+				""
+				"&72) Do you have a bunch of storage in this building? Do you have a lot of supplies in them? Food, Iron, Copper, Saplings, etc."
+				""
+				"&73) Do you have any activated Waystones away from your Base? Make sure you put one down more than 30 blocks away from the SBURB Computer and &lACTIVATE IT&r&7, don't forget!"
+				""
+				"&74) Do you have an unused Waystone in your inventory?"
+				""
+				"&75) Do you have a weapon and some decent (Iron level) armor?"
+			]
+			dependencies: ["5C1E778DADF0B55B"]
+			id: "3C01B17B8602B0C8"
+			tasks: [{
+				id: "55158453D8816F2E"
+				type: "checkmark"
+				title: "Departure Checklist"
+			}]
+			rewards: [{
+				id: "678ED7B253B4EDAC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7You all armed and armored, Bandit? Got your Waystone, a snack, etc? All your doors closed? Yes? Good? Time to eat that Cruxite Artifact!"
+				""
+				"&7You'll notice that eating the Artifact will... ask you for a title. This title will change how your part of The Medium, basically the base world of Minestuck, will generate. You can choose something that sounds neat, or just hit Random. When you accept your title, you and the area around your SBURB Computer will be moved to The Medium."
+				""
+				"&7Now you get to see if you made a decent enough base and remembered to close all your doors. The land you took with you will appear high above the Medium, and on it Imps will constantly spawn. These dangerous little creatures can wear you down fast, so be careful."
+				""
+				"&7What they also do is drop Grist, a resource that you need for building and Alchemizing."
+			]
+			dependencies: ["3C01B17B8602B0C8"]
+			id: "3C99F25DDE417366"
+			tasks: [{
+				id: "303B78BF19033696"
+				type: "checkmark"
+				title: "To the Medium"
+			}]
+		}
+		{
+			title: "Alchemy Realized"
+			x: 0.25d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&7Now that you're in The Medium and have secured your base, it's time to open up Minestuck fully, and begin use it fully."
+				""
+				"&7It seems that so much of the FOP Game Server is built on top of layers and layers of lost, half deleted, broken, and ignored systems. And at the lowest level? The original SBURB. So much of this Medium and worlds beyond collect the remnants of lost systems : This is what Grist is, the lost resources of everything. This is why it's called Minestuck now, its stuck at the bottom, and no longer the same as it was."
+				""
+				"&7And you can use this Grist to craft almost anything in FOP Game system. But to do that, you'll need one more SBURB Alchemy machine: the Punch Designix."
+				""
+				"&7Go over to your SBURB Computer and enter Editing mode again. You'll see the Punch Designix available, but it'll cost 4 of a specific kind of Grist. This is usually tied to the Imps that spawn on your land."
+			]
+			dependencies: ["3C99F25DDE417366"]
+			id: "70B74F6AC7AFFA80"
+			tasks: [{
+				id: "3DC64399EBD4D028"
+				type: "checkmark"
+				title: "Of Alchemy and Gateways"
+			}]
+			rewards: [{
+				id: "426652A169FD6E8C"
+				type: "item"
+				item: "minecraft:mossy_cobblestone"
+			}]
+		}
+		{
+			title: "Captcha'd"
+			x: 1.5d
+			y: -1.25d
+			shape: "square"
+			description: [
+				"&7That Mossy Cobblestone I just gave you? Put it in your Hotbar and hold it in your hand and press V. Poof, gone!"
+				""
+				"&7Actually, what you did is add it to your Minestuck Sylladex. Your sylladex is a... sort of special inventory made of Captchalogue Cards. Each card can store up to a stack of a single item. And you can craft more Captchalogue Cards and add them to your Sylladex."
+				""
+				"&7To access your Sylladex (as well as your Grist Cache), hit G. The first tab is your Sylladex. You can add more Cards here, or open up the Sylladex with the button."
+				""
+				"&7Your Sylladex starts in Queue-Mode (shown in the upper right). Meaning that you Add items from right to left, and can take items only from the right most card (by Left clicking the item itself)."
+				""
+				"&7But if you Right Click, you remove the Captchalogue Card WITH the item on it!"
+			]
+			dependencies: ["70B74F6AC7AFFA80"]
+			id: "679B9480C543F403"
+			tasks: [
+				{
+					id: "09894FCD2FC3A9D8"
+					type: "item"
+					item: "minestuck:captcha_card"
+				}
+				{
+					id: "24AB8EF77ADE7D7F"
+					type: "item"
+					title: "Captchalogue Card with 1 Mossy Cobblestone"
+					item: {
+						id: "minestuck:captcha_card"
+						Count: 1b
+						tag: {
+							punched: 0b
+							contentID: "minecraft:mossy_cobblestone"
+							contentSize: 1
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3DC3901F15850189"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Punch It, Alchemy!"
+			x: 0.25d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7Now you have a Captchalogue Card with a Mossy Cobblestone in it. You (should) have a bunch of blank Captchalogue Cards. And you have all these Alchemy machines. So, how do you Alchemize up some more Mossy Cobblestone?"
+				""
+				"&7First, go over to the Punch Designix. Right Click an empty Captchaloge Card on the front left side of it, where you can see a slot. Then, Right Click the Captchalogue Card with the Mossy Cobblestone onto the Keyboard on the front right side."
+				""
+				"&7This will make the empty Captchalogue Card in the Designix (Punched) with the Mossy Cobblestone design... much like your Cruxite Artifact started on a (Punched) Captchalogue Card!"
+				""
+				"&7Like with the Artifact, put Cruxite into the Cruxtruder and make a Dowel. Then place the Dowel and the (Punched) Card into the Totem Lathe, shape the Dowel, and then bring it to the Alchemiter to Alchemize up 10 more."
+			]
+			dependencies: ["679B9480C543F403"]
+			id: "0B913EC0A71D77DA"
+			tasks: [{
+				id: "450C6FCF2DDB3F40"
+				type: "item"
+				item: "minecraft:mossy_cobblestone"
+				count: 10L
+			}]
+			rewards: [{
+				id: "42410B896074BA93"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7Like I mentioned, entering The Medium brings the land with you. Now, have you looked up yet? Directly up from your SBURB Computer."
+				""
+				"&7High up you should see TWO colored rings spinning. These are the Gates, your paths to and from the main land, where you can find more Grist and other important supplies."
+				""
+				"&7You'll want to build up to the lower circle, and build a platform under it. Then you REALLY should build a platform up under the higher gate! You'll understand why later."
+				""
+				"&7Before you enter the first (lower) gate, make sure you are armed, armored, and have food. Because you'll be fighting pretty fast when you drop onto the main land."
+				""
+				"&7To get back to your land, look near where the first Gate drops you. There should be a plain Stone pillar with another Gate on top."
+			]
+			dependencies: ["0B913EC0A71D77DA"]
+			id: "0029F0BC75976423"
+			tasks: [{
+				id: "7491809FAFDDE7AB"
+				type: "checkmark"
+				title: "The Gates"
+			}]
+		}
+		{
+			title: "Advanced Alchemy"
+			x: 2.75d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7Alright, you know the basics of alchemy : Captchalogue an item, Punch it onto a card in the Designix, Carve that on a Dowel in the Totem Lathe, then use Grist at the Alchemizer to create it."
+				""
+				"&7But also, there are two ways of COMBINING Unpunched and (Punched) Cards into brand new items : With the Designix, or with the Totem Lathe."
+				""
+				"&7Example, a Rock Cookie. You can take a (Punched) Cobblestone card and a (Punched) Cookie card, and put both of them into the Totem Lathe. This will make a Rock Cookie shaped Cruxite Dowel. This is known as \\&\\&\\ (and) Alchemy."
+				""
+				"&7Another Example : Flowery Mossy Cobblestone. If you place a (Punched) Mossy Cobblestone card into the Designix (instead of a blank card!), and Right Click an UNPUNCHED Captchalogue Card with a Flower in it onto the keyboard, it'll punch the design onto the Mossy Cobblestone card. This is called || (or) alchemy."
+			]
+			dependencies: ["0029F0BC75976423"]
+			id: "4EAEC7D5C5DD1893"
+			tasks: [
+				{
+					id: "7EC8A51A321E0B04"
+					type: "item"
+					item: "minestuck:rock_cookie"
+				}
+				{
+					id: "38F8B3143405CE9D"
+					type: "item"
+					item: "minestuck:flowery_mossy_cobblestone"
+				}
+			]
+			rewards: [{
+				id: "2CD0CBCFFF3367EF"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Solid Note"
+			x: 4.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7If a Book and Quill aren't 'solid' enough for you to write messages to other assistants, you could always Alchemy up a Stone Tablet and a Carving Tool!"
+				""
+				"&7Put the Carving Tool in your offhand, and Right Click while holding the Stone Tablet. Now you can write, I mean carve, a message!"
+				""
+				"&7Now normally you could place this Stone Tablet out like any other block, but it seems to interact weirdly with FOP's servers and causes... issues, so I suggest NOT doing that."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "47B542CF3816510F"
+			tasks: [
+				{
+					id: "3105B5E43AB4CB6F"
+					type: "item"
+					item: "minestuck:stone_slab"
+				}
+				{
+					id: "50A58A976333A73E"
+					type: "item"
+					item: "minestuck:carving_tool"
+				}
+			]
+			rewards: [{
+				id: "4E141A4C297D214F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Computer Upgrades"
+			x: 2.75d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7Your normal SBURB Computer is great and all, but you're already in The Medium. So why not upgrade it a bit? "
+				""
+				"&7You can break the SBURB Computer and Captchalogue it. Nothing will break, you only lose the special Server Edit mode until you put out another Computer and insert the Client and Server discs, and resume your connection."
+				""
+				"&7The first Computer upgrade you can do is getting yourself a Laptop instead! It looks nicer and is more portable. Kinda. "
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "6F2679D258D56AD2"
+			tasks: [{
+				id: "1F42AE925654F800"
+				type: "item"
+				item: "minestuck:laptop"
+			}]
+			rewards: [{
+				id: "74D409118A0FF9A5"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sporkkind"
+			x: 4.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&7Sporkkind is a type of weapon. In the original SBURB you could specialize in weapon types, but it doesn't seem like that functionality is in Minestuck. But you can still make and use the powerful Sporkkind weapons!"
+				""
+				"&7The Wooden Spoon is easily made with a bowl and some sticks. Or Alchemied up, either way its not a very powerful weapon, but its a start."
+				""
+				"&7By Latheing Wooden Spoon and Iron Ingot (Punched) Cards, you get a Silver Spoon. You can also make a Fork, which also falls under Sporkkind."
+				""
+				"&7To make one of the ultimate Sporkkind weapons, Lathe (Punched) Silver Spoon and Cake cards together to make a Junior Battlemasters Bowl Buster Stirring Solution 5000 (aka : JBBSS)"
+				""
+				"&7This weapon transforms from Spoon to Fork and back by Sneak + Right Clicking with it."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "1CFC5516EB224C18"
+			tasks: [
+				{
+					id: "29E4FE687E3D9314"
+					type: "item"
+					item: {
+						id: "minestuck:wooden_spoon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "339C2071AFC3EE44"
+					type: "item"
+					item: {
+						id: "minestuck:silver_spoon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "165499EC7B762526"
+					type: "item"
+					item: {
+						id: "minestuck:fork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43765A8A12429E25"
+					type: "item"
+					item: {
+						id: "minestuck:crocker_spoon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6BAFE8C25AAD8D57"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Alternate Laptops"
+			x: 2.75d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7The plain Laptop is not your only choice for SBURB Computer.  "
+				""
+				"&7The Crocktop and Hubtop are custom colored versions, coming from different areas of the original SBURB. The Lunchtop is a very interesting variation. A holographic keyboard? Neat!"
+			]
+			dependencies: [
+				"6F2679D258D56AD2"
+				"1CFC5516EB224C18"
+			]
+			id: "6262B74AAC81D969"
+			tasks: [
+				{
+					id: "3FA03D72D5710609"
+					type: "item"
+					item: "minestuck:crockertop"
+				}
+				{
+					id: "2BAA10EB08CA8CEB"
+					type: "item"
+					item: "minestuck:hubtop"
+				}
+				{
+					id: "7338875BC21C790C"
+					type: "item"
+					item: "minestuck:lunchtop"
+				}
+			]
+			rewards: [{
+				id: "633CFD3876747116"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Old School"
+			x: 2.75d
+			y: -1.25d
+			shape: "rsquare"
+			description: ["&7If you aren't quite wanting a portable computer, you could go old school instead with an old computer!"]
+			dependencies: ["6F2679D258D56AD2"]
+			id: "167C89351DDB9BD6"
+			tasks: [{
+				id: "048FC51EABE2544A"
+				type: "item"
+				item: "minestuck:old_computer"
+			}]
+			rewards: [{
+				id: "1293E062F07B7BD9"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Teleporter Here"
+			x: 4.0d
+			y: -1.25d
+			shape: "square"
+			description: [
+				"&7The Transportalizer is a machine that can transport you to another Transportalizer."
+				""
+				"&7When you place one down, it generates a random 4 character code. When you Right Click the Transportalizer, you can see that one's code, as well as a space to put in another Transportalizer's code."
+				""
+				"&7When you put in another Transportalizer code, you can use the machine to teleport to it. "
+				""
+				"&7Note that this is one way! To get back to the first Transportalizer, you'll need to input it's code into another Transportalizer."
+				""
+				"&7Also, if you combine a Transportalizer with a Pink and Light Blue dye, you get a special decorated one. Neat!"
+			]
+			dependencies: ["6F2679D258D56AD2"]
+			id: "68EAD04BCEEAB3CA"
+			tasks: [{
+				id: "1B4E6D1295BA3865"
+				type: "item"
+				item: "minestuck:transportalizer"
+			}]
+			rewards: [{
+				id: "5F971CECCFFE5BEB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Grist of the Matter"
+			x: 10.25d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7If you're having trouble finding certain types of Grist, or have an abundance of items you aren't sending to us at The Ferret Business, you could always convert it back into Grist (as long as you can MAKE it with Grist, that is)."
+				""
+				"&7To do that, you'll need two things : Boondollars (which can be obtained from Dungeons and hidden treasures, which you can find arond The Medium), and the GristWidget 12000."
+				""
+				"&7The GristWidget 12000 is a machine you can place down, and insert Captchalogued (not Punched!) items into, and then spend Boondollars to convert them into Grist."
+			]
+			dependencies: ["1CFC5516EB224C18"]
+			id: "55A4B37D7392342A"
+			tasks: [{
+				id: "1B94CAF87A772205"
+				type: "item"
+				item: "minestuck:grist_widget"
+			}]
+			rewards: [{
+				id: "4540056C6470E594"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Nuclear Cooking"
+			x: 1.5d
+			y: 1.25d
+			shape: "square"
+			description: [
+				"&7Want to put that Raw Uranium to use? Why not make a Cookalyzer?"
+				""
+				"&7The Cookalyzer is an odd Minestuck Machine that is sort of like an upgraded Furnace... but not at the same time? But instead of Coal or Wood as it's fuel, it uses... Raw Uranium."
+				""
+				"&7Unlike a Furnace, it stores the fuel and only uses it when processing an item. One Raw Uranium can smelt HALF A STACK worth of items!"
+				""
+				"&7The downside, though? It can only smelt some items. Not Ores it seems, but making Charcoal, cooking food, etc is super fast. You have to click GO to smelt an item... for every item. That's another downside."
+				""
+				"&7Also, apparently due to the radiation of cooking, some items may not... turn out the same as they would in a Furnace. Just a warning!"
+			]
+			dependencies: ["0029F0BC75976423"]
+			id: "4F927767F75DB147"
+			tasks: [{
+				id: "4018EF74C0948014"
+				type: "item"
+				item: "minestuck:uranium_cooker"
+			}]
+			rewards: [{
+				id: "3187298F7FD11672"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "An Idea Too Good..."
+			x: 5.25d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&7I've heard tales from when SBURB was online that you could make Golden Seeds that grew Gold."
+				""
+				"&7I mean, that's nothing really new to us. The last world you were trapped in, you had such seeds. Not here though..."
+				""
+				"&7Though I'd take all this with a grain of salt. It feels like... a bit of a troll."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "7489AC339B48BA1D"
+			tasks: [{
+				id: "567534DEA30F8172"
+				type: "item"
+				item: "minestuck:gold_seeds"
+			}]
+			rewards: [{
+				id: "2E2914933EAC3217"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Delicious Cakes"
+			x: -4.75d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7SBURB had a lot of interesting, tasty, and weird foods. And in Minestuck most of them are still around, though they may be different now..."
+				""
+				"&7The most popular items were the variety of Cakes you could cook, Alchemize, or find (in fact, an entire Medium type is Cake, with Cake everywhere!)"
+				""
+				"&7While you can craft the Apple Cake normally, the rest of these cakes must be Alchemized with (and) or (or) Alchemy."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "0244FAFC9EF1AAB5"
+			tasks: [
+				{
+					id: "70D22FB395CD5167"
+					type: "item"
+					item: "minestuck:apple_cake"
+				}
+				{
+					id: "61B58AAB040EADD8"
+					type: "item"
+					item: "minestuck:blue_cake"
+				}
+				{
+					id: "556B887DCE2891CB"
+					type: "item"
+					item: "minestuck:red_cake"
+				}
+			]
+			rewards: [{
+				id: "25FF0FBCCD0BCAC2"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Deliciously Strange Cakes"
+			x: -4.75d
+			y: 0.0d
+			shape: "square"
+			description: ["&7Yes, these cakes were in the normal SBURB, but I feel like they got even stranger in this Minestuck."]
+			dependencies: ["0244FAFC9EF1AAB5"]
+			id: "701C31C6DF129DB5"
+			tasks: [
+				{
+					id: "24748B2C4353D512"
+					type: "item"
+					item: "minestuck:negative_cake"
+				}
+				{
+					id: "1C34CC7CCEFE9421"
+					type: "item"
+					item: "minestuck:reverse_cake"
+				}
+				{
+					id: "3E16BC611CAC4986"
+					type: "item"
+					item: "minestuck:hot_cake"
+				}
+				{
+					id: "71E0AA17668D409A"
+					type: "item"
+					item: "minestuck:cold_cake"
+				}
+			]
+			rewards: [{
+				id: "75EA6841B5B10817"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Special Explosives"
+			x: 0.25d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7With Alchemy you can make some specialized versions of TNT."
+				""
+				"&7Primed TNT is TNT frozen right as it's activated. A simple little 'punch' will resume its countdown. No need to mess with Redstone!"
+				""
+				"&7Unstable TNT is... I'm not sure, but I think its a bit more explosive? I'd just be careful around it is all."
+				""
+				"&7Instant TNT is what it says on the tin. When its activated, it immediately explodes. This is where you REALLY want to use Redstone circuits... or maybe just a pressure plate in the right spot for someone else."
+				""
+				"&7Last are some TNT Buttons. When activated, they explode after a few seconds. Which... I don't know why you want that, other than to prank other assistants?"
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "3BA5692E93E82EC3"
+			tasks: [
+				{
+					id: "7CE7A287C45F50A0"
+					type: "item"
+					item: "minestuck:primed_tnt"
+				}
+				{
+					id: "0259EC4291DFC667"
+					type: "item"
+					item: "minestuck:unstable_tnt"
+				}
+				{
+					id: "1A47C509CFF83A42"
+					type: "item"
+					item: "minestuck:instant_tnt"
+				}
+				{
+					id: "417AA7BE7C75E7B3"
+					type: "item"
+					item: "minestuck:wooden_explosive_button"
+				}
+				{
+					id: "68C63C965982C2B7"
+					type: "item"
+					item: "minestuck:stone_explosive_button"
+				}
+			]
+			rewards: [{
+				id: "1C5FC08C88696D81"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Nice Gambit"
+			x: 7.75d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7You can make a nice looking chessboard with some appropriately colored Terracotta."
+				""
+				"&7Unfortunately, the chess game from SBURB is not exaclty available in Minestuck, but it IS an important Alchemy item at least."
+			]
+			dependencies: ["0029F0BC75976423"]
+			id: "5015CDE85D6B320B"
+			tasks: [{
+				id: "449B8DED0FCA7B62"
+				type: "item"
+				item: "minestuck:chessboard"
+			}]
+			rewards: [{
+				id: "5E2563B2A968C949"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Consorts and Currency"
+			x: 6.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7The Medium is home to much more than just Imps, Golems, and more dangerous creatures. Consorts, which you probably found a few on your island after it was teleported, are friendly denizens of this strange place."
+				""
+				"&7The primary form of currency amongst the various Consort races is called the Boondollar. You start with some the moment you enter The Medium, and can find more by finding dungeons in the Medium, and various scattered treasure chests as well."
+				""
+				"&7You can find Consort Villages scattered around The Medium. Many have special Consort Shops you can spend your Boondollars at!"
+			]
+			dependencies: ["0029F0BC75976423"]
+			id: "1B641C0638CBBA3C"
+			tasks: [{
+				id: "20388AE7D3E5C5AC"
+				type: "item"
+				item: "minestuck:boondollars"
+			}]
+			rewards: [{
+				id: "5EEC5D71E17CDC9A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A More Modern Jukebox"
+			x: 10.25d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7Consort shops sell a variety of items, from Grist candy (great for getting that rare Grist you need), Alchemy materials, and other items you can ONLY find in shops!"
+				""
+				"&7One of them is the Cassette Player. This plays Casette Tapes, which you can make using Alchemy, combining a (Punched) Casette Player card with various Music Discs."
+				""
+				"&7You can set out the Casette Player like a Jukebox, then Right Click a Cassette onto it to insert it. Then Sneak + Right Click the Cassette Player to start the tape up! (Make sure your off hand is free though)"
+			]
+			dependencies: ["1B641C0638CBBA3C"]
+			id: "4BADFA02CD0391C6"
+			tasks: [{
+				id: "03F2AC53C7F80C60"
+				type: "item"
+				item: "minestuck:cassette_player"
+			}]
+			rewards: [{
+				id: "557A5606E15AC357"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Hammerkind"
+			x: 1.5d
+			y: 3.75d
+			shape: "square"
+			description: [
+				"&7Hammerkind is a type of weapon you could specialize in in the original SBURB game. In Minestuck, there isn't really a way to specialize in weapons currently."
+				""
+				"&7Most all Hammerkind weapons have the special ability of acting like a Pickaxe in Minestuck. Bigger, better Hammerkind weapons can mine stronger materials."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "2E15225C33ED79A3"
+			tasks: [
+				{
+					id: "68C86F92253DAE70"
+					type: "item"
+					item: {
+						id: "minestuck:claw_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "268402E39959476B"
+					type: "item"
+					item: {
+						id: "minestuck:sledge_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0450AAED5F9136C6"
+					type: "item"
+					item: {
+						id: "minestuck:mailbox"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07CE04D92757993D"
+					type: "item"
+					item: {
+						id: "minestuck:blacksmith_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "40CADD64391F47F3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Classic Foods with an Alchemical Twist"
+			x: 4.0d
+			y: 1.25d
+			shape: "square"
+			description: [
+				"&7Using Alchemy, you can make some pretty classic foods, which will make them more useful in other Alchemical creations."
+				""
+				"&7The Food Can is an easy, portable bit of food."
+				""
+				"&7Candy Corn, everyone loves/hates."
+				""
+				"&7French Fry. You could make them one at a time, but...why?"
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "07250008C909D9C4"
+			tasks: [
+				{
+					id: "1FF929EB1D4EF03C"
+					type: "item"
+					item: "minestuck:food_can"
+				}
+				{
+					id: "1200D429A4728A16"
+					type: "item"
+					item: "minestuck:candy_corn"
+				}
+				{
+					id: "23C96655618DC810"
+					type: "item"
+					item: "minestuck:french_fry"
+				}
+			]
+			rewards: [{
+				id: "39ACC72AFF4C1F6A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Weird Foods from Alchemical Minds"
+			x: 5.25d
+			y: 1.25d
+			shape: "rsquare"
+			description: ["&7While there are normal foods you can make via Alchemization, there are also... weird foods. I don't need to explain why they are weird, do I?"]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "133EBE7D43397CF1"
+			tasks: [
+				{
+					id: "55F026D425D9886A"
+					type: "item"
+					item: "minestuck:tuix_bar"
+				}
+				{
+					id: "43E9FDBD9CAD028D"
+					type: "item"
+					item: "minestuck:fungal_spore"
+				}
+				{
+					id: "375FE1F8F2914640"
+					type: "item"
+					item: "minestuck:sporeo"
+				}
+			]
+			rewards: [{
+				id: "3287B5D0141AB5CB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Surprise Every Time!"
+			x: 7.75d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7The Kundler Shelled Surprise Embryo is a fun little food item you can Alchemize."
+				""
+				"&7Each one you eat has a surprise tucked away!"
+				""
+				"&7Though sometimes you just get a rock. Keep your expectation's low, yeah?"
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "42C8D5F1C50E6838"
+			tasks: [{
+				id: "02B58222B5ACFC3F"
+				type: "item"
+				item: "minestuck:surprise_embryo"
+			}]
+			rewards: [{
+				id: "75397F9CB22912AE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Axekind"
+			x: 4.0d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&7Axekind is a weapon type one could specialize in with the original SBURB game, but in Minestuck its just a classification of weapon."
+				""
+				"&7Axekind weapons in Minestuck act like regular axes, being good for cutting down wood and similar materials."
+				""
+				"&7The Coppice Crusher, though, can fell entire trees (if said trees are 20 blocks or less large!). If there is too much for it to cut down, it will do a 3x3 area instead."
+				""
+				"&7The Crop Chop can be used to get more from your harvests!"
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "12CE8CF1578F0A55"
+			tasks: [
+				{
+					id: "514B7CE96C50F294"
+					type: "item"
+					item: {
+						id: "minestuck:copse_crusher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05E2F3B8EF1E426B"
+					type: "item"
+					item: {
+						id: "minestuck:blacksmith_bane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "618CCDEACFE052F3"
+					type: "item"
+					item: {
+						id: "minestuck:crop_chop"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1481E5B3CE3D2351"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Bigger Axekind"
+			x: 5.25d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"&7Bigger Axekind weapons are always good, and many of them have other special properties."
+				""
+				"&7An Emerald Axe is pretty basic, but its a very pretty green color instead of blue of the diamond variety."
+				""
+				"&7The Quench Crusher, and it's upgraded for Melonsbane, I'm not quite sure what they do. These were mysterious weapons in the original SBURB they were mysterious items. I would guess the Quench Crusher... wait, is that crunching thirst, or the quench?"
+				""
+				"&7And the melonsbane, well, it should be good against melons yes?"
+			]
+			dependencies: ["12CE8CF1578F0A55"]
+			id: "0A60B681E2BDD687"
+			tasks: [
+				{
+					id: "1977B653CDC4BB9D"
+					type: "item"
+					item: {
+						id: "minestuck:emerald_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "061459124C83E0BA"
+					type: "item"
+					item: {
+						id: "minestuck:quench_crusher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26F2E8EDA84D5C44"
+					type: "item"
+					item: {
+						id: "minestuck:melonsbane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5647E613C88B796C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Surprise in Every Chop!"
+			x: 10.25d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"&7Look, don't ask about this weapon or why you would make such a thing."
+				""
+				"&7Instead, you should ask why DIDN'T you make this sooner?"
+				""
+				"&7The Kundler Surprise Axe combines the chopping power of Axekind weapons, with the fun hidden treasures of the Kundler Surprise Embryo!"
+				""
+				"&7With every swing and hit, you have a chance of getting a surprise gift! Better ones than the normal Embryo candy!"
+				""
+				"&7Plus, sometimes you get really rare items that you can occasionally find in Dungeons, but less blind searching!"
+			]
+			dependencies: [
+				"12CE8CF1578F0A55"
+				"42C8D5F1C50E6838"
+			]
+			id: "37AC27307E78B106"
+			tasks: [
+				{
+					id: "504EA41F1F935F3D"
+					type: "item"
+					item: {
+						id: "minestuck:surprise_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BD4C30F30C2346D"
+					type: "item"
+					item: "minestuck:gamebro_magazine"
+				}
+				{
+					id: "3712457D29994A85"
+					type: "item"
+					item: "minestuck:gamegrl_magazine"
+				}
+			]
+			rewards: [{
+				id: "38E4E203F240348D"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Chess Weaponry"
+			x: 2.75d
+			y: 6.25d
+			shape: "rsquare"
+			description: [
+				"&7Originally these Regi weapons were pretty common once you advanced far enough in SBURB, and visited a certain NPC agent's office."
+				""
+				"&7These have a sort of... chess theme to them."
+			]
+			dependencies: [
+				"12CE8CF1578F0A55"
+				"2E15225C33ED79A3"
+				"5015CDE85D6B320B"
+				"63EC7E18C61EBBD3"
+				"1C83F6C74D185FFB"
+			]
+			id: "4AB9853767255883"
+			tasks: [
+				{
+					id: "1EBF5AD269E56E55"
+					type: "item"
+					item: {
+						id: "minestuck:regisword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66633BE346DEB3DB"
+					type: "item"
+					item: {
+						id: "minestuck:regiaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C513CF6EB6A9823"
+					type: "item"
+					item: {
+						id: "minestuck:regisickle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F934994677B8C94"
+					type: "item"
+					item: {
+						id: "minestuck:regi_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F9B5FCDE86F4257"
+					type: "item"
+					item: {
+						id: "minestuck:regi_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "447D61E1E10640A4"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Sicklekind"
+			x: 1.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: ["&7Sicklekind is a type of weapon you could specializze in in the original SBURB game. The version in Minestuck cannot be specialized in, and is mostly just to differentiate the weapon types."]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "1C83F6C74D185FFB"
+			tasks: [
+				{
+					id: "1E348A1BCD9B19D0"
+					type: "item"
+					item: {
+						id: "minestuck:sickle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "740A6879097E913F"
+					type: "item"
+					item: {
+						id: "minestuck:thorny_subject"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3623DE5A88DB02E0"
+					type: "item"
+					item: {
+						id: "minestuck:fudgesickle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65AE7F112EB104C8"
+					type: "item"
+					item: {
+						id: "minestuck:scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "114AE29B38945CBC"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Bladekind"
+			x: 4.0d
+			y: 3.75d
+			shape: "square"
+			description: ["&7Bladekind is a weapon type you could specialize in in the original SBURB game, but specialization is not a thing in Minestuck yet. "]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "63EC7E18C61EBBD3"
+			tasks: [
+				{
+					id: "50E81C27DA5B8104"
+					type: "item"
+					item: {
+						id: "minestuck:paper_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BBD5131A7F0BF81"
+					type: "item"
+					item: {
+						id: "minestuck:steak_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1526B3E022603B4A"
+					type: "item"
+					item: {
+						id: "minestuck:katana"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B105E57F0925C8A"
+					type: "item"
+					item: {
+						id: "minestuck:cactaceae_cutlass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E7A517D96547320"
+					type: "item"
+					item: {
+						id: "minestuck:dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31D5F6947EBC8D36"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Wandering in Dungeons"
+			x: 4.0d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7Exploring away from your Land and base, you'll come across a few different things."
+				""
+				"&7The first is a LOT more than just the two types of Imps you have on your Base land. They are rarer, but other types of Imps can spawn, as well as bigger, more dangerous creatures such as Liches and Salamanders!"
+				""
+				"&7You'll also find Consort villages. You can find Trader Consorts, who can carry a whole slew of uncommon and rare items you cannot Alchemically combine things to get. Keep an eye out!"
+				""
+				"&7Another important thing you can find are Dungeons. These are staircases that lead to a big drop into the Dungeon. Be careful, Imps and other creatures spawn in these winding corridoors! Yet many rare Minestuck items can be found down here too."
+				""
+				"&7Like these... questionably named candies."
+			]
+			dependencies: ["0029F0BC75976423"]
+			id: "5D1BFAD59386BF52"
+			tasks: [
+				{
+					id: "3060533C76EBD942"
+					type: "item"
+					item: "minestuck:phlegm_gushers"
+				}
+				{
+					id: "7A27A3A3E1AE8DC8"
+					type: "item"
+					item: "minestuck:sorrow_gushers"
+				}
+			]
+			rewards: [{
+				id: "2B9BCBA3C855D107"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Daunting Text of Magical Frivolity"
+			x: 6.5d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7Colonel Sassacre is a fabled... well, something from the SBURB days. I'm not sure if he was an NPC or a dev or just a guest writer or something. "
+				""
+				"&7One of the things he wrote, though, was Colonel Sassacre's Daunting Text of Magical Frivolity and Practical Japery, a very long titled book full of jokes and pranks."
+				""
+				"&7Though I don't think you can read it in this version of Minestuck... There must be another use for it, yes?"
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "0F1C8D310A3C092D"
+			tasks: [{
+				id: "3BE62C31647326B7"
+				type: "item"
+				item: "minestuck:sassacre_text"
+			}]
+			rewards: [{
+				id: "246B2964BEAA4555"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Textbook Improvements"
+			x: 0.25d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&7Ah, so there is a use for the Sassacre Text! With Alchemy, you can combine that hefty book with a Sledgehammer, and create..."
+				""
+				"&7The Telescopic Sassacrusher! Quite a powerful Hammerkind weapon, it looks like!"
+				""
+				"&7By utilizing a Canekind weapon, you can improve on the Claw Hammer multiple times. "
+			]
+			dependencies: [
+				"0F1C8D310A3C092D"
+				"2E15225C33ED79A3"
+				"766A0BB86530B0CC"
+			]
+			id: "230F9C328E139A33"
+			tasks: [
+				{
+					id: "5B57B4B41BA457FE"
+					type: "item"
+					item: {
+						id: "minestuck:telescopic_sassacrusher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A0A0C3B636EB8E1"
+					type: "item"
+					item: {
+						id: "minestuck:lucerne_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1590D48245B54EDC"
+					type: "item"
+					item: {
+						id: "minestuck:lucerne_hammer_of_undying"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "70EAA5DC16F9B562"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Shake of the Chance Cube"
+			x: 6.5d
+			y: -1.25d
+			shape: "square"
+			description: [
+				"&7What a strange thing to find in a dungeon. Thats just... a large D6? "
+				""
+				"&7Well, it looks like the original Alchemy recipe from SBURB is still in. You can Alchemy combine that with a Bucket to get yourself an 8-Ball. Another fun but not exactly useful item. At least... for the moment, of course. We are, after all, in the Minestuck game here."
+				""
+				"&7Keep in mind, you need to PUNCH the Bucket Captchalogue card, but not the Dice card. Then you leave the (Punched) Bucket card in the Designix and punch it with the Unpunched Dice card."
+				""
+				"&7Unfortunately, this Minestuck version of SBURB doesn't have the Alchemization for the actual 8-ball...but we can still use the punched 8-ball card in other recipes."
+				""
+				"&7Maybe you can find one in a Dungeon? Not that it's terribly useful."
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "56E7B60FFE29809D"
+			tasks: [
+				{
+					id: "3BF8AC82D1D3EC13"
+					type: "item"
+					item: "minestuck:dice"
+				}
+				{
+					id: "0DC3800EC3F566AD"
+					type: "item"
+					title: "Punched Captchalogue Card with Magic Eightball"
+					item: {
+						id: "minestuck:captcha_card"
+						Count: 1b
+						tag: {
+							punched: 1b
+							contentID: "minestuck:eightball"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5FC97B8B8768D3F8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Canekind"
+			x: 4.0d
+			y: 6.25d
+			shape: "square"
+			description: [
+				"&7Canekind is a type of weapon you could specialize in the original SBURB, but is just a weapon type designation in Minestuck. "
+				""
+				"&7Some Canes have special abilities to them, such as if you hit a friend with the Bear Poking Stick, you make them angry and do more damage. Or if you chose a title with Breath, the Umbrella will let you fall slower while holding it."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "3CE12E146D2F7080"
+			tasks: [
+				{
+					id: "410EB7E1F84B17BC"
+					type: "item"
+					item: {
+						id: "minestuck:cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7468D562ECDF220C"
+					type: "item"
+					item: {
+						id: "minestuck:iron_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F980B9C383C4613"
+					type: "item"
+					item: {
+						id: "minestuck:bear_poking_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1857EFC0D1C8B001"
+					type: "item"
+					item: {
+						id: "minestuck:umbrella"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37C45270BD1D5EE2"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Canes and Sticks"
+			x: 5.25d
+			y: 6.25d
+			shape: "rsquare"
+			description: [
+				"&7There's a good variety of Canekind weapons to choose from, some quite proper looking, and others... not as much."
+				""
+				"&7The Slightly Less Proper Stabbing Stick has a special feature. You can show and hide the ah.... pointy bit, by Sneaking and Right Clicking while holding the cane."
+			]
+			dependencies: ["3CE12E146D2F7080"]
+			id: "766A0BB86530B0CC"
+			tasks: [
+				{
+					id: "2908C35CDAA50AC2"
+					type: "item"
+					item: {
+						id: "minestuck:zephyr_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AD05FB9600DDB3F"
+					type: "item"
+					item: {
+						id: "minestuck:prim_and_proper_walking_pole"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64A8F042CA21F944"
+					type: "item"
+					item: {
+						id: "minestuck:less_proper_walking_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69297083B3E95F4F"
+					type: "item"
+					item: {
+						id: "minestuck:spear_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "173CAEBF1F021F03"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Wise Book of Japes"
+			x: 7.75d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7Wise Guy was one of the books in the original SBURB one could read, written by Harry Anderson."
+				""
+				"&7It contained many clever jokes and japes. What use you can find for it should be interesting."
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "4972E9EAC8A51B62"
+			tasks: [{
+				id: "607B31282BF39B0D"
+				type: "item"
+				item: "minestuck:wiseguy"
+			}]
+			rewards: [{
+				id: "4AFDC9D1B4EB98FB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Fancy Canes"
+			x: 7.75d
+			y: 6.25d
+			shape: "rsquare"
+			description: [
+				"&7With the fancy Wise Guy book, you can upgrade a Cane (or just turn a Stick into...) a fancy Vauderville Hook. "
+				""
+				"&7Another fancy cane you may be interested is the Upper Crust Crust Cane. This multifunctional beauty can beat the breadcrumbs out of your enemy, or even be eaten in a pinch and turned into more Breadcrumbs!"
+			]
+			dependencies: [
+				"4972E9EAC8A51B62"
+				"3CE12E146D2F7080"
+			]
+			id: "60E0817244B7CAD7"
+			tasks: [
+				{
+					id: "0958A6BF7F9E365D"
+					type: "item"
+					item: {
+						id: "minestuck:vaudeville_hook"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06EAEE72427EF4EC"
+					type: "item"
+					item: {
+						id: "minestuck:upper_crust_crust_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B0A2447E7849D7A"
+					type: "item"
+					item: "minestuck:breadcrumbs"
+				}
+			]
+			rewards: [{
+				id: "7F9500BBFA22A429"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.25d
+			shape: "square"
+			description: [
+				"&7If you like the sword cane stylings of the Slightly-Less Proper Stabbing Stick, then you can use it to make two better Canes!"
+				""
+				"&7The Rockefeller's Walking Bladecane is the next step up. More damage, especially when you unsheath it by Sneak + Right Clicking."
+				""
+				"&7Then you can turn that one into a Dragon Cane."
+			]
+			dependencies: ["766A0BB86530B0CC"]
+			id: "47E2D4FA60C0D37D"
+			tasks: [
+				{
+					id: "7A9339531D0365E3"
+					type: "item"
+					item: {
+						id: "minestuck:rockefellers_walking_bladecane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B11E1C2F3038776"
+					type: "item"
+					item: {
+						id: "minestuck:dragon_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "62E7EE67D2F0A787"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "In Front of the 8ball"
+			x: 7.75d
+			y: -1.25d
+			shape: "rsquare"
+			description: ["&7One of the rarer things to find in SBURB, and I figure Minestuck, dungeons is the Magic Cueball. While it seems useless on its own, it was considered a blessed find."]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "20E97775C26BA262"
+			tasks: [{
+				id: "7000F6DE2AA1BA19"
+				type: "item"
+				item: "minestuck:cueball"
+			}]
+			rewards: [{
+				id: "5FCDC4B10FBE7C16"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Clubkind"
+			x: 1.5d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&7Clubkind is a weapon type you could specialize in SBURB. In Minestuck, however, its just a classification of weaponry. "
+				""
+				"&7A lot of Clubkind weaponry uses the fairly weak Deuce Club as their base Alchemy item."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "4551541B09024053"
+			tasks: [
+				{
+					id: "387106311C598B00"
+					type: "item"
+					item: {
+						id: "minestuck:deuce_club"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06509156690F511E"
+					type: "item"
+					item: {
+						id: "minestuck:stale_baguette"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "026B4626B0DB01A4"
+					type: "item"
+					item: {
+						id: "minestuck:glub_club"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F67BFB215B7BC97"
+					type: "item"
+					item: {
+						id: "minestuck:metal_bat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "58D1913435B71BE3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Rad Poster!"
+			x: 5.25d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7Consort Shops have all manner of neat things to find. Like these posters! They show things that were sort of connected to SBURB, other projects of the devs at the time."
+				""
+				"&7These posters can be placed up on the wall, much like paintings. Don't like the one put up? Knock it down and try again!"
+			]
+			dependencies: ["1B641C0638CBBA3C"]
+			id: "66686D7659C1A860"
+			tasks: [
+				{
+					id: "04CC90A7E548A902"
+					type: "item"
+					item: "minestuck:sbahj_poster"
+				}
+				{
+					id: "2607DBC239ECA348"
+					type: "item"
+					item: "minestuck:crew_poster"
+				}
+			]
+			rewards: [{
+				id: "065AA50F5EE2F9D6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Plush Friend"
+			x: -1.0d
+			y: 1.25d
+			shape: "square"
+			description: [
+				"&7Hey look, its Petty Officer Applescab! Looks like its one of the only Scalemates that made it into Minestuck from SBURB. At least for now."
+				""
+				"&7Hm? Oh, Scalemates are just plushes. "
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "7F26533AD1A60DDA"
+			tasks: [{
+				id: "06D61B35CF115430"
+				type: "item"
+				item: "minestuck:scalemate_applescab"
+			}]
+			rewards: [{
+				id: "096AA10C12810C2E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Dark Clubs"
+			x: 0.25d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"&7With a few things, you can turn  the basic Deuce Club into a set of spiffy, stylish clubs. "
+				""
+				"&7You'll need to find some stuff from Consort Shops though. And visit The End perhaps."
+				""
+				"&7The Pogo Club can be Right Clicked on a block to bounce you upward. "
+			]
+			dependencies: [
+				"7F26533AD1A60DDA"
+				"4551541B09024053"
+				"66686D7659C1A860"
+			]
+			id: "40C83C9CEF621BE6"
+			tasks: [
+				{
+					id: "6F8BD8A0818B4643"
+					type: "item"
+					item: {
+						id: "minestuck:night_club"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B349F9EC28406C3"
+					type: "item"
+					item: {
+						id: "minestuck:nightstick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "506A9C462534B78C"
+					type: "item"
+					item: {
+						id: "minestuck:red_eyes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4310DEF1F5B57A49"
+					type: "item"
+					item: {
+						id: "minestuck:pogo_club"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2CE9BB558792AD2D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Questionable Clubs"
+			x: -2.25d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"&7Building off the original set of clubs, you can make yourself a wide variety of... well, kind of strange clubs."
+				""
+				"&7Well, maybe not the Spiked Club. It's just a stick with pointy bits, yeah?"
+			]
+			dependencies: ["4551541B09024053"]
+			id: "1DCE8232636626DE"
+			tasks: [
+				{
+					id: "119878D8129072FE"
+					type: "item"
+					item: {
+						id: "minestuck:prismarine_basher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DF8978C1CBD5E8A"
+					type: "item"
+					item: {
+						id: "minestuck:club_zero"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E7B69E4877E37D9"
+					type: "item"
+					item: {
+						id: "minestuck:clown_club"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09F16AE1F5937146"
+					type: "item"
+					item: {
+						id: "minestuck:spiked_club"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37E645BDEDD8F871"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Spiky Clubs"
+			x: -1.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&7What is a mace but a club with spikes on it?"
+				""
+				"&7Well, if it was only that easy. It seems the Mace itself is a bit harder to find in Minestuck than it was in SBURB, being a pretty standard weapon amongst Clubkind users."
+				""
+				"&7You should be able to find one in Consort Shops or Dungeons at least. Might take a while though, don't give up hope!"
+			]
+			dependencies: ["4551541B09024053"]
+			id: "3243A87F6784037D"
+			tasks: [
+				{
+					id: "59724507067FD773"
+					type: "item"
+					item: {
+						id: "minestuck:mace"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E9EB7D1AFF3AB73"
+					type: "item"
+					item: {
+						id: "minestuck:desolator_mace"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "288D18BD0D3C7510"
+					type: "item"
+					item: {
+						id: "minestuck:blazing_glory"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "619FE7C6FD876184"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7I'd say it doesn't work like that but that would be silly given where you are right now. "
+				""
+				"&7And the fact that I'm a walking computer mouse myself..."
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "556DFDEA25FB3CAF"
+			tasks: [{
+				id: "4A605D77B75EBEB0"
+				type: "item"
+				item: "minestuck:nonbinary_code"
+			}]
+			rewards: [{
+				id: "496FD45FA6F07489"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			shape: "rsquare"
+			description: ["&7An interesting twist and reference on the Mace. I approve."]
+			dependencies: [
+				"3243A87F6784037D"
+				"556DFDEA25FB3CAF"
+			]
+			id: "4C38087659796B2F"
+			tasks: [{
+				id: "394CBF9CC6A8DFAC"
+				type: "item"
+				item: {
+					id: "minestuck:m_ace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "76F22173081113A5"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Here in Bel-Air"
+			x: 10.25d
+			y: -1.25d
+			shape: "rsquare"
+			description: ["&7Thresh Prince of Bel-Air was a sort of alternate version of an old TV show that aired in-world in SBURB. Looks like about the only thing remaining of it in Minestuck is these DVDs."]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "256B1C6FB4098782"
+			tasks: [{
+				id: "18C4BA0F73D4BE9C"
+				type: "item"
+				item: "minestuck:thresh_dvd"
+			}]
+			rewards: [{
+				id: "115D353E6302BD7D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Ooo, Piece o' Candy!"
+			x: 2.75d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"&7With a bit of Alchemy, you can create these really... interesting Sicklekind, Axekind, and Sporkkind weapons."
+				""
+				"&7Like some crazy Halloween cartoon, using the Candy Sickle, Candy Battlexe, or Candy Fork to fight will earn you Treats! "
+				""
+				"&7These Treats are called Grist Candy, and there's a candy for most every Grist type!"
+			]
+			dependencies: [
+				"1C83F6C74D185FFB"
+				"07250008C909D9C4"
+				"2AE4D072C1F73F63"
+			]
+			id: "59569720AE5B9633"
+			tasks: [
+				{
+					id: "14722671FEA43C89"
+					type: "item"
+					item: {
+						id: "minestuck:candy_sickle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58E7097D40711442"
+					type: "item"
+					item: "minestuck:build_gushers"
+				}
+				{
+					id: "32B0621C67B9C536"
+					type: "item"
+					item: {
+						id: "minestuck:candy_battleaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5545F3E52A09FF23"
+					type: "item"
+					item: {
+						id: "minestuck:candy_fork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "51F646059998AECD"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Hard to Say No to a Classic"
+			x: 0.25d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"&7That classic being, of course, Thresh Prince. If you found one of those DVD's, you can make a classic line of Sickles with it."
+				""
+				"&7The first one is the Homes Smell Ya Later, a fairly weak early Sicklekind weapon, but better as an homage to a famouse line from Thresh Prince."
+				""
+				"&7From that, you can make the Hemeoreaper. That is, if you can find a specific Bucket of Blood type. Not just any Blood will do, unfortunately, it has to come from The Medium."
+				""
+				"&7And from that lucky sickle, you can make the Clawsickle."
+			]
+			dependencies: [
+				"1C83F6C74D185FFB"
+				"256B1C6FB4098782"
+			]
+			id: "2E98B612E3981107"
+			tasks: [
+				{
+					id: "2F8B7FA6F57B1894"
+					type: "item"
+					item: {
+						id: "minestuck:homes_smell_ya_later"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E685E3F520296BF"
+					type: "item"
+					item: {
+						id: "minestuck:hemeoreaper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0596E5BD67A5BA0D"
+					type: "item"
+					item: {
+						id: "minestuck:claw_sickle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6769F4E4C8BEE4DC"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Dangerous Tome"
+			x: 5.25d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7Normally quite a dangerous tome to find, the Grimoire for Summoning the Zoologically Dubious doesn't have quite the same power as it did in SBURB."
+				""
+				"&7Originally, this book described a variety of dangerous creatures, as well as how to summon them. In Minestuck, it is used, instead, for the creation of dangerous weaponry. "
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "227ECF0B7EA86708"
+			tasks: [{
+				id: "181C94D7E64578CF"
+				type: "item"
+				item: "minestuck:grimoire"
+			}]
+			rewards: [{
+				id: "6266942CB3E89177"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Horrorterror of a Sickle"
+			x: -1.0d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&7I feel it's best not to ask what actually Alchemizes when you create this very powerful, dangerous Sicklekind weapon."
+				""
+				"&7But what you SHOULD note is that every few attacks, this weapon will afflict you with Wither, and say creepy things at you."
+			]
+			dependencies: [
+				"227ECF0B7EA86708"
+				"2E98B612E3981107"
+			]
+			id: "477C8C80698E0123"
+			tasks: [{
+				id: "65E8502F67AE3B8D"
+				type: "item"
+				item: {
+					id: "minestuck:claw_of_nrubyiglith"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02EC9792B6747A19"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Questionable Language"
+			x: -2.25d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"&7You know...this upgrade to the Regisickle is nice but.."
+				""
+				"&7Something is bugging me about the name. Not sure what."
+			]
+			dependencies: [
+				"4AB9853767255883"
+				"1C83F6C74D185FFB"
+			]
+			id: "1C92F152678EEF95"
+			tasks: [{
+				id: "70530CC6BB352D44"
+				type: "item"
+				item: {
+					id: "minestuck:hereticus_aururm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F858F0090E4E786"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Shake Shake Slice"
+			x: -3.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&7Look, okay maybe making the 8-ball (Punched) card isn't THAT useless. You can make this spiffy Scythe with it!"
+				""
+				"&7What it actually does other than be a decent Sicklekind weapon is uh...it's neat, that's what."
+			]
+			dependencies: [
+				"56E7B60FFE29809D"
+				"1C83F6C74D185FFB"
+			]
+			id: "7AEF4E97C6F7EE27"
+			tasks: [{
+				id: "46CACAADD959D28C"
+				type: "item"
+				item: {
+					id: "minestuck:eightball_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "269E20B6E8F15E8E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Makeupkind"
+			x: 1.5d
+			y: 7.5d
+			shape: "rsquare"
+			description: [
+				"&7Makeupkind is a very...interesting weapon type. It wasn't really that developed in the original SBURB, but it seems to be more developed in Minestuck!"
+				""
+				"&7Makeupkind is a sort of...transforming weapon type. The base weapon you'll need to make some Lip Balm, which you can then turn into Jade Lipstick."
+				""
+				"&7But to show off the true form of a Makeupkind weapon, you need to hold it and Sneak + Right Click to reveal the alternate weapon type : Chainsawkind!"
+			]
+			dependencies: ["6F2679D258D56AD2"]
+			id: "56A73F4BCA8157DA"
+			tasks: [
+				{
+					id: "395CCD3C7C9AC835"
+					type: "item"
+					item: "minestuck:lip_balm"
+				}
+				{
+					id: "00D2FA216FCE0336"
+					type: "item"
+					item: {
+						id: "minestuck:lipstick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03661F143153A840"
+					type: "item"
+					item: {
+						id: "minestuck:thistleblower"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3996155284CD38CB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Lovely Shade"
+			x: 0.25d
+			y: 7.5d
+			shape: "square"
+			description: [
+				"&7Lipsticks in Makeupkind comes in many lovely shades. And thus, Chainsawkind weapons come in many varieties too!"
+				""
+				"&7Okay well, more like they come in a few other colors, the Makeupkind / Chainsawkind weapons are sort of a more niche weapon type."
+			]
+			dependencies: ["56A73F4BCA8157DA"]
+			id: "7B89076A167E1FEB"
+			tasks: [{
+				id: "25133BF7DF9D02F4"
+				type: "item"
+				item: {
+					id: "minestuck:emerald_immolator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7562DDF59EC0B0F1"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			shape: "rsquare"
+			description: ["&7More nice colors of Lipstick and Chainsaws! A bit more powerful as well. "]
+			dependencies: ["7B89076A167E1FEB"]
+			id: "22EC2C799BF71D40"
+			tasks: [
+				{
+					id: "1A41F0EBFAA187E9"
+					type: "item"
+					item: {
+						id: "minestuck:frosttooth"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56075AC31CCAA02A"
+					type: "item"
+					item: {
+						id: "minestuck:obsidiator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31E0810A420CA7A9"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Lancekind"
+			x: 4.0d
+			y: 7.5d
+			shape: "rsquare"
+			description: ["&7Lancekind is a type of weapon you could specialize in in the original SBURB. Though, in both SBURB and Minestuck, there weren't too many Lances you could wield."]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "23F5CD30E1E3F55A"
+			tasks: [{
+				id: "053765CA4AACCFC4"
+				type: "item"
+				item: {
+					id: "minestuck:jousting_lance"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C58E2D560D1B78C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Quite a Big Smoke"
+			x: 5.25d
+			y: 7.5d
+			shape: "square"
+			description: ["&7An interesting take on a cigarette holder I guess? This seems familiar."]
+			dependencies: [
+				"23F5CD30E1E3F55A"
+				"56E7B60FFE29809D"
+			]
+			id: "30134640E41DB9BE"
+			tasks: [{
+				id: "64F14DE8CA832F03"
+				type: "item"
+				item: {
+					id: "minestuck:cigarette_lance"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "37A9F2D074E078E6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Democracy!"
+			x: -1.0d
+			y: 3.75d
+			shape: "square"
+			description: ["&7Upgrade to your patriotic duty, make your voice heard!"]
+			dependencies: [
+				"2E15225C33ED79A3"
+				"07250008C909D9C4"
+			]
+			id: "0A50B8793529A1E6"
+			tasks: [{
+				id: "7C23DB701E3E6A46"
+				type: "item"
+				item: {
+					id: "minestuck:democratic_demolitioner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67F280059FF92CFA"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Bounce"
+			x: -2.25d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&7The Pogo Hammer is the next step in Hammerkind weaponry, quite a useful thing. If you Right Click it on a block, you'll bounce up into the air! You can time this right and prevent fall damage... if, you know, you forgot you could Double Lump for some reason."
+				""
+				"&7Oh, also, if you hit enemies with the Pogo Hammer, it knocks them back further as well. Cause, you know, they aren't a solid block."
+				""
+				"&7The Wrinklefucker is one of the upgrades to the Pogo Hammer, combining a couple Clothes Irons to it with Alchemy. Great for ironing out shirts, bouncing around like the Pogo Hammer, and crushing enemies."
+			]
+			dependencies: ["2E15225C33ED79A3"]
+			id: "3DA229D54D6D2370"
+			tasks: [
+				{
+					id: "1DD625F4636BACE4"
+					type: "item"
+					item: {
+						id: "minestuck:pogo_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11DAF6F2CF86C885"
+					type: "item"
+					item: "minestuck:clothes_iron"
+				}
+				{
+					id: "5551CCA154AC0502"
+					type: "item"
+					item: {
+						id: "minestuck:wrinklefucker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4AAEB3BF1580312B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.75d
+			shape: "square"
+			description: [
+				"&7By combining the bouncing power of the Pogo Hammer and the crushing axe power of the Coppice Crusher, you can make the Pistoned-Powered Pogo Pulverizer, quite a dangerous weapon!"
+				""
+				"&7But it doesn't stop there! Alchemizing a combination with an Energy Core, you can power it up even more!"
+				""
+				"&7Both of these still retain the Pogo Hammer's bounce ability too!"
+			]
+			dependencies: [
+				"3DA229D54D6D2370"
+				"12CE8CF1578F0A55"
+			]
+			id: "2647DF1F50DEB5AD"
+			tasks: [
+				{
+					id: "5F170E7671A0590E"
+					type: "item"
+					item: {
+						id: "minestuck:piston_powered_pogo_axehammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DB807C761AC9B17"
+					type: "item"
+					item: {
+						id: "minestuck:fission_focused_fault_feller"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "05FB55C8FA02AA52"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Fear the Heat"
+			x: -4.75d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&7Three of the most powerful Hammerkind weapons you can make are the Fear No Anvil, Estrogen-Empowered Everything Eradicator, and Melt-Masher."
+				""
+				"&7Fear No Anvil has a chance of causing enemies it hits to slow down heavily. "
+				""
+				"&7Meanwhile, the Melt-Masher can ignite enemies it hits."
+			]
+			dependencies: [
+				"2E15225C33ED79A3"
+				"37AC27307E78B106"
+			]
+			id: "4D7B4B1F34A35CF2"
+			tasks: [
+				{
+					id: "0F20F88E8C3FA9BE"
+					type: "item"
+					item: {
+						id: "minestuck:fear_no_anvil"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "390A0F747E84FCE5"
+					type: "item"
+					item: {
+						id: "minestuck:melt_masher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C1E48AEC68C1D09"
+					type: "item"
+					item: {
+						id: "minestuck:estrogen_empowered_everything_eradicator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5E299C63666C7248"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "A Good Shave"
+			x: 9.0d
+			y: -1.25d
+			shape: "square"
+			description: ["&7Barbasol was one of the common products you could find in game in old SBURB, an interesting sort of product placement that strangely fit in well. Now you can only find these things in Dungeons in the Medium."]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "217CF823215480EC"
+			tasks: [{
+				id: "02B0A7FB285C4A2C"
+				type: "item"
+				item: "minestuck:barbasol"
+			}]
+			rewards: [{
+				id: "35E8DD02C717537E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -4.75d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"&7With that Barbasol you found, you can make a special Clubkind weapon called the Barbasol Basher."
+				""
+				"&7Youc an also make a strange sort of...grenade? I mean, those cans are pretty pressurized, doesn't take too much to turn them into improvied exlosives."
+			]
+			dependencies: [
+				"4551541B09024053"
+				"217CF823215480EC"
+			]
+			id: "540942A222CD8F75"
+			tasks: [
+				{
+					id: "48CD0A6531A9CC0B"
+					type: "item"
+					item: {
+						id: "minestuck:barber_basher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7010ED27349EF9C9"
+					type: "item"
+					item: "minestuck:barbasol_bomb"
+				}
+			]
+			rewards: [{
+				id: "3C10B1F9E6301210"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Esoteric Programming"
+			x: 10.25d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7~ATH is a... strange coding language from the original SBURB. Strange as it relied on things dieing to execute major code. "
+				""
+				"&7An ~ATF program is required to have a repeating bit of code, a loop, that never stops until the object it is bound to dies. Anything with a short life span is not valid, it seems. When the object dies, the rest of the program runs."
+				""
+				"&7It doesn't seem to have survived into Minestuck, other than a few references and that very heavy handbook you have there."
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "258105C3D1BEAC95"
+			tasks: [{
+				id: "51AFFBC78DCD23BE"
+				type: "item"
+				item: "minestuck:tilldeath_handbook"
+			}]
+			rewards: [{
+				id: "12CDEC090F058A42"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Of Pens and Papers"
+			x: 11.5d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&7Back when SBURB was around, there were a lot of fan projects, big and small. Craft projects, fan stories, and even a whole pen and paper RPG based around SBURB. "
+				""
+				"&7This was called Tablestuck. It was made for big groups that regularly had small group sessions, and later would meet up for bigger adventures."
+				""
+				"&7This manual was added to SBURB as sort of an easter egg reward for all the work done on it."
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "6B425904D1CD374E"
+			tasks: [{
+				id: "1EF722445743492D"
+				type: "item"
+				item: "minestuck:tablestuck_manual"
+			}]
+			rewards: [{
+				id: "363366AA6263D9CC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Batty RP"
+			x: 12.75d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"&7FLARP was an in-game sort of minigame in the original SBURB, which would use 'bats' to create a play area, show player stats, and overall help run the game 'code' for FLARP participants."
+				""
+				"&7It doesn't seem that this has transferred into Minestuck, other than this handy but useless book."
+			]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "2249F5BCB73D42FB"
+			tasks: [{
+				id: "6090FA925E8D86A2"
+				type: "item"
+				item: "minestuck:flarp_manual"
+			}]
+			rewards: [{
+				id: "1BCF9FD57FF6E1AC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Mystical Weaponry"
+			x: 2.75d
+			y: 7.5d
+			shape: "square"
+			description: ["&7There are some weapons here you can Alchemize that I've never seen before. Perhaps they were part of a planned update that never made it?"]
+			dependencies: [
+				"4AB9853767255883"
+				"56E7B60FFE29809D"
+			]
+			id: "710594286A1C0C5B"
+			tasks: [{
+				id: "7024DA9A0D58253F"
+				type: "item"
+				item: {
+					id: "minestuck:mwrthwl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "70FD36E41055B24A"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Stranger Clubs"
+			x: -2.25d
+			y: 1.25d
+			shape: "rsquare"
+			description: ["&7I'm not sure where these two clubs come from, but they are quite...interesting. Historically, these were clubs with sharp chunks of obsidian embedded in them."]
+			dependencies: ["1DCE8232636626DE"]
+			id: "1CEE4074BFE9934D"
+			tasks: [
+				{
+					id: "2CB12A68F397BB3C"
+					type: "item"
+					item: {
+						id: "minestuck:macuahuitl"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A2ECDAC3AF7FEC9"
+					type: "item"
+					item: "minestuck:ice_shard"
+				}
+				{
+					id: "58B51518079F67F0"
+					type: "item"
+					item: {
+						id: "minestuck:frosty_macuahuitl"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7237592BB22FABFD"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Say Fuzzy Pickles"
+			x: 9.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7This little device is quite handy when you want to gather rarer, tougher to find, or near impossible to gather materials."
+				""
+				"&7The Captcharoid Camera can be Right Clicked onto a block in the world to make a (Ghost) Captchalogue card of that item. It can also do the same with items placed in Item Frames."
+				""
+				"&7This (Ghost) Captchalogue card can be used to make (Punched) cards in the Designix."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "6A64C43998CDD073"
+			tasks: [{
+				id: "18103D43C68B6AA1"
+				type: "item"
+				item: {
+					id: "minestuck:captcharoid_camera"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BA2BF82F64FB091"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Dagger Danger"
+			x: 5.25d
+			y: 3.75d
+			shape: "rsquare"
+			description: ["&7There is a nice line of Daggers in the Bladekind weapon type. There isn't much to say about them, other than they are daggers, and pretty cool."]
+			dependencies: ["63EC7E18C61EBBD3"]
+			id: "33E84040DEF3653D"
+			tasks: [
+				{
+					id: "5E7FB630E499E3A9"
+					type: "item"
+					item: {
+						id: "minestuck:toothripper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "012CF4DFD3128974"
+					type: "item"
+					item: {
+						id: "minestuck:light_of_my_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61309EFB84BEA333"
+					type: "item"
+					item: {
+						id: "minestuck:starshard_tri_blade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3CCB9373953B4D24"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Bigger Swords"
+			x: 6.5d
+			y: 3.75d
+			shape: "square"
+			description: [
+				"&7Bladekind has a nice variety of weapons, though unlike other weapon types in Minestuck, they don't tend to have secondary functions like axes or hammers."
+				""
+				"&7Though some Bladekind weapons have extra abilities, like the Fire Poker and Too Hot to Handle can set enemies on fire."
+			]
+			dependencies: ["63EC7E18C61EBBD3"]
+			id: "6B525AA601F8DA0E"
+			tasks: [
+				{
+					id: "5E861EC974A550C0"
+					type: "item"
+					item: {
+						id: "minestuck:claymore"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49B4163D49217533"
+					type: "item"
+					item: {
+						id: "minestuck:angel_apocalypse"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "761E0A2D6EF33C4E"
+					type: "item"
+					item: {
+						id: "minestuck:fire_poker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AF8103E1BFFFD71"
+					type: "item"
+					item: {
+						id: "minestuck:too_hot_to_handle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "250AECF659AEAF78"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Menacing Swords"
+			x: 10.25d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&7With some special materials, like that strange Zoological Text and the Captcharoid Camera, you can make a pair of very...dangerous swords."
+				""
+				"&7The Cruel Fate Crucible looks like its ready to rip and tear into enemies. "
+				""
+				"&7And the Unbreakable Katana...well, I guess the name speaks for itself?"
+			]
+			dependencies: [
+				"227ECF0B7EA86708"
+				"6A64C43998CDD073"
+				"63EC7E18C61EBBD3"
+			]
+			id: "6E52D92BF800DF60"
+			tasks: [
+				{
+					id: "68E3F22D338E2652"
+					type: "item"
+					item: {
+						id: "minestuck:cruel_fate_crucible"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5349ABB06A825C8A"
+					type: "item"
+					item: "minestuck:unbreakable_katana"
+				}
+			]
+			rewards: [{
+				id: "0E9A8B3BCA4D1DE8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Hotter Swords"
+			x: 7.75d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&7Upgrading from the hot Bladekind weapons is a natural progression."
+				""
+				"&7On top of that, the Quantum Saber will stack on Wither to enemies you hit with a critical attack."
+			]
+			dependencies: ["6B525AA601F8DA0E"]
+			id: "4E42882F5E651AC9"
+			tasks: [
+				{
+					id: "2191308B8966C6F6"
+					type: "item"
+					item: {
+						id: "minestuck:cobalt_sabre"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "128E8530C0E9F35F"
+					type: "item"
+					item: "minestuck:uranium_powered_stick"
+				}
+				{
+					id: "36890635AAD7CC4B"
+					type: "item"
+					item: {
+						id: "minestuck:quantum_sabre"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4DF4EA566CA44F3B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.75d
+			shape: "square"
+			description: [
+				"&7By concentrating the power of a Beacon into a Bladekind weapon, you can get some pretty awesome damage. "
+				""
+				"&7And if you spell badly, well... I'm not sure what else to say about the other weapon."
+			]
+			dependencies: ["63EC7E18C61EBBD3"]
+			id: "524807C3187A86F8"
+			tasks: [
+				{
+					id: "1041CD6EEDA40282"
+					type: "item"
+					item: {
+						id: "minestuck:shatter_beacon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72B4A514C6DFC995"
+					type: "item"
+					item: {
+						id: "minestuck:shatter_bacon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5428897B547CB87B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Choppier Axes"
+			x: 6.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&7There's a lot of axes you can build off of with Axekind."
+				""
+				"&7The Battleax is much better at collecting heads than wood... maybe both? Chop chop I guess!"
+				""
+				"&7The Last Straw is an improvement on the Crop Chop... well, in certain ways. You'll figure it out."
+				""
+				"&7And the Scraxe... is the Scraxe. Very musical. Very tuned."
+			]
+			dependencies: ["12CE8CF1578F0A55"]
+			id: "2AE4D072C1F73F63"
+			tasks: [
+				{
+					id: "7442C81AF9F0E518"
+					type: "item"
+					item: {
+						id: "minestuck:battleaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1330132CEF45C25D"
+					type: "item"
+					item: {
+						id: "minestuck:the_last_straw"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F5E752E0F25F052"
+					type: "item"
+					item: {
+						id: "minestuck:scraxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "74F402DE167EF6EE"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Stranger Axes"
+			x: 7.75d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"&7The Lorentz Detransformationer is an... interesting weapon, to say the least. It has a giant explanation on the handle for some reason, but the long and short of it is: You get a crit, you get a teleport. I don't need to elaborate further."
+				""
+				"&7The Hepheastus' Lumberjack is both great at chopping trees and at setting enemies on fire."
+			]
+			dependencies: ["2AE4D072C1F73F63"]
+			id: "682ECBF2373A2E53"
+			tasks: [
+				{
+					id: "3537CB98A8C21277"
+					type: "item"
+					item: {
+						id: "minestuck:lorentz_distransformationer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "221A4A31456D3C28"
+					type: "item"
+					item: {
+						id: "minestuck:hephaestus_lumberjack"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "48EC3D3D0FEE9CFE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Tastier Axes"
+			x: 9.0d
+			y: 5.0d
+			shape: "rsquare"
+			description: ["&7There's not much to say about these Axekind weapons. They are improvements on earlier versions, but without their special powers."]
+			dependencies: ["59569720AE5B9633"]
+			id: "4FB3B40FC0B7E2F3"
+			tasks: [
+				{
+					id: "101B1915FC8766E7"
+					type: "item"
+					item: {
+						id: "minestuck:choco_loco_woodsplitter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ECC19F23D4574A8"
+					type: "item"
+					item: {
+						id: "minestuck:ruby_croak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78A9480CDA003755"
+					type: "item"
+					item: {
+						id: "minestuck:fine_china_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7B84228456BD321D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Top of the Axe"
+			x: 11.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: ["&7These axes are the top of the line of Axekind. They may not have the highest damage, but they are all awesome on their own right."]
+			dependencies: [
+				"4FB3B40FC0B7E2F3"
+				"37AC27307E78B106"
+				"4AB9853767255883"
+			]
+			id: "1E443136B00E7646"
+			tasks: [
+				{
+					id: "18FE559AEFBBFCCF"
+					type: "item"
+					item: {
+						id: "minestuck:steel_edge_candycutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FCDAAE8F4BCD2ED"
+					type: "item"
+					item: {
+						id: "minestuck:gothy_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BA2C971A1EDE898"
+					type: "item"
+					item: {
+						id: "minestuck:shock_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4FE71F693E76FC3A"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Clawkind"
+			x: 1.5d
+			y: 6.25d
+			shape: "square"
+			description: [
+				"&7Clawkind is a type of weapon you could specialize in SBURB, but in Minestuck its just a class of weapon."
+				""
+				"&7There aren't many different Clawkind weapons in Minestuck, but each one is fairly interesting."
+				""
+				"&7Oh! A neat thing with most Clawkind weapons: You can sheath and unsheath the claws by Sneak + Right Clicking while holding them."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "204F184CBE5FC365"
+			tasks: [
+				{
+					id: "312EA389CC4FE379"
+					type: "item"
+					item: {
+						id: "minestuck:cat_claws_drawn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "268F23B9A3D5FFED"
+					type: "item"
+					item: {
+						id: "minestuck:skeletonizer_drawn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "63336BF9250AB92D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Clawier Claws"
+			x: 0.25d
+			y: 6.25d
+			shape: "rsquare"
+			description: ["&7These claws get more and more interesting. It's just too bad that there weren't too many Clawkind weapons in either SBURB or Minestuck. "]
+			dependencies: ["204F184CBE5FC365"]
+			id: "2E86816D4B1B276B"
+			tasks: [
+				{
+					id: "109D26D00A823489"
+					type: "item"
+					item: {
+						id: "minestuck:skeleton_displacer_drawn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10B4A05890C6A8FC"
+					type: "item"
+					item: {
+						id: "minestuck:tears_of_the_enderlich_drawn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "20D3A68909BF10A3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Other Weaponkinds"
+			x: 2.75d
+			y: 8.75d
+			shape: "rsquare"
+			description: ["&7There were a bunch of planned ~kind weapons in SBURB before it vanished, and some of the prototypes and other things are available in Minestuck."]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "1ECEFF7B8C77A211"
+			tasks: [
+				{
+					id: "610DBE1D04FA5AC3"
+					type: "item"
+					item: {
+						id: "minestuck:obsidian_axe_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6789E3C2B4963FA9"
+					type: "item"
+					item: {
+						id: "minestuck:fan"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0642C61CF6023300"
+					type: "item"
+					item: {
+						id: "minestuck:typhonic_trivializer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7047D6E2E38F81AF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Tasty Canes"
+			x: 9.0d
+			y: 6.25d
+			shape: "square"
+			description: [
+				"&7You know, I never checked if these were actually Canekind weapons in the original SBURB. I mean, it's in the name, and it'd fit, but they may have been planning like... a Candykind type maybe?"
+				""
+				"&7Anyways! The regular Candy Cane is simple to make, and simple to consume into a more dangerous weapon!"
+			]
+			dependencies: ["3CE12E146D2F7080"]
+			id: "6D759E66F2A2D352"
+			tasks: [
+				{
+					id: "43956CC00D237615"
+					type: "item"
+					item: {
+						id: "minestuck:candy_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AC3ECF68BFB513F"
+					type: "item"
+					item: {
+						id: "minestuck:sharp_candy_cane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A725EC07B081941"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Scoop n Stab"
+			x: 5.25d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"&7Sporkkind weapons come in lots of handy tableside varieties. "
+				""
+				"&7Take the Melonballer for example. Great for smacking enemies with, and you can instantly scoop up Melons with a Right Click!"
+				""
+				"&7The Terrain Flatenator, a sort of spatula, is good for digging up and flattening Dirt in larger areas!"
+			]
+			dependencies: ["1CFC5516EB224C18"]
+			id: "296B8B0FCD84364E"
+			tasks: [
+				{
+					id: "3944C19FCE49F3C0"
+					type: "item"
+					item: {
+						id: "minestuck:melonballer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D7A23B0969F6857"
+					type: "item"
+					item: {
+						id: "minestuck:terrain_flatenator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A98B62B94021DA6"
+					type: "item"
+					item: {
+						id: "minestuck:tuning_fork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22EEA655197C1490"
+					type: "item"
+					item: {
+						id: "minestuck:spork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "26FD0E71DABF412C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Fancier Dinnerware"
+			x: 6.5d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&7You can make some nicer looking Spoonkind weapons, that are much more powerful battle weapons!"
+				""
+				"&7Like the Nosferatu Spoon, great at making your enemies hungry."
+			]
+			dependencies: ["296B8B0FCD84364E"]
+			id: "703F89FD5F2FD0C5"
+			tasks: [
+				{
+					id: "1DB01B4B9F5683FF"
+					type: "item"
+					item: {
+						id: "minestuck:nosferatu_spoon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "710FE1EC5B1E8F8A"
+					type: "item"
+					item: {
+						id: "minestuck:skaia_fork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6EC86B653D685EBB"
+					type: "item"
+					item: {
+						id: "minestuck:sightseeker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BC7545CC1EF7594"
+					type: "item"
+					item: {
+						id: "minestuck:golden_spork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "36E6160ED5E42DE9"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Fancier Fancy Forks"
+			x: 7.75d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"&7These forks can get really really fancy, I see. "
+				""
+				"&7The Electric Fork, especially, can make things drop their weapon sometimes! But don't forget you are kind of conductive yourself."
+			]
+			dependencies: ["703F89FD5F2FD0C5"]
+			id: "07155F55894369A3"
+			tasks: [
+				{
+					id: "26511389C14E5F9C"
+					type: "item"
+					item: {
+						id: "minestuck:eating_fork_gem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "468168287BAFA220"
+					type: "item"
+					item: {
+						id: "minestuck:electric_fork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E2294027CB55116"
+					type: "item"
+					item: {
+						id: "minestuck:devil_fork"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7A643CD87563CA93"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Little Statues"
+			x: 11.5d
+			y: -1.25d
+			shape: "square"
+			description: ["&7These two statues are pretty popular amongst the Medium residents, and they can be found in both Dungeon chests in the Medium, and Consort Shops in Villages."]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "0FC09B48EF4C48EC"
+			tasks: [
+				{
+					id: "33268933149F1841"
+					type: "item"
+					item: "minestuck:mini_wizard_statue"
+				}
+				{
+					id: "2B68CBDB8DE5FD5A"
+					type: "item"
+					item: "minestuck:mini_frog_statue"
+				}
+			]
+			rewards: [{
+				id: "6C808B1AD632A15F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Wandkind"
+			x: 1.5d
+			y: 8.75d
+			shape: "square"
+			description: [
+				"&7Wandkind is a weapon type you could specialize in in the original SBURB, but now its just a classification of weaponry in Minestuck."
+				""
+				"&7Like the other smaller ~kind weapon sets, there aren't many Wandkind weapons, but they are all kind of interesting."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "38A6F85CCE39EF90"
+			tasks: [
+				{
+					id: "40B6DDF25F093C4A"
+					type: "item"
+					item: {
+						id: "minestuck:pointy_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B8FFF775ED2DCAC"
+					type: "item"
+					item: {
+						id: "minestuck:knitting_needle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "45FBEDC40A3965B7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Special Wands"
+			x: 0.25d
+			y: 8.75d
+			shape: "rsquare"
+			description: [
+				"&7Once you upgrade from the basic Pointy Stick and Knitting Needle, Wandkind weapons become ranged weapons! Cause they are wands, and cast magic missile of course."
+				""
+				"&7The Pointer Wand isn't very strong, but it automatically aims at a random nearby target when you Right Click to fire it."
+			]
+			dependencies: ["38A6F85CCE39EF90"]
+			id: "361467EE041AFADF"
+			tasks: [
+				{
+					id: "0051F325A1903C7C"
+					type: "item"
+					item: {
+						id: "minestuck:pointer_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7816501B6445C03C"
+					type: "item"
+					item: {
+						id: "minestuck:needle_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4FA1333C921647E8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Dangerous Wands"
+			x: -1.0d
+			y: 8.75d
+			shape: "square"
+			description: ["&7That Zoological Tome makes your Needle Wand a much more... I guess sinister feeling wand in a way."]
+			dependencies: [
+				"361467EE041AFADF"
+				"227ECF0B7EA86708"
+			]
+			id: "121849B8103B7E7E"
+			tasks: [{
+				id: "5F394D87EF122C14"
+				type: "item"
+				item: {
+					id: "minestuck:thorn_of_oglogoth"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CDDC727E33E4C3C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Aces High"
+			x: 12.75d
+			y: -1.25d
+			shape: "rsquare"
+			description: ["&7There are special Ace playing cards you can find in Dungeons and Consort Shops. They are very weak weapons, but are neat and can be used to make something a bit stronger."]
+			dependencies: ["5D1BFAD59386BF52"]
+			id: "064A1E5DC984F2E6"
+			tasks: [
+				{
+					id: "1B6E2DCC503F059E"
+					type: "item"
+					item: {
+						id: "minestuck:ace_of_spades"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C45059B797E5A73"
+					type: "item"
+					item: {
+						id: "minestuck:ace_of_hearts"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7EEF0819D100A3BA"
+					type: "item"
+					item: {
+						id: "minestuck:ace_of_diamonds"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6491F994BBBA3CA5"
+					type: "item"
+					item: {
+						id: "minestuck:ace_of_clubs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "17747148E3B58307"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Thrwstarkind"
+			x: 4.0d
+			y: 8.75d
+			shape: "square"
+			description: [
+				"&7ThrowingStarKind, or Thrwstarkind, is a weapon type you could specialize in in SBURB, but is just a weapon classification now. It consists of a few weapons that are or close to throwing stars, ninja stars, kunai, etc etc."
+				""
+				"&7And shurikens, can't forget shurikens."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "61CE5BD585CA757D"
+			tasks: [{
+				id: "6E83BAEB835255DF"
+				type: "item"
+				item: "minestuck:shuriken"
+			}]
+			rewards: [{
+				id: "71E4BD4573FE4D66"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Suitarangs"
+			x: 5.25d
+			y: 8.75d
+			shape: "rsquare"
+			description: ["&7Those playing cards can be Alchemized with Shurikens to make some fancy looking Suitarangs, playing suit throwing stars."]
+			dependencies: [
+				"61CE5BD585CA757D"
+				"064A1E5DC984F2E6"
+			]
+			id: "337CD53C7B3BDA82"
+			tasks: [
+				{
+					id: "44FCBDFEC66AAF63"
+					type: "item"
+					item: "minestuck:spades_suitarang"
+				}
+				{
+					id: "46E817B655EB6DA2"
+					type: "item"
+					item: "minestuck:clubs_suitarang"
+				}
+				{
+					id: "51ADA83CB665023A"
+					type: "item"
+					item: "minestuck:hearts_suitarang"
+				}
+				{
+					id: "6F34B4E0D0D91390"
+					type: "item"
+					item: "minestuck:diamonds_suitarang"
+				}
+			]
+			rewards: [{
+				id: "63DF734D58DAF70F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Weapons with Pride"
+			x: 2.75d
+			y: 3.75d
+			shape: "rsquare"
+			description: ["&7You can make a nice Bi Dye with a few choice colors. This can then be used to Alchemize a few special Sporkkind and Axekind weapons!"]
+			dependencies: [
+				"4EAEC7D5C5DD1893"
+				"12CE8CF1578F0A55"
+				"1CFC5516EB224C18"
+			]
+			id: "21A7BD23C444F5BB"
+			tasks: [
+				{
+					id: "6AFD5AB8011E5784"
+					type: "item"
+					item: "minestuck:bi_dye"
+				}
+				{
+					id: "00FD89985407F475"
+					type: "item"
+					item: {
+						id: "minestuck:bident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02E234CF3BF1D3E8"
+					type: "item"
+					item: {
+						id: "minestuck:bisector"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "214409FACB25FC6D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Bouncy Types"
+			x: 6.5d
+			y: 8.75d
+			shape: "square"
+			description: [
+				"&7The Magic Chakram is a Thrwstarkind weapon that will bounce back to where you threw it from, and with careful planning you could do some real damage...probably to yourself."
+				""
+				"&7The Umbral Infiltrator is...well in SBURB it could phase through solid material a short distance, but I'm not sure that it works as well in this Minestuck version? Maybe test it out a bit."
+			]
+			dependencies: ["61CE5BD585CA757D"]
+			id: "03163E72A938F175"
+			tasks: [
+				{
+					id: "043DACB688C28F2E"
+					type: "item"
+					item: {
+						id: "minestuck:chakram"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76B5F3F7C6D15D7D"
+					type: "item"
+					item: {
+						id: "minestuck:umbral_infiltrator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6B815A9C8C11C574"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crazy Bounces"
+			x: 7.75d
+			y: 8.75d
+			shape: "rsquare"
+			description: ["&7With a Small Wizard Statue, you can imbue a bit of that wizardly randomness into some Iron for a Sorcerer's Pinball! Bounces randomly until its done."]
+			dependencies: [
+				"61CE5BD585CA757D"
+				"0FC09B48EF4C48EC"
+			]
+			id: "4CE41DC0D82C5C46"
+			tasks: [{
+				id: "588FD5587E42AB0A"
+				type: "item"
+				item: {
+					id: "minestuck:sorcerers_pinball"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F53AD14D1BC68D8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Minestuck Alternates"
+			x: 2.75d
+			y: 2.5d
+			shape: "square"
+			description: ["&7Minestuck's version of SBURB includes some alternate forms of traditional gear. Specifically, an Emerald weapon set and a Prismarine armor set."]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "799F67EEDA2F715D"
+			tasks: [
+				{
+					id: "7A464C95DF613A69"
+					type: "item"
+					item: {
+						id: "minestuck:emerald_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BB80FBB9CAA3DD9"
+					type: "item"
+					item: {
+						id: "minestuck:prismarine_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0E46C5D1DE6825EC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Iron Lass Armor"
+			x: 11.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["&7Iron Lass was a sort of... homage? Reference? To another Iron based hero, in the original SBURB."]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "47821A8BDFA8690B"
+			tasks: [{
+				id: "5DEB5275A46F845C"
+				type: "item"
+				item: {
+					id: "minestuck:iron_lass_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "563EDB88D8D06608"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Basic Sylladex Modus"
+			x: 12.75d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&7Like I mentioned, your Sylladex starts off in Queue mode. Things get added to the left side, and can only be taken out of the right side."
+				""
+				"&7But you can change the mode of how items are stored and retrieved from your Sylladex by changing its Modus. The other simple Modus you can swap to is Stack."
+				""
+				"&7With Stack Modus, its like a stack of books. You add an item to the left, and can only take the left most item."
+				""
+				"&7To change the Modus of your Sylladex, take the Modus card, and hit G to open your Minestuck menu. Place the new Modus card into the Sylladex spot you usually add new Captchalogue cards to, and hit Use Item. It'll swap the new Modus in and your old Modus out."
+			]
+			dependencies: ["679B9480C543F403"]
+			id: "3357D6C93A0DEB53"
+			tasks: [
+				{
+					id: "7390353C501E9327"
+					type: "item"
+					item: "minestuck:queue_modus_card"
+				}
+				{
+					id: "4A7CE8D037F2FDF3"
+					type: "item"
+					item: "minestuck:stack_modus_card"
+				}
+			]
+			rewards: [{
+				id: "1912FB3CCF2AFF49"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Alternate Modus"
+			x: 12.75d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7With Alchemy, you can create a few different Modus for your Sylladex."
+				""
+				"&7The Queue-Stack Modus combines the two. Items are added to the left side, and the Left most AND the Right most items can be removed."
+				""
+				"&7The Tree Modus is.... very different. The first item added is the Root. When another item is added, it gets sorted alphabetically, to one of two branches (if it comes before or after the Root alphabetically)"
+				""
+				"&7When the Root has two 'branches', the next item added goes to the left most 'branch' available, becoming either the left or right branch alphabetically."
+				""
+				"&7Each 'branch' can branch out to two cards. Those cards can branch out again. And again. The last card of every branch is called a Leaf."
+				""
+				"&7Leaf cards can be pulled out freely. But removing a Branch or Root will cause all cards under it to drop."
+			]
+			dependencies: [
+				"3357D6C93A0DEB53"
+				"4EAEC7D5C5DD1893"
+			]
+			id: "450FD08EFACAD8BC"
+			tasks: [
+				{
+					id: "44870CF436A379B2"
+					type: "item"
+					item: "minestuck:queuestack_modus_card"
+				}
+				{
+					id: "10F4D4589D686403"
+					type: "item"
+					item: "minestuck:tree_modus_card"
+				}
+			]
+			rewards: [{
+				id: "6C3A1553D5E7F885"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Interesting Modus"
+			x: 12.75d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"&7Set Modus has the benefit of letting you pull any item in it when you want, no messing with Stacks or Queues."
+				""
+				"&7The downside? You can only have one of a specific item at a time. "
+				""
+				"&7Alternatively, you can use the Hashmap Modus. Every item's name can be converted into a Hash, a sort of math formula derived thing."
+				""
+				"&7While this one lets you keep up to a stack of an item, you cannot keep more as multiple Captchalogue cards cannot have the same Hash. This also means different items with the same name, or even rarely some items with different names, may have the same Hash."
+			]
+			dependencies: ["450FD08EFACAD8BC"]
+			id: "2D44BE5D2DDBF4E9"
+			tasks: [
+				{
+					id: "585BA7D3AC1EB593"
+					type: "item"
+					item: "minestuck:set_modus_card"
+				}
+				{
+					id: "3279A2D11DE9BE0C"
+					type: "item"
+					item: "minestuck:hashmap_modus_card"
+				}
+			]
+			rewards: [{
+				id: "0D360B3796A3CDF3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Good Alchemical Drinks"
+			x: 6.5d
+			y: 1.25d
+			shape: "square"
+			description: [
+				"&7I'd normally say something like \"What is Alchemy but mixing liquids?\" but that doesn't really work with Minestuck Alchemy, since its about Captchaloguing, Punching Cards, and Lathing Totems. "
+				""
+				"&7But yes even with Alchemization, you can make some pretty tasty drinks!"
+				""
+				"&7There are a lot flavors of Faygo beyond the goold ol purple one. I'm just partial to that one."
+				""
+				"&7And Orange. Mmm orange."
+			]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "36860D1E22264060"
+			tasks: [
+				{
+					id: "29056DBE0CD6B231"
+					type: "item"
+					item: "minestuck:tab"
+				}
+				{
+					id: "100C8E52C6898CAC"
+					type: "item"
+					item: "minestuck:apple_juice"
+				}
+				{
+					id: "5798C6F1782CF412"
+					type: "item"
+					item: "minestuck:grape_faygo"
+				}
+			]
+			rewards: [{
+				id: "59920E124CB534E1"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Strange Horn"
+			x: 9.0d
+			y: 1.25d
+			shape: "square"
+			description: ["&7Bandit, I'm... not entirely sure what this warhorn does. I'd be careful about blowing it, if I remember correctly its both good and bad."]
+			dependencies: ["227ECF0B7EA86708"]
+			id: "625E34BFCCFC2A8E"
+			tasks: [{
+				id: "5F520472084DBCA3"
+				type: "item"
+				item: {
+					id: "minestuck:long_forgotten_warhorn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "408BA6A5316CAE8A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "If Ya Don't Float"
+			x: 11.5d
+			y: 1.25d
+			shape: "square"
+			description: ["&7Oh wow I remember these things. They are jokes, basically. Don't try to actually go sailing with them."]
+			dependencies: ["4EAEC7D5C5DD1893"]
+			id: "4CD864F2D4A75F51"
+			tasks: [
+				{
+					id: "4F6579F2A437F54C"
+					type: "item"
+					item: "minestuck:iron_boat"
+				}
+				{
+					id: "6D06D0E0CBFC75D6"
+					type: "item"
+					item: "minestuck:gold_boat"
+				}
+			]
+			rewards: [{
+				id: "6453D8F968EBBFDD"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "I Warned You!"
+			x: 12.75d
+			y: 8.75d
+			shape: "rsquare"
+			description: [
+				"&7I warned you about them sta...wait. Ahem, sorry got ahead of myself Bandit."
+				""
+				"&7Sweet Bro and Hella Jeff was a strange and amusing in-game comic in the original SBURB. And they also made a bunch of... interesting... alternate weapons."
+				""
+				"&7They are definitely not as powerful as their originals, but they are... weird. I just suggest being careful around them."
+				""
+				"&7Especially stairs."
+			]
+			dependencies: [
+				"4EAEC7D5C5DD1893"
+				"66686D7659C1A860"
+				"63EC7E18C61EBBD3"
+				"33E84040DEF3653D"
+				"2AE4D072C1F73F63"
+				"2E98B612E3981107"
+				"4D7B4B1F34A35CF2"
+				"61CE5BD585CA757D"
+				"361467EE041AFADF"
+			]
+			id: "2EDD06650A649AD4"
+			tasks: [
+				{
+					id: "1A6C6F2848146F58"
+					type: "item"
+					item: {
+						id: "minestuck:sord"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "325BD05DD5B5FB2B"
+					type: "item"
+					item: {
+						id: "minestuck:nife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A487A228E2A4562"
+					type: "item"
+					item: {
+						id: "minestuck:batleacks"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A4CC1C32412EA84"
+					type: "item"
+					item: {
+						id: "minestuck:ow_the_edge"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12D78B358B4BE7AA"
+					type: "item"
+					item: {
+						id: "minestuck:eeeeeeeeeeee"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A1EFB1E903527FD"
+					type: "item"
+					item: "minestuck:sbahjarang"
+				}
+				{
+					id: "75383B0D89FF7323"
+					type: "item"
+					item: {
+						id: "minestuck:artifucker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5CF4CE78B51B52CE"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			x: -4.75d
+			y: -1.25d
+			shape: "gear"
+			description: [
+				"&7If it hasn't become clear yet, the SBURB Alchemy System opens up a special door for you. A backdoor to getting items, outside of the DLC system."
+				""
+				"&7With it, you can Alchemize many of the items you find and collect in various dungeons, as well as many of the items that you can get with our TFB Blind Boxes!"
+				""
+				"&7This is why I mentioned this would be a boon to both of us. The Alchemy system pulls from the lost parts of the FOP's system much like our Blind Boxes do. So Alchemizing new items, and selling them, using them, will continue to spread the Aubudon Worm in new, different ways."
+			]
+			dependencies: ["0B913EC0A71D77DA"]
+			id: "1A63950EB5B750C9"
+			tasks: [{
+				id: "78415BE1EDF9A7C0"
+				type: "checkmark"
+				title: "SUBverting in the SBURB"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

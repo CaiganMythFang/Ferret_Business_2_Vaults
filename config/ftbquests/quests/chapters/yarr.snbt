@@ -1,0 +1,1068 @@
+{
+	id: "305BF461E793BCAD"
+	group: "773E4E8AACFD1492"
+	order_index: 0
+	filename: "yarr"
+	title: "Do What You Want Because..."
+	icon: {
+		id: "rats:pirat_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["Pirate DLC Shop"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "rats:pirat_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "Yo ho ho ho!"
+			description: [
+				"&7Welcome welcome, Bandit. A good fitting name for what we're about to do."
+				""
+				"&7As the bosses introduced me, I'm ByteSize, or just Byte really. Computer mouse and second in command or whatever job title they gave me."
+				""
+				"&7Now, you know one way to get that shiny DLC the FOP offer, yeah? Do their tasks, fight their monsters, and send them expensive things for pennies. Or, well, pixels or... Digitized Items as they call them?"
+				""
+				"&7It's literally a bag of pixels...but I guess it fits! Digital items for a digital currency in a digital world that's just a digital prison for your digitized soul."
+				""
+				"&7So how about we sail the digital seas and pirate the lot of it, yeah?"
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "15363C5FC01E875C"
+			tasks: [{
+				id: "4A4AE474601F6684"
+				type: "checkmark"
+				title: "...a Pirate is Free!"
+			}]
+		}
+		{
+			title: "The Weak Point"
+			icon: "modernlife:cracked_stone_bricks_barrier"
+			x: 1.25d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "Where to aim the cannon"
+			description: [
+				"&7So such a large and complex system like the FOP Game Server, its gonna have some weak points. Little bugs, big bugs, bad coding decisions, all sorts of things can weaken a system."
+				""
+				"&7Especially if you cut corners, try to control too much, don't invest in your security and IT workers, and generally are just a bit dumb in your hiring process, you get BIG weak points."
+				""
+				"&7The FOP are good at 'reacting' to security breaches, I'll give them that. They closed up the obvious big changes Kowa hit them with early on. But they missed the smaller breaches where we hooked up a conveyor belt to their database."
+				""
+				"&7That kind of weakness we can exploit. I'll show you. Grab some Iron Ore and a Smithing Table. And be sure to read up on Salvaging in the \"FOPServer Mechanics\" page in this Tablet."
+			]
+			dependencies: ["15363C5FC01E875C"]
+			id: "2EADF7C8D0A49C89"
+			tasks: [
+				{
+					id: "101AA159D38803FD"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 5L
+				}
+				{
+					id: "047CB122AA873F12"
+					type: "item"
+					item: "minecraft:smithing_table"
+				}
+			]
+			rewards: [{
+				id: "16082ACC88CDF7A4"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Crack in the Hull"
+			icon: {
+				id: "create:potato_cannon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "Shooting The Glowing Spot!"
+			description: [
+				"&7With so many systems, patches, updates, worlds, and heck even the presence of magic, it all makes nice little weak points we can exploit. But, how do we find them?"
+				""
+				"&7We need to find Vulnerabilities. We at The Ferret Business can use these to bypass the security surrounding their DLC packages. How you ask?"
+				""
+				"&7Well, there's a few ways we can find Vulnerabilities. The easiest we found so far is the Salvaging system they JUST added recently. It's fairly buggy, and we can definitely exploit that."
+				""
+				"&7Place down that Smithing Table if you haven't already. Then Sneak (hold Shift) and Right Click that Iron Ore onto the Smithing Table while standing right next to it."
+				""
+				"&7The Iron Ore will vanish and you'll either get a Code Snippet or a message saying you failed."
+			]
+			dependencies: ["2EADF7C8D0A49C89"]
+			id: "2723584BBFD0062D"
+			tasks: [{
+				id: "5D9C033BB4024DF9"
+				type: "item"
+				item: "kubejs:vulnerability_card"
+			}]
+			rewards: [{
+				id: "376F5E556E56CE06"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Greasing the Wheels"
+			icon: "minecraft:emerald"
+			x: 3.75d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "Staff Mistreatment"
+			description: [
+				"&7See that Code Snippet you found?  Hold it and Right Click to have your Q.U.E.S.T. Tablet examine it. You'll find a kind of Vulnerability. I programmed the Tablet to make it a bit easier to understand... and to hide what it actually is."
+				""
+				"&7Yeah yeah I know, the images and tooltips are a bit silly. I wasn't sure what else to do, and they are kinda fun. "
+				""
+				"&7Start collecting those, we're going to need a whole lot over time. And the more you Salvage, the higher your skill, and the easier it'll be to find these Vulnerabilities."
+				""
+				"&7Another way to find them is to talk to Villagers and start trading with them. Some may eventually have a bit of 'special' stock for you: A vulnerability."
+				""
+				"&7Let's just say the FOP don't treat their staff, real or NPCs, very well."
+			]
+			dependencies: ["2723584BBFD0062D"]
+			id: "4F1D548DFF6D2C28"
+			tasks: [{
+				id: "394B6C665D72CC1D"
+				type: "item"
+				item: "kubejs:vulnerability_card"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3F864A5CBC525669"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Bigger They Are..."
+			icon: "majruszs_difficulty:wither_treasure_bag"
+			x: 5.0d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "...the more stuff they can carry!"
+			description: [
+				"&7Most any action or RPG game has its share of bosses, and the FOP Game Server is no different."
+				""
+				"&7They have their own versions of the Wither and Ender Dragon we know already, but it seems they have at least thirty, or more (we aren't sure) bosses besides those!"
+				""
+				"&7Lots of worlds to protect, I guess. But getting their stronger powers to play nice with the system layers has some issues. And if you defeat a boss, you should get a Code Snippet guaranteed."
+			]
+			dependencies: ["4F1D548DFF6D2C28"]
+			id: "0F59DB9FD98F0E2E"
+			tasks: [{
+				id: "544E9A34FEC4BFE9"
+				type: "item"
+				item: "kubejs:vulnerability_card"
+				count: 3L
+			}]
+			rewards: [{
+				id: "3CB4AEAB58641C15"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Crime"
+			x: 5.0d
+			y: -0.5d
+			shape: "pentagon"
+			subtitle: "or How To Pirate For Blockheads"
+			description: [
+				"&7Okay, you know how to find these vulnerabilities. You've started collecting them. But how are we gonna use them to unlock DLC so we don't gotta pay that ridiculous price?"
+				""
+				"&7Well, thats a job for the researchers over here. Choose the DLC you want to unlock, send us the right number of Vulnerabilities, and voila, DLC!"
+				""
+				"&7Your job? Just to find the Vulnerabilities and keep pumping in that Audobon Worm. But I do have to warn you, Bandit..."
+				""
+				"&7The higher rank DLC is much more strongly protected, and thus will cost a lot more Tokens. It'll take a whole lot of Vulnerabilities to get around their security layers."
+				""
+				"&7Oh, right! No matter how you unlock the DLC, we should be able to make it purchasable again from the Shop Tablet. But for, you know, Silver Ferret Coins instead of Tokens or Scrypto."
+			]
+			dependencies: ["30F6D2F31395772F"]
+			id: "29003EE631630364"
+			tasks: [{
+				id: "768CBB0461D508F1"
+				type: "item"
+				title: "Any 5 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 5L
+			}]
+			rewards: [{
+				id: "6C80B91E9E24698A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Pirate Ore DLC - Red Rank"
+			icon: "kubejs:unlock_ore_red"
+			x: 7.25d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "Wait you already got this one!"
+			description: [
+				"&7Well, you don't really need to pay for this one, it's already unlocked. "
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "14847BD8D798C78D"
+			tasks: [{
+				id: "4FA20E9768CD357D"
+				type: "item"
+				title: "Any 10 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Pirate Ore DLC - Orange Rank"
+			icon: "kubejs:unlock_ore_orange"
+			x: 8.25d
+			y: -1.75d
+			shape: "rsquare"
+			dependencies: ["14847BD8D798C78D"]
+			id: "411FBC9CED60D0AE"
+			tasks: [{
+				id: "0AABDA2E8C204E9A"
+				type: "item"
+				title: "Any 25 Vulnerability Tokens"
+				item: "kubejs:vulnerability_dos_d"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5FF9DD0DC09EFB7F"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "042021DABBF914B8"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 41EC73BB9B4372E7"
+				}
+			]
+		}
+		{
+			title: "Pirate Ore DLC - Yellow Rank"
+			icon: "kubejs:unlock_ore_yellow"
+			x: 9.25d
+			y: -1.75d
+			shape: "rsquare"
+			dependencies: ["411FBC9CED60D0AE"]
+			id: "212569F81C82DEAE"
+			tasks: [{
+				id: "4839AAF4677A9D16"
+				type: "item"
+				title: "Any 50 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "16D1BF0B5D228377"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "5459547B10FE50A6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 28E2A6CB0AAA5449"
+				}
+			]
+		}
+		{
+			title: "Pirate Ore DLC - Green Rank"
+			icon: "kubejs:unlock_ore_green"
+			x: 9.25d
+			y: -0.75d
+			shape: "rsquare"
+			dependencies: ["212569F81C82DEAE"]
+			id: "608CE3FFA20BC1B9"
+			tasks: [{
+				id: "0A42650AB501F048"
+				type: "item"
+				title: "Any 100 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 100L
+			}]
+			rewards: [
+				{
+					id: "55D3FB7F43248DBD"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "5802E4A2D8B6C28A"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 2D5FCDE55F51F584"
+				}
+			]
+		}
+		{
+			title: "Pirate Ore DLC - Blue Rank"
+			icon: "kubejs:unlock_ore_blue"
+			x: 8.25d
+			y: -0.75d
+			shape: "rsquare"
+			dependencies: ["608CE3FFA20BC1B9"]
+			id: "6BF857AA87B25FDD"
+			tasks: [{
+				id: "08379D938BEED925"
+				type: "item"
+				title: "Any 200 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 200L
+			}]
+			rewards: [
+				{
+					id: "5E75B6F98C493016"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "3A53B9EDD3AEA2F3"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 7FC75F3FB2C362B8"
+				}
+			]
+		}
+		{
+			title: "Pirate Ore DLC - Indigo Rank"
+			icon: "kubejs:unlock_ore_indigo"
+			x: 7.25d
+			y: -0.75d
+			shape: "rsquare"
+			dependencies: ["6BF857AA87B25FDD"]
+			id: "318648FDF816BA13"
+			tasks: [{
+				id: "2817625BA8298FEC"
+				type: "item"
+				title: "Any 400 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 400L
+			}]
+			rewards: [
+				{
+					id: "00A20198FEAB0C12"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+				{
+					id: "1977592966B5B324"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 360274CFF521F80B"
+				}
+			]
+		}
+		{
+			title: "Pirate Ore DLC - Violet Rank"
+			icon: "kubejs:unlock_ore_violet"
+			x: 8.25d
+			y: 0.25d
+			shape: "rsquare"
+			dependencies: ["318648FDF816BA13"]
+			id: "1A78750275813BEF"
+			tasks: [{
+				id: "367B048DECD69F1A"
+				type: "item"
+				title: "Any 750 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 750L
+			}]
+			rewards: [
+				{
+					id: "26A27EE83A10C1BC"
+					type: "choice"
+					table_id: 818089594093312426L
+				}
+				{
+					id: "071C18E9E31FD4A2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 0A8A2B046EF70307"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Red Rank"
+			icon: "kubejs:unlock_dimensions_red"
+			x: 10.5d
+			y: -1.75d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "42F467F8D5C31C9B"
+			tasks: [{
+				id: "68943C34B17D947D"
+				type: "item"
+				title: "Any 10 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5AC2B5DC54AE3BDF"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "28A316E3C0DE809C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 43FA7D771333CD3C"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Orange Rank"
+			icon: "kubejs:unlock_dimensions_orange"
+			x: 11.5d
+			y: -1.75d
+			shape: "rsquare"
+			dependencies: ["42F467F8D5C31C9B"]
+			id: "4C8AA6968BD9C081"
+			tasks: [{
+				id: "58D684B233D2EF48"
+				type: "item"
+				title: "Any 25 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6354CDCC885F892F"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "151D7027B7CFE404"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 67A594680B8920D5"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Yellow Rank"
+			icon: "kubejs:unlock_dimensions_yellow"
+			x: 12.5d
+			y: -1.75d
+			shape: "rsquare"
+			dependencies: ["4C8AA6968BD9C081"]
+			id: "4E1213E877BA6B6C"
+			tasks: [{
+				id: "1C54CF726D77819F"
+				type: "item"
+				title: "Any 50 Vulnerabilty Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0B0F0DF7F28B7603"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "621508C93B7E8BBC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 292B76F2C9BC586D"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Green Rank"
+			icon: "kubejs:unlock_dimensions_green"
+			x: 12.5d
+			y: -0.75d
+			shape: "rsquare"
+			dependencies: ["4E1213E877BA6B6C"]
+			id: "60439DA53843322A"
+			tasks: [{
+				id: "1607DB336C3486CF"
+				type: "item"
+				title: "Any 100 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6CEB9D913952432D"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "70F37DED740AD3F2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 141C339AE432C3A3"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Blue Rank"
+			icon: "kubejs:unlock_dimensions_blue"
+			x: 11.5d
+			y: -0.75d
+			shape: "rsquare"
+			dependencies: ["60439DA53843322A"]
+			id: "49A0BB541BCABFBF"
+			tasks: [{
+				id: "5EA711F106BF1127"
+				type: "item"
+				title: "Any 200 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "46D47D51EE979CE5"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+				{
+					id: "452018D64B7AC5F4"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 6E1BD703928F5A46"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Indigo Rank"
+			icon: "kubejs:unlock_dimensions_indigo"
+			x: 10.5d
+			y: -0.75d
+			shape: "rsquare"
+			dependencies: ["49A0BB541BCABFBF"]
+			id: "4E12F34234675529"
+			tasks: [{
+				id: "0092568B3935F0CB"
+				type: "item"
+				title: "Any 400 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 400L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "40DA728462E74CAF"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+				{
+					id: "4688ADFA26439DC3"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 60C9B981D37C3BBE"
+				}
+			]
+		}
+		{
+			title: "Pirate Dimension DLC - Violet Rank"
+			icon: "kubejs:unlock_dimensions_violet"
+			x: 11.5d
+			y: 0.25d
+			shape: "rsquare"
+			dependencies: ["4E12F34234675529"]
+			id: "33EEB62393292CF2"
+			tasks: [{
+				id: "49D888A63A96B3C7"
+				type: "item"
+				title: "Any 750 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 750L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0D773AD6289187D2"
+					type: "choice"
+					table_id: 818089594093312426L
+				}
+				{
+					id: "0B9168FC5EB67A5C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 0478A242EB2BF8A3"
+				}
+			]
+		}
+		{
+			title: "Name of the Game"
+			icon: {
+				id: "mekanismtools:refined_obsidian_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.25d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "Well, part of it"
+			description: [
+				"&7The last two ways you'll be able to find Vulnerabilities is by just... mining and fishing. Simple, but it shows just how much of this whole super megaserver is both held in an iron grip, and held together with duct tape."
+				""
+				"&7Mining certain ores, mostly ones that break into pieces like Coal or Redstone, give you a chance to find some Code Snippets."
+				""
+				"&7As for fishing? Self explanatory. Raise up your Fishing Skill from ProjectMMO, and you'll start getting Code Snippets instead of Cod Filets."
+			]
+			dependencies: ["0F59DB9FD98F0E2E"]
+			id: "30F6D2F31395772F"
+			tasks: [{
+				id: "7A83F82E36155880"
+				type: "checkmark"
+				title: "Name of the Game"
+			}]
+			rewards: [{
+				id: "2CD164821D060313"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "quark:danger_sight"
+				}
+			}
+			x: 1.25d
+			y: -0.5d
+			shape: "square"
+			subtitle: "or The Rest of the Owl"
+			description: [
+				"&7Aside from the piratey thing, I'll start up dialogue with the rest of the Researchers here so they can help guide you through the other parts of the FOP Game Server."
+				""
+				"&7There are lots of mods, with lots of items and machines that the FOP don't really explain to Users. Sure, some have manuals, or guides, but nothing like someone guiding you themselves, yeah? The FOP is more interested in you just sending them the items."
+				""
+				"&7Now, some of these mods you'll recognize from the previous world, but they may be quite different than you remember. Others will be brand new to you. Either way, the Researchers will start from square one when teaching you."
+				""
+				"&7And just like before, following the lessons gets you rewards. Money and Blind Boxes. The more we learn, the more we spread the Audobon Worm, the better off we all are."
+			]
+			dependencies: ["15363C5FC01E875C"]
+			id: "132E43CB29BBE90C"
+			tasks: [{
+				id: "29CE765A6E96998D"
+				type: "checkmark"
+				title: "The Researchers"
+			}]
+		}
+		{
+			icon: "calemiutils:coin_quarter"
+			x: 3.25d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Don't Forget the Microtransactions!"
+			description: [
+				"&7And, of course, we can't forget the DLC the FOP has cut everything into..."
+				""
+				"&7The basic game, Minecraft, is only slightly gated. You can do most things, aside from Ores, Dimensions, etc, without buying DLC for 'vanilla' minecraft items. Oh, and anything Advent of Ascension? They think limiting Dimension and Ore access is enough."
+				""
+				"&7Though, I don't think Kowa was able to unlock the highest end Minecraft stuff from DLC. Netherrite tools and armor will still require you to be an appropriate level to equip them."
+				""
+				"&7As for the DLC? Most mods are grouped with one or two others, but split into the stupid ranking system the FOP came up with."
+				""
+				"&7Good news? Most mods are only split between Red, Orange, and Yellow ranks. Anything higher rank can match up to high end AoA items, thus the DLC to gate it."
+			]
+			dependencies: ["132E43CB29BBE90C"]
+			id: "3538C7DDF1408271"
+			tasks: [{
+				id: "7136D17D2E30849A"
+				type: "checkmark"
+				title: "Multipass?"
+			}]
+		}
+		{
+			title: "Pirate Handheld Electronics DLC"
+			icon: "kubejs:unlock_hand_elec_red"
+			x: 7.25d
+			y: 2.25d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "0A911FE8EB9848E5"
+			tasks: [{
+				id: "18AB25C9877A97EA"
+				type: "item"
+				title: "Any 10 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "330E3DD135F4CE91"
+					type: "item"
+					item: "kubejs:unlock_hand_elec_red"
+				}
+				{
+					id: "2B44788EBF255B3D"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 546BB1E9447BBC65"
+				}
+			]
+		}
+		{
+			title: "Pirate Buddycard DLC"
+			icon: "kubejs:unlock_buddycards"
+			x: 9.25d
+			y: 2.25d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "7A2ECEB50D45D1B7"
+			tasks: [{
+				id: "03B06BAED8EDB54B"
+				type: "item"
+				title: "Any 5 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "52F5C94E10691A78"
+					type: "item"
+					item: "kubejs:unlock_buddycards"
+				}
+				{
+					id: "3784AAC42DAB8487"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 436BF4CF645FB5F5"
+				}
+			]
+		}
+		{
+			title: "The Research Division"
+			x: 1.25d
+			y: 0.75d
+			shape: "gear"
+			description: [
+				"&7So I'm going to unlock the Research and Development section for you now, Bandit."
+				""
+				"&7Each quest page here will cover one or more mods. Some Researchers or Research Teams may bundle multiple mods together to cover on a single page."
+				""
+				"&7Keep in mind you'll also need the DLC unlocked to start making items from the appropriate mods. "
+				""
+				"&7I'll more or less have the Q.U.E.S.T. Tablet sort the Research pages alphabetically to the main mod they cover. If it's a Research Group that covers multiple mods, like say both Pam's and Farmer's Delight... um... You'll figure it out! Research Groups will cover similar mods, really."
+			]
+			dependencies: ["132E43CB29BBE90C"]
+			id: "1D0853ADC7295AEB"
+			tasks: [{
+				id: "72BCCA0DE755EAC5"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pirate Explorer's Kit DLC"
+			icon: "kubejs:unlock_explorer_kit"
+			x: 11.25d
+			y: 2.25d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "42080D9641799A8A"
+			tasks: [{
+				id: "1864EF7CC46E339F"
+				type: "item"
+				title: "Any 10 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4F4C68EA43665ADC"
+					type: "item"
+					item: "kubejs:unlock_explorer_kit"
+				}
+				{
+					id: "550DE95E8A2A14D8"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 06883939FF7C8F06"
+				}
+			]
+		}
+		{
+			title: "Pirate Builder DLC - Rank Red"
+			icon: "kubejs:unlock_builder_red"
+			x: 13.25d
+			y: 2.25d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "5ADE32C589939DB6"
+			tasks: [{
+				id: "248E72FE6803323A"
+				type: "item"
+				title: "Any 10 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4AB5063EFD296317"
+					type: "item"
+					item: "kubejs:unlock_builder_red"
+				}
+				{
+					id: "4642457BFF7E868B"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 2B0655AC7FED5493"
+				}
+			]
+		}
+		{
+			title: "Pirate Builder DLC - Rank Orange"
+			icon: "kubejs:unlock_builder_orange"
+			x: 14.25d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: ["5ADE32C589939DB6"]
+			id: "3B20DE4A0EF3DF4A"
+			tasks: [{
+				id: "0029F88FFFADAC70"
+				type: "item"
+				title: "Any 25 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0E7C2DA73C07862A"
+					type: "item"
+					item: "kubejs:unlock_builder_orange"
+				}
+				{
+					id: "0220E77D19008EE8"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 1F7E11CF3510615E"
+				}
+			]
+		}
+		{
+			title: "Pirate Farm and Food DLC - Red"
+			icon: "kubejs:unlock_food_red"
+			x: 4.25d
+			y: 2.25d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["29003EE631630364"]
+			id: "1F12FEE22AD8E992"
+			tasks: [{
+				id: "125DBA40B82409EE"
+				type: "item"
+				title: "Any 10 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "5CF9CC81D14E0B00"
+					type: "item"
+					item: "kubejs:unlock_food_red"
+				}
+				{
+					id: "6717D20C3FD47C8B"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 63C1804E5DAA840A"
+				}
+			]
+		}
+		{
+			title: "Pirate Farm and Food DLC - Orange"
+			icon: "kubejs:unlock_food_orange"
+			x: 5.25d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: ["1F12FEE22AD8E992"]
+			id: "03C6DFAD60CB38C4"
+			tasks: [{
+				id: "4AB1F97B5679B1B2"
+				type: "item"
+				title: "Any 25 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 25L
+				consume_items: false
+			}]
+			rewards: [
+				{
+					id: "035CDA6B3B679E1B"
+					type: "item"
+					item: "kubejs:unlock_food_orange"
+				}
+				{
+					id: "3A824AAC5344BDBC"
+					type: "command"
+					command: "5E7F06957E99F158"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

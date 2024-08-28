@@ -1,0 +1,167 @@
+{
+	id: "2898261F190C82AC"
+	group: "32994487763D5D3F"
+	order_index: 1
+	filename: "welcome_to_the_dlc_shop"
+	title: "Welcome to the DLC Shop!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.25d
+		width: 7.0d
+		height: 5.5d
+		rotation: 0.0d
+		image: "tfb2:textures/menu/fop_dlc_ranks.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -3.5d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "EXPLANATION OF PURCHASE BENEFITS"
+			description: [
+				"&2Welcome Power User. You've been granted access to the DLC shop!"
+				""
+				"&2We at the FOP believe that to obtain the highest sense of Pride and Accomplishment, as well as protect users new to the Game Server, that everything beyond basic components and systems are not available to new users. Instead, users must earn access!"
+				""
+				"&2As you can see, the Store DLC is organized into Ranks. As you progress in levels in Vault Hunters, you unlock higher ranks, and with them more items will become available to purchase in the Shop!"
+				""
+				"&2Infra Red, or Rank 0, has some very basic items available for you to purchase. As a reward for unlocking the DLC Shop, please accept this Iron Pickaxe! May you harvest much with it!"
+			]
+			dependencies: ["1B6761988ABBBC4A"]
+			hide: true
+			id: "6D986E5817BEF5A1"
+			tasks: [{
+				id: "63AA2C135C5C6B55"
+				type: "checkmark"
+				title: "Welcome to the DLC Shop!"
+			}]
+			rewards: [{
+				id: "54E8FFD4389969BC"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.75d
+			shape: "pentagon"
+			subtitle: "Earned and Spent"
+			description: [
+				"&2The primary form of currency for the Game Server is called Vault Coins! "
+				""
+				"&2Every coin of Scrypto is a piece of cryptocurrency that the server tracks for your safety."
+				""
+				"&2Scrypto Coins are only useable in the Game Server! They are used to purchase DLC from the shop, and some of our in-world vendors accept them as well!"
+				""
+				"&2There are four tiers of Scrypto Coins - Copper, Silver, Gold, and Lunevar. Bankers, located on higher ranked Game Server Worlds, exchange coins to a higher tier at 20:1 ratio! That is, for example, 20 Copper Coins to 1 Silver Coin."
+			]
+			dependencies: ["6D986E5817BEF5A1"]
+			hide: true
+			id: "05F4CBBD146B0DBB"
+			tasks: [{
+				id: "1163E6E066AE8F3C"
+				type: "checkmark"
+				title: "Currencies of the Game"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.25d
+			shape: "pentagon"
+			subtitle: "Fight For Fun!"
+			description: [
+				"&2Scrypto is easy to earn! There are multiple approved methods of earning Scrypto within the Game Server."
+				""
+				"&2The primary way all users can earn Scrypto is via combat mechanics! Fighting the various creatures, monsters, and NPCs in the world can earn you Scrypto!"
+				""
+				"&2The second approved method of earning Scrypto is by finding one of many APPROVED vendors within the Game Server! They offer many items, and to purchase some items for Scrypto!"
+				""
+				"&2The final approved method, and easiest, is to procure resources and materials, and DIGITALIZE them!"
+				""
+				"&4&lALL OTHER METHODS ARE UNAUTHORIZED. AVOID FOR YOUR SAFETY!"
+			]
+			dependencies: ["05F4CBBD146B0DBB"]
+			hide: true
+			id: "22810A844797AC73"
+			tasks: [{
+				id: "277A1582F878E08F"
+				type: "checkmark"
+				title: "Earning Scrypto"
+			}]
+		}
+		{
+			title: "Digitalization"
+			x: -3.5d
+			y: 1.25d
+			shape: "pentagon"
+			subtitle: "Sell Almost Anything!"
+			description: [
+				"&2If the combat system of the Game Server is not to your liking, or you just want a break from it, then why not Digitalize the stuff you've collected?"
+				""
+				"&2Take all that equipment, resources, machines, and more that you've made and let collect dust, and combine it with our patented Digitalizer! "
+				""
+				"&4NOTE : Not all items are valid for Digitalization. Terms/conditions apply."
+				""
+				"&2By combining our Digitalizer with, for example, a Block of Iron, you will turn it into a bag of Digitalized Items! How many of these you get depends on how valuable the item you Digitalize is!"
+				""
+				"&2Then, to sell us the Digitalized Items, all you need to do is combine NINE bags in any crafting table! Our system will detect this, and give you a Copper Scrypto Coin in return!"
+				""
+				"&2PLEASE INSERT 1,000 &dWrong. One sec... &4ERROR &21 COPPER SCRYPTO PAYMENT."
+			]
+			dependencies: ["22810A844797AC73"]
+			hide: true
+			id: "1363CB79C9B54E49"
+			tasks: [{
+				id: "20022A2037551A06"
+				type: "item"
+				item: "aoa3:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23040D7A565F933F"
+				type: "item"
+				item: "kubejs:fop_digitalizer"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.25d
+			shape: "pentagon"
+			subtitle: "Don't forget your DLC!"
+			description: [
+				"&2Now that you are up to speed and know how to earn money, new Power User, the rest of the DLC Store is open to you!"
+				""
+				"&2In a survey of the last 10,000 Power Users, 88% agreed that the fastest way to earn Scrypto was by making and selling items! Gathering resources is...."
+				""
+				"&dPfff, okay enough of their spiel, Bandit. You can see the grift now, right?"
+				""
+				"&dCombat pays pennies. Well, pennies compared to their Digitalization system. Even that is crazy on how much it gouges you..."
+				""
+				"&dThough, it might not be much faster to help us break the system open either, not if you need something specific that's locked behind DLC."
+				""
+				"&dPick and choose your battles, of course. We understand fully the tough spot you are in."
+			]
+			dependencies: ["1363CB79C9B54E49"]
+			hide: true
+			id: "0B8CCC44B66134C8"
+			tasks: [{
+				id: "1233B8FDC9ACC956"
+				type: "checkmark"
+				title: "Please Enter!"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

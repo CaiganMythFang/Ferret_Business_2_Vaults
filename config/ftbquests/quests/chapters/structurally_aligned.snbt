@@ -1,0 +1,1824 @@
+{
+	id: "6AA42D05441043D2"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 8
+	filename: "structurally_aligned"
+	title: "Structurally Aligned"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.75d
+			y: 1.25d
+			shape: "pentagon"
+			description: [
+				"&dSo it seems our next worlds will be branching off of Barathos and the Deeplands."
+				""
+				"&5Both worlds are usually cold ones. And not in the way of ice and snow."
+				""
+				"&dMore on the coldness of their populaces. You see, the two world spots are reserved for worlds with constructed creatures."
+				""
+				"&5Robots, inanimate constructs, etc. These worlds take special handling, so they have dedicated spots in the FOP Game Server."
+				""
+				"&dWe'll have to see if the citizens are friendly or not. Though like most of the worlds, they are probably mostly hostile as their world slowly decimates from the FOP Game Server."
+			]
+			dependencies: ["0A67F99F89487841"]
+			id: "7FFED67FB77CBB40"
+			tasks: [{
+				id: "6C79F11EA85DE72C"
+				type: "checkmark"
+				title: "Cold Worlds Ahead"
+			}]
+		}
+		{
+			title: "Mechanical World"
+			x: -4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&dIromine is a world of robots, Bandit. It's also a fairly... chaotic dimension."
+				""
+				"&5You'll see what we mean when you get there. Here's hoping the populace isn't reprogrammed or anything."
+				""
+				"&dProbably just angry and trying to survive, like every Power User in this dang game."
+				""
+				"&5True. Okay Bandit, getting the Iromine Realmstone is easy : Just Right Click a blank Realmstone onto a Mineralization Station."
+				""
+				"&dIf you didn't keep one from your first trip to Barathos, you can find them in Baron Castles, the tall dark grey towers that dot the landscape."
+			]
+			dependencies: ["7FFED67FB77CBB40"]
+			id: "314363C30CBD4A72"
+			tasks: [{
+				id: "762F71FB3A551EFE"
+				type: "item"
+				item: "aoa3:iromine_realmstone"
+			}]
+			rewards: [{
+				id: "0234FEA95787DF79"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Golden Hills"
+			x: -1.75d
+			y: -1.5d
+			shape: "pentagon"
+			description: [
+				"&dWelcome to Iromine, Bandit. In its own way, its very pretty."
+				""
+				"&5Black and gold is a very good color combination. Seems a bit odd for a  whole 'world', but it definitely seems to fit here."
+				""
+				"&dSeeing a variety of structures in the scans. Lots of robots guarding them. So, probably hostile?"
+				""
+				"&5Safest bet, of course. Be careful exploring, Bandit. "
+			]
+			dependencies: ["314363C30CBD4A72"]
+			id: "0E04A165AB54DBDA"
+			tasks: [{
+				id: "3F29CB64074EE3AE"
+				type: "dimension"
+				dimension: "aoa3:iromine"
+			}]
+			rewards: [{
+				id: "2D9AD8D4A64F2B9F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Steel and Gold"
+			x: 0.5d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"&dBelow the surface of Iromine, you can find caves and other things, as well as one pretty and strong ore: Lyon Ore. Smelting this gets you Lyon Ingots."
+				""
+				"&5Pretty good stuff, lot you can make with it. "
+				""
+				"&dAlong with the metal ingot, you'll want to find Magnet Shards. You'll find them in some structures, but mostly they are collected and held by the denizens of Iromine, so you'll want to collect some of them as well."
+				""
+				"&5Oh, right. Various buildings and structures in Iromine contain Iro Crates. One of the robotic denizens seems to pack these randomly around, for reasons we haven't figured out yet."
+				""
+				"&dBust one open with a pickaxe, it might have some interesting things in it! Or hit it with Silk Touch to collect it for later."
+			]
+			dependencies: ["0E04A165AB54DBDA"]
+			id: "20A8A0903136EE35"
+			tasks: [
+				{
+					id: "1DE6382DD714FAED"
+					type: "item"
+					item: "aoa3:lyon_ingot"
+				}
+				{
+					id: "647537A17AD0152C"
+					type: "item"
+					item: "aoa3:magnet_shard"
+				}
+			]
+			rewards: [{
+				id: "722ADC589F8CD624"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "MECHA CRAFTS"
+			x: 0.5d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["20A8A0903136EE35"]
+			id: "2D8D68D9544CB856"
+			tasks: [{
+				id: "247036E1F6461072"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Staff to Destroy With"
+			x: 0.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Destruction Staff is a staff you can craft. It requires Power and Energy Runes to cast spells with."
+				""
+				"&dWhen used, the Destruction Staff launched a ball that freezes in place after a moment. After a few more seconds, or if some creature touches it, it explodes."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "28B67CF5C4F5B1A6"
+			tasks: [{
+				id: "1CF6A7D5B13888DB"
+				type: "item"
+				item: {
+					id: "aoa3:destruction_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4870CDA727CE9A23"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Boom Sword"
+			x: -0.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Explochron Sword is a sword you can craft."
+				""
+				"&dWhen you hit a creature with the Explochron Sword, it causes an explosion. This explosion will not hurt you."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "433227F7BEF448EC"
+			tasks: [{
+				id: "486A56CDAD117E2E"
+				type: "item"
+				item: {
+					id: "aoa3:explochron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "720CA76C47A76E63"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "You Shall Not Pass"
+			x: 1.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Lyonic Staff is a staff you can craft. It requires Energy, Wind, Wither, and Strike runes to cast."
+				""
+				"&dWhen used, the Lyonic Staff bursts a shockwave of power around you. Hostile creatures hit by this shockwave will be Withered, and may be hit by lightning as well."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "1A75FCD84DBEED31"
+			tasks: [{
+				id: "44EB25FCB2A98D01"
+				type: "item"
+				item: {
+					id: "aoa3:lyonic_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A7F1C9CBE8A9DD3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Shoot, Boom!"
+			x: -1.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Boom Cannon is a cannon that can be crafted with The Infuser. It uses Grenades as ammunition."
+				""
+				"&dThe Boom Cannon fires a shot that will explode on impact, whether on a creature or a block."
+				""
+				"&dThis damage does extra to well armored enemies."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "046AB5F665F76754"
+			tasks: [{
+				id: "1F482AE3A61F66AB"
+				type: "item"
+				item: {
+					id: "aoa3:boom_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2b
+					}
+				}
+			}]
+			rewards: [{
+				id: "23C2F3BC18895560"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Salvo Shooter"
+			x: -2.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Missile Maker is a cannon you can make with The Infuser. It uses Grenades for ammunition."
+				""
+				"&dCrafting the Missile Maker requires Enchanted Gunpowder, a rare drop from multiple FOP bosses. These include the Baroness, King BamBamBam, the Nethegenic Wither, and others."
+				""
+				"&dWhen you fire the Missile Maker, it fires a stream of six Grenades for one ammo."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "312C5E4C481BEE68"
+			tasks: [{
+				id: "7D6FD38B3AC6DE9C"
+				type: "item"
+				item: {
+					id: "aoa3:missile_maker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "01E41C457F6942B1"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Gears Turn"
+			x: 2.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dExploring around Iromine, you may come across a strange laboratory. Inside of it is one of the few living creatures on Iromine: The Professor."
+				""
+				"&dThe Professor is another Power User like you, except they've survived in the game so long they've set up residence in whatever current iteration of Iromine exists. "
+				""
+				"&dThey have a lot of interesting things to trade, including the Mecha Gear. This is a very important. You'll need to level up you trades with them first. Mecha Gears are used in many crafting recipes..."
+				""
+				"&dIncluding the Incomplete weaponry you can find in Iro Crates."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "34987359BF7F45B2"
+			tasks: [{
+				id: "5DE8D3DF1B350E7C"
+				type: "item"
+				item: "aoa3:mecha_gear"
+			}]
+			rewards: [{
+				id: "725618DE0495D444"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Rapid Wrecking"
+			x: 2.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Chain Wrecker is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dThe Chain Wrecker's rapid fire shots are not affected by gravity."
+			]
+			dependencies: ["34987359BF7F45B2"]
+			id: "4B0203CABBE0305C"
+			tasks: [{
+				id: "0AC87D50C4F60B55"
+				type: "item"
+				item: {
+					id: "aoa3:chain_wrecker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1669CC18386642BA"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Iro Rifle is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dIro Rifle's shots are not affected by gravity."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "31058746DBD70F99"
+			tasks: [{
+				id: "2A715DFC3B5B2EE9"
+				type: "item"
+				item: {
+					id: "aoa3:iro_rifle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "70D521B234B2D3F7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Come to Me"
+			x: -0.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Lyonic Armor Set is armor you can craft in an infusion table. "
+				""
+				"&dWith one piece of Lyonic Armor worn, items from up to two blocks away will be pulled towards you. Each extra piece of Lyonic Armor worn will increase this distance by 2."
+				""
+				"&dWearing a full set will ALSO attract Experience Orbs the same way."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "2380DABB556675B3"
+			tasks: [{
+				id: "4F996E5DE11235B3"
+				type: "item"
+				item: {
+					id: "aoa3:lyonic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47D69C5805DC467A"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Mech Buster Shot"
+			x: -1.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["&dThe Mecha Blaster is a blaster you can craft in an Infusion Table. It uses your Spirit energy for its shots."]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "0D04271DFFECE048"
+			tasks: [{
+				id: "1DBF0CBC63EC71EB"
+				type: "item"
+				item: {
+					id: "aoa3:mecha_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "014E0D230C02B09C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Revolve!"
+			x: -2.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Revolution is a blaster you can craft in an Infusion Table. It uses your Spirit energy to charge its shots."
+				""
+				"&dShots from Revolution will explode on impact."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "05295EB53D320F65"
+			tasks: [{
+				id: "30796C326AB5FD67"
+				type: "item"
+				item: {
+					id: "aoa3:revolution"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59E641FA4B6C6A47"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Vlast It!"
+			x: 1.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["&dThe Vivo is a shotgun you can craft in an Infuser. It uses Spreadshot for ammunition."]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "1B738E053007DEDA"
+			tasks: [{
+				id: "2F022A9807BF2B14"
+				type: "item"
+				item: {
+					id: "aoa3:vivo"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "57FDEA25B9997474"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Boomstick"
+			x: 3.5d
+			y: -4.5d
+			shape: "rsquare"
+			description: ["&dThe Demolisher is a shotgun you can purchase from The Professor. It uses Spreadshot for ammunition."]
+			dependencies: ["34987359BF7F45B2"]
+			id: "72D6A4EA6388E648"
+			tasks: [{
+				id: "4AB2F436B1738F6C"
+				type: "item"
+				item: {
+					id: "aoa3:demolisher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B3400887FD408D3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Finishing the Job"
+			x: 3.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dA lot of the Iro Crates seem to be used to store unfinished weaponry. Which is a bit of an issue since they could be useful to you, right?"
+				""
+				"&dWell, with a Mecha Gear and a Power Core, you can easily finish these weapons and use them yourself!"
+				""
+				"&dThere is a Crossbow, Bow, Assault Rifle, Cannon, Shotgun, and Staff that you can complete and collect."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "3695C9352F92BEAF"
+			tasks: [
+				{
+					id: "4A1D845ABF94F31A"
+					type: "item"
+					item: {
+						id: "aoa3:mechanical_assault_rifle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E221352DB32FB8D"
+					type: "item"
+					item: {
+						id: "aoa3:mecha_cannon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2EB47BD614F28383"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "MECHA FIGHTS"
+			x: 0.5d
+			y: -0.25d
+			shape: "square"
+			dependencies: ["20A8A0903136EE35"]
+			id: "74EECDA839B87041"
+			tasks: [{
+				id: "1719D3BE2C825ECC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Enforce and Mechamaton"
+			x: 0.5d
+			y: 0.75d
+			shape: "rsquare"
+			description: [
+				"&5Enforcers and Mechamatons are hostile melee robots that spawn in Iromine. Enforcers spawn mostly in Iro Passages, while Mechamatons spawn everywhere."
+				""
+				"&5Mechamatons hit quite hard and can push you back far. "
+				""
+				"&5Enforcers can drop Scrap Metal and Armour Plating, both good for crafting. They can also drop Overshot, a gun that fires two bullets at once."
+				""
+				"&5Mechamatons can drop Power Cores and Armour Plating, both good for crafting. They can also drop Gold Springs, needed to spawn the boss of Iromine."
+			]
+			dependencies: ["74EECDA839B87041"]
+			id: "0F8EBD5763937B40"
+			tasks: [
+				{
+					id: "4F6BA4B2B72474AC"
+					type: "kill"
+					entity: "aoa3:enforcer"
+					value: 5L
+				}
+				{
+					id: "4C049B8C9CC82430"
+					type: "kill"
+					entity: "aoa3:mechamaton"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "2FADB4214775A301"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Mechachron and Mechyon"
+			x: -0.5d
+			y: 0.75d
+			shape: "rsquare"
+			description: [
+				"&5Mechachron and Mechyon are hostile robots that spawn in Iromine. Mechachrons are rare spawns, while you can find Mechyons mostly in Iro Passages and Mechyon Temples."
+				""
+				"&5Mechyons are able to stun you for a moment if they hit you."
+			]
+			dependencies: ["74EECDA839B87041"]
+			id: "3C45860D964DA30D"
+			tasks: [
+				{
+					id: "0DCBBE7F185C8EEA"
+					type: "kill"
+					entity: "aoa3:mechachron"
+					value: 1L
+				}
+				{
+					id: "4541F6ADDD0695F5"
+					type: "kill"
+					entity: "aoa3:mechyon"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "5F980E8845823DCD"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Polytom and Voltron"
+			x: 1.5d
+			y: 0.75d
+			shape: "rsquare"
+			description: [
+				"&5Polytoms and Voltrons are hostile robots that spawn in Iromine. "
+				""
+				"&5Polytoms are flying creatures and will attack you with explosive projectiles. Voltrons can make lightning strike if they hit you."
+				""
+				"&5Voltrons can drop Power Cores, good for crafting. They can also drop Gold Springs, which are needed to summon the boss of Iromine."
+			]
+			dependencies: ["74EECDA839B87041"]
+			id: "6CFDF7A438840428"
+			tasks: [
+				{
+					id: "6CEF8ABB4EC0307D"
+					type: "kill"
+					entity: "aoa3:polytom"
+					value: 5L
+				}
+				{
+					id: "04D288626540A66B"
+					type: "kill"
+					entity: "aoa3:voltron"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "64695038EAF1F2B8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Springing the Boss"
+			x: 3.0d
+			y: -1.5d
+			shape: "pentagon"
+			description: [
+				"&5You'll want to find a Professor in his Laboratory sooner rather than later, Bandit."
+				""
+				"&dYep, he's the main key to calling the Boss of Iromine: MechaBot. If you trade enough with them, the Professor will provide you with one of the special Gold Springs you need."
+				""
+				"&5Though, some of the other robots may have earned the permission to face the MechBot as well, so you may rarely find one after defeating some robots."
+				""
+				"&dThe Gold Spring is sort of a VIP pass for the Iromine residents. They allow robots to challenge the MechBot."
+			]
+			dependencies: ["20A8A0903136EE35"]
+			id: "295B57EA4DC55761"
+			tasks: [{
+				id: "2C6DE2990E4B6C9E"
+				type: "item"
+				item: "aoa3:gold_spring"
+			}]
+			rewards: [{
+				id: "68FBE1C34434FCDD"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Mech Boss"
+			x: 5.25d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"&dMechBot was originally head of the FOP security training division, for their physical locations."
+				""
+				"&5He was apparently a big gym buff, and liked scrapping in various fight clubs he could find around the city. Wouldn't listen to you unless you could challenge him and beat him in an acceptable way."
+				""
+				"&dWhen the FOP moved everything digitally, he was brought along and given his own world: Iromine. He quickly took the form of MechBot, a super strong mecha that excels in both melee and ranged combat."
+				""
+				"&5He quickly implemented new protocols in the Iromine world. Strength is standing, the stronger you are the more say you have. And he offered challenges to anyone who could earn the Gold Spring battle pass."
+			]
+			dependencies: ["295B57EA4DC55761"]
+			id: "3DA5A452C4D1186E"
+			tasks: [{
+				id: "7F52A8652373C121"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Challenging the Boss"
+			x: 6.75d
+			y: -2.25d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dIf you are wanting to face the MechBot head on, you'll need to find one of the MechBot Charging Pads, a sort of parking area for robots and MechBot to chill and recharge at. They look like helicopter landing pads in a way, four large platforms with a MechBot Altar on each pad."
+				""
+				"&5Right Click that Gold Spring on any MechBot Altar, and it will call MechBot over for a 1v1 (well, 1v however many you bring!) fight. "
+				""
+				"&dMechBot will start by chasing you down and fighting in melee if they can. Occasionally, they'll start jumping and dropping explosives as a counterattack. "
+				""
+				"&5As well, be careful as MechBot IS a mech, and thus fires the occasional missile at you."
+				""
+				"&dIf you manage to beat MechBot, as a winning prize you might get a gun or a strong hammer."
+			]
+			dependencies: ["3DA5A452C4D1186E"]
+			id: "2761C1A297ED84A1"
+			tasks: [{
+				id: "1FA130318FD2E18B"
+				type: "item"
+				item: "kubejs:boss_card_mechbot"
+			}]
+			rewards: [{
+				id: "036C5E18B3D2D7B0"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Fighting Prowess"
+			x: 6.75d
+			y: -0.75d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&5If you aren't inclined to fight a big mech, you can appease MechBot's fighting spirit by showing off your fighting ability."
+				""
+				"&dMy brother means you can give him various powerful 'trophies' to prove how strong you are. "
+				""
+				"&5He's one of those grizzled fighter types that loves to hear about good fights, cause it gives him ideas on who to challenge next."
+				""
+				"&dAnd if you GIVE him multiple of each trophy, it means that you liked the challenge enough that you have trophies to spare."
+				""
+				"&5Let's just not mention there are...less combative ways of getting some of these, yeah?"
+				""
+				"&dWell, the Dragon Scales you still have to hit the Ender Dragon WITH explosions, but not kill her so... I guess?"
+			]
+			dependencies: ["3DA5A452C4D1186E"]
+			id: "2CF2360221497F3E"
+			tasks: [
+				{
+					id: "0610ED6CA6C26BFE"
+					type: "item"
+					item: "aoa3:gold_spring"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "0980CDD13BE896BC"
+					type: "item"
+					item: "tconstruct:dragon_scale"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "2B3BD51B9838F3AB"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "52EE98BDB03A2563"
+					type: "item"
+					item: "minecraft:dragon_head"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4FD901D14E89E82C"
+					type: "item"
+					item: "kubejs:boss_card_mechbot"
+				}
+				{
+					id: "60C8D6CCE4442C2B"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+			]
+		}
+		{
+			title: "One, Two, Three, Done!"
+			x: 8.0d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"&dGood work, Bandit. Challenge accepted and won."
+				""
+				"&5Now just to finish up with Crystevia."
+			]
+			dependencies: [
+				"2761C1A297ED84A1"
+				"2CF2360221497F3E"
+			]
+			dependency_requirement: "one_completed"
+			id: "3DB4B5EA8E31ECA3"
+			tasks: [{
+				id: "645339D4231E5D88"
+				type: "item"
+				item: "kubejs:boss_card_mechbot"
+			}]
+			rewards: [{
+				id: "61C71A0729F46A67"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crystal World"
+			x: -4.0d
+			y: 3.75d
+			shape: "diamond"
+			description: [
+				"&dCrystevia is a world full of crystals. It's plant life are crystals. It's currency is crystals."
+				""
+				"&5And it's lifeforms are crystals. Crystalline constructs to be precise. "
+				""
+				"&dLike the Deeplands, the world is one giant cave system. So make sure you got some nightvision or something."
+				""
+				"&5Perfect for grappling hooks!"
+				""
+				"&dYes yes brother. But Bandit needs to get there first. The Crystevia Realmstone can be obtained by taking one of those Deep Crystals in the Deeplands, and Right Clicking it onto a Case Construct."
+				""
+				"&5Those things are kind of rare, so keep your eyes peeled!"
+			]
+			dependencies: ["7FFED67FB77CBB40"]
+			id: "432C55FF8D66D259"
+			tasks: [{
+				id: "58AEDEFAE9E63BFD"
+				type: "item"
+				item: "aoa3:crystevia_realmstone"
+			}]
+			rewards: [{
+				id: "636759A64ABD0B20"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crystal Caves"
+			x: -1.75d
+			y: 3.75d
+			shape: "pentagon"
+			description: [
+				"&dAnd this is Crystevia, Bandit. "
+				""
+				"&5Oh this iteration of Crystevia is super pretty."
+				""
+				"&dYes it is, but we may just be a little biased due to all the purple."
+				""
+				"&5Guilty."
+			]
+			dependencies: ["432C55FF8D66D259"]
+			id: "17ED6AFF8CF345C5"
+			tasks: [{
+				id: "235EA12ADA2DB512"
+				type: "dimension"
+				dimension: "aoa3:crystevia"
+			}]
+			rewards: [{
+				id: "089DE892F5DFE9EF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crystals of all Colors"
+			x: 0.5d
+			y: 3.75d
+			shape: "hexagon"
+			description: [
+				"&dWell, all colors is a bit of a stretch, really."
+				""
+				"&5Though they should be easy to find since Crystevia is a cave dimension. But finding all of them is important."
+				""
+				"&dCrystals are basically currency here. In a way. Also kind of weird since the denizines are made of crystals too."
+			]
+			dependencies: ["17ED6AFF8CF345C5"]
+			id: "6FAAA17351B67A7F"
+			tasks: [
+				{
+					id: "52F8B27339DDCBC6"
+					type: "item"
+					item: "aoa3:green_gemstones"
+				}
+				{
+					id: "7A650645F57B42E9"
+					type: "item"
+					item: "aoa3:yellow_gemstones"
+				}
+				{
+					id: "4E371DBB4E231625"
+					type: "item"
+					item: "aoa3:white_gemstones"
+				}
+				{
+					id: "27995C90141C649F"
+					type: "item"
+					item: "aoa3:blue_gemstones"
+				}
+				{
+					id: "252905FDD5C20FDE"
+					type: "item"
+					item: "aoa3:purple_gemstones"
+				}
+				{
+					id: "4B1C7ADA8C6F9B1E"
+					type: "item"
+					item: "aoa3:red_gemstones"
+				}
+			]
+			rewards: [
+				{
+					id: "05B1F702CC6A2DF4"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "7D67433A3E16D11B"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+			]
+		}
+		{
+			title: "CRYSTAL CRAFTS"
+			x: 0.5d
+			y: 4.75d
+			shape: "square"
+			dependencies: ["6FAAA17351B67A7F"]
+			id: "5DC9A97FB67EE303"
+			tasks: [{
+				id: "21B09A25F4C03FD4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Crystal Conversions"
+			x: 0.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: [
+				"&dExplore around Crystevia and you'll eventually come across these purple brick buildings. Some of them contain Crystal Creators of a single color."
+				""
+				"&dBy Right Clicking the same color of Gemstone onto it, you have a chance of converting it into a Crystal of that color, which is used in trades to the Crystal Trader."
+				""
+				"&dAs well as the Crystal Trader, who can be found in their Crystal Trading Posts, you can use some Crystals in crafting recipes, and they are needed to summon the Boss of Crystevia."
+			]
+			dependencies: ["5DC9A97FB67EE303"]
+			id: "68E76BA2692B8EBA"
+			tasks: [
+				{
+					id: "08BEA9E1C7631514"
+					type: "item"
+					item: "aoa3:white_crystal"
+				}
+				{
+					id: "658B9B69C1F14FA3"
+					type: "item"
+					item: "aoa3:blue_crystal"
+				}
+				{
+					id: "7EA76B8B41C7F186"
+					type: "item"
+					item: "aoa3:purple_crystal"
+				}
+				{
+					id: "4F76B50830D0390A"
+					type: "item"
+					item: "aoa3:red_crystal"
+				}
+				{
+					id: "21E519523C67BB43"
+					type: "item"
+					item: "aoa3:yellow_crystal"
+				}
+				{
+					id: "1C0772D5040E0C73"
+					type: "item"
+					item: "aoa3:green_crystal"
+				}
+			]
+			rewards: [{
+				id: "12760F9726E4CD47"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Trade Ins"
+			x: 0.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: [
+				"&dFinding a Crystal Trader will be very important, as they are the only way to find Druse's, other than the rare Construct of the Mind. They don't trade it to just anyone, so work on improving your trade relations."
+				""
+				"&dDruses are needed to craft special crystal gear, as well as the Rainbow Druse needed to summon the Boss of Crystevia."
+			]
+			dependencies: ["68E76BA2692B8EBA"]
+			id: "124AF0BB9FA658D5"
+			tasks: [{
+				id: "3FE291BAA18DEB8D"
+				type: "item"
+				item: "aoa3:purple_druse"
+			}]
+			rewards: [{
+				id: "5D0DE13DC9565AF0"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Slowing Staff"
+			x: -0.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Crystik Staff is a staff you can craft. It uses Distortion, Life, and Water Runes to cast."
+				""
+				"&dWhen used, the Crystik Staff will slow the movement and attack speed of all hostile creatures around you. If there aren't any, the staff will not cast."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "129590E9C8BB9FDE"
+			tasks: [{
+				id: "3EC72FAED14BCD7D"
+				type: "item"
+				item: {
+					id: "aoa3:crystik_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E17F3EF864888E0"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crystal Ratatat"
+			x: 1.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: ["&dThe Crystal Carver is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammo."]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "3254338EF5E8265A"
+			tasks: [{
+				id: "703379DE3AE8FFCA"
+				type: "item"
+				item: {
+					id: "aoa3:crystal_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FB60E405614CC31"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Crystallis Armor"
+			x: 1.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: [
+				"&dCrystallis Armor is an armor set you can craft in an Infusion Table."
+				""
+				"&dWearing a piece of Crystallis Armor will cause melee attacks to reflect a percentage of the damage back at the attacker. Every additional piece reflects more damage back."
+				""
+				"&dIf you wear the full set, the damage reflected will also occur to ranged attacks, as long as they are not magic."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "2BE96844DCC29A21"
+			tasks: [{
+				id: "39A6A9E7651C9ADD"
+				type: "item"
+				item: {
+					id: "aoa3:crystallis_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A2546CBC0244859"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Rip and Blast"
+			x: -1.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Doom Bringer is a blaster you can craft in an Infusion Table. It uses your Spirit energy for shots."
+				""
+				"&dShots from the Doom Bringer explode on impact."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "3E61F9A8C86480FC"
+			tasks: [{
+				id: "7C7BF57D3EE08620"
+				type: "item"
+				item: {
+					id: "aoa3:doom_bringer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "575781CB7825E577"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "In My Sights"
+			x: 2.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: ["&dThe Dual Sight is a sniper rifle that you can craft in an Infusion Table.  It uses Metal Slugs for ammunition."]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "3F61762FB30E7F72"
+			tasks: [{
+				id: "04D263EDAE9F2E0B"
+				type: "item"
+				item: {
+					id: "aoa3:dual_sight"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "408FC31CDB3E2FEA"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Blasted Ions"
+			x: 2.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: ["&dThe Ion Blaster is a blaster you can craft in an Infusion Table. It uses your Spirit energy for its shots."]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "049A65DEE73424E2"
+			tasks: [{
+				id: "05A96242FE5BB422"
+				type: "item"
+				item: {
+					id: "aoa3:ion_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C5F9460802C5765"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Show Me!"
+			x: -1.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Show Staff is a staff you can craft. It uses Compass and Power Runes to cast."
+				""
+				"&dWhen used, the Show Staff will make all hostile creatures within 30 blocks to glow. It will also ignite them on fire and launch a firework above them."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "327C4F4B4B8CA338"
+			tasks: [{
+				id: "443572A18FA476FC"
+				type: "item"
+				item: {
+					id: "aoa3:show_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FBCDC6C323AD74E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Constructive"
+			x: -2.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: ["&dThe Construct is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammo."]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "47C3AC60ABC2B3B7"
+			tasks: [{
+				id: "1771BE6A38BAEAC1"
+				type: "item"
+				item: {
+					id: "aoa3:construct"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1345446191D1EE90"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Sticky Launcher"
+			x: 3.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Blast Cannon is a cannon that you can craft in an Infusion Table. It uses Grenades for ammo."
+				""
+				"&dShots fired from the Blast Cannon will explode upon impacting a creature, but if they hit a block they will stick. After a few seconds, they will explode."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "1F62DD027CDE25BD"
+			tasks: [{
+				id: "79ED1C92270C8E56"
+				type: "item"
+				item: {
+					id: "aoa3:blast_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CD6FD396D76ADD1"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Back off!"
+			x: -3.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Ion Revolver is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dThe Ion Revolver's shots knock back enemies."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "27BA537FDF92F377"
+			tasks: [{
+				id: "5E80609671ABACB1"
+				type: "item"
+				item: {
+					id: "aoa3:ion_revolver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DC866116368BEFA"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Push n Pulse"
+			x: -2.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Pulse Cannon is a cannon you can craft in an Infusion Table. It uses Cannonballs for ammo."
+				""
+				"&dWhen you fire the Pulse Cannon, all hostile mobs near you will be pushed back."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "7D8BAC481BBAF6D1"
+			tasks: [{
+				id: "1B8D198293DF64F0"
+				type: "item"
+				item: {
+					id: "aoa3:pulse_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F235D720A1C4AC9"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Slow Mauling"
+			x: 3.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Crystal Maul is a maul you can purchase from the Crystal Trader. "
+				""
+				"&dEnemies hit with the Crystal Maul are slowed."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "0D1083EF24D22120"
+			tasks: [{
+				id: "49A77345DD23A37E"
+				type: "item"
+				item: {
+					id: "aoa3:crystal_maul"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "48E94389320F4D54"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Wide Sweep"
+			x: 4.0d
+			y: 5.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Crystal Greatblade is a greatblade you can purchase from the Crystal Trader. "
+				""
+				"&dHitting a creature will also hit all other hostile creatures for a few damage nearby."
+			]
+			dependencies: ["124AF0BB9FA658D5"]
+			id: "3880137A5AF09554"
+			tasks: [{
+				id: "4FA94C09D88ADF6A"
+				type: "item"
+				item: {
+					id: "aoa3:crystal_greatblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B0E500DD5E1410F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "CRYSTAL FIGHTS"
+			x: 0.5d
+			y: 2.75d
+			shape: "square"
+			dependencies: ["6FAAA17351B67A7F"]
+			id: "22118E3ADB429A22"
+			tasks: [{
+				id: "7B554145B25FB7B4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Constructs of Flight and Range"
+			x: 2.0d
+			y: 1.75d
+			shape: "rsquare"
+			description: [
+				"&5Constructs of Flight and Constructs of Range are hostile creatures that spawn on Crystevia. "
+				""
+				"&5Construct of Flight is a flying creeature that attacks in melee, while the Construct of Range attacks with ranged projectiles."
+				""
+				"&5The Construct of Flight has a chance of dropping a Blue Druse, while the Construct of Range has a chance of dropping a Purple Druse."
+			]
+			dependencies: ["22118E3ADB429A22"]
+			id: "622762DC33B13CC0"
+			tasks: [
+				{
+					id: "62CF516756C38343"
+					type: "kill"
+					entity: "aoa3:construct_of_flight"
+					value: 5L
+				}
+				{
+					id: "7824E2BC245231CE"
+					type: "kill"
+					entity: "aoa3:construct_of_range"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "42059DD80AD3C33B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Construct of Mind"
+			x: 1.0d
+			y: 1.75d
+			shape: "rsquare"
+			description: [
+				"&5The Construct of Mind is a rare hostile mob that spawns on Crystevia. "
+				""
+				"&5The Construct of Mind has a rare chance of dropping any color of Druse."
+			]
+			dependencies: ["22118E3ADB429A22"]
+			id: "7793C6DEEC65D543"
+			tasks: [{
+				id: "74022C8E35C934D4"
+				type: "kill"
+				entity: "aoa3:construct_of_mind"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0252E4F34FCCF010"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Constructs of Resistance and Speed"
+			x: 0.0d
+			y: 1.75d
+			shape: "rsquare"
+			description: [
+				"&5The Construct of Resistance and the Construct of Speed are hostile creatures that spawn in Crystevia."
+				""
+				"&5If the Construct of Resistance gets a resistance buff, it will increase that buff by another level. The Construct of Speed will increase any Speed buff it receives by another level."
+				""
+				"&5The Construct of Resistance has a chance of dropping a White Druse, and the Construct of Speed has a chance of dropping a Yellow Druse."
+			]
+			dependencies: ["22118E3ADB429A22"]
+			id: "34FB6853B1E6A57C"
+			tasks: [
+				{
+					id: "6BE507812135A087"
+					type: "kill"
+					entity: "aoa3:construct_of_resistance"
+					value: 5L
+				}
+				{
+					id: "2B0CA116EAD9028B"
+					type: "kill"
+					entity: "aoa3:construct_of_speed"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "64D8CA7F1D8BE01F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Constructs of Strength and Terror"
+			x: -1.0d
+			y: 1.75d
+			shape: "rsquare"
+			description: [
+				"&5The Construct of Strength and the Construct of Terror are hostile creatures that spawn on Crystevia."
+				""
+				"&5If the Construct of Strength receives a Strength buff, it will increase the level by one. The Construct of Terror will fly and shoot projectiles at you."
+				""
+				"&5The Construct of Strength has a chance of dropping a Red Druse. The Construct of Terror has a chance of dropping a Green Druse."
+			]
+			dependencies: ["22118E3ADB429A22"]
+			id: "42B9CAB998EB89E8"
+			tasks: [
+				{
+					id: "3CC63508BFE3E905"
+					type: "kill"
+					entity: "aoa3:construct_of_strength"
+					value: 5L
+				}
+				{
+					id: "374FB8F2A4EE591E"
+					type: "kill"
+					entity: "aoa3:construct_of_terror"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "62E3F4BF0E450EBF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Powerful Construct"
+			x: 3.0d
+			y: 3.75d
+			shape: "pentagon"
+			description: [
+				"&dThe Boss of Crystevia is Crystocore, a powerhungry FOP Boss that used to control multiple teams, each one dealing with a different field."
+				""
+				"&5They controlled these teams strictly, and pushed them to become the best by any means, which made Crystocore more powerful by connection."
+				""
+				"&dWhen the FOP Digitized, Crystocore was given control of Crystevia, which needed a powerful boss to control."
+				""
+				"&5Before anything, you'll need to create a Giant Crystal, a powerful gem, to get Crystocore's attention."
+				""
+				"&dExplore for a floating platform with a Crystal Extension Shrine in the center of it. You'll also need 10 of any Crystal, as well as a Rainbow Druse."
+				""
+				"&5Toss those Crystals down, then Right Click the Rainbow Druse onto the Crystal Extension Shrine. Bam, Giant Crystal!"
+			]
+			dependencies: ["6FAAA17351B67A7F"]
+			id: "35F2AB6E06924EBC"
+			tasks: [{
+				id: "619D4F0EEB59763D"
+				type: "item"
+				item: "aoa3:giant_crystal"
+			}]
+			rewards: [{
+				id: "46DA57D7DF2956C7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Crystal Boss"
+			x: 5.25d
+			y: 3.75d
+			shape: "hexagon"
+			description: [
+				"&dCrystocore, above all else, wants more power. And given they are now a giant crystal construct, on top of the power of status and control, they need other types of power too to keep growing stronger."
+				""
+				"&5It's why a lot of the Crystevia denizens are hostile, out of fear of Crystocore breaking them down and absorbing them. If they keep bringing sacrifices, well... they survive longer."
+				""
+				"&dWe aren't sure they realize they are stuck in the FOP Game Server. Many of the worlds they digitize and decimate never realize this, unfortunately..."
+				""
+				"&5That's why Crystocore has been given the nickname Construct of Power. All power, unending, relentless."
+			]
+			dependencies: ["35F2AB6E06924EBC"]
+			id: "54727C73BD9B0004"
+			tasks: [{
+				id: "721100D290CD7CFD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Power Struggle"
+			x: 6.75d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "BOSS BATTLE"
+			description: [
+				"&5If you are looking to destroy Crystocore, you're gonna want to find one of the Crystevia Power Stations."
+				""
+				"&dLook for a floating platform with a green block on top. This is the Power Station, which supplies power to some of the Crystevia citizens, but especially Crystocore themselves."
+				""
+				"&5That Giant Crystal you made? Right Click that onto the Power Station, and the energy from it will call forth Crystocore."
+				""
+				"&dCrystocore will fly around and charge at you. As well, every so often they'll change colors."
+				""
+				"&5Keep note of what color they are, Bandit. When they hit you, the color determines what effect you'll be hit with. Like Green is poison."
+				""
+				"&dSeriously, avoid Red. Ugh. But if you do defeat Crystocore, you might get a special crystal weapon."
+			]
+			dependencies: ["54727C73BD9B0004"]
+			id: "39EA103830B9D647"
+			tasks: [{
+				id: "5B94884A9C4AF59D"
+				type: "item"
+				item: "kubejs:boss_card_crystocore"
+			}]
+			rewards: [{
+				id: "35DDF7201F1ECDAD"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Power Corrupts"
+			x: 6.75d
+			y: 4.5d
+			shape: "diamond"
+			description: [
+				"&dIt doesn't sit right to just bribe and move on. Like Gyro, they are pretty bad, just look at how rough Crystevians are."
+				""
+				"&5How about...a Trojan Horse?"
+				""
+				"&d.Good idea, brother! Okay Bandit, Crystocore wants more power, let's provide power. A variety of energy generators is a good start."
+				""
+				"&5But what do we hide in the Horse?"
+				""
+				"&dHmm....Wait, make one generator a Gourmand generator. Consumes food for energy. And then grab some Poisonous Potatoes. It won't really hurt them, but it'll open up a way for a bunch of Nuke Virus' to hit Crystocore! You can find them in dungeon chests, drone delivery, or our Shop."
+			]
+			dependencies: ["54727C73BD9B0004"]
+			id: "5EF503A6101951CC"
+			tasks: [
+				{
+					id: "1E049090FCDF5804"
+					type: "item"
+					item: "aoa3:giant_crystal"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "476898C351DFBD12"
+					type: "item"
+					item: "modernlife:battery"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "08D57BB27FD937E5"
+					type: "item"
+					item: {
+						id: "thermal:flux_capacitor"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "42490D84D3B4C141"
+					type: "item"
+					item: "thermal:dynamo_gourmand"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "18400055D930CE4C"
+					type: "item"
+					item: "thermal:dynamo_magmatic"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "24C2FA81DEF520BB"
+					type: "item"
+					item: "wormhole:coal_generator"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "588F99BFFCC42AC6"
+					type: "item"
+					item: "minestuck:energy_core"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "3F68E1FEC07B4885"
+					type: "item"
+					item: "minecraft:poisonous_potato"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "4E4DBC98E93303FA"
+					type: "item"
+					item: "pneumaticcraft:nuke_virus"
+					count: 5L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "74AC5BE94544F6B9"
+					type: "item"
+					item: "kubejs:boss_card_crystocore"
+				}
+				{
+					id: "7601B8B06C4F0287"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+			]
+		}
+		{
+			title: "Powered Down"
+			x: 8.0d
+			y: 3.75d
+			shape: "hexagon"
+			description: [
+				"&dExcellent work, Crystocore is down for the count... for a while at least."
+				""
+				"&5They'll be back, it's inevitable sadly until our Aubudon Virus takes over the FOP Game Server and we can start rescuing these worlds properly."
+			]
+			dependencies: [
+				"39EA103830B9D647"
+				"5EF503A6101951CC"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B63CB9C6FD3A213"
+			tasks: [{
+				id: "130789E8766AA125"
+				type: "item"
+				item: "kubejs:boss_card_crystocore"
+			}]
+			rewards: [{
+				id: "25F1B3CF03FDFADB"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Continuing the Fight"
+			x: 8.0d
+			y: 1.25d
+			shape: "pentagon"
+			dependencies: [
+				"3DB4B5EA8E31ECA3"
+				"5B63CB9C6FD3A213"
+			]
+			id: "516AD1604BBD2E1D"
+			tasks: [{
+				id: "3B8EA161CEFAC266"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Shot Bomb"
+			x: 4.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Blast Barrel is a shotgun you can craft in an Infusion Table. It uses Spreadshot for ammo."
+				""
+				"&dProjectiles fired by the Blast Barrel explode on impact."
+			]
+			dependencies: ["2D8D68D9544CB856"]
+			id: "1FB5F6FFAB47AE38"
+			tasks: [{
+				id: "5A3E9378065CD4A2"
+				type: "item"
+				item: {
+					id: "aoa3:blast_barrel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68A85014C7238F40"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Gem Fragmentation"
+			x: 4.5d
+			y: 6.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Crystaneer is a sniper rifle you can craft in an Infusion Table. It uses Metal Slugs for ammunition."
+				""
+				"&dThe Crystaneer can cause creatures it kills to drop an extra gem."
+			]
+			dependencies: ["5DC9A97FB67EE303"]
+			id: "5DD213CD3FED2A20"
+			tasks: [{
+				id: "2BCB958878E2B1B3"
+				type: "item"
+				item: {
+					id: "aoa3:crystaneer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D691489C0B41D25"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,425 @@
+{
+	id: "68D57AD423493AA4"
+	group: ""
+	order_index: 0
+	filename: "getting_up_to_speed"
+	title: "Getting Up to Speed"
+	icon: {
+		id: "botania:cosmetic_questgiver_mark"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: -4.0d
+			shape: "pentagon"
+			subtitle: "Second Verse, Same as the First"
+			description: [
+				"&5Bandit? Bandit! Can you hear me? Or, well, really, read me, but that is beside the point!"
+				" "
+				"&5Phew, still with us. Had me worried! Who am I?"
+				""
+				"&5I'm Caigan, the co-owner of The Ferret Business, remember? Well, I'll catch you back up to speed later, there's more important things..."
+				""
+				"&5When you used the Sword of the Cosmos to return home, you..."
+				""
+				"&5You don't remember that, you say?"
+				""
+				"&5Okay, this is going to take a small bit to explain. Make sure you are somewhere safe for a few moments, yeah?"
+				""
+				"&5Preferably get yourself a seat too, it could be a lot to take in if you really don't remember anything..."
+			]
+			id: "5DD803E2DB661B66"
+			tasks: [{
+				id: "37A8CF4751CBD764"
+				type: "checkmark"
+				title: "Here We Go Again..."
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "pentagon"
+			description: [
+				"&5So, some time ago, you were a new intern at The Ferret Business. And unfortunately, a research lab accident sent you into another world..."
+				""
+				"&5We found something was blocking us from getting you back. A cosmic force? We don't know, but you and us worked together to research new technologies."
+				""
+				"&5Eventually, together, we found something that could get you past the barriers between our dimensions: The Sword of the Cosmos. And you created the legendary weapon."
+				""
+				"&5The Sword would put you in suspended animation as you travelled through space and dimensions, and we estimated it would take a week or so to get home."
+				""
+				"&5When you didn't arrive, we were concerned. But we were still tracking your Q.U.E.S.T. Tablet signal... suddenly it vanished. We learned that you had been... intercepted."
+				""
+				""
+			]
+			dependencies: ["5DD803E2DB661B66"]
+			hide: true
+			id: "19DD5DBBECEACA48"
+			tasks: [{
+				id: "351909F1249A7B6C"
+				type: "checkmark"
+				title: "Travels Interrupted"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			shape: "pentagon"
+			description: [
+				"&5We've spent the last month trying to track you down. And lo and behold, here you are! We found you!"
+				""
+				"&5But that is where the good news ends, I'm afraid. We also found out who intercepted you, and how. "
+				""
+				"&5You've probably noticed by now the world your in is very.... well, different than both our world and the one you escaped. You have levels, stats, skills; things are locked down, advertisements, microtransactions galore...."
+				""
+				"&5I'll put it simply : You've been captured by our rival corporation and placed into their massive 'game world'. They are known as FOP."
+				""
+				"&5The Feathers of Parliament."
+			]
+			dependencies: ["19DD5DBBECEACA48"]
+			hide: true
+			id: "5136BFD11A07D7D0"
+			tasks: [{
+				id: "13656E047D8BD2BB"
+				type: "checkmark"
+				title: "Trapped"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "pentagon"
+			subtitle: "....Right?"
+			description: [
+				"&5When I say Game World, you probably think you are safe. You can't die permanently, just like the world you broke free from."
+				""
+				"&5But this is a bit more insideous. The FOP digitize entire planets and put them into their game world. And by gamefying everything, trapping Users in an endless loop of gathering resources and money to buy microtransactions, so they can earn more money to buy more..."
+				""
+				"&5You not only drain a world of every last valuable resource, you also get the world itself to manufacture every product you sell at the same time. Why bother doing it  yourself, if you get the prisoner to do everything?"
+				""
+				"&5This is, unfortunately, the game that you are now trapped in."
+			]
+			dependencies: ["5136BFD11A07D7D0"]
+			hide: true
+			id: "1C67908469019A64"
+			tasks: [{
+				id: "6690DF0C44971A38"
+				type: "checkmark"
+				title: "It's Just a Game!"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			shape: "pentagon"
+			subtitle: "What do they want?!"
+			description: [
+				"&5We figure they discovered you had the fabled Sword of the Cosmos, and wanted it for themselves."
+				""
+				"&5So they digitized you, in the hopes that you would have the Sword and they could just take it. But, well... you don't have it. Nor do they, or we'd all be in much more trouble."
+				""
+				"&5The Sword of the Cosmos is... well, its much more than a sword. It probably couldn't stop you from being digitized, so it instead vanished. "
+				""
+				"&5But knowing The FOP, as I do, just the fact that you forged the Sword of the Cosmos is enough for them to imprison you and drain you of everything they can."
+			]
+			dependencies: ["1C67908469019A64"]
+			hide: true
+			id: "0931055624F2533A"
+			tasks: [{
+				id: "691760055BA77617"
+				type: "checkmark"
+				title: "Reasons and Suspicions"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "A Mistake Was Made... But Not For You!"
+			description: [
+				"&5Okay, I was talking to some of my researchers, and we all agree. Not all is lost."
+				""
+				"&5In fact, the FOP made a grave mistake. They digitized you completely: body mind and soul. Then they put you into their Game Server."
+				""
+				"&5You, who have touched the power of the Gods, fought and defeated some of them, and forged the Sword of the Cosmos in your journey home."
+				""
+				"&5You, Bandit, who also holds a link to the outside world : Your Q.U.E.S.T. Tablet. And thus, a link to us."
+				""
+				"&5So, Bandit. Shall we work together again, to not only get you home, but also to teach the FOP a lesson?"
+			]
+			dependencies: ["0931055624F2533A"]
+			hide: true
+			id: "25604555CD6C8A65"
+			tasks: [{
+				id: "54A4B3622DC5D393"
+				type: "checkmark"
+				title: "Problem, or Solution?"
+			}]
+		}
+		{
+			icon: "aoa3:mecha_gear"
+			x: 0.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "Know Your Icons!"
+			description: ["{image:tfb2:textures/quests/icon_info.png width:200 height:225 align:1}"]
+			dependencies: ["5DD803E2DB661B66"]
+			size: 0.75d
+			id: "67C2D0801E67C808"
+			tasks: [{
+				id: "05D338CD1221410B"
+				type: "checkmark"
+				title: "[Information - Quest Icons]"
+			}]
+		}
+		{
+			icon: "kubejs:vid_intro_1"
+			x: 1.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "[Created Visual Aids]"
+			description: [
+				"&5Video discs? Yep! In the past couple weeks since you vanished, we progressed in some helpful research with the help of someone nicknamed The Traveller."
+				""
+				"&5They introduced us to a new technology to research called Create, a fully wonderful system based on gears, rotation, and more."
+				""
+				"&5The Create Creators also included quite a helpful system called Ponder. We know many assistants and researchers work best with visual guides (which is why we started including more picture manuals), but their Ponder System lets us transfer simple videos via Video Discs as well!"
+				""
+				"&5We haven't adapted the Ponder system into the Q.U.E.S.T. Tablet fully, so the videos might be a little... what do the young assistants call it? Scuffed?"
+			]
+			dependencies: ["19DD5DBBECEACA48"]
+			hide: true
+			size: 0.75d
+			id: "02072BAD74940BC4"
+			tasks: [{
+				id: "49207BC890EB503D"
+				type: "checkmark"
+				title: "[Information - Video?!]"
+			}]
+		}
+		{
+			icon: "mctcg:booster_pack"
+			x: 3.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "Are you the champion?"
+			description: [
+				"&5The Feathers of Parliamant patented a unique form of digitization: in other words, converting physical matter into a digital version."
+				""
+				"&5Truth be told, we were working on the same technology. Except we didn't go as far as The FOP did, and we've had trouble fighting their patent in court."
+				""
+				"&5Both our Digitization versions converted the physical to digital.... except the soul. We stored the Soul in a magical buffer to return it when we un-digitized something. The FOP, however, digitize the soul too, which is much more dangerous for the soul..."
+				""
+				"&5The FOP use the Digitization tech to store EVERYTHING, and convert it later to sell. Yes, including souls."
+			]
+			dependencies: ["5136BFD11A07D7D0"]
+			hide: true
+			size: 0.75d
+			id: "14923F2A5F335C80"
+			tasks: [{
+				id: "1A2ED7C926F72DA5"
+				type: "checkmark"
+				title: "[Information - Digitization]"
+			}]
+		}
+		{
+			icon: {
+				id: "mctcg:deckbox_white"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "Game On!"
+			description: [
+				"&5The FOP Game World is a server that holds all their digitized worlds."
+				""
+				"&5Some of the worlds they keep as is, using them as personal kingdoms."
+				""
+				"&5The other worlds become part of their game. A game that includes both visiting 'Users' who think its just a fun game, and the trapped prisoners(that they call Power Users) of those worlds."
+				""
+				"&5These get transformed into dungeons. Everything worth money is temporarily transmuted into game items, encouraging Users and Power Users to gather them and sell them to the FOP, who return them to normal and sell them across the galaxy."
+				""
+				"&5Once a world is nothing but dirt and rock and other things they deem unworthy, they grind the entire world down to save server resources, and sell the remaining souls as well."
+			]
+			dependencies: ["1C67908469019A64"]
+			hide: true
+			size: 0.75d
+			id: "1DC68497D620EBFE"
+			tasks: [{
+				id: "62EF6DA417394A01"
+				type: "checkmark"
+				title: "[Information - FOP Game World]"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "What's the deal?!"
+			description: [
+				"&5Okay, I've kind of talked your ear off here, Bandit. I need to start looking into things on my end, so I'm going to start connecting you to the other researchers here at The Ferret Business again."
+				""
+				"&5I'll also connect you to my sister and other co-owner of the Business, Kowa, and our second in command ByteSize. The three of us will guide you through the main issues you face."
+				""
+				"&5As for the other researchers, like Biologist Bitsy? They'll guide you through the finer details of the equipment, systems, and other things you'll encounter in the FOPGame Server."
+				""
+				"&5While I get a few things rolling, go check out The FOP Shop. I've connected it to the Q.U.E.S.T. Tablet so you can access both us and them easily."
+			]
+			dependencies: ["25604555CD6C8A65"]
+			hide: true
+			id: "31711C6DAB9BA2E5"
+			tasks: [{
+				id: "725D4274BB2374A0"
+				type: "checkmark"
+				title: "Get Your Bearings"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "Twins?"
+			description: [
+				"&dBack outside of the FOPServer Shop, thank the code. Right, introductions!"
+				""
+				"&dMy name is Kowa. As my brother, Caigan, may have mentioned, I'm his sister. Twin sister, to be precise. "
+				""
+				"&dWe lead The Ferret Business as a three person team, including our Vice President ByteSize, who you'll meet later.  "
+				""
+				"&dWe each run different parts of the Business, and it's definitely going to take all of our researchers to get you out of there. And to make the FOP pay for imprisoning you."
+				""
+				"&dIt's one thing to be trapped in a dimension from a teleporter accident. It's a whole 'nother level to be imprisoned in another 'dimension' against your will, yeah?"
+			]
+			dependencies: ["1B6761988ABBBC4A"]
+			hide: true
+			id: "4D05D5B4C4E8BAF2"
+			tasks: [{
+				id: "09E273FCEE39F305"
+				type: "checkmark"
+				title: "The Second of Three"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "Lots to cover!"
+			description: [
+				"&dAlright, I know we've talked your ears off at this point. Lots of listening, not a lot of DOING, right?"
+				""
+				"&dSorry, but there's a lot that needs explaining. The FOP have layered their game server with so many different systems that..."
+				""
+				"&7Sigh, ma'am... Let's get on with it?"
+				""
+				"&dHm? Oh... sorry squeaks. You're right. Bandit, this is ByteSize, company Vice President. "
+				""
+				"&7Yo. I think it'll be better for us to go over things as they are needed. Otherwise its a LOT to take in, yeah? Sir, Ma'am, you take charge of everything inside The Vaults. I'll take charge of things in the Mainland. Sound good?"
+				""
+				"&5Yep. &dGood idea."
+			]
+			dependencies: ["4D05D5B4C4E8BAF2"]
+			hide: true
+			id: "69E215271F5C1810"
+			tasks: [{
+				id: "03F14005B84B2D6A"
+				type: "checkmark"
+				title: "Long Winded"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "What's the Plan?"
+			description: [
+				"&5Okay, Bandit, from here we're going to separate out all the different research and exploration paths just like we did last time: into different 'quest lines', so to speak. "
+				""
+				"&dGamefying things isn't always bad, it's kind of what we have to do through this Q.U.E.S.T. Book. Quests, missions, goals, rewards."
+				""
+				"&dWell, as the squeaker said, we're talking too much. Let's get to doing, brother. "
+				""
+				"&5Right. Bandit, we'll handle the 'main questline', which we'll call Breaking Out."
+				""
+				"&dByteSize will handle explaining everything outside the Vaults, as well as connect you to different Researchers. They'll cover specific product lines, magic schools, and other things."
+			]
+			dependencies: ["69E215271F5C1810"]
+			hide: true
+			id: "110C1EFD863C907C"
+			tasks: [{
+				id: "0346ECC7C923F666"
+				type: "checkmark"
+				title: "Fighting the FOP"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "And Everything Else"
+			description: [
+				"&7Phew, never thought they'd stop the exposition. Anyways, hey there Bandit! Name is ByteSize, or just Byte or Maus if you'd like. If the clues didn't give it away, I'm a mouse. Well, a computer mouse, but that's a whole other story. "
+				""
+				"&7I'll keep things simple: the Business owners will help you tackle the Vaults and find a way out of the FOPGame Server. Meanwhile, I'm going to help you survive and thrive in the Mainland. You'll definitely need to master both Zones to get out."
+				""
+				"&7The owners have a big section clearly marked Main Questline they'll handle. And other than this intro and the FOP SHOP, I'll sort out the other sections, okay? They'll cover everything else about the FOP Game Server."
+				""
+				"&7 Let's get started!"
+			]
+			dependencies: [
+				"69E215271F5C1810"
+				"110C1EFD863C907C"
+			]
+			hide: true
+			id: "568F1A900320CD3F"
+			tasks: [{
+				id: "59F8030F2E6921DC"
+				type: "checkmark"
+				title: "Fighting to Survive"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			shape: "pentagon"
+			subtitle: "REWARDS!"
+			description: [
+				"&5Wait, we're forgetting something."
+				""
+				"&dHm? Oh, right!"
+				""
+				"&7Like the bosses did before, every quest, mission, etc you complete will get you a reward!"
+				""
+				"&5The rewards will be slightly different this time, Bandit. You'll still get money, which is a bit different this time. And you'll also get our newest Blind Bag, so new we haven't released it to market yet!"
+				""
+				"&7I'll cover both of those later, yeah?"
+				""
+				"&dOkay okay squeaker. We'll leave it at that. But first, for listening to this whole exposition dump, you'll get some money AND one of the Blind Bags...I mean, Blind Boxes."
+			]
+			dependencies: ["568F1A900320CD3F"]
+			hide: true
+			id: "40EA34C792B4864C"
+			tasks: [{
+				id: "0F1D348CF067A8DA"
+				type: "checkmark"
+				title: "Rewards?!"
+			}]
+			rewards: [{
+				id: "5C2094D1940BA267"
+				type: "item"
+				item: "kubejs:blindboxblindbox"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

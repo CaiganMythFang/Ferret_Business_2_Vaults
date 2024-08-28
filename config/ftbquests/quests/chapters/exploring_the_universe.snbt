@@ -1,0 +1,807 @@
+{
+	id: "4FBBCF269F54F2BB"
+	group: "499A93482811AC21"
+	order_index: 0
+	filename: "exploring_the_universe"
+	title: "Exploring the Universe"
+	subtitle: [
+		"MOD : Advanced Finders"
+		"MOD : Advanced Hook Launchers"
+		"MOD : Grappling Hook Mod"
+		"MODS : Comforts, Backpacked"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Out and About"
+			x: -1.0d
+			y: 1.75d
+			shape: "octagon"
+			description: [
+				"&bHey there, Bandit! Name's &lExplorer Eric&r&b, remember me? Nah nah, no worries if you don't remember me, got a mind like a sieve myself for names! Last time I helped you get up to speed in all the little things to help you explore and adventure around the world."
+				""
+				"&bNow the FOP Game Server might be a digital place, but that doesn't change the basics of exploring, nor the adventuring tips I can give."
+				""
+				"&bLet me get my adventuring crew together to look over what options the FOP gives you."
+			]
+			dependencies: ["1D0853ADC7295AEB"]
+			id: "45A4E38A1E2BA965"
+			tasks: [{
+				id: "0B4C05639105EE29"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Finding the Goods"
+			x: -3.75d
+			y: -0.25d
+			shape: "square"
+			subtitle: "Mod : Advanced Finders"
+			description: [
+				"&bNow, when exploring around, as we learned before, you want to be on the lookout for important resources!"
+				""
+				"&bAbove ground that tends to mean plants to eat, animals to hunt, waters to drink, other waters NOT to drink and to avoid, animals to not disturb, and plants to never touch."
+				""
+				"&bBut you come across lots of caves and ravines. And especially with the Hex grid world the FOP has, its easier to get lost underground. At least I think so."
+				""
+				"&bSo, you can use one of these Advanced Finders! There's three types: The Mineral one the bosses probably gave you already, or will shortly."
+				""
+				"&bThe other two are Metal and Gem Finders. Both really useful. They point you towards clumps of Ore. They show an arrow if the closest Ore, Gem, or Mineral is above or below you."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "4645334A0EDD87AA"
+			tasks: [
+				{
+					id: "4CC1A2321023B818"
+					type: "item"
+					item: {
+						id: "adfinders:metal_finder"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "079379AD58DC751A"
+					type: "item"
+					item: {
+						id: "adfinders:gem_finder"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3716413FCD35A6B7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Reel Em In"
+			x: -2.25d
+			y: -0.25d
+			shape: "square"
+			subtitle: "Mod : Advanced Hook Launchers"
+			description: [
+				"&bTraversing the terrain, especially this crazy Hex world the FOP came up with, can be quite daunting if you don't have wings!"
+				""
+				"&bThankfully, though, you can use some grappling hooks to travel up and down cliff walls safely! "
+				""
+				"&bThe FOP Game Server has two uh... 'brands', so to speak. One is Advanced Hook Launchers. The classic Spear Launcher is an all around good one, Bandit."
+				""
+				"&bLaunch the spear out by Left Clicking, then Left Click again to reel it in. To release the hook, Sneak + Right Click to detatch the hook and reel it back in. You can hook items too, as well as creatures, but note that the Spear will damage them and could make them mad."
+				""
+				"&bThere's more instructions printed on the hook launchers though. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "217F4DD8B93E021B"
+			tasks: [{
+				id: "6F4A66121558A725"
+				type: "item"
+				item: {
+					id: "adhooks:spear_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D3C0D5B5ACEB2FE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Get Over Here!"
+			x: -2.25d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Pudge Hook Launcher works a bit differently than the Spear Hook Launcher. "
+				""
+				"&bWhen you successfully hook a block, the Pudge Hook Launcher will immediately reel you in and launch you towards it, disconnecting the hook in the process."
+				""
+				"&bIf you hook a creature, you'll reel that creature in towards you instead! It still unhooks immediately, but it won't damage the creature in the process like the Spear Hook Launcher."
+			]
+			dependencies: ["217F4DD8B93E021B"]
+			id: "676D38C4018B1CC1"
+			tasks: [{
+				id: "18CB5798FA305F56"
+				type: "item"
+				item: {
+					id: "adhooks:pudge_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AF1BB0B37DCD15F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Webbed Up"
+			x: -2.25d
+			y: -2.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Webhook Launcher works similarly to both the Spear Hook and Pudge Hook Launchers."
+				""
+				"&bThe Web Hook can latch onto blocks, items, and creatures, but will not damage them."
+				""
+				"&bYou can then reel in like with the Spear Hook, either pulling yourself towards the block, or the item or creature towards you."
+			]
+			dependencies: ["217F4DD8B93E021B"]
+			id: "702EFD4A0C131D61"
+			tasks: [{
+				id: "2DEDDFFED2028F22"
+				type: "item"
+				item: {
+					id: "adhooks:web_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "30DE10786772E211"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -0.75d
+			y: -0.25d
+			shape: "square"
+			subtitle: "Mod : Grappling Hook Mod"
+			description: [
+				"&bTraversing the terrain, especially this crazy Hex world the FOP came up with, can be quite daunting if you don't have wings!"
+				""
+				"&bThankfully, though, you can use some grappling hooks to travel up and down cliff walls safely! "
+				""
+				"&bThe FOP Game Server has two uh... 'brands', so to speak. One is Grappling Hook Mod. A standard Grappling Hook is a good one to start with."
+				""
+				"&bYou can launch a hook by Right Clicking. It will attach to a block, but if you hit a creature it will yank the creature towards you and disconnect."
+				""
+				"&bYou can reel in the line with Sneak + Left Click, or reel it out with Sneak + Right Click. Using WASD lets you swing around."
+				""
+				"&bIf you Right Click, you unhook the line. Double Right Clicking will immediately throw out a new hook after unhooking."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "71565A62CEF04862"
+			tasks: [{
+				id: "5B061C4E2F977DE8"
+				type: "item"
+				item: {
+					id: "grapplemod:grapplinghook"
+					Count: 1b
+					tag: {
+						Damage: 0
+						custom: {
+							doublehook: 0b
+							motor: 0b
+							phaserope: 0b
+							attract: 0b
+							rocket: 0b
+							hookgravity: 1.0d
+							repelforce: 1.0d
+							attractradius: 3.0d
+							pullbackwards: 1b
+							smartmotor: 0b
+							detachonkeyrelease: 0b
+							angle: 20.0d
+							rocket_vertical_angle: 0.0d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							motordampener: 0b
+							rocket_active_time: 0.5d
+							throwspeed: 2.0d
+							motoracceleration: 0.2d
+							enderstaff: 0b
+							oneropepull: 0b
+							sneakingverticalthrowangle: 0.0d
+							smartdoublemotor: 1b
+							repel: 0b
+							sneakingangle: 10.0d
+							motormaxspeed: 4.0d
+							playermovementmult: 1.0d
+							reelin: 1b
+							sticky: 0b
+							verticalthrowangle: 0.0d
+							maxlen: 30.0d
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "556EF9897E918808"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Leap Up High"
+			x: 0.25d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Ender Staff is a useful tool for traversing uneven terrain. "
+				""
+				"&bIt lets you launch yourself in the direction you are aiming when you Right Click. Great for leaping back and forth across Ravines, or between mountain peaks when you don't have a good place to use your Grappling Hook."
+				""
+				"&bDo note though, while you can leap pretty high with this, it doesn't handle landing for you. I suggest some slow fall potions perhaps?"
+				""
+				"&bYou can also craft it into a Hook Upgrade, which lets you launch yourself with your Grappling Hook by Left Clicking. Great for getting that up high hook point thats JUST out of normal reach."
+			]
+			dependencies: [
+				"71565A62CEF04862"
+				"196E6348EEEB900B"
+			]
+			id: "4C5E1CE68BC0B137"
+			tasks: [
+				{
+					id: "2CC048203A2D3967"
+					type: "item"
+					item: "grapplemod:launcheritem"
+				}
+				{
+					id: "164648B2EB0984DF"
+					type: "item"
+					item: "grapplemod:staffupgradeitem"
+				}
+			]
+			rewards: [{
+				id: "70B1B6145A50958A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Hook Modification System"
+			x: -0.75d
+			y: -2.25d
+			shape: "rsquare"
+			description: [
+				"&bYour Grappling Hooks can be upgraded and modified in a variety of ways, to help you tackle all sorts of terrain."
+				""
+				"&bFirst you'll need a Base Grappling Hook Upgrade. You can make a variety of upgrades with this, and combine them directly with your Grappling Hook, but there's a better way."
+				""
+				"&bIf you make a Grappling Hook Modifier block, you can Right Click modifiers onto it to 'install' them, then use the Grappling Hook Modifier block to customize settings on each upgrade."
+				""
+				"&bYou can then Right Click your Grappling Hook onto the Grappling Hook Modifier block to install them into the Grappling Hook. If you change settings, you just need to update them by Right Clicking it on the block again."
+			]
+			dependencies: ["71565A62CEF04862"]
+			id: "196E6348EEEB900B"
+			tasks: [
+				{
+					id: "2A22925BDFAEAA66"
+					type: "item"
+					item: "grapplemod:baseupgradeitem"
+				}
+				{
+					id: "31BB424B69823E69"
+					type: "item"
+					item: "grapplemod:block_grapple_modifier"
+				}
+			]
+			rewards: [{
+				id: "4F8DD1BD7FFD86CF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Safely Falling"
+			x: 0.25d
+			y: -0.25d
+			shape: "rsquare"
+			description: [
+				"&bUsing Grappling Hooks and similar tools always comes with an inherent risk : that of biffing a hook launch and, as they say, eating dirt. And if you are pretty high up, thats a lot of dirt in your face."
+				""
+				"&bYou could carry a lot of Slow Fall potions, but that's a lot to keep drinking just to be safe. Lot more things to worry about while adventuring about, right?"
+				""
+				"&bWell, if you find yourself a pair of Diamond Boots, and get a Slow Fall IV enchant on them, you can bring them over to the Grappling Hook Modifier to transform them into a pair of Long Fall Boots."
+				""
+				"&bThese will prevent all fall damage as long as you wear them."
+			]
+			dependencies: ["196E6348EEEB900B"]
+			id: "6F9A7BF3D0F5AF2D"
+			tasks: [{
+				id: "2CF96C310E9FFB8F"
+				type: "item"
+				item: {
+					id: "grapplemod:longfallboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "246F80B06AFD1001"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Attract and Repel"
+			x: 0.25d
+			y: -2.25d
+			shape: "rsquare"
+			description: [
+				"&bThis pair of upgrades is quite useful if you aren't getting the hang of aiming the Grappling Hook or swinging without smacking into stuff."
+				""
+				"&bThe Forcefield Upgrade will repel you away from blocks while you are swinging from the Grappling Hook. "
+				""
+				"&bThe Hook Magnet will make your Hook snap towards blocks you launch it at once it gets close. That way if you are trying to hook a couple blocks way up high, you don't need to have pinpoint accuracy."
+			]
+			dependencies: ["196E6348EEEB900B"]
+			id: "3380CA4756EF7639"
+			tasks: [
+				{
+					id: "55CBFBFE459EDC62"
+					type: "item"
+					item: "grapplemod:forcefieldupgradeitem"
+				}
+				{
+					id: "4EE3FE3CB03CC1DF"
+					type: "item"
+					item: "grapplemod:magnetupgradeitem"
+				}
+			]
+			rewards: [{
+				id: "70737C3C61DF62B8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Hooking Better"
+			x: -0.75d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Double Grappling Hook Upgrade lets you fire out two grappling hooks at once. This is great for traversing down ravines, city streets, and more. It also gives you double the chance of hooking a block, since you only need one of them to hook!"
+				""
+				"&bThe Hook Thrower Upgrade lets you change up how you throw the hook. Reduce gravity so it has less arc, change how you reel it in, and more. "
+			]
+			dependencies: ["196E6348EEEB900B"]
+			id: "5DB8A5CF41732CF2"
+			tasks: [
+				{
+					id: "6EF9153F4B83EFBE"
+					type: "item"
+					item: "grapplemod:doubleupgradeitem"
+				}
+				{
+					id: "188725278D13F36A"
+					type: "item"
+					item: "grapplemod:throwupgradeitem"
+				}
+			]
+			rewards: [{
+				id: "5E3616458BE7F03E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Rope Business"
+			x: -0.75d
+			y: -3.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Rope Grappling Hook upgrade lets you change the length of the rope. "
+				""
+				"&bThe Swing Upgrade lets you change how strong your rope swinging is, whether you slowly build momentum or immediately start swinging around."
+			]
+			dependencies: ["196E6348EEEB900B"]
+			id: "079D4C3AED5B5919"
+			tasks: [
+				{
+					id: "30AD9F160253CA82"
+					type: "item"
+					item: "grapplemod:ropeupgradeitem"
+				}
+				{
+					id: "099D26B135758182"
+					type: "item"
+					item: "grapplemod:swingupgradeitem"
+				}
+			]
+			rewards: [{
+				id: "5FB7E478A286367F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Speeeeed!"
+			x: 0.25d
+			y: -3.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Motor upgrade attatches a motor to your Hook reel, making it automatically reel in you when it hooks a block. You can modify it in the Modifier to change when it reels in."
+				""
+				"&bThe Rocket upgrade installs a Rocket booster to your Left Click. Hold it down to start rocketing towards where you are aiming."
+				""
+				"&bKeep in mind you have limited fuel, and it recharges while you are not Rocket boosting."
+			]
+			dependencies: ["196E6348EEEB900B"]
+			id: "3F8F0852D4403EA7"
+			tasks: [
+				{
+					id: "1F9DDDF1DCBE8438"
+					type: "item"
+					item: "grapplemod:motorupgradeitem"
+				}
+				{
+					id: "5FD145FCB449BDFB"
+					type: "item"
+					item: "grapplemod:rocketupgradeitem"
+				}
+			]
+			rewards: [{
+				id: "7A6826CE6496B739"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "(Mostly) Unlimited Grapples!"
+			x: -0.25d
+			y: -4.25d
+			shape: "rsquare"
+			description: [
+				"&bThe Limits Upgrade will unlock the potential of your Modifier block. Most every upgrade you can install has control limits in place..."
+				""
+				"&b...but you are in a digital world, so those limits can be exceeded to a certain point."
+				""
+				"&bBy adding the Limits Upgrade, you get a wider range on many of your sliders, as well as some extra options."
+			]
+			dependencies: ["196E6348EEEB900B"]
+			id: "228C93BAC9677708"
+			tasks: [{
+				id: "3347701E045AF193"
+				type: "item"
+				item: "grapplemod:limitsupgradeitem"
+			}]
+			rewards: [{
+				id: "42ACEADDEA72B191"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Sleeping Under the Stars"
+			x: 1.75d
+			y: 3.75d
+			shape: "square"
+			subtitle: "Mod : Comforts"
+			description: [
+				"&bIf you're travelling around far from home, it's not always a great idea to sleep in a temporary bed, yeah?"
+				""
+				"&bBut if you are in dangerous territory at night, it's also not a great idea to just hang around, and its boring to sit inside a hut made of dirt and twigs, jumping at every sound."
+				""
+				"&bFor that, bring yourself a Sleeping Bag! These comfortable beds won't reset your spawn point out in the wilds, and you can still pass the night quickly and safely!"
+				""
+				"&bBack at home, you can still sleep under the stars in a comfy Hammock! To set one up, you need two tree trunks, walls, pillars, or otherwise 4 blocks apart. You then Right Click a Rope and Nail onto each side of the wall, then Right Click your Hammock onto one of them to set it up!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "4C1D2328FC2ABE81"
+			tasks: [
+				{
+					id: "4FEC23882A9CFC4F"
+					type: "item"
+					title: "Any Sleeping Bag"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:comfort_sleepingbag"
+						}
+					}
+				}
+				{
+					id: "762BAFE29C396412"
+					type: "item"
+					title: "Any Hammock"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:comfort_hammock"
+						}
+					}
+				}
+				{
+					id: "2D4B07B5C9FDD6AC"
+					type: "item"
+					item: "comforts:rope_and_nail"
+				}
+			]
+			rewards: [{
+				id: "243AD67628CD0A8A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Take it With You"
+			x: -2.25d
+			y: 3.75d
+			shape: "square"
+			subtitle: "MOD : Backpacked"
+			description: [
+				"&bEver been adventuring around, find yourself a good set of ruins, and all kind of goodies... and just not had the inventory space for all the goodies? Happens to the best of us!"
+				""
+				"&bBut what adventurer isn't without a Backpack at least? The FOPGame Server has a single option, but it's quite customizable. It's called Backpacked."
+				""
+				"&bThe Backpacked backpack gives you three additional rows of inventory space, and it fits conveniently in your Curios slot for a backpack! Once equipped, you can open it by pressing the B key."
+				""
+				"&bWhen you have your backpack open, you can customize the look with the upper right Customize button. Many of the designs are locked behind achievements and tasks, though..."
+				""
+				"&bThe Backpack can also be enchanted with a variety of unique enchants."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "14C1EE7794D7D6FC"
+			tasks: [{
+				id: "3F24267A506836AD"
+				type: "item"
+				item: "backpacked:backpack"
+			}]
+			rewards: [{
+				id: "3E27CBA85412E682"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Show It Off"
+			x: -2.25d
+			y: 4.75d
+			shape: "rsquare"
+			description: [
+				"&bMany of the Backpack designs you can unlock look really good, and what adventurer doesn't like showing off their collections?"
+				""
+				"&bBy putting up a Backpack Shelf, you can put your Backpack on it to show off the design."
+				""
+				"&bEven better, you can use things like Hoppers to interact with the displayed Backpack!"
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "702F6166212848CD"
+			tasks: [{
+				id: "1BE333698051E8E3"
+				type: "item"
+				title: "Any Backpack Shelf"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:backpackeds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "435F760DBDF11C8F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Exploring with Purpose"
+			x: 1.75d
+			y: -0.25d
+			shape: "square"
+			subtitle: "MOD : Nature's Compass"
+			description: [
+				"&bMany times, you aren't exploring just to explore, sometimes you got a purpose. You need a specific material, or a certain animal, or a new place to build."
+				""
+				"&bAnd the FOPGame Server's Hex Land layout and large number of biomes makes it tricky to find what you want sometimes."
+				""
+				"&bSo, the FOP added in a little tool for Users called the Nature's Compass."
+				""
+				"&bWith it, you can Right Click with it and select a biome you want to find. And the compass will point you that way (usually....)."
+				""
+				"&bNote that the 'closest' location of the biome may be much, much further than you think..."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "6F7447898395A047"
+			tasks: [{
+				id: "5B4BEE01DAB32D01"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "71C4D2D95F666CFB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Stones Show the Way"
+			x: -0.75d
+			y: 3.75d
+			shape: "square"
+			subtitle: "MOD : Waystones"
+			description: [
+				"&bYou've no doubt encountered by now, as I'm pretty sure the FOPGame Server starts you off with one, is Waystones. It's their version of a fast travel system."
+				""
+				"&bYou can find Waystones in Villages and scattered around the wilderness. Right Clicking one will bind the location in your memory, and as long as the Waystone isn't removed, you can teleport to it via a few different means."
+				""
+				"&bThe cheapest 'early game' way, aside from using a Waystone to teleport to another Waystone, is the use of Return and Bound Scrolls."
+				""
+				"&bReturn Scrolls simply teleport you back to the last Waystone you touched."
+				""
+				"&bBound Scrolls, however, can be Right Clicked onto a Waystone to save that Waypoint's location. Then using the Bound Scroll will teleport you to that saved Waystone."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "49705D26D234B0EB"
+			tasks: [
+				{
+					id: "32AFB9F6FD5CF614"
+					type: "item"
+					item: "waystones:return_scroll"
+				}
+				{
+					id: "0276D2E5804E3610"
+					type: "item"
+					item: "waystones:bound_scroll"
+				}
+			]
+			rewards: [{
+				id: "7D8BA8C83E1FDF85"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Back to Hearth, Back to Stone"
+			x: -0.75d
+			y: 4.75d
+			shape: "rsquare"
+			description: [
+				"&bIf you want more control over where your teleports take you, create a Warp Scroll. These let you choose any Waystone in your list."
+				""
+				"&bThe Warp Stone is a more permant version of the Warp Scroll. The downside is there is a 5 minute cooldown between uses."
+			]
+			dependencies: ["49705D26D234B0EB"]
+			id: "3C533A41BD14F645"
+			tasks: [
+				{
+					id: "2DDC2C5A5A3EBD4D"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+				{
+					id: "3E788348096D3500"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "706A163FB6BBC6E3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Stones Themselves"
+			x: 0.25d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&bNow, while you've been able to collect various Waystones around the game server, they aren't always plentiful. So, being able to make your own is a good thing."
+				""
+				"&bYou can set up your Waystone to be Global, meaning all assistants who can see the Waystone."
+				""
+				"&bA pretty new addition, and give the FOP credit its a good idea, is the Portstone. It lets you put a Waystone deeper into your base, but you can only teleport OUT from the Portstone."
+			]
+			dependencies: ["3C533A41BD14F645"]
+			id: "429DCA169BFD7877"
+			tasks: [
+				{
+					id: "1DF1FBC6F4D512B0"
+					type: "item"
+					item: "waystones:waystone"
+				}
+				{
+					id: "50A6240FBEFB0C3F"
+					type: "item"
+					item: "waystones:portstone"
+				}
+			]
+			rewards: [{
+				id: "61D595FA272FFD0C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "More Personal Stones"
+			x: 0.25d
+			y: 4.75d
+			shape: "rsquare"
+			description: [
+				"&bIf you are wanting to make a bit more of a enclosed Waystone system... one that isn't connected to the 'main' system, then you want to make a Sharestone network."
+				""
+				"&bSharestones cannot be teleported to with Scrolls or Warp Stones. You can only warp to a Sharestone via another Sharestone, and only if they both are the same color."
+				""
+				"&bIf you want an even more enclosed system, you'll want to use Warp Plates. When you place it down, it will automatically make an Attuned Shard that connects to that Warp Plate. "
+				""
+				"&bMake another Warp Plate, and place the Attuned Shard into it. Now that Warp Plate will teleport you to the first one. Or randomly to any Attuned Shard you put into it, as each Warp Plate has space for five Attuned Shards."
+				""
+				"&bYou can also make extra Attuned Shards in each Warp Plate."
+			]
+			dependencies: ["3C533A41BD14F645"]
+			id: "056BDEB0979B74EF"
+			tasks: [
+				{
+					id: "33B2E6D6BFC53031"
+					type: "item"
+					item: "waystones:sharestone"
+				}
+				{
+					id: "20FBD3167C10E07E"
+					type: "item"
+					item: "waystones:warp_plate"
+				}
+			]
+			rewards: [{
+				id: "122B22B61184056E"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

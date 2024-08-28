@@ -1,0 +1,1220 @@
+{
+	id: "7A68BE92EC1B2558"
+	group: "499A93482811AC21"
+	order_index: 1
+	filename: "building_a_haven"
+	title: "Building a Haven"
+	subtitle: [
+		"MOD : Architecture's Palette"
+		"MODS : Block Diversity, Quark"
+		"MODS : Fairy Lights, Torchmaster"
+		"MODS : Chisel, Chisels and Bits"
+		"MODS : Joy of Painting, FramedBlocks"
+		"MODS : Modern Online Picture Frame, Structurize"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Making It Your Home"
+			x: -1.75d
+			y: 0.5d
+			shape: "octagon"
+			description: [
+				"&eOne nice thing about exploring and traveling, is you can find some real nice places to make a base. Or a new home! Or both, really. The world is your drawing board. My name is Designer Daisy. Or, well, Decorator Daisy fits as well. And Developer? Yes, many names, many titles, but nice to meet you again Bandit!"
+				""
+				"&eAin't no way to look it otherwise, you are probably gonna be  stuck in there for a while. Like last time, it isn't gonna be an easy, or quick, task of getting you out of there."
+				""
+				"&eSo we gotta look at all the options ya get in the FOP Game Server for building yourself a nice place, and also protecting it of course."
+			]
+			dependencies: ["1D0853ADC7295AEB"]
+			id: "06FED1C3C1EA8361"
+			tasks: [{
+				id: "6B29E70AA25F63C2"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "A Palette of Choices"
+			x: 0.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "MOD : Architecture's Palette"
+			description: [
+				"&eBuilding with classic materials is great, and what you can usually find around the most it feels like."
+				""
+				"&eBut there's a world of textures, and colors, and designs to take advantage of. Even in a game server!"
+				""
+				"&eNo, especially in the FOP Game Server! Not all the normal rules of physics apply to you! Floating rooftops, hundred block long vines!"
+				""
+				"&eTake this... I guess the FOP call it a 'brand', or a product line since they sell these outside the Game Server..."
+				""
+				"&eNo no, back on topic Daisy...The Architect's Palette is a series of blocks and designs that can make a build pop just right."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "6C6926E9C96B1F9D"
+			tasks: [
+				{
+					id: "1DD6DECC43BCE674"
+					type: "item"
+					item: "architects_palette:abyssaline"
+				}
+				{
+					id: "4E64FEEA09A12F25"
+					type: "item"
+					item: "architects_palette:lapis_ore_bricks"
+				}
+				{
+					id: "5CD8182CBB9F4B1A"
+					type: "item"
+					item: "architects_palette:salmon_log"
+				}
+				{
+					id: "2A4580BA4CBD01F1"
+					type: "item"
+					item: "architects_palette:entwine_block"
+				}
+			]
+			rewards: [{
+				id: "2BBCF231FC8EE3D7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Storing Pretty"
+			x: 1.25d
+			y: -3.0d
+			shape: "rsquare"
+			description: [
+				"&eThe blocks of metal you can make? Those can look really pretty I have to say. Or nice and rugged. They can fit into a lot of different build designs."
+				""
+				"&eNo different for certain other storage blocks! Even a block of Rotten Flesh has a certain look, perfect for horror attractions!"
+			]
+			dependencies: ["6C6926E9C96B1F9D"]
+			id: "4305CD60800D593C"
+			tasks: [
+				{
+					id: "6B2D0889A4353996"
+					type: "item"
+					item: "architects_palette:rotten_flesh_block"
+				}
+				{
+					id: "176CF0EF6440FE5C"
+					type: "item"
+					item: "architects_palette:ender_pearl_block"
+				}
+				{
+					id: "2E82F5430236F422"
+					type: "item"
+					item: "architects_palette:flint_block"
+				}
+				{
+					id: "093A203AD91E794B"
+					type: "item"
+					item: "architects_palette:scute_block"
+				}
+			]
+			rewards: [{
+				id: "5368ECDF75D0FBC8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Broader Colors"
+			x: 0.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "MOD : Block Diversity"
+			description: [
+				"&eEver feel that the sixteen colors of the base FOP Game Server gives you just isn't enough? Sure there are items here and there outside those colors, but it never seems enough."
+				""
+				"&eThere's a 'brand' the FOP introduced recently (and suspiciously similar to an older brand  we were looking at....but I digress!). It's called Block Diversity."
+				""
+				"&eIt adds a variety of extra colors to the set, and some very lovely options for building with them!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "206C87FF5D40B722"
+			tasks: [
+				{
+					id: "1D5AEC844C7D8B91"
+					type: "item"
+					item: "buildersplus:sienna_wool"
+				}
+				{
+					id: "6A897C94C260853A"
+					type: "item"
+					item: "buildersplus:lavender_quartzstairs"
+				}
+			]
+			rewards: [{
+				id: "72185173084130CC"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Special Shapes"
+			x: 1.25d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"&eBlock Diversity also adds a lot of neat alternate block styles. This includes flat plates, which are like... octonal slabs? Octal slabs? No wait, whats a sixteenth of a block..."
+				""
+				"&eAnyways! It also adds some nice and fancy fences, quarter stairs, and more!"
+			]
+			dependencies: ["206C87FF5D40B722"]
+			id: "34BC7A86D8E21601"
+			tasks: [
+				{
+					id: "197653B9C711106F"
+					type: "item"
+					item: "buildersplus:oak_switch"
+				}
+				{
+					id: "15EE7F7474F36AA1"
+					type: "item"
+					item: "buildersplus:oak_pink_glass_fence"
+				}
+				{
+					id: "0875CF58387A893F"
+					type: "item"
+					item: "buildersplus:plum_banner"
+				}
+			]
+			rewards: [{
+				id: "719E252ADCEF7613"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Few Lines Difference"
+			x: -3.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "MOD : Chisel"
+			description: [
+				"&eIt's quite amazing the difference a few lines can make in a design. As simple as an extra line here, a removed line there, and it feels brand new."
+				""
+				"&eYou can take Chisel for example. Just some simple line changes and you have a good variety with a single block."
+				""
+				"&eJust make an Iron Chisel, and Right Click with it. You can then put in stone, wool, wood, etc and many of them will have Chiseled varieties of designs."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "749B56B34708C3D7"
+			tasks: [{
+				id: "76AB6EE95D39E420"
+				type: "item"
+				item: {
+					id: "chisel:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F09D4B9F119AD6A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Never Enough Blocks"
+			x: -4.5d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"&eGot a large build that needs a lot of Chiseled blocks? Look no further, Bandit."
+				""
+				"&eThe Auto Chisel will automatically convert stacks of Chiselable materials into the design of your choice."
+				""
+				"&eSimply put in one of the Chisels in the top center, and the Chiseled block you want in the bottom center. Then put blocks that can be Chiseled to your chosen design in the left, and they'll pop over to the right after being Chiseled!"
+				""
+				"&eOh, right, the AutoChisel requires power. Kind of important."
+			]
+			dependencies: ["749B56B34708C3D7"]
+			id: "0FBFAC82CDA27370"
+			tasks: [{
+				id: "1550B79BDB6536A4"
+				type: "item"
+				item: "chisel:auto_chisel"
+			}]
+			rewards: [{
+				id: "04CD9B407233B195"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Sparkling Lights Strung High"
+			x: 0.25d
+			y: 0.25d
+			shape: "square"
+			subtitle: "MOD : Fairy Lights"
+			description: [
+				"&eThere's something lovely about light strings. You see them during Christmas, but they are an everyday thing as they are a cheap and fantastic way to light paths and large areas."
+				""
+				"&eThey are called Fairy Lights, Hanging Lights, Light Strings, and a few others (usually holiday related of course)."
+				""
+				"&eYou can make your very own, and customize them in a variety of ways to fit in with your architectural designs!"
+				""
+				"&eTo start simple, all you need is at least one Fairy Light. There's a lot of designs to choose from, which you can dye like Leather Armor (crafting them with any combination of Dyes.)"
+				""
+				"&eYou can then make a string of Hanging Lights by combining any number of Fairy Lights with Iron Ingots and String! Then to string them up, just hold them and Right Click on the side of any solid block, then again on another block to string up the lights between them!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "584C2E55F0843EFA"
+			tasks: [
+				{
+					id: "00D4FC079F7AFDBE"
+					type: "item"
+					title: "Any Fairy Light Light"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "fairylights:lights"
+						}
+					}
+				}
+				{
+					id: "679699AA48CA519F"
+					type: "item"
+					item: "fairylights:hanging_lights"
+				}
+			]
+			rewards: [{
+				id: "6DFFE2172C61293B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Pennant Banners"
+			x: 2.25d
+			y: 0.25d
+			shape: "rsquare"
+			description: [
+				"&eA great way to show your spirit, be it for a team, a group, or just your favorite colors, but without lighting an entire area, you can use Pennants!"
+				""
+				"&eThese paper designs are cheap to make, can be dyed just like the illuminating Fairy Lights."
+				""
+				"&eNote though, you cannot mix Fairy Lights and Pennants on the same string. It's a bit of a fire hazard..."
+				""
+				"&e...if it was real life. The FOPGame Server just limits you for some reason. Go figure."
+			]
+			dependencies: ["584C2E55F0843EFA"]
+			id: "0392C5267F28799A"
+			tasks: [
+				{
+					id: "005089A47FDF427D"
+					type: "item"
+					title: "Any Fairy Light Pennant"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "fairylights:pennants"
+						}
+					}
+				}
+				{
+					id: "7F858CEE5E5849F3"
+					type: "item"
+					item: "fairylights:pennant_bunting"
+				}
+			]
+			rewards: [{
+				id: "188CE4372F043BB8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Other Stringed Designs"
+			x: 1.25d
+			y: -0.25d
+			shape: "rsquare"
+			description: [
+				"&eOther than Lights, you can hang a few other things!"
+				""
+				"&eLetter Bunting lets you put up those strings of HAPPY BIRTHDAY or other celebratory messages. Though you could do some creepy things for a haunted house...hmmmm ideas... Oh, well, you customize the message, even the colors of each letter, when you string them up!"
+				""
+				"&eOh, for more Christmassy designs, you have the classic Tinsel and Vine Garlands you can hang up."
+			]
+			dependencies: ["584C2E55F0843EFA"]
+			id: "264CF73374EFA726"
+			tasks: [
+				{
+					id: "6193747112D6C566"
+					type: "item"
+					item: "fairylights:letter_bunting"
+				}
+				{
+					id: "383A86151CFDDFA5"
+					type: "item"
+					item: "fairylights:tinsel"
+				}
+				{
+					id: "6BB7B4787C6C9767"
+					type: "item"
+					item: "fairylights:garland"
+				}
+			]
+			rewards: [{
+				id: "5F77D5383B737660"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Your Lights, Your Style"
+			x: 1.25d
+			y: 0.75d
+			shape: "rsquare"
+			description: [
+				"&eAs you can already see, Fairy Lights are fairly customizable to your design needs. But there's a few things you may like to know!"
+				""
+				"&eIf you combine a Fairy Light with a Gold Nugget and one or more Dyes, you'll get a Color Changing Fairy Light that will cycle through the different colors!"
+				""
+				"&eWant some extra sparkle? Then craft a Fairy Light with some Glowstone Dust to make it Twinkle!"
+				""
+				"&eAs for the hung up strings themselves, you can adjust how much slack there is. Right Click with some String to make it droop down more, or Right Click with a Stick to shorten the length."
+				""
+				"&eOh, and if you want to turn the Fairy Lights off or back on? Just Right Click them."
+			]
+			dependencies: ["584C2E55F0843EFA"]
+			id: "2B7E4D4FFF718D85"
+			tasks: [
+				{
+					id: "1D8D52206EA7299E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "5AD73AB2F1601E9D"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+			]
+			rewards: [{
+				id: "02231BA41CF16721"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Little Bit of Everything"
+			x: 0.25d
+			y: 2.75d
+			shape: "square"
+			subtitle: "MOD : Quark"
+			description: [
+				"&eBandit, a bunch of us researchers were debating on where to cover this FOPGame Server brand. It kind of covers a little bit of everything, but we agreed to put it into my section. "
+				""
+				"&eAnyways, its called Quark. It adds a lot of new decorative and functional blocks and items, and also tweaks some of the vanilla core systems in the FOPGame Server."
+				""
+				"&eTake the Iron Rod for example. You can place it in front of a Piston, and blocks it is pushed into will be mined (but only if they could have been pushed by the Piston itself)"
+				""
+				"&eOr, looking for good deco? Try a comfy Stool. Or a colored Item Frame. Or, even better, the Glass frame goes invisible to show ONLY the item in it!"
+				""
+				"&eOh, you can also add Glowstone to the Glass Item Frame to make the item in it really stand out."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "4DC50AC316891B1D"
+			tasks: [
+				{
+					id: "1E23BC1C87E8B453"
+					type: "item"
+					item: "quark:iron_rod"
+				}
+				{
+					id: "05E3072D065E1052"
+					type: "item"
+					title: "Any Color Stool"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "quark:stools"
+						}
+					}
+				}
+				{
+					id: "3CB0A872EFF9A6C8"
+					type: "item"
+					title: "Any Color Item Frame"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:quark_coloritemframe"
+						}
+					}
+				}
+				{
+					id: "053EACDC034580BE"
+					type: "item"
+					item: "quark:glass_item_frame"
+				}
+			]
+			rewards: [{
+				id: "34F5D44E1D262DBD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Little Lights"
+			x: 1.25d
+			y: 2.75d
+			shape: "rsquare"
+			description: [
+				"&eQuark adds a few nice decorative lights, that give a certain ambience to your builds."
+				""
+				"&eCandles can be made from Tallow collected after killing various creatures. "
+				""
+				"&ePaper Lanterns come in two varieties: plain, and then if you add any sapling to it, turns it into a very pretty Decorated Paper Lantern."
+			]
+			dependencies: ["4DC50AC316891B1D"]
+			id: "38716C8764CC702F"
+			tasks: [
+				{
+					id: "75F92D319660D9A0"
+					type: "item"
+					title: "Any Quark Candle"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "quark:candles"
+						}
+					}
+				}
+				{
+					id: "255326786E2EAA45"
+					type: "item"
+					item: "quark:paper_lantern_sakura"
+				}
+			]
+			rewards: [{
+				id: "68EFD3304C4ADEDE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Bit o' Magic"
+			x: 1.25d
+			y: 3.75d
+			shape: "rsquare"
+			description: [
+				"&eQuark adds a variety of little magical things that are quite nice, I must say. Even if they fall outside of the 'base construction' thing, they each have a decorative or similar purpose."
+				""
+				"&eDeep underground, you may find a Stoneling. You can sneak up to it while holding a Glowshroom. Killing it gets you a Heart of Diamond, which makes a Pickarang, a useful magical throwing mining tool."
+				""
+				"&eIn the Nether, Wraiths haunt certain Soul Sand biomes, and drop a Soul Bead. Much like an Eye of Ender, when Right Clicked with a Soul Bead, it will float out towards the nearest Nether Fortress."
+				""
+				"&eRunes can be found as loot and crafted. When combined with an enchanted item, the glow on the item will change colors to the Rune's color."
+			]
+			dependencies: ["4DC50AC316891B1D"]
+			id: "2E45A2A4BED1033E"
+			tasks: [
+				{
+					id: "4ABF787BDCCBCA21"
+					type: "item"
+					item: {
+						id: "quark:pickarang"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B4F0002995B320A"
+					type: "item"
+					item: "quark:soul_bead"
+				}
+				{
+					id: "414AF697F270A93D"
+					type: "item"
+					title: "Any Quark Rune"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "quark:runes"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5F26A1BDA7D8B9A7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Quarky Tools"
+			x: 1.25d
+			y: 1.75d
+			shape: "rsquare"
+			description: [
+				"&eThere's a bunch of tools that Quark gives you for your builds, or for finding certain things."
+				""
+				"&eThe Seed Pouch can hold stacks of seeds, and Right Clicking with it will plant a 3x3 area."
+				""
+				"&eNext are Item Pipes, which work a bit uniquely. Items get pulled into the Pipe via a Hopper or other mechanism. They will travel forward and downward preferably. You can 'disable' a pipe with a Redstone Signal. Pipes that split both left and right will split the items randomly."
+				""
+				"&eThe Trowel is a builder's friend. When you Right Click with it, it will place a random Block in your Hotbar."
+				""
+				"&eYou can get a Bucket of Slime by Right Clicking an Empty Bucket on a tiny Slime. If you enter a Slime Chunk, the Slime in the Bucket will bounce."
+			]
+			dependencies: ["4DC50AC316891B1D"]
+			id: "5670599B6CB4A3A2"
+			tasks: [
+				{
+					id: "480C4F2D2CE177BF"
+					type: "item"
+					item: {
+						id: "quark:seed_pouch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0732E10F8A6621C9"
+					type: "item"
+					item: "quark:pipe"
+				}
+				{
+					id: "69FDB66A6AF4435D"
+					type: "item"
+					item: "quark:trowel"
+				}
+				{
+					id: "47A6369D4A4F0AE6"
+					type: "item"
+					item: "quark:slime_in_a_bucket"
+				}
+			]
+			rewards: [{
+				id: "3A0130105FDE5F56"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "More Quarky Tools"
+			x: 2.25d
+			y: 2.75d
+			shape: "rsquare"
+			description: [
+				"&eIf you take a Glass Bottle up high in the air, in the Cloud layer, and Right Click, you'll bottle some of the Clouds. You can then Right Click the Bottled Cloud anywhere to release it right in front of you, making a solid cloud that lasts for a few seconds. You can then Right Click another block onto it to replace it."
+				""
+				"&eRope Coils can be Right Clicked onto the bottom of a block, then lowered downward by Right Clicking more Rope onto it."
+				""
+				"&eThe Abacus can be Right Clicked on a block to mark it as the 'start'. Then you can aim towards another block. The Abacus will count how many blocks it takes to go to the block you are aiming at, using ONLY right angles. "
+			]
+			dependencies: ["4DC50AC316891B1D"]
+			id: "6E9CCBB737547EAB"
+			tasks: [
+				{
+					id: "0F8386D808F753F8"
+					type: "item"
+					item: "quark:bottled_cloud"
+				}
+				{
+					id: "3C3DEFC141F7DC7B"
+					type: "item"
+					item: "quark:rope"
+				}
+				{
+					id: "171A1D5B372E2613"
+					type: "item"
+					item: {
+						id: "quark:abacus"
+						Count: 1b
+						tag: {
+							boundPosX: 139
+							boundPosY: -1
+							boundPosZ: -497
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0FEE8784A6093D96"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Dream Designs"
+			x: 3.75d
+			y: 1.25d
+			shape: "square"
+			subtitle: "MOD : Structurize"
+			description: [
+				"&eOne of the benefits of starting your own branch of The Ferret Business is you can have your colonists help build new buildings you design!"
+				""
+				"&eIf you haven't started your own branch yet...go check out the \"You and What Army\" research section!"
+				""
+				"&eAnyways, the brand is called Structurize. You can see it offers a HUGE variety of blocks for your building designs! But the big things are the three tools it provides."
+				""
+				"&eThe Scan Tool can be used to select an area. Left Click to select the first corner of a cube, and Right Click to select the opposite corner. Then Right Click the Scan tool in the air to see the selection area. You can then set a name for it, see what resources it takes to build, etc. Hitting the Checkmark saves the selection to a 'blueprint' in your system."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5E13074E1C1E6445"
+			tasks: [{
+				id: "6FA92FD5028EBAC9"
+				type: "item"
+				item: "structurize:sceptersteel"
+			}]
+			rewards: [{
+				id: "2AAB8455E9A444E9"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Construction Crew"
+			x: 4.75d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&eNow that you have a saved design, you can go over to your Minecolony and Right Click the ground with the Build Tool. Here you can choose from a few premade designs, as well as any design you've saved with the Scan tool."
+				""
+				"&eSelect and position it, then when you confirm your Colonists will come over and build the structure (as long as you have the materials in storage!)."
+				""
+				"&eThe Shape Tool is another helpful tool Structurize provides. You need to select an area like the Scan tool, but when you Right Click it up in the air, you can choose what blocks and shape will be built there."
+			]
+			dependencies: ["5E13074E1C1E6445"]
+			id: "6B119B205F3D03F3"
+			tasks: [
+				{
+					id: "102DA67F9064588D"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
+				{
+					id: "2E0F15244204F97B"
+					type: "item"
+					item: "structurize:shapetool"
+				}
+			]
+			rewards: [{
+				id: "16D767FFCC1F4818"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Mob Protection Racket"
+			x: -3.5d
+			y: 2.75d
+			shape: "square"
+			subtitle: "MOD : Torchmaster"
+			description: [
+				"&eAh, an old favorite was put into the FOPGame Server I see! Torchmaster is quite a popular brand in The Ferret Business' own exploration endeavours. Not surprised to see the FOP has copied it into their own place too."
+				""
+				"&eIn hostile, dangerous places, you need some kind of magic or technology that will prevent the creepy crawlies from appearing close to your camp. The Mega Torch is one such device."
+				""
+				"&ePlace it, and in a very large radius around it, hostile creatures cannot (usually) spawn. I say usually, because as is with magic and the laws of the universe, sometimes something just doesn't agree with the Mega Torch and appears anyways."
+				""
+				"&eBut hey, stopping 99.9% of hostile creatures is still pretty good!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "15C4DE355F5089D1"
+			tasks: [{
+				id: "0AA97B82A0691B6F"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "580DB78F1050DD83"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.25d
+			shape: "rsquare"
+			description: [
+				"&eThe Dread Lamp is sort of like the Mega Torch, except it stops passive creatures from spawning. "
+				""
+				"&eSo if you got a cave, or a river, or something like that where calm critters like to appear, but they are a bit of an issue... then you want to place down a Dread Lamp!"
+			]
+			dependencies: ["15C4DE355F5089D1"]
+			id: "5CCF4969E919BE0C"
+			tasks: [{
+				id: "600EB1BD187D2758"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			rewards: [{
+				id: "2C660BF3D28E97EE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Light in the Darkness"
+			x: -4.5d
+			y: 2.25d
+			shape: "rsquare"
+			description: [
+				"&eIf you are wanting to light up an area to stop dangerous creatures from appearing, and so you can also see, deploy a Feral Flare Lantern."
+				""
+				"&eThe Feral Flare Lantern will place invisible lights wherever it is a bit too dark. "
+				""
+				"&eIf you remove the Feral Flare Lantern, sometimes the lights will stick around. You can use a Frozen Pearl to clear them out in an area around you."
+			]
+			dependencies: ["15C4DE355F5089D1"]
+			id: "57817B34A9841285"
+			tasks: [
+				{
+					id: "251EF8BB50ECE7C1"
+					type: "item"
+					item: "torchmaster:feral_flare_lantern"
+				}
+				{
+					id: "3B861186F73E70DE"
+					type: "item"
+					item: "torchmaster:frozen_pearl"
+				}
+			]
+			rewards: [{
+				id: "74D84C7EC281EE4F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Serene Panoramas"
+			x: -3.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "MOD : Joy of Painting"
+			description: [
+				"&eWhile the FOPGame Server has many paintings you can use for decorating your house or base, sometimes you want to try your own hand at painting."
+				""
+				"&eEnter Joy of Painting, which...well, it's obvious what they took the name from. But with it, you can paint your own pixel paintings right in the game itself."
+				""
+				"&eTo start with, you'll need a Palette, which is crafted with three Planks in a row, and up to 6 dyes above it. You can add more dyes after, and mix them on the right side of the Palette to make custom colors. The left side holds all 16 default colors, and the right side has all your custom colors."
+				""
+				"&eYou can then set out an Easel, and put a Canvas on it. Then Right Click you Palette onto the Canvas to start painting!"
+				""
+				"&eWhen you are done, Sneak + Right Click the Canvas with an empty hand to remove it and hang it up elsewhere."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "58753DA18415EBDA"
+			tasks: [
+				{
+					id: "0D666D71D9CEF753"
+					type: "item"
+					item: "xercapaint:item_palette"
+				}
+				{
+					id: "2BEF824B59956E43"
+					type: "item"
+					item: "xercapaint:item_canvas"
+				}
+				{
+					id: "783706B29ABA942C"
+					type: "item"
+					item: "xercapaint:item_easel"
+				}
+			]
+			rewards: [{
+				id: "6EDF60D97C8BD59B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Going Up"
+			x: -3.5d
+			y: 0.25d
+			shape: "square"
+			subtitle: "MOD : Elevator Mod"
+			description: [
+				"&eBeing able to make large bases without worrying about architectual concerns like support pillars, etc can make for some fantastic designs...."
+				""
+				"&eBut it also can make it quite difficult to design staircases that go to all the floors that also look nice... or that don't take lots of room themselves."
+				""
+				"&eEnter the handy dandy magical Elevator. By placing one of these down, then another above or below it at any distance (even with blocks in between them!), you can teleport between them just by Jumping or Sneaking."
+				""
+				"&eYou can even Right Click the Elevator with an empty hand to configure which way you face when you teleport to that Elevator. Then you can Right Click any block onto the Elevator to disguise it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "346A39F3E5E0AA7D"
+			tasks: [{
+				id: "25B8696EA20DC1E4"
+				type: "item"
+				title: "Any Color Elevator"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}]
+			rewards: [{
+				id: "795CB37E26218E27"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Framed in Style"
+			x: -6.25d
+			y: 1.25d
+			shape: "square"
+			subtitle: "MOD : FramedBlocks"
+			description: [
+				"&eNow, most blocks in the FOPGame Server only have a couple of shapes (if you are lucky). Block, stairs, slab. If its wood, it probably has a Door, Trap Door, and maybe Fences and Fence Gates. But not all the time, right?"
+				""
+				"&eSo instead of bothering with making versions for each Block material, a brand was introduced to cover missing shapes, and add new shapes to build with : Framed Blocks."
+				""
+				"&eStarting with the Framed Block, you can use it to build a quick structure. Then, you take a solid block, like say Bricks, and Right Click it onto a bare Framed Block to 'camo' it as that block. Want it to make light? Right Click some Glowstone Dust onto it too."
+				""
+				"&eYou can take a Framed Hammer and Right Click the Framed Block to remove the Camo."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5BA547287C13B0F1"
+			tasks: [
+				{
+					id: "626AAEB10DF61FC1"
+					type: "item"
+					item: "framedblocks:framed_cube"
+				}
+				{
+					id: "5F48BF8DB0451E4B"
+					type: "item"
+					item: "framedblocks:framed_hammer"
+				}
+			]
+			rewards: [{
+				id: "355F56A6740B6FC6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Framing Better"
+			x: -7.25d
+			y: 0.75d
+			shape: "rsquare"
+			description: [
+				"&eFramed Blocks come in many shapes, and many of them can be rotated all around to fit into your builds."
+				""
+				"&eYou can use a Framed Wrench (or most any useable Wrench) to cycle through the styles and directions a Framed Block has. "
+				""
+				"&eAnother useful tool is the Framed Blueprint. You can Sneak + Right Click it onto a customized Frame Block to copy it. Then, as long as you have the parts in your inventory (the Framed Block, the Block using as Camo, etc), you can use the Blueprint to instantly place down more copies of it!"
+			]
+			dependencies: ["5BA547287C13B0F1"]
+			id: "1EBB7D36D3AE7C34"
+			tasks: [
+				{
+					id: "54AEFF1FF6E68CAC"
+					type: "item"
+					item: "framedblocks:framed_wrench"
+				}
+				{
+					id: "5EBB7B238FF62967"
+					type: "item"
+					item: {
+						id: "framedblocks:framed_blueprint"
+						Count: 1b
+						tag: {
+							blueprint_data: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "01D6CCB2B87A3B18"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Special Blocks"
+			x: -7.25d
+			y: 1.75d
+			shape: "rsquare"
+			description: [
+				"&eAlong with a wide variety of slopes, stairs, and other shaped Framed Blocks, you can also make a few interesting ones!"
+				""
+				"&eThe Collapsable Framed Block lets you adjust the height of each corner with a Framed Hammer. Left Click a corner to lower it, and Sneak + Left Click to raise it."
+				""
+				"&eThe Framed Secret Storage is a good way to hide some useful stuff, or turn whole walls into hidden storage to keep your deco nice and tidy."
+				""
+				"&eThe Framed Bouncy Cube acts sort of like a Slime Block. Jumping on it makes you bounce up!"
+			]
+			dependencies: ["1EBB7D36D3AE7C34"]
+			id: "22109511478BB0A6"
+			tasks: [
+				{
+					id: "525F85BD3507A577"
+					type: "item"
+					item: "framedblocks:framed_collapsible_block"
+				}
+				{
+					id: "7861FC552B52046E"
+					type: "item"
+					item: "framedblocks:framed_secret_storage"
+				}
+				{
+					id: "35DC67EEC49DB8AE"
+					type: "item"
+					item: "framedblocks:framed_bouncy_cube"
+				}
+			]
+			rewards: [{
+				id: "6DA71FAF0D3A6DF8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "By Bit and Piece"
+			x: 3.75d
+			y: -0.75d
+			shape: "square"
+			subtitle: "MOD : Chisels and Bits"
+			description: [
+				"&eEver look at some stairs, or a slab, and wish you could make a bit more of a...unique shape? The standard blocks in the FOPGame Server feel pretty limited, as they do in many games."
+				""
+				"&eOne of the things the FOP took from our own games is a system called Chisels and Bits. It lets you break down a block into a 16x16x16 pile of Bits."
+				""
+				"&eTo do so, you'll need a Chisel. Chisels and Bits offers a variety of Chisels, which you can use to Chisel bits out of placed Blocks by Left Clicking. These bits can be placed back themselves, or used to create whole new Blocks, with the shapes you want!"
+				""
+				"&eHolding a Chisel and holding R will bring up a menu for how you carve out Bits. If you want to see if a block can be Chiseled, hold a Magnifying Glass and look at it. "
+				""
+				"&eTo keep your inventory tidy(16x16x16 is a LOT), make a Chiseled Bit Bag."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "310FC85A5C9BA1B7"
+			tasks: [
+				{
+					id: "67EAC9E37BC8AF48"
+					type: "item"
+					item: {
+						id: "chiselsandbits:chisel_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "697C6ED5107EC4AD"
+					type: "item"
+					item: "chiselsandbits:magnifying_glass"
+				}
+				{
+					id: "7869C7EBC3610D32"
+					type: "item"
+					item: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "06A1C7ED36C3DA17"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Extra Tools and Bits"
+			x: 4.75d
+			y: -0.25d
+			shape: "rsquare"
+			description: [
+				"&eNow, you can make Bits out of any solid block...did you know you can do the same with Fluids? Just put some Fluid into a Chiseled Bit Storage and Right Click it to remove some Bits. They will be animated with the liquid!"
+				""
+				"&eThe Wrench is used to rotate your placed Chisels and Bits blocks around."
+				""
+				"&eThe Tape measure is good for measing out how many Bits you'll need for larger areas. Right Click the first Bit on a block, then Right Click the other corner, and you'll get a visual showing you the size of the area."
+			]
+			dependencies: ["310FC85A5C9BA1B7"]
+			id: "6F078DF7D44AF0EE"
+			tasks: [
+				{
+					id: "00A011358A819F97"
+					type: "item"
+					item: "chiselsandbits:bit_storage"
+				}
+				{
+					id: "76EFBA47BEADA21F"
+					type: "item"
+					item: "chiselsandbits:wrench"
+				}
+				{
+					id: "24F314BE99153664"
+					type: "item"
+					item: {
+						id: "chiselsandbits:measuring_tape"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "7715F409266E98C4"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Good Design Forever"
+			x: 4.75d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&eSo, you've made yourself a killer designed block with Chisels and Bits... but how do you make MORE of it? That's where Patterns come in!"
+				""
+				"&ePut some Paper in your Offhand, and hold a Quill. Then look at the Chisels and Bits block, and hold Right Click to start copying the pattern to get a Simple Pattern."
+				""
+				"&eThis pattern can be used to place out a copy of the block one time. You can change how it places the new block by holding R to get the options menu."
+				""
+				"&eWant to keep that Pattern for multiple uses? Then get some Sealant. Hold the Pattern in your Offhand, then hold Right Click with the Sealant to seal the Pattern."
+				""
+				"&eIf you want to remove Sealant on a Pattern, use Sealant Remover the same way as adding Sealant."
+			]
+			dependencies: ["310FC85A5C9BA1B7"]
+			id: "4245C58C1F608F89"
+			tasks: [
+				{
+					id: "048BA78B09D37959"
+					type: "item"
+					item: {
+						id: "chiselsandbits:quill"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0E9AC013B2E5F5E5"
+					type: "item"
+					item: "chiselsandbits:pattern_single_use"
+				}
+				{
+					id: "6263ECFEED2B0831"
+					type: "item"
+					item: {
+						id: "chiselsandbits:sealant"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "71F8EC15B2579370"
+					type: "item"
+					item: {
+						id: "chiselsandbits:unseal"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "29EAC54C5769A1D5"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Pattern Perfect"
+			x: 5.75d
+			y: -0.75d
+			shape: "rsquare"
+			description: [
+				"&eNow that you know how to make Patterns, now you can learn how to modify them! At least a bit."
+				""
+				"&eThe Modification Table lets you Flip or Mirror the design on the different axis."
+				""
+				"&eThe Chisel Station is a super useful tool for big builds that use primarily ONE material of Bit. If you aren't mixing the Bits together, you can use the Chisel Station to produce multiple of the block from the Pattern, as long as you provide the Bits as well."
+			]
+			dependencies: ["4245C58C1F608F89"]
+			id: "2FF971FDE0391021"
+			tasks: [
+				{
+					id: "283CED18AC9042F3"
+					type: "item"
+					item: "chiselsandbits:modification_table"
+				}
+				{
+					id: "18120CBA82009380"
+					type: "item"
+					item: "chiselsandbits:chiseled_printer"
+				}
+			]
+			rewards: [{
+				id: "6CBAEBB47AB4E827"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Internet Famous"
+			x: -6.25d
+			y: -0.75d
+			shape: "square"
+			subtitle: "MOD : Modern Online Picture Frame"
+			description: [
+				"&eWow, why is this locked behind the Orange rank? It's a single item and...oh, of course. Enticement..."
+				""
+				"&eWhat is it, you ask? Well, Bandit, this is called Modern Online Picture Frame. It enables you to load an image from the internet into the game. "
+				""
+				"&eWell, as long as the image link ends in .jpg, .png, or .gif (yep, animated gifs are supported!)."
+				""
+				"&eWhen you first place it, it will be sticking out from the wall (it acts like a full block behind it). You can Right Click it to change options. If you want it flush with the wall like a Painting, click Stitch."
+				""
+				"&eYou can also place the picture frame on a wall or ceiling by Sneak + Right Clicking when placing it."
+				""
+				"&eYou can change how big the image is as well as a few other options."
+			]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "436D800FA8D9B4DF"
+			tasks: [{
+				id: "7ED3CBF85B9717A3"
+				type: "item"
+				item: "opf:opf"
+			}]
+			rewards: [{
+				id: "058F12BEA8B0842D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

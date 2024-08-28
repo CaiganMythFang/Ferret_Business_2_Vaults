@@ -1,0 +1,658 @@
+{
+	id: "016154E27B2079BE"
+	group: "499A93482811AC21"
+	order_index: 5
+	filename: "casting_a_line"
+	title: "Casting a Line"
+	subtitle: ["MOD : Aquaculture 2"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Hobby and Life of Culture"
+			x: 0.75d
+			y: 1.0d
+			shape: "square"
+			subtitle: "MOD : Aquaculture 2"
+			description: [
+				"&3Well well, hello there Bandit. Name's Fishin' Fae, head researcher for the Aquatic Relics division. And yer about to ask about what kinda research one can get into for fishin, right? Well, lots. "
+				""
+				"&3See, the FOPGame Server has copied off my research for their little game-but-not-a-game, and given it the brand name Aquaculture. It's about the power of the seas, that one can only harness by mastering the rod, the fish, and the eye of the storm that is fishing."
+				""
+				"&3Before anything, though, yer gonna need to make yourself a few basic things. First is an Iron Fishing Rod, it's a bit better than the regular wooden Fishing Rod, and ya can add special things to it. Like an Iron Hook, as an example."
+				""
+				"&3Also, make a Worm Farm. It works kinda like the Composter: put in raw food and plant matter, then Right Click with an empty hand to get out Worms!"
+			]
+			dependencies: ["1D0853ADC7295AEB"]
+			id: "726BE272AB161992"
+			tasks: [
+				{
+					id: "0F13699CFBB9AC75"
+					type: "item"
+					item: {
+						id: "aquaculture:iron_fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B4F3907A03681D1"
+					type: "item"
+					item: "aquaculture:iron_hook"
+				}
+				{
+					id: "1815E93306836D4A"
+					type: "item"
+					item: "aquaculture:worm_farm"
+				}
+			]
+			rewards: [{
+				id: "4B6FC42F1ED70954"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Tackle and Carry"
+			x: 2.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&3A good fisher is one who can catch fish. A great fisher is one who can catch any fish, and knows what tools to use to do so. And there are tons of fish and tools to catch fish, which then you run into an issue of... how the heck do ya carry all that equipment?!"
+				""
+				"&3Well, the answer to that is simple. Take your tools(like your hooks) and your bait(like Worms), and put em in a Tackle Box!"
+				""
+				"&3Coincidentally, this is also how you attatch those tools to your Iron Fishing Rod (or better). Place down the Tackle Box, and Right Click it to open it up. Look at all that room for yer stuff!"
+				""
+				"&3On the left ya have storage for your hooks, your bait, your lines, and more. On the Right, ya can put your Fishing Rod to attach all those tools to your Rod."
+				""
+				"&3Then you can break your Tacklebox to pick it up. "
+			]
+			dependencies: ["726BE272AB161992"]
+			id: "29661E8B057202C7"
+			tasks: [
+				{
+					id: "4C966272107345B0"
+					type: "item"
+					item: {
+						id: "aquaculture:worm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "305189FEE6FBECC1"
+					type: "item"
+					item: "aquaculture:tackle_box"
+				}
+			]
+			rewards: [{
+				id: "3E436E99CA6F606C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Filet O' Fish"
+			x: 3.75d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&3Now, fishing with these Aquaculture rods is just like normal rods. Except only Aquaculture Rods can catch certain fish... and certain not-fish."
+				""
+				"&3Once you catch some fish, you could use em like normal fish in recipes that call for fish. Or you can use a Fillet Knife on em to slice em into some nice, clean filets."
+				""
+				"&3Though I must say, the FOPGame Server doesn't have much you can turn the filets into. You can cook em as is, or you can make Sushi with em!"
+				""
+				"&3Though, the bosses would definitely say thats more than enough. Between the two of us, let's just say they may like Sushi a bit."
+			]
+			dependencies: ["29661E8B057202C7"]
+			id: "7FC2234EEA487630"
+			tasks: [
+				{
+					id: "4D086991AE830AC9"
+					type: "item"
+					item: {
+						id: "aquaculture:wooden_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71C878996B83B119"
+					type: "item"
+					item: "aquaculture:fish_fillet_raw"
+				}
+				{
+					id: "32542070AD1EBEC8"
+					type: "item"
+					item: "aquaculture:sushi"
+				}
+			]
+			rewards: [{
+				id: "721B02B08832107A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Trash or Treasure"
+			x: 5.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&3Now, I mentioned not-fish, yer right. And that's where another part of my research comes in, Bandit."
+				""
+				"&3Now, yer probably thinking that things like this Box here are just discarded trash from other Users, yeah? And you'd be... partially right. In the Real World, there's some odd magic that can happen with these containers you can fish up. Sometimes... they contain treasure. Treasure that was not part of the trash originally, it just... magically appeared."
+				""
+				"&3The FOPGame Server replicates this mysterious magical treasure occurance. The more intricate the 'trash' box you fish up, the higher the chance of treasure being inside."
+				""
+				"&3Ye gotta admit its a good incentive to go fishing in the game."
+			]
+			dependencies: ["7FC2234EEA487630"]
+			id: "61F3F6680887946E"
+			tasks: [{
+				id: "24B21085B6E63450"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+			rewards: [{
+				id: "2262345C6DED1B64"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Give It Your Style"
+			x: 2.25d
+			y: -0.5d
+			shape: "rsquare"
+			description: [
+				"&3Ye probably noticed that your fishing pole has a few extra attachment points in the Tackle Box, yeah? Well, those are for customizing yer stuff."
+				""
+				"&3Specifically, ye can customize your Fishing Line and Bobber."
+				""
+				"&3These don't make ya fish any better, mind. But yer able to dye both of these like Leather Armor: Combine em with any number of Dyes in a Crafting Table."
+			]
+			dependencies: ["29661E8B057202C7"]
+			id: "0B2AC4B5593F275B"
+			tasks: [
+				{
+					id: "5473248A961317B4"
+					type: "item"
+					item: "aquaculture:fishing_line"
+				}
+				{
+					id: "1E1A3C0AB78D9905"
+					type: "item"
+					item: "aquaculture:bobber"
+				}
+			]
+			rewards: [{
+				id: "2394BB557F7BB5DF"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Little Message"
+			x: 5.25d
+			y: -0.5d
+			shape: "rsquare"
+			description: [
+				"&3Sometimes ya find an old can, or a bit of driftwood. Sometimes, ya find a bottle. "
+				""
+				"&3And sometimes, that bottle has a little message for ya. They aren't super useful, but they can be pretty interesting."
+				""
+				"&3They can also be dang annoying cause the FOPGame Server has it as another way to advertise to ya, so... I guess that is yer warning, Bandit."
+			]
+			dependencies: ["61F3F6680887946E"]
+			id: "4A4138708BACDF4A"
+			tasks: [{
+				id: "2003D91D9BDCF846"
+				type: "item"
+				item: "aquaculture:message_in_a_bottle"
+			}]
+			rewards: [{
+				id: "455376C79965B382"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Power of the Sea"
+			x: 6.75d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&3Ya been upgrading your equipment I hope, Bandit? An Iron Rod and an Iron Hook are all well and good to start with, but yer gonna need something a bit more elegant if you want to catch both the big fish and the big treasures."
+				""
+				"&3A Diamond Rod is good, but Enchant it with Luck of the Sea for the best chances. And a Gold Hook is good for Luck as well, though if you can somehow spare a Nether Star, well... Let's stick with the Gold Hook, yeah?"
+				""
+				"&3It'll take a while, but if yer Luck is good, you may find one of these rare treasures, imbued with the luck and power of the sea: The Neptune's Bounty, a chest full of treasures small (usually) and big (if you are lucky)."
+			]
+			dependencies: ["61F3F6680887946E"]
+			id: "3A0DF96A91CA4B14"
+			tasks: [{
+				id: "137B599B4651FE5C"
+				type: "item"
+				item: "aquaculture:neptunes_bounty"
+			}]
+			rewards: [{
+				id: "2F1DA596EAA89615"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Ocean's Metal"
+			x: 8.25d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["&3Neptune's Bounty chests have a chance of carrying Neptunium, a powerful metal with the power of the sea. Well, they also could carry equipment MADE of Neptunium as well."]
+			dependencies: ["3A0DF96A91CA4B14"]
+			id: "54CB1F01CB0468F1"
+			tasks: [{
+				id: "54678DA67C6B935B"
+				type: "item"
+				item: "aquaculture:neptunium_ingot"
+			}]
+			rewards: [{
+				id: "097DA784EC251CDB"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Water Mining"
+			x: 9.5d
+			y: -0.25d
+			shape: "rsquare"
+			description: ["&3The Neptunium Pickaxe mines at full speed when underwater. Usually ye mine much slower if you are swimming, mind."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "1F2F8E4E8A2D01CD"
+			tasks: [{
+				id: "7FB1E66DD69F46DA"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E8E503103EA1367"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Underwater Chopping"
+			x: 9.5d
+			y: 2.25d
+			shape: "rsquare"
+			description: ["&3The Neptunium Axe does extra damage if you are under water."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "638771516BEA7EEE"
+			tasks: [{
+				id: "289F008E69117077"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "689CAD42025129F8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Underwater Digging"
+			x: 8.25d
+			y: 2.25d
+			shape: "rsquare"
+			description: ["&3The Neptunium Shovel will dig at full speed when you are underwater. Normally, mind, ye dig much slower if you are under water."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "621EB26D968B968A"
+			tasks: [{
+				id: "1E61FB83AAB7C8FD"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DCA62666E685D33"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Goggles Work"
+			x: 9.0d
+			y: -1.75d
+			shape: "rsquare"
+			description: ["&3The Neptunium Helmet allows you to see better when underwater."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "48D10C442FB7F6FB"
+			tasks: [{
+				id: "307E87E7409D3399"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EA5572A20E583F1"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Breath of Water"
+			x: 11.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["&3The Neptunium Chestplate will allow you to breath under water."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "12DCE7C2DC98618A"
+			tasks: [{
+				id: "68F59D820126E03C"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C79C0144B1D63B7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Lead Weight"
+			x: 11.0d
+			y: 2.0d
+			shape: "rsquare"
+			description: ["&3The Neptunium Leggings will pull you down to the sea floor, as if you were in normal air."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "0C7E670E1A59B0C2"
+			tasks: [{
+				id: "554BA3D98B185F9D"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "636761FEFA59ABF3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Not Quite Flippers"
+			x: 9.0d
+			y: 3.75d
+			shape: "rsquare"
+			description: ["&3The Neptunium Boots will increase your swimming speed."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "1C13C05A8BB67064"
+			tasks: [{
+				id: "7A5E7C659A5A66E8"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B58189009F897E1"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Watered Farms"
+			x: 8.25d
+			y: -0.25d
+			shape: "rsquare"
+			description: ["&3The Neptunium Hoe can be used to till dirt into farmland like usual, but it will always be hydrated."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "1B5EC96CCB1D4B09"
+			tasks: [{
+				id: "395E90F63E322C71"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CE441D345344E9D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Wave Sword"
+			x: 9.75d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["&3The Neptunium Sword will do extra damage if you are under water."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "2674A5A903C3924B"
+			tasks: [{
+				id: "6D79281426025851"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A33227FD44E92D4"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Splash Bow"
+			x: 11.5d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["&3Arrows fired from the Neptunium Bow do not get impeded when they enter water."]
+			dependencies: ["54CB1F01CB0468F1"]
+			id: "35813C5C114B5B3E"
+			tasks: [{
+				id: "1D09468C63965D15"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C4C3CF640900E44"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Going the Distance"
+			x: -0.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&3If you are wanting to change up yer casting distance, look no further than these hooks, Bandit."
+				""
+				"&3The Heavy Hook makes your casts fly shorter, and the Light Hook does the opposite. Pretty simple, hm?"
+			]
+			dependencies: ["726BE272AB161992"]
+			id: "7306703EED0058C7"
+			tasks: [
+				{
+					id: "4AF24271047EFDD9"
+					type: "item"
+					item: "aquaculture:heavy_hook"
+				}
+				{
+					id: "66327EC0AE335170"
+					type: "item"
+					item: "aquaculture:light_hook"
+				}
+			]
+			rewards: [{
+				id: "4447BABC6D0CC7AF"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Bit of a Boost"
+			x: -0.5d
+			y: 2.0d
+			shape: "rsquare"
+			description: [
+				"&3The Redstone Hook gives you a longer time to Reel in a caught fish. Good for when yer not paying much attention."
+				""
+				"&3The Double Hook, ya think it wouldn't work like it does, but it lets you catch TWO things at once. "
+			]
+			dependencies: ["726BE272AB161992"]
+			id: "661DD6D83B53964E"
+			tasks: [
+				{
+					id: "633BDAA79BD72184"
+					type: "item"
+					item: "aquaculture:redstone_hook"
+				}
+				{
+					id: "6A3D318A5F416371"
+					type: "item"
+					item: "aquaculture:double_hook"
+				}
+			]
+			rewards: [{
+				id: "6743F88A800A2689"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Little Help"
+			x: -0.75d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&3I always suggest using a Gold Hook to new fishers, and even experienced fishers. It gives a bit of luck to your catches, making treasure that much more likely."
+				""
+				"&3But if yer having trouble just catchings, perhaps the Note Hook will help. When a fish bites, it'll do a little jingle!"
+			]
+			dependencies: ["726BE272AB161992"]
+			id: "57ED7F5D121919FD"
+			tasks: [
+				{
+					id: "04E8B5C828A13E6E"
+					type: "item"
+					item: "aquaculture:gold_hook"
+				}
+				{
+					id: "78D3CCBBDE32B51E"
+					type: "item"
+					item: "aquaculture:note_hook"
+				}
+			]
+			rewards: [{
+				id: "3C398972D7A8E4CB"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Ultimate Hook"
+			x: -2.0d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["&3The best hook ya can make is the fabled Nether Star Hook. It not only boosts your fishing luck but it also has a chance to not cost durability!"]
+			dependencies: ["726BE272AB161992"]
+			id: "371654FBDA104DE0"
+			tasks: [{
+				id: "78C81377D3DB48B5"
+				type: "item"
+				item: "aquaculture:nether_star_hook"
+			}]
+			rewards: [{
+				id: "0B51246D5795A88E"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			x: 3.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: ["&3Caught a cool looking fish? Why don't ye mount it with one of these to show it off?"]
+			dependencies: ["7FC2234EEA487630"]
+			id: "76F87399D0582620"
+			tasks: [{
+				id: "35902A6CFA732FBA"
+				type: "item"
+				title: "Any Fish Mount"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:fishmount"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2567717B9B68D26F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

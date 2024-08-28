@@ -1,0 +1,1754 @@
+{
+	id: "40C4DD153463C6BC"
+	group: "499A93482811AC21"
+	order_index: 4
+	filename: "from_farm_to_table"
+	title: "From Dirt to Delish"
+	subtitle: [
+		"MOD: Spice of Life - Carrot Edition"
+		"MODS: Cooking/Farming for Blockheads"
+		"MODS: Farmers Delight, Raven Coffee"
+		"MOD: Pam's Harvestcraft, Culinary Construct"
+		"MOD: Pumpkin Spice Everything"
+		"MODS: Botany Pots + Trees + Tiers"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Path of the Meal"
+			x: -0.25d
+			y: 1.25d
+			shape: "octagon"
+			description: [
+				"&2Ah, greetings again, Bandit! [Master Gardener Gray] here. I know in the whirlwind you've been in you may not remember us, but we helped guide you through growing and cooking your own sustenance in that strange dimension."
+				""
+				"&3Mmm yes, quite a strange place, yes. Oh, yes, I'm [Head Chef Charlie]. We see that you've found yourself in yet another strange place, though in... a much more precarious position."
+				""
+				"&4Very much so! [Barista Bae] here. You've not met me yet for sure."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Oh! [Barista Bae], didn't realize you'd be here. Where is [Food Critic Candy]?"
+				""
+				"&4&l[Barista Bae] : &r&4Poor dear came down with food poisoning. Big chili cook off followed by judging an up and coming chef competition."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Oh no! Well, glad to have you on board at least!"
+			]
+			dependencies: ["1D0853ADC7295AEB"]
+			id: "4AFBF3206D6A0A5E"
+			tasks: [{
+				id: "5E020B48FAE6E2EE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "A Cookbook for Everyone"
+			x: -5.5d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Cooking for Blockheads"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Ah, Cooking for Blockheads. Always a good staple for any size kitchen. "
+				""
+				"&4&l[Barista Bae] : &r&4Betcha its why the FOPGame Server has copied it."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Quite true, quite true, yes. Well, doesn't look like they changed much, so it's quite simple to go over again."
+				""
+				"&3&l[Head Chef Charlie] : &r&3It's a simple start: Craft yourself a Cooking for Blockheads I book. This handy little thing will tell you what recipes you can make with the ingredients in your inventory."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "1050F5E181EC7BAB"
+			tasks: [{
+				id: "10C09F77608ACF96"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "1D9296BE3F66CD92"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "On the Farm"
+			x: -9.25d
+			y: 2.75d
+			shape: "square"
+			subtitle: "MOD : Farming for Blockheads"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Bandit, there's a lot to farming and gardening. What seeds you use, when you water it, how hot or cold it needs to be. But a lot of those don't matter in the FOPGame Server. "
+				""
+				"&2&l[Master Gardener Gray] : &r&2Getting seeds can be as simple as punching the nearest grass and hoping. Or, you can use this handy Market to buy more specific seeds you want."
+				""
+				"&4&l[Barista Bae] : &r&4They seem kinda... pricey."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Unsurprising given the FOPGame Server runs the Market."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "7D7C157DFC1B8A40"
+			tasks: [{
+				id: "255BD4B6A2914E83"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "1C8B90AC15A7A0A4"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Good Farm Kitchen"
+			x: -8.0d
+			y: 2.75d
+			shape: "square"
+			subtitle: "MOD : Farmer's Delight"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Ah, Bandit, have you gotten yourself a farm going yet? I highly suggest it, if nothing else the FOPGame Server has some decent options."
+				""
+				"&3&l[Head Chef Charlie] : &r&3They'd have to keep up with all the ingredients the worlds they digitize have."
+				""
+				"&4&l[Barista Bae] : &r&4Why would... oh! Maximize profits, right?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Yes, though I wonder if they care about actual farming... But that's something to muse on later, Bandit. For now, how about you make yourself a Flint Knife?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2You can use it to break tall grass, and you'll harvest some extra resources. The main one being: Straw. With this, you can make some Ropes to climb, as well as some nice decorative mats."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "5CA74EEBA6856C9B"
+			tasks: [
+				{
+					id: "1A49DC58AB5A6055"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17AFEEA7131B9000"
+					type: "item"
+					item: "farmersdelight:straw"
+				}
+				{
+					id: "1C35C6765D99FFBD"
+					type: "item"
+					item: "farmersdelight:rope"
+				}
+				{
+					id: "013879BCB1507D90"
+					type: "item"
+					item: "farmersdelight:full_tatami_mat"
+				}
+			]
+			rewards: [{
+				id: "783CA37DE5A1F936"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Harvests of Pam"
+			x: -10.5d
+			y: 4.0d
+			shape: "square"
+			subtitle: "MODS : Pam's Harvestcraft(Crops, Food, Extended, Trees)"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Ah, I'm glad that the FOPGame Server has at least incorporated Pam's excellence."
+				""
+				"&3&l[Head Chef Charlie] : &r&3It's an excellent staple for sure."
+				""
+				"&4&l[Barista Bae] : &r&4Wow, I didn't realize it covered so much. "
+				""
+				"&2&l[Master Gardener Gray] : &r&2Mhmm, Pam has a wealth of food knowledge and recipes to satisfy any palate."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Bandit, how about making a these? You can break naturally growing Gardens to find crops. But these dishes are one of the Ferret Business owners' favorites."
+				""
+				"&4&l[Barista Bae] : &r&4Wait, which one?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Yes."
+				"&3&l[Head Chef Charlie] : &r&3Yes."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "1F53EC04ACF0B812"
+			tasks: [
+				{
+					id: "78B948CEE8B726A3"
+					type: "item"
+					item: "pamhc2foodcore:saucepanitem"
+				}
+				{
+					id: "051C89AFA89AE7AD"
+					type: "item"
+					item: "pamhc2foodcore:cuttingboarditem"
+				}
+				{
+					id: "72D25C810734C79D"
+					type: "item"
+					item: "pamhc2foodextended:musubiitem"
+				}
+				{
+					id: "7DCE60E37584EC59"
+					type: "item"
+					item: "pamhc2foodextended:bentoboxitem"
+				}
+				{
+					id: "3C648F954959C544"
+					type: "item"
+					item: "pamhc2foodcore:gummybearsitem"
+				}
+			]
+			rewards: [{
+				id: "4639C741C2850767"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "THE Spice For EVERYTHING"
+			x: -4.25d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Pumpkin Spice Everything"
+			description: [
+				"&4&l[Barista Bae] : &r&4Ooo, you know what season it is?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Oh no..."
+				""
+				"&2&l[Master Gardener Gray] : &r&2What?"
+				""
+				"&4&l[Barista Bae] : &r&4Pumpkin Spice!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2I...is it? I best make sure the farms are ready..."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Still can't believe it's that popular..."
+				""
+				"&4&l[Barista Bae] : &r&4It works on so many things! Lattes and Cakes..."
+				""
+				"&3&l[Head Chef Charlie] : &r&3So many Lattes....how can..."
+				""
+				"&4&l[Barista Bae] : &r&4...and the fancy Pumpkin Spice Pufferfish, and..."
+				""
+				"&3&l[Head Chef Charlie] : &r&3THE WHAT?"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "6CD3A30B3F25B3F5"
+			tasks: [
+				{
+					id: "1EB0E323D7809BCA"
+					type: "item"
+					item: "pumpkin_spice_everything:pumpkin_spice"
+				}
+				{
+					id: "231BF63B0572E053"
+					type: "item"
+					item: "pumpkin_spice_everything:pumpkin_spice_cake"
+				}
+				{
+					id: "073DD3DA4790E6ED"
+					type: "item"
+					item: "pumpkin_spice_everything:pumpkin_spice_latte"
+				}
+				{
+					id: "1C75150DF982B0C2"
+					type: "item"
+					item: "pumpkin_spice_everything:pumpkin_spice_pufferfish"
+				}
+			]
+			rewards: [{
+				id: "2DF2EEBFECC7B9C2"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Cup of Life"
+			x: -3.0d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Raven Coffee"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Nothing like a good cuppa to start the day..."
+				""
+				"&4&l[Barista Bae] : &r&4Ooo, is that the new blend from Stoats?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Definitely! We cultivated a new type of bean for them. Super proud."
+				""
+				"&4&l[Barista Bae] : &r&4That reminds me! Is there coffee in the FOPGame Server?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Sure does, though the FOPGame Server has their own 'brand' of coffee called Raven. "
+				""
+				"&2&l[Master Gardener Gray] : &r&2Bird named, of course. But you can find Coffee plants around, and harvest the Coffee Cherries to plant more."
+				""
+				"&4&l[Barista Bae] : &r&4Or you can pop the bean out and roast em! Then grind them so they are ready for brewing!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "437DC230732FC2D5"
+			tasks: [
+				{
+					id: "3AB884D13B310D03"
+					type: "item"
+					item: "ravencoffee:coffee_cherries"
+				}
+				{
+					id: "37DB77A430438300"
+					type: "item"
+					item: "ravencoffee:coffee_beans"
+				}
+				{
+					id: "2BABEA76558EB52E"
+					type: "item"
+					item: "ravencoffee:coffee_beans_roasted"
+				}
+				{
+					id: "6A33182A504B4431"
+					type: "item"
+					item: "ravencoffee:coffee_beans_roasted_ground"
+				}
+			]
+			rewards: [{
+				id: "5B9C7C59A9CED205"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Kaleidoscope of Flavors"
+			x: -10.5d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Spice of Life - Carrot Edition"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Bandit, you may be interested in this interesting little system that the FOPGame Server implemented."
+				""
+				"&4&l[Barista Bae] : &r&4Oh! What is that? It looks like Gray's farm journal."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Damned, figures they'd copy that product. Got the idea from those folks that like to post up pictures of their food. You use it to keep record of the foods you've eaten, so you can try more things out. What'd the bosses call it? "
+				""
+				"&4&l[Barista Bae] : &r&4Ooo, so kind of like achievement hunting?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Kind of I guess. Though in the FOPGame Server, it ties to how many extra hitpoints you get. But you gotta try a LOT of foods..."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Meaning making a LOT of dishes and selling the remainders...sneaky."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "0D9713746B772A6A"
+			tasks: [{
+				id: "277CE8249E40B25A"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+			rewards: [{
+				id: "405F50516979AEB6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Garden Anywhere"
+			x: 1.25d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Botany Pots and Botany Trees"
+			description: [
+				"&4&l[Barista Bae] : &r&4Oh Gray, question! Sometimes you talk about gardens, sometimes farms, also fields. What exactly do we use for growing?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Oh, not been down to the food and farm labs yet? Really should visit some time."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Ah yes. We have a mix of all of those. Some things only grow in very specific places, or temperatures, or times. Very strict requirements to grow makes some things difficult, you see."
+				""
+				"&4&l[Barista Bae] : &r&4Ooh I see."
+				""
+				"&3&l[Head Chef Charlie] : &r&3It looks like the FOPGame Server has their own... well, system for growing plants. Aside from classic farmland, that is."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Aye, Botany Pots. You can grow almost all crops and trees in em. Just Right Click the right soil and seed into it!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "3D2D76F0362BB9F3"
+			tasks: [{
+				id: "493677B46737959F"
+				type: "item"
+				title: "Any basic Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:basic_botany_pots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "48EFBA60C9D49CF7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Dream Sandwich"
+			x: 2.5d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Culinary Construct"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Ah, looking over all the strange farming choices the FOP have made for their Game Server has built up an appetite."
+				""
+				"&4&l[Barista Bae] : &r&4Oooh I could go for a sandwich or something right now."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Sandwich, eh? Well, we could always construct you one of our sandwich specials."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Tempting. Ya always have some pretty decent choices in the restaurant. "
+				""
+				"&3&l[Head Chef Charlie] : &r&3We try. Unlike... well look here. Using this Culinary Station, you can turn ANYTHING into a sandwich or food bowl."
+				""
+				"&4&l[Barista Bae] : &r&4Anything?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Well, anything you can eat or drink. Just put (vanilla) Bread or a Bowl in the left, then fill the rest with food."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "63DC6ABABC7DD1D6"
+			tasks: [{
+				id: "4072650AA7BD5144"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [{
+				id: "769F9E57C653B029"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Divine Food"
+			x: 3.75d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Mod : Sushi Go Crafting"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Ah, I see they FOPGame Server has it's own version of the TFB leaders' favorite products... or well one of them."
+				""
+				"&4&l[Barista Bae] : &r&4Sushi."
+				"&2&l[Master Gardener Gray] : &r&2Sushi."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Of course. Just a quick glance over, they've... pretty much copied it fairly accurately. Not even hiding it I guess. "
+				""
+				"&2&l[Master Gardener Gray] : &r&2Can't really copyright recipes and stuff. Thankfully, otherwise it would be a very cutthroat business then. Farming and cooking business that is."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Too true. Well, Bandit, if you want to get started on this journey, get yourself a \"Becoming an Itamae\" manual."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "44B837D49943BAE8"
+			tasks: [{
+				id: "78118D1B050C2333"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "sushigocrafting:sushigocrafting"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A1E62ED3F277684"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Who Needs a Table?"
+			x: -5.5d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Seeing the recipe is quite nice, yes. But the Cooking for Blockheads cookbooks can do much more than that, with Cooking for Blockheads II."
+				""
+				"&4&l[Barista Bae] : &r&4Oh, a sequel?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3In a way, in a way. It's more of an upgraded version of the first book, Bandit. Instead of just showing you the recipes, you can craft most of them instead right inside the book!"
+			]
+			dependencies: ["1050F5E181EC7BAB"]
+			id: "076C8D2CE5CB7D64"
+			tasks: [{
+				id: "3A78014823F038A2"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [{
+				id: "737F1DCDCD5DD262"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Simple Kitchen"
+			x: -5.5d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3And from the humble but powerful cookbook, you can upgrade to a proper kitchen."
+				""
+				"&2&l[Master Gardener Gray] : &r&2And good, some proper storage for your ingredients. A pocket can only hold so much corn you know. Not a fridge in sight, though."
+				""
+				"&3&l[Head Chef Charlie] : &r&3That's a different lesson. First though, for the Cooking for Blockheads Kitchen to work, all the components need to be placed so that pieces touch each other. "
+				""
+				"&3&l[Head Chef Charlie] : &r&3The Cooking Table is the heart of the kitchen. The Oven provides heat, the Sink provides water. And you can store many ingredients in the Counters."
+				""
+				"&4&l[Barista Bae] : &r&4Oh! Don't forget the nice looking kitchen floor!"
+			]
+			dependencies: ["076C8D2CE5CB7D64"]
+			id: "7DDCC674E0378B37"
+			tasks: [
+				{
+					id: "6726BB5DC098C7CC"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "3A96C8292FD5B210"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "01CC892CD79623F0"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+				{
+					id: "455635A38A5EEE9C"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+				{
+					id: "725A2552EE0D6D99"
+					type: "item"
+					title: "Any Color Kitchen Floor"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:kitchenfloor"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "233A5CDEB28A65EB"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "More Tools"
+			x: -4.25d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3There are many kitchen gadgets you can get, even in the FOPGame Server."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Though I have to say the Tool Rack is very much an essential thing. You can place your various cooking tools, like pots and pans and whatnot, on it, and they will be available for use in recipes."
+				""
+				"&3&l[Head Chef Charlie] : &r&3The Milk Jar is a special container for... yep, storing milk. Keeps it nice and fresh. Just place it on one of the Cooking for Blockhead kitchen counters, and Right Click buckets of milk onto it to fill it. Then recipes that need Milk will pull from the Milk Jar."
+				""
+				"&4&l[Barista Bae] : &r&4Ooo, a toaster. Right Click Bread onto it, then again to start it. When it's done, POP, Toast!"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Pretty much. Fairly unitasker in the FOPGame Server, though."
+			]
+			dependencies: ["7DDCC674E0378B37"]
+			id: "7830589D5DF956C3"
+			tasks: [
+				{
+					id: "1CF3378688B70D22"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "1FA513B48CAE1B81"
+					type: "item"
+					item: "cookingforblockheads:milk_jar"
+				}
+				{
+					id: "318C1B4D18EE89F6"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
+			rewards: [{
+				id: "59DA6E23684EB8E6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Cabinets are all well and good for some ingredients. Canned and boxed food, shelf stable things, yes. Fresh foods? Small bottled spices? Not that great..."
+				""
+				"&4&l[Barista Bae] : &r&4Isn't it all digital though? With screens and things?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Ah, it is, yes, but appearances are helpful. Especially as Bandit is stuck there for who knows how long, making things look nice and comfortable helps."
+				""
+				"&4&l[Barista Bae] : &r&4Oh! Good point. Storing spices and other small ingredients on a Spice Rack looks nice! Or a fruit basket on a counter. Seeing fresh fruit right there is lovely."
+				""
+				"&2&l[Master Gardener Gray] : &r&2And there's the Fridge, good. Keeps things cold, not that it's required for the FOPGame Server. But you can stack two Fridges on top of each other to make a normal sized one."
+			]
+			dependencies: ["7DDCC674E0378B37"]
+			id: "40F916972FD5FF5F"
+			tasks: [
+				{
+					id: "152488E6A63FEB9F"
+					type: "item"
+					item: "cookingforblockheads:spice_rack"
+				}
+				{
+					id: "36ABBB8FBA2B685E"
+					type: "item"
+					item: "cookingforblockheads:fruit_basket"
+				}
+				{
+					id: "0FDE133B7D64FB61"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+			]
+			rewards: [{
+				id: "71D9DE7B1791838E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Upgading Appliances"
+			x: -4.25d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Some of your Kitchen can be upgraded a few useful things. Like the Oven can be upgraded with a Heating Unit so that it can use FE Energy to cook food instead of Coal or Wood."
+				""
+				"&2&l[Master Gardener Gray] : &r&2That Ice Unit is quite useful in a Fridge. It provides Ice for your recipes and to help things keep cool."
+				""
+				"&4&l[Barista Bae] : &r&4Oh! That Preservation Chamber is super handy! It stops the last item in a spot from being used!"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Excellent if you are using a piping or similar system to keep your Kitchen stocked."
+			]
+			dependencies: ["40F916972FD5FF5F"]
+			id: "709AFA8CEB8D239E"
+			tasks: [
+				{
+					id: "3450BDF76A06C890"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "0B554DB8915CA034"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "0A65C8885A799BAD"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+			]
+			rewards: [{
+				id: "55AFBC7F6315A8DF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Fine Slice"
+			x: -6.75d
+			y: 2.75d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3A lovely, if brittle, knife! A useful tool on the farm and in the kitchen. Especially if you have youself a Cutting Board!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Brittle, perhaps, but razor sharp, Gardener Gray. But that Cutting Board is quite useful, I agree."
+				""
+				"&3&l[Head Chef Charlie] : &r&3It lets you slice some meats, cut produce and obtain seeds, and more. And it's quite simple to use. Just place it down, then Right Click something like...say a freshly caught Cod onto it."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Then Right Click your Knife onto it to chop!"
+				""
+				"&4&l[Barista Bae] : &r&4Oh don't forget, it doesn't have to be a knife, at least in the FOPGame Server. A lot of tools work: axes, swords..."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Is... that an Easel? For painting?!"
+			]
+			dependencies: ["5CA74EEBA6856C9B"]
+			id: "3D8068D3592BCEFB"
+			tasks: [
+				{
+					id: "322DEA1CCC5EF606"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "1EF3AB0951EF0BA6"
+					type: "item"
+					item: "farmersdelight:cod_slice"
+				}
+			]
+			rewards: [{
+				id: "0673604D517AE464"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Stocked Storage"
+			x: -6.75d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3When you've got a lot of ingredients, there's always the question about how to store em. "
+				""
+				"&2&l[Master Gardener Gray] : &r&2A good start's a Basket, I say. You can set it down, then toss stuff into the opening and it'll catch em. Good for partially automated farming too. "
+				""
+				"&4&l[Barista Bae] : &r&4Or Pantries! Kinda like cupboards. We tend to store extra supplies in the shop in them."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Ah, don't forget you can bundle together various ingredients, much like you can Ingots. Potatoes and Straw are good examples."
+			]
+			dependencies: ["5CA74EEBA6856C9B"]
+			id: "0FF9B044F0E6ACDE"
+			tasks: [
+				{
+					id: "09FE5BD79D0807B7"
+					type: "item"
+					item: "farmersdelight:basket"
+				}
+				{
+					id: "714A07544AB5CB2C"
+					type: "item"
+					title: "Any Farmer's Delight Pantry"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:pantries"
+						}
+					}
+				}
+				{
+					id: "3955F8E4842FA7FD"
+					type: "item"
+					item: "farmersdelight:straw_bale"
+				}
+				{
+					id: "5195C5AB1AE13313"
+					type: "item"
+					item: "farmersdelight:potato_crate"
+				}
+			]
+			rewards: [{
+				id: "7D0951F457091B60"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "More Helpful Things"
+			x: -8.0d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Always a few things around the farm that can help ya here and there. Like the Canvas Signs, look a bit neater than the basic wooden ones."
+				""
+				"&4&l[Barista Bae] : &r&4Ooo, Safety Nets, good for farms AND cafes! Gives a safe spot to land on when you jump off something high."
+				""
+				"&2&l[Master Gardener Gray] : &r&2What kind of farms have you been on?!"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Farms? What about cafes?!"
+				""
+				"&4&l[Barista Bae] : &r&4Oh, just some interesting themed places. The Ferret Business has me traveling a lot to research up and coming trends."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Hmf, well, what doesn't change is needing good soil for farms. You can make some Organic Compost and then let it sit next to water to turn into some Rich Soil."
+			]
+			dependencies: ["3D8068D3592BCEFB"]
+			id: "53FD72AA347015DE"
+			tasks: [
+				{
+					id: "6041A882C7BFD1D4"
+					type: "item"
+					title: "Any Farmer's Delight Canvas Sign"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "farmersdelight:canvas_signs"
+						}
+					}
+				}
+				{
+					id: "71927CC0BA2C667B"
+					type: "item"
+					item: "farmersdelight:safety_net"
+				}
+				{
+					id: "363CD15E9FCE543E"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+				}
+				{
+					id: "013FB311824DC524"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+				}
+			]
+			rewards: [{
+				id: "64037F3156781095"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Rustic Kitchenware"
+			x: -8.0d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Ah, nothing like a good rustic kitchen."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Agreed."
+				""
+				"&4&l[Barista Bae] : &r&4Oh, you don't put wood into this stove?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Nope, it's all heated up and ready. Just pop a Cooking Pot on top, and toss the ingredients into that. "
+				""
+				"&3&l[Head Chef Charlie] : &r&3Don't forget a bowl or similar to serve in."
+				""
+				"&4&l[Barista Bae] : &r&4What about a skillet? A fried egg sounds good right now."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Ah, the Skillet in the FOPGame Server is a bit... interesting. If you are standing next to a heat source, like a Campfire, the Stove, or similar, you can put something like an Onion or an Egg into your Off Hand, and then hold Right Click with the Skillet to cook it."
+			]
+			dependencies: ["5CA74EEBA6856C9B"]
+			id: "025D4C8A072DA284"
+			tasks: [
+				{
+					id: "6D3B18DD0159BD9E"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+				{
+					id: "1610551462E970B6"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "0EE9AFCA2C2131A2"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1C410C83B1A53614"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Good For You And Pets!"
+			x: -6.75d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Hey, Bandit. You probably already know, but a lot of the foods you can eat, aren't that great for the less sapient fuzzy friends."
+				""
+				"&4&l[Barista Bae] : &r&4Oh! Like cats and... onion? Or garlic? Or both? They shouldn't eat those, not good for them."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Yes, or like dogs and chocolate of course. But you can cook a few things in the FOPGame Server that are specifically good for tamed Wolves, like Dog Food."
+				""
+				"&3&l[Head Chef Charlie] : &r&3And Horse Feed for Horses. They not only feed and heal them, they also give them some nice buffs."
+			]
+			dependencies: ["025D4C8A072DA284"]
+			id: "6ECBAE11912AD860"
+			tasks: [
+				{
+					id: "246A89F95A1BF2B6"
+					type: "item"
+					item: "farmersdelight:dog_food"
+				}
+				{
+					id: "3316E6966936CC1A"
+					type: "item"
+					item: "farmersdelight:horse_feed"
+				}
+			]
+			rewards: [{
+				id: "375A087630BF2D54"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Good Feast"
+			x: -8.0d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Ah, having a good farm on hand makes for the best, freshest meals. "
+				""
+				"&4&l[Barista Bae] : &r&4And big feasts!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Feasts? Ah yes! There are a few special food items in the FOPGame Server that are placed like Blocks, but then you pull pieces off of it."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Ah, the Feasts, yes. They are kind of like the Cake in game, except instead of eating a slice right away, you Right Click a Bowl onto the Feast block to pull a serving off. "
+				""
+				"&4&l[Barista Bae] : &r&4Wow, four servings in each? That's a lot."
+			]
+			dependencies: ["025D4C8A072DA284"]
+			id: "7888D74C26972EC4"
+			tasks: [
+				{
+					id: "4A9A626A71F79A67"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+				}
+				{
+					id: "44F7AEE41662FAAC"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin_block"
+				}
+				{
+					id: "430BE006376CEF91"
+					type: "item"
+					item: "farmersdelight:honey_glazed_ham_block"
+				}
+				{
+					id: "0095770C2E5BF350"
+					type: "item"
+					item: "farmersdelight:shepherds_pie_block"
+				}
+			]
+			rewards: [{
+				id: "22D5C48BCB0C66E0"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Helping the Animals"
+			x: -9.25d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3That's a nice little box there."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Oh yes, I recognize that. It's a Chicken Nest, perfectly sized for those Chickens..."
+				""
+				"&4&l[Barista Bae] : &r&4Ducks."
+				""
+				"&3&l[Head Chef Charlie] : &r&3No, those are chickens."
+				""
+				"&4&l[Barista Bae] : &r&4OH I had a texture pack installed. I forgot, sorry!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Heh, early version of this game it was debated what they were. Chicken, duck, the Chicken Nest can automatically collect the Eggs they lay."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Now there's a good box I know about. The Feeding Trough. Feeds nearby animals with the food you put in... if they like it. All creatures can get kind of picky about their palette."
+			]
+			dependencies: ["7D7C157DFC1B8A40"]
+			id: "6A831AD18B91FF5E"
+			tasks: [
+				{
+					id: "266C5667A3B67FC1"
+					type: "item"
+					item: "farmingforblockheads:chicken_nest"
+				}
+				{
+					id: "56AEAC756CA056C0"
+					type: "item"
+					item: "farmingforblockheads:feeding_trough"
+				}
+			]
+			rewards: [{
+				id: "05CA220B2F5FFCD2"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Special Fertilizers"
+			x: -9.25d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2One of the important things from real farming that the FOPGame Server has is... sometimes, the choice of soil can help your crops, Bandit."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Take these three Fertilizers. Each one improves some aspect of farming, be it more crop yield, or faster growth."
+				""
+				"&4&l[Barista Bae] : &r&4Is... the speed one really red?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Of course it is. Red, as they say, goes faster. Or something."
+			]
+			dependencies: ["7D7C157DFC1B8A40"]
+			id: "0D163C29CC4063D4"
+			tasks: [
+				{
+					id: "4F0816A381F53ADA"
+					type: "item"
+					item: "farmingforblockheads:green_fertilizer"
+				}
+				{
+					id: "723C9EE5F9A0F7B3"
+					type: "item"
+					item: "farmingforblockheads:red_fertilizer"
+				}
+				{
+					id: "36914982CC6C9BF7"
+					type: "item"
+					item: "farmingforblockheads:yellow_fertilizer"
+				}
+			]
+			rewards: [{
+				id: "2E8FB1E2E3D3D86F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Grind and Pour"
+			x: -1.75d
+			y: 2.75d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4Oh, make sure you have a good variety of cup sizes, Bandit! Never know when you want a good, small shot of espresso, or a big mug of something sweet. "
+				""
+				"&3&l[Head Chef Charlie] : &r&3Some coffees are best in certain sizes, and depending on the meal as well. A large cup of espresso might be a bit too much, even for a mustelid..."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Ah yes, please utilize the proper tools too, so that you aren't wasting precious beans!"
+				""
+				"&4&l[Barista Bae] : &r&4A good grinder is what he means. You waste less beans per cup of coffee, and get the best flavor that way!"
+			]
+			dependencies: ["437DC230732FC2D5"]
+			id: "2683CFA3BBC45C95"
+			tasks: [
+				{
+					id: "5A37862F4512377F"
+					type: "item"
+					item: "ravencoffee:cup_small"
+				}
+				{
+					id: "31C7736B2F8A2DF7"
+					type: "item"
+					item: "ravencoffee:cup_medium"
+				}
+				{
+					id: "46194EC8BFF99785"
+					type: "item"
+					item: "ravencoffee:cup_large"
+				}
+				{
+					id: "5D5F226CE1B0D405"
+					type: "item"
+					item: "ravencoffee:coffee_mug"
+				}
+				{
+					id: "60D058BB0CC4FE04"
+					type: "item"
+					item: "ravencoffee:coffee_grinder_block"
+				}
+			]
+			rewards: [{
+				id: "42EF656325E81F59"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "And a Good Snack"
+			x: -3.0d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3A good coffee break just isn't complete without a light, but filling snack."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Usually only got time to grab a muffin in the morning myself. Fill the thermos, grab a carby breakfast to go, get off to the gardens."
+				""
+				"&4&l[Barista Bae] : &r&4Oh! You might do better if you have a croissant, especially if you add in some roast chicken. More filling and very tasty!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Hmmm, a good idea."
+				""
+				"&3&l[Head Chef Charlie] : &r&3A bagel is a bit more filling, especially if you find the croissant too light. If you want some sweetness how about....ham?"
+			]
+			dependencies: ["437DC230732FC2D5"]
+			id: "142D70C0266EE508"
+			tasks: [
+				{
+					id: "5CE831BAD7C65811"
+					type: "item"
+					item: "ravencoffee:muffin"
+				}
+				{
+					id: "244F85B2241E68F4"
+					type: "item"
+					item: "ravencoffee:croissant"
+				}
+				{
+					id: "142DCBD679702D73"
+					type: "item"
+					item: "ravencoffee:croissant_chicken"
+				}
+				{
+					id: "3EE0BDDC4FDD36E0"
+					type: "item"
+					item: "ravencoffee:bagel"
+				}
+				{
+					id: "02811AE9490814F4"
+					type: "item"
+					item: "ravencoffee:bagel_ham"
+				}
+			]
+			rewards: [{
+				id: "649F8988A9A05D82"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Really Hot Coffee"
+			x: -3.0d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4Hey Charlie, what is THAT?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Well, I was looking into what else the FOPGame Server lets you do with coffee, and found some, well... interesting things."
+				""
+				"&2&l[Master Gardener Gray] : &r&2That looks a bit like a Magma Block. Is that what happens when you over roast their coffee?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Kind of? It's done on purpose it seems. Called a Magma Coffee Block. "
+				""
+				"&4&l[Barista Bae] : &r&4What do you do with THAT though?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3First thing I can find is as... road material? Apparently if you walk on it, you run faster. But it also burns you so..."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Not all that useful without strong boots..."
+			]
+			dependencies: ["437DC230732FC2D5"]
+			id: "5DFCB0167F23F36D"
+			tasks: [{
+				id: "713866AFEF591893"
+				type: "item"
+				item: "ravencoffee:coffee_beans_roasted_magma_block"
+			}]
+			rewards: [{
+				id: "61E74C00B9FE4432"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Caffeinated Tools"
+			x: -3.0d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Ah here we go. Looks like those Magma Coffee Blocks can be used to make... Coffee Tools?"
+				""
+				"&4&l[Barista Bae] : &r&4Wait, really? Are they any good?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Well, judging by the information, they seem to be somewhere between Iron and Diamond tools. They kind of remind me of Netherite tools."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Hah, made quite similarly it seems. Plates, ingots, then wrapping the base tool in the new material. "
+				""
+				"&4&l[Barista Bae] : &r&4Well hey, if they are useful, always good to have multiple ways to use coffee! Wonder if you can nibble on the tool like chocolate covered espresso beans..."
+				""
+				"&2&l[Master Gardener Gray] : &r&2I'm not sure eating your tools is very good..."
+			]
+			dependencies: ["5DFCB0167F23F36D"]
+			id: "1350A70B4623AAEE"
+			tasks: [
+				{
+					id: "4FBA5BC8249ED8A3"
+					type: "item"
+					item: "ravencoffee:coffee_plates"
+				}
+				{
+					id: "60A34219198E4AB3"
+					type: "item"
+					item: "ravencoffee:coffee_ingot"
+				}
+				{
+					id: "2D93AF26022B2E15"
+					type: "item"
+					item: {
+						id: "ravencoffee:coffee_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "78646705AF1691C3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Coffee Basics"
+			x: -1.75d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4Okay, so in the cafe, we have three 'normal' brews we do. From these we can make a lot of different blends and types!"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Much like a fairly basic but versatile soup base. A wide open palette with a lot of possibilities."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Oh an espresso is a good jump of energy... wait, that's a good question. Since its a game, does Raven Coffee give you more energy or anything?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Looking at the stats, looks like each brew gives various buffs."
+				""
+				"&4&l[Barista Bae] : &r&4Great! Oh, I guess they don't have any mixes using the espresso...but the Americano and Latte are very good starts for some really tasty drinks!"
+			]
+			dependencies: ["2683CFA3BBC45C95"]
+			id: "123564ED3460EB97"
+			tasks: [
+				{
+					id: "5CA20AF99F73D138"
+					type: "item"
+					item: "ravencoffee:cup_small_brew_espresso"
+				}
+				{
+					id: "0C1D7D18001B0C93"
+					type: "item"
+					item: "ravencoffee:cup_medium_brew_american"
+				}
+				{
+					id: "63DD20E6FD29C718"
+					type: "item"
+					item: "ravencoffee:cup_medium_brew_milk"
+				}
+			]
+			rewards: [{
+				id: "18F7BDD843106254"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Smooth and Dreamy"
+			x: -1.75d
+			y: 6.5d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4There's a lot of things you can add to Americanos and Lattes to make them even more delicious. "
+				""
+				"&2&l[Master Gardener Gray] : &r&2While it isn't coffee, I could go for a nice cup of Hot Chocolate."
+				""
+				"&3&l[Head Chef Charlie] : &r&3How about a Cookies and Cream coffee? Bit of chocolate, bit of coffee, nice baked cookie taste as well."
+				""
+				"&4&l[Barista Bae] : &r&4That's a favorite at the cafe for sure. So are Pumpkin Spice Lattes!"
+			]
+			dependencies: ["123564ED3460EB97"]
+			id: "27DA1A9B621FB854"
+			tasks: [
+				{
+					id: "3BC9A2C56EA0A2F3"
+					type: "item"
+					item: "ravencoffee:coffee_mug_brew_chocolate"
+				}
+				{
+					id: "76487EDA28261E70"
+					type: "item"
+					item: "ravencoffee:cup_medium_brew_cookiesandcream"
+				}
+				{
+					id: "73C03F0FFCC95823"
+					type: "item"
+					item: "ravencoffee:cup_medium_brew_pumpkinspicelatte"
+				}
+			]
+			rewards: [{
+				id: "6995C8EB775439B4"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Enigmatic Treats"
+			x: -1.75d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4Huh these are some weird things the FOPGame Server has."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Popchorus... is this supposed to be like popcorn? Not really as light as popcorn, cause you know....its fruit. But interesting at least."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Oh dear, I don't know if I'd try that End Brew without a safety net around... I get the feeling it'd be a favorite drink of Endermen and thus be... dangerous to Bandit and assistants."
+			]
+			dependencies: [
+				"27DA1A9B621FB854"
+				"142D70C0266EE508"
+			]
+			id: "48D8E9CB68124E19"
+			tasks: [
+				{
+					id: "633EED5C1ABF9A07"
+					type: "item"
+					item: "ravencoffee:cup_medium_brew_end"
+				}
+				{
+					id: "76F1DD72FDEA3C5B"
+					type: "item"
+					item: "ravencoffee:popchorus"
+				}
+			]
+			rewards: [{
+				id: "37925EC804DAA612"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Scheduled Harvest"
+			x: 1.25d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4So did the FOP copy a real product for the Botany Pots?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Surprisingly, no, they are taking advantage of the digital nature of the system."
+				""
+				"&2&l[Master Gardener Gray] : &r&2The FOP can innovate when they want to, its just easier to copy things. For Botany Pots, they 'magically' have all it plant needs to grow except the Soil."
+				""
+				"&3&l[Head Chef Charlie] : &r&3One thing they did copy is The Ferret Business' new automated hydroponics feature."
+				""
+				"&4&l[Barista Bae] : &r&4Oh, I remember that in the newsletter. The auto-harvesting thing, right?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2That's the one. They call it a 'Hopper Botany Pot' however. It will automatically deposit fully grown material into an inventory under the Botany Pot."
+			]
+			dependencies: ["3D2D76F0362BB9F3"]
+			id: "0C96DD8966CB02DC"
+			tasks: [{
+				id: "051364640F418624"
+				type: "item"
+				title: "Any basic Hopper Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:basic_hopper_botany_pots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "02B9127C2F080BED"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Better Botany"
+			x: 1.25d
+			y: 5.25d
+			shape: "rsquare"
+			subtitle: "Mod : Botany Pots Tiers"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3I see they are toying with their digital systems again. They've released upgraded Botany Pots versions. Elite, Ultra, and... Creative?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Oh? Interesting... looks like it not only makes things grow faster... but also output more product? That's not good."
+				""
+				"&4&l[Barista Bae] : &r&4Isn't it a digital system? How is that bad?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2It's... tricky. While its a digital system, it's still actual materials. Which doesn't quite sound logical but... it's very tricky."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Think of it like uh... transporters from that space TV series. You get digitized, transfered over, then undigitized. You can't get copied 'normally', and errors in the system cause... heavy instability. This system might open up more opportunities for us..."
+			]
+			dependencies: ["0C96DD8966CB02DC"]
+			id: "32B001B02AEEA4A6"
+			tasks: [{
+				id: "7D699DA4D88ADF6E"
+				type: "item"
+				title: "Any Elite Botany Pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:elite_botany_pots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E39BEA3BD54F07B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Choice Vegetables"
+			x: 6.25d
+			y: 2.75d
+			shape: "rsquare"
+			description: ["&2&l[Master Gardener Gray] : &r&2You'll want to be breaking some grass to start with, Bandit. You'll find most of the seeds you'll want for Sushi making this way."]
+			dependencies: ["44B837D49943BAE8"]
+			id: "23B0EBA1252C959A"
+			tasks: [
+				{
+					id: "7CAE3D1630FCBE16"
+					type: "item"
+					item: "sushigocrafting:cucumber_seeds"
+				}
+				{
+					id: "51F60B9E7607F6B6"
+					type: "item"
+					item: "sushigocrafting:soy_seeds"
+				}
+				{
+					id: "43849A3C65DDBDFF"
+					type: "item"
+					item: "sushigocrafting:wasabi_seeds"
+				}
+				{
+					id: "7B3A919D047EB03A"
+					type: "item"
+					item: "sushigocrafting:sesame_seeds"
+				}
+			]
+			rewards: [{
+				id: "28A83AA4361F4208"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Good Greens"
+			x: 6.25d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Ah, some other vegetation you'll need, Bandit. The second most important ingredient : Seaweed, found in deeper waters."
+				""
+				"&3&l[Head Chef Charlie] : &r&3More specifically, Nori. You can grow more seaweed by planting it under deep water. You can then smelt it to get Dried Seaweed, then combine nine into a Dried Seaweed Block."
+				""
+				"&4&l[Barista Bae] : &r&4Ooo, do you slice that into sheets?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Nah, you press them by crushing the block between a Piston and an Iron Block."
+				""
+				"&4&l[Barista Bae] : &r&4Oh, neat!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Also keep an eye out for Avocado trees, Bandit. They are used in multiple rolls. The trees are usually in Plains."
+			]
+			dependencies: ["296A71F314DA3336"]
+			id: "6C9CEB518367AC2C"
+			tasks: [
+				{
+					id: "273B0FEFBB123F11"
+					type: "item"
+					item: "sushigocrafting:avocado_sapling"
+				}
+				{
+					id: "40814C70BF9B1432"
+					type: "item"
+					item: "sushigocrafting:seaweed"
+				}
+				{
+					id: "2964BB8D0E5C7B9E"
+					type: "item"
+					item: "sushigocrafting:dried_seaweed"
+				}
+				{
+					id: "6414240870EE4362"
+					type: "item"
+					item: "sushigocrafting:dried_seaweed_block"
+				}
+				{
+					id: "77DAE28A4CBF53AF"
+					type: "item"
+					item: "sushigocrafting:nori_sheets"
+				}
+			]
+			rewards: [{
+				id: "3CBF0C93E6EAFB07"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Most Important Ingredient"
+			x: 5.0d
+			y: 2.75d
+			shape: "rsquare"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2So the most important ingredient you'll need to find and grow, Bandit, is Rice. You'll find Rice Seeds scattered about if you break enough tall grass."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Good stuff, you'll use it in most sushi dishes."
+				""
+				"&2&l[Master Gardener Gray] : &r&2It grows differently than other crops. You plant it underwater, on Dirt. "
+			]
+			dependencies: ["44B837D49943BAE8"]
+			id: "1A4DCD22DE9469CE"
+			tasks: [
+				{
+					id: "112A3FAC54707CFE"
+					type: "item"
+					item: "sushigocrafting:rice_seeds"
+				}
+				{
+					id: "14EEE3AA38698A11"
+					type: "item"
+					item: "sushigocrafting:rice"
+				}
+			]
+			rewards: [{
+				id: "53CEE18E5F3C8DF8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Good Catch"
+			x: 5.0d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Hm, I had a thought. Does the FOPGame Server have fish farms? Sustainable ponds that you can raise fish in?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Hm, I don't think so, but there's so much stuff with weird names I wouldn't be surprised..."
+				""
+				"&4&l[Barista Bae] : &r&4Oh, what fish DOES the game server have for Sushi? I always like yellow tail..."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Specifically for Sushi, there are Tuna and Shrimp swimming around. As in... not just randomly hooked with a fishing pole."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Though...why does the Itamae book mention bringing a saddle?"
+				""
+				"&4&l[Barista Bae] : &r&4What?"
+				"&3&l[Head Chef Charlie] : &r&3What?"
+			]
+			dependencies: ["44B837D49943BAE8"]
+			id: "296A71F314DA3336"
+			tasks: [
+				{
+					id: "3C406483E69623FA"
+					type: "item"
+					item: "sushigocrafting:raw_tuna"
+				}
+				{
+					id: "3AB92AB03CA1A193"
+					type: "item"
+					item: "sushigocrafting:shrimp"
+				}
+			]
+			rewards: [{
+				id: "0B2DAC7FBDA32DC0"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Chef's Equipment"
+			x: 3.75d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4Ooh, what's that thing there?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3Oh, the Rice Cooker? It's for cooking up the rice for Sushi. Add Water, Rice grains, and something to burn like coal, and it'll cook up the Rice."
+				""
+				"&4&l[Barista Bae] : &r&4No no, that barrel there I mean!"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Ah a Fermentation Barrel. A few of the Sushi ingredients takes a bit of fermenting. Specifically, Soy Sauce from Soybeans, and a certain type of Cheese from Milk."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Oh, Bandit, I noticed Sushi Go Crafting ingredients are... a bit different. They have their own volume, and you can't easily combine two 'stacks' together. The FOPGame Server added a Cooler Box that will automatically combine them."
+			]
+			dependencies: [
+				"44B837D49943BAE8"
+				"6C9CEB518367AC2C"
+			]
+			id: "6FDEC4AA02941656"
+			tasks: [
+				{
+					id: "5F88D9AE4400649D"
+					type: "item"
+					item: "sushigocrafting:rice_cooker"
+				}
+				{
+					id: "63F79CFBDB276D06"
+					type: "item"
+					item: "sushigocrafting:cooked_rice"
+				}
+				{
+					id: "2B484A8FA6083ECF"
+					type: "item"
+					item: "sushigocrafting:fermentation_barrel"
+				}
+				{
+					id: "59D645C191C63379"
+					type: "item"
+					item: "sushigocrafting:soy_sauce"
+				}
+				{
+					id: "31C770CD101701BA"
+					type: "item"
+					item: "sushigocrafting:cheese"
+				}
+				{
+					id: "5570043E420D041A"
+					type: "item"
+					item: "sushigocrafting:cooler_box"
+				}
+			]
+			rewards: [{
+				id: "23D2413371A3CB1D"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Chef's Tools"
+			x: 3.75d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&3&l[Head Chef Charlie] : &r&3Okay Bandit, now that you got a good amount of ingredients grown and gathered, it's time to prep some of them. First you'll want a Cutting Board and a Cleaver Knife."
+				""
+				"&4&l[Barista Bae] : &r&4Ooh a cleaver? That's a pretty big knife."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Good size, nice weight, very sharp. To chop an ingredient, like say Cod into Imitation Crab, Right Click the ingredient onto the Cutting Board, then Right Click the Cleaver Knife onto the Cutting Board until its done. Then you can get your Roller."
+				""
+				"&2&l[Master Gardener Gray] : &r&2Such a simple looking tool."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Yes, but its where the heart of putting together Sushi is done."
+			]
+			dependencies: [
+				"6FDEC4AA02941656"
+				"23B0EBA1252C959A"
+			]
+			id: "65F5B056E34DADE0"
+			tasks: [
+				{
+					id: "661752467DC81463"
+					type: "item"
+					item: "sushigocrafting:cutting_board"
+				}
+				{
+					id: "7C6286DD7A83D4CF"
+					type: "item"
+					item: "sushigocrafting:cleaver_knife"
+				}
+				{
+					id: "2C75E76258CE8C82"
+					type: "item"
+					item: "sushigocrafting:roller"
+				}
+			]
+			rewards: [{
+				id: "6B91031586F6A8D0"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Classic and Simple"
+			x: 5.0d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&2&l[Master Gardener Gray] : &r&2Hm, the Roller works very differently than most things in the FOPGame Server that I remember."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Looks like they are matching it closer to real life for... some reason? It's a bit different, true. So, with the Roller, you can select the type of Sushi on the left, and it'll show you the different ingredients. Blank spots are either optional, or for fish or similar."
+				""
+				"&4&l[Barista Bae] : &r&4What's that little slider next to each spot?"
+				""
+				"&3&l[Head Chef Charlie] : &r&3That determines how 'much' of an ingredient you use. Each type of Sushi has a specific 'perfect' weight for each ingredient. If you find the perfect weight of an ingredient, the Roller will mark it for you."
+			]
+			dependencies: ["65F5B056E34DADE0"]
+			id: "1B73FA3CD138D8ED"
+			tasks: [
+				{
+					id: "2918DB1A7487334E"
+					type: "item"
+					item: "sushigocrafting:onigiri"
+				}
+				{
+					id: "01A741A2481477D4"
+					type: "item"
+					item: "sushigocrafting:salmon_maki"
+				}
+				{
+					id: "4A5B21F2316B6974"
+					type: "item"
+					item: "sushigocrafting:tuna_nigiri"
+				}
+				{
+					id: "64A83CA9D18128EA"
+					type: "item"
+					item: "sushigocrafting:crab_california"
+				}
+			]
+			rewards: [{
+				id: "568D27A5501F33CB"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Classic-ish and Fancy-ish"
+			x: 6.25d
+			y: 5.25d
+			shape: "rsquare"
+			description: [
+				"&4&l[Barista Bae] : &r&4Wow there are a lot of styles  of Sushi."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Very much so, and each one can have lots of different ingredients. The FOPGame Server seems to have a lot of good ones too."
+				""
+				"&2&l[Master Gardener Gray] : &r&2I see a problem though."
+				""
+				"&4&l[Barista Bae] : &r&4Wait, a problem?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2Yep. It's missing the Owner's three favorite types."
+				""
+				"&3&l[Head Chef Charlie] : &r&3Of course, no surprise there. Subtle snub or just lack of care?"
+				""
+				"&4&l[Barista Bae] : &r&4No Inari? No Tamago Nigiri?"
+				""
+				"&2&l[Master Gardener Gray] : &r&2And no Spam Musubi. Yeesh."
+			]
+			dependencies: ["1B73FA3CD138D8ED"]
+			id: "56C306922C9B2A61"
+			tasks: [
+				{
+					id: "67709B2D3C9BE0E8"
+					type: "item"
+					item: "sushigocrafting:salmon_gunkan"
+				}
+				{
+					id: "24D7D9569E433F59"
+					type: "item"
+					item: "sushigocrafting:tobiko_salmon_cheese_california"
+				}
+				{
+					id: "70C71B16647449FD"
+					type: "item"
+					item: "sushigocrafting:tuna_temaki"
+				}
+			]
+			rewards: [{
+				id: "2824A5C914322162"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

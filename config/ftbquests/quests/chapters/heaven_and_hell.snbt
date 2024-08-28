@@ -1,0 +1,1814 @@
+{
+	id: "3BD89FDA96EB215F"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 3
+	filename: "heaven_and_hell"
+	title: "Heaven And Hell"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Back to the Nether"
+			x: -7.25d
+			y: 0.25d
+			shape: "hexagon"
+			description: [
+				"&dOkay you should be a bit better equipped to handle the demons of hell here."
+				""
+				"&5You might need some climbing gear or something... Byte might cover something useful for that amongst the DLC packages."
+				""
+				"&dOr just get really good at parkour and building quick staircases I guess."
+				""
+				"&5I dunno sis, I'd prefer a grappling hook I think. But that's a tangent, sorry Bandit. "
+				""
+				"&dRight. The first thing you'll need to find is some Emberstone Ore. "
+				""
+				"&5Oh, and don't forget to mark where your portal is on the map. M for map, and Right Click your icon."
+			]
+			dependencies: ["59F3969498D4078C"]
+			id: "1881243BF68F0FAC"
+			tasks: [
+				{
+					id: "68F11DBDC5203A88"
+					type: "dimension"
+					title: "Go to The Nether"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "5E9808306C7C79CF"
+					type: "item"
+					item: "aoa3:emberstone_ore"
+				}
+			]
+			rewards: [{
+				id: "11342D094F0BC114"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Different Path to Hell"
+			x: -7.25d
+			y: -0.75d
+			shape: "rsquare"
+			description: [
+				"&dSo, you can make yourself a Nether Realmstone as well if you want to use that fancy Ancient Teleporter instead of an Obsidian one."
+				""
+				"&5It's pretty easy. Just chuck yourself in Lava and then throw the Realmstone out with Q."
+				""
+				"&dWell, easy to say, hard to do. You'll probably want Fire Resist potions or gear. "
+				""
+				"&5Probably both. Or be very quick before you die."
+			]
+			dependencies: ["1881243BF68F0FAC"]
+			id: "4905625BD3C4B3C4"
+			tasks: [{
+				id: "0C33068C54F708D3"
+				type: "item"
+				item: "aoa3:nether_realmstone"
+			}]
+			rewards: [{
+				id: "5A4EC26D95463661"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Explosive Personalities"
+			x: -5.5d
+			y: 0.25d
+			shape: "pentagon"
+			description: [
+				"&dAside from the usual Nether goodies you'll want to find, Bandit, there are two FOP Corporate Bosses that call this magma sea their home, and you'll need some materials to get their attention."
+				""
+				"&5First you'll want to find a Crimson Forest or a Nether Wastes biome. In either one of these, you'll find a Little Bam. Its a very short little red guy, looks kinda happy."
+				""
+				"&dPunch it. Or shoot it. Or something. It's actually dangerous and attacks with explosions, be careful."
+				""
+				"&5The main thing it drops that you want is an Explosive Idol. Be sure to pick it up fast, otherwise you might get the Boss's attention too early."
+				""
+				"&dWhile you are searching, I suggest fighting every hostile creature you see. One of them should drop some Flammable Dust."
+			]
+			dependencies: ["1881243BF68F0FAC"]
+			id: "2EC8B80AE1A271D5"
+			tasks: [
+				{
+					id: "3F9BB469CC952CB2"
+					type: "kill"
+					entity: "aoa3:little_bam"
+					value: 1L
+				}
+				{
+					id: "02FFBCAFFB554E41"
+					type: "item"
+					item: "aoa3:explosive_idol"
+				}
+				{
+					id: "31E0852D6D3ECAF9"
+					type: "item"
+					item: "aoa3:flammable_dust"
+				}
+			]
+			rewards: [{
+				id: "57FE043DE4C905F7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "An Old Enemy"
+			x: -4.25d
+			y: 0.25d
+			shape: "square"
+			description: [
+				"&dOh, Bandit, if you haven't yet, you should probably fight The Wither with some of your newer gear. "
+				""
+				"&5Especially as it'll prepare you for the much more... dangerous fights."
+				""
+				"&dThe FOP Corporate Bosses are no pushover, so fighting The Wither is good practice."
+				""
+				"&5As a refresher: You need four Soul Sand and three Wither Skulls, from Wither Skeletons that 'usually' spawn in Nether Fortresses."
+				""
+				"&dSeems you can find them wandering around more due to the hex land borders being Nether Bricks too."
+			]
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "46082D6F0590EDD4"
+			tasks: [{
+				id: "786239324022D29A"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2DC40071E3BCF9F5"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Boom Boom Boom"
+			x: -5.5d
+			y: -1.75d
+			shape: "pentagon"
+			description: [
+				"&dThat Explosive Idol is used just like the Troll Idol you made to summon Smash."
+				""
+				"&5Just throw it to the ground when ready. But you might want to make sure you got a large arena, with some high walls."
+				""
+				"&dThe Little Bams' explosions will knock you around if you didn't notice already. And the boss, well..."
+				""
+				"&5King BamBamBam used to be a manager that loved to throw 4th of July parties. All the time."
+				""
+				"&dObsessed with fireworks and explosives. And had an... explosive personality when it came to anyone who didn't like explosions."
+				""
+				"&5Was a really bad time if you were, say, a Veteran with some PTSD in his office..."
+			]
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "7628C2ED0041C6FD"
+			tasks: [{
+				id: "491637FC0DE9A093"
+				type: "item"
+				item: "aoa3:explosive_idol"
+			}]
+			rewards: [{
+				id: "72FB27C46A56D4DB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "KING BAMBAMBAM"
+			x: -4.5d
+			y: -2.25d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dRight, as we said, if you want to square off against King BamBamBam, you'll want to make sure the area you summon him is pretty large, relatively flat...."
+				""
+				"&5And has a pretty high wall. Or, hopefully you picked up a grappling hook like I suggested. "
+				""
+				"&dKing BamBamBam is pretty dangerous, not just himself, but he constantly summons Little Bam's to his aid. If you don't have Knockback or Blast Resistant gear, or can't kill them fast enough, they'll be bouncing you around like a Super Ball in a cement mixer."
+				""
+				"&5If you do manage to beat him, he can drop some pretty nice stuff. Including his Explosive Armor, which will absorb bigger explosions the more pieces you are wearing."
+			]
+			dependencies: ["7628C2ED0041C6FD"]
+			id: "0947F0113D4D1E31"
+			tasks: [{
+				id: "4727E597BEBD145F"
+				type: "kill"
+				entity: "aoa3:king_bambambam"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7F9717CC1A2705FF"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "LOVE EXPLOSION"
+			x: -4.5d
+			y: -1.25d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dKing BamBamBam used to be a big Fireworks nut. Well, not just fireworks..."
+				""
+				"&5All kinds of explosions. So, I think to bribe him we'll need a whole pile of explosives."
+				""
+				"&dSo, a bunch of TNT, some grenades, and of course fireworks. "
+				""
+				"&5And to sweeten the deal, of course some Scrypto."
+			]
+			dependencies: ["7628C2ED0041C6FD"]
+			id: "164131343C0A0777"
+			tasks: [
+				{
+					id: "1235B7FED0100F28"
+					type: "item"
+					item: "aoa3:copper_coin"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "706EF9AF324ABB52"
+					type: "item"
+					item: "minecraft:tnt"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "0C817023181FB794"
+					type: "item"
+					item: {
+						id: "aoa3:grenade"
+						Count: 1b
+						tag: {
+							HideFlags: 2b
+						}
+					}
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "759C1A7C2F0D5233"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "7075B887297C1B3B"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "2A14B1A1174E9AB3"
+					type: "item"
+					item: "kubejs:boss_card_king_bambambam"
+				}
+			]
+		}
+		{
+			title: "A Dud"
+			x: -3.5d
+			y: -1.75d
+			shape: "pentagon"
+			description: [
+				"&dGood work Bandit. "
+				""
+				"&5That was pretty intense. Lots of explosives."
+				""
+				"&dNow we just need to make sure the other boss is dealt with before we finally head on into Lelyatia"
+				""
+				"&5You should definitely focus on some of the side stuff we list out here. Improve more of your equipment, maybe unlock some DLC so we can also get the Worm spread more."
+			]
+			dependencies: [
+				"0947F0113D4D1E31"
+				"164131343C0A0777"
+			]
+			dependency_requirement: "one_completed"
+			id: "5CC9ADB8F1C88190"
+			tasks: [{
+				id: "5698B81259C412DD"
+				type: "item"
+				item: "kubejs:boss_card_king_bambambam"
+			}]
+			rewards: [{
+				id: "6E61A21C896CC71A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Beastly Search"
+			x: -5.5d
+			y: 1.25d
+			shape: "pentagon"
+			description: [
+				"&dThat Flammable Dust is going to take a bit of... well, processing before you can use it to get the attention of one of the Nether's FOP Corporate Bosses."
+				""
+				"&5You'll need to search low in the Nether, around Y 25 to 35. What you want looks like a pyramid made of Nether Brick with white lamps. Maybe using a Scanner to look for Nether Bricks would help...check the Shop Tablet, Bandit, we sell more Scanners."
+				""
+				"&dThese are called the Nethengenic Pits. Inside it they've placed a spawner for Nethengenic Beasts. These are Hunter creatures, so..."
+				""
+				"&5But not to feed them the Flammable Dust and turn it into Nethengenic Callstone."
+				""
+				"&dThough, doing scans with your Q.U.E.S.T. Tablet, I'm finding it hard to get the Nethegenic Beast's signature... I should be able to get a one shot summoning egg for you. Check the Shop Tablet."
+			]
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "1EEA73200A84046B"
+			tasks: [
+				{
+					id: "4C885D7D42E74BAA"
+					type: "item"
+					item: "aoa3:flammable_dust"
+				}
+				{
+					id: "20740729FBC627C0"
+					type: "item"
+					item: "aoa3:nethengeic_callstone"
+				}
+			]
+			rewards: [{
+				id: "74B792A9B4FCFEC1"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Flight of the Demon"
+			x: -5.5d
+			y: 2.25d
+			shape: "pentagon"
+			description: [
+				"&dNow that you have the Nethengeic Callstone, you can get the attention of the Nethengeic Wither."
+				""
+				"&5This boss is an interesting one. They love flying, even for a bird. They took every opportunity to attend work conventions, visit remote offices, anything and everything to fly via aircraft, spaceship, or whatever else."
+				""
+				"&dTried to run the office with an iron fist on top of that, not caring what time zone the travels took them, so would call any hour of the night and order all sorts of projects, changes to projects, tps reports, overtime, etc etc."
+				""
+				"&5Can guess how fast they churned through staff. But it seems FOP Corporate was happy enough that they let them become the Nethergeic Wither boss."
+			]
+			dependencies: ["1EEA73200A84046B"]
+			id: "4C0BA5EEB2D425DC"
+			tasks: [{
+				id: "4B1E5616BB27CE2B"
+				type: "item"
+				item: "aoa3:nethengeic_callstone"
+			}]
+			rewards: [{
+				id: "5B02472631747A88"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.25d
+			shape: "square"
+			description: ["&5The Nether has a bunch of extra creatures in it courtesy of The FOP. They can be pretty tough, a few of them are Hunter mobs too so be sure to be leveling your Hunter skill as well"]
+			dependencies: ["1EEA73200A84046B"]
+			dependency_requirement: "all_started"
+			id: "3D9169CE6A156097"
+			tasks: [{
+				id: "119847356CDBB53E"
+				type: "checkmark"
+				title: "Fighting Demons"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.75d
+			shape: "square"
+			dependencies: ["7628C2ED0041C6FD"]
+			id: "27F8BAD21BDD8A7F"
+			tasks: [{
+				id: "1AE8FD21BBF8CF3E"
+				type: "checkmark"
+				title: "Heated Crafting"
+			}]
+		}
+		{
+			title: "Embrakes and Flamewalkers"
+			x: -5.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: [
+				"&5The Embrake is a creature that you can find in Nether Waste and Crimson Forest type biomes in The Nether. "
+				""
+				"&5It's attacks are dangerous, both setting you and the ground on fire if you are standing on it and not, say, jumping or flying."
+				""
+				"&5Embrakes drop Sharp Claws, good for various crafts."
+				""
+				"&5The Flamewalker can be found in Nether Wastes and Crimson Forest type biomes. "
+				""
+				"&5While fighting you, the Flamewalker will leave a trail of fire wherever it walks. Be careful, this fire can burn items that drop!"
+			]
+			dependencies: ["3D9169CE6A156097"]
+			id: "502A77100888F377"
+			tasks: [
+				{
+					id: "227E3BB5A2474CE2"
+					type: "kill"
+					entity: "aoa3:embrake"
+					value: 5L
+				}
+				{
+					id: "3AF2CC28F0C1BD98"
+					type: "item"
+					item: "aoa3:sharp_claw"
+				}
+				{
+					id: "6DE4244A330CA910"
+					type: "kill"
+					entity: "aoa3:flamewalker"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "6662D1B07B93A172"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Burn and Wither"
+			x: -4.5d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dFighting the Nethengeic Wither takes a bit of preparation."
+				""
+				"&5We suggest whatever healing potions, cure potions, and whatnot you can find. Oh, and anything that aids your jumping, that'll help."
+				""
+				"&dThe Nethengeic Wither flies, Bandit. They'll float and fly around you, launching explosive shots that inflict Wither on you."
+				""
+				"&5So either weather the hits out if you can't dodge them, or get some potions going to dampen them."
+				""
+				"&dIf you are ready, Bandit, the same deal here : Take that Nethergeic Core and throw it to the ground, and wait to attract their attention!"
+			]
+			dependencies: ["4C0BA5EEB2D425DC"]
+			id: "2A0AE4C5FF47FED5"
+			tasks: [{
+				id: "51D417643B263182"
+				type: "kill"
+				entity: "aoa3:nethengeic_wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7A9B63F957ED3FAA"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Airfare Fare"
+			x: -4.5d
+			y: 2.75d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dThe best way to the Nethengeic Wither's heart is, of course, airline related. Or, more specifically, via their airline accustomed stomach."
+				""
+				"&5Airline food always has this.... certain feel and air about it. Even if you are first class, most of it just feels slightly off. Or maybe thats just us."
+				""
+				"&dWell, I think to convince them to step aside is to bring them various airline meals. They can't really fly on airplanes anymore, so bringing back fond memories, as well as reminding them of being a bird with some Feathers. You'll have to get the Cooking Grandma DLC though..."
+				""
+				"&5And airline food from ALL classes. They didn't care where they sat, so they had the full gambit from 1st class gourmet to coach bag o' peanuts."
+			]
+			dependencies: ["4C0BA5EEB2D425DC"]
+			id: "72B95E518B81705B"
+			tasks: [
+				{
+					id: "033FA77DDEB1A9AB"
+					type: "item"
+					item: "minecraft:feather"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "1A85BF49320AAE78"
+					type: "item"
+					item: "pamhc2crops:peanutitem"
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "1E78D56AB120100C"
+					type: "item"
+					item: "pamhc2foodextended:orangesodaitem"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "32F088C3F11D3167"
+					type: "item"
+					item: "pamhc2foodcore:basicchickensandwichitem"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "0EEF486964C6C4BF"
+					type: "item"
+					item: "rats:cheese"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "521C5B8B8D3DD443"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "641B8D0C327E3818"
+					type: "item"
+					item: "pamhc2crops:hotcoffeeitem"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "52F0E94887AB5F56"
+					type: "item"
+					item: "pamhc2foodextended:chickendinneritem"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "5406FA93555D8702"
+					type: "item"
+					item: "aoa3:silver_coin"
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "584175A37B05312D"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "4BFB6C20509188D7"
+					type: "item"
+					item: "kubejs:boss_card_nethengeic_wither"
+				}
+			]
+		}
+		{
+			title: "Wings Clipped"
+			x: -3.5d
+			y: 2.25d
+			shape: "pentagon"
+			description: [
+				"&dFantastic, Bandit. You've grounded this boss for the time being."
+				""
+				"&5I know you are trying to get out as soon as possible, Bandit, but keep in mind there are dozens of worlds to go, so its going to take a while. Rushing now might get overwhelming quickly."
+				""
+				"&dTake a breather. Work on a different project. Maybe start building up a Colony? Or focus on some DLC for a bit, maybe cooking."
+				""
+				"&5Whichever you feel like doing, once both bosses are down, we can head into the next world: Lelyatia."
+			]
+			dependencies: [
+				"2A0AE4C5FF47FED5"
+				"72B95E518B81705B"
+			]
+			dependency_requirement: "one_completed"
+			id: "11A9E4CFC161611E"
+			tasks: [{
+				id: "5EECD8FC24C0C3B0"
+				type: "item"
+				item: "kubejs:boss_card_nethengeic_wither"
+			}]
+			rewards: [{
+				id: "06CC2A74CB72E34E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "To the Twinside Forest"
+			x: -2.75d
+			y: 0.25d
+			shape: "hexagon"
+			description: [
+				"&dOkay Bandit, before you head in (if you haven't already that is!), you'll want to be prepared with a few things."
+				""
+				"&5That grappling hook I mentioned earlier would be a good start."
+				""
+				"&dBro."
+				""
+				"&5Sorry sorry. Grappling hooks are super useful, okay? Well, some Jump Boost potions, or feather fall, or a parachute or something. Something to negate fall damage until you can find certain helpful tools."
+				""
+				"&dEither way, as always when jumping to another world, only bring what you need. Just in case."
+			]
+			dependencies: [
+				"5CC9ADB8F1C88190"
+				"11A9E4CFC161611E"
+			]
+			id: "1799D40CDE8D8F82"
+			tasks: [{
+				id: "38CD7F13EAEB9F56"
+				type: "dimension"
+				dimension: "aoa3:lelyetia"
+			}]
+			rewards: [{
+				id: "669278B6EBCFFB14"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Infernals and Little Bams"
+			x: -4.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: [
+				"&5Infernals are rare creatures that can spawn in Crimson Forests and Nether Wastes type biomes."
+				""
+				"&5If you are hit by an Infernal, you will be knocked back far if you don't have any protection. If you hit an Infernal with a melee attack, you will be set on fire, so be careful."
+				""
+				"&5Little Bams you have already encountered. But all the same, fighting more of them is a good idea."
+			]
+			dependencies: ["3D9169CE6A156097"]
+			id: "75F78B4B9E761185"
+			tasks: [
+				{
+					id: "707AE1486B396C6A"
+					type: "kill"
+					entity: "aoa3:infernal"
+					value: 5L
+				}
+				{
+					id: "292E8829DD943FE9"
+					type: "kill"
+					entity: "aoa3:little_bam"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "032BF6E948864013"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Nethengeic Beasts"
+			x: -6.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: [
+				"&5As mentioned, Nethengeic Beasts spawn in Nethengeic Pits. A pretty rare building the FOP Added to the Nether at some point, but forgot to update it with all the changes they've done. So you can also find these in the Shop Tablet for sale if you really need them."
+				""
+				"&5Nethengeic Beasts have a rare chance of dropping Nethengeic Armor pieces. Each piece worn lets you deal extra damage to mobs on fire. When a full set is worn, when YOU are on fire, you deal extra damage. And the two damage boosts WILL stack."
+				""
+				"&5Scrubby's are creatures that can be found in the Crimson Forest and Nether Wastes type biomes. "
+				""
+				"&5If you are hit by a Scrubby, you will be set on fire."
+			]
+			dependencies: ["3D9169CE6A156097"]
+			id: "157525C0DD5C9FA5"
+			tasks: [
+				{
+					id: "3DC93B1776AF146A"
+					type: "kill"
+					entity: "aoa3:nethengeic_beast"
+					value: 5L
+				}
+				{
+					id: "76C6B39B7C2C6577"
+					type: "kill"
+					entity: "aoa3:scrubby"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "10C4E736EA661114"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Skeletal Cowman"
+			x: -7.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: [
+				"&5Skeletal Cowmen are dangerous creatures that can be found in Crimson Forest, Nether Wastes, and Soul Sand Valley type biomes."
+				""
+				"&5They are very dangerous ranged creatures, firing a crossbow faster and faster the closer you get. Engage from range if possible."
+				""
+				"&5Skeletal Cowmen can rarely drop their Pyro Crossbow, which uses Arrows as ammunition. The arrows it fires can set creatures on fire."
+			]
+			dependencies: ["3D9169CE6A156097"]
+			id: "4405802530A961DE"
+			tasks: [{
+				id: "3DD8A633BDAD96E6"
+				type: "kill"
+				entity: "aoa3:skeletal_cowman"
+				value: 5L
+			}]
+			rewards: [{
+				id: "719D4ACA978A391A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Nether Upgrade Kit is a very rare drop that can be found on any Nether Advent of Ascension mob. "
+				""
+				"&dYou won't have a use for them for a while, but they are used later on to upgrade older AoA weapons to higher tier versions. "
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "4B2756DABC97E4C6"
+			tasks: [{
+				id: "4CC4C21A3F94DF6B"
+				type: "item"
+				item: "aoa3:nether_upgrade_kit"
+			}]
+			rewards: [{
+				id: "3F4B4417C63DCBAD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Magical Repair Dust"
+			x: -4.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dWith the power of the Emberstone metal you can find in The Nether, and a bit of luck in finding something called Magic Repair Dust, you can make a Mending Table that can repair most any piece of gear."
+				""
+				"&dThe Magic Repair Dust is needed for each repair, as well as for making the table. You can find it in Treasure Boxes, from various monsters in every dimension, in loot chests all over, and many other places."
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "26943BB19E61CF27"
+			tasks: [
+				{
+					id: "1ECC1E23D6660386"
+					type: "item"
+					item: "aoa3:mending_table"
+				}
+				{
+					id: "527A13163C4F8937"
+					type: "item"
+					item: "aoa3:magic_repair_dust"
+				}
+			]
+			rewards: [{
+				id: "234C595D82E73B2C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Magic Repair Putty"
+			x: -3.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dIf you want to maximize the use of Magic Repair Dust, you'll want to turn it into Magic Mending Compound."
+				""
+				"&dYou'll need to make a Metal Tub, and get three Magic Repair Dust. Also, a Bucket of Lava. Yes, this is kind of like making craft putty at home, except with magic dust and lava instead of salt, flour, and water."
+				""
+				"&dAnyways, combine the items, and you'll get the Empty Bucket back, but also a Tub of Magic Mending Solution."
+				""
+				"&dNow just leave that Tub in your inventory for a while, and it'll turn the Solution into a Compound! This will fully repair most items with the Mending Station."
+			]
+			dependencies: ["26943BB19E61CF27"]
+			id: "62B48188693E8FF5"
+			tasks: [
+				{
+					id: "6B269DE4268F4E03"
+					type: "item"
+					item: "aoa3:metal_tub"
+				}
+				{
+					id: "21E5C8FECC268260"
+					type: "item"
+					item: "aoa3:magic_mending_solution"
+				}
+				{
+					id: "24213E36E7EC27C7"
+					type: "item"
+					item: "aoa3:magic_mending_compound"
+				}
+			]
+			rewards: [{
+				id: "1637495099117BD3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Fire Fighting Staff"
+			x: -6.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Ember Staff isn't a weapon, but more of a tool, a fairly useful one in the Nether."
+				""
+				"&dIt requires Wind, Fire, and Kinetic Runes to cast. When used, the Ember Staff will put out fires around you, including the fires on you and your minions."
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "13F372A316D67ABA"
+			tasks: [{
+				id: "1865C29CE380F604"
+				type: "item"
+				item: {
+					id: "aoa3:ember_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "047926AB16981B3C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Rune of Fire"
+			x: -7.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Fire Rune is another good rune to make."
+				""
+				"&dThe simplest thing you can do with a Fire Rune is make it into a Fire Staff. It uses Fire and Wind runes as ammo, and will fire out a flaming projectile."
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "6A45494E0B112308"
+			tasks: [
+				{
+					id: "68B0BC0C92AD6D4E"
+					type: "item"
+					item: "aoa3:fire_rune"
+				}
+				{
+					id: "41927F8C645C5EDC"
+					type: "item"
+					item: {
+						id: "aoa3:fire_staff"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "46720F96F13D404F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Emberstone Gear"
+			x: -6.5d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dEmberstone metal makes some pretty interesting gear. They all do something fire related : "
+				""
+				"&dThe Emberstonne Pickaxe and Shovel automatically smelt blocks they breaks, for example. The Emberstone Axe, though, destroys Logs instead of breaking them, turning them into XP instead."
+				""
+				"&dThe Emberstone Sword, though, is just a neat looking sword."
+				""
+				"&dAs for the Infernal armor set, each piece reduces the damage you take from Fire, including Lava! And if you wear the full set, you'll be immune to fire damage!"
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "341E8BC988FE57D3"
+			tasks: [
+				{
+					id: "295C142B8C4F1875"
+					type: "item"
+					item: {
+						id: "aoa3:emberstone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07B23AE326E9ED0D"
+					type: "item"
+					item: {
+						id: "aoa3:infernal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4B1576EA051C81D1"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Flame Sword"
+			x: -5.5d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Fireborne Sword is a special sword you can make with the Flammable Dust."
+				""
+				"&dWhen you hit a creature with it, you will set them on fire."
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "5A04F0E50CF5F17F"
+			tasks: [{
+				id: "77F0C183D71F09FA"
+				type: "item"
+				item: {
+					id: "aoa3:fireborne_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60B3745CD09CE8C8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Burning Gun"
+			x: -4.5d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Hot Shot is a fiery gun you can craft at an Infusion table. "
+				""
+				"&dUsing Metal Slugs as ammo, the Hot Shot will ignite not only the enemy you shoot, but any other hostile creature close to it."
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "59D6A7EF6A2A5123"
+			tasks: [
+				{
+					id: "1F2BA5B246BE160F"
+					type: "item"
+					item: {
+						id: "aoa3:hot_shot"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "11AF5DC4E109CCB2"
+					type: "item"
+					item: "aoa3:metal_slug"
+				}
+			]
+			rewards: [{
+				id: "36C88FE3865DFEAD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Burning Armor"
+			x: -3.5d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dLyndamyte Armor is a set of armor that is really good outside of the Nether, and only so so inside of it."
+				""
+				"&dAnd that's because wearing a piece has a chance of setting any creature that hits you on fire. And when you wear the full set, every hit you do ignites the target on fire. Even your fists!"
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "731864D511892F56"
+			tasks: [{
+				id: "5274C8F1E84DE605"
+				type: "item"
+				item: {
+					id: "aoa3:lyndamyte_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "24D05ED99D59BD14"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Those Shouldn't Burn Like That"
+			x: -7.5d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Wart Gun is... interesting."
+				""
+				"&dIt doesn't use Metal Slugs or similar, it actually uses Nether Wart. So you can grow your ammunition."
+				""
+				"&dIt will also set fire to enemies you shoot."
+			]
+			dependencies: ["27F8BAD21BDD8A7F"]
+			id: "1AA95F28498D1C57"
+			tasks: [
+				{
+					id: "590F16B5A7F2DCAB"
+					type: "item"
+					item: {
+						id: "aoa3:wart_gun"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "2620B8FE8B02385F"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+			]
+			rewards: [{
+				id: "1AEF77A9FC59D468"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Upside Down"
+			x: -0.75d
+			y: 0.25d
+			shape: "pentagon"
+			subtitle: "And Rightside Up"
+			description: [
+				"&dWatch your step Bandit! Lelyetia is very different than what you are used to, I would hazard a guess."
+				""
+				"&5Each of the worlds the FOP digitizes into their FOP Game Server usually just replace older worlds that have few resources left."
+				""
+				"&dThey aim to replace worlds with similar characteristics, so their 'regular' users aren't confused. Worlds like Lelyetia are what they call \"Twosided\". Instead of a deep ground with caves, these worlds have a Top Side and an Under Side, floating endless islands surrounding an empty Void as the core of the planet."
+				""
+				"&5Be careful where you step. But if you do fall into the void, you have a good chance of reappearing in the sky. The FOP gives you some fall protection, but... don't rely on it."
+				""
+				"&dFor other weird things? Grab some of that grass... or should I say Stone?"
+			]
+			dependencies: ["1799D40CDE8D8F82"]
+			id: "72FAD25A9DA18C65"
+			tasks: [{
+				id: "7E27744A43339606"
+				type: "item"
+				item: "aoa3:lelyetian_stone"
+			}]
+			rewards: [{
+				id: "44C2A80D872E7A10"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sporetacular"
+			x: 1.25d
+			y: 0.25d
+			shape: "pentagon"
+			description: [
+				"&dSee what I mean? That grass grows on Leyletian Stone, which is...very much like Dirt. But also Stone?"
+				""
+				"&5Be sure to mark the portal on the Map, then head out and explore. The Top Side will be safer to search."
+				""
+				"&dBut you WILL need to go to the Under Side at some point. You'll need a good way to get around the upside down trees and landscape."
+				""
+				"&5Grappling hooks."
+				""
+				"&dAs there are a lot of structures the current Leyletians have built. We'll get to those in a minute, but you are looking for two things on the Top Side : "
+				""
+				"&5A thin, tall pillar with a Graw Altar on top. Mark its location for later."
+				""
+				"&dAnd you want to loot all chests and fight all hostile creatures along the way. You need to find Yellow and/or Orange Spores."
+			]
+			dependencies: ["72FAD25A9DA18C65"]
+			id: "391277708CA4B52A"
+			tasks: [
+				{
+					id: "0791F76299B15935"
+					type: "item"
+					item: "aoa3:yellow_spores"
+				}
+				{
+					id: "7C26B3F2E76C1A81"
+					type: "item"
+					item: "aoa3:orange_spores"
+				}
+			]
+			rewards: [{
+				id: "320D9662FCFBE099"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "An Eye For An...."
+			x: 3.25d
+			y: 0.25d
+			shape: "pentagon"
+			description: [
+				"&dOkay, you got the spores. Good work! Hopefully you found one of those towers with a Graw Altar on it. "
+				""
+				"&5What you need to do is climb up to that Graw Altar, and Right Click one of those Spores onto it. This will cause a glowing Flye to spawn."
+				""
+				"&dDefeat that Flye to get a Guardian's Eye. This is what you'll need to attract the attention of Graw, the next FOP Corporate Boss."
+				""
+				"&5Graw used to be in charge of some of the FOP's land acquisition and development outside of their digital world. They pulled every dirty trick in the book to acquire land and expand the FOP's physical land holdings."
+				""
+				"&dThey did so well they were given sole command of the Leyletia world, becoming the Forest Guardian."
+			]
+			dependencies: ["391277708CA4B52A"]
+			id: "4D05DB966C33B676"
+			tasks: [{
+				id: "10520EB05BDAEA6F"
+				type: "item"
+				item: "aoa3:guardians_eye"
+			}]
+			rewards: [{
+				id: "32B3A65CAA91FA2D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 1.25d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["391277708CA4B52A"]
+			dependency_requirement: "one_started"
+			id: "70140CFE114C11D1"
+			tasks: [{
+				id: "39D0E4B0203308ED"
+				type: "checkmark"
+				title: "Forest Crafting"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["391277708CA4B52A"]
+			dependency_requirement: "one_started"
+			id: "07FC4FA004F497CD"
+			tasks: [{
+				id: "25A96FCD1C8B3426"
+				type: "checkmark"
+				title: "Forest Fighting"
+			}]
+		}
+		{
+			title: "Exohead"
+			x: -0.75d
+			y: 2.25d
+			shape: "rsquare"
+			description: [
+				"&5Exoheads are dangerous creatures that only spawn in the top half of Boney Dungeons. Boney Dungeons are bone shaped structures that stick out both Top Side and Bottom Side."
+				""
+				"&5Exoheads inflict Hunger if they are able to hit you. "
+			]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "6AD346ADB82AA104"
+			tasks: [{
+				id: "1188CC0B8C87D091"
+				type: "kill"
+				entity: "aoa3:exohead"
+				value: 5L
+			}]
+			rewards: [{
+				id: "7CF0D0D5F8F2F366"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Flye and Tracker"
+			x: 2.25d
+			y: 3.25d
+			shape: "rsquare"
+			description: [
+				"&5Flyes are common creatures that spawn all over Leyletia. "
+				""
+				"&5Flyes, well, fly. This can make them tough to fight sometimes."
+				""
+				"&5Flyes can drop Chitin, useful for crafting."
+				""
+				"&5Trackers spawn anywhere on the surface of Leyletia. "
+				""
+				"&5Trackers are usually found in groups, making them tough to fight. They cannot turn quickly, so moving around is quite helpful."
+			]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "1E902D50C15E8841"
+			tasks: [
+				{
+					id: "3DA2DB1BE22D398A"
+					type: "kill"
+					entity: "aoa3:flye"
+					value: 5L
+				}
+				{
+					id: "1A768DF25E1F2D9B"
+					type: "kill"
+					entity: "aoa3:tracker"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "53A9BCC1491C9F0A"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Grobbler"
+			x: 1.25d
+			y: 3.25d
+			shape: "rsquare"
+			description: ["&5Grobblers are fairly rare creatures that spawn anywhere in Leyletia. "]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "721F84BC80F0E08C"
+			tasks: [{
+				id: "339381AB37382ECB"
+				type: "kill"
+				entity: "aoa3:grobbler"
+				value: 3L
+			}]
+			rewards: [{
+				id: "0860BB83F9570AE5"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Lelyetian Caster and Lelyetian Warrior"
+			x: 0.25d
+			y: 3.25d
+			shape: "rsquare"
+			description: [
+				"&5Lelyetian Casters are hostile humanoids can spawn anywhere on Lelyetia. "
+				""
+				"&5Lelyetia Casters will get close and fire yellow projectiles rapidly at you. These projectiles will not only do damage, but also drain your AoA Energy."
+				""
+				"&5Lelyetian Warriors spawn anywhere on the surface of Lelyetia."
+				""
+				"&5They can appear in groups of four."
+			]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "38551F9C9842EEC2"
+			tasks: [{
+				id: "27AF4F31715AE18D"
+				type: "kill"
+				entity: "aoa3:lelyetian_caster"
+				value: 5L
+			}]
+			rewards: [{
+				id: "560141BEC2CAD7A4"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Paravite"
+			x: 3.25d
+			y: 3.25d
+			shape: "rsquare"
+			description: ["&5Paravites only spawn in Paravite Hives. Paravite Hives are structures that spawn on the Under Side."]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "6FCF3A0B0D977967"
+			tasks: [{
+				id: "7717E1D9FB0B8E7D"
+				type: "kill"
+				entity: "aoa3:paravite"
+				value: 5L
+			}]
+		}
+		{
+			title: "Rawbone"
+			x: -0.75d
+			y: 3.25d
+			shape: "rsquare"
+			description: [
+				"&5Rawbones are dangerous creatures that only spawn in the Under Side part of Boney Dungeons. Boney Dungeons are bone shaped structures that connect both Top Side and Under Side."
+				""
+				"&5Rawhides cause Hunger when they hit you with a melee attack."
+			]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "4BE0321D1A79E31E"
+			tasks: [{
+				id: "6903F662CBC8D3DA"
+				type: "kill"
+				entity: "aoa3:rawbone"
+				value: 5L
+			}]
+			rewards: [{
+				id: "30603CD7F5B2286D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Zhinx"
+			x: 3.25d
+			y: 2.25d
+			shape: "rsquare"
+			description: [
+				"&5Zhinx are dangerous creatures that only spawn in Zhinx Enclaves. Zhinx Enclaves are structures that only spawn on the Under Side."
+				""
+				"&5Zhinx can drop Zhinx Dust, which is used to make a special weapon. They can also drop a rare weapon called a Power Ray."
+			]
+			dependencies: ["07FC4FA004F497CD"]
+			id: "6B7E170787362D79"
+			tasks: [{
+				id: "0D1721F796A2098D"
+				type: "kill"
+				entity: "aoa3:zhinx"
+				value: 5L
+			}]
+			rewards: [{
+				id: "05417374BE7C18CF"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Zippity Zap"
+			x: 1.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Power Ray is a rare weapon drop from Zhinx, located in Zhinx Enclaves on the Under Side of Lelyetia."
+				""
+				"&dThe Power Ray uses AoA Spirit as its ammunition. Shots from the Power Ray will weaken enemies it hits."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "1F97C49BAD78BAF3"
+			tasks: [{
+				id: "39F101A3D5D010BD"
+				type: "item"
+				item: {
+					id: "aoa3:power_ray"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2b
+					}
+				}
+			}]
+			rewards: [{
+				id: "325AFC4D9CA321F7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Take Aim"
+			x: 2.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Decimator is a sniper rifle made with Zhinx Dust, which can be obtained from Zhinx's that spawn in the Zhinc Enclaves in the Under Side."
+				""
+				"&dThe Decimator uses Metal Slugs for ammo. You can zoom in with the scope by holding Sneak."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "7C3EC303E343D3EB"
+			tasks: [
+				{
+					id: "161B88EFB2CE119C"
+					type: "item"
+					item: {
+						id: "aoa3:decimator"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "12735D58FCC36EB2"
+					type: "item"
+					item: "aoa3:metal_slug"
+				}
+			]
+			rewards: [{
+				id: "1E21E7CE213B67A6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Punch Through!"
+			x: 0.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Gauge Rifle is a gun that can be purchased from Lelyetian Traders, found in Lelyetian Tower structures on the Top Side."
+				""
+				"&dThe Gauge Rifle uses Metal Slugs for ammo, and its shots can pierce through up to two creatures."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "6B6D6C7C538FCDB8"
+			tasks: [
+				{
+					id: "3BE46E270FCB9CD1"
+					type: "item"
+					item: {
+						id: "aoa3:gauge_rifle"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "786507DB99D85CEB"
+					type: "item"
+					item: "aoa3:metal_slug"
+				}
+			]
+			rewards: [{
+				id: "381DD2389928627A"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "THE GRAW"
+			x: 4.25d
+			y: -0.25d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dThe Graw is a tough boss to face. You'll want to make sure you have some way to negate fall damage, or get around quickly, and a lot of heals. When you are ready, you Right Click the Guardian's Eye onto the Graw's Altar."
+				""
+				"&5The Graw will pull you with gravity towards it as it fires projectiles at you. You can negate this pull by Sneaking."
+				""
+				"&dWhen defeated, the Graw can drop the Skydriver Bow, which shoots Arrows that leave an acid trail under them. It can also drop the Monster, a decent sniper rifle."
+			]
+			dependencies: ["4D05DB966C33B676"]
+			id: "51FBCE181A236002"
+			tasks: [
+				{
+					id: "1A0A6B32DE580E31"
+					type: "kill"
+					entity: "aoa3:graw"
+					value: 1L
+				}
+				{
+					id: "08A9A9E4491472E6"
+					type: "item"
+					item: "kubejs:boss_card_graw"
+				}
+			]
+			rewards: [{
+				id: "61C115029E8785E7"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Lands o Plenty"
+			x: 4.25d
+			y: 0.75d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dWell, if you want to bribe the Graw into standing down, you'll have to convince them with the thing they know best : new lands."
+				""
+				"&5Or at least, a way to build their own land, a slice of home since when they chose to be digitized into a FOP Server Boss, there is no leaving."
+				""
+				"&dSo, a lot of Logs, Dirt, and Logs. Then some Ores to put under ground to enrich it, along with Lava keep it all going."
+				""
+				"&5And then don't forget Water to bring life to the Land, and some Fish to inhabit the Waters."
+			]
+			dependencies: ["4D05DB966C33B676"]
+			id: "1A68F27E4517BF23"
+			tasks: [
+				{
+					id: "734940966679373A"
+					type: "item"
+					title: "Any 500 Logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "47F55A44EBB05476"
+					type: "item"
+					title: "Any 500 Dirt"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dirt"
+						}
+					}
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "4FDC9DE55BC4AE65"
+					type: "item"
+					title: "Any 500 Cobblestone"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "0A1D86E814A7221D"
+					type: "item"
+					item: "minecraft:water_bucket"
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "227936EE87FE9AFC"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "5916D65C9BC8AD2B"
+					type: "item"
+					title: "Any 50 Ores"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores"
+						}
+					}
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "3EFAE7DABF645261"
+					type: "item"
+					title: "Any 30 Fish"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:fish"
+						}
+					}
+					count: 30L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4B5DE000AD9D27E0"
+					type: "item"
+					item: "kubejs:boss_card_graw"
+				}
+				{
+					id: "689E2E7E5AA72F01"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+			]
+		}
+		{
+			title: "Guardian Down"
+			x: 5.25d
+			y: 0.25d
+			shape: "pentagon"
+			description: [
+				"&dFantastic work, Bandit. "
+				""
+				"&5Other than exploring and wrapping up some crafting loose ends, you should be about ready to head to the next dimension."
+				""
+				"&dGive me a bit to find out how to access the next realms. There's still a few more worlds on this first Tier, so I'd make sure you got some good armor and weapons and are ready for whatever is next."
+				""
+				"&5Also, keep up with hacking or unlocking DLC with the help of Byte, yeah? "
+			]
+			dependencies: [
+				"51FBCE181A236002"
+				"1A68F27E4517BF23"
+			]
+			dependency_requirement: "one_completed"
+			id: "0332B6DA83347AEB"
+			tasks: [{
+				id: "60E2C1F2A5DAF28E"
+				type: "item"
+				item: "kubejs:boss_card_graw"
+			}]
+			rewards: [{
+				id: "517A58AD1B85A1C2"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Arrow, Knee, Joke"
+			x: 3.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Weaken Bow can be made with Yellow Spores. "
+				""
+				"&dIt uses Arrows as ammunition, and will weaken enemies it hits."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "36B86835B3868BB7"
+			tasks: [{
+				id: "211407D0D850422B"
+				type: "item"
+				item: {
+					id: "aoa3:weaken_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "101E9E8A2354FC30"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Solid Rifle"
+			x: -0.75d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Core Rifle can be made with Yellow Spores and Lelyetian Leaves from Lelyetia, as well as a Power Core from certain monsters in the Overworld."
+				""
+				"&dThe Core Rifle is a basic gun that uses Limonite Bullets as ammunition."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "5E426379F71796D7"
+			tasks: [
+				{
+					id: "233B0C117DDBDB76"
+					type: "item"
+					item: {
+						id: "aoa3:core_rifle"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "409368F593587DD9"
+					type: "item"
+					item: "aoa3:limonite_bullet"
+				}
+			]
+			rewards: [{
+				id: "1C754D31405639E5"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Spore Armor"
+			x: 1.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dSpores can be used to make the Weaken Armor set. "
+				""
+				"&dEach piece of the Weaken Armor set you wear, the higher chance of weakening enemies that land hits on you. The full set will increase the level of Weaken you inflict on attackers."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "70C2A6B274238476"
+			tasks: [{
+				id: "6480966164AFFC88"
+				type: "item"
+				item: {
+					id: "aoa3:weaken_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02EC8BA1CE8DD16B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Heavy Blade of the Forest"
+			x: 2.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dWith Orange Spores from any creature in Lelyetia, you can fashion a Lelyetian Greatblade."
+				""
+				"&dThe Lelyetian Greatblade is a greatblade that can do extra damage against Flying creatures."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "6D4ECD8F4B33AF24"
+			tasks: [{
+				id: "304008F23AC7EE79"
+				type: "item"
+				item: {
+					id: "aoa3:lelyetian_greatblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1019AA21315C7F9C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 0.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Lelyetian Upgrade Kit isn't very useful at the moment, but I suggest saving every one  you get."
+				""
+				"&dIn later worlds, you'll be able to use the Lelyetian Upgrade Kit to upgrade certain lower tier gear."
+			]
+			dependencies: ["70140CFE114C11D1"]
+			id: "77761C3A93EA70CC"
+			tasks: [{
+				id: "6577F246310D8DCB"
+				type: "item"
+				item: "aoa3:lelyetian_upgrade_kit"
+			}]
+			rewards: [{
+				id: "13D788EF7AED4240"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Quiet Place"
+			x: -7.25d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&5Want to see something cool, Bandit? Something the FOP left in from earlier iterations of the FOP Game Server."
+				""
+				"&dAs a player, even a Power User, you can't really do much in this room. Can't break or place things. But you CAN cook a bit of food, and listen to music."
+				""
+				"&5The place is called Nowhere, and it's a leftover Administrator world. Admins could hang out there between helping out players."
+				""
+				"&dYou know, before they digitized themselves and let the game control everything it could."
+			]
+			dependencies: ["1881243BF68F0FAC"]
+			id: "0E520C1ADD9E71DF"
+			tasks: [{
+				id: "2D73E3E6626A29FA"
+				type: "item"
+				item: "aoa3:nowhere_realmstone"
+			}]
+			rewards: [{
+				id: "1A07AF4169199F48"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

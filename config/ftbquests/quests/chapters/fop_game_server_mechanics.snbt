@@ -1,0 +1,1079 @@
+{
+	id: "72560CE1E5BE5084"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 0
+	filename: "fop_game_server_mechanics"
+	title: "FOP Game Server Mechanics"
+	subtitle: [
+		"MODS : Advent of Ascension, ProjectMMO"
+		"MODS : Curios, Waystones (teleporting)"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -2.5d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "tfb2:textures/menu/aoa_menu.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "tfb2:textures/menu/pmmo_menu.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 5.5d
+			y: -5.5d
+			shape: "pentagon"
+			subtitle: "Level Up!"
+			description: [
+				"&dDang, it's been quite a while since we've looked into the FOP Game Servers..."
+				""
+				"&5Looks like they piled on even more things to keep you working..."
+				""
+				"&dOkay, looks like two major systems control most things. Advent of Ascension, the FOP Game Server main system, and then Project MMO, which looks like they added more recently."
+				""
+				"&5We'll try to explain everything as we work it out ourselves, Bandit. A lot of the deeper systems are locked up between the two."
+				""
+				"&dWe'll change what we can to make it easier, but every time we do something overtly, the security system steps in and stops future attempts."
+				""
+				"&5We'll have to figure out a workaround. For now though, let's examine some of this stuff..."
+			]
+			dependencies: ["110C1EFD863C907C"]
+			hide: true
+			id: "0CAB7196EB0D5F4C"
+			tasks: [{
+				id: "580C165D037049F8"
+				type: "checkmark"
+				title: "So Many Levels"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			shape: "pentagon"
+			subtitle: "MOD: Advent of Ascension"
+			description: [
+				"&5So this is the big one you'll have to deal with. The entire FOP Game Server is built around the Advent of Ascension game."
+				""
+				"&dIt adds and changes so many things to a 'vanilla' game of Minecraft that the Game is based on."
+				""
+				"&5The Game Server is so expansive, it may as well BE the entirety of the FOP corporation at this point. They do all their manufacturing through it, base their advertising from it..."
+				""
+				"&dHell, even some of their CEOs and board of directors live IN the game."
+				""
+				"&5Right. For now, if you hit Delete on your keyboard, you'll open up the AoA menu, which we can explain parts of now."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0CAB7196EB0D5F4C"]
+			hide: true
+			id: "6DEFECFABD4DCB59"
+			tasks: [{
+				id: "3415946BA5D0FB05"
+				type: "checkmark"
+				title: "The Main System"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			shape: "pentagon"
+			subtitle: "MOD: Project MMO"
+			description: [
+				"&5Huh, they added another layer of skills and abilities to the system a few months ago."
+				""
+				"&dInteresting... but a weird choice. They already had an MMO style system in with their Advent of Ascension core. Why add ano...wait, what am I saying. More game layers, more carrots on a stick."
+				""
+				"&5Hm, too many and it confuses players. Gets them to stop playing. But FOP, I guess, thinks that since you all are prisoners, there isn't really a 'stop' as a valid option."
+				""
+				"&dLooks like you can level things and get extra abilities. Just do your thing: mining, building, crafting."
+				""
+				"&5Shift + P on your keyboard will open up the Project MMO interface."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DEFECFABD4DCB59"]
+			hide: true
+			id: "45D2E30FD73E062E"
+			tasks: [{
+				id: "00366192B3CEDE4B"
+				type: "checkmark"
+				title: "The Second Layer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "Every Aspect, Gamefied"
+			description: [
+				"&5Wow... I think they removed some skills since we last looked into this..."
+				""
+				"&dBut there's still a lot. Daunting, isn't it... But don't worry, thankfully the FOP built in a guide to all these skills in their AoA menu."
+				""
+				"&5Each skill earns experience by doing specific things. Most of them are pretty obvious. Farming is gained by... farming, for example. Hauling is Fishing. Etc."
+				""
+				"&dEtc etc etc. You get the idea. Some things are gonna be locked behind leveling some of these. And leveling them will get you better 'rewards' for doing them."
+				""
+				"&5You can click on a skill name to get a better idea of them."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DEFECFABD4DCB59"]
+			hide: true
+			id: "78B5BCD7C6C45779"
+			tasks: [{
+				id: "4080321A77B04EDC"
+				type: "checkmark"
+				title: "Advent of Skills"
+			}]
+		}
+		{
+			x: -0.9285714285714306d
+			y: 0.017857142857145902d
+			shape: "pentagon"
+			subtitle: "So many meters..."
+			description: [
+				"&5AoA adds a few resource meters to keep in mind. They encourage you to keep doing things and keep working to keep them filled."
+				""
+				"&dAs you level your AoA skills, the meters get easier to fill and give bigger bonuses."
+				""
+				"&5First is Battle Rage. Fighting raises your Battle Rage meter maximum, which slowly regenerates. The higher you get, the higher chance of an extra critical hit, which will empty the meter."
+				""
+				"&dHuh, I see they got rid of Creation. It let you summon pets. I wonder why..."
+				""
+				"&5Some tools, blocks, and weapons use Spirit for power and ammunition."
+				""
+				"&dSoul Power is used to activate Tablets, craftable utility items."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DEFECFABD4DCB59"]
+			hide: true
+			id: "19220F4E56CB0A0F"
+			tasks: [{
+				id: "426BA08035022DCC"
+				type: "checkmark"
+				title: "Advent of Resources"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "Prayer and Sacrifice"
+			description: [
+				"&5These are the Tribute bars. At some point, we aren't sure whether the FOP created fake 'Gods' for the Game Server, or if a prisoner 'ascended' by exploiting the game in some way, and became part of the system itself."
+				""
+				"&dEach one covers a different game God. Each bar raises or lowers depending on actions."
+				""
+				"&5It seems the bars reset when night is finished. So you have the whole day to fill them as much as you can. If you do, each one can give you a different reward as night falls."
+				""
+				"&dHmm, looking into it, if you get all four above a certain level, you get a bonus from a fifth God? And filling all four to max nets you a tool to gain Tribute quickly."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DEFECFABD4DCB59"]
+			hide: true
+			id: "33C206FEA6772466"
+			tasks: [{
+				id: "31F63991B3631A9D"
+				type: "checkmark"
+				title: "Advent of Gods"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -2.5d
+			shape: "pentagon"
+			subtitle: "Improving Yourself"
+			description: [
+				"&dOkay, looks like the main buttons you need to worry about are these two here. Stats and Skills."
+				""
+				"&5Stats show what bonuses you get with your skills. Looks like with enough skill, you can chop down bigger amounts of logs or larger sections of ore veins."
+				""
+				"&dAnd you have a bigger chance at better loot, or avoiding fall damage. Hm...if these buffs stack with their Advent buffs, and the other systems their Game Server has in place...."
+				""
+				"&5I wonder if they tested it enough before adding it. And just how protected their safeguards are..."
+				""
+				"&dI smell a system vulnerability."
+				""
+				"&5Let's add it to the list. It's going to take careful planning to break the system. Every exploit is another opening."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45D2E30FD73E062E"]
+			hide: true
+			id: "40E4E5113E933B44"
+			tasks: [{
+				id: "483B8AF014C584F7"
+				type: "checkmark"
+				title: "MMO Stats and Skills"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.75d
+			shape: "pentagon"
+			subtitle: "What Does What?"
+			description: [
+				"&5Oh, here we go, this glossary lists what gives you experience, and what bonsues you get when."
+				""
+				"&dOh, apparently most equipment is level locked? No no no, that will NOT do..."
+				""
+				"&5Sis, be careful..."
+				""
+				"&dIt'll lock down the item level requirement, but that just means I gotta hit it with a big change all at the same time."
+				""
+				"&2ITEM DATABASE UPDATED."
+				""
+				"&2LEVEL RESTRICTION CONFIGURATION UPDATED"
+				""
+				"&4SECURITY SYSTEM UPDATED FOR USER PROTECTION."
+				""
+				"&dI couldn't remove the restriction, so I lowered everything I could. The more powerful items have tougher security layers, so I didn't have time to fix them. Sorry."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45D2E30FD73E062E"]
+			hide: true
+			id: "70D9D62AF2856A7B"
+			tasks: [{
+				id: "31F11B66D415622E"
+				type: "checkmark"
+				title: "MMO Glossary"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			shape: "pentagon"
+			subtitle: "Things to Fight, Things to Do"
+			description: [
+				"&5Well, at least they include a pretty helpful guide on their game system."
+				""
+				"&dRight? It's decently extensive, and it should be enough to get started with, and point you to helpful things. I'll give them that much."
+				""
+				"&5We'll look over this as well and figure out a game plan. "
+				""
+				"&dAgreed. Layering so many systems on each other has probably opened up a vulnerability..."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DEFECFABD4DCB59"]
+			hide: true
+			id: "4CA0844372B19F19"
+			tasks: [{
+				id: "61503165E064852F"
+				type: "checkmark"
+				title: "Advent of Information"
+			}]
+		}
+		{
+			title: "Acidic Override"
+			icon: "kubejs:blindboxblindbox"
+			x: 5.5d
+			y: -3.75d
+			shape: "hexagon"
+			subtitle: "That was a test. So is this."
+			description: [
+				"&dWe've got a good overview of the major systems in that Game, Bandit. "
+				""
+				"&5And we've come up with a good way to break into the entire system..."
+				""
+				"&d...from the inside. You know that Blind Box of Blind Boxes we gave you earlier? That was actually a test box. I attached a tracking codespell on it and watched what happened with it."
+				""
+				"&5It's important because, like I said, we've not released that product yet. So my sister decided to see if we could hook the box up to the FOP Game Server itself."
+				""
+				"&dLayering so many systems made holes in their security, so I plugged one up with our own data pipe. So every one of those Blind Boxes you open up? Comes directly from their storage."
+				""
+				"&5Here. Send us 20 Copper Scrypto for another. Then open it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"78B5BCD7C6C45779"
+				"19220F4E56CB0A0F"
+				"33C206FEA6772466"
+				"4CA0844372B19F19"
+				"40E4E5113E933B44"
+				"70D9D62AF2856A7B"
+			]
+			hide: true
+			size: 1.5d
+			id: "04D5AA9EB9007560"
+			tasks: [{
+				id: "10A0F7F7A41CDF5B"
+				type: "item"
+				item: "aoa3:copper_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0064B11CC48A7C44"
+				type: "item"
+				item: "kubejs:blindboxblindbox"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.75d
+			shape: "hexagon"
+			subtitle: "Infect the Server!"
+			description: [
+				"&dYes! Success! This is good, no security alerts, no tracked Scrypto, I just need to edit the codespell a bit and..."
+				""
+				"&5Sis..."
+				""
+				"&dWhat? Oh, sorry Bandit! Okay, layferret's terms, the security hole we took over? They don't see the pipes we installed. And as long as we don't transfer things TOO fast in and out, they never will."
+				""
+				"&5Until it's too late. So, Bandit, we're going to Trojan Horse their entire system. But we have to do it slowly."
+				""
+				"&dThat's where you come in. These Blind Boxes will pull items from their storage server and give them directly to you. "
+				""
+				"&5Any items you collect now, we're going to 'infect' with a Worm, a little virus that will tag along with the item."
+				""
+				"&dWe call it the Audubon Worm. Fitting I feel, given the FOP are primarily birds."
+			]
+			dependencies: ["04D5AA9EB9007560"]
+			hide: true
+			id: "65766106B865F4F9"
+			tasks: [{
+				id: "718E8CAE36C0C76C"
+				type: "checkmark"
+				title: "The Audubon Worm"
+			}]
+			rewards: [{
+				id: "062DD7AF121EED37"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Two Paths, One Goal"
+			description: [
+				"&dOkay, so infecting the items and Scrypto Coins is step 1. Step 2? Get them back into the system of course."
+				""
+				"&5You have a choice here, Bandit. You can sell items and trade Scrypto Coins back to FOP and purchase their AMAZINGLY priced DLC..."
+				""
+				"&dOr you can sell the items to us. We'll keep a portion of them, and send the rest back into their system. The Audubon Worm will very slowly spread without the FOP noticing."
+				""
+				"&5Take this TFB Shop Tablet. You can buy a resources from us, and learn how to sell to either us or the FOP."
+				""
+				"&dFOP Scrypto Coins are hard to earn, but we agree you should probably sell to both parties. Some things are easier to get Scrypto with, others Silver Coins. Either way, we get the Worm in their system."
+				""
+				"&dOkay, we're opening up the rest of the Q.U.E.S.T. sections to you, as well."
+			]
+			dependencies: ["65766106B865F4F9"]
+			hide: true
+			id: "14E05D152CF5C051"
+			tasks: [{
+				id: "7202B9F55F939F79"
+				type: "checkmark"
+				title: "A Thousand Drops"
+			}]
+			rewards: [{
+				id: "1ADDF83B4301F662"
+				type: "item"
+				item: "hardcorequesting:quest_book"
+			}]
+		}
+		{
+			title: "Salvage Operations"
+			x: 2.0d
+			y: 2.25d
+			shape: "square"
+			subtitle: "Repurpose Old Things"
+			description: [
+				"&dWell, looks like one of the systems of the Project MMO layer is 'Salvaging'. It lets you break down some items to get one of their components."
+				""
+				"&5Oh, no Uncrafting Table I take it?"
+				""
+				"&dUnfotunately not, bro. That'd be nice, but they've entwined Salvaging with their leveling systems. "
+				""
+				"&5Ah, they tied it to Smithing. Strange choice. Looks like you'll need a Smithing Table to Salvage items."
+				""
+				"&dWhich you level by smelting Ores in a normal Furnace. I'm unsure if things like the Smeltery will work, though. But Salvaging items also levels Smithing."
+				""
+				"&5Hmm, the ProjectMMO screen lists Salvagable items, and the level of Smithing you need. But it doesn't say how to Salvage..."
+				""
+				"&dOh hey, Bitsy just figured it out! You Shift + Right Click the item onto the Smithing Table to try Salvaging it!"
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "2BBEFF6E9B2C2E8A"
+			tasks: [{
+				id: "7A994D653FB87F7F"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			rewards: [{
+				id: "70A19F0B679C39BE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			icon: "minecraft:gold_nugget"
+			x: 3.75d
+			y: 3.5d
+			shape: "square"
+			subtitle: "Rewarded For Doing"
+			description: [
+				"&dWow, looks like they added a mechanic that drops extra things the higher level you are in a skill."
+				""
+				"&5Like a Luck mechanic?"
+				""
+				"&dKind of. Except instead of hoping good gear you have also has Luck, or dumping points into Luck, you just level your Project MMO skills."
+				""
+				"&5Ah, there's the stick again. What do you get, what's the carrot?"
+				""
+				"&dNot much for a good while. The occasional nugget of Iron from Stone. Bones from Dirt. Apples from Leaves."
+				""
+				"&dLevel your skills enough though and you can find Enchanted Golden Apples from breaking Leaves!"
+				""
+				"&5...and the catch, sis?"
+				""
+				"&dWell, for the Enchanted Golden Apple, you gotta be level 50 to start for a 0.2% chance. Yes, 0.2, not 2%. That's only if you hit level 150. "
+			]
+			dependencies: ["4A7F919339917ED3"]
+			id: "249CEFD98AF2D014"
+			tasks: [{
+				id: "4DB4702036EF06D7"
+				type: "checkmark"
+				title: "Treasure?!"
+			}]
+			rewards: [{
+				id: "387C9A899B36F12B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Forged in Magma"
+			x: 0.25d
+			y: 2.25d
+			shape: "square"
+			subtitle: "That Which Does Not Burn"
+			description: [
+				"&dInteresting! That's a new thing for the Advent of Ascension game layer..."
+				""
+				"&5What's up, sis?"
+				""
+				"&dLotsa these worlds have deadly Lava..."
+				""
+				"&5Yeah, everybody has died at least once to Lava."
+				""
+				"&dYeah, and if those players quit the game, or for Power Users, have their Soul harvested, then their graves 'dissolve' and release their items into the Lava."
+				""
+				"&5Wait, they don't burn?"
+				""
+				"&dNo, but they aren't put back into the database either. So, the FOP created the Extraction Device. Place it with open air below it, pour a bucket of Lava on top. The machine will pull it in, so then Right Click a Stone Bowl onto it. It sifts through the Lava for items, turning it into Obsidian underneath. Clear the Obsidian to Extract again."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "13443B45E662A04C"
+			tasks: [
+				{
+					id: "1D50D6BECE193C9B"
+					type: "item"
+					item: "aoa3:extraction_device"
+				}
+				{
+					id: "0B8A0E86281EFE1F"
+					type: "item"
+					item: {
+						id: "aoa3:stone_bowl"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1BB75C9E3ABA3E47"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Creating Life"
+			x: 5.5d
+			y: 2.25d
+			shape: "square"
+			subtitle: "Creating Friends!"
+			description: [
+				"&dOne of the many systems that the AoA layer adds is the Creation system."
+				""
+				"&5It used to be used for summoning pets to help you. Thus, creation. That recently got removed, however..."
+				""
+				"&dIt was an interesting system, but hard to balance I guess, brother. But yeah, to get started in it, you need to make a Stone Bowl, and find yourself a Pixon."
+				""
+				"&5Pixons are...strange things. They look like tiny starbursts constantly exploding."
+				""
+				"&dOr like an animated * symbol. You can't kill them with normal weapons. But Right Clicking a Stone or Diamond Bowl on them will damage them and give you an Infusion Stone."
+				""
+				"&5A lot of the FOPServer worlds have unique Pixons. The Overworld has the Glistening one, getting you a Glistening Infusion Stone."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "1F2875BC889232AC"
+			tasks: [
+				{
+					id: "6058ADF281771EAB"
+					type: "item"
+					item: {
+						id: "aoa3:stone_bowl"
+						Count: 1b
+						tag: {
+							Damage: 1
+						}
+					}
+				}
+				{
+					id: "53B80FB29D837FE2"
+					type: "item"
+					item: "aoa3:glistening_infusion_stone"
+				}
+			]
+			rewards: [{
+				id: "12ED88887188DAC6"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Life and Infusion"
+			x: 5.5d
+			y: 3.5d
+			shape: "square"
+			subtitle: "An Infusion of Power"
+			description: [
+				"&dNow that you have an Infusion Stone or three, you can make the first steps in the Infusion system. Starting off, you'll need an Infusion Table."
+				""
+				"&5Then you'll need a Blank Slab. Which will take Runium, and thats locked under... looks like Yellow Ore DLC? Huh they moved it up from Orange..."
+				""
+				"&dStrange. I wonder why... Well, once you get that Runium, you can make a Blank Slab. Originally, you would imprint a creature to summon, but they patched that out recently. "
+				""
+				"&5That's super strange. I wonder if the new ProjectMMO layer was causing issues with it?"
+				""
+				"&dNo clue. Wonder what the Creation Forge will be used for, now?"
+			]
+			dependencies: ["1F2875BC889232AC"]
+			id: "5E574242513BE343"
+			tasks: [{
+				id: "7B23CB673224C96E"
+				type: "item"
+				item: "aoa3:infusion_table"
+			}]
+			rewards: [{
+				id: "3403A63A365E2029"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.75d
+			y: 2.25d
+			shape: "square"
+			subtitle: "Vein Mining By The Numbers"
+			description: [
+				"&5Bad news, Bandit. You won't have the same kind of Veinmining skill you had in your previous world."
+				""
+				"&dThe FOP entwined it with their Project MMO layer. So you need to level skills to be able to Veinmine more blocks."
+				""
+				"&5You still activate it by holding ~(grave) key, but you'll get an overlay telling you how many blocks you can veinmine with your current skill and tool."
+				""
+				"&dLeveling skills will help you veinmine more AND harder blocks. It does some calculation between your skill, how hard the block is, and your tool."
+				""
+				"&5Level Mining for ore, Woodcutting for logs, etc etc. You get the idea. But keep in mind, you have a charge bar for Veinmining as well. It slowly replenishes, but if you sleep at night, it recovers most of it."
+				""
+				"&dOh, and if you Veinmine trees, it breaks from the TOP, not the bottom."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "4A7F919339917ED3"
+			tasks: [{
+				id: "1C84C5A5A169E1FA"
+				type: "checkmark"
+				title: "Skills to Mine By"
+			}]
+			rewards: [{
+				id: "5E94265898011283"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 6.196428571428569d
+			y: -0.875d
+			shape: "gear"
+			subtitle: "Why So Slow?"
+			description: [
+				"&dSo why don't we just take all items, tag em, and dump them back all at once?"
+				""
+				"&5Visibility."
+				""
+				"&dSee, we have to treat the Audubon Worm like an actual, mutating virus. But from the 'bad' end of it, I guess."
+				""
+				"&5Like that one game you showed me, sis. Level up the virus slowly. It can't kill fast or it just burns out or gets cured super fast before it can spread enough."
+				""
+				"&dRight. If we hit them with a big attack, they'll quickly see it and neutralize it. You saw how fast they countered me removing Item Level requirements, yeah? Same thing."
+				""
+				"&5This is one reason why we are putting a price on things in our Shop. Infecting more things but at a slower, steady pace. Sure, you could dump thousands of Cobblestone at once, but that stuff is cheap, so they wouldn't notice."
+			]
+			dependencies: [
+				"14E05D152CF5C051"
+				"65766106B865F4F9"
+			]
+			size: 0.75d
+			id: "7DE302BB0723FB8A"
+			tasks: [{
+				id: "14508C0895B7123A"
+				type: "checkmark"
+				title: "Slow and Steady"
+			}]
+		}
+		{
+			title: "Rune Power"
+			x: 9.0d
+			y: 2.25d
+			shape: "square"
+			description: [
+				"&dWell that's interesting. Looks like they changed how the whole Rune thing worked."
+				""
+				"&5Really? Well, Runes are components you need not only to make some items, like Wands, but also power them, like ammunition."
+				""
+				"&dAnyways, Bandit, each rune is of a different 'element'. Not just wind, fire, earth..."
+				""
+				"&5But also Wither, Lunar, Poison, etc. Many you cannot use until you level up your Runation skill."
+				""
+				"&dUsed to be, you had to find a Rune Shrine on each world to make a rune. Or get lucky with a Rune Bag lottery or something."
+				""
+				"&5Now you can just craft them. You should start with the Wind Rune."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "7543E03FC25521E7"
+			tasks: [
+				{
+					id: "13CB59E3639DA277"
+					type: "item"
+					item: "aoa3:runium_ore"
+				}
+				{
+					id: "07C7093833E61BCF"
+					type: "item"
+					item: "aoa3:unpowered_rune"
+				}
+				{
+					id: "6CCAAF243CB4D9A3"
+					type: "item"
+					item: "aoa3:wind_rune"
+				}
+			]
+			rewards: [{
+				id: "04F748B4C48FA024"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Crystalized Skill"
+			x: -1.5d
+			y: 2.25d
+			shape: "rsquare"
+			subtitle: "A Little Boost"
+			description: [
+				"&dIf you get your Advent of Ascension Foraging skill (which is different than the Project MMO's Mining skill, but... the same... thing...)"
+				""
+				"&5Don't mind sis, trying to make logical thoughts about the FOP's server decisions hurts my head too..."
+				""
+				"&dEr, right. Well, these things are Skill Crystals. They come in varying sizes, but the smallest one can be found either in loot chests around the world, or as a bonus drop when your Foraging skill is high enough and you mine Stone."
+				""
+				"&5You hold them and Right Click them against the ground. They'll raise up the lowest Advent of Ascension skill you have with a bit of XP."
+				""
+				"&dBut only skills that are at least level 15 will count. They didn't want Users to power level their friends easily."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "2E8B1B1D23FEAF8E"
+			tasks: [{
+				id: "03EE998A065A93D5"
+				type: "item"
+				item: "aoa3:small_skill_crystal"
+			}]
+			rewards: [{
+				id: "18941D81C167934B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "All The Ways to Chop Wood"
+			x: -3.0d
+			y: 2.25d
+			shape: "square"
+			description: [
+				"&dSo, because the FOP added a new game layer with Project MMO, there are a few skills that are well... duplicates?"
+				""
+				"&5But at the same time, different?"
+				""
+				"&dTake Logging for example. This is the Advent of Ascension skill you train by chopping down trees, and which can get you bonus items the higher level they are."
+				""
+				"&5Then the Project MMO skill is... Woodcutting! Which also raises when you cut down trees. This, though, helps determine how far you can Veinmine logs. And also can give you bonus items the..... higher level it is...."
+				""
+				"&dAnd the extra items you can find are different between the two skills."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "764D1D5E68CF8085"
+			tasks: [{
+				id: "405512488B882A8A"
+				type: "item"
+				title: "Any 500 Logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 500L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1A4A2EEF8A2D17FE"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Hauling in the Big Catches"
+			x: 11.0d
+			y: 2.25d
+			shape: "square"
+			description: [
+				"&5One of the majorly overlooked skills in Advent of Ascension is Hauling."
+				""
+				"&dThat's hauling as in, fish hauling. Fishing really. It's often overlooked as it's not 'lucrative', but if there's one thing the FOP did right, its that Fishing in the FOP Game Server is actually beneficial."
+				""
+				"&5It just takes a while to level up. Especially at the start, as you have to get to Hauling 15 to be able to use the special Hauling Rod."
+				""
+				"&dThe Hauling Rod, and other AoA rods like it, can pull from a special 'selection' of items depending on where you fish, and at what level."
+				""
+				"&5Also Note...when you start using the Hauling Rod, you have a chance of pulling up creatures themselves. Some of them may fight you. So have a weapon handy as well."
+				""
+				"&dWatch, catch a Violet Skipper..."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "4342B9F453AD1F1B"
+			tasks: [
+				{
+					id: "37A184DA5225A265"
+					type: "item"
+					item: {
+						id: "aoa3:hauling_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42F1FB6429A75236"
+					type: "item"
+					item: "aoa3:violet_skipper"
+				}
+			]
+			rewards: [{
+				id: "19FE2630FF8072CB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Caged Fish"
+			x: 11.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"&dWhen you reach 31 in Hauling, you can use Fish Cages."
+				""
+				"&5It's amusing when you try to use one without having the skill. It just...pops out of your hands. Usually into your inventory."
+				""
+				"&dOr onto the ground if your inventory is full. But yeah, leveling up your Hauling, and you'll get to use Fishing Cages. "
+				""
+				"&5You can use these in water to place them, and they'll passively catch certain fish. Or other things."
+				""
+				"&dThey can only hold a couple stacks of fish or goodies, so you'll want to Right Click them to empty them regularly."
+				""
+				"&5Right Clicking is important. If you Left Click, you destroy the trap. You get the goodies, but no Hauling XP."
+			]
+			dependencies: ["4342B9F453AD1F1B"]
+			id: "38F44668E26A3013"
+			tasks: [{
+				id: "194724C69659499F"
+				type: "item"
+				item: {
+					id: "aoa3:fishing_cage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7996146427414681"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Hot Hot Fish"
+			x: 12.0d
+			y: 2.25d
+			shape: "square"
+			description: [
+				"&5When you hit 54 Hauling, you'll be able to go fishing in new waters. "
+				""
+				"&dYou mean Lava. "
+				""
+				"&5Okay so its not water. But you'll be able to use a Thermally Insulated Rod to get special fish in any pool of Lava."
+				""
+				"&dAlso it's good to note many of the AoA Dimensions have their own...special fish you can catch."
+				""
+				"&5Sometimes bigger than fish..."
+			]
+			dependencies: ["38F44668E26A3013"]
+			id: "7E1AB67308E7DF75"
+			tasks: [{
+				id: "14BAC8D150F0C4C8"
+				type: "item"
+				item: {
+					id: "aoa3:thermally_insulated_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1171E6FB5ADE5791"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "To Heavenly Waters"
+			x: 12.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"&5Once you hit Hauling 69..."
+				""
+				"&dN&5i&dc&5e."
+				""
+				"&5You can use the Light Rod. It's much better at pulling in good stuff."
+				""
+				"&dAnd once you hit 100 Hauling, you can don the Helm of the Trawler."
+				""
+				"&5This will boost the Hauling XP gain. And from there, if you get all the way up to 1000 Hauling."
+				""
+				"&dYour Helm of the Trawler gets a special look to it."
+				""
+				"&5Also, that Trawler hat is unbreakable. Cool, eh? Though it's a bit difficult to get..."
+				""
+				"&dThe FOP only have it available in their Shop, unfortunately."
+			]
+			dependencies: ["7E1AB67308E7DF75"]
+			id: "4CF25E84D8FA533F"
+			tasks: [
+				{
+					id: "711036033FF4C05A"
+					type: "item"
+					item: {
+						id: "aoa3:light_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E0F9C5126CD7A75"
+					type: "item"
+					item: "aoa3:helm_of_the_trawler"
+				}
+			]
+			rewards: [{
+				id: "1CA6ACA633112240"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Infusing Power"
+			x: 6.5d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&dThe Infusion Table is used for more than just making Armor and Weapons. You can use the Infusion Table to enchant as well."
+				""
+				"&5You'll need two things: Enhancers, and Power Stones. Those are more powerful versions of the Infusion Stones you've been collecting from Pixons."
+				""
+				"&dYou'll have a small chance of getting a Power Stone if you use a Diamond Bowl on Pixons instead of a Stone one."
+				""
+				"&5As for Enhancers, theres a little less than a dozen you can make. You'll need them in certain combinations. Good luck figuring those out, the FOP didn't document it in game very well unfortunately..."
+			]
+			dependencies: ["5E574242513BE343"]
+			id: "0AF2E388B45934CC"
+			tasks: [
+				{
+					id: "245AE832D7E20F70"
+					type: "item"
+					item: {
+						id: "aoa3:diamond_bowl"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F2A1B50ABC3B141"
+					type: "item"
+					item: "aoa3:glistening_power_stone"
+				}
+				{
+					id: "31FB3AD1EDA5E299"
+					type: "item"
+					item: "aoa3:speed_enhancer"
+				}
+			]
+			rewards: [{
+				id: "3BB7DD07AA8B33E0"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 7.75d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"&dIf you level up your AoA Farming enough, you can wield the Dryad's Blessing."
+				""
+				"&dWhen you harvest a crop while holding a Dryad's Blessing, it will double the output."
+			]
+			dependencies: ["232779928B96328E"]
+			id: "50D9EFE8ABEA9779"
+			tasks: [{
+				id: "58B3A5A2A9CBBC31"
+				type: "item"
+				item: {
+					id: "aoa3:dryads_blessing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "74297A64BC633CC1"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Farm Fresh"
+			x: 7.75d
+			y: 2.25d
+			shape: "square"
+			description: [
+				"&dFarming is one of the many skills that seems to have doubles in the FOP Game Server..."
+				""
+				"&dBoth their Advent of Ascension and Project MMO layers have it as a skill...and you get different bonuses as you level them."
+				""
+				"&5Well that just makes it easier to game I guess."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "232779928B96328E"
+			tasks: [{
+				id: "02E4288203DF7AD2"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C6D6B243925A26D"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Curios and Baubles"
+			icon: "curios:ring"
+			x: -4.25d
+			y: 2.25d
+			shape: "square"
+			subtitle: "MOD : Curios"
+			description: [
+				"&dThe FOPGame Server adds a whole lot of equipment slots in the form of Curios."
+				""
+				"&5These used to be called Baubles in previous versions of the game. But they are things like Rings, Amulets, and other accessories you can wear. Like the Ferret Wallet, to hold your Silver Ferret Coins, can go into a slot that's marked as \"Wallet\"."
+				""
+				"&dTo access your Curios equipment, open up your inventory. In the upper left of your character image, you will see a little * looking symbol. Thats your Curios equipment page."
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "261FB6A187AC7231"
+			tasks: [{
+				id: "046253A0F3B88D1A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Returning to Safety"
+			icon: "waystones:return_scroll"
+			x: -5.5d
+			y: 2.25d
+			shape: "square"
+			subtitle: "MOD : Waystones (teleporting)"
+			description: [
+				"&dSometimes, you just get stuck somewhere you don't want to be in the FOPGame Server."
+				""
+				"&5Or you just want a quick way back home, but don't got the tools or materials for teleporting on you."
+				""
+				"&dInstead of a standard /home or /spawn or whatever command most games have with a cooldown, the FOPGame Server has Waystones teleporting."
+				""
+				"&5You've probably noticed in your inventory, to the lower right of your character, is a scroll. You can click this to teleport back to the last Waystone you touched."
+				""
+				"&dThe only cavaet is you have to have touched a Waystone in that dimension in the firstplace. "
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "032265635198E365"
+			tasks: [{
+				id: "4D3E4B7763278CC6"
+				type: "checkmark"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,310 @@
+{
+	id: "4E4551355D64C08F"
+	group: "499A93482811AC21"
+	order_index: 2
+	filename: "containing_the_multiworld"
+	title: "Containing the Multiworld"
+	subtitle: [
+		"MODS: Iron Chest, Ender Storage"
+		"MODS: Subpocket, Akashic Tome"
+		"MOD: Storage Racks"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Almost All Things Storage"
+			x: -0.75d
+			y: 0.5d
+			shape: "octagon"
+			description: [
+				"&eAh, Explorer Eric, good to be working with you again."
+				""
+				"&bOh, Designer Daisy! I take it we'll be working together here to help Bandit?"
+				""
+				"&eSure enough. Bandit, this section is gonna cover Storage options for ya. Welllll, most of them."
+				""
+				"&bWhat? Why aren't we covering all the bases for them?"
+				""
+				"&eAh, as one of the storage mediums is headed by Dataologist..."
+				""
+				"&b...Dante, ah right right then. Bandit, we'll cover the 'smaller' storage options."
+				""
+				"&eThe stuff that doesn't involve 1s and 0s and data preservation concerns. That's Dataologist Dante's Domain."
+			]
+			dependencies: [
+				"1D0853ADC7295AEB"
+				"45A4E38A1E2BA965"
+				"06FED1C3C1EA8361"
+			]
+			id: "4D0A9C13F67B5F1A"
+			tasks: [{
+				id: "2A996A56B647FF3A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Bottomless Pockets"
+			x: -3.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "MOD : Subpocket"
+			description: [
+				"&eWell, it looks like the FOP left some of their earlier work in the game... "
+				""
+				"&bAh, the bosses mentioned something about that."
+				""
+				"&eIt looks like they left an alternate inventory system?"
+				""
+				"&bWait... oh, I recognize that! What was it called.. Subpocket? Yeah, a near infinite capacity pocket without a grid system..."
+				""
+				"&e...Okay, what's the catch, Explorer Eric?"
+				""
+				"&bWell, you can stack item sprites atop each other very easily. And you only have so much visual space. "
+				""
+				"&eOh. That's an interesting tradeoff..."
+				""
+				"&bSeems you can use an exploit to reactivate the Subpocket. Find a Subspatial Key in a dungeon chest, then use it to break a normal Ender Chest in the End. It's very slow, and will constantly damage you until you finish, though!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4D0A9C13F67B5F1A"]
+			id: "7B5478A65FA699B9"
+			tasks: [{
+				id: "722175728BBC9213"
+				type: "item"
+				item: "subpocket:key"
+			}]
+			rewards: [{
+				id: "2E21EAF0EE3C01EC"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Classic Storage"
+			x: -3.0d
+			y: -1.25d
+			shape: "square"
+			subtitle: "MOD : Iron Chests"
+			description: [
+				"&bAh, good old Iron Chests."
+				""
+				"&ePretty simple, but effective. I'm surprised that the FOP didn't try to improve on it."
+				""
+				"&bEven bird brains got enough sense not to mess with a good thing."
+				""
+				"&eWell, don't underestimate them, Explorer Eric. Anyways, Bandit, Iron Chests has been a long running staple of both inside the Ferret Business and outside as well."
+				""
+				"&bIt's a simple tiered chest system. Wood to Copper, Copper to Iron, etc. "
+				""
+				"&eThey look pretty good too. And as a bonus, you can craft these Upgrades. They let you upgrade an already placed Chest, so you don't have to reorganize anything to break and replace the chest."
+				""
+				"&bJust Right Click the Upgrade on the appropriate Chest."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4D0A9C13F67B5F1A"]
+			id: "7C2360C681B09334"
+			tasks: [
+				{
+					id: "2FF4D18430C40AC6"
+					type: "item"
+					item: "ironchest:copper_chest"
+				}
+				{
+					id: "1DE47779F6814C6D"
+					type: "item"
+					item: "ironchest:copper_to_iron_chest_upgrade"
+				}
+			]
+			rewards: [{
+				id: "3DA86EA626D94AD5"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Special Chests"
+			x: -4.0d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&bIron Chests has a few special chests with unique properties."
+				""
+				"&eNot sure I'd call them unique, but they are useful. The Obsidian Chest is fairly blast proof. If the blast can't break Obsidian, it won't break this chest."
+				""
+				"&bAnd the Crystal Chest, well its kind of like the Diamond Chest, except you can see some of the items inside it!"
+				""
+				"&eThat one is a bit harder to fit into a pretty design, but it IS possible."
+			]
+			dependencies: ["7C2360C681B09334"]
+			id: "743BFE1D57B2F0EF"
+			tasks: [
+				{
+					id: "027E3BF54DC1A801"
+					type: "item"
+					item: "ironchest:obsidian_chest"
+				}
+				{
+					id: "3BF8618CFE9F5920"
+					type: "item"
+					item: "ironchest:crystal_chest"
+				}
+			]
+			rewards: [{
+				id: "130F9E3DF8C64E44"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Stacking in Storage"
+			x: -3.0d
+			y: 2.75d
+			shape: "square"
+			subtitle: "MOD : Storage Racks"
+			description: [
+				"&eBandit, if you've started poking into making your own branch of The Ferret Business with Minecolonies, you have probably encountered these already. "
+				""
+				"&bAh, Storage Racks. Quite familiar if you go urban adventuring in old factories and warehouses."
+				""
+				"&eOnly visually, how they function in Minecolonies and how they function elsewhere are slightly different."
+				""
+				"&bHow so?"
+				""
+				"&eOutside of Minecolonies, you need to start with a Controller. Then you place Storage Racks so that they are touching the Controller, or can chain a connection back to the Controller."
+				""
+				"&bOh I see. You can then put stuff on the shelves, and use the Controller to track all the items. Neat!"
+				""
+				"&eYou can upgrade a placed Rack by Left Clicking it with the next material."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4D0A9C13F67B5F1A"]
+			id: "5A2BE4E6B0616FB4"
+			tasks: [
+				{
+					id: "33D4A5DFF13BC4AF"
+					type: "item"
+					item: "storageracks:stone_controller"
+				}
+				{
+					id: "29F1D836CA6E112F"
+					type: "item"
+					title: "Any Wood Storage Rack"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:storagerackswood"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1E0CEADBA4222D6F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Million Chests In One"
+			x: 1.0d
+			y: -1.25d
+			shape: "square"
+			subtitle: "MOD : Ender Storage"
+			description: [
+				"&bVery interesting... it looks like the FOP took some of your discoveries in your previous adventure and created an exact copycat of it. I'm talking about the Ender Storage creations we made."
+				""
+				"&eWait, how did they get the designs? They beat us to market it seems."
+				""
+				"&bOh the usual, spies and espionage. Or Bandit may have had one on them, or jotted down in notes. They 'were' lost in transit for a while."
+				""
+				"&eTrue...well, Bandit, if you don't remember, these Ender Chests are a bit more advanced than the normal vanilla game 'Ender Chest'. Each one has 3 dyeable spots on top. Each 3 color combination connects to a different Ender Chest."
+				""
+				"&bThat goes for all other assistants as well. If you want to lock an Ender Chest to a private 'chest network' only you can access, Right Click a Diamond on the lock."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4D0A9C13F67B5F1A"]
+			id: "1C1C9D1CFB0C0D52"
+			tasks: [{
+				id: "62641773D6B8DF05"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [{
+				id: "6011C5CA85E69917"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Expanded Ender Extras"
+			x: 2.0d
+			y: -1.25d
+			shape: "rsquare"
+			description: [
+				"&bLike before, not only are there Ender Chests, there are also Ender Tanks."
+				""
+				"&eThese things are neat. They work like other liquid storage tanks, but with the Ender Chest dyeable lock system. You can Right Click the front of it with an Empty Hand to flip between pumping liquid in or out of it from connected pipes or tanks."
+				""
+				"&bThough it doesn't quite work like how you'd expect all the time. Play with it a bit, you'll figure it out."
+				""
+				"&eOh, Explorer Eric, are you forgetting something? Something in the bag?"
+				""
+				"&bIn the... bag? Oh right! Thank you Designer Daisy. Bandit, the Ender Pouch is basically a portable Ender Chest, but you can't just Right Click dyes onto it."
+				""
+				"&eInstead you Right Click the Ender Pouch onto an Ender Chest with the lock combination already set."
+			]
+			dependencies: ["1C1C9D1CFB0C0D52"]
+			id: "3FC7B3049D9CE48E"
+			tasks: [
+				{
+					id: "140953388734C5B9"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+				{
+					id: "4814F1CA140351BB"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+			rewards: [{
+				id: "4C978EE8FEA1EDF0"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Book Storage"
+			x: 1.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "MOD : Akashic Tome"
+			description: [
+				"&bNow this is a bit different than the other items we cover. It's a storage device... for your books."
+				""
+				"&eI'm not sure calling it a device is quite right. It's mostly just a magical book that can hold all your manuals and instructions and stuff."
+				""
+				"&bTrue. You can add a book to it by combining the Akashic Tome with it in a crafting table. You can then transform the book to any stored book by Right Clicking with the Akashic Tome and selecting it."
+				""
+				"&eThe Tome will morph into the selected book, and act mostly like it. But if you want to use a different book, you can 'reveal' the Akashic Tome by Left Clicking in the air with it."
+				""
+				"&bWhat else, hm.... Ah right! To remove a book, turn the Tome into the book you want to remove and hit Sneak + Q."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4D0A9C13F67B5F1A"]
+			id: "347D8E5693846B2A"
+			tasks: [{
+				id: "40A26ECA458FEA61"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			rewards: [{
+				id: "230DFE00CBF00B72"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

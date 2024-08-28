@@ -1,0 +1,2704 @@
+{
+	id: "63CB81CDA189AA62"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 2
+	filename: "the_overworld"
+	title: "Cracking the Surface"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Hella Warm Place to Visit"
+			x: -3.5d
+			y: -1.25d
+			shape: "hexagon"
+			subtitle: "Where to begin?!"
+			description: [
+				"&dOkay Bandit, we've had time to figure out some of the FOP Game Server layout. What a doozy..."
+				""
+				"&5The system map of the game is over twenty worlds..."
+				""
+				"&dThey all can't be important, right? But I won't know till I examine one of the Tier 1 worlds..."
+				""
+				"&5Lets try getting Bandit into the Nether then, or whatever the FOP have put as their own version of the Nether."
+				""
+				"&dGood idea. You remember the drill, right Bandit? Make a 4 wide, 5 tall ring of Obsidian, and light the opening with a Flint and Steel."
+				""
+				"&5You'll need to unlock Yellow Rank Ore DLC to get Diamonds for Obidian. Or get lucky with looting. Or be creative."
+				""
+				"&dBe sure to check out Byte's section and the FOP DLC Shop for the different ways to unlock the DLC."
+			]
+			id: "69C663CDD23190A9"
+			tasks: [{
+				id: "5192AB72FF5D2F7A"
+				type: "dimension"
+				title: "Enter the Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "18E30E4C3FF5FF8C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.4553571428571459d
+			shape: "gear"
+			description: [
+				"&5Wow, even accessing something as simple as the Nether requires DLC."
+				""
+				"&dKind of ridiculous, especially when you WANT people to tear out all the resources for you."
+				""
+				"&5Eh, guess if someone works hard enough to 'earn' it, they'll feel like they HAVE to utilize it as much as possible."
+				""
+				"&dYep... if it isn't obvious, Bandit, you'll also need the Red Rank Dimensions DLC to get INTO the Nether. "
+			]
+			dependencies: ["69C663CDD23190A9"]
+			dependency_requirement: "all_started"
+			size: 0.75d
+			id: "745405F9B434F931"
+			tasks: [{
+				id: "2535781CB291B4C4"
+				type: "checkmark"
+				title: "DLC for that too?!"
+			}]
+		}
+		{
+			icon: {
+				id: "adfinders:mineral_finder"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.25d
+			y: -1.25d
+			shape: "pentagon"
+			subtitle: "Only For Now..."
+			description: [
+				"&dOkay, head back Bandit. I got my scans. You might not be equipped to handle the Nether just yet. It's much more dangerous than the regular Nether of your previous world."
+				""
+				"&5Those scans looked kinda rough. But a lot of interesting things to find... "
+				""
+				"&dMy brother is talking about treasure. Ores, gems..."
+				""
+				"&5Magical trinkets. Weird weapons. Etc."
+				""
+				"&dFirst thing, though. We're going to need to build the device that'll get you to other worlds: The Ancient Teleporter."
+				""
+				"&5You'll need a few things. Like Ancient Rock. The FOP 'hid' a lot of broken teleporters underground. Around Y 10 to 20. Take this Mineral Finder. It will track a few various useful minerals, and angles a pointer towards them when you are close enough. The color of the pointer matches the color of the Mineral, so look for Black."
+			]
+			dependencies: ["69C663CDD23190A9"]
+			id: "5FC0C65E68336246"
+			tasks: [{
+				id: "2A26065803FF5667"
+				type: "checkmark"
+				title: "Staying Out of the Kitchen"
+			}]
+			rewards: [{
+				id: "284F7565A68D5437"
+				type: "item"
+				item: {
+					id: "adfinders:mineral_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Stones of Power"
+			icon: "aoa3:carved_rune_of_travel"
+			x: -1.0d
+			y: -1.25d
+			shape: "pentagon"
+			subtitle: "Infinity They Ain't"
+			description: [
+				"&dOkay, using that scanner, you should be able to find one of the 'hidden' Ancient Teleporter ruins the FOP hid underground. Air quotes there, because the FOP wants to encourage Power Users to dig up all they can, and send them whatevers found."
+				""
+				"&5You got better things to do, Bandit. When you find the ruins, most likely all the Power Runes are gone. Grab all the Ancient Stone you can, though, you'll need at least 13 of them."
+				""
+				"&dYou'll also need five other Runes. Four of these drop from monsters in the Overworld, or sometimes Villagers have them stashed in chests."
+				""
+				"&5You should also be able to find them in dungeons, mineshafts, temples, etc. The FOP hid them pretty liberally around creatures and places they want you to hunt and explore and break into."
+			]
+			dependencies: ["5FC0C65E68336246"]
+			id: "7C074ABF2EDF12C1"
+			tasks: [
+				{
+					id: "15D5A728E4A614EC"
+					type: "item"
+					item: "aoa3:ancient_rock"
+					count: 13L
+				}
+				{
+					id: "0E9263AC63EA8767"
+					type: "item"
+					item: "aoa3:carved_rune_of_travel"
+				}
+				{
+					id: "2913E6944A2FA36D"
+					type: "item"
+					item: "aoa3:carved_rune_of_space"
+				}
+				{
+					id: "424EDE80F5E2D518"
+					type: "item"
+					item: "aoa3:carved_rune_of_reality"
+				}
+				{
+					id: "4AF96E7F8EDA62A5"
+					type: "item"
+					item: "aoa3:carved_rune_of_direction"
+				}
+			]
+			rewards: [{
+				id: "6C1005BAB66C32F4"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Strange Book"
+			x: 0.25d
+			y: -1.25d
+			shape: "hexagon"
+			subtitle: "...From a Strange Person"
+			description: [
+				"&dHmmm, you didn't happen to see anyone around the ruins of that teleporter, did you? I've been trying to find out how to get the 5th Rune you need for the Teleporter, and it looks like he has the key. A.... Corrupted Traveler?"
+				""
+				"&5That's frustrating. You mean the key to the Teleporter is on an NPC that may not even spawn?"
+				""
+				"&dProbably not intentionally. They've messed with the world generation enough that these ruins are buried in random stone, so the poor NPC probably just dies."
+				""
+				"&5Gruesome... wait, if its an NPC can you do something with spellcode, sis?"
+				""
+				"&dHmmm, actually yeah. Bandit, if you check the Fab Creatures section in the Shop Tablet, I should have something you can purchase."
+				""
+				"&5Find or spawn a Corrupted Traveller. Then give him some food. Any food."
+			]
+			dependencies: ["7C074ABF2EDF12C1"]
+			id: "76B7D44E338DC9B7"
+			tasks: [{
+				id: "55006AEA406FF0FF"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "aoa3:worn_book"
+					}
+				}
+			}]
+			rewards: [{
+				id: "44731FDDB12709FC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Stones and Runes"
+			x: 1.75d
+			y: -1.25d
+			shape: "pentagon"
+			subtitle: "Stepping Stones"
+			description: [
+				"&dOkay, that Worn Book? And that Blank Realmstone the Corrupted Traveller gave you? Important. Each time you open that book and don't have a Blank Realmstone in your inventory, it will spawn one for you. You'll need a whole lot of them..."
+				""
+				"&5There's a lot of worlds to visit..."
+				""
+				"&dAlso be sure to start saving up Runium Ore. You should have the Yellow Ore DLC already, otherwise... I'd probably go get it. A bunch of the metals and gems you'll need soon are Yellow Rank."
+				""
+				"&5You'll need Runium to make the 5th Rune, the Rune of Power. That and an Eye of Ender, which will take some stuff from The Nether to make. May want the Green Ore DLC too...lots of nice materials in the Nether."
+				""
+				"&dYou'll want them to make better equipment. The next world might be even rougher than The Nether."
+			]
+			dependencies: ["76B7D44E338DC9B7"]
+			id: "10F607F18CE03D39"
+			tasks: [
+				{
+					id: "58C0CDAF1670BC94"
+					type: "item"
+					item: "aoa3:blank_realmstone"
+				}
+				{
+					id: "2B4B2F0651EEFC4C"
+					type: "item"
+					item: "aoa3:carved_rune_of_power"
+				}
+				{
+					id: "573597F237A2A7F3"
+					type: "item"
+					item: "aoa3:runium_ore"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "324481C298B2397F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Gate to Everywhere"
+			x: 3.25d
+			y: -1.25d
+			shape: "pentagon"
+			subtitle: "The Right Key in the Right Place"
+			description: [
+				"&dOkay, to build this teleporter, you'll need to make a frame 5 wide and 6 tall of the Ancient Stones and Runes."
+				""
+				"&5The Rune of Power MUST be the bottom center block of the entire thing."
+				""
+				"&dThe other four can be put anywhere else in the frame."
+				""
+				"&5Don't forget the corners. Unlike the Nether Portal, you must have corners."
+				""
+				"&dRight Click that Blank Realmstone, you'll see how most of the FOP Game Server is laid out. We should figure out the first world for you to go to..."
+				""
+				"&5Hm...Leylatia sounds safe for a first journey. And the requirements are simple. Just fall 26 blocks and hit the ground."
+				""
+				"&dWell, you can't use Feather Fall, or fall into Water, unfortunately. Thankfully you're stuff will be safe in your temporary Gravestone."
+			]
+			dependencies: ["10F607F18CE03D39"]
+			id: "3E2831A2D27654C0"
+			tasks: [
+				{
+					id: "29A99E23734A15F1"
+					type: "item"
+					item: "aoa3:carved_rune_of_power"
+				}
+				{
+					id: "3305D09B67DA5BD3"
+					type: "item"
+					item: "aoa3:lelyetia_realmstone"
+				}
+			]
+			rewards: [{
+				id: "001A41EB98B1D2AA"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "ADVENT FIGHTS"
+			x: -2.25d
+			y: 0.25d
+			shape: "square"
+			description: [
+				"&5Hey Bandit, while you are exploring the Overworld and trying to get this Ancient Teleporter up and running, how about I give you a bit of encouragement?"
+				""
+				"&5Not that you'll need it, but you'll get extra rewards for these tasks. Mostly its hunting down the various Advent of Ascension creatures in each world. "
+				""
+				"&5And I'll explain if they drop anything interesting! A lot of the equipment you'll need to survive these other worlds can be found either on monsters or by doing various things."
+			]
+			dependencies: ["5FC0C65E68336246"]
+			id: "3E3E6553CBF3C30D"
+			tasks: [{
+				id: "2A3D2831996727A1"
+				type: "checkmark"
+				title: "Advent Hunting : Overworld"
+			}]
+		}
+		{
+			title: "Ancient Golems"
+			x: -4.75d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5Ancient Golems are old powered mechanical creatures found in Plains type biomes. Careful, they are very hostile and hit pretty hard for a new User."
+				""
+				"&5The main thing they drop is Rusted Iron Ingots. Not much can be done with these except to Smelt them into some Scrap Metal."
+				""
+				"&5Like most mechanical creatures in Advent of Ascension, they also drop Power Cores and Armour Plating. Be sure to collect and save these up, you'll need em for making and upgrading some higher tier gear."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "58661D566CCF0B40"
+			tasks: [
+				{
+					id: "5774BA322E78A7A4"
+					type: "kill"
+					entity: "aoa3:ancient_golem"
+					value: 5L
+				}
+				{
+					id: "04FD666A16729589"
+					type: "item"
+					item: "aoa3:rusted_iron_ingot"
+				}
+				{
+					id: "54C4BCD0D75B6955"
+					type: "item"
+					item: "aoa3:armour_plating"
+				}
+				{
+					id: "61B1D0CEC272ADB9"
+					type: "item"
+					item: "aoa3:power_core"
+				}
+			]
+			rewards: [{
+				id: "2803CB56AEAB840A"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Bomb Carriers and Bone Backs"
+			x: -3.75d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5Bandit, be careful of the Bomb Carrier. This crazy human has a stockpile of TNT it likes to fight with. It can't hurt itself or terrain with the explosions, but YOU are squishy and blow up nicely apparently. They can spawn ANYWHERE so be careful!"
+				""
+				"&5The Boneback, though, spawns only in savanna type biomes. They are fairly aggressive too."
+				""
+				"&5Neither of these drop anything super unique."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "770AFA763824AB32"
+			tasks: [
+				{
+					id: "037321A1350A03F2"
+					type: "kill"
+					entity: "aoa3:bomb_carrier"
+					value: 5L
+				}
+				{
+					id: "6AE385C4C1205143"
+					type: "kill"
+					entity: "aoa3:boneback"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "1C782139EB161E0F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Bush Baby and Chimera"
+			x: -2.75d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5Busy Babies can be found in Jungle type biomes.  These are extremely weird creatures and pretty fast, so watch out. "
+				""
+				"&5The Chimera is a fairly dangerous creature to new Users. They can take a lot of hits and dish out a lot of damage if you are pretty new to the game. You can get a Raw Chimera Chop, a decent food item when cooked."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "29D9D164107BBBAD"
+			tasks: [
+				{
+					id: "680B2163406BD301"
+					type: "kill"
+					entity: "aoa3:bush_baby"
+					value: 5L
+				}
+				{
+					id: "5663701B2D42B47A"
+					type: "kill"
+					entity: "aoa3:chimera"
+					value: 5L
+				}
+				{
+					id: "295A503CB5F3430F"
+					type: "item"
+					item: "aoa3:raw_chimera_chop"
+				}
+			]
+			rewards: [{
+				id: "28EB82BA37CDAE78"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "The Charger Family"
+			x: -1.75d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5Chargers are a type of bird creature that can be found in most every biome. But the TYPE of charger depends on which biome, and there are a lot of different ones!"
+				""
+				"&5They are pretty common to find all over, and are good to hunt for Charger Shanks (a decent meal when cooked), and feathers."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "5240AA770F66E40A"
+			tasks: [
+				{
+					id: "1D52F44CAE949B1F"
+					type: "kill"
+					entity: "aoa3:charger"
+					value: 5L
+				}
+				{
+					id: "4AE6AB6FF71F3E39"
+					type: "kill"
+					entity: "aoa3:desert_charger"
+					value: 5L
+				}
+				{
+					id: "1ED727DBFF616052"
+					type: "kill"
+					entity: "aoa3:hill_charger"
+					value: 5L
+				}
+				{
+					id: "462C5134F75B9BAF"
+					type: "kill"
+					entity: "aoa3:sea_charger"
+					value: 5L
+				}
+				{
+					id: "4F23B0F6D3B44920"
+					type: "kill"
+					entity: "aoa3:snow_charger"
+					value: 5L
+				}
+				{
+					id: "3C9A709F5A904223"
+					type: "kill"
+					entity: "aoa3:swamp_charger"
+					value: 5L
+				}
+				{
+					id: "13B0DFE158665E52"
+					type: "kill"
+					entity: "aoa3:void_charger"
+					value: 5L
+				}
+				{
+					id: "2D4363FB2597DB74"
+					type: "item"
+					item: "aoa3:raw_charger_shank"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "73ECB45A74B02B67"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "The Charger King"
+			x: -0.75d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5Rarely you can find the King Charger in any biome in the Overworld."
+				""
+				"&5This big Charger is very dangerous, and hits like a truck!"
+				""
+				"&5The only special things the King Charger drops is the Charger Shank like other Chargers, and Sharp Claws, which various other Advent creatures can drop. Be sure to keep it for later crafting."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "4FC459509303FFB9"
+			tasks: [
+				{
+					id: "7DBBDA78BF255950"
+					type: "kill"
+					entity: "aoa3:king_charger"
+					value: 1L
+				}
+				{
+					id: "7FB3F0E9500A321C"
+					type: "item"
+					item: "aoa3:sharp_claw"
+				}
+			]
+			rewards: [{
+				id: "1C07BF7497D58EB5"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Chompers and Cyclops"
+			x: 0.25d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5Chompers can be found in Swamp type biomes. Be careful when fighting it, it can slow you down with its attacks. Deadly in the already muddy, watery swamps."
+				""
+				"&5Chompers can drop Ivory, which is important for a few crafting things."
+				""
+				"&5Cyclops can be found in most every biome. They are pretty strong creatures, and dangerous if you aren't equipped up. They don't drop anything unique."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "7E188858BD36A7BE"
+			tasks: [
+				{
+					id: "3A8602ACB6585E05"
+					type: "kill"
+					entity: "aoa3:chomper"
+					value: 5L
+				}
+				{
+					id: "69E177423172ACED"
+					type: "kill"
+					entity: "aoa3:cyclops"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "03729F6CEEB91ACA"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Fishix and Furlions"
+			x: -0.75d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5The Fishix can be found in Swamp type biomes. It's a pretty tough monster, so be careful. It doesn't drop anything unique."
+				""
+				"&5The Furlion, on the other hand, spawns in Desert and Mesa type biomes. They travel in packs but can be dangerous in singles as well. They drop Furlion Chops, a decent food when cooked."
+				""
+				"&5Furlions have nothing to do with lions, and don't have fur. Don't ask me, it's weird."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "46050C16A04F0DA4"
+			tasks: [
+				{
+					id: "7E5116795E0D025D"
+					type: "kill"
+					entity: "aoa3:fishix"
+					value: 5L
+				}
+				{
+					id: "506D0A0DBDF23016"
+					type: "kill"
+					entity: "aoa3:furlion"
+					value: 5L
+				}
+				{
+					id: "601ED3001206EF8B"
+					type: "item"
+					item: "aoa3:raw_furlion_chop"
+				}
+			]
+			rewards: [{
+				id: "641207BCCDFBEE0B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "ADVENT CRAFTS"
+			x: -2.25d
+			y: -2.75d
+			shape: "square"
+			description: [
+				"&dHey Bandit, while you are out and about gathering the things for this teleporter, you might want to keep raising your skills as well. "
+				""
+				"&dThese skills are going to be important for finding materials for crafting."
+				""
+				"&dKeep chopping trees, hunting monsters, mining stone and ore, and even fishing and running around and stuff."
+				""
+				"&dThe Advent of Ascension stuff isn't locked behind DLC thankfully. Weapons and armor are locked behind Project MMO levels, though, but we don't have to worry about that for a bit."
+			]
+			dependencies: ["5FC0C65E68336246"]
+			id: "5F43029723C5AA50"
+			tasks: [{
+				id: "6685150EA4FFB28A"
+				type: "checkmark"
+				title: "Advent Crafting - Overworld"
+			}]
+		}
+		{
+			title: "Tea Time"
+			x: -2.25d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "Calming"
+			description: [
+				"&dTea is one of those things that can make the world slow down for a moment so you can enjoy a cuppa. "
+				""
+				"&dAdvent of Ascension has its own interesting Tea system. You'll need to make a Tea Sink, which is a setup to brew tea. You place it out, Right Click a Bucket of Water onto it to fill it, then Right Click ingredients and a Cup onto it to brew Tea."
+				""
+				"&dTo make a Cup, you'll need to find Ivory from some of the Advent monsters. The Chomper can be found in Swamps in the Overworld, for example."
+				""
+				"&dTea Seeds can be drop from any hostile mob, or from chopping down trees if your Logging is at Level 10+."
+				""
+				"&dSimple Tea is made by making sure the Teasink has Water, then Right Click the Tea Shreddings onto the Teasink, then the Cup. "
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "29198B5EA727A867"
+			tasks: [
+				{
+					id: "6D8D9704EC9248AF"
+					type: "item"
+					item: "aoa3:tea_sink"
+				}
+				{
+					id: "501E7DFC38C8BD61"
+					type: "item"
+					item: "aoa3:tea_seeds"
+				}
+				{
+					id: "4EBD44EEAA657113"
+					type: "item"
+					item: "aoa3:tea_shreddings"
+				}
+				{
+					id: "6B199F49D2FCC8E5"
+					type: "item"
+					item: "aoa3:cup"
+				}
+				{
+					id: "6BDC6AA7BFEEF3E0"
+					type: "item"
+					item: "aoa3:tea"
+				}
+			]
+			rewards: [{
+				id: "04FD158A96F72487"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Goalbys and Goblins"
+			x: -4.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5Goalbies can spawn in Mountain type biomes. They are pretty dangerous, but don't drop anything special."
+				""
+				"&5Goblins spawn in Plains, Forest, and Extreme Hills type biomes. They spawn solo usually, but are fairly dangerous as one of the earliest magic slinging mobs you can encounter."
+				""
+				"&5Goblins, as well, do not drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "3EADB6FB786C903D"
+			tasks: [
+				{
+					id: "5B94D11BC62AFE6B"
+					type: "kill"
+					entity: "aoa3:goalby"
+					value: 5L
+				}
+				{
+					id: "075D98866E109504"
+					type: "kill"
+					entity: "aoa3:goblin"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "4F26269834D565A7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Hags and Horndrons"
+			x: -3.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5Hags are dangerous creatures that spawn in Swamp type biomes. They can use magic, slinging magic bolts at enemies."
+				""
+				"&5Hags drop Sticky Slime, which will be useful later for crafting."
+				""
+				"&5Horndrons can spawn in most any biome, and are fairly dangerous and deadly. "
+				""
+				"&5Horndrons can drop Ivory, which is important for crafting."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "0AC44DE3D994EBFC"
+			tasks: [
+				{
+					id: "49AEA1F8AC7C4418"
+					type: "kill"
+					entity: "aoa3:hag"
+					value: 5L
+				}
+				{
+					id: "3E0FB066EEE15B86"
+					type: "item"
+					item: "aoa3:sticky_slime"
+				}
+				{
+					id: "1757B3998CA2A2E1"
+					type: "kill"
+					entity: "aoa3:horndron"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "475D41ACC8401EB2"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Frame Items"
+			x: -4.25d
+			y: -4.0d
+			shape: "rsquare"
+			subtitle: "Not to be confused with FrameD"
+			description: [
+				"&dThe Frame Bench is a useful workbench for making Frames. "
+				""
+				"&dFrames are used to build strong weapons and armor by using the Infusion Bench to infuse items onto the Frame."
+				""
+				"&dYou can make a Frame for many items, like a Helmet Frame, just by putting in Scrap Metal and selecting the Frame you want."
+				""
+				"&dScrap Metal drops from most hostile mobs in the Overworld, or you can create your own with a few materials."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "7D7B1D0988C9DA1B"
+			tasks: [
+				{
+					id: "19DB64CB9AF24721"
+					type: "item"
+					item: "aoa3:frame_bench"
+				}
+				{
+					id: "4486B9A50E993F3A"
+					type: "item"
+					item: "aoa3:scrap_metal"
+				}
+				{
+					id: "5F46D3BD49429093"
+					type: "item"
+					item: "aoa3:infusion_table"
+				}
+				{
+					id: "3A9643C007787B48"
+					type: "item"
+					item: "aoa3:helmet_frame"
+				}
+			]
+			rewards: [{
+				id: "4F007908C446A642"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Ice Gear"
+			icon: {
+				id: "aoa3:ice_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.25d
+			y: -4.0d
+			shape: "rsquare"
+			subtitle: "Chilly Protection"
+			description: [
+				"&dIce Crystals can be found on many ice centered creatuers, like the Ice Giant and the Snow Charger in the Overworld."
+				""
+				"&dWith enough Ice Crystals, and a Frame, you can make yourself a set of Ice Armor in an Infusion Table."
+				""
+				"&dIce Armor is not very durable, but in fairly cold biomes, it will repair itself slowly while worn."
+				""
+				"&dIce Crystals can also be made into an Ice Bow, that slows mobs it hits."
+				""
+				"&dIce Bows are made with Reinforced Cloth, made from Tattered Cloth which you can find on clothed Advent mobs, or by tearing up a banner."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "287AFB08CA4CC848"
+			tasks: [
+				{
+					id: "3091F35A6756D661"
+					type: "item"
+					item: "aoa3:ice_crystal"
+				}
+				{
+					id: "2FC66F78054A2814"
+					type: "item"
+					item: {
+						id: "aoa3:ice_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26381BC6A270591B"
+					type: "item"
+					item: "aoa3:torn_cloth"
+				}
+				{
+					id: "3B3E97D3D6B58090"
+					type: "item"
+					item: {
+						id: "aoa3:ice_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5B6B3E8417735E2F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Ice Giant"
+			x: -5.75d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5The Ice Giant is a big, dangerous monster found in any biome with Snow. It hits hard, and takes a lot of punishment for early game Users."
+				""
+				"&5The Ice Giant drops Ice Crystals, which can be used to make armor and weapons you might find useful in cold climates."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "55A3C32465E98F43"
+			tasks: [
+				{
+					id: "32F4A7FBD50D58E9"
+					type: "kill"
+					entity: "aoa3:ice_giant"
+					value: 2L
+				}
+				{
+					id: "29210541FE9CABD6"
+					type: "item"
+					item: "aoa3:ice_crystal"
+				}
+			]
+			rewards: [{
+				id: "4FEFF7939DBF9E5B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Leafy Giant"
+			x: 1.25d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5Leafy Giants tend to spawn in coniferous like biomes. They are big, hard hitting creatures."
+				""
+				"&5The Leafy Giant does not drop anything special."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "4C3103F992A7D65E"
+			tasks: [{
+				id: "409A34644194EDB3"
+				type: "kill"
+				entity: "aoa3:leafy_giant"
+				value: 2L
+			}]
+			rewards: [{
+				id: "6B3C95554B852F6B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Living Fungi and Muckopede"
+			x: -0.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5The Living Fungi starts as a Hidden Fungi, spawning usually in Taiga type biomes. "
+				""
+				"&5They start as Hidden Fungi, looking like large blue mushrooms. If they are hit, they wake up and turn into Living Fungi."
+				""
+				"&5The Living Fungi does not drop anything special."
+				""
+				"&5The Muckopede spawns in mesa type biomes. It is a dangerous creature, but considered a kind of spider, so Bane of Arthropods should work on it."
+				""
+				"&5The Muckopede drops Chitin, which can be used to make Armour Plating and other things."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "61198955D3CB5D55"
+			tasks: [
+				{
+					id: "11225AD6B9C7E9CF"
+					type: "kill"
+					entity: "aoa3:living_fungi"
+					value: 5L
+				}
+				{
+					id: "201CF75A3D716EE3"
+					type: "kill"
+					entity: "aoa3:muckopede"
+					value: 5L
+				}
+				{
+					id: "75F16EB5A302354F"
+					type: "item"
+					item: "aoa3:chitin"
+				}
+			]
+			rewards: [{
+				id: "5EB2EFE55C83B6D4"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Pincher and Sand Golem"
+			x: 0.25d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5The Pincher is a water creature that spawns in Ocean type biomes. They don't spawn very often."
+				""
+				"&5The Pincher can drop Chitin and Armour Plating."
+				""
+				"&5The Sand Golem spawns in sandy biomes. It's a big, dangerous creature that hits fairly hard."
+				""
+				"&5The Sand Golem does not drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "63E4873AAFEDD502"
+			tasks: [
+				{
+					id: "2D80BA84E7A7B18B"
+					type: "kill"
+					entity: "aoa3:pincher"
+					value: 3L
+				}
+				{
+					id: "0BF743E6DC5619F1"
+					type: "item"
+					item: "aoa3:chitin"
+				}
+				{
+					id: "26124D6853F4F74C"
+					type: "item"
+					item: "aoa3:armour_plating"
+				}
+				{
+					id: "7A9BEB272BD84125"
+					type: "kill"
+					entity: "aoa3:sand_golem"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "1309DBCF16BE6019"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sand Giant"
+			x: 1.25d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5The Sand Giant is a big, dangerous creature that spawns in desert time biomes."
+				""
+				"&5The Sand Giant can hit hard and knock you back far if you aren't careful. Make sure you are sufficiently armored for the fight."
+				""
+				"&5The Sand Golem does not drop anything special."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "4B2B9D7C7A376061"
+			tasks: [{
+				id: "32CAA254B9B0E1E7"
+				type: "kill"
+				entity: "aoa3:sand_giant"
+				value: 2L
+			}]
+			rewards: [{
+				id: "64E7B51A090AB60B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Sasquatch and Sea Troll"
+			x: 0.25d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5The Sasquatch spawns in coniferous type biomes. "
+				""
+				"&5It does not drop anything special."
+				""
+				"&5The Sea Troll is a dangeorus creature that spawns in Beach type biomes. It casts ranged spells to fight, so be careful."
+				""
+				"&5The Sea Troll does not drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "51E8C4955551A3EE"
+			tasks: [
+				{
+					id: "7C8332D32A0490C1"
+					type: "kill"
+					entity: "aoa3:sasquatch"
+					value: 5L
+				}
+				{
+					id: "64CAA500EC46D545"
+					type: "kill"
+					entity: "aoa3:sea_troll"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "10995CE42EEE4F2F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sphinx and Tree Spirit"
+			x: -1.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5The Sphinx spawns in Desert type biomes. "
+				""
+				"&5It does not drop anything specific."
+				""
+				"&5Tree Spirits start as Dead Trees, spawning in Forest type biomes."
+				""
+				"&5When a Dead Tree is hit, it turns into a Tree Spirit to fight. "
+				""
+				"&5The Tree Spirit doesn't drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "72954D2B5F55B894"
+			tasks: [
+				{
+					id: "05465507C4DEC7AC"
+					type: "kill"
+					entity: "aoa3:sphinx"
+					value: 5L
+				}
+				{
+					id: "6B730B41E231F64C"
+					type: "kill"
+					entity: "aoa3:tree_spirit"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "475F507B56A779F7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Stone Giant"
+			x: -5.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5Stone Giants are dangerous creatures that spawn in desert type biomes."
+				""
+				"&5It can knock you back heavily with each attack, make sure you are well armored."
+				""
+				"&5The Stone Giant does not drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "6A3FA3259FC3E9AD"
+			tasks: [{
+				id: "682B02897C6523FF"
+				type: "kill"
+				entity: "aoa3:stone_giant"
+				value: 2L
+			}]
+			rewards: [{
+				id: "249E83A45385C2D3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Wood Giant"
+			x: 1.25d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5The Wood Giant is a dangerous creature that can spawn in any biome."
+				""
+				"&5The Wood Giant can knock you far back when it hits you, be sure to be armored up when fighting it."
+				""
+				"&5The Wood Giant doesn't drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "3B88200299F572CF"
+			tasks: [{
+				id: "323787FE486EC3E7"
+				type: "kill"
+				entity: "aoa3:wood_giant"
+				value: 2L
+			}]
+			rewards: [{
+				id: "04AFD721B3AB13F2"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Yeti and Bugeye"
+			x: -2.75d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&5The Yeti spawns in snowy type biomes. "
+				""
+				"&5The Yeti's attacks can slow you down."
+				""
+				"&5The Yeti can drop Yeti Fingernails and Ice Crystals. The Fingernails can only be obtained if you kill the Yeti with Shears, and only rarely. The Fingernails can be eaten for...some reason. I don't know why."
+				""
+				"&5The Bugeye spawns at night in any biome."
+				""
+				"&5When the Bugeye attacks, it can block part of your vision."
+				""
+				"&5The Bugeye can drop Chitin when killed."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "5101D8064EC8BC73"
+			tasks: [
+				{
+					id: "4928D72731F1F5A4"
+					type: "kill"
+					entity: "aoa3:yeti"
+					value: 5L
+				}
+				{
+					id: "7265F5284EB8A6D4"
+					type: "item"
+					item: "aoa3:ice_crystal"
+				}
+				{
+					id: "5FBF039981D61575"
+					type: "item"
+					item: "aoa3:yeti_fingernails"
+				}
+				{
+					id: "3604DAE074582A81"
+					type: "kill"
+					entity: "aoa3:bugeye"
+					value: 5L
+				}
+				{
+					id: "299EEE0AC48E45EF"
+					type: "item"
+					item: "aoa3:chitin"
+				}
+			]
+			rewards: [{
+				id: "285257BFC1A4A2F6"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Nightfly and Night Reaper"
+			x: -4.75d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5The Nightfly is a flying creature that spawns at night in almost any biome. "
+				""
+				"&5The Nightfly is considered an arthropod, so Bane of Arthropods should work on it."
+				""
+				"&5It does not drop anything specific."
+				""
+				"&5The Night Reaper can only spawn at night or in full darkness in any biome. "
+				""
+				"&5The Night Reaper can cause temporary blindness if its attacks hit."
+				""
+				"&5Night Reapers can drop Torn Cloths, useful in crafting."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "7C99F269E4BEF4F3"
+			tasks: [
+				{
+					id: "456BC78B339B8A47"
+					type: "kill"
+					entity: "aoa3:nightfly"
+					value: 5L
+				}
+				{
+					id: "50C4D366E99CFC65"
+					type: "kill"
+					entity: "aoa3:night_reaper"
+					value: 2L
+				}
+				{
+					id: "53B76253CC6AFEBE"
+					type: "item"
+					item: "aoa3:torn_cloth"
+				}
+			]
+			rewards: [{
+				id: "25757013D0202969"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Everbeast and Ghost"
+			x: -3.75d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5Everbeasts have a rare chance to spawn underground in almost any biome."
+				""
+				"&5Everbeasts drop Sharp Claws, good for crafting later."
+				""
+				"&5Ghosts spawn in darkness underground in any biome."
+				""
+				"&5Ghosts can drop Ghostly Powder, a useful crafting ingredient for many things."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "0CB990C2A3A04001"
+			tasks: [
+				{
+					id: "2CF26E49B1AB06A9"
+					type: "kill"
+					entity: "aoa3:everbeast"
+					value: 2L
+				}
+				{
+					id: "137D1B9C029F1683"
+					type: "item"
+					item: "aoa3:sharp_claw"
+				}
+				{
+					id: "3A6C1FC8D11628D9"
+					type: "kill"
+					entity: "aoa3:ghost"
+					value: 5L
+				}
+				{
+					id: "643EF07D2199A93C"
+					type: "item"
+					item: "aoa3:ghostly_powder"
+				}
+			]
+			rewards: [{
+				id: "7C8A625916E4F9DA"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Mother Void Walker"
+			x: -5.75d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&5The Mother Void Walker is a very dangerous creature that spawns underground in any biome."
+				""
+				"&5The Mother Void Walker can cause temporary blindness when attacking. "
+				""
+				"&5The Mother Void Walker can drop Void Scales, good for crafting. It also has a decent chance of dropping a Void Sword, which can stun enemies on hit."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "7852BF324998D054"
+			tasks: [
+				{
+					id: "79DA63CC0F12BE26"
+					type: "kill"
+					entity: "aoa3:mother_void_walker"
+					value: 2L
+				}
+				{
+					id: "523EE61B8369ACF1"
+					type: "item"
+					item: "aoa3:void_scales"
+				}
+				{
+					id: "0584FB37C36CE52B"
+					type: "item"
+					item: {
+						id: "aoa3:void_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4AFBC1FEEF59A128"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Shade and Trickster"
+			x: -2.75d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5Shades spawn underground in almost any biome."
+				""
+				"&5Shades start as Shadows. Upon being hit, the Shadow will instantly transform into a Shade and attack."
+				""
+				"&5The Shade does not drop anything specific."
+				""
+				"&5The Trickster is a dangerous creature that spawns deep underground in any biome."
+				""
+				"&5The Trickster can, every once in a while, go invisible and spawn a Trickster Clone to distract you."
+				""
+				"&5Neither the Trickster or it's clones drop anything specific."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "55D0B56142E962DD"
+			tasks: [
+				{
+					id: "7504EF086E03A1A6"
+					type: "kill"
+					entity: "aoa3:shade"
+					value: 5L
+				}
+				{
+					id: "6DC34CA392653A7C"
+					type: "kill"
+					entity: "aoa3:trickster"
+					value: 5L
+				}
+				{
+					id: "39483C6DA83BCBAA"
+					type: "kill"
+					entity: "aoa3:trickster_clone"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "1CD18A58BE9768F0"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Void Walker and Elkanyne"
+			x: -1.75d
+			y: 3.5d
+			shape: "rsquare"
+			description: [
+				"&5The Void Walker spawns underground in any biome."
+				""
+				"&5When the Void Walker attacks, it can cause blindness for a short time."
+				""
+				"&5The Void Walker drops Void Scales, useful for crafting."
+				""
+				"&5The Elkanyne is a passive creature that spawns in Savannah type biomes."
+				""
+				"&5You can lead Elkanyne around by holding Brown Mushrooms, as well as get them to breed."
+				""
+				"&5Elkanyne drop Ivory, which is good for crafting."
+			]
+			dependencies: ["3E3E6553CBF3C30D"]
+			id: "5398A6D6E37E89D0"
+			tasks: [
+				{
+					id: "7A1C3D071AD91BCB"
+					type: "kill"
+					entity: "aoa3:void_walker"
+					value: 5L
+				}
+				{
+					id: "25A930C8F7A0E5DC"
+					type: "item"
+					item: "aoa3:void_scales"
+				}
+				{
+					id: "3ADBDF570831229F"
+					type: "kill"
+					entity: "aoa3:elkanyne"
+					value: 5L
+				}
+				{
+					id: "1CD2B7603159CB6B"
+					type: "item"
+					item: "aoa3:ivory"
+				}
+			]
+			rewards: [{
+				id: "0F1ACB9035FD70CE"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "SMASH"
+			x: 5.0d
+			y: -1.875d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dBandit, while you've been working on getting the Ancient Teleporter up and running, I've been digging through the FOP Game Server a bit."
+				""
+				"&5Many of the higher up FOP corporate staff transferred their souls INTO the game. Each one has taken control of an Advent of Ascension boss."
+				""
+				"&dYou'll need to defeat each one, whether by combat or... other methods."
+				""
+				"&5Look at the matching quest for that."
+				""
+				"&dBut if you want to fight Smash, keep reading. Smash used to be one of the general managers, known as a big trickster. He was allowed to take over the 'weakest' AoA boss, and become King of the Trolls."
+				""
+				"&5You'll need to make a Troll Idol to get his attention. Then go to an open area away from your base and..."
+				""
+				"&dTHROW IT TO THE GROUND!"
+			]
+			dependencies: ["3E2831A2D27654C0"]
+			size: 1.25d
+			id: "3011291910FDA2DC"
+			tasks: [
+				{
+					id: "154F2F7EF5DBE99B"
+					type: "item"
+					item: "aoa3:troll_idol"
+				}
+				{
+					id: "68F860B8C1CA5409"
+					type: "kill"
+					entity: "aoa3:smash"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "08EBE5AEC1FC20E2"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "SMASH'S WALLET"
+			x: 5.0d
+			y: -0.625d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&dWell, we take it you tried fighting Smash, or just wanted to see what this method was, right?"
+				""
+				"&5Either way, knowing there are other ways to fight the FOP is a good thing. Even though Smash is the weakest of the FOP Corporate, he's still a Boss level creature and can wreck you easily if you aren't prepared."
+				""
+				"&dSo we're going to try finding a way for you to 'pacify' each Boss if possible, and get them on your side. "
+				""
+				"&5Or at least get them neutral with you. Enough to get the Executive Card they carry."
+				""
+				"&dFor Smash, he really just wants some money. Not too hard, right?"
+				""
+				"&5I will note, though, even if you aren't going to fight the bosses, Bandit, each one gives you a sort of sample of the higher Tiers of worlds. Everthing get stronger as you progress."
+			]
+			dependencies: ["3E2831A2D27654C0"]
+			size: 1.25d
+			id: "72B31F94951E79EF"
+			tasks: [
+				{
+					id: "03C2074003883B9B"
+					type: "item"
+					item: "aoa3:copper_coin"
+					count: 100L
+					consume_items: true
+				}
+				{
+					id: "4ADBD75708F221FB"
+					type: "item"
+					item: "calemiutils:coin_penny"
+					count: 100L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4123EEA0A156F42D"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "31DC8FA5B7A074E0"
+					type: "item"
+					item: "kubejs:boss_card_smash"
+				}
+			]
+		}
+		{
+			title: "Smashed Out"
+			x: 6.5d
+			y: -1.25d
+			shape: "pentagon"
+			subtitle: "First Down, Twenty Eight to Go"
+			description: [
+				"&dOkay, good work Bandit. Handled Smash pretty well there."
+				""
+				"&5That's just a taste of the Corporate ladder in FOP. They only get bigger, badder, and harder to bribe from here."
+				""
+				"&dSmash was pretty low on the totem pole. But each Corporate Boss Card we get puts us closer to our goal."
+				""
+				"&5Boss Cards have special access to certain parts of the FOP Game Server. The more of these cards we get, the stronger a foothold we get into the system to go along with the Audubon Worm progress."
+				""
+				"&dEventually we can get a strong enough foothold that it'll be much harder for them to remove us when they discover us."
+				""
+				"&5When, not if, Bandit. They'll find us out eventually, its only a matter of time."
+			]
+			dependencies: [
+				"3011291910FDA2DC"
+				"72B31F94951E79EF"
+			]
+			dependency_requirement: "one_completed"
+			id: "148669A61C9EFBF4"
+			tasks: [{
+				id: "4006AFE69B13C5D1"
+				type: "item"
+				item: "kubejs:boss_card_smash"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7797EC090D62CFF3"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Void Gear"
+			x: -3.25d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "The Darkness Protects"
+			description: [
+				"&dVoid Scales can be used to make a good early set of armor (and not just good because it's purple!), that can slow down enemies that hit you."
+				""
+				"&dEach piece of Void Armor increases the chance of slowing down your target, and wearing a full four piece set adds an even bigger chance on top."
+				""
+				"&dThe Void Bow is just a good ranged weapon, though it doesn't slow enemies down like the Armor does."
+				""
+				"&dVoid Scales can be found on Void Chargers, Void Walkers, and the Mother Void Walker in the Overworld, as well as other creatures on other worlds."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "5F19CA4A2A21E708"
+			tasks: [
+				{
+					id: "0ECCE31A31699702"
+					type: "item"
+					item: "aoa3:void_scales"
+				}
+				{
+					id: "6C78B3BEB9335CAA"
+					type: "item"
+					item: {
+						id: "aoa3:void_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3555AB171BF72E40"
+					type: "item"
+					item: {
+						id: "aoa3:void_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5788722EB48FD371"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Clear Backblast!"
+			x: -4.25d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "Fire in the Hole!"
+			description: [
+				"&dThe RPG is a classic game trope in army games when you need to take out something big, right?"
+				""
+				"&dIn the FOP Gameserver, you can use Void Scales and Limonite Ingots to turn a Cannon Frame into an RPG!"
+				""
+				"&dIt requires Grenades as ammo (It is, after all, a ROCKET PROPELLED grenade, right?), and does a good amount of splash damage!"
+				""
+				"&dAnd hey, if you don't have the RPG itself, you can just Right Click and throw the Grenades on their own."
+				""
+				"&dAlso be careful! The RPG and Grenades don't break blocks, but they do start fires. And fires DO destroy blocks."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "3E4FCFC9637F8B61"
+			tasks: [
+				{
+					id: "184F0D0442BC5BC8"
+					type: "item"
+					item: {
+						id: "aoa3:rpg"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "67878C1A1DEA929F"
+					type: "item"
+					item: {
+						id: "aoa3:grenade"
+						Count: 1b
+						tag: {
+							HideFlags: 2b
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "33B54C9E72399AD0"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Keep the Change..."
+			x: -6.25d
+			y: -4.0d
+			shape: "rsquare"
+			subtitle: "...Ya Filthy Animal"
+			description: [
+				"&dA great scene from a classic. Just like the Chicago Typewriter here, the Tommy gun. Or just Tommy, I guess. "
+				""
+				"&dThe Tommy uses Limonite Bullets for its ammo. It fires at a decent rate, so be sure to be stocked up on ammo."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "76705D95215E5BCA"
+			tasks: [
+				{
+					id: "469035E1A26F175F"
+					type: "item"
+					item: {
+						id: "aoa3:tommy"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "265519FF4A2E7F70"
+					type: "item"
+					item: "aoa3:limonite_bullet"
+				}
+			]
+			rewards: [{
+				id: "19286C1A2814B827"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Cold Blasted"
+			x: -5.25d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "Ice to Meet You"
+			description: [
+				"&dThe Blast Chiller is a good early game gun to shoot for. It can slow down enemies you shoot with it."
+				""
+				"&dThe Blast Chiller uses your AoA Spirit as ammunition."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "7913E52AAC8DE521"
+			tasks: [{
+				id: "695A56A69F3C677C"
+				type: "item"
+				item: {
+					id: "aoa3:blast_chiller"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2b
+					}
+				}
+			}]
+			rewards: [{
+				id: "063059A450A05790"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Jade Gear"
+			x: 0.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dJade, while having only a few uses, is a bit stronger and more common than diamond."]
+			dependencies: ["5F43029723C5AA50"]
+			id: "4C97356EDF3283CB"
+			tasks: [
+				{
+					id: "32948F5B49205B08"
+					type: "item"
+					item: "aoa3:jade"
+				}
+				{
+					id: "702B00A63120D0C8"
+					type: "item"
+					item: {
+						id: "aoa3:jade_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3F9F38B38BE0AADC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Amethyst Gear"
+			x: -1.25d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dAmethyst is about on par with Diamond, but a bit more common. It also has far less uses than Diamond does."
+				""
+				"&dIt is, however, purple. And thus better than Diamond."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "6473A9F33F692821"
+			tasks: [
+				{
+					id: "12D40CB9A0AFB768"
+					type: "item"
+					item: "aoa3:amethyst"
+				}
+				{
+					id: "150C029B890E6F78"
+					type: "item"
+					item: {
+						id: "aoa3:amethyst_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "169FE0CD01A3CA20"
+					type: "item"
+					item: {
+						id: "aoa3:amethind_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "14FD3657277BFB03"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Rosite Gear"
+			x: -2.25d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dRosite is a decently strong metal early game for making tools."]
+			dependencies: ["5F43029723C5AA50"]
+			id: "40008EC8697729A5"
+			tasks: [
+				{
+					id: "399BE81D7BF4A49B"
+					type: "item"
+					item: "aoa3:rosite_ingot"
+				}
+				{
+					id: "758FE522A5FF9465"
+					type: "item"
+					item: {
+						id: "aoa3:rosite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4610402EE6FF44ED"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Back to Heck"
+			x: 8.0d
+			y: -1.25d
+			shape: "pentagon"
+			subtitle: "Fine fine, it's hell. Okay?"
+			description: [
+				"&dAlright, I think its time we head back to the Nether. We need to examine closer what the FOP has done with these other worlds."
+				""
+				"&5Be sure you are armed and armored, Bandit. The Nether is a much more dangerous place now. "
+				""
+				"&dI know we had you make the Lelyetia Realmstone, but hold off going there for a moment."
+				""
+				"&5Well, I mean we aren't going to stop you. Feel free to visit it if you want, but we'll need you to go to the Nether next when you are ready."
+				""
+				"&dPoint, brother. When you are ready, Bandit, we'll continue in the next section. Don't worry, we'll get to Lelyetia research soon."
+			]
+			dependencies: ["148669A61C9EFBF4"]
+			id: "59F3969498D4078C"
+			tasks: [{
+				id: "5EDD0721B40B0909"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "5B99F2560E868A92"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Sapphire Gear"
+			x: -0.25d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dSapphires are the rarest Advent of Ascension material in the Overworld. "]
+			dependencies: ["5F43029723C5AA50"]
+			id: "347572D8EA734FDC"
+			tasks: [
+				{
+					id: "20A5773E1C94635C"
+					type: "item"
+					item: "aoa3:sapphire"
+				}
+				{
+					id: "213F4DD909496010"
+					type: "item"
+					item: {
+						id: "aoa3:sapphire_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7BB3D4E35F5DEE6B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Ready For Battle"
+			x: -2.25d
+			y: -6.0d
+			shape: "rsquare"
+			subtitle: "And Happy About It"
+			description: ["&dThe Alacrity Bow is a decent bow that you can make with Jade and Sapphire. It uses Arrows for ammunition."]
+			dependencies: [
+				"4C97356EDF3283CB"
+				"347572D8EA734FDC"
+			]
+			id: "4D3F25E7797D88D1"
+			tasks: [{
+				id: "6E813948C224298B"
+				type: "item"
+				item: {
+					id: "aoa3:alacrity_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02D2682A71E25F11"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -0.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dNight Vision Goggles are quite a useful piece of armor. It allows you to see at night, and a bit under water as well."
+				""
+				"&dOn top of that, you can wear them in place of any helmet from an Advent of Ascension armor set, and it will still count as a piece of that armor for Set Bonuses. "
+				""
+				"&dJust keep in mind some Armor Sets have extra bonuses on the helmet, and the missing armor might be detrimental the deeper into the FOP Game Server you get."
+			]
+			dependencies: [
+				"4C97356EDF3283CB"
+				"7D7B1D0988C9DA1B"
+			]
+			id: "420733071145A568"
+			tasks: [{
+				id: "272ED903C6F93751"
+				type: "item"
+				item: {
+					id: "aoa3:night_vision_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "339BE8363A3CF3E2"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Stained-Glass Lamps"
+			x: -3.25d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dRedstone Lamps are nice, but they kind of are plain on their own. "
+				""
+				"&dThankfully, you can make some Stained Glass Lamps instead. They are pretty and light up the area nicely."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "0D498B67088B2413"
+			tasks: [{
+				id: "5170C2DB006A9490"
+				type: "item"
+				item: "aoa3:purple_stained_glass_lamp"
+			}]
+			rewards: [{
+				id: "2518589876F1D218"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Natural Ivory"
+			x: -1.25d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dFrom the Ivory dropped by various creatures, like the Elkanyne, you can make some fancy looking decorative blocks."
+				""
+				"&dYou'll probably find more creatures and other ways to obtain Ivory in later worlds."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "4490FAEB1A95A7BB"
+			tasks: [
+				{
+					id: "7E68DF27DD59507D"
+					type: "item"
+					item: "aoa3:natural_limonite_ivory"
+				}
+				{
+					id: "1E26CD6A623451A7"
+					type: "item"
+					item: "aoa3:natural_rosite_ivory"
+				}
+				{
+					id: "6409DC56F66B9A98"
+					type: "item"
+					item: "aoa3:patterned_limonite_ivory"
+				}
+			]
+			rewards: [{
+				id: "293C609DDF38D862"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -1.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe primary use for Runes is staff magic."
+				""
+				"&dThe Wind Staff is the first staff you can make. It throws out a big wind blast that knocks enemies back."
+				""
+				"&dBut to cast spells with the staff, you have to have enough of the appropriate Rune. For the Wind Staff, each Wind blast costs 3 Wind Runes."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "3C78334E9B675974"
+			tasks: [
+				{
+					id: "75977BC2DAF52BED"
+					type: "item"
+					item: {
+						id: "aoa3:wind_staff"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7CE00D69D51255A6"
+					type: "item"
+					item: "aoa3:wind_rune"
+				}
+			]
+			rewards: [{
+				id: "667D81E8C22D861E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -5.25d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dA good, solid bolt rifle. Bit old school, but that just means its a classic."
+				""
+				"&dIt fires Metal Slugs for ammunition. You can Scope in by Sneaking while holding the Bolt Rifle."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "5252A91CF03F9FFB"
+			tasks: [
+				{
+					id: "3986068B1C8453DE"
+					type: "item"
+					item: {
+						id: "aoa3:bolt_rifle"
+						Count: 1b
+						tag: {
+							Damage: 0
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "4192A655B20D0E15"
+					type: "item"
+					item: "aoa3:metal_slug"
+				}
+			]
+			rewards: [{
+				id: "4D1FA380DD302D99"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			icon: "pneumaticcraft:stop_worm"
+			x: 3.25d
+			y: -2.25d
+			shape: "gear"
+			subtitle: "Portal Dangers"
+			description: [
+				"&dBandit! When you enter a portal to another world, you need to be very careful."
+				""
+				"&5The FOP locked off dimension access to their DLC, so it'll stop you on the spot if you try to go into a portal you don't have the DLC for yet."
+				""
+				"&dThe problem is sometimes it locks you in place and you start vibrating wildly."
+				""
+				"&5To death in fact."
+				""
+				"&dSlowly. Slow vibrating death. It's very hard to get out of the portal trap loop without dieing, but you can avoid getting INTO the loop."
+				""
+				"&5Try walking into the portal slowly. Don't jump, don't run. At least the first time you enter a new portal to make sure you have the DLC."
+				""
+				"&dI wonder... is that function an accident of the DLC layer.... or by design to have a laugh?"
+			]
+			dependencies: ["3E2831A2D27654C0"]
+			size: 0.75d
+			id: "032BF8AA988208DD"
+			tasks: [{
+				id: "5DD89B0F352E5198"
+				type: "checkmark"
+				title: "BE CAREFUL!"
+			}]
+		}
+		{
+			title: "Limonite Gear"
+			x: -3.25d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dLimonite is a pretty common metal you can find in the Overworld. "
+				""
+				"&5Its roughly on par with Iron for strength and durability, but has far less uses unfortunately. It mostly makes weapons, tools, and ammunition for other weapons."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "5BFB2FFADFE2072F"
+			tasks: [{
+				id: "0525884C956A2388"
+				type: "item"
+				item: {
+					id: "aoa3:limonite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BB9483045547FE7"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Throw It Downtown!"
+			x: 0.75d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dBandit, some of the NPCs the FOP have added wander the world, buying and selling certain goods for Scrypto."
+				""
+				"&5One you might like to keep an eye out for is the Assassin. He sells various weapons and ammo, doesn't have a huge supply but they are pretty cheap comparatively."
+				""
+				"&dThe Slice Star, Chakram, and Goo Ball can be Right Clicked and thrown as weapons. The Goo Ball slows enemies, the Chakram poisons enemies, and the Slice Star just... slices enemes."
+				""
+				"&5You can also find all of these in some loot chests, in Temple traps, or in certain Weapon Cases you can find."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "08E517D3A58B0E81"
+			tasks: [
+				{
+					id: "67E8414855446E0C"
+					type: "item"
+					item: {
+						id: "aoa3:slice_star"
+						Count: 1b
+						tag: {
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "74E03A3CA366F2F9"
+					type: "item"
+					item: {
+						id: "aoa3:chakram"
+						Count: 1b
+						tag: {
+							HideFlags: 2b
+						}
+					}
+				}
+				{
+					id: "691EDC121E738F2D"
+					type: "item"
+					item: {
+						id: "aoa3:goo_ball"
+						Count: 1b
+						tag: {
+							HideFlags: 2b
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7CF59AE6AE796BB5"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Gamblin' Man"
+			x: -0.25d
+			y: -6.0d
+			shape: "rsquare"
+			subtitle: "Or Gal, or Other, On Some Worlds!"
+			description: [
+				"&dIn most every world, Bandit, you can find a FOP NPC called a Lottoman. "
+				""
+				"&5The FOP added a random gambling NPC to encourage folks to try their luck and spend all their Scrypto."
+				""
+				"&dThey sell all kinds of random loot boxes. Kind of like our Blind Boxes, but way less stuff in them."
+				""
+				"&5The contents may or may not be worth the cost..."
+				""
+				"&dThe Weapon Case has...weapons. The Rune Box has runes. The Treasure Box could have money, gems, or possibly the rare Utopian armor piece."
+				""
+				"&5That armor increases your XP gain for Advent of Ascension skills. Good to find if you are lucky."
+				""
+				"&dOh yeah, the Lotto Totem? Epitome of gambling."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "3B4C4700E242F1FB"
+			tasks: [
+				{
+					id: "6B4C0E872FC9C421"
+					type: "item"
+					item: "aoa3:weapons_case"
+				}
+				{
+					id: "625A3991D261AA96"
+					type: "item"
+					item: "aoa3:rune_box"
+				}
+				{
+					id: "130E19F84B9C1069"
+					type: "item"
+					item: "aoa3:treasure_box"
+				}
+				{
+					id: "024077EC10AD901E"
+					type: "item"
+					item: "aoa3:lotto_totem"
+				}
+			]
+			rewards: [{
+				id: "1A32FC6323E53BE8"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -4.25d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Golden Upgrade Kit is a very rare item that can drop from many Bosses in Advent of Ascension, but also as a prize from guessing correctly on the Lottery Totem."
+				""
+				"&dFor now just save it, later on when you explore more of the FOP Game Server worlds, you'll be able to use it to upgrade older weapons into higher tier ones."
+			]
+			dependencies: ["3B4C4700E242F1FB"]
+			id: "534D269A9450DA3C"
+			tasks: [{
+				id: "743EE50FF93AAC60"
+				type: "item"
+				item: "aoa3:golden_upgrade_kit"
+			}]
+			rewards: [{
+				id: "20CA7BFD1B06650C"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 1.75d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Colour Cannon is probably the rarest item to find. It does a good amount of damage, and only uses your Spirit for ammunition (Though it uses a lot of it, so you'll want to work on these skills, Bandit.)"
+				""
+				"&dTo find it, you have to get extremely lucky when you kill a hostile Advent of Ascension monster. I mean like, rolling a Natural 20, 20 times in a row lucky. Maybe more?"
+				""
+				"&dGuessing correctly on a Lottery Totem gives you a slightly better chance of getting it. Keyword slightly."
+			]
+			dependencies: ["3B4C4700E242F1FB"]
+			id: "7B4E0CC53475C2C5"
+			tasks: [{
+				id: "035C593D99171247"
+				type: "item"
+				item: {
+					id: "aoa3:colour_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "281AA03F950195DF"
+					type: "choice"
+					table_id: 2245246540467579945L
+				}
+				{
+					id: "78CFD254607A7A48"
+					type: "choice"
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "68DCFA4FEB295F16"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+			]
+		}
+		{
+			title: "Hazard Protection"
+			x: -6.25d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dHazmat Armor is an armor set that can be crafted in an Infusion Table."
+				""
+				"&dWearing a full set of Hazmat Armor will provide you with its own oxygen. This means the full suit will act like a diving suit underwater, and as a protective suit in hazardous atmospheres."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "1A438987A9D3D7AD"
+			tasks: [{
+				id: "034F61DB02AC6A7D"
+				type: "item"
+				item: {
+					id: "aoa3:hazmat_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DDBFFA4BD6E35A9"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Lightning!"
+			x: 0.75d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Striker Staff is a staff you can craft. It uses Strike Runes to cast."
+				""
+				"&dThe Striker Staff casts down a lightning bolt where you aim it."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "5FA6AD660F7FEFD9"
+			tasks: [
+				{
+					id: "5D94E803A3DB0DC6"
+					type: "item"
+					item: "aoa3:energy_rune"
+				}
+				{
+					id: "75BB6153A3871049"
+					type: "item"
+					item: {
+						id: "aoa3:striker_staff"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "419563E1A0D7FAF4"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Running On"
+			x: 1.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Stampede is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammo."]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "0F213FAC45AAB2D3"
+			tasks: [{
+				id: "3F08C71BC44C99AC"
+				type: "item"
+				item: {
+					id: "aoa3:stampede"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "281A6CBFDB2288AC"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -6.25d
+			y: -5.0d
+			shape: "rsquare"
+			description: ["&dThe Brown Blaster is a shotgun that you can craft in an Infusion Table. It uses Spreadshot for ammo."]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "600061B7D508477A"
+			tasks: [{
+				id: "356CD721DA1624B4"
+				type: "item"
+				item: {
+					id: "aoa3:brown_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E4F5D5E28E17A42"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: 1.75d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&dEye Bulbs are an ingredient crop you can grow. You can purchase Eye Bulbs from a Naturalist, an NPC that wanders the Overworld. They are planted like Carrots and Potatoes."
+				""
+				"&dHarvesting them gets you more Eye Bulbs. They can be eaten, but do not satiate hunger. Instead you can turn them into Eye Candy with some Sugar."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "50203F008ADF0804"
+			tasks: [
+				{
+					id: "78917DC8115FDEE1"
+					type: "item"
+					item: "aoa3:eye_bulb"
+				}
+				{
+					id: "327D6DE6F3E50C63"
+					type: "item"
+					item: "aoa3:eye_candy"
+				}
+			]
+			rewards: [{
+				id: "4447A6DCDFC1330B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A What?"
+			x: -2.75d
+			y: -7.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Shoe Flinger is... wait... SHOE? Uh... well, it uses Leather Boots for ammunition, and you craft it in an Infusion Table."
+				""
+				"&dThe Old Shoe you get from Hauling Rod fishing."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "7356709F8A5A3B16"
+			tasks: [{
+				id: "38426A58A25E6D18"
+				type: "item"
+				item: {
+					id: "aoa3:shoe_flinger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CECCAAA8C33DD58"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Kicking Up Dust"
+			x: -3.75d
+			y: -7.0d
+			shape: "rsquare"
+			description: ["&dThe Duster is a sniper rifle you can craft in an Infusion Table. It uses Metal Slugs for ammo."]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "6E76FC7B7537B0B8"
+			tasks: [{
+				id: "45B3CF4F46D4BF8F"
+				type: "item"
+				item: {
+					id: "aoa3:duster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B20B8161EE1940B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Leading Targets"
+			x: -1.75d
+			y: -7.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Deadlock is a sniper rifle you can craft in an Infusion Table. It uses Metal Slugs for ammunition."
+				""
+				"&dThe faster the target is moving, the more damage the Deadlock does."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "291D9C5918F16DEB"
+			tasks: [{
+				id: "63D1A9ACA9797958"
+				type: "item"
+				item: {
+					id: "aoa3:deadlock"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25CFC1792B823710"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "I Cast Poison"
+			x: -4.75d
+			y: -7.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Poison Staff is a staff you can craft. It uses Wind and Poison Runes to cast."
+				""
+				"&dWhen used, the Poison Staff launches a projectile that poisons creatures."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "43A15992C3676506"
+			tasks: [{
+				id: "04ADDE6FB505ABD7"
+				type: "item"
+				item: {
+					id: "aoa3:poison_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3857E83DCF291F96"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Water Splash"
+			x: -0.75d
+			y: -7.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Water Staff is a staff you can craft. It uses Wind and Water Runes to cast."
+				""
+				"&dThe Water Staff casts projectiles that slow creatures."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "5ACDFED385C33A24"
+			tasks: [{
+				id: "7EC089F29695362C"
+				type: "item"
+				item: {
+					id: "aoa3:water_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2245EB0C656D5DB8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "It's Just Air?!"
+			x: -5.75d
+			y: -7.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Vortex Cannon is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."
+				""
+				"&dShots from the Vortex Cannon will push all creatures close to you away."
+			]
+			dependencies: ["5F43029723C5AA50"]
+			id: "075AD2D046BFE367"
+			tasks: [{
+				id: "39B3958325926455"
+				type: "item"
+				item: {
+					id: "aoa3:vortex_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D9F919455F1E3C8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Moon Power"
+			x: 0.25d
+			y: -7.0d
+			shape: "rsquare"
+			description: ["&dThe Moon Shiner is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "46A0A016F73B0CE0"
+			tasks: [{
+				id: "7DEB4D751FDDABE3"
+				type: "item"
+				item: {
+					id: "aoa3:moon_shiner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BF5DCA2B25FDB75"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Withering Shot"
+			x: 1.25d
+			y: -7.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Wither Staff is a staff you can craft. It uses Wither and Wind Runes to cast."
+				""
+				"&dWhen used, the Wither Staff launches a projectile that withers the target."
+			]
+			dependencies: ["7D7B1D0988C9DA1B"]
+			id: "220513E280A44050"
+			tasks: [{
+				id: "40C1F88F6606C81F"
+				type: "item"
+				item: {
+					id: "aoa3:wither_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D71095AF6E3ED0B"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

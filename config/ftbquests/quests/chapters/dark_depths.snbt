@@ -1,0 +1,1570 @@
+{
+	id: "3F9396D50966C397"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 12
+	filename: "dark_depths"
+	title: "Intense Depths"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Oxygen Not Included"
+			x: -5.5d
+			y: 0.75d
+			shape: "hexagon"
+			description: [
+				"&5The next two worlds are... well, they are quite doozies. And probably the most opposite places you could find from each other."
+				""
+				"&dOne is a world that is nothing but deep, deep water. The other isn't a world but...an asteroid belt digitized INTO a world."
+				""
+				"&5Both means you'll need to bring your own oxygen, just like Vox Ponds."
+				""
+				"&dUnless you can breath without air. You might be able to with specific Origins? I'm not sure."
+			]
+			dependencies: ["256E65F067E661D0"]
+			id: "172942303A0E2928"
+			tasks: [{
+				id: "62353DE0DAB795C7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Deep in the Sea"
+			x: -3.5d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"&5L'Borean worlds are water worlds, more or less. "
+				""
+				"&dAnd we don't mean like that movie. The ENTIRE world is covered in water, and there is nothing on the surface."
+				""
+				"&5These kind of worlds have very unique creatures and resources, part of why its so deep in the FOP Game Server."
+				""
+				"&dIf you want to get to L'Borean, you'll need to grab a bucket of Candied Water from Candyland, and bring it to Gardencia."
+				""
+				"&5And a Blank Realmstone of course. Get a Gardencia creature to walk into the Candied Water, then kill it to get the L'Borean Realmstone."
+				""
+				"&dCandied Water to Gardencia creatures is like Spinach to Popeye. So be careful!"
+			]
+			dependencies: ["172942303A0E2928"]
+			id: "6E45D8573D19638D"
+			tasks: [{
+				id: "61378A4A71A0E14F"
+				type: "item"
+				item: "aoa3:lborean_realmstone"
+			}]
+			rewards: [{
+				id: "104A71FA16059160"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Under Da Sea"
+			x: -0.75d
+			y: -2.0d
+			shape: "pentagon"
+			description: [
+				"&5Well, it's time to swim I guess, Bandit."
+				""
+				"&dThis place is kind of pretty. Lots of coral. Lots of sea life. "
+				""
+				"&5And lots of things trying to murder you, since they can now just swim up and down towards you. On your guard, Bandit."
+				""
+				"&dHm, may be time to invest in actual diving equipment, Bandit. Do the FOP sell a submarine by chance? Can WE get a submarine in for Bandit?"
+				""
+				"&5Probably not.."
+			]
+			dependencies: ["6E45D8573D19638D"]
+			id: "7C2ACBD95B6EBDD7"
+			tasks: [{
+				id: "09CCF740A5A1D470"
+				type: "dimension"
+				dimension: "aoa3:lborean"
+			}]
+			rewards: [{
+				id: "4DDD4A80613D7DFA"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Powerful Stones"
+			x: 2.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"&5L'Borean worlds tend not to have many, if any ores. The majority of their world is water atop dense stone."
+				""
+				"&dWater worlds tend to be pretty early or late in their life cycles. Instead the resources the FOP is after are contained within the creatures and flora of the worlds."
+				""
+				"&5For current L'Borean, many of the creatures survive by utilizing the power in these Coral Stones."
+				""
+				"&dThey pack a lot of power, it looks like. So be careful when collecting them, Bandit."
+			]
+			dependencies: ["7C2ACBD95B6EBDD7"]
+			id: "73C578E0D6447D7A"
+			tasks: [{
+				id: "2D3AC5E95DF9EF76"
+				type: "item"
+				item: "aoa3:coral_stone"
+			}]
+			rewards: [{
+				id: "025BE211B4A1B146"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "AQUATIC CRAFTS"
+			x: 2.0d
+			y: -3.0d
+			shape: "square"
+			dependencies: ["73C578E0D6447D7A"]
+			id: "0E06627F0ED6F4BE"
+			tasks: [{
+				id: "57E19768CA09061E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "AQUATIC FIGHTS"
+			x: 2.0d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["73C578E0D6447D7A"]
+			id: "4BFDFBC52210A9A5"
+			tasks: [{
+				id: "682A5BD0721F7D42"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Water Staff"
+			x: 2.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Aquatic Staff is a staff you can craft. It uses Wind, Water, and Kinetic Runes to cast."
+				""
+				"&dProjectiles from the Aquatic Staff do more damage if you are underwater."
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "21E9CFFECC9C65A3"
+			tasks: [{
+				id: "1D35AD6BB044F259"
+				type: "item"
+				item: {
+					id: "aoa3:aquatic_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C36ECA818E20A80"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Great Wave Blade"
+			x: 3.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Coral Greatblade is a greatblade you can craft. "]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "1CC0ECAB05EBF54B"
+			tasks: [{
+				id: "401BBA885773EBCB"
+				type: "item"
+				item: {
+					id: "aoa3:coral_greatblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FF1DEC7B69C445A"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Wave Crash"
+			x: 1.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Coralstone Maul is a maul you can craft."]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "0C0D20B72836049C"
+			tasks: [{
+				id: "738BEC208C977E02"
+				type: "item"
+				item: {
+					id: "aoa3:coralstone_maul"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "628A35C09B9C7DD3"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Crashing Sea Suit"
+			x: 2.0d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dBoreic Armor is an armor set you can craft in an Infusion Table."
+				""
+				"&dWhen wearing a piece of Boreic Armor and being in contact with Water or Candied Water, any non-environmental damage will cause an explosion around you. Wearing more pieces of Boreic Armor will increase the size and intensity of the explosion."
+				""
+				"&dWearing a full set of Boreic Armor makes the explosion inflict Slowness on all hostile creatures in the blast radius."
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "3F2E11FAA48DEB16"
+			tasks: [{
+				id: "7F54DA85E36CF28E"
+				type: "item"
+				item: {
+					id: "aoa3:boreic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0467A005873B059B"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Blowing Bubbles"
+			x: 0.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Bubble Horn is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."
+				""
+				"&dWhen fired, the Bubble Horn's short range shots will slow enemies down it hits. If it doesn't hit an enemy, the shot will stop in midair for a few seconds before disappearing. The stationary shot is still able to damage creatures."
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "18466380A36C9D9C"
+			tasks: [{
+				id: "4FBE8929CF5FCAD8"
+				type: "item"
+				item: {
+					id: "aoa3:bubble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D74876C8D71E59D"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Dolphinous Helmet"
+			x: 3.0d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Oceanous Helmet is a helmet you can craft in an Infusion Table."
+				""
+				"&dWhen worn, the Oceanous Helmet applies Dolphin's Grace to you, which enables you to move around under water more easily. It will also provide you with oxygen in hazardous environments, like Vox Ponds."
+				""
+				"&dThe Oceanous Helmet also can stand in for the full set bonus of any Armor. You will not get the individual armor piece bonus for the missing piece, however."
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "24E6F9CD3940BB4E"
+			tasks: [{
+				id: "4A5C22B2CFD2C774"
+				type: "item"
+				item: {
+					id: "aoa3:oceanus_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "18E1FDE231369C38"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Merman Helmet"
+			x: 1.0d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Sealord Diving Helmet is a helmet you can craft in an Infusion Table."
+				""
+				"&dWhen worn, the Sealord Diving Helmet will increase your attack speed as long as you are underwater in Water or Candied Water."
+				""
+				"&dThe Sealord Diving Helmet also can stand in for the full set bonus of any Armor. You will not get the individual armor piece bonus for the missing piece, however."
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "256E86C6E0532127"
+			tasks: [{
+				id: "3F114479FE35DEF3"
+				type: "item"
+				item: {
+					id: "aoa3:sealord_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "389F50D785C28380"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Ocean Upgrades"
+			x: 0.0d
+			y: -5.0d
+			shape: "rsquare"
+			description: ["&dThe Seaside Upgrade Kit is a rare item you can find in L'Borean. It is used to upgrade certain items in a Divine Station, which you can find in a later world."]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "5F4F344626782118"
+			tasks: [{
+				id: "53D37FFA77DE6E61"
+				type: "item"
+				item: "aoa3:seaside_upgrade_kit"
+			}]
+			rewards: [{
+				id: "08A8FE52671FDF9B"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Amphibior and Mermage"
+			x: 2.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&dAmphibiors and Mermages are hostile creatures that spawn in Aquatic Castles in L'Borean."
+				""
+				"&dAmphibiors and Mermages will steadily heal themselves if they are in water. Amphibiors can also can create water while fighting you."
+				""
+				"&dAmphibiors can drop an aquatic bow, and Mermages can drop an aquatic staff."
+			]
+			dependencies: ["4BFDFBC52210A9A5"]
+			id: "7A18D302C3AA4FAE"
+			tasks: [
+				{
+					id: "12B2A5D3EDE9213A"
+					type: "kill"
+					entity: "aoa3:amphibior"
+					value: 5L
+				}
+				{
+					id: "4DD9C091FD75806D"
+					type: "kill"
+					entity: "aoa3:mermage"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "1716489AC127E8ED"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Amphibiyte and Angler"
+			x: 1.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&dAmphibiytes and Anglers are hostile creatures that spawn in L'Borean. Amphibiytes spawn in Amphibiyte Caves while Anglers can spawn anywhere."
+				""
+				"&dAnglers will steadily regenerate health while they are in water."
+				""
+				"&dAmphibiytes have a chance of dropping an Amphibiyte Lung, which is used to summon the Boss of L'Borean. They also have a chance of dropping an aquatic gun."
+			]
+			dependencies: ["4BFDFBC52210A9A5"]
+			id: "36F4DD3AAFE4DA2B"
+			tasks: [
+				{
+					id: "30657C6157B0B799"
+					type: "kill"
+					entity: "aoa3:amphibiyte"
+					value: 5L
+				}
+				{
+					id: "164BDDAEE9FFD444"
+					type: "kill"
+					entity: "aoa3:angler"
+					value: 5L
+				}
+				{
+					id: "57A4E81B98FFBFEA"
+					type: "item"
+					item: "aoa3:amphibiyte_lung"
+				}
+			]
+			rewards: [{
+				id: "170C6D60BFD7E647"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Muncher and Sea Viper"
+			x: 3.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&dMunchers and Sea Vipers are hostile creatures that spawn in L'Borean."
+				""
+				"&dBoth Munchers and Sea Vipers will heal when in water. Sea Vipers will also inflict poison if they hit you."
+			]
+			dependencies: ["4BFDFBC52210A9A5"]
+			id: "46AB921BFD25E40C"
+			tasks: [
+				{
+					id: "1FA9D93E3A81D6D8"
+					type: "kill"
+					entity: "aoa3:muncher"
+					value: 5L
+				}
+				{
+					id: "455D9AB67A965CA5"
+					type: "kill"
+					entity: "aoa3:sea_viper"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "6E8090399DC63BDC"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Neptuno"
+			x: 0.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&dNeptunos are hostile creatures that spawn rarely in L'Borean."
+				""
+				"&dNeptuno's attacks will knock you back. And they will also heal steadily while in water."
+			]
+			dependencies: ["4BFDFBC52210A9A5"]
+			id: "34293E33C1419248"
+			tasks: [{
+				id: "4869E9B98119955C"
+				type: "kill"
+				entity: "aoa3:neptuno"
+				value: 2L
+			}]
+			rewards: [{
+				id: "17614340131683B1"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Master and Monster"
+			x: 4.75d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"&5L'Borean has two bosses, but they are very very... different."
+				""
+				"&dSee, one of them was put here by the FOP, a flying dragon by the name of Dracyon. Dracyon is one of the first of the Board of Directors you will have to face, Bandit."
+				""
+				"&5A very tough one, he got into the position with smart tactics and ruthlesness."
+				""
+				"&dThe other boss is one who was on L'Borean when it was digitized : a creature called Corallus. She was originally a mermaid, and protected these waters... which Dracyon took advantage of. He mutated her, twisted her into a dangerous monster."
+				""
+				"&5He doesn't have control of her, however. He didn't plan for that, but it works out for him, because she is quite dangerous. He enabled her to get a boss card, to help protect L'Borean from Power Users."
+			]
+			dependencies: ["73C578E0D6447D7A"]
+			id: "6F4BC7533A3F122E"
+			tasks: [{
+				id: "4AC6F3C4C2A7A85D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Twisted Protector"
+			x: 7.0d
+			y: -3.25d
+			shape: "pentagon"
+			description: [
+				"&5Corallus is quite a dangerous creature to fight, Bandit. We aren't sure if she is still sentient or not, given how badly twisted Dracyon has made her."
+				""
+				"&dWe can try, that's for sure. While my brother and I look into how to stop Corallus, Bandit, you need to get a way to call her attention at least."
+				""
+				"&dThe Amphibiytes are a favorite of hers, getting one of their lungs should be enough."
+			]
+			dependencies: ["6F4BC7533A3F122E"]
+			id: "285E2046D6E7C043"
+			tasks: [{
+				id: "52DEBAD7657660B8"
+				type: "item"
+				item: "aoa3:amphibiyte_lung"
+			}]
+			rewards: [{
+				id: "44442F18341375E8"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Aquatic Machinations"
+			x: 7.0d
+			y: -0.75d
+			shape: "pentagon"
+			description: [
+				"&5Dracyon is a smart boss, there's a reason he's on the Board of Directors."
+				""
+				"&dAt this stage, we probably won't get far in bribing anyone on the Board of Directors, Bandit. I'm sorry to say. "
+				""
+				"&5We'll look into it though. If we can get to even one of them, it'll cut their power down."
+				""
+				"&dYou should prepare to face Dracyon either way, Bandit. In his off time, Dracyon likes fishing, and requires any Power User who wants to face him to fish as well."
+				""
+				"&5Strange, we know. But just start fishing here in L'Borean. You will eventually fish up a Call of the Drake, which gives you permission to summon him for an audience."
+			]
+			dependencies: ["6F4BC7533A3F122E"]
+			id: "678586175505BC35"
+			tasks: [{
+				id: "1851C3656298EBD6"
+				type: "item"
+				item: "aoa3:call_of_the_drake"
+			}]
+			rewards: [{
+				id: "1779D6667EA19D23"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Worthy Challenge"
+			x: 8.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&5If you aren't able to procure all the components for the Bribe path, Bandit, its understandable. We're near end game with the FOP, so things are...quite more difficult to do now."
+				""
+				"&dFacing Corallus in her home turf is going to be quite a challenge. When you are ready, just throw the Amphibiyte Heart out  into the water of L'Borean to summon her."
+				""
+				"&5Corallus is a strong opponent both in and out of water. If you are on land when she hits you, you'll be Slowed and and Weakened. If you are in water, she will launch you down, deeper into the ocean."
+				""
+				"&dBe careful if she changes to a dark blue color, she has boosted her Strength heavily for a bit."
+				""
+				"&5If you can defeat her, she may drop some aquatic staffs or a special helmet."
+			]
+			dependencies: ["285E2046D6E7C043"]
+			id: "31FE5F5EB86F94B1"
+			tasks: [{
+				id: "7F16AB66AE528464"
+				type: "item"
+				item: "kubejs:boss_card_corallus"
+			}]
+			rewards: [{
+				id: "7C095344FF75B799"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Calming Rage"
+			x: 8.5d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "BOSS BRIBE"
+			description: [
+				"&5I think a good way for us to get past Corallus is to reverse at least some of what Dracyon has done to her. Curing some of her mutation, or at least the rage and madness that came with it."
+				""
+				"&dWhich is no short order, Bandit. You'll need to dive into a bunch of different magic and tech schools to get the right components."
+				""
+				"&5You'll also have to pray to lady luck. Bezoars only spawn as dungeon loot, the FOP doesn't sell them in any of their merchant shops or in their \"additional\" resource purchases."
+			]
+			dependencies: ["285E2046D6E7C043"]
+			id: "564CC5233F5092C9"
+			tasks: [
+				{
+					id: "7B68323933F1F45A"
+					type: "item"
+					item: "aoa3:amphibiyte_lung"
+					consume_items: true
+				}
+				{
+					id: "5AC7A6A7B63C21BE"
+					type: "item"
+					item: "rats:purifying_liquid"
+					consume_items: true
+				}
+				{
+					id: "3509B5F156B57039"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:antidote_bracelet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "107176AE24BCF4DD"
+					type: "item"
+					item: "bountifulbaubles:bezoar"
+					consume_items: true
+				}
+				{
+					id: "1BE52ED8B892E977"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "resourcefulbees:long_calming"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7539ED820E3F27BC"
+					type: "item"
+					item: "kubejs:boss_card_corallus"
+				}
+				{
+					id: "52F7B21FFB4B86FB"
+					type: "choice"
+					table_id: 818089594093312426L
+				}
+			]
+		}
+		{
+			title: "Dragon Flight"
+			x: 8.5d
+			y: -0.75d
+			shape: "diamond"
+			description: [
+				"&5Now that you have a Call of the Drake, you'll need to find a Drake Fountain. These appear on the ocean floor, and have a Dracyon Altar on them. Use the Call of the Drake on the Dracyon Altar to summon Dracyon for an audience."
+				""
+				"&dDracyon will fly and swim around, attacking you. If you somehow manage to summon him on land, he'll occasionally create water in spots to slow you down."
+				""
+				"&5As we said, he's smart. He's also very deadly, if his attacks hit you'll get a slash across your HUD to mess with your view. He'll also launch slowing shots at you."
+				""
+				"&dManage to take him down, and he has a chance of dropping a special weapon or armor."
+			]
+			dependencies: ["678586175505BC35"]
+			id: "235D528273757CFC"
+			tasks: [{
+				id: "4E714371292D5CF7"
+				type: "item"
+				item: "kubejs:boss_card_dracyon"
+			}]
+			rewards: [{
+				id: "7394C100627D0D1F"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Breath of Fresh Berries"
+			x: 4.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dBubble Berries are a food crop you can grow. Bubble Berry Seeds drop off various creatures in L'Borean."
+				""
+				"&dBubble Berries replenish your oxygen meter a bit for each one you eat. "
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "37ECDF4D1B52A523"
+			tasks: [
+				{
+					id: "0EC020AB365DA9EA"
+					type: "item"
+					item: "aoa3:bubble_berry_seeds"
+				}
+				{
+					id: "0D6316B0B816955F"
+					type: "item"
+					item: "aoa3:bubble_berries"
+				}
+			]
+			rewards: [{
+				id: "68866871994247CD"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Deep in Space"
+			x: -3.5d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"&5Lunalus is the world slot reserved for the sections of Asteroid Belts that the FOP have decided to digitize. Usually because they are actually home to various species the FOP wants to capitalize on. Or rare ore asteroids."
+				""
+				"&dUsually both if they can swing it. It also makes a good way to discourage Power Users from reaching the Board of Directors."
+				""
+				"&5So you'll want to make sure you have a way to fly, swing, teleport, what have you around. "
+				""
+				"&dTo get the Lunalus Realmstone, buy a Gravitator from a Toy Merchant in Celeve, and bring it to Haven. You'll need to jump from a high spot,a nd float ACROSS the void between islands with the Gravitator."
+				""
+				"&5If you land safely, the Blank Realmstone will convert."
+			]
+			dependencies: ["172942303A0E2928"]
+			id: "343CA0931F27556D"
+			tasks: [{
+				id: "305536B4F6B839FD"
+				type: "item"
+				item: "aoa3:lunalus_realmstone"
+			}]
+			rewards: [{
+				id: "37C186F0790C1028"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "And Beyond"
+			x: -0.75d
+			y: 3.0d
+			shape: "pentagon"
+			description: [
+				"&5Welcome to Lunalus, Bandit. You brought a space helmet right? Or well, one of the breathing helmets you used back at Vox Ponds at least."
+				""
+				"&dAs you can see, this is an endless field asteroids, various Belts digitized by the FOP, and the unfortunate space travelers trapped within."
+				""
+				"&5Falling to the bottom of this space will teleport you up to the top of it. An endless falling loop until you decide to stop yourself."
+				""
+				"&dAlso, when traveling around, Bandit, be careful. Most of the creatures in here, sentient or not, are trapped in here. Space faring folks will realize they are trapped, and may be very defensive."
+			]
+			dependencies: ["343CA0931F27556D"]
+			id: "5CE1D23027E8631E"
+			tasks: [{
+				id: "03D85AD8AC204C1A"
+				type: "dimension"
+				dimension: "aoa3:lunalus"
+			}]
+			rewards: [{
+				id: "52E788B4C8D1287E"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Orb"
+			x: 2.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"&5While exploring around Lunalus, be careful. Not only are the various creatures trapped in the Asteroid Belt possibly dangerous, the boss of Lunalus also wanders around, keeping a careful eye on things."
+				""
+				"&dShouldn't be too hard to avoid getting their attention. As you explore and scuffle with the others trapped here, keep an eye out for these Orbulons."
+				""
+				"&5These are apparently what the FOP digitized this entire section of Asteroid Belt for. Most of it has been collected by all the trapped creatures, however. "
+				""
+				"&dThat means it must be pretty interesting stuff. There's also some stuff called Lunar metal? Thats probably another thing they wanted... Guess it's time to see what they can make!"
+			]
+			dependencies: ["5CE1D23027E8631E"]
+			id: "39BE15A0915D0CDF"
+			tasks: [
+				{
+					id: "02CEE1DBFF9A76D7"
+					type: "item"
+					item: "aoa3:orbulon"
+				}
+				{
+					id: "309A1348026C4904"
+					type: "item"
+					item: "aoa3:lunar_ingot"
+				}
+			]
+			rewards: [{
+				id: "3467B1DDA9522DCB"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "SPACE FIGHTS"
+			x: 2.0d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["39BE15A0915D0CDF"]
+			id: "42F334AA0C71E621"
+			tasks: [{
+				id: "1EE8819952170420"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "SPACE CRAFTS"
+			x: 2.0d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["39BE15A0915D0CDF"]
+			id: "5A048995EAF890A0"
+			tasks: [{
+				id: "6F21DFFCF09C35BD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "After the Storm"
+			x: 10.0d
+			y: -3.25d
+			shape: "hexagon"
+			description: [
+				"&5Well, Corallus is dealt with."
+				""
+				"&dHopefully when we get control of the FOP Game Server, we can properly help her."
+				""
+				"&5Agreed. You're almost there, Bandit. Just need to finish up Dracyon."
+			]
+			dependencies: [
+				"31FE5F5EB86F94B1"
+				"564CC5233F5092C9"
+			]
+			dependency_requirement: "one_completed"
+			id: "7F4CFFCDBFB70999"
+			tasks: [{
+				id: "1291A64F7A72AC71"
+				type: "item"
+				item: "kubejs:boss_card_corallus"
+			}]
+		}
+		{
+			title: "Executive Disfunction"
+			x: 10.0d
+			y: -0.75d
+			shape: "hexagon"
+			description: [
+				"&5And thats Dracyon down. The first of the Directors is dealt with."
+				""
+				"&dOne step closer, Bandit, just need to deal with Corallus."
+			]
+			dependencies: ["235D528273757CFC"]
+			id: "69D9AA54CD235546"
+			tasks: [{
+				id: "3C1F3010BECE0A3B"
+				type: "item"
+				item: "kubejs:boss_card_dracyon"
+			}]
+		}
+		{
+			title: "Beached"
+			x: 11.5d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"&5Excellent, thats both L'Borean bosses dealt with."
+				""
+				"&dAfter you finish up with Lunalus, we'll have two worlds left, Bandit."
+			]
+			dependencies: [
+				"7F4CFFCDBFB70999"
+				"69D9AA54CD235546"
+			]
+			id: "4695A661030E3AD6"
+			tasks: [{
+				id: "4CDA3C37EC5C3981"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Space Bow"
+			x: 2.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Lunar Bow is a bow you can craft. It uses Arrows for Ammo."
+				""
+				"&dWhile holding the Lunar Bow, you gain Jump Boost 1."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "4A4A80B6798017D4"
+			tasks: [{
+				id: "5AE2D4CC8D76186F"
+				type: "item"
+				item: {
+					id: "aoa3:lunar_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CD1638CDCE15827"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Space Armor"
+			x: 1.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dLunar Armor is an armor set you can craft in an Infusion Table."
+				""
+				"&dWearing a piece of Lunar Armor will apply Jump Boost I to yourself. Each extra piece of Lunar Armor  you wear will add another level of Jump Boost. "
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "7F32EF43D2D8D98A"
+			tasks: [{
+				id: "2AD6EBD008FF676E"
+				type: "item"
+				item: {
+					id: "aoa3:lunar_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "281A2072F88AFB7A"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Space Blast"
+			x: 3.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Lunar Blaster is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."
+				""
+				"&dCreatures hit by the Lunar Blaster will glow."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "4EE4DD3B1B476CEA"
+			tasks: [{
+				id: "695835E2717664ED"
+				type: "item"
+				item: {
+					id: "aoa3:luna_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "52A2DAA03F69BFA6"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Space Upgrades"
+			x: 2.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: ["&dThe Lunar Upgrade Kit is a rare drop you can get in Lunalus. It is used to upgrade certain items in a Divine Station, which you may find in a later world."]
+			dependencies: ["5A048995EAF890A0"]
+			id: "78F347AD34156F2A"
+			tasks: [{
+				id: "59DBF736E770D052"
+				type: "item"
+				item: "aoa3:lunar_upgrade_kit"
+			}]
+			rewards: [{
+				id: "761D1E3CB1DA9042"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Gravity Fell"
+			x: 3.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Orb-O-Cron is a blaster that you can craft in an Infusion Table. It uses your Spirit energy to fire shots."
+				""
+				"&dCreatures hit by the Orb-o-Cron will  cause all  hostile creatures within 15 blocks of it to gravitate towards it. This won't work on bosses or certain other creatures."
+			]
+			dependencies: [
+				"124AF0BB9FA658D5"
+				"5A048995EAF890A0"
+			]
+			id: "0060023D338D89C7"
+			tasks: [{
+				id: "60253B59530C6518"
+				type: "item"
+				item: {
+					id: "aoa3:orbocron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D919B18F662C088"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Pulses"
+			x: 1.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Pulsator is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dEach shot from the Pulsator that hits a creature has a chance of causing a lightning strike."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "16146A313345956F"
+			tasks: [{
+				id: "447781541C1A2078"
+				type: "item"
+				item: {
+					id: "aoa3:pulsator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AFA4516745F874E"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Baumba and Refluct"
+			x: 2.5d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5Baumbas and Reflucts are hostile creatures that spawn in Lunalus in Infested Asteroids."
+				""
+				"&5Baumbas will jump regularly, and launch itself at you if it is attacking. The shots the Baumba fires are explosive."
+				""
+				"&5Reflucts will reflect magic and energy based projectiles."
+			]
+			dependencies: ["42F334AA0C71E621"]
+			id: "4A0413BBC6212B61"
+			tasks: [
+				{
+					id: "5B36EC36664640A1"
+					type: "kill"
+					entity: "aoa3:baumba"
+					value: 5L
+				}
+				{
+					id: "0A0F66B9E69E5F01"
+					type: "kill"
+					entity: "aoa3:refluct"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "21385727E43A3859"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Explodot"
+			x: 1.5d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5Explodots are hostile creatures that spawn in Lunalus in Lunar Geodes. "
+				""
+				"&5Explodots will explode if they get close to you."
+			]
+			dependencies: ["42F334AA0C71E621"]
+			id: "09F9D11289A4BE6C"
+			tasks: [{
+				id: "04D7AF35672371BB"
+				type: "kill"
+				entity: "aoa3:explodot"
+				value: 10L
+			}]
+			rewards: [{
+				id: "4BC86EE2E3787A0F"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Inmate X and Inmate Y"
+			x: 3.5d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5Inmates X and Inmates Y are hostile creatures that can spawn in Lunalus in Zal Prison Camps."
+				""
+				"&5Inmate X has a chance of dropping a special staff."
+			]
+			dependencies: ["42F334AA0C71E621"]
+			id: "2FEBE830DE47BC0D"
+			tasks: [
+				{
+					id: "780DF3730DA73316"
+					type: "kill"
+					entity: "aoa3:inmate_x"
+					value: 5L
+				}
+				{
+					id: "2D6ABA8872C3461F"
+					type: "kill"
+					entity: "aoa3:inmate_y"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "2E0262A49B4B9BF5"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Lunar Crafting"
+			x: 0.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Lunar Crafting Table and Lunar Orbs are items you can find in various places in Lunalus."
+				""
+				"&dThe Lunar Crafting Table acts like a normal crafting table. Word is there is a way to use it and the Orbs to craft something."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "3E154D55D1406EDE"
+			tasks: [
+				{
+					id: "4A552CFA2A0ADCF1"
+					type: "item"
+					item: "aoa3:lunar_creation_table"
+				}
+				{
+					id: "064593DADA93F020"
+					type: "item"
+					item: "aoa3:darklight_orb"
+				}
+				{
+					id: "4423A44DF459FB53"
+					type: "item"
+					item: "aoa3:moonlight_orb"
+				}
+				{
+					id: "522B3346D59DD1DB"
+					type: "item"
+					item: "aoa3:sunfire_orb"
+				}
+				{
+					id: "6B8FA493BB54D7C1"
+					type: "item"
+					item: "aoa3:lunar_orb"
+				}
+				{
+					id: "40230A5FB262B2D1"
+					type: "item"
+					item: "aoa3:dusk_orb"
+				}
+			]
+			rewards: [{
+				id: "19DC7BE8C34A6C9F"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Zarg and Zorp"
+			x: 0.5d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&5Zargs and Zorps are hostile creatures that spawn in Lunalus in Zal Ships."
+				""
+				"&5While Zargs are fighting you, they have a chance of spawning a Fake Zorp that is invincible."
+				""
+				"&5Zargs have a chance of dropping an armor set."
+			]
+			dependencies: ["42F334AA0C71E621"]
+			id: "2F2C34790B0E9987"
+			tasks: [
+				{
+					id: "6DFFE933F118D63A"
+					type: "kill"
+					entity: "aoa3:zarg"
+					value: 5L
+				}
+				{
+					id: "331F0B37FB8A9867"
+					type: "kill"
+					entity: "aoa3:zorp"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "2975BA41F18C001B"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Bouncy Boost"
+			x: 0.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dLunacrike is a food crop you can grow from Lunalus. Lunacrike seeds are sold by Zal Herbalists located on Zal Ships "
+				""
+				"&dLunacrikes do not satiate hunger, but eating one grants you Jump Boost II for a couple seconds."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "6B8DB6124F2F65FE"
+			tasks: [
+				{
+					id: "33D357CE3096AC60"
+					type: "item"
+					item: "aoa3:lunacrike_seeds"
+				}
+				{
+					id: "2465A0F588A2E66B"
+					type: "item"
+					item: "aoa3:lunacrike"
+				}
+			]
+			rewards: [{
+				id: "4DC5E9EDF290C439"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Unseen Food"
+			x: -0.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dLuna Globes are a food crop you can find in Lunalus. The seeds are sold by Zal Herbalists located in Zal Ships."
+				""
+				"&dLuna Globes do not satiate hunger, but they do grant invisibility when consumed."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "3CE93C0E4644E134"
+			tasks: [
+				{
+					id: "3F476A3599576DB3"
+					type: "item"
+					item: "aoa3:luna_globe_seeds"
+				}
+				{
+					id: "01DEC901C9EA7843"
+					type: "item"
+					item: "aoa3:luna_globe"
+				}
+			]
+			rewards: [{
+				id: "470F573794E149F7"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "As Good As Carrots"
+			x: -0.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dLunalons are a food crop you can find in Lunalus. The seeds are sold by Zal Herbalists on Zal Ships."
+				""
+				"&dLunalons do not satiate hunger, instead they give you Night Vision II."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "33489C81CA5E3172"
+			tasks: [
+				{
+					id: "4D1EE59C1C0AEA2E"
+					type: "item"
+					item: "aoa3:lunalon_seeds"
+				}
+				{
+					id: "0733FF002CC8C46A"
+					type: "item"
+					item: "aoa3:lunalons"
+				}
+			]
+			rewards: [{
+				id: "67B1D7361F34AFD1"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Soul Tools"
+			x: 4.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Soulstone Pickaxe, Axe, and Shovel are tools you can purchase from Zal Spellbinders on Zal Ships."
+				""
+				"&dWhen mining a natural block the tool is efficient in, the Soulstone tool will consume Spirit energy to double the number that drops."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "74D0F49E697F3892"
+			tasks: [{
+				id: "1156532CC9A46746"
+				type: "item"
+				item: {
+					id: "aoa3:soulstone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "432CCF832E8F3209"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Watch your Eyes"
+			x: 4.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Slingshot is a weapon you can find in Lunalus, or purchase from a Zal Vendor located on Zal Ships. It can use either Flint or Pop Shots, also purchased from Zal Vendors, for ammunition."
+				""
+				"&dIf a Pop Shot is used for ammunition, the shots will explode when they hit something."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "48AF91B349DA53D2"
+			tasks: [
+				{
+					id: "11A6C4F3754E3DB6"
+					type: "item"
+					item: {
+						id: "aoa3:slingshot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "149CBA64BE1BB82B"
+					type: "item"
+					item: "aoa3:pop_shot"
+				}
+			]
+			rewards: [{
+				id: "123A1A054617214B"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "All Seeing"
+			x: 4.75d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"&5You've probably already seen his health bar on your HUD, Bandit. Visualent, the Boss of Lunalus. Also one of the first of the Board of Directors"
+				""
+				"&dHe got the position from being extremely watchful on all his subordinates. So much so that he became Visualant, a monsterous eye creature that roams the asteroids of Lunalus."
+				""
+				"&5If he hasn't appeared to oversee his world, you can get his attention with an Observant Eye. Zal Ships can have them in the cargo hold."
+			]
+			dependencies: ["39BE15A0915D0CDF"]
+			id: "6C84C4F697C4D44A"
+			tasks: [{
+				id: "5F9FC5220F2B60CE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "No Reasoning"
+			x: 7.0d
+			y: 3.0d
+			shape: "pentagon"
+			description: [
+				"&5Given this is one of the Board of Directors, there is no reasoning with him, Bandit."
+				""
+				"&dThey didn't get on the board for the FOP for altruistic reasons. "
+				""
+				"&5So unfortunately, there's only one course of action for the Board of Directors : defeating them."
+				""
+				"&dWe can look into it, but absolutely no promises. It'd definitely help lessen the amount of fighting these final worlds will require."
+				""
+				"&5If Visualent hasn't appeared to spy on his asteroids, you can take an Observant Eye from a Zal Ship and toss it onto the ground of any asteroid."
+			]
+			dependencies: ["6C84C4F697C4D44A"]
+			id: "5A12BFF032A3937C"
+			tasks: [{
+				id: "7FEAAA9E47653192"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Fight to See"
+			x: 9.25d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "BOSS FIGHT"
+			description: [
+				"&dVisualant is a very tough boss, who flies in melee to attack."
+				""
+				"&5If he lands a successful blow on you, he'll teleport to a random spot nearby. He does this with every successful hit so keep your eyes open!"
+				""
+				"&dIf you do take down Visualent, he may drop some space armor, gun, or staff."
+			]
+			dependencies: ["5A12BFF032A3937C"]
+			id: "2583DD8E0F8FD225"
+			tasks: [{
+				id: "17B8808D9CA8EF3F"
+				type: "item"
+				item: "kubejs:boss_card_visualent"
+			}]
+			rewards: [{
+				id: "08E30A5CB4E28391"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Blinded"
+			x: 11.5d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"&5Good work, thats one of the Board of Directors down. "
+				""
+				"&dAnd once you take care of L'Borean's Bosses, that'll be two of the Board down, two to Go."
+			]
+			dependencies: ["2583DD8E0F8FD225"]
+			id: "1338574C39EAE646"
+			tasks: [{
+				id: "0DCB70CAAF384E02"
+				type: "item"
+				item: "kubejs:boss_card_visualent"
+			}]
+		}
+		{
+			title: "Back to Earth"
+			x: 11.5d
+			y: 0.5d
+			shape: "pentagon"
+			description: [
+				"&5While there is one more dimension in this Tier of the FOP Game Server, it's been sectioned off into its own DLC Tier : Indigo. You'll need to obtain the Indigo Dimension DLC before you can go to Runandor."
+				""
+				"&dThough you might have seen portals to Runandor in Mysterium, you may have gotten stuck trying to go through them. It's a weird joke they have...or weird type of encouragement for you to purchase more DLC before you are ready."
+				""
+				"&5Either way, I'd aim for getting the last two Dimension DLC unlocks before long. You have two worlds to go, and each one is on its own Tier now."
+				""
+				"&dNearly there, Bandit!"
+			]
+			dependencies: [
+				"4695A661030E3AD6"
+				"1338574C39EAE646"
+			]
+			id: "75E5C04EF025BBD3"
+			tasks: [{
+				id: "45F5769DF086B55D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Food to Experience"
+			x: 4.0d
+			y: -5.0d
+			shape: "rsquare"
+			description: [
+				"&dBreaking Red Waterweeds has a chance of dropping Floracle Seeds. These can be grown like any food crop."
+				""
+				"&dWhen fully grown, you can harvest Floracle Sticks from them. They can be eaten, but do not satiate hunger. Instead, each one gives you some XP."
+			]
+			dependencies: ["0E06627F0ED6F4BE"]
+			id: "10E1B82FA215737D"
+			tasks: [
+				{
+					id: "64EA085C49850754"
+					type: "item"
+					item: "aoa3:floracle_seeds"
+				}
+				{
+					id: "3997A57765E211DE"
+					type: "item"
+					item: "aoa3:floracle_sticks"
+				}
+			]
+			rewards: [{
+				id: "497CDA23CCCF2D32"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Lunar Crossbow is a crossbow you can craft in an Infusion Table. It uses Arrows for ammunition."
+				""
+				"&dThe Lunar Crossbow's Arrows are not affected by gravity."
+			]
+			dependencies: ["5A048995EAF890A0"]
+			id: "50A5AA5CA3065B2C"
+			tasks: [{
+				id: "01F9C93C97BF4C66"
+				type: "item"
+				item: {
+					id: "aoa3:lunar_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C56F1A614C9C04E"
+				type: "choice"
+				table_id: 2245246540467579945L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

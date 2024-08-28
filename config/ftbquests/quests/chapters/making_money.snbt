@@ -1,0 +1,344 @@
+{
+	id: "779FD02424AD6469"
+	group: "773E4E8AACFD1492"
+	order_index: 1
+	filename: "making_money"
+	title: "Ka-Ching!"
+	subtitle: [
+		"How to Earn Money!"
+		"MODS : Bountiful, Delivery"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "How To Make Money 101"
+			description: [
+				"&7As you've seen looking around the FOP DLC Shop and our TFB Shop Tablet, Bandit, theres two major currency systems : Scrypto and Silver Ferret Coins."
+				""
+				"&7Scrypto is the FOP base currency. You get it just by fighting monsters and 'Digitalizing' items for them."
+				""
+				"&7Silver Ferret Coins are The Ferret Business' currency. You mostly get it by doing stuff in this Q.U.E.S.T. Tablet, and sending stuff to us back home with the TFB Shipping System."
+				""
+				"&7Did you notice there's other ways to earn both Scrypto and Silver Coins?"
+				""
+				"&7Thought so. How about I turn this section of the Q.U.E.S.T. Tablet into instructions of ALL the ways to earn money? Sound good?"
+			]
+			dependencies: ["14E05D152CF5C051"]
+			id: "2E3BD27A855C1E75"
+			tasks: [{
+				id: "72161F61D484FD47"
+				type: "checkmark"
+				title: "Buy, Sell, Trade, Profit"
+			}]
+			rewards: [{
+				id: "05FAB2BE6D37D92F"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "FOP Digitalization"
+			x: -3.5d
+			y: -1.25d
+			shape: "diamond"
+			description: [
+				"&7Other than just...killing monsters, the FOP pay you for 'Digitalizing' items with their Digitalizer."
+				""
+				"&7Which really is just a fancy tool that teleports the items to them and gives you back 'tokens', which you can collect and....boom, turn into Scrypto! Another form of token, of course. This one just represents the standard FOP Game Server Currency."
+				""
+				"&7They don't accept cheap things like Dirt or Cobblestone. Why should they, technically they already have it in their system. And they pay a tenth of a haypenny for slightly bigger things, like String and Feathers."
+				""
+				"&7Instead they tempt you with PROCESSING those cheap resources into bigger things, and paying you slightly more for those. One Redstone Dust only gets you a couple bits back, but take the time to craft it with some Wood and make a Note Block? Well, now its worth more!"
+			]
+			dependencies: ["2E3BD27A855C1E75"]
+			id: "03A5DD093C9AB5D6"
+			tasks: [
+				{
+					id: "2E24DB252CBB9771"
+					type: "item"
+					item: "kubejs:fop_digitalizer"
+				}
+				{
+					id: "29312C03D0A7D58E"
+					type: "item"
+					item: "kubejs:fop_digitalized_item"
+					count: 50L
+				}
+			]
+			rewards: [{
+				id: "56418F0868B7EEAF"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "TFB Factory Boards"
+			x: -3.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&7To encourage Users to process resources into products, the FOP started to implement a Factory system."
+				""
+				"&7See, the FOP wanted a big in-game economy. Users and Power users making Factories for items and Shops to sell items to feed them more products. But like a lot of systems, they abandoned it after a while, and just left it in a half broken state. "
+				""
+				"&7We can use this though... They won't notice us taking it over. And... done, there we go. Looks like I squeaked by their Security systems for once, phew! And since it uses one of their old systems, it'll stay hidden."
+				""
+				"&7Okay, welcome to the TFB Factory Board, Bandit! User and Power User Merchants will post up requests for products. Everything from fresh food, to furniture, to arms and armor, and beyond. You can find the TFB Factory Boards in Villages, or craft one up to connect to the system."
+			]
+			dependencies: ["2E3BD27A855C1E75"]
+			id: "5B0E3E42F5528623"
+			tasks: [{
+				id: "6CBB76BF345EBAEA"
+				type: "item"
+				item: "bountiful:bountyboard"
+			}]
+			rewards: [{
+				id: "0170460B52D90EFB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Factory Specializations"
+			x: -4.75d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7Specializations are a way for you to control what kind of Factory Orders will show up on a certain TFB Factory Board. Each board can hold three Specializations."
+				""
+				"&7Some Factory Orders can reward you with a Specialization, while others can be found trading with Villagers or in loot chests."
+				""
+				"&7When you get a Specialization as a reward, take it to a TFB Factory Board and place it into one of the Specialization slots to open it and see what the Specialization is for."
+			]
+			dependencies: ["7E52F0E303AF20FB"]
+			id: "2CED134F5E725BBD"
+			tasks: [{
+				id: "4463D89631D8B069"
+				type: "item"
+				item: "bountiful:decree"
+			}]
+			rewards: [{
+				id: "2900E55D786C409C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			x: -0.25d
+			y: -1.25d
+			shape: "diamond"
+			description: [
+				"&7So, the primary way you get money from The Ferret Business is by following our various Research questlines. For following instructions and helping us test products at the same time (and find new ways to infect the FOP game server), you get paid in Silver Coins and Blind Boxes."
+				""
+				"&7But, you aren't going to use all the items you make during research. And you'll find and gather a lot of other items along the way, yeah? So the other way you get Silver Coins is by shipping them to us at home with the Shipping System."
+				""
+				"&7We keep about half the items you send us for our own stockpiles. The other half gets put back into the FOP Game Server, helping to spread the Audubon Worm. Two birds, one stone, yeah?"
+				""
+				"&7As much as we'd like to accept everything, the FOP Game Server doesn't bother 'buying' or even tracking cheap stuff. Anything about 5 FMC worth or below is not tracked, so we won't waste computing power with it for now."
+			]
+			dependencies: ["2E3BD27A855C1E75"]
+			id: "086FFB8B8B787C40"
+			tasks: [{
+				id: "214EA83BE9F4F7C9"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "37DD6884060575A2"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "TFB Delivery Service"
+			x: -0.25d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&7There's a lot of Power Users trapped in the system, Bandit, and most of them don't have the strength to do much more than survive."
+				""
+				"&7Bandit, you're in a unique position : with the Business behind you, and a mission to break the system, we can help out these Power Users."
+				""
+				"&7We'll simply call it Delivery. This'll help obfuscate it from the FOP, and help provide supplies and whatnot to Power Users across the Game Server."
+				""
+				"&7To get started, you need to create a Group with a Name and Password. Type the following into Chat : "
+				""
+				"&7/group create name password"
+				""
+				"&7If you have other assistants, they can use /group join name password to join YOUR group so you can work together. You should get a Mailbox and Bulletin Board when the group is created."
+			]
+			dependencies: ["2E3BD27A855C1E75"]
+			id: "288B4CFEEC379A41"
+			tasks: [
+				{
+					id: "40D2E93CDFEB4EC7"
+					type: "item"
+					item: "delivery:mailbox"
+				}
+				{
+					id: "4A9906BCDBA99032"
+					type: "item"
+					item: "delivery:mailbox_post"
+				}
+				{
+					id: "09D096F55CA184F2"
+					type: "item"
+					item: "delivery:bulletin_board"
+				}
+			]
+			rewards: [
+				{
+					id: "46DF40047A809C60"
+					type: "item"
+					item: "camera:camera"
+				}
+				{
+					id: "4E8EF7BEF3C478AD"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "2A07324027EFAE99"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "delivery:manual"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Did he say Cheese Sandwich?"
+			x: 1.25d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7Starting a group should get you a Mailbox and a Bulletin Board. Put up both, and you'll get an Envelope with a Contract, and a Sealed Parcel with some items in the mail. Mail arrives / sends every in-game dawn, and may contain Contracts, rewards, or more."
+				""
+				"&7When you receive a Contract you want to fill, hold it and Right Click it onto the Bulletin Board to track it."
+				""
+				"&7Many of your early contracts will be to help the User run Wiki for the FOP Game Server. For that, you'll need the Camera I sent you. (If you need a new one, you'll have to unlock the DLC)"
+				""
+				"&7You need to take a picture of the requested Creature or Biome, which will require 1 Paper per photo. You then grab an Envelope (that parcel contained a bunch of them, or you can craft them), Right Click to open it, and place the Photo (or other singular item) into it. Then you can put it into the Outgoing section of your Mailbox."
+			]
+			dependencies: ["288B4CFEEC379A41"]
+			id: "047154F810F692A4"
+			tasks: [
+				{
+					id: "498E1E4EF802775A"
+					type: "item"
+					item: {
+						id: "camera:image"
+						Count: 1b
+						tag: {
+							image: { }
+						}
+					}
+				}
+				{
+					id: "15F09110C7E1AF57"
+					type: "item"
+					item: "delivery:envelope"
+				}
+				{
+					id: "44478B5F8DB00BAB"
+					type: "item"
+					item: "wormhole:coal_generator"
+				}
+			]
+			rewards: [{
+				id: "68AE14ECF703B236"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Shipping Packages"
+			x: 1.25d
+			y: 1.25d
+			shape: "rsquare"
+			description: [
+				"&7What's that The Camera Man sent you... a Coal Generator? Oh, excellent, that should help things along then!"
+				""
+				"&7Envelopes are all well and good for shipping photos, but you should start getting requests for stacks of items pretty soon! For that, you'll need a bigger shipping container..."
+				""
+				"&7The Parcel is useful as it holds up to 16 of a stacking item (so not 16 Diamond Hoes for example!). It can be shipped out via the Mailbox."
+				""
+				"&7For Bigger stacks, or multiple items, you'll need a Cardboard Box. This comes in mulitple tiers, each one holding more items. But this box doesn't fit in the Mailbox..."
+				""
+				"&7Make yourself a Drone Pad. A Drone will automatically land on it, waiting to ship out an order. You can toss the Cardboard Box into this to send it out. It needs power, so place that Coal Generator next to the Drone Pad and feed it Coal."
+			]
+			dependencies: ["047154F810F692A4"]
+			id: "62D5F301E541E3FA"
+			tasks: [
+				{
+					id: "1F4DFCC1B6C81CCE"
+					type: "item"
+					item: "delivery:parcel"
+				}
+				{
+					id: "70E0D78050970081"
+					type: "item"
+					item: "delivery:cardboard_box_tier_1"
+				}
+				{
+					id: "41F4ED74B4C0F316"
+					type: "item"
+					item: "delivery:drone_pad"
+				}
+			]
+			rewards: [{
+				id: "34B2D0CE057191CD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "To Create a Factory"
+			x: -4.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"&7These orders, however, are going to need to be packed properly for shipping... and set up with the Aubudon Worm of course."
+				""
+				"&7For that, you're going to want to buy the Create DLC and get a Create factory up and running. You'll need a Mechanical Belt system that passes under a series of Deployers and Spouts, and occasionally a Mechanical Saw and a Mechanical Press. "
+				""
+				"&7You can get away with probably a looping belt of 5 Deployers, 2 Spouts, 1 Saw, and 1 Press. Looping is key, so either have the belts go in a circle, or some method of transporting the partially filled Crates to the beginning again. Maybe Drones or pipes or something..."
+				""
+				"&7Oh, the Crates? Those are easy to make. Planks and a Ferret Coin, bam, a whole stack. Simple huh?"
+			]
+			dependencies: ["5B0E3E42F5528623"]
+			id: "7E52F0E303AF20FB"
+			tasks: [
+				{
+					id: "4CD26D3769205F2B"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "6307085EC9A1B0A8"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "44DE4887DADF0767"
+					type: "item"
+					item: "kubejs:factory_crate_empty"
+				}
+			]
+			rewards: [{
+				id: "139AD67DDDD16CAA"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

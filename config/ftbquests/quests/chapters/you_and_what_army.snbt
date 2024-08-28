@@ -1,0 +1,1306 @@
+{
+	id: "2E008F0FCAA90229"
+	group: "499A93482811AC21"
+	order_index: 8
+	filename: "you_and_what_army"
+	title: "You and What Army?"
+	subtitle: ["MOD : Minecolonies"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Power to the Power User"
+			x: -7.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "MOD : MineColonies"
+			description: [
+				"&7Hey Bandit, I have an idea..."
+				""
+				"&7What if we started to band together some of the scattered Power Users, like yourself, into a group?"
+				""
+				"&7You all are stuck in that world, trying to survive by the FOP Rules. How about we break them in yet another way?"
+				""
+				"&7See, the FOP Game Server used to have a lot of other systems in it, ones that have been disabled and ripped out, or at least parts of them ripped out. Sometimes something is just so built into the code that isn't possible."
+				""
+				"&7One of those systems was a Colony system. Instead of building a factory like they want you to, you would build a village, a town, etc. And everyone would work together on things."
+				""
+				"&7They left most of the code in, I guess to build a Guild system eventually. If you send me, uh... about 20 Vuln Tokens, I think I can reactivate it..."
+			]
+			dependencies: ["1D0853ADC7295AEB"]
+			id: "1EC826482D468EC0"
+			tasks: [{
+				id: "38A253FB78272BF5"
+				type: "item"
+				title: "Any 20 Vulnerability Tokens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:tfb2_vulnerability"
+					}
+				}
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "784FBAC4F3426FAD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Ready your Caravan!"
+			x: -7.5d
+			y: 0.25d
+			shape: "square"
+			description: [
+				"&7Aha, yes yes! Okay, Bandit, get ready, cause it's time to make an army. Or more accurately, it's time to start your own branch of the Ferret Business!"
+				""
+				"&7Send me Silver Coins so I can get some Power User's attention. Meanwhile, you'll want this Supply Camp summoner."
+				""
+				"&7Where should you build it? Probably the edge of a hex to start, with all the surrounding hexes being land. At least that's my suggestion, you can expand a good amount."
+				""
+				"&7When you have a location, Right Click the Supply Camp onto the center of where you want to deploy it.  You'll get a ghost outline showing you where it'll build. They have a lot of built in camp styles, cycle them with the arrows in the upper right."
+				""
+				"&7The system will tell you what to fix if you try to build it and it has a problem. Just fix what it shows, then try deploying again."
+			]
+			dependencies: ["1EC826482D468EC0"]
+			id: "549729CAC679BFA8"
+			tasks: [{
+				id: "659A885E8642F38C"
+				type: "item"
+				item: "calemiutils:coin_penny"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "410876FF99AB4409"
+				type: "item"
+				item: "minecolonies:supplycampdeployer"
+			}]
+		}
+		{
+			title: "This is YOUR Town!"
+			x: -6.25d
+			y: 0.25d
+			shape: "square"
+			description: [
+				"&7Okay, I mentioned you should build your Supply Camp on the edge of a hex, right? That's because you also need to put up a Town Hall!"
+				""
+				"&7Explore your camp. Look in all the chests and barrels, you might find some extra supplies. You'll also find a Town Hall spawner, and a Build Tool. That second thing you especially want for building your Colony!"
+				""
+				"&7This Town Hall is best built in the center of a Hex! Be sure to check out my warning info branching off the last quest, please. It's important to know!"
+				""
+				"&7Using the Build Tool, you can change the building and style with the arrows and drop downs along the top! Some have lots of different styles, they had a lot of options in this they never used again."
+				""
+				"&7Oh yeah, if you can't find the Town Hall or Build Tool, you can just craft em."
+			]
+			dependencies: ["549729CAC679BFA8"]
+			id: "5E850496FA415E4D"
+			tasks: [
+				{
+					id: "57E8FACD81160263"
+					type: "item"
+					item: "minecolonies:blockhuttownhall"
+				}
+				{
+					id: "68B74FB2136A9592"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
+			]
+			rewards: [{
+				id: "3893D4819F2FC250"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -7.5d
+			y: -0.75d
+			shape: "gear"
+			description: [
+				"&7Hey Bandit, real real quick this is important."
+				""
+				"&7If you have other Assistants with you, and you all want to run your own Business, this is important!"
+				""
+				"&7After you place the Supply Camp, you'll need to place down a Town Hall to start getting Power Users together."
+				""
+				"&7THE PLACE YOU PUT THE TOWN HALL IS IMPORTANT!"
+				""
+				"&7The Colony system marks the 4 chunks in every direction of the Town Hall as part of YOUR town. That's 64 blocks in every direction. If your Town Hall is the center of a Hex, you're town will cover most of the six surrounding hexes!"
+				""
+				"&7Be sure you and the other Assistants spread out your towns! This'll be good, since when your town is large enough, you can jump between town halls!"
+			]
+			dependencies: ["549729CAC679BFA8"]
+			dependency_requirement: "one_started"
+			size: 0.75d
+			id: "4C99DBD766F8F27B"
+			tasks: [{
+				id: "5BC715D99F89F00C"
+				type: "checkmark"
+				title: "MINE COLONY NOTES"
+			}]
+		}
+		{
+			title: "Time to Build"
+			x: -5.0d
+			y: 0.25d
+			shape: "square"
+			description: [
+				"&7What, you set out the town hall, selected a style, but it didn't build? It just marked out an area? One moment..."
+				""
+				"&7Oh, of course. Only the Supply Camp has 'free resources'. Everything else in the Colony system requires you to collect the resources yourself. "
+				""
+				"&7You'll also notice that no Power Users have shown up yet. You need to find the center Town Hall podium and Right Click it, then select Create New Colony."
+				""
+				"&7Your friendly Power Users (or should we call them Citizens?) will show up shortly. But be warned : the hostile life around you is hostile to them too! They'll be showing up with minimal equipment, so that the FOP doesn't get alerted to this."
+				""
+				"&7Be prepared to defend your Citizens while you start building your Colony."
+			]
+			dependencies: ["5E850496FA415E4D"]
+			id: "57E22E4331DA642C"
+			tasks: [{
+				id: "028FB99D18C3D2FC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Building for the Builder"
+			x: -5.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"&7Before your Town Hall can be built, you need a place for the Builder citizen to set up shop. Craft yourself a Builder's Hut and place it out like you did the Town Hall and Supply Camp!"
+				""
+				"&7It'll set out a roped off area and a 'control' block for it, usually a desk. Right Click it, and you can see a lot of info on the building, like which Citizen is assigned to it, and what resources it needs so it can be built."
+				""
+				"&7The Red ? mark in the lower left has a lot of useful tips I got added to the system. Be sure to check them."
+				""
+				"&7Now you can click the Build Options button, and cycle through the styles to make sure you can get the resources for the building. Be sure to check your stocks and the area for enough!"
+				""
+				"&7Then you just need to select a style, and hit Build Building! Then just start adding resources the Builder wants, until it is done."
+			]
+			dependencies: ["57E22E4331DA642C"]
+			id: "65C762C37D2F5310"
+			tasks: [{
+				id: "3C864C92E59E86A9"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+			rewards: [{
+				id: "2D5565353B525123"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Busy Builders"
+			x: -3.75d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"&7Oh. Notice how there's a red icon above the Builder's head? That means they are missing something for the next step. As you are just starting out, well...that means what is missing is most likely a Shovel or a Pickaxe."
+				""
+				"&7Right Click the Builder and they'll tell you what they want, and show an example. For your new Builder Hut, they can only use Wood or Gold tools."
+				""
+				"&7Since Gold doesn't grow on trees (usually), make a Wooden Shovel for them. The you can either Right Click the builder and get into their Inventory and drop the Shovel into it. Or, you can drop it into the Builder Hut table and either wait or hit the Request Pickup button."
+				""
+				"&7They are going to ask for a LOT of items to start with... don't worry, this'll become a good Colony soon enough, Bandit!"
+			]
+			dependencies: ["65C762C37D2F5310"]
+			id: "01BAE55B6B3047E1"
+			tasks: [{
+				id: "78BB66BCACDE0F28"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2419CD38128E5AAB"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Restful Spot"
+			x: -3.75d
+			y: -2.25d
+			shape: "square"
+			description: [
+				"&7Well, Bandit, you could get that Town Hall built up now if you want, but personally? I suggest getting the Tavern up and running."
+				""
+				"&7Mostly because it gives your Citizens a place to rest at night, instead of hovering at the Town Hall table all night."
+				""
+				"&7It will also entice other Power Users to stop by that you can recruit to your Colony, though you'll need to have Houses for everyone first."
+				""
+				"&7Oh, I also suggest upgrading your Builder Hut to level 2 at least, so that they can use better tools. And work faster."
+				""
+				"&7And... a guard tower would probably REALLY help. You could hire NPC Mercenaries but... by design, they steal from your Citizens? What the hell, I can't disable it. Eh whatever, you can risk it if you want."
+			]
+			dependencies: ["01BAE55B6B3047E1"]
+			id: "0DA2CC16D8348BFD"
+			tasks: [
+				{
+					id: "7983685919D2CF25"
+					type: "item"
+					item: "minecolonies:blockhuttavern"
+				}
+				{
+					id: "664CB754E621A1AC"
+					type: "item"
+					item: "minecolonies:blockhutguardtower"
+				}
+			]
+		}
+		{
+			title: "Housed and Fed"
+			x: -0.5d
+			y: -2.25d
+			shape: "square"
+			description: [
+				"&7So, a guard tower, a tavern, what else do...oh, duh. I already mentioned it, but you need to build some houses for your current Citizens if you want to expand your Colony. Each floor of a house fits one person, so you'll need to either build lots of level 1 houses, or start upgrading them and your Builder Huts."
+				""
+				"&7You'll also want to build a Restaurant. You could just make food yourself and give it to each Citizen, but its easier if you have a Restaurant."
+				""
+				"&7The restaurant can be taught how to make any food recipe you know, and you can tell it what fuel it is allowed to use to cook food."
+			]
+			dependencies: ["0DA2CC16D8348BFD"]
+			id: "0660E08D755B3BB6"
+			tasks: [
+				{
+					id: "1C693B31EC428617"
+					type: "item"
+					item: "minecolonies:blockhutcitizen"
+				}
+				{
+					id: "7A4CF4EF10673BEC"
+					type: "item"
+					item: "minecolonies:blockhutcook"
+				}
+			]
+			rewards: [{
+				id: "039330EEE79922C8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Keeping Stocks"
+			x: -3.75d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7As you expand your Colony, you're going to run yourself ragged if you try to keep your builders, your guards, and everyone supplied, fed, and healthy all on your own."
+				""
+				"&7For sure, you'll want to build a Warehouse and a Courier."
+				""
+				"&7The Warehouse has a lot of Racks to store items in (Don't try to add any yourself, the Colony system won't recognize them, unfortunately). Each level you upgrade it adds even more storage space."
+				""
+				"&7But to get the stored items to the Builders, Cooks, etc who need them, you'll need to build and hire a Courier as well."
+				""
+				"&7A Courier will run around, taking unneeded items from buildings and storing them, and transporting needed items from the Warehouse. Improving your Courier lets them carry more each trip."
+			]
+			dependencies: ["0DA2CC16D8348BFD"]
+			id: "182125537D52D5CB"
+			tasks: [
+				{
+					id: "4A0ABFA45A2854BF"
+					type: "item"
+					item: "minecolonies:blockhutwarehouse"
+				}
+				{
+					id: "02AA286F2B5B2C74"
+					type: "item"
+					item: "minecolonies:blockhutdeliveryman"
+				}
+			]
+			rewards: [{
+				id: "20608CE875773AF8"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Requests!"
+			x: -3.75d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"&7So you'll notice a second icon above your Citizen's heads, an orange speech bubble. This means they want something less critically, but still important. "
+				""
+				"&7For requests like Tools, your Citizens have a small range of acceptable tools, depending on their level and the level of their workplace."
+				""
+				"&7A level 1 Builder Hut only uses wood or gold, while a Level 2 uses stone, etc."
+				""
+				"&7In the Citizens information page, you can get a closer look at their requests in the Requests tab at the left. If there's a certain type of tool they want, they'll mention it, such as needing an Iron Pickaxe, or a Shovel thats either Wood or Stone."
+			]
+			dependencies: ["01BAE55B6B3047E1"]
+			size: 0.75d
+			id: "7A962D53F27D9F6F"
+			tasks: [{
+				id: "3D02C0323861682E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Always At Paw"
+			x: -4.75d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"&7Work buildings like the Builder Hut, Restaurant, and others have a tab called Minimum Stock. This is very useful for Couriers."
+				""
+				"&7Unneeded items at Colony buildings will be moved to the Warehouse if you have a Courier. But setting a Minimum Stock of items a building uses regularly is a good idea for a few reasons : "
+				"&7  1) Less trips, for both the Worker and the Courier. "
+				"  &72) Better use of space: As you grow, the warehouse will fill quickly. Keeping items stored at the buildings that use them is a good idea."
+			]
+			dependencies: ["182125537D52D5CB"]
+			size: 0.75d
+			id: "6207A71B005AEA31"
+			tasks: [{
+				id: "266C61FB8C0A83AC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Life and Death"
+			x: -4.6875d
+			y: -2.25d
+			shape: "gear"
+			description: [
+				"&7The FOP Game Server is super dangerous, Bandit. For you, but especially your Citizens!"
+				""
+				"&7If you haven't yet, you'll probably have a Citizen die at some point. They'll create a Grave with all their items, but this won't last forever."
+				""
+				"&7But if these are Power Users that can respawn, why don't they just respawn in the Colony?"
+				""
+				"&7Well, to activate and get the Colony system working again, I needed to make some adjustments. When a Power User joins your colony, they leave behind their stuff so they don't trip the FOP Security Systems."
+				""
+				"&7And when they \"die\" as one of your Citizens, they return to their Power User life, so someone else can come in. Otherwise, we run the risk of alerting the FOP to this system being used as a way to exploit the system."
+			]
+			dependencies: ["0DA2CC16D8348BFD"]
+			size: 0.75d
+			id: "370F8492AAA1A477"
+			tasks: [{
+				id: "309F2F0558E6121F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Happy Homes"
+			x: -1.3125d
+			y: -1.3125d
+			shape: "gear"
+			description: [
+				"&7You know that whole Project MMO gear restriction system? The one Kowa mostly tapped down? Well, it's mostly only tapped down for YOU, not other Power Users."
+				""
+				"&7This is really obvious within the Colony system. Your Citizens cannot use a lot of more powerful items right off the bat. Heck, they are limited to WOOD tools at the start!"
+				""
+				"&7But they can quickly start using better tools if you raise the level of their Work AND themselves!"
+				""
+				"&7Upgrading buildings is simple, just select Upgrade in the Building Options menu for the building, and let the Builder do the Build thing."
+				""
+				"&7But Citizens can get stronger and better stats as they work, and they too level up, but only if their work AND their Home is higher level as well!"
+			]
+			dependencies: ["0660E08D755B3BB6"]
+			size: 0.75d
+			id: "7DBB22AA6A8B133B"
+			tasks: [{
+				id: "7AC8A29305F4DC9C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "A Growing Colony"
+			x: 2.5d
+			y: -2.25d
+			shape: "square"
+			description: [
+				"&7With a growing colony, and a restaurant, you probably have a growing request for food. And stocking your Restaurant yourself is a bit time consuming, yeah?"
+				""
+				"&7So, how about getting your Citizens to grow their own meals? By building a Farm I mean, they can grow a lot of different foods for themselves."
+				""
+				"&7Along with the Farm is the Field, basically a scarecrow that denotes the center of a Field. The building itself usually places one for you, but every level the Farm is at, is another field. Two levels, two fields, etc"
+				""
+				"&7You can tell a farmer what crop a field should be by placing the seed for the crop in the Scarecrow. For things like Potatoes, just put the potato there. Simple!"
+				""
+				"&7You can also teach the Farmer how to craft things like Hay Bales, seeds, etc."
+			]
+			dependencies: ["0660E08D755B3BB6"]
+			id: "2235E571003AAC12"
+			tasks: [
+				{
+					id: "3B6DE8FD21C1D7FE"
+					type: "item"
+					item: "minecolonies:blockhutfarmer"
+				}
+				{
+					id: "6B69DA9CEEC1F8A9"
+					type: "item"
+					item: "minecolonies:blockhutfield"
+				}
+			]
+			rewards: [{
+				id: "491950B119FBD716"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Supply the Supply"
+			x: -3.75d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7You have a place to store resources and materials, now you should probably get your Citizens gathering some of the basics for you."
+				""
+				"&7The Forester's Hut will chop trees down around it, gathering the Wood, Saplings, and other things the trees may provide. If there is a tree you don't want chopped down, put a Cobblestone under the trunk."
+				""
+				"&7You can set what trees the Forester will chop down in the interface, as well as setting whether they'll replant trees, or keep to a specific area. To set the area, hit Get Tool and Right Click the two corners of the area."
+				""
+				"&7The Mine will dig downward, gathering stone, ores, and more it finds. The first level of the Mine will make mineshafts at Y 50, 2 at Y30, then 3 and higher at Bedrock. "
+				""
+				"&7You'll need to level up the Mine to get the rarer ores, and the Miner might be very picky on pickaxes. The system is slightly messed up, the FOP never fixed it for the new materials they found."
+			]
+			dependencies: ["182125537D52D5CB"]
+			id: "21B9FFB35339D0A3"
+			tasks: [
+				{
+					id: "633E69858187DA83"
+					type: "item"
+					item: "minecolonies:blockhutlumberjack"
+				}
+				{
+					id: "4FAA45E5F645CB6C"
+					type: "item"
+					item: "minecolonies:blockhutminer"
+				}
+			]
+			rewards: [{
+				id: "620E4DA12A8B0656"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Flying Friends"
+			x: 1.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7You can make Farms that take care of Chickens and Bees specifically."
+				""
+				"&7For a Chicken Farmer's Hut, you'll need to bring them two chickens to start out. Youc an also set if they'll breed and slaughter chickens, and if they'll collect eggs."
+				""
+				"&7For the Apiary, it may not be as useful. The Colony system only knows how to handle normal Bees, and vanilla Apiary's it needs to take care of them. Our special Resourceful Bees don't work well in them."
+			]
+			dependencies: ["2235E571003AAC12"]
+			id: "3177F4BC0D9887AA"
+			tasks: [
+				{
+					id: "363202AB3B78A970"
+					type: "item"
+					item: "minecolonies:blockhutchickenherder"
+				}
+				{
+					id: "7298FF96FE95E6C3"
+					type: "item"
+					item: "minecolonies:blockhutbeekeeper"
+				}
+			]
+			rewards: [{
+				id: "0B2A02F316503D01"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Farm Hands"
+			x: 0.0d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7Farms are more than just growing crops, you can also raise Sheep, Cows, Pigs, and Rabbits."
+				""
+				"&7Each of these animals requires a specific Hut or Hutch. You will also have to supply two of the animals to get them started."
+				""
+				"&7Each building has settings you can change to tell them whether they should breed and slaughter animals, collect things like milk from cows, etc."
+				""
+				"&7Appropriate food will be needed for the animals as well."
+			]
+			dependencies: ["2235E571003AAC12"]
+			id: "594A8CBEB1DC7697"
+			tasks: [
+				{
+					id: "0EF92AE164EB3E4F"
+					type: "item"
+					item: "minecolonies:blockhutcowboy"
+				}
+				{
+					id: "2D6AD25A5E08C6F7"
+					type: "item"
+					item: "minecolonies:blockhutshepherd"
+				}
+				{
+					id: "7D36932CBB9E6019"
+					type: "item"
+					item: "minecolonies:blockhutswineherder"
+				}
+				{
+					id: "4E03866FB4F9B9F6"
+					type: "item"
+					item: "minecolonies:blockhutrabbithutch"
+				}
+			]
+			rewards: [{
+				id: "5BF1556707A99A7B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Daily Fish n Bread"
+			x: -1.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7You can build a Fisherman's Hut and get a slow, steady supply of fish. It requires at least a 7x7 area of water minimum close to the Hut, as well as Fishing Rods for the Fisher."
+				""
+				"&7Another thing you can make to supply your Restaurant with is a Bakery. The Baker will cook and bake food only when it's requested from the Restaurant or another building, and if you set the Recipe in the Bakery interface."
+				""
+				"&7At higher levels, the Bakery can make special breads."
+			]
+			dependencies: ["2235E571003AAC12"]
+			id: "4763EADFC9408AE6"
+			tasks: [
+				{
+					id: "32DFA9943031B4F4"
+					type: "item"
+					item: "minecolonies:blockhutfisherman"
+				}
+				{
+					id: "29ACDFC96D3318EC"
+					type: "item"
+					item: "minecolonies:blockhutbaker"
+				}
+			]
+			rewards: [{
+				id: "057736FD49F8632E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Shipping and Receiving"
+			x: -2.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7So, the Warehouse stores a lot of items, right? But adding items to it yourself is a bit troublesome if you put the Warehouse in the middle of everything."
+				""
+				"&7Instead, you can make Postboxes and Stashes. These act like pick up and drop off points for the Courier."
+				""
+				"&7At the Postbox, you can request items from your Warehouses."
+				""
+				"&7If you have items you want put into the Warehouse, put them in a Stash."
+			]
+			dependencies: ["182125537D52D5CB"]
+			id: "7C0F14D898BFD1D3"
+			tasks: [
+				{
+					id: "03A32B8327DEB593"
+					type: "item"
+					item: "minecolonies:blockpostbox"
+				}
+				{
+					id: "4636D645FAB1E6BA"
+					type: "item"
+					item: "minecolonies:blockstash"
+				}
+			]
+			rewards: [{
+				id: "0FD5D0BC6758C082"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Higher Learning"
+			x: 2.5d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7Looks like if we want to make any of the rest of the buildings, you'll have to send the Colony off to College. University, to be exact."
+				""
+				"&7This is a pretty large building, but with it you'll be able to unlock the ability for your Citizens to build advanced buildings, as well as unlock skills and improvements for them."
+				""
+				"&7There are three research trees: Civilian, Combat, and Technology. Each of these trees has multiple branches of research."
+				""
+				"&7Each Column in the research page is tied to the level of the University. So you'll need to level up your Builders, your Builder Huts, and your University as well. Each research takes time and materials too."
+				""
+				"&7Oh! Any fork that has (OR) on it, means you can only learn one OR the other of that fork. "
+			]
+			dependencies: [
+				"21B9FFB35339D0A3"
+				"2235E571003AAC12"
+			]
+			id: "056D01CFBD6E1603"
+			tasks: [{
+				id: "19094665747CD8AC"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+			rewards: [{
+				id: "6B71FD0394ED1E63"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Living and Dead"
+			x: 2.5d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&7The first path is the Civilian Path, and two important buildings to build early are the Hospital and the Graveyard."
+				""
+				"&7The Hospital is good to help keep your Citizens healthy. The Colony system has some diseases built into it. They are pretty easy to cure, but only if you have the items on hand. With the Hospital, you don't have to give the cure to each Citizen yourself."
+				""
+				"&7Influenza is cured with a Potato and a Carrot; Measles with Dandelion, Kelp, and Poppy; and Smallpox with Honey Bottles and Golden Apples."
+				""
+				"&7The Graveyard not only lets you easily retrieve the posessions of the deceased, it also gives you a chance of 'resurrecting' a Citizen after death. The Undertaker will have higher chances if you have  Mystical Site and an Enchanting Tower they can visit."
+			]
+			dependencies: ["056D01CFBD6E1603"]
+			id: "2EAF3168FC2CF740"
+			tasks: [
+				{
+					id: "12C0F5BE9CE068A4"
+					type: "item"
+					item: "minecolonies:blockhuthospital"
+				}
+				{
+					id: "5355A942CD0424E2"
+					type: "item"
+					item: "minecolonies:blockhutgraveyard"
+				}
+			]
+			rewards: [{
+				id: "3FA1E1DE96A5858F"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Thought and Prayer"
+			x: 2.5d
+			y: -7.25d
+			shape: "rsquare"
+			description: [
+				"&7The School is an excellent building, as it lets Citizens teach 'children' and improve their skills before they grow up. And the Library enables 'adults' to increase their skills and knowledge as well."
+				""
+				"&7Remember, a lot of 'adults' and all 'children' are just stand ins right now for Power Users that have died and come back into the system. This helps get them up to speed before they 'grow up', and lessens the chance of the FOP finding out this system is reactivated."
+				""
+				"&7As for the Mystical Site, it doesn't really have a worker. It increases the Colony Happiness just by existing, and a few different advanced professions will visit it to improve themselves."
+				""
+				"&7For example, the Undertaker visits it to increase their Mana skill, which helps give them a chance to resurrected dead Citizens."
+			]
+			dependencies: ["2EAF3168FC2CF740"]
+			id: "6134932FC34AF47B"
+			tasks: [
+				{
+					id: "224A0ECC47C70D24"
+					type: "item"
+					item: "minecolonies:blockhutschool"
+				}
+				{
+					id: "45ECD685B33C88C8"
+					type: "item"
+					item: "minecolonies:blockhutlibrary"
+				}
+				{
+					id: "6B8317D7955959B4"
+					type: "item"
+					item: "minecolonies:blockhutmysticalsite"
+				}
+			]
+			rewards: [{
+				id: "28EEFEE50C0A9569"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Offense and Defense"
+			x: 3.75d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"&7The second path is the Combat path. It improves your Guards to the point that they can more easily handle some of the rough Advent of Ascension creatures, as well as the occasional raid that happens."
+				""
+				"&7The Barracks enables you to have even more Guards, which are housed in the Barracks Towers. Your Barracks can have four Towers up, and each level of the Barracks increases the number of Guards per Tower."
+				""
+				"&7You can also house Gold Ingots in the Barracks to pay for spies to weaken Raids."
+				""
+				"&7The Barracks Towers themselves are usually placed by the layout you choose when constructing the Barracks, and are a second Construction that needs to be built."
+			]
+			dependencies: ["056D01CFBD6E1603"]
+			id: "35BDED3713653924"
+			tasks: [{
+				id: "49F34D1E8C7EAEB5"
+				type: "item"
+				item: "minecolonies:blockhutbarracks"
+			}]
+			rewards: [{
+				id: "402FFC3E491E4113"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "From Squire to Knight"
+			x: 5.0d
+			y: -7.25d
+			shape: "rsquare"
+			description: [
+				"&7The Combat Academy will turn your Guards into Knights, much stronger defenders. It can't be built until you have at least a level 3 Barracks."
+				""
+				"&7They start off as Knights in Training, which will not defend your Colony until they are done Training. Then they become Knight Guards."
+				""
+				"&7If you would prefer ranged guards, though, the Archery will be needed."
+				""
+				"&7Like the Combat Academy, Archers in Training will not defend your Colony. But once they are trained, they become Archer Guards."
+			]
+			dependencies: ["35BDED3713653924"]
+			id: "7A07F9E4A5EF71A2"
+			tasks: [
+				{
+					id: "4E5FDC514E4EE246"
+					type: "item"
+					item: "minecolonies:blockhutcombatacademy"
+				}
+				{
+					id: "06C8EC2F28D7B620"
+					type: "item"
+					item: "minecolonies:blockhutarchery"
+				}
+			]
+			rewards: [{
+				id: "1FC7D5FF9E930D75"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Tower of Enchantment"
+			x: 2.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"&7Bandit, I highly suggest getting an Enchanter's Tower up early. It's very useful both in getting random Enchantments, but also helping your Citizens and buildings."
+				""
+				"&7You'll need to supply Ancient Tomes to the Enchanter, which are obtained from the various Raids the Colony system will throw at you. "
+				""
+				"&7The Enchanter will then go around collecting XP from various workers, and use this to craft Enchanted Books."
+				""
+				"&7The Enchanter's Tower can also craft various Scrolls."
+			]
+			dependencies: ["0123828D337D81E2"]
+			id: "04D159ACEDCAD04D"
+			tasks: [{
+				id: "47EE23D415901F71"
+				type: "item"
+				item: "minecolonies:blockhutenchanter"
+			}]
+			rewards: [{
+				id: "58FD2766F7579C3C"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Attacks like Clockwork"
+			x: -0.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"&7When you have enough Citizens moving into your Colony, whether they are still there or not (in case some, you know, died?), the Colony system will start to send Raids to you."
+				""
+				"&7These Raids can vary, from Pirates by water, to Amazonians or Barbarians by land. They'll usually spawn a Hex or two away and then start heading to your town. You'll want to use a Rallying Banner to gather your Guards to defend the Colony."
+				""
+				"&7Most Raids will spawn a set number of attackers, except ones like the Pirates. Pirate ships will have spawners on them, and you'll need to board the boat and destroy it to stop the Raid."
+				""
+				"&7Each Raid has at least one Leader, who will drop an Ancient Tome. This is useful for certain buildings like the Enchanter's Tower. The Ancient Tome will also glow before a Raid night."
+			]
+			dependencies: ["0660E08D755B3BB6"]
+			id: "0123828D337D81E2"
+			tasks: [
+				{
+					id: "41B0B1E38DD2EA34"
+					type: "item"
+					item: "minecolonies:ancienttome"
+				}
+				{
+					id: "5CBE41A007BA29D6"
+					type: "item"
+					item: {
+						id: "minecolonies:banner_rally_guards"
+						Count: 1b
+						tag: {
+							isActive: 0b
+							guardtowerpositions: [ ]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6283D4F6E04A6BBD"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Plant Recycling"
+			x: 5.0d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7The third path is the Technology Path. One of the first things you should consider making is the Composter."
+				""
+				"&7The Composter uses Composting Barrels and various plants to make either Compost or Dirt. You can select which one you want in the interface."
+				""
+				"&7By default, the Composter has no plants selected for Composting. Be sure to select the ones you want to Compost from the valid list in the interface."
+				""
+				"&7A good idea is to check your warehouses when you can for plants that your Builders and Guards collect while working."
+				""
+				"&7Compost is used by Farmers like Bonemeal, to make the farms grow food faster."
+			]
+			dependencies: ["056D01CFBD6E1603"]
+			id: "2C529DC9CBD39277"
+			tasks: [
+				{
+					id: "0293DBBD7352437E"
+					type: "item"
+					item: "minecolonies:blockhutcomposter"
+				}
+				{
+					id: "4E965E5B7319AD98"
+					type: "item"
+					item: "minecolonies:barrel_block"
+				}
+			]
+			rewards: [{
+				id: "016AEF1B2DC2198B"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "More Farming"
+			x: 5.0d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7If you want to expand what you can farm for, two good Buildings are the Flower Shop and the Plantation."
+				""
+				"&7The Flower Shop will grow various flowers every day if you supply it with an Axe and Compost."
+				""
+				"&7The Plantation, though, is for growing Bamboo, Sugar Cane, and Cactus."
+				""
+				"&7You can also teach the Plantation how to make Paper, Books, Sugar, etc."
+				""
+				"&7You can choose which of the three plants the Plantation will grow in the Interface. With certain University research, this screen chooses the one they WILL NOT grow."
+			]
+			dependencies: ["2C529DC9CBD39277"]
+			id: "1AAE96FA945E486D"
+			tasks: [
+				{
+					id: "6F18EA1E7D4DF1B1"
+					type: "item"
+					item: "minecolonies:blockhutflorist"
+				}
+				{
+					id: "65328E44C980EEB1"
+					type: "item"
+					item: "minecolonies:blockhutplantation"
+				}
+			]
+			rewards: [{
+				id: "2E520F8FDB6B7AB3"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Colorful Colony"
+			x: 5.0d
+			y: -2.25d
+			shape: "rsquare"
+			description: [
+				"&7The Dyer's Hut is used for supplying colored blocks like Red Sand, Wool, etc for Builders and other workers when they request them."
+				""
+				"&7The Dyer's Hut starts with knowing how to make Red Sand and Green Dye. You must teach it other recipes and supply it with the materials it needs to make other items."
+			]
+			dependencies: ["1AAE96FA945E486D"]
+			id: "6C344CD5495E2B09"
+			tasks: [{
+				id: "529503FE34CE4CCE"
+				type: "item"
+				item: "minecolonies:blockhutdyer"
+			}]
+			rewards: [{
+				id: "00396AEF282D1C65"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Grand Smithy"
+			x: 3.75d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7To keep your Citizens supplied with Tools, Weapons, and Armor, I highly suggest a Blacksmith's Hut be built."
+				""
+				"&7You can teach it any 'vanilla' recipe for tools and armor, and it will make those items when another Citizen or Building requests them."
+				""
+				"&7On reaching Level 5, the Blacksmith's Hut will automatically learn how to make Netherite recipes."
+			]
+			dependencies: ["056D01CFBD6E1603"]
+			id: "6F74DE164AB120DD"
+			tasks: [{
+				id: "6B7B50EFE6D2D63A"
+				type: "item"
+				item: "minecolonies:blockhutblacksmith"
+			}]
+			rewards: [{
+				id: "677C83FDB78CCE15"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Mechanically Inclined"
+			x: 3.75d
+			y: -2.25d
+			shape: "rsquare"
+			description: [
+				"&7The Mechanic's Hut is used to craft all manner of Redstone and other similar items. It is also used to craft Storage Blocks (like Blocks of Iron), and many other things when requested by another Citizen or Building."
+				""
+				"&7For the Mechanic's Hut to craft something,  you must teach it the Recipe."
+			]
+			dependencies: ["6F74DE164AB120DD"]
+			id: "0E8DFCF26EF93522"
+			tasks: [{
+				id: "27C19432D9A582CA"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+			rewards: [{
+				id: "50F4B1CF4400F978"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Working By Stone"
+			x: 6.25d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7The Stonemason's Hut is used to make recipes that involve Stone, Ores, Quartz, Purpur, and a few other materials. No Metals or Redstone items."
+				""
+				"&7For the Stonemason to make these items when another Worker or Building request them, it must have the materials on hand and know the recipe, which you can teach it in the interface."
+			]
+			dependencies: ["6F74DE164AB120DD"]
+			id: "76754F745F3BDAB3"
+			tasks: [{
+				id: "2C58B216BC0637D4"
+				type: "item"
+				item: "minecolonies:blockhutstonemason"
+			}]
+			rewards: [{
+				id: "1035DD907ACE3729"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Crushed"
+			x: 6.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7The Crusher is used to crush certain blocks into other blocks."
+				""
+				"&7The amount it can crush in a single day depends on the Crusher's level."
+				""
+				"&7It can crush Cobblestone into Gravel, with a chance at some Flint."
+				""
+				"&7It can crush Gravel into Sand. And then it can crush Sand into Clay."
+			]
+			dependencies: ["76754F745F3BDAB3"]
+			id: "357D31D66E459063"
+			tasks: [{
+				id: "4E98C374C02C60D8"
+				type: "item"
+				item: "minecolonies:blockhutcrusher"
+			}]
+			rewards: [{
+				id: "23D427677F51EBF5"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "A Solid Mix"
+			x: 6.25d
+			y: -2.25d
+			shape: "rsquare"
+			description: [
+				"&7The Concrete Mixer's Hut is used to make Concrete."
+				""
+				"&7It will make the Concrete Powder, place it in Water, then mine and store the resultant Concrete. It will only do this when another Worker or Building requests it, though."
+				""
+				"&7All the Concrete recipes are already taught to the Concrete Mixer."
+			]
+			dependencies: ["357D31D66E459063"]
+			id: "45923879FA16CA7A"
+			tasks: [{
+				id: "6859D4BF378036C0"
+				type: "item"
+				item: "minecolonies:blockhutconcretemixer"
+			}]
+			rewards: [{
+				id: "1700BE9D7F346766"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Wood Works"
+			x: 7.5d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7The Sawmill can craft items that are made mostly (75% or so) of Wood, and do not contain metal, stone, redstone, or string. It can also craft Cactus planks and similar items, Compost Barrels, Racks, and a few other items."
+				""
+				"&7The Sawmill will only craft these items if another Worker or Building has requested them, and you have taught it the appropriate recipe in the interface. And, of course, if it has the materials."
+			]
+			dependencies: ["056D01CFBD6E1603"]
+			id: "04ADADBC03C283FD"
+			tasks: [{
+				id: "636A5D7DEB77E4A2"
+				type: "item"
+				item: "minecolonies:blockhutsawmill"
+			}]
+			rewards: [{
+				id: "2632E5D87815EC59"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Stringed Up"
+			x: 7.5d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7The Flether's Hut makes Bows, Arrows, and items that use String or Wool, like Fishing Poles and Paintings."
+				""
+				"&7You must teach the Fletcher's Hut the appropriate recipe, it must have the materials on hand, and the item must be requested by another Worker or Building."
+				""
+				"&7The Sifter is used to sift through Dirt, Gravel, Sand, and Soul Sand to look for treasure."
+				""
+				"&7The Sifter will requre a Mesh to sift through the blocks. The higher material the Mesh is, the higher the chance of treasure. Each Mesh is made by a specific Building."
+			]
+			dependencies: ["04ADADBC03C283FD"]
+			id: "2FF91360F60621AD"
+			tasks: [
+				{
+					id: "7052FA562A4F7752"
+					type: "item"
+					item: "minecolonies:blockhutfletcher"
+				}
+				{
+					id: "46837859D3C03B41"
+					type: "item"
+					item: "minecolonies:blockhutsifter"
+				}
+			]
+			rewards: [{
+				id: "4220C729B1F71E45"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Molten Forging"
+			x: 8.75d
+			y: -4.75d
+			shape: "square"
+			description: [
+				"&7The Smeltery is used to turn Ores into Ingots."
+				""
+				"&7The Level of the Smeltery building, as well as the Smelter Worker's strength, gives you a higher chance of Doubling the Ingots it makes from one Ore."
+				""
+				"&7By default, all the Ores the Colony system knows about are activated in the interface. Some of the newer, or changed ores might not show up or be disabled, and you may be able to activate them or add them as a Recipe."
+			]
+			dependencies: ["04ADADBC03C283FD"]
+			id: "30DC8CE5E4D26597"
+			tasks: [{
+				id: "5CF7E1D72FEF53D4"
+				type: "item"
+				item: "minecolonies:blockhutsmeltery"
+			}]
+			rewards: [{
+				id: "4A6CB511B3FFB120"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Smelting Further"
+			x: 8.75d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7The Stone Smeltery is used to smelt various Stone related blocks."
+				""
+				"&7It can be used to turn Cobblestone into Stone, Stone Bricks into Cracked Stone Bricks, Clay into Terracota into Glazed Terracota, etc. It will do this only if the Stone Smeltery has been taught the appropriate recipe, it has the resources, and another Worker or Building has requested it."
+				""
+				"&7The Glassblower's Hut, like the Stone Smeltery, will only smelt Glass and Glass Planes, as long as it has been taught the appropriate recipes."
+				""
+				"&7It too will only make these items if it has Sand or Glass to work with, and another Worker or Building requests them."
+			]
+			dependencies: ["30DC8CE5E4D26597"]
+			id: "48FF9DABF25898F0"
+			tasks: [
+				{
+					id: "4D7A8B48FEB0563B"
+					type: "item"
+					item: "minecolonies:blockhutstonesmeltery"
+				}
+				{
+					id: "05D5CEC07106382F"
+					type: "item"
+					item: "minecolonies:blockhutglassblower"
+				}
+			]
+			rewards: [{
+				id: "5F988EE9707975D4"
+				type: "choice"
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Building an Ingredient List"
+			x: -2.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"&7The Resource Scroll is a handy little tool that lets you see everything a Builder needs to construct the building they are working on!"
+				""
+				"&7You can 'Register' the scroll with a specific Builder by Sneak + Right Clicking it onto the Builder's Hut."
+				""
+				"&7If you want a better view overall of what ALL your Workers need, then use a Clipboard! Like the Resource Scroll, you Sneak + Right Click it on a building to Register it. Except this time, you do this on the Town Hall!"
+			]
+			dependencies: ["01BAE55B6B3047E1"]
+			id: "02439EB453A3854F"
+			tasks: [
+				{
+					id: "4F5F178C04DF7819"
+					type: "item"
+					item: {
+						id: "minecolonies:resourcescroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7831CFD06E62117C"
+					type: "item"
+					item: "minecolonies:clipboard"
+				}
+			]
+			rewards: [{
+				id: "47BA912B8E073DBF"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Plate Defense"
+			x: 3.75d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&7At the appropriate Blacksmith's Hut level, as well as with the proper University Research, you can make your Knights some Plate Armor."
+				""
+				"&7Only your Blacksmith can make this very good Colony armor."
+			]
+			dependencies: ["6F74DE164AB120DD"]
+			id: "0DFC764FAE476ABE"
+			tasks: [{
+				id: "6A99C0E6A1353718"
+				type: "item"
+				item: {
+					id: "minecolonies:plate_armor_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6137DBBAB200BA0E"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Barred Gates"
+			x: 3.75d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"&7Raiders will focus on weak points in your defenses. Having an impenetrable wall may hinder your Citizens from doing their work. So, having a big open gateway might be a bit of a problem, yeah?"
+				""
+				"&7Using these Gates, you can fill up to a 5x4 opening with a Gate that can be raised and lowered with a Redstone signal. "
+				""
+				"&7You will need a stack of them to fill a larger area, but they provide a good defense against Raiders trying to break them. "
+			]
+			dependencies: ["0E8DFCF26EF93522"]
+			id: "1BED18103F72E84D"
+			tasks: [
+				{
+					id: "6D230AD083B34C71"
+					type: "item"
+					item: "minecolonies:gate_wood"
+				}
+				{
+					id: "0A995C10A005FD29"
+					type: "item"
+					item: "minecolonies:gate_iron"
+				}
+			]
+			rewards: [{
+				id: "7704740F92AFE9AA"
+				type: "choice"
+				table_id: 2640422954496342337L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

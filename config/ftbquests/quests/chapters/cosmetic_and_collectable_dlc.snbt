@@ -1,0 +1,81 @@
+{
+	id: "2C87350148D66802"
+	group: "32994487763D5D3F"
+	order_index: 6
+	filename: "cosmetic_and_collectable_dlc"
+	title: "Cosmetic and Collectable DLC"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Buddycards Access"
+			icon: "kubejs:unlock_buddycards"
+			x: -0.75d
+			y: -1.0d
+			description: [
+				"&2Looking to join the thousands of other Users playing the latest, greatest card game on the Game Server? Don't miss out on Buddycards!"
+				""
+				"&2Now you can join the fun at the biggest discount since launch! Make use of those packs you find in our carefully crafted dungeons! Craft yourself a Binder, collect the whole set..."
+				""
+				"&2Then start your journey to Buddycard Wizard by mastering the Grading system, imbuing the magic of your Buddycard Collection into gear to conquer the Game Server's many challenges!"
+				""
+				"&2Buddycards! They aren't just a game here! Your collection is your POWER!"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			id: "436BF4CF645FB5F5"
+			tasks: [{
+				id: "40483F7FD08DD830"
+				type: "item"
+				item: "aoa3:copper_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6A89AEFEE6882633"
+					type: "item"
+					item: "kubejs:unlock_buddycards"
+				}
+				{
+					id: "3BCCD5B2F584D9A6"
+					type: "item"
+					item: "buddycards:pack.1"
+				}
+				{
+					id: "243399294B5E9ED7"
+					type: "command"
+					command: "/ftbquests change_progress @p complete 7A2ECEB50D45D1B7"
+				}
+			]
+		}
+		{
+			icon: "buddycards:mystery_pack"
+			x: -0.75d
+			y: 0.0d
+			description: [
+				"&2A special offer for new Buddycard trainees!"
+				""
+				"&2For a single Lunaver Scrypto, you can boost your collection with a box of Mystery Boosters! These can contain cards from ANY set, and can be any Grade, including the mystical S grade!"
+				""
+				"&2Keep in mind, normally you can only find boosters in the various dungeons, keeps, and other such eventful structures scattered around the Game Server!"
+				""
+				"&2Don't hesitate, this offer will not last forever!"
+				""
+				"&2(NOTE: Only one Mystery Box per User or Power User. Restrictions apply. No refunds)"
+			]
+			dependencies: ["436BF4CF645FB5F5"]
+			id: "5AE3E589372C5FDA"
+			tasks: [{
+				id: "74DA6FDB7E600C3F"
+				type: "item"
+				item: "aoa3:lunaver_coin"
+			}]
+			rewards: [{
+				id: "0C6F8F43AF8550EF"
+				type: "item"
+				item: "buddycards:booster_box_mystery"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,904 @@
+{
+	id: "152BD4F6F55C582C"
+	group: "1A78C6EA3A0ABFDA"
+	order_index: 14
+	filename: "end_of_the_road"
+	title: "End of the Dimensional Road"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Final Key"
+			x: -1.5d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"&5The final dimension, Bandit."
+				""
+				"&dNearly there. It won't be easy."
+				""
+				"&5Though probably good to mention just beating the last of the Board of Directors isn't an instant win..."
+				""
+				"&dYou'll still be stuck there. Which isn't acceptable. "
+				""
+				"&5But the key to getting you out requires beating the last Boss and getting his Boss Card."
+				""
+				"&dAnd you'll need to get there. The Realmstone for the Shyrelands requires visiting a few different dimensions..."
+				""
+				"&5Darkly Powder from Dustopia, Bloodstone from Abyss..."
+				""
+				"&dHaunted Flower from Greckon, and some Magic Mending Solution..."
+			]
+			dependencies: ["6C161565C1C22C32"]
+			id: "33ED1292B70F45B2"
+			tasks: [{
+				id: "55C33C10C600544A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "There and Back"
+			x: 0.5d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"&5When crafting the Shyrelands Realmstone, keep in mind you'll want to make the Magic Mending Solution last."
+				""
+				"&dIt will transform into a Compound thirty seconds after you mix it, so you'll need to have everything on hand and ready."
+				""
+				"&5If you are forgetting how to get Magic Dust for the Magic Mending Solution, every creature in Advent of Ascension has a tiny chance of dropping it."
+				""
+				"&dBut the bosses have a much higher chance. You can also find it in various castles across the dimensions."
+			]
+			dependencies: ["33ED1292B70F45B2"]
+			id: "1C425F7E27B7C144"
+			tasks: [{
+				id: "493B67AE93170AFE"
+				type: "item"
+				item: "aoa3:shyrelands_realmstone"
+			}]
+			rewards: [{
+				id: "0276A7835E1CEA87"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "To the Shyre"
+			x: 2.5d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"&5This is the Shyrelands, Bandit. The final bastion of the FOP Board of Directors."
+				""
+				"&dThe Board Chairman resides here, with his retinue of followers. At first this place looks fairly peaceful and pretty."
+				""
+				"&5But that facade fades quickly. You can see it in the deadliness of the various creatures that follow the Chairman. The ruins and whats left of the original inhabitants of the Shyre."
+				""
+				"&dThis place is given a very idylic coating of paint to look good. Maybe we can return it to that state for real. "
+				""
+				"&5With Bandit's help? Of course we can. Best not to dally, they don't take kindly to Power User intruders."
+			]
+			dependencies: ["1C425F7E27B7C144"]
+			id: "5D2C07336322C609"
+			tasks: [{
+				id: "6A399854E162BE49"
+				type: "dimension"
+				dimension: "aoa3:shyrelands"
+			}]
+			rewards: [{
+				id: "36C10D795A3553F6"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Shyre Supplies"
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"&5The Shyrelands is home to a lot of magical power. More than Runandor for sure. It has two powerful Ores beneath its grass you can mine."
+				""
+				"&dYou don't even have to go super low for it. See, Shyrelands is a giant slab of land, supported over the Void by grand pillars of magic."
+				""
+				"&5If you go low enough, you'll break through the crust into open air. You can see the many pillars that hold the land up."
+				""
+				"&dWhat may be a little harder to find is called Whitewashing Solution. It's what the Chairman's minions use to try keeping the world visually pristine."
+				""
+				"&5It cleans the toughest grease and poisons the strongest invader. Be careful of those who carry it, but you can probably use it yourself for some powerful gear."
+			]
+			dependencies: ["5D2C07336322C609"]
+			id: "76F854D094600D5F"
+			tasks: [
+				{
+					id: "0461D1AA34D38C0A"
+					type: "item"
+					item: "aoa3:shyrestone_ingot"
+				}
+				{
+					id: "056F52D0959D8476"
+					type: "item"
+					item: "aoa3:shyregem"
+				}
+				{
+					id: "5CAEEECC32A192DA"
+					type: "item"
+					item: "aoa3:whitewashing_solution"
+				}
+			]
+			rewards: [{
+				id: "15D4CA73991997A0"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "SHYRE CRAFTS"
+			x: 5.0d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["76F854D094600D5F"]
+			id: "77A866B813FB0EC5"
+			tasks: [{
+				id: "0B54E7D58504D878"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "SHYRE FIGHTS"
+			x: 5.0d
+			y: 1.5d
+			shape: "square"
+			dependencies: ["76F854D094600D5F"]
+			id: "3BAC7A68FB82DDCD"
+			tasks: [{
+				id: "5A718A5D75A11810"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Heavy Guard"
+			x: 5.0d
+			y: -2.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Knight's Guard is a greatblade you can craft. "
+				""
+				"&dBy holding Right Click (Use), you hold the sword up as a shield. It will block and take durability damage like a shield."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "739669F7B8D6B845"
+			tasks: [{
+				id: "13C23D0EDF90EBE8"
+				type: "item"
+				item: {
+					id: "aoa3:knights_guard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "458AB3EF557C0E3D"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Show the Light"
+			x: 3.75d
+			y: -2.75d
+			shape: "rsquare"
+			description: ["&dThe Light's Blade is a sword you can craft."]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "335B8BCEBF6A9AD1"
+			tasks: [{
+				id: "37317018E235CDE4"
+				type: "item"
+				item: {
+					id: "aoa3:lights_way"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47FA7264CAB4D493"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Maximum Pick"
+			x: 6.25d
+			y: -2.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Pickmax is a pickaxe you can craft."
+				""
+				"&dWhen you mine any type of Stone, the Pickmax will also break any other Stone-like materials in a 3x3x3 cube around it. "
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "3A79C8E44E751B3E"
+			tasks: [{
+				id: "666ED44A880C5CF0"
+				type: "item"
+				item: {
+					id: "aoa3:pickmax"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "62A90F791DDAD336"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Stick of the Shyre"
+			x: 2.5d
+			y: -2.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Shyre Staff is a staff you can craft. It uses Energy and Distortion Runes to cast."
+				""
+				"&dWhen used, the Shyre Staff fires a projectile that will teleport you to where it lands, much like an Ender Pearl."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "3D8ABFCD7CCF3658"
+			tasks: [{
+				id: "6EAB00B3E4F2CD32"
+				type: "item"
+				item: {
+					id: "aoa3:shyre_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ABB879637A036DF"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Sword of Lightness"
+			x: 7.5d
+			y: -2.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Shyre Sword is a greatblade you can craft. "
+				""
+				"&dThe Shyre Sword does more damage when in brighter areas, and less damage in darker areas."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "457CE99EFD36958D"
+			tasks: [{
+				id: "74E611CB1DE76C3D"
+				type: "item"
+				item: {
+					id: "aoa3:shyre_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A5D7A4FEDC00165"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Bow of the Shyre"
+			x: 5.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Shyregem Bow is a bow you can craft. It uses Arrows for ammo."]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "1B2CD4D41A66FF8B"
+			tasks: [{
+				id: "70CA64C037292775"
+				type: "item"
+				item: {
+					id: "aoa3:shyregem_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "72E4100F2A1C6037"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Amped Up"
+			x: 6.25d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Amplifier is a shotgun you can craft in an Infusion Table. It uses Spreadshot for ammunition."
+				""
+				"&dProjectiles fired by the Amplifier explode on hit."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "39DE9EC03E42ACFE"
+			tasks: [{
+				id: "20FBDD1A3879D154"
+				type: "item"
+				item: {
+					id: "aoa3:amplifier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2908153BB796CC37"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Knighted"
+			x: 1.25d
+			y: -2.75d
+			shape: "rsquare"
+			description: [
+				"&dKnight Armor is an armor set you can craft in an Infusion Table."
+				""
+				"&dWearing a piece of Knight Armor will increase your max health. Each additional piece of Knight Armor will increase your max HP further."
+				""
+				"&dWearing a full set of Knight Armor will grant you Strenght II if your health falls under 20%"
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "12FBC4A278EF0D58"
+			tasks: [{
+				id: "413F2DDAF933D564"
+				type: "item"
+				item: {
+					id: "aoa3:knight_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CEE219A736A1A7F"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Shooting Shyre"
+			x: 1.25d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Shyre Blaster is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "3534D71FA95ED358"
+			tasks: [{
+				id: "36A5C8C25C976965"
+				type: "item"
+				item: {
+					id: "aoa3:shyre_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7191816F83399F26"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Sky Shooter"
+			x: 2.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Sublimus is a gun you can craft in an Infusion Table. It uses Limonite Bullets for ammunition."
+				""
+				"&dAs long as  you have open skies above you, Sublimus will not consume ammo when firing. You still must HAVE ammunition in your inventory, however."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "769B1CFB844FC168"
+			tasks: [{
+				id: "044097A34B026419"
+				type: "item"
+				item: {
+					id: "aoa3:sublimus"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "56329C4DD96B16BB"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Arcbeast and Axiolight"
+			x: 5.0d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"&5Arcbeasts and Axiolight are hostile creatures that spawn in the Shyrelands. "
+				""
+				"&5Axiolights are invisible to you if they are at least 12 blocks away."
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "5FDA9B7ED270DF0F"
+			tasks: [
+				{
+					id: "6AD3B1B5B905264A"
+					type: "kill"
+					entity: "aoa3:arcbeast"
+					value: 5L
+				}
+				{
+					id: "3434CEAADA0938F6"
+					type: "kill"
+					entity: "aoa3:axiolight"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "2B5757B135B27351"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Arc Flower and Arcworm"
+			x: 3.75d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"&5Arc Flowers and Arcworms are hostile creatures that spawn in the Shyrelands. Arcworms only spawn when an Arc Flower is killed."
+				""
+				"&5Arcworms are considered Arthropods for the Bane of Arthropods enchantment."
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "6F9B561E224023C2"
+			tasks: [
+				{
+					id: "113D2877690DFD45"
+					type: "kill"
+					entity: "aoa3:arc_flower"
+					value: 5L
+				}
+				{
+					id: "3162A84814F24B2A"
+					type: "kill"
+					entity: "aoa3:arcworm"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "58BBB162FC11F03C"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Lightwalker and Luxocron"
+			x: 6.25d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"&5Lightwalkers and Luxocrons are hostile creatures that spawn in the Shyrelands, in Luxocron Dungeons. "
+				""
+				"&5When a Lightwalker hits you, it will inflict Blindness. Being near a Luxocron will inflict Weakness III on you."
+				""
+				"&5Lightwalkers have a chance of dropping a staff, and Luxocrons have a chance of dropping a gun."
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "410232021D789525"
+			tasks: [
+				{
+					id: "06667903A582B92D"
+					type: "kill"
+					entity: "aoa3:lightwalker"
+					value: 5L
+				}
+				{
+					id: "196321CA40C191D9"
+					type: "kill"
+					entity: "aoa3:luxocron"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "7BCCCC9A220926D6"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Omnilight and Shyre Knight"
+			x: 7.5d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"&5Omnilights and Shyre Knights are hostile creatures that spawn in the Shyrelands."
+				""
+				"&5Omnilights will constantly shoot projectiles at you, even if you are invisible. "
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "3BFAEC4DDA571D1C"
+			tasks: [
+				{
+					id: "60C97F016095EB93"
+					type: "kill"
+					entity: "aoa3:omnilight"
+					value: 5L
+				}
+				{
+					id: "5243415D36E2DB21"
+					type: "kill"
+					entity: "aoa3:shyre_knight"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "7BD7A0CBC9058BE9"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Soulscorne and Soulvyre"
+			x: 2.5d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"&5Soulscornes and Soulvires are hostile creatures that spawn in the Shyrelands. Soulvyres mostly spawn down below."
+				""
+				"&5Soulscornes will steal any beneficial potion effects you have on you. If a Soulvyre hits you, and if you have Soul energy left, it will steal it and heal itself."
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "2006DFF03D1BD4FB"
+			tasks: [
+				{
+					id: "3B6FE7E1307488DA"
+					type: "kill"
+					entity: "aoa3:soulscorne"
+					value: 5L
+				}
+				{
+					id: "46A5F3518631AC82"
+					type: "kill"
+					entity: "aoa3:soulvyre"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "710574D25BB8E021"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Stimulo and Sysker"
+			x: 6.25d
+			y: 4.25d
+			shape: "rsquare"
+			description: [
+				"&5Stimulos and Syskers are hostile creatures that spawn in the Shyrelands. Syskers usually spawn down below."
+				""
+				"&5Stimulo gets faster with the less health it has. "
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "411A683E3AC798C5"
+			tasks: [
+				{
+					id: "603B1256DC2B7B5D"
+					type: "kill"
+					entity: "aoa3:stimulo"
+					value: 5L
+				}
+				{
+					id: "58F9B0298EF9B68B"
+					type: "kill"
+					entity: "aoa3:sysker"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "2CA41833C3947D91"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Stimuloses"
+			x: 3.75d
+			y: 4.25d
+			shape: "rsquare"
+			description: [
+				"&5Stimuloses is a hostile creature that rarely spawns in the Shyrelands. It usually spawns down below."
+				""
+				"&5The lower the health of Stimuloses, the higher of a Strength buff it gets."
+			]
+			dependencies: ["3BAC7A68FB82DDCD"]
+			id: "7D2BB13556ABA96B"
+			tasks: [{
+				id: "3E1F8C62B8C501F4"
+				type: "kill"
+				entity: "aoa3:stimulosus"
+				value: 2L
+			}]
+			rewards: [{
+				id: "153B8653C7C3C15D"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Bow of Light"
+			x: 8.75d
+			y: -2.75d
+			shape: "rsquare"
+			description: [
+				"&dThe Sunshine Bow is a bow you can purchase from Shyre Archers located in Archer Outposts. It uses Arrows for ammunition."
+				""
+				"&dWhen fired, the Sunshine Bow's arrows will highlight all creatures near it with glowing."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "1A14F712317CE61F"
+			tasks: [{
+				id: "6CE922FE31F8EDE6"
+				type: "item"
+				item: {
+					id: "aoa3:sunshine_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68FE46B41B5F4DD7"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"&5The boss of the FOP Game Server, the Chairman of the Board of Directors, is a dangerous, deadly being known as Craexxeus."
+				""
+				"&dHe normally does not grant audiences with Power Users, instead just sending his minions in until the Power User is removed. "
+				""
+				"&5He has, however, forgotten about the original inhabitants of the Shyrelands. They have a way to call a Board Meeting."
+				""
+				"&dThey've hidden it as an item called an Ancient Ring. If you befriend the Shyre Archer merchants enough, they may be willing to trade it to you."
+			]
+			dependencies: ["76F854D094600D5F"]
+			id: "3EC0E364CE73175C"
+			tasks: [{
+				id: "2C81860679A5EAC4"
+				type: "checkmark"
+				title: "The Chairman"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 0.0d
+			shape: "pentagon"
+			description: [
+				"&5Once you obtain an Ancient Ring, you'll need to prepare. "
+				""
+				"&dCraexxeus is the boss of the FOP Game Server for a reason. He's quite powerful, and flies and fights on a very dangerous creature."
+				""
+				"&5If you think you are ready, you'll need to find a Crae Statue, an homage to his powerful mount. You'll find a Craexxeus Altar in the mouth, and Right Clicking the Ancient Ring on it will call a Board Meeting, summoning Craexxeus."
+			]
+			dependencies: ["3EC0E364CE73175C"]
+			id: "1D6EC9E75250EA83"
+			tasks: [{
+				id: "352620177DF316EA"
+				type: "item"
+				item: "aoa3:ancient_ring"
+			}]
+			rewards: [{
+				id: "354C35B33DF08230"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "The Final Battle"
+			x: 12.75d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&dCraexxeus is known as the Ancient of War. Of all the Board Members, he's survived the longest and won the most fights against Power Users... to the point where he got bored of accepting them."
+				""
+				"&5Craexxeus will start the fight up on his mount, firing projectiles at you. If he stops firing for a bit, he's probably charging up his Nuke shot. Careful!"
+				""
+				"&dKill his mount, and he'll take the battlefield himself in a second phase, known as Xxeus. He will constantly run, jump, and fly at you, endlessly attacking. "
+				""
+				"&5If you manage to take him down, he may give up one of his powerful weapons."
+			]
+			dependencies: ["1D6EC9E75250EA83"]
+			id: "61FC27DC9F62D458"
+			tasks: [{
+				id: "230900BB2B13E35C"
+				type: "item"
+				item: "kubejs:boss_card_craexxeus"
+			}]
+			rewards: [
+				{
+					id: "301E885A2FD41931"
+					type: "choice"
+					table_id: 818089594093312426L
+				}
+				{
+					id: "55075E7D79CE81CF"
+					type: "choice"
+					table_id: 818089594093312426L
+				}
+			]
+		}
+		{
+			title: "Upgrades of the Divine"
+			x: 3.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dThe Divine Station is a special crafting bench you can  obtain from Divine Ritual Temples, a rare structure in the Shyrelands."
+				""
+				"&dWith this station, you can combine certain Weapons with certain Upgrade Kits to get a much more powerful weapon."
+				""
+				"&dThere are so many combinations, I'm going to set up a new page in your Q.U.E.S.T. book just for Divine Station upgrades, Bandit. I'll let ByteSize do the research and explain the upgrades to you."
+				""
+				"&dCheck out the new section in the Survive, Live, Profit area of the Q.U.E.S.T. Book."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "7E44C96E66017AD0"
+			tasks: [{
+				id: "65570C9A42011D24"
+				type: "item"
+				item: "aoa3:divine_station"
+			}]
+			rewards: [{
+				id: "0DE926731BB06635"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "The Board is Disbanded"
+			x: 15.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"&5Great work, Bandit! That's the entire Board of Directors down!"
+				""
+				"&dYou should have collected one card from every Boss, whether you Fought or Bribed them."
+				""
+				"&5Now then, this doesn't mean that the FOP is done for. They still hold their Boss positions, and the FOP Game Server is still in their control."
+				""
+				"&dBut with the Boss Cards, and the constant spreading of the Aubodon Worm into their system, we've opened up the path to getting control of the FOP Game Server."
+				""
+				"&5And with control, we can rescue these trapped planets, and more importantly..."
+				""
+				"&dGet you home."
+			]
+			dependencies: [
+				"61FC27DC9F62D458"
+				"109859AE2E8D0E7C"
+			]
+			id: "1A0C22EF320DD94F"
+			tasks: [{
+				id: "0F0C68E3FDF57345"
+				type: "item"
+				item: "kubejs:boss_card_craexxeus"
+			}]
+		}
+		{
+			title: "Upgrade of Ruins"
+			x: 7.5d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["&dThe Ancient Upgrade Kit is a rare item you can find in the Shyrelands. It is used in a Divine Station, which you can find in Divine Ritual Temples in the Shyrelands."]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "778BDD21962F9A8A"
+			tasks: [{
+				id: "75A163C924E68727"
+				type: "item"
+				item: "aoa3:ancient_upgrade_kit"
+			}]
+			rewards: [{
+				id: "30E589DA466AA65C"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Toxic Pretty"
+			x: 8.75d
+			y: -4.0d
+			shape: "rsquare"
+			description: [
+				"&dTrilliad Blooms  in the Shyrelands will drop Trilliad Seeds. These can be planted like any crop, to grow Trilliad Leaves."
+				""
+				"&dTrilliad Leaves can be consumed. They do not satiate hunger, but they DO give you a lot of negative effects. "
+				""
+				"&dAbout the only thing these leaves are good for is Composting."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "6D2F0D57DE9A4884"
+			tasks: [
+				{
+					id: "1E66EE0CB3D1CD63"
+					type: "item"
+					item: "aoa3:trilliad_leaves"
+				}
+				{
+					id: "125C666E04D8F083"
+					type: "item"
+					item: "aoa3:trilliad_seeds"
+				}
+			]
+			rewards: [{
+				id: "06A6768A279A0354"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "Statue Stricken"
+			x: 5.0d
+			y: -5.25d
+			shape: "rsquare"
+			description: [
+				"&dThe Paralyzer is a blaster you can craft in an Infusion Table. It uses your Spirit energy to fire shots."
+				""
+				"&dThe Paralyzer's shots slow creatures on hit."
+			]
+			dependencies: ["77A866B813FB0EC5"]
+			id: "049ED0AB3372B151"
+			tasks: [{
+				id: "24F089B9389CD76C"
+				type: "item"
+				item: {
+					id: "aoa3:paralyzer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A905355BF71C7E4"
+				type: "choice"
+				table_id: 818089594093312426L
+			}]
+		}
+	]
+	quest_links: [ ]
+}
