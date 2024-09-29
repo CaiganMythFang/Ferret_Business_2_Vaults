@@ -1,0 +1,2 @@
+[card/conditions.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/card/conditions.json)
+Controls the Conditions cards can have, such as "3 adjacent blue cards" or "for every foil" etc.

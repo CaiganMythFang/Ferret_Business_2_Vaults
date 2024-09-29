@@ -1,0 +1,2 @@
+[talents_gui_styles.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/talents_gui_styles.json)
+Controls the layout of available talents in the VH GUI.

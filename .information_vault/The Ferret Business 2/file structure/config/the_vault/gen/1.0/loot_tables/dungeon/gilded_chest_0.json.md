@@ -1,0 +1,2 @@
+[gen/1.0/loot_tables/dungeon/gilded_chest_0.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/gen/1.0/loot_tables/dungeon/gilded_chest_0.json)
+Controls the loot from chests in a dungeon, depending on the level.

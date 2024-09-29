@@ -1,0 +1,2 @@
+[gen/1.0/loot_pools/rune_0.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/gen/1.0/loot_pools/rune_0.json)
+Controls runes that can be found as loot (Possibly deprecated)

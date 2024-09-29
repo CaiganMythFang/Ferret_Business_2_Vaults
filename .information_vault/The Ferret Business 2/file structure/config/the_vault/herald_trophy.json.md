@@ -1,0 +1,2 @@
+[herald_trophy.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/herald_trophy.json)
+Controls how much time is needed to get each tier of Trophy.

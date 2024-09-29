@@ -1,0 +1,2 @@
+[ability_enhancement_tasks.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/ability_enhancement_tasks.json)
+(Needs Testing) Controls the tasks for Enhancement Altars that can be found in Dungeons (readded by Wolds)

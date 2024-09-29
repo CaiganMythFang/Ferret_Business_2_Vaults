@@ -1,0 +1,2 @@
+[augment_box.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/augment_box.json)
+Wolds Addition : Controls the list of Augments that can drop from the Augment box loot box.

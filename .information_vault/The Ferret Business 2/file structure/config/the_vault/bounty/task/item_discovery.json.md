@@ -1,0 +1,2 @@
+[bounty/task/item_discovery.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/bounty/task/item_discovery.json)
+Controls what Find Item tasks cans how up on bounties.

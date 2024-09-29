@@ -1,0 +1,2 @@
+[entity_groups.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/entity_groups.json)
+Controls what is considered in the same group of enemies, probably for kill tracking

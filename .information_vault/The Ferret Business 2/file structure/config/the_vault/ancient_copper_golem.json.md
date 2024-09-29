@@ -1,0 +1,2 @@
+[ancient_copper_golem.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/ancient_copper_golem.json)
+Controls Ancient Copper Golem time to degrade, and what loot tables each level of degradation drops.

@@ -1,0 +1,2 @@
+[vault_ore.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/vault_ore.json)
+Probably Depricated. Has Vault Ores, but not all of them, and ones that don't exist anymore as well.

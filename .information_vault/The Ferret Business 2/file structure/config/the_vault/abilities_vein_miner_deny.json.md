@@ -1,0 +1,2 @@
+[abilities_vein_miner_deny.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/abilities_vein_miner_deny.json) 
+Controls what tools will not activate Vein Miner skill if it is turned on.

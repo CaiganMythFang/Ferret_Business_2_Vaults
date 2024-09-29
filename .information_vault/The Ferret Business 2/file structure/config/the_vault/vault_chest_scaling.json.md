@@ -1,0 +1,2 @@
+[vault_chest_scaling.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/vault_chest_scaling.json)
+Probably deprecated. Contains level scaling for chests, but has references to trader and chests that don't exist.

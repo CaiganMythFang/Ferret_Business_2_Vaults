@@ -1,0 +1,2 @@
+[trader_exclusions.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/trader_exclusions.json)
+Possibly modifies Wandering Trader stocks, blacklisting certain items.

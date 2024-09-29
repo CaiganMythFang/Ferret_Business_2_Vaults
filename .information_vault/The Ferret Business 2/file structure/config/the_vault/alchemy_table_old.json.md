@@ -1,0 +1,2 @@
+[alchemy_table_old.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/alchemy_table_old.json)
+(Deprecated?) Controls the costs for applying effects to Vault Potions, as well as whether they need to be found.

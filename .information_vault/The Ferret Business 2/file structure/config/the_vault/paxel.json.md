@@ -1,0 +1,2 @@
+[paxel.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/paxel.json)
+Deprecated. Controlled what could be put onto Vault Paxels. Replaced by Vault Tools + Jewel system.

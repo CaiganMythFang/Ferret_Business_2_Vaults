@@ -1,0 +1,2 @@
+[crystal_upgrade.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/crystal_upgrade.json)
+Possibly Deprecated. Seems to control upgrading a vault crystal or something similar.

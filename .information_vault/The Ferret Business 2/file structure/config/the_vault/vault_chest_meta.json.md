@@ -1,0 +1,2 @@
+[vault_chest_meta.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/vault_chest_meta.json)
+Controls where catalyst fragments can be found. Possibly deprecated?

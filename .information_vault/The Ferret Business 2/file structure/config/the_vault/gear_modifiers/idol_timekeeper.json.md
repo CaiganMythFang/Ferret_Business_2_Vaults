@@ -1,0 +1,2 @@
+[gear_modifiers/idol_timekeeper.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/gear_modifiers/idol_timekeeper.json)
+Contains the list of Implicits, Prefixes, and Suffixes on specific pieces of gear.

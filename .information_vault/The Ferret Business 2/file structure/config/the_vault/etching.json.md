@@ -1,0 +1,2 @@
+[etching.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/etching.json)
+Currently deprecated. Controls available etchings and their ranges.

@@ -1,0 +1,2 @@
+[unique_gear.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/unique_gear.json)
+Controls what special attributes are on unique gear when it is found. Not fully implemented yet.

@@ -1,0 +1,2 @@
+[researches_gui_styles.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/researches_gui_styles.json)
+Controls the placement of each Research in the VH GUI.

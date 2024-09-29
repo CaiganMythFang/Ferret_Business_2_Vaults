@@ -1,0 +1,2 @@
+[gear/gear_roll_type.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/gear/gear_roll_type.json)
+Determines what loot pools  each listed 'rarity' on unidentified vault gear can roll.

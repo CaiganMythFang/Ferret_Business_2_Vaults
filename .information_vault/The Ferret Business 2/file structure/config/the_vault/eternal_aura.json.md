@@ -1,0 +1,2 @@
+[eternal_aura.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/eternal_aura.json)
+Controls the types and stats of the auras Eternals can have.

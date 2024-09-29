@@ -1,0 +1,2 @@
+[statue_recycling.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/statue_recycling.json)
+Something to do with season 2 statues.

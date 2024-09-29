@@ -1,0 +1,2 @@
+[trader_core_common.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/trader_core_common.json)
+Deprecated files, trader core for statues do not exist anymore.

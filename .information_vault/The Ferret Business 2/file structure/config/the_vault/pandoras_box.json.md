@@ -1,0 +1,2 @@
+[pandoras_box.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/pandoras_box.json)
+Deprecated, controlled what items could drop from the Pandora's Box loot box.

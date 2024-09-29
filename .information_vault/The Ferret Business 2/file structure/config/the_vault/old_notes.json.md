@@ -1,0 +1,2 @@
+[old_notes.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/old_notes.json)
+Controls the hint text that shows up on Old Notes found in Treasure Sand.

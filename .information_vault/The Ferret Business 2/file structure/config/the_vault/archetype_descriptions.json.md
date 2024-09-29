@@ -1,0 +1,2 @@
+[archetype_descriptions.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/archetype_descriptions.json)
+Currently Deprecated. Contains the descriptions for the various archetypes that could be selected.

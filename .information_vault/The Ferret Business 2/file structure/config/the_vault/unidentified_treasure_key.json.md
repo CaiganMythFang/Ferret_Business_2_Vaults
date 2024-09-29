@@ -1,0 +1,2 @@
+[unidentified_treasure_key.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/unidentified_treasure_key.json)
+Controls the item list and drop rate of each different Treasure Key.

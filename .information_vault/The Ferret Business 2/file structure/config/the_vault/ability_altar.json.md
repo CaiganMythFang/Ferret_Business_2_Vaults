@@ -1,0 +1,2 @@
+[ability_altar.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/ability_altar.json) 
+(Needs Testing) Possibly controls how much less it costs to respec using a Skill Altar, depending on Level?

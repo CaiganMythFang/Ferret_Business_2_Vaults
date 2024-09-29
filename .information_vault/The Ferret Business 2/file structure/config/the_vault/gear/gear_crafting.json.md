@@ -1,0 +1,2 @@
+[gear/gear_crafting.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/gear/gear_crafting.json)
+Controls the proficiency skill in Gear Crafting.

@@ -1,0 +1,2 @@
+[skill_gates.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/skill_gates.json)
+Controls what talents and researches are gated behind others

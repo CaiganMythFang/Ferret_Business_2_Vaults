@@ -1,0 +1,2 @@
+[researches_groups.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/researches_groups.json)
+Controls what Research Group each research is in, for purposes of scaling knowledge costs.

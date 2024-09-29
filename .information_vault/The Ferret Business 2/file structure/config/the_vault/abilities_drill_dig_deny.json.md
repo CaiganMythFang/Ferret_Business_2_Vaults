@@ -1,0 +1,2 @@
+[abilities_drill_dig_deny.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/abilities_drill_dig_deny.json) 
+Blacklist for blocks that Dig: Drill should not break.

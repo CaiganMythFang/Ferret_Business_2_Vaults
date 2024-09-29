@@ -1,0 +1,2 @@
+[player_exp.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/player_exp.json)
+Probably deprecated, controlled how much xp a vault boss would give you.

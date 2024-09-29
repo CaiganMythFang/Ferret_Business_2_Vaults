@@ -1,0 +1,2 @@
+[player_scaling.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/player_scaling.json)
+Seems to scale mob stats for specific players. CaptainSparkles.json is real!

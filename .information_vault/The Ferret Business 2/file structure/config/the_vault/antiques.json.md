@@ -1,0 +1,2 @@
+[antiques.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/antiques.json)
+Controls the descriptions and rewards for collecting Antique sets.

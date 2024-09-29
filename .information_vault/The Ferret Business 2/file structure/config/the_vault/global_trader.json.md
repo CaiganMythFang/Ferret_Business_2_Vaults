@@ -1,0 +1,2 @@
+[global_trader.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/global_trader.json)
+Probably deprecated. Some kind of global trader with various vault resources and overworld resources.

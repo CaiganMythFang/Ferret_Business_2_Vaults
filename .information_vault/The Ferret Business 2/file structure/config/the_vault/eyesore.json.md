@@ -1,0 +1,2 @@
+[eyesore.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/eyesore.json)
+Seems to be for some sort of boss, perhaps an early incarnation of the Herald or one of the old Vault Elite Bosses?

@@ -1,0 +1,2 @@
+[vault_potion.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/vault_potion.json)
+Controls the values of various Vault Potions, including how much of each thing is needed to recharge them.

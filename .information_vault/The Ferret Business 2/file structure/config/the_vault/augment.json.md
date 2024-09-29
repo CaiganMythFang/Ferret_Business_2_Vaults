@@ -1,0 +1,2 @@
+[augment.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/augment.json)
+Controls the list of Augments and the drop rate of them in Completion Crates.

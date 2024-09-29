@@ -1,0 +1,2 @@
+[cryo_chamber.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/cryo_chamber.json)
+Controls how many eternal souls and how much time it takes to create an Eternal.

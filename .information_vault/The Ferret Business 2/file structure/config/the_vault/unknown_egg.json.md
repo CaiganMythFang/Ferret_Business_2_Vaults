@@ -1,0 +1,2 @@
+[unknown_egg.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/unknown_egg.json)
+Possibly deprecated, controlled some sort of leveled spawn egg grouping.

@@ -1,0 +1,2 @@
+[alchemy_table.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/alchemy_table.json)
+Controls the effects that can be put onto Vault Potions, as well as whether they need to be found.

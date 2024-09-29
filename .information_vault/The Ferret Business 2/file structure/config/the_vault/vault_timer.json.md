@@ -1,0 +1,2 @@
+[vault_timer.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/vault_timer.json)
+Controls the base timer (needs testing, may be hardcoded now?)

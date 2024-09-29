@@ -1,0 +1,2 @@
+[player_research_transfer.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/player_research_transfer.json)
+Seems to be for some way to transfer research? Possibly if research changed names internally?

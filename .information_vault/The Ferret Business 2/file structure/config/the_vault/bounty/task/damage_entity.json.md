@@ -1,0 +1,2 @@
+[bounty/task/damage_entity.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/bounty/task/damage_entity.json)
+Controls what Vault Damage Entity tasks can show up on bounties (may be deprecated?)

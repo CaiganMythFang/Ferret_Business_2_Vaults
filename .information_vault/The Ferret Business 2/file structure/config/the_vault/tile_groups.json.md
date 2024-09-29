@@ -1,0 +1,2 @@
+[tile_groups.json](file:///J:/Curseforge%20Instances/Instances/Ferret%20Business%202%20-%20Vaults%20of%20Fortune/config/the_vault/tile_groups.json)
+Seems to control what blocks and tile entities are considered in what group.
