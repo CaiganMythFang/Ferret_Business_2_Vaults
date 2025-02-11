@@ -1,0 +1,187 @@
+{
+  "name": "Fab Creatures n\u0027 Plants",
+  "quests": [
+    {
+      "uuid": "3650c8f5-ccd8-48ee-ad11-a6a7cdf24f97",
+      "name": {
+        "text": "Buddycard Enderling",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Looking for an enthusiastic youngling willing to trade Buddycards with you? Look no further!\n    This Enderling Trade Beacon will call for an Enderling to show up that is ready to trade. ",
+        "isTranslationKey": false
+      },
+      "x": 16,
+      "y": 53,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "925e8064-e2d1-4f7c-894b-4333f32e72f0",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 14,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8fd7bda1-0850-4ac3-9905-6d75f88d530a",
+      "name": {
+        "text": " Nethengenic Beast",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    With the weird Hex layer that the FOP have overlayed on worlds, it\u0027s harder to find certain things, like the Nethengenic Pits these creatures appear in.\n    You\u0027ll need them, though, to progress, so we\u0027ve coded up a spawn egg you can purchase if you have trouble finding the Pits.",
+        "isTranslationKey": false
+      },
+      "x": 38,
+      "y": 20,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "45e96550-830f-4078-b357-c4268b7c6736",
+      "name": {
+        "text": " Corrupted Traveller",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    So, you didn\u0027t find a Corrupted Traveller at the ruins of an Ancient Portal. Or, maybe he met an unfortunate accident?\n    Either way, for a small price, Kowa can generate a single spawn Egg containing a Corrupted Traveller. ",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 20,
+      "repeat": {
+        "type": "TIME",
+        "days": 2,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    There is a short cooldown period after purchase. We have to be careful how many we let spawn, lest it alert the FOP Game Security.",
+            "isTranslationKey": true
+          },
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27443c32-c0bc-46ae-9059-de10d80e6e49",
+      "name": {
+        "text": " Husks",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    To get to Barathos world, you\u0027ll need to find a Husk and defeat it while holding a Blank Realmstone.\n    But with all the creatures that the FOP have added, thats way easier said than done... The deserts are harder to come by, and they are full of all manner of NON HUSK creatures.\n    So, we can code up a spawn egg for one real quick, but....",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 20,
+      "icon": {
+        "id": "minecraft:husk_spawn_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": {
+            "text": "    You\u0027ll need to kill a few zombies first so I can alter the data a bit...Husks are just special versions of Zombies after all.",
+            "isTranslationKey": true
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Zombies",
+                "isTranslationKey": false
+              },
+              "mob": "minecraft:zombie",
+              "kills": 5
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    Then the payment so we can get some more of the Audubon Worm integrated into the system.",
+            "isTranslationKey": true
+          },
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

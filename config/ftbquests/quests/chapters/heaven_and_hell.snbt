@@ -3,69 +3,88 @@
 	group: "1A78C6EA3A0ABFDA"
 	order_index: 3
 	filename: "heaven_and_hell"
-	title: "Heaven And Hell"
+	title: "[3] System Cracking"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Back to the Nether"
-			x: -7.25d
+			title: "Hunt and Scavenge"
+			x: -8.75d
 			y: 0.25d
 			shape: "hexagon"
+			subtitle: "Digging Through the Cabinets"
 			description: [
-				"&dOkay you should be a bit better equipped to handle the demons of hell here."
+				"&dNow that you are Level 20, Bandit, a bunch of new things have opened up for you. The first of these is a new Objective type for the vaults : Scavenger."
 				""
-				"&5You might need some climbing gear or something... Byte might cover something useful for that amongst the DLC packages."
+				"&5Scavenger is probably one of the most difficult objectives, and its Completion Crate is the most...lucrative to match it."
 				""
-				"&dOr just get really good at parkour and building quick staircases I guess."
+				"&dOther than a blackout in Bingo at least."
 				""
-				"&5I dunno sis, I'd prefer a grappling hook I think. But that's a tangent, sorry Bandit. "
+				"&5Ain't sure Bandit is ready for that yet. "
 				""
-				"&dRight. The first thing you'll need to find is some Emberstone Ore. "
+				"&dMaybe, maybe not. But right now we're talking about Scav Vaults! In these, you get a list of items you need to find in THAT vault specifically. They'll be at the top of your screen, with an icon of where to find them: from either chests, monsters, or ores."
 				""
-				"&5Oh, and don't forget to mark where your portal is on the map. M for map, and Right Click your icon."
+				"&5Get all of em, Bandit, and find a Scavenger Altar (green glowing altar that spawns in most rooms). Right Click each stack to deposit it before the timer runs out."
+				""
+				"&dIf ya don't get enough in time, you'll want to leave via the Portal before the time runs out, Bandit."
 			]
-			dependencies: ["59F3969498D4078C"]
+			dependencies: ["148669A61C9EFBF4"]
 			id: "1881243BF68F0FAC"
-			tasks: [
+			tasks: [{
+				id: "5E9808306C7C79CF"
+				type: "item"
+				title: "Any Scavenger Item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "the_vault:scavenger_item"
+					}
+				}
+			}]
+			rewards: [
 				{
-					id: "68F11DBDC5203A88"
-					type: "dimension"
-					title: "Go to The Nether"
-					dimension: "minecraft:the_nether"
+					id: "11342D094F0BC114"
+					type: "choice"
+					table_id: 2640422954496342337L
 				}
 				{
-					id: "5E9808306C7C79CF"
+					id: "6F0925C1B31FC8B5"
 					type: "item"
-					item: "aoa3:emberstone_ore"
+					item: "the_vault:crystal_seal_hunter"
 				}
 			]
-			rewards: [{
-				id: "11342D094F0BC114"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
 		}
 		{
-			title: "A Different Path to Hell"
-			x: -7.25d
-			y: -0.75d
+			title: "A Vendor Door"
+			x: -9.25d
+			y: 1.25d
 			shape: "rsquare"
+			subtitle: "Vendoor: Capitalism, Ho!"
 			description: [
-				"&dSo, you can make yourself a Nether Realmstone as well if you want to use that fancy Ancient Teleporter instead of an Obsidian one."
+				"&dThere are two kinds of doors that will start spawning in the Vaults after level 20, Bandit."
 				""
-				"&5It's pretty easy. Just chuck yourself in Lava and then throw the Realmstone out with Q."
+				"&5Vendoors lead to special rooms that have Vendor Pedestals in them. These doors spawn on the walls inside Vault Rooms, usually on the bottom floor."
 				""
-				"&dWell, easy to say, hard to do. You'll probably want Fire Resist potions or gear. "
+				"&dThere's a variety of things the Vendor Pedestals can sell, Bandit, some of them only findable in Vendoor rooms."
 				""
-				"&5Probably both. Or be very quick before you die."
+				"&5Money is Vault Gold, and the Pedestal will pull it directly from your Wallet or Pouches."
+				""
+				"&dYou can get a discount on Vendor Pedestals with a certain Expertise."
+				""
+				"&5Oh! Also, Bandit, keep yer eyes open. Some of the Vendor rooms have some hidden loot in em."
 			]
+			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
 			id: "4905625BD3C4B3C4"
 			tasks: [{
-				id: "0C33068C54F708D3"
-				type: "item"
-				item: "aoa3:nether_realmstone"
+				id: "4947C4D29A9DB40A"
+				type: "observation"
+				title: "Find a Vendoor"
+				icon: "the_vault:vendor_door"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vendor_door"
 			}]
 			rewards: [{
 				id: "5A4EC26D95463661"
@@ -74,41 +93,33 @@
 			}]
 		}
 		{
-			title: "Explosive Personalities"
-			x: -5.5d
+			title: "The \"True\" Hunt"
+			x: -6.75d
 			y: 0.25d
 			shape: "pentagon"
+			subtitle: "Artifacts 5 by 5"
 			description: [
-				"&dAside from the usual Nether goodies you'll want to find, Bandit, there are two FOP Corporate Bosses that call this magma sea their home, and you'll need some materials to get their attention."
+				"&dNow that you are level 20, Bandit, you'll start finding Unidentified Artifacts in your Completion Crates."
 				""
-				"&5First you'll want to find a Crimson Forest or a Nether Wastes biome. In either one of these, you'll find a Little Bam. Its a very short little red guy, looks kinda happy."
+				"&5They'll also occasionally show up in the Black Market. And maybe the Bounty table, I've not seen that myself though."
 				""
-				"&dPunch it. Or shoot it. Or something. It's actually dangerous and attacks with explosions, be careful."
+				"&dEither way, the FOP give Users and Power Users a way to 'win' : Collect all 25 Artifacts, complete the 'tapestry', and defeat the final boss."
 				""
-				"&5The main thing it drops that you want is an Explosive Idol. Be sure to pick it up fast, otherwise you might get the Boss's attention too early."
+				"&5The Herald is it's name, apparently. It's the avatar of the CEO of FOP."
 				""
-				"&dWhile you are searching, I suggest fighting every hostile creature you see. One of them should drop some Flammable Dust."
+				"&dFor Power Users, the FOP tell them this is their only way to freedom. But there's a bit of a catch, Bandit."
+				""
+				"&5You will never obtain all 25 artifacts. The game is rigged from the start."
+				""
+				"&dBut heck to that. We have a while before we can truely start modifying things around the artifacts, its a fairly controlled system. But not invincible."
 			]
 			dependencies: ["1881243BF68F0FAC"]
 			id: "2EC8B80AE1A271D5"
-			tasks: [
-				{
-					id: "3F9BB469CC952CB2"
-					type: "kill"
-					entity: "aoa3:little_bam"
-					value: 1L
-				}
-				{
-					id: "02FFBCAFFB554E41"
-					type: "item"
-					item: "aoa3:explosive_idol"
-				}
-				{
-					id: "31E0852D6D3ECAF9"
-					type: "item"
-					item: "aoa3:flammable_dust"
-				}
-			]
+			tasks: [{
+				id: "0E348B08B753AA85"
+				type: "item"
+				item: "the_vault:artifact_projector_block"
+			}]
 			rewards: [{
 				id: "57FE043DE4C905F7"
 				type: "choice"
@@ -116,504 +127,88 @@
 			}]
 		}
 		{
-			title: "An Old Enemy"
-			x: -4.25d
-			y: 0.25d
-			shape: "square"
+			title: "Inscribing a Path"
+			icon: "the_vault:vault_catalyst_infused"
+			x: -6.25d
+			y: 2.25d
+			shape: "rsquare"
+			subtitle: "Determined Destiny"
 			description: [
-				"&dOh, Bandit, if you haven't yet, you should probably fight The Wither with some of your newer gear. "
+				"&dBandit, it seems at around level 24 you'll start finding Catalyst fragments in Gilded Chests."
 				""
-				"&5Especially as it'll prepare you for the much more... dangerous fights."
+				"&524? What an odd level..."
 				""
-				"&dThe FOP Corporate Bosses are no pushover, so fighting The Wither is good practice."
+				"&dRight? Bandit, Catalyst fragments can be combined, and then brought into a Catalyst Infusion Table and turned into something useful."
 				""
-				"&5As a refresher: You need four Soul Sand and three Wither Skulls, from Wither Skeletons that 'usually' spawn in Nether Fortresses."
+				"&5Infused Catalysts can be applied to your Vault Crystal (in the Crystal Workbench, of course), and can increase the amount of chests you get, or coins, or other useful things."
 				""
-				"&dSeems you can find them wandering around more due to the hex land borders being Nether Bricks too."
+				"&dOh, the notes here say you can only find them in unmodified Vaults. Apparently now that means 'any vault with 2 or less Catalysts applied to it'."
+				""
+				"&5I guess that's good to know. Oh! Almost forgot to tell him, sis. We've snuck in a new kind of 'blind' box into the FOP loot pools : The Catalyst Box. Obvious what is in it, of course."
 			]
+			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
 			id: "46082D6F0590EDD4"
-			tasks: [{
-				id: "786239324022D29A"
-				type: "kill"
-				entity: "minecraft:wither"
-				value: 1L
-			}]
-			rewards: [{
-				id: "2DC40071E3BCF9F5"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Boom Boom Boom"
-			x: -5.5d
-			y: -1.75d
-			shape: "pentagon"
-			description: [
-				"&dThat Explosive Idol is used just like the Troll Idol you made to summon Smash."
-				""
-				"&5Just throw it to the ground when ready. But you might want to make sure you got a large arena, with some high walls."
-				""
-				"&dThe Little Bams' explosions will knock you around if you didn't notice already. And the boss, well..."
-				""
-				"&5King BamBamBam used to be a manager that loved to throw 4th of July parties. All the time."
-				""
-				"&dObsessed with fireworks and explosives. And had an... explosive personality when it came to anyone who didn't like explosions."
-				""
-				"&5Was a really bad time if you were, say, a Veteran with some PTSD in his office..."
-			]
-			dependencies: ["2EC8B80AE1A271D5"]
-			id: "7628C2ED0041C6FD"
-			tasks: [{
-				id: "491637FC0DE9A093"
-				type: "item"
-				item: "aoa3:explosive_idol"
-			}]
-			rewards: [{
-				id: "72FB27C46A56D4DB"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "KING BAMBAMBAM"
-			x: -4.5d
-			y: -2.25d
-			shape: "diamond"
-			subtitle: "BOSS FIGHT"
-			description: [
-				"&dRight, as we said, if you want to square off against King BamBamBam, you'll want to make sure the area you summon him is pretty large, relatively flat...."
-				""
-				"&5And has a pretty high wall. Or, hopefully you picked up a grappling hook like I suggested. "
-				""
-				"&dKing BamBamBam is pretty dangerous, not just himself, but he constantly summons Little Bam's to his aid. If you don't have Knockback or Blast Resistant gear, or can't kill them fast enough, they'll be bouncing you around like a Super Ball in a cement mixer."
-				""
-				"&5If you do manage to beat him, he can drop some pretty nice stuff. Including his Explosive Armor, which will absorb bigger explosions the more pieces you are wearing."
-			]
-			dependencies: ["7628C2ED0041C6FD"]
-			id: "0947F0113D4D1E31"
-			tasks: [{
-				id: "4727E597BEBD145F"
-				type: "kill"
-				entity: "aoa3:king_bambambam"
-				value: 1L
-			}]
-			rewards: [{
-				id: "7F9717CC1A2705FF"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "LOVE EXPLOSION"
-			x: -4.5d
-			y: -1.25d
-			shape: "diamond"
-			subtitle: "BOSS BRIBE"
-			description: [
-				"&dKing BamBamBam used to be a big Fireworks nut. Well, not just fireworks..."
-				""
-				"&5All kinds of explosions. So, I think to bribe him we'll need a whole pile of explosives."
-				""
-				"&dSo, a bunch of TNT, some grenades, and of course fireworks. "
-				""
-				"&5And to sweeten the deal, of course some Scrypto."
-			]
-			dependencies: ["7628C2ED0041C6FD"]
-			id: "164131343C0A0777"
 			tasks: [
 				{
-					id: "1235B7FED0100F28"
+					id: "3ECECEB3891A0EE3"
 					type: "item"
-					item: "aoa3:copper_coin"
-					count: 100L
-					consume_items: true
+					item: "the_vault:catalyst_infusion_table"
 				}
 				{
-					id: "706EF9AF324ABB52"
+					id: "40B665B067EE0A96"
 					type: "item"
-					item: "minecraft:tnt"
-					count: 25L
-					consume_items: true
-				}
-				{
-					id: "0C817023181FB794"
-					type: "item"
-					item: {
-						id: "aoa3:grenade"
-						Count: 1b
-						tag: {
-							HideFlags: 2b
-						}
-					}
-					count: 25L
-					consume_items: true
-				}
-				{
-					id: "759C1A7C2F0D5233"
-					type: "item"
-					item: "minecraft:firework_rocket"
-					count: 25L
+					item: "the_vault:vault_catalyst_fragment"
 				}
 			]
 			rewards: [
 				{
-					id: "7075B887297C1B3B"
+					id: "2DC40071E3BCF9F5"
 					type: "choice"
 					table_id: 5632731352558517809L
 				}
 				{
-					id: "2A14B1A1174E9AB3"
+					id: "2D49A7C4C483B355"
 					type: "item"
-					item: "kubejs:boss_card_king_bambambam"
+					item: "woldsvaults:catalyst_box"
 				}
 			]
 		}
 		{
-			title: "A Dud"
-			x: -3.5d
-			y: -1.75d
-			shape: "pentagon"
-			description: [
-				"&dGood work Bandit. "
-				""
-				"&5That was pretty intense. Lots of explosives."
-				""
-				"&dNow we just need to make sure the other boss is dealt with before we finally head on into Lelyatia"
-				""
-				"&5You should definitely focus on some of the side stuff we list out here. Improve more of your equipment, maybe unlock some DLC so we can also get the Worm spread more."
-			]
-			dependencies: [
-				"0947F0113D4D1E31"
-				"164131343C0A0777"
-			]
-			dependency_requirement: "one_completed"
-			id: "5CC9ADB8F1C88190"
-			tasks: [{
-				id: "5698B81259C412DD"
-				type: "item"
-				item: "kubejs:boss_card_king_bambambam"
-			}]
-			rewards: [{
-				id: "6E61A21C896CC71A"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "A Beastly Search"
-			x: -5.5d
-			y: 1.25d
-			shape: "pentagon"
-			description: [
-				"&dThat Flammable Dust is going to take a bit of... well, processing before you can use it to get the attention of one of the Nether's FOP Corporate Bosses."
-				""
-				"&5You'll need to search low in the Nether, around Y 25 to 35. What you want looks like a pyramid made of Nether Brick with white lamps. Maybe using a Scanner to look for Nether Bricks would help...check the Shop Tablet, Bandit, we sell more Scanners."
-				""
-				"&dThese are called the Nethengenic Pits. Inside it they've placed a spawner for Nethengenic Beasts. These are Hunter creatures, so..."
-				""
-				"&5But not to feed them the Flammable Dust and turn it into Nethengenic Callstone."
-				""
-				"&dThough, doing scans with your Q.U.E.S.T. Tablet, I'm finding it hard to get the Nethegenic Beast's signature... I should be able to get a one shot summoning egg for you. Check the Shop Tablet."
-			]
-			dependencies: ["2EC8B80AE1A271D5"]
-			id: "1EEA73200A84046B"
-			tasks: [
-				{
-					id: "4C885D7D42E74BAA"
-					type: "item"
-					item: "aoa3:flammable_dust"
-				}
-				{
-					id: "20740729FBC627C0"
-					type: "item"
-					item: "aoa3:nethengeic_callstone"
-				}
-			]
-			rewards: [{
-				id: "74B792A9B4FCFEC1"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Flight of the Demon"
-			x: -5.5d
-			y: 2.25d
-			shape: "pentagon"
-			description: [
-				"&dNow that you have the Nethengeic Callstone, you can get the attention of the Nethengeic Wither."
-				""
-				"&5This boss is an interesting one. They love flying, even for a bird. They took every opportunity to attend work conventions, visit remote offices, anything and everything to fly via aircraft, spaceship, or whatever else."
-				""
-				"&dTried to run the office with an iron fist on top of that, not caring what time zone the travels took them, so would call any hour of the night and order all sorts of projects, changes to projects, tps reports, overtime, etc etc."
-				""
-				"&5Can guess how fast they churned through staff. But it seems FOP Corporate was happy enough that they let them become the Nethergeic Wither boss."
-			]
-			dependencies: ["1EEA73200A84046B"]
-			id: "4C0BA5EEB2D425DC"
-			tasks: [{
-				id: "4B1E5616BB27CE2B"
-				type: "item"
-				item: "aoa3:nethengeic_callstone"
-			}]
-			rewards: [{
-				id: "5B02472631747A88"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			x: -5.5d
-			y: 3.25d
-			shape: "square"
-			description: ["&5The Nether has a bunch of extra creatures in it courtesy of The FOP. They can be pretty tough, a few of them are Hunter mobs too so be sure to be leveling your Hunter skill as well"]
-			dependencies: ["1EEA73200A84046B"]
-			dependency_requirement: "all_started"
-			id: "3D9169CE6A156097"
-			tasks: [{
-				id: "119847356CDBB53E"
-				type: "checkmark"
-				title: "Fighting Demons"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -2.75d
-			shape: "square"
-			dependencies: ["7628C2ED0041C6FD"]
-			id: "27F8BAD21BDD8A7F"
-			tasks: [{
-				id: "1AE8FD21BBF8CF3E"
-				type: "checkmark"
-				title: "Heated Crafting"
-			}]
-		}
-		{
-			title: "Embrakes and Flamewalkers"
-			x: -5.0d
-			y: 4.5d
-			shape: "rsquare"
-			description: [
-				"&5The Embrake is a creature that you can find in Nether Waste and Crimson Forest type biomes in The Nether. "
-				""
-				"&5It's attacks are dangerous, both setting you and the ground on fire if you are standing on it and not, say, jumping or flying."
-				""
-				"&5Embrakes drop Sharp Claws, good for various crafts."
-				""
-				"&5The Flamewalker can be found in Nether Wastes and Crimson Forest type biomes. "
-				""
-				"&5While fighting you, the Flamewalker will leave a trail of fire wherever it walks. Be careful, this fire can burn items that drop!"
-			]
-			dependencies: ["3D9169CE6A156097"]
-			id: "502A77100888F377"
-			tasks: [
-				{
-					id: "227E3BB5A2474CE2"
-					type: "kill"
-					entity: "aoa3:embrake"
-					value: 5L
-				}
-				{
-					id: "3AF2CC28F0C1BD98"
-					type: "item"
-					item: "aoa3:sharp_claw"
-				}
-				{
-					id: "6DE4244A330CA910"
-					type: "kill"
-					entity: "aoa3:flamewalker"
-					value: 5L
-				}
-			]
-			rewards: [{
-				id: "6662D1B07B93A172"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Burn and Wither"
-			x: -4.5d
-			y: 1.75d
-			shape: "diamond"
-			subtitle: "BOSS FIGHT"
-			description: [
-				"&dFighting the Nethengeic Wither takes a bit of preparation."
-				""
-				"&5We suggest whatever healing potions, cure potions, and whatnot you can find. Oh, and anything that aids your jumping, that'll help."
-				""
-				"&dThe Nethengeic Wither flies, Bandit. They'll float and fly around you, launching explosive shots that inflict Wither on you."
-				""
-				"&5So either weather the hits out if you can't dodge them, or get some potions going to dampen them."
-				""
-				"&dIf you are ready, Bandit, the same deal here : Take that Nethergeic Core and throw it to the ground, and wait to attract their attention!"
-			]
-			dependencies: ["4C0BA5EEB2D425DC"]
-			id: "2A0AE4C5FF47FED5"
-			tasks: [{
-				id: "51D417643B263182"
-				type: "kill"
-				entity: "aoa3:nethengeic_wither"
-				value: 1L
-			}]
-			rewards: [{
-				id: "7A9B63F957ED3FAA"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Airfare Fare"
-			x: -4.5d
-			y: 2.75d
-			shape: "diamond"
-			subtitle: "BOSS BRIBE"
-			description: [
-				"&dThe best way to the Nethengeic Wither's heart is, of course, airline related. Or, more specifically, via their airline accustomed stomach."
-				""
-				"&5Airline food always has this.... certain feel and air about it. Even if you are first class, most of it just feels slightly off. Or maybe thats just us."
-				""
-				"&dWell, I think to convince them to step aside is to bring them various airline meals. They can't really fly on airplanes anymore, so bringing back fond memories, as well as reminding them of being a bird with some Feathers. You'll have to get the Cooking Grandma DLC though..."
-				""
-				"&5And airline food from ALL classes. They didn't care where they sat, so they had the full gambit from 1st class gourmet to coach bag o' peanuts."
-			]
-			dependencies: ["4C0BA5EEB2D425DC"]
-			id: "72B95E518B81705B"
-			tasks: [
-				{
-					id: "033FA77DDEB1A9AB"
-					type: "item"
-					item: "minecraft:feather"
-					count: 16L
-					consume_items: true
-				}
-				{
-					id: "1A85BF49320AAE78"
-					type: "item"
-					item: "pamhc2crops:peanutitem"
-					count: 20L
-					consume_items: true
-				}
-				{
-					id: "1E78D56AB120100C"
-					type: "item"
-					item: "pamhc2foodextended:orangesodaitem"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "32F088C3F11D3167"
-					type: "item"
-					item: "pamhc2foodcore:basicchickensandwichitem"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "0EEF486964C6C4BF"
-					type: "item"
-					item: "rats:cheese"
-					count: 10L
-					consume_items: true
-				}
-				{
-					id: "521C5B8B8D3DD443"
-					type: "item"
-					item: "minecraft:carrot"
-					count: 10L
-					consume_items: true
-				}
-				{
-					id: "641B8D0C327E3818"
-					type: "item"
-					item: "pamhc2crops:hotcoffeeitem"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "52F0E94887AB5F56"
-					type: "item"
-					item: "pamhc2foodextended:chickendinneritem"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "5406FA93555D8702"
-					type: "item"
-					item: "aoa3:silver_coin"
-					count: 10L
-				}
-			]
-			rewards: [
-				{
-					id: "584175A37B05312D"
-					type: "choice"
-					table_id: 5632731352558517809L
-				}
-				{
-					id: "4BFB6C20509188D7"
-					type: "item"
-					item: "kubejs:boss_card_nethengeic_wither"
-				}
-			]
-		}
-		{
-			title: "Wings Clipped"
-			x: -3.5d
-			y: 2.25d
-			shape: "pentagon"
-			description: [
-				"&dFantastic, Bandit. You've grounded this boss for the time being."
-				""
-				"&5I know you are trying to get out as soon as possible, Bandit, but keep in mind there are dozens of worlds to go, so its going to take a while. Rushing now might get overwhelming quickly."
-				""
-				"&dTake a breather. Work on a different project. Maybe start building up a Colony? Or focus on some DLC for a bit, maybe cooking."
-				""
-				"&5Whichever you feel like doing, once both bosses are down, we can head into the next world: Lelyatia."
-			]
-			dependencies: [
-				"2A0AE4C5FF47FED5"
-				"72B95E518B81705B"
-			]
-			dependency_requirement: "one_completed"
-			id: "11A9E4CFC161611E"
-			tasks: [{
-				id: "5EECD8FC24C0C3B0"
-				type: "item"
-				item: "kubejs:boss_card_nethengeic_wither"
-			}]
-			rewards: [{
-				id: "06CC2A74CB72E34E"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "To the Twinside Forest"
-			x: -2.75d
+			title: "A Jump to 40"
+			x: -4.75d
 			y: 0.25d
 			shape: "hexagon"
+			subtitle: "The Eyes of the Gods"
 			description: [
-				"&dOkay Bandit, before you head in (if you haven't already that is!), you'll want to be prepared with a few things."
+				"&dAlright Bandit, not much else unlocks for you in the Vaults until you hit 40."
 				""
-				"&5That grappling hook I mentioned earlier would be a good start."
+				"&5It may be tempting to eat a bunch of Vault Burgers, yeh? I recommend resisting, Bandit, level 50 is when things start ta slow down even more."
 				""
-				"&dBro."
+				"&dPlus it's a good idea to gather as much Vault Resources as you can, and get some mods 'researched' and started up"
 				""
-				"&5Sorry sorry. Grappling hooks are super useful, okay? Well, some Jump Boost potions, or feather fall, or a parachute or something. Something to negate fall damage until you can find certain helpful tools."
+				"&5Yep yep. Okay, so what DOES open up?"
 				""
-				"&dEither way, as always when jumping to another world, only bring what you need. Just in case."
+				"&dAh, now you'll start finding God Altars in the Vaults. You've probably seen these already : they look like giant moai statue heads. Now these will have an Altar to one of the four Vault Gods."
+				""
+				"&5Ah, I remember these! Ye see, Bandit, ye can activate one of these Altars to get a timed challenge from that 'Vault God'. If ye complete it, ye get a reward! If not, punishment..."
 			]
-			dependencies: [
-				"5CC9ADB8F1C88190"
-				"11A9E4CFC161611E"
-			]
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "1799D40CDE8D8F82"
 			tasks: [{
-				id: "38CD7F13EAEB9F56"
-				type: "dimension"
-				dimension: "aoa3:lelyetia"
+				id: "7106D78AD137F801"
+				type: "observation"
+				title: "Find a God Altar"
+				icon: {
+					id: "the_vault:god_altar"
+					Count: 1b
+					tag: {
+						god: "idona"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:god_altar"
 			}]
 			rewards: [{
 				id: "669278B6EBCFFB14"
@@ -622,116 +217,27 @@
 			}]
 		}
 		{
-			title: "Infernals and Little Bams"
-			x: -4.0d
-			y: 4.5d
+			title: "Warding Your Inventory"
+			x: -6.75d
+			y: -0.75d
 			shape: "rsquare"
+			subtitle: "KeepInventory=true"
 			description: [
-				"&5Infernals are rare creatures that can spawn in Crimson Forests and Nether Wastes type biomes."
+				"&dWith death changing at level 20, you might be feeling a bit under geared, or unprepared, or just don't want to deal with losing your inventory, you can make a Warden's Vault Rock."
 				""
-				"&5If you are hit by an Infernal, you will be knocked back far if you don't have any protection. If you hit an Infernal with a melee attack, you will be set on fire, so be careful."
+				"&5Ye place these on a Vault Altar like a normal Vault Rock, and pay the price for the crystal as usual. But the Vault Crystal ye get back will be marked with Afterlife."
 				""
-				"&5Little Bams you have already encountered. But all the same, fighting more of them is a good idea."
+				"&dThe Afterlife modifier lets you keep your inventory if you die or fail the Vault, but in return you can't modify it further in a Crystal Workbench."
+				""
+				"&5Oh, be warned Bandit, it also halves the experience you get from the Vault. Slows down yer leveling a bit and gives ye time to upgrade yer gear."
 			]
-			dependencies: ["3D9169CE6A156097"]
-			id: "75F78B4B9E761185"
-			tasks: [
-				{
-					id: "707AE1486B396C6A"
-					type: "kill"
-					entity: "aoa3:infernal"
-					value: 5L
-				}
-				{
-					id: "292E8829DD943FE9"
-					type: "kill"
-					entity: "aoa3:little_bam"
-					value: 5L
-				}
-			]
-			rewards: [{
-				id: "032BF6E948864013"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Nethengeic Beasts"
-			x: -6.0d
-			y: 4.5d
-			shape: "rsquare"
-			description: [
-				"&5As mentioned, Nethengeic Beasts spawn in Nethengeic Pits. A pretty rare building the FOP Added to the Nether at some point, but forgot to update it with all the changes they've done. So you can also find these in the Shop Tablet for sale if you really need them."
-				""
-				"&5Nethengeic Beasts have a rare chance of dropping Nethengeic Armor pieces. Each piece worn lets you deal extra damage to mobs on fire. When a full set is worn, when YOU are on fire, you deal extra damage. And the two damage boosts WILL stack."
-				""
-				"&5Scrubby's are creatures that can be found in the Crimson Forest and Nether Wastes type biomes. "
-				""
-				"&5If you are hit by a Scrubby, you will be set on fire."
-			]
-			dependencies: ["3D9169CE6A156097"]
-			id: "157525C0DD5C9FA5"
-			tasks: [
-				{
-					id: "3DC93B1776AF146A"
-					type: "kill"
-					entity: "aoa3:nethengeic_beast"
-					value: 5L
-				}
-				{
-					id: "76C6B39B7C2C6577"
-					type: "kill"
-					entity: "aoa3:scrubby"
-					value: 5L
-				}
-			]
-			rewards: [{
-				id: "10C4E736EA661114"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Skeletal Cowman"
-			x: -7.0d
-			y: 4.5d
-			shape: "rsquare"
-			description: [
-				"&5Skeletal Cowmen are dangerous creatures that can be found in Crimson Forest, Nether Wastes, and Soul Sand Valley type biomes."
-				""
-				"&5They are very dangerous ranged creatures, firing a crossbow faster and faster the closer you get. Engage from range if possible."
-				""
-				"&5Skeletal Cowmen can rarely drop their Pyro Crossbow, which uses Arrows as ammunition. The arrows it fires can set creatures on fire."
-			]
-			dependencies: ["3D9169CE6A156097"]
-			id: "4405802530A961DE"
-			tasks: [{
-				id: "3DD8A633BDAD96E6"
-				type: "kill"
-				entity: "aoa3:skeletal_cowman"
-				value: 5L
-			}]
-			rewards: [{
-				id: "719D4ACA978A391A"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			x: -5.5d
-			y: -4.0d
-			shape: "rsquare"
-			description: [
-				"&dThe Nether Upgrade Kit is a very rare drop that can be found on any Nether Advent of Ascension mob. "
-				""
-				"&dYou won't have a use for them for a while, but they are used later on to upgrade older AoA weapons to higher tier versions. "
-			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "4B2756DABC97E4C6"
 			tasks: [{
 				id: "4CC4C21A3F94DF6B"
 				type: "item"
-				item: "aoa3:nether_upgrade_kit"
+				item: "the_vault:wardens_pearl"
 			}]
 			rewards: [{
 				id: "3F4B4417C63DCBAD"
@@ -740,29 +246,30 @@
 			}]
 		}
 		{
-			title: "Magical Repair Dust"
-			x: -4.5d
-			y: -4.0d
+			title: "Bigger Modifiers"
+			x: -8.25d
+			y: 2.25d
 			shape: "rsquare"
+			subtitle: "Make My Modifier Grow!"
 			description: [
-				"&dWith the power of the Emberstone metal you can find in The Nether, and a bit of luck in finding something called Magic Repair Dust, you can make a Mending Table that can repair most any piece of gear."
+				"&dInside Dungeons in Vaults, you have a small chance of finding a Modifier Archive"
 				""
-				"&dThe Magic Repair Dust is needed for each repair, as well as for making the table. You can find it in Treasure Boxes, from various monsters in every dimension, in loot chests all over, and many other places."
+				"&5The Magic Repair Dust is needed for each repair, as well as for making the table. You can find it in Treasure Boxes, from various monsters in every dimension, in loot chests all over, and many other places."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: [
+				"62B48188693E8FF5"
+				"0E520C1ADD9E71DF"
+			]
 			id: "26943BB19E61CF27"
-			tasks: [
-				{
-					id: "1ECC1E23D6660386"
-					type: "item"
-					item: "aoa3:mending_table"
-				}
-				{
-					id: "527A13163C4F8937"
-					type: "item"
-					item: "aoa3:magic_repair_dust"
-				}
-			]
+			tasks: [{
+				id: "79772958EF616B60"
+				type: "observation"
+				icon: "the_vault:modifier_discovery"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:modifier_discovery"
+			}]
 			rewards: [{
 				id: "234C595D82E73B2C"
 				type: "choice"
@@ -770,38 +277,28 @@
 			}]
 		}
 		{
-			title: "Magic Repair Putty"
-			x: -3.5d
-			y: -4.0d
+			title: "My Little Modification"
+			x: -4.25d
+			y: -2.75d
 			shape: "rsquare"
+			subtitle: "I Asked For This"
 			description: [
-				"&dIf you want to maximize the use of Magic Repair Dust, you'll want to turn it into Magic Mending Compound."
+				"&dThe Modification Table is a useful thing to make early, Bandit, as it lets you add a Prefix or Suffix of your choice to a piece of gear"
 				""
-				"&dYou'll need to make a Metal Tub, and get three Magic Repair Dust. Also, a Bucket of Lava. Yes, this is kind of like making craft putty at home, except with magic dust and lava instead of salt, flour, and water."
+				"&5The gear has to have a slot free, and ye need to have the modifier unlocked to apply it."
 				""
-				"&dAnyways, combine the items, and you'll get the Empty Bucket back, but also a Tub of Magic Mending Solution."
+				"&dThere's a couple ways to unlock modifiers, Bandit, we'll go over those shortly. But do note that applying or removing a modifier has a cost."
 				""
-				"&dNow just leave that Tub in your inventory for a while, and it'll turn the Solution into a Compound! This will fully repair most items with the Mending Station."
+				"&5Aye, usually some Vault Gold and materials. Ye can only add one Modifier, and remove said modifier. It'll be marked with a pickaxe in the gear stats, so ye know what you've added can can remove."
 			]
-			dependencies: ["26943BB19E61CF27"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "62B48188693E8FF5"
-			tasks: [
-				{
-					id: "6B269DE4268F4E03"
-					type: "item"
-					item: "aoa3:metal_tub"
-				}
-				{
-					id: "21E5C8FECC268260"
-					type: "item"
-					item: "aoa3:magic_mending_solution"
-				}
-				{
-					id: "24213E36E7EC27C7"
-					type: "item"
-					item: "aoa3:magic_mending_compound"
-				}
-			]
+			tasks: [{
+				id: "6B269DE4268F4E03"
+				type: "item"
+				item: "the_vault:modifier_workbench"
+			}]
 			rewards: [{
 				id: "1637495099117BD3"
 				type: "choice"
@@ -809,27 +306,28 @@
 			}]
 		}
 		{
-			title: "Fire Fighting Staff"
-			x: -6.5d
-			y: -4.0d
+			title: "Potion Seller!"
+			x: -9.25d
+			y: 2.25d
 			shape: "rsquare"
+			subtitle: "Give Me Your Strongest Potions"
 			description: [
-				"&dThe Ember Staff isn't a weapon, but more of a tool, a fairly useful one in the Nether."
+				"&dIn the larger Dungeons in Vaults, you have a chance of finding an Alchemy Archive."
 				""
-				"&dIt requires Wind, Fire, and Kinetic Runes to cast. When used, the Ember Staff will put out fires around you, including the fires on you and your minions."
+				"&5Using one gives you the choice between three new modifiers you can put on your Vault Potions."
+				""
+				"&dThese are usually fairly powerful, which is why the FOP put them into the Dungeons to find. As another incentive, of course."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["0E520C1ADD9E71DF"]
 			id: "13F372A316D67ABA"
 			tasks: [{
-				id: "1865C29CE380F604"
-				type: "item"
-				item: {
-					id: "aoa3:ember_staff"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "21817CFEE523A409"
+				type: "observation"
+				icon: "the_vault:alchemy_archive"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:alchemy_archive"
 			}]
 			rewards: [{
 				id: "047926AB16981B3C"
@@ -838,244 +336,250 @@
 			}]
 		}
 		{
-			title: "Rune of Fire"
-			x: -7.5d
-			y: -4.0d
-			shape: "rsquare"
+			title: "Cooking Ingredients?"
+			x: -8.25d
+			y: 0.5625d
+			shape: "gear"
 			description: [
-				"&dThe Fire Rune is another good rune to make."
+				"&dIf you've seen the original version of Vault Hunters 3, Bandit, you might be a little confused as to why the Scavenger items are all...food items."
 				""
-				"&dThe simplest thing you can do with a Fire Rune is make it into a Fire Staff. It uses Fire and Wind runes as ammo, and will fire out a flaming projectile."
+				"&5Before they were stuff like amulets, blood vials, parchments, etc. But my sis and I decided to...change things a bit for you."
+				""
+				"&dI shifted what items were considered 'Scavenger Drops' to a bunch of special food ingredients. This is so you can use them better outside the vault."
+				""
+				"&5See, normally when you leave a Vault, all the items become 'Rotten' and are only good for breaking down into Soul Shards. Now they become [Stale]"
+				""
+				"&dAnd these 'Vault Ingredients' are another key to cracking open the system. You'll need these to create Vault Food, which you can find out more about in the Research section of the Q.U.E.S.T. Tablet."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["1881243BF68F0FAC"]
+			size: 0.75d
 			id: "6A45494E0B112308"
-			tasks: [
-				{
-					id: "68B0BC0C92AD6D4E"
-					type: "item"
-					item: "aoa3:fire_rune"
-				}
-				{
-					id: "41927F8C645C5EDC"
-					type: "item"
-					item: {
-						id: "aoa3:fire_staff"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "46720F96F13D404F"
-				type: "choice"
-				table_id: 2640422954496342337L
+			tasks: [{
+				id: "32825A31A93C868B"
+				type: "checkmark"
 			}]
 		}
 		{
 			title: "Emberstone Gear"
-			x: -6.5d
-			y: -5.0d
+			icon: {
+				id: "the_vault:inscription"
+				Count: 1b
+				tag: {
+					data: {
+						completion: 0.05f
+						entries: [{
+							color: 16777215
+							count: 1
+							type: 0
+						}]
+						model: 0
+						time: 400
+						size: 10
+						instability: 0.01f
+					}
+				}
+			}
+			x: -7.25d
+			y: 2.25d
 			shape: "rsquare"
 			description: [
-				"&dEmberstone metal makes some pretty interesting gear. They all do something fire related : "
+				"&dOne thing you'll start finding in Living Chests, Bandit, are Inscriptions and Inscription Pieces. Full Inscriptions will either be a basic Common Room, or one of the special Vault Rooms."
 				""
-				"&dThe Emberstonne Pickaxe and Shovel automatically smelt blocks they breaks, for example. The Emberstone Axe, though, destroys Logs instead of breaking them, turning them into XP instead."
+				"&5Inscriptions can be added to your Vault Crystal (using a Crystal Workbench). If it isn't a Common Room, this will guarantee the room on the Inscription spawns in that Vault."
 				""
-				"&dThe Emberstone Sword, though, is just a neat looking sword."
+				"&dWhen you enter the Vault, the Portal Room will have a map built into the floor. The different block in the center is your Portal Room. Each block around it is a room."
 				""
-				"&dAs for the Infernal armor set, each piece reduces the damage you take from Fire, including Lava! And if you wear the full set, you'll be immune to fire damage!"
+				"&5That be a treasure map, Bandit. Showing ya to yer plunder, of course."
+				""
+				"&dOh yeah, we've snuck in a new kind of Box to the FOPGame Server loot pool : Inscription Boxes."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "341E8BC988FE57D3"
 			tasks: [
 				{
 					id: "295C142B8C4F1875"
 					type: "item"
-					item: {
-						id: "aoa3:emberstone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "the_vault:inscription_table"
 				}
 				{
-					id: "07B23AE326E9ED0D"
+					id: "15FA75428A81A404"
 					type: "item"
-					item: {
-						id: "aoa3:infernal_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "the_vault:inscription_piece"
 				}
 			]
-			rewards: [{
-				id: "4B1576EA051C81D1"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
+			rewards: [
+				{
+					id: "4B1576EA051C81D1"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5632731352558517809L
+				}
+				{
+					id: "1152512474544891"
+					type: "item"
+					item: "woldsvaults:inscription_box"
+				}
+			]
 		}
 		{
-			title: "Flame Sword"
-			x: -5.5d
-			y: -5.0d
+			title: "Death In Spirit"
+			x: -2.75d
+			y: -0.75d
 			shape: "rsquare"
+			subtitle: "Body Recovery"
 			description: [
-				"&dThe Fireborne Sword is a special sword you can make with the Flammable Dust."
+				"&dIf you've died in a Vault after hitting level 20, Bandit, no doubt you've found most of your inventory missing and a ghost body spawning where you spawned as well."
 				""
-				"&dWhen you hit a creature with it, you will set them on fire."
+				"&5That's yer spirit, Bandit, and if ye want yer inventory back, you'll be wanting to make a Spirit Extractor."
+				""
+				"&dYou can put your spirit/ghost/body onto a Spirit Extractor, then pay the listed Vault Gold to get your item's back."
+				""
+				"&5The FOP determine yer body's cost by your equipment, how many bags you have on you, and a few other things."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "5A04F0E50CF5F17F"
 			tasks: [{
 				id: "77F0C183D71F09FA"
 				type: "item"
-				item: {
-					id: "aoa3:fireborne_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "the_vault:spirit_extractor"
 			}]
 			rewards: [{
 				id: "60B3745CD09CE8C8"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 		{
-			title: "Burning Gun"
-			x: -4.5d
-			y: -5.0d
+			title: "Baubles n' Trinkets"
+			x: -4.75d
+			y: 1.25d
 			shape: "rsquare"
+			subtitle: "Accessorize with Power"
 			description: [
-				"&dThe Hot Shot is a fiery gun you can craft at an Infusion table. "
+				"&dA new piece of equipment that'll start showing up, albeit very rarely, is Vault Trinkets"
 				""
-				"&dUsing Metal Slugs as ammo, the Hot Shot will ignite not only the enemy you shoot, but any other hostile creature close to it."
+				"&5Sorta like magic rings or amulets, Bandit. They give some sort of bonus or power in the Vaults when worn."
+				""
+				"&dThey are sorted into two colors : Blue and Red. You can only equip one trinket of each color."
+				""
+				"&5And note they have limited uses, Bandit. Each time you enter a Vault with one, it consumes a use."
+				""
+				"&dThough many of them are useful outside of the vault too. That double jump one for example, or the wall climbing one."
+				""
+				"&5Here ye go, we snuck an extra one out for ye. A test, but also a reward."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "59D6A7EF6A2A5123"
-			tasks: [
+			tasks: [{
+				id: "516696AB84D7ACE5"
+				type: "item"
+				item: "the_vault:trinket"
+			}]
+			rewards: [
 				{
-					id: "1F2BA5B246BE160F"
+					id: "36C88FE3865DFEAD"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "64B3E705A3B217B7"
 					type: "item"
 					item: {
-						id: "aoa3:hot_shot"
+						id: "the_vault:trinket"
 						Count: 1b
-						tag: {
-							Damage: 0
-							HideFlags: 2b
-						}
+						tag: { }
 					}
 				}
-				{
-					id: "11AF5DC4E109CCB2"
-					type: "item"
-					item: "aoa3:metal_slug"
-				}
 			]
-			rewards: [{
-				id: "36C88FE3865DFEAD"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
 		}
 		{
-			title: "Burning Armor"
-			x: -3.5d
-			y: -5.0d
+			title: "Loot n' Plunder"
+			x: -6.75d
+			y: -1.75d
 			shape: "rsquare"
+			subtitle: "An Experience All It's Own"
 			description: [
-				"&dLyndamyte Armor is a set of armor that is really good outside of the Nether, and only so so inside of it."
+				"&dIf you are finding yourself outpacing your equipment a bit too fast, Bandit, you can make a Plunderer's Vault Rock."
 				""
-				"&dAnd that's because wearing a piece has a chance of setting any creature that hits you on fire. And when you wear the full set, every hit you do ignites the target on fire. Even your fists!"
+				"&5Ye use it on a Vault Altar like a normal Vault Rock, and pay the price to turn it into a special Vault Crystal."
+				""
+				"&dThis one can't be modified further, but the Plunder modifier changes a few things. First off, you get almost no experience in the Vault. Small things might give a bit of XP, but nowhere even close to what you would normally get."
+				""
+				"&5It also boosts the loot ye can find. A bit more loot in the chests, and a bigger percentage of Vault Ores being in Mining POIs and rooms."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "731864D511892F56"
 			tasks: [{
 				id: "5274C8F1E84DE605"
 				type: "item"
-				item: {
-					id: "aoa3:lyndamyte_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "the_vault:plunderer_pearl"
 			}]
 			rewards: [{
 				id: "24D05ED99D59BD14"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 		{
-			title: "Those Shouldn't Burn Like That"
-			x: -7.5d
-			y: -5.0d
+			title: "A Good Crate"
+			x: -9.75d
+			y: 0.25d
 			shape: "rsquare"
+			subtitle: "For a Tough Battle"
 			description: [
-				"&dThe Wart Gun is... interesting."
+				"&dSo we'll eventually need some Tokens from these Scavenger Crates, Bandit, but for now they aren't required."
 				""
-				"&dIt doesn't use Metal Slugs or similar, it actually uses Nether Wart. So you can grow your ammunition."
+				"&5Scavenger is the toughest for a solo User to complete. It's easier with some Assistants, but Power Users don't always have the luxury of other Power Users joining them."
 				""
-				"&dIt will also set fire to enemies you shoot."
+				"&dScav Crates tend to have the best loot chances in them. Brazier crates have the worst, relatively, because of how easy Brazier is to complete."
+				""
+				"&5Ya can just ignore most of the mobs in em. Don't get ya a lot of souls that way but..."
 			]
-			dependencies: ["27F8BAD21BDD8A7F"]
+			hide_dependency_lines: true
+			dependencies: ["1881243BF68F0FAC"]
 			id: "1AA95F28498D1C57"
-			tasks: [
-				{
-					id: "590F16B5A7F2DCAB"
-					type: "item"
-					item: {
-						id: "aoa3:wart_gun"
-						Count: 1b
-						tag: {
-							Damage: 0
-							HideFlags: 2b
-						}
-					}
-				}
-				{
-					id: "2620B8FE8B02385F"
-					type: "item"
-					item: "minecraft:nether_wart"
-				}
-			]
+			tasks: [{
+				id: "590F16B5A7F2DCAB"
+				type: "item"
+				item: "the_vault:vault_crate_scavenger"
+			}]
 			rewards: [{
 				id: "1AEF77A9FC59D468"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 2245246540467579945L
 			}]
 		}
 		{
-			title: "Upside Down"
-			x: -0.75d
+			title: "Creating The Divine Paradox"
+			x: -2.75d
 			y: 0.25d
 			shape: "pentagon"
-			subtitle: "And Rightside Up"
+			subtitle: "Build A Vault Now Open!"
 			description: [
-				"&dWatch your step Bandit! Lelyetia is very different than what you are used to, I would hazard a guess."
+				"&dOkay, I was waiting for this to become open to you, Bandit. It's going to be another way for us to crack the FOPGame Server open more. It's called The Divine Paradox."
 				""
-				"&5Each of the worlds the FOP digitizes into their FOP Game Server usually just replace older worlds that have few resources left."
+				"&5This is a special Vault that is tied in with the four Vault Gods. Ye start by making an Architect Vault Rock and paying the cost of it, as usual."
 				""
-				"&dThey aim to replace worlds with similar characteristics, so their 'regular' users aren't confused. Worlds like Lelyetia are what they call \"Twosided\". Instead of a deep ground with caves, these worlds have a Top Side and an Under Side, floating endless islands surrounding an empty Void as the core of the planet."
+				"&dDon't head in yet, though, Bandit. Few things need explaining first. Like the Architect vault crystal has no objective or loot. It's specifically for \"Creating\" your Divine Paradox vault."
 				""
-				"&5Be careful where you step. But if you do fall into the void, you have a good chance of reappearing in the sky. The FOP gives you some fall protection, but... don't rely on it."
+				"&5See, when ye first activate yer Divine Vault, it's... empty. Empty except for the entrance room. You 'build' out your Divine Paradox by purchasing connecting rooms with Vault Gold and materials."
 				""
-				"&dFor other weird things? Grab some of that grass... or should I say Stone?"
+				"&dSome rooms require a certain amount of a certain Vault God's reputation as well to purchase."
 			]
 			dependencies: ["1799D40CDE8D8F82"]
 			id: "72FAD25A9DA18C65"
 			tasks: [{
 				id: "7E27744A43339606"
 				type: "item"
-				item: "aoa3:lelyetian_stone"
+				item: "the_vault:crystal_seal_ordinator_build"
 			}]
 			rewards: [{
 				id: "44C2A80D872E7A10"
@@ -1084,39 +588,31 @@
 			}]
 		}
 		{
-			title: "Sporetacular"
-			x: 1.25d
+			title: "Running the Divine Paradox"
+			x: -0.75d
 			y: 0.25d
 			shape: "pentagon"
+			subtitle: "A Limited Time Deal"
 			description: [
-				"&dSee what I mean? That grass grows on Leyletian Stone, which is...very much like Dirt. But also Stone?"
+				"&dSo, you know how to build out your Divine Paradox, Bandit. Now we'll explain how you run it."
 				""
-				"&5Be sure to mark the portal on the Map, then head out and explore. The Top Side will be safer to search."
+				"&5The FOP have put a cooldown on running one, though. Ye can only run yer Divine Paradox once every 20 real life hours."
 				""
-				"&dBut you WILL need to go to the Under Side at some point. You'll need a good way to get around the upside down trees and landscape."
+				"&dIn in-game time that's about once every 60 days."
 				""
-				"&5Grappling hooks."
+				"&5But it's understandable. When you've unlocked a lot of special rooms, the Divine Paradox ends up being so lucrative ye run them as much as possible."
 				""
-				"&dAs there are a lot of structures the current Leyletians have built. We'll get to those in a minute, but you are looking for two things on the Top Side : "
+				"&dThey have to special generate these vaults, which left a lot of... lesser worlds untouched until they put a cooldown."
 				""
-				"&5A thin, tall pillar with a Graw Altar on top. Mark its location for later."
-				""
-				"&dAnd you want to loot all chests and fight all hostile creatures along the way. You need to find Yellow and/or Orange Spores."
+				"&5But ye, to run a Paradox Vault, ye just need to make and pay for a Paradox's Vault Rock."
 			]
 			dependencies: ["72FAD25A9DA18C65"]
 			id: "391277708CA4B52A"
-			tasks: [
-				{
-					id: "0791F76299B15935"
-					type: "item"
-					item: "aoa3:yellow_spores"
-				}
-				{
-					id: "7C26B3F2E76C1A81"
-					type: "item"
-					item: "aoa3:orange_spores"
-				}
-			]
+			tasks: [{
+				id: "0791F76299B15935"
+				type: "item"
+				item: "the_vault:crystal_seal_ordinator_run"
+			}]
 			rewards: [{
 				id: "320D9662FCFBE099"
 				type: "choice"
@@ -1124,226 +620,72 @@
 			}]
 		}
 		{
-			title: "An Eye For An...."
-			x: 3.25d
+			title: "Guards Guards"
+			x: 1.25d
 			y: 0.25d
 			shape: "pentagon"
+			subtitle: "Mini Boss Battles"
 			description: [
-				"&dOkay, you got the spores. Good work! Hopefully you found one of those towers with a Graw Altar on it. "
+				"&dOh, while Paradox Vaults are the highlight of what unlocks at 40 for you, Bandit, there is another more normal Vault type that unlocks as well : Hunt the Guardians."
 				""
-				"&5What you need to do is climb up to that Graw Altar, and Right Click one of those Spores onto it. This will cause a glowing Flye to spawn."
+				"&5These ones are a bit more difficult, Bandit, as ye will be fighting swarms of strong Guardians. Think of em about the level of a Challenging dungeon, but they got a bit more range on em."
 				""
-				"&dDefeat that Flye to get a Guardian's Eye. This is what you'll need to attract the attention of Graw, the next FOP Corporate Boss."
+				"&dYou'll have a number of Obelisks you need to activate, each one summons a number of Guardians you must fight."
 				""
-				"&5Graw used to be in charge of some of the FOP's land acquisition and development outside of their digital world. They pulled every dirty trick in the book to acquire land and expand the FOP's physical land holdings."
+				"&5These Obelisks are...hard to find. Only one can spawn in a room, and they seem to be rarer than the Elixir Lodestones."
 				""
-				"&dThey did so well they were given sole command of the Leyletia world, becoming the Forest Guardian."
+				"&dThe plus side is the reward crate is decent for loot. Not the best, but not as low as Brazier crates."
 			]
 			dependencies: ["391277708CA4B52A"]
 			id: "4D05DB966C33B676"
 			tasks: [{
-				id: "10520EB05BDAEA6F"
-				type: "item"
-				item: "aoa3:guardians_eye"
+				id: "566B9DCC650BADBD"
+				type: "observation"
+				title: "Find an Obelisk"
+				icon: "the_vault:obelisk"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:obelisk"
 			}]
-			rewards: [{
-				id: "32B3A65CAA91FA2D"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			x: 1.25d
-			y: -1.5d
-			shape: "square"
-			dependencies: ["391277708CA4B52A"]
-			dependency_requirement: "one_started"
-			id: "70140CFE114C11D1"
-			tasks: [{
-				id: "39D0E4B0203308ED"
-				type: "checkmark"
-				title: "Forest Crafting"
-			}]
-		}
-		{
-			x: 1.25d
-			y: 2.0d
-			shape: "square"
-			dependencies: ["391277708CA4B52A"]
-			dependency_requirement: "one_started"
-			id: "07FC4FA004F497CD"
-			tasks: [{
-				id: "25A96FCD1C8B3426"
-				type: "checkmark"
-				title: "Forest Fighting"
-			}]
-		}
-		{
-			title: "Exohead"
-			x: -0.75d
-			y: 2.25d
-			shape: "rsquare"
-			description: [
-				"&5Exoheads are dangerous creatures that only spawn in the top half of Boney Dungeons. Boney Dungeons are bone shaped structures that stick out both Top Side and Bottom Side."
-				""
-				"&5Exoheads inflict Hunger if they are able to hit you. "
-			]
-			dependencies: ["07FC4FA004F497CD"]
-			id: "6AD346ADB82AA104"
-			tasks: [{
-				id: "1188CC0B8C87D091"
-				type: "kill"
-				entity: "aoa3:exohead"
-				value: 5L
-			}]
-			rewards: [{
-				id: "7CF0D0D5F8F2F366"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Flye and Tracker"
-			x: 2.25d
-			y: 3.25d
-			shape: "rsquare"
-			description: [
-				"&5Flyes are common creatures that spawn all over Leyletia. "
-				""
-				"&5Flyes, well, fly. This can make them tough to fight sometimes."
-				""
-				"&5Flyes can drop Chitin, useful for crafting."
-				""
-				"&5Trackers spawn anywhere on the surface of Leyletia. "
-				""
-				"&5Trackers are usually found in groups, making them tough to fight. They cannot turn quickly, so moving around is quite helpful."
-			]
-			dependencies: ["07FC4FA004F497CD"]
-			id: "1E902D50C15E8841"
-			tasks: [
+			rewards: [
 				{
-					id: "3DA2DB1BE22D398A"
-					type: "kill"
-					entity: "aoa3:flye"
-					value: 5L
+					id: "32B3A65CAA91FA2D"
+					type: "choice"
+					table_id: 2640422954496342337L
 				}
 				{
-					id: "1A768DF25E1F2D9B"
-					type: "kill"
-					entity: "aoa3:tracker"
-					value: 5L
+					id: "4E2F07D3E394D0A0"
+					type: "item"
+					item: "the_vault:crystal_seal_executioner"
 				}
 			]
-			rewards: [{
-				id: "53A9BCC1491C9F0A"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
 		}
 		{
-			title: "Grobbler"
-			x: 1.25d
-			y: 3.25d
-			shape: "rsquare"
-			description: ["&5Grobblers are fairly rare creatures that spawn anywhere in Leyletia. "]
-			dependencies: ["07FC4FA004F497CD"]
-			id: "721F84BC80F0E08C"
-			tasks: [{
-				id: "339381AB37382ECB"
-				type: "kill"
-				entity: "aoa3:grobbler"
-				value: 3L
-			}]
-			rewards: [{
-				id: "0860BB83F9570AE5"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Lelyetian Caster and Lelyetian Warrior"
-			x: 0.25d
-			y: 3.25d
-			shape: "rsquare"
-			description: [
-				"&5Lelyetian Casters are hostile humanoids can spawn anywhere on Lelyetia. "
-				""
-				"&5Lelyetia Casters will get close and fire yellow projectiles rapidly at you. These projectiles will not only do damage, but also drain your AoA Energy."
-				""
-				"&5Lelyetian Warriors spawn anywhere on the surface of Lelyetia."
-				""
-				"&5They can appear in groups of four."
-			]
-			dependencies: ["07FC4FA004F497CD"]
-			id: "38551F9C9842EEC2"
-			tasks: [{
-				id: "27AF4F31715AE18D"
-				type: "kill"
-				entity: "aoa3:lelyetian_caster"
-				value: 5L
-			}]
-			rewards: [{
-				id: "560141BEC2CAD7A4"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Paravite"
-			x: 3.25d
-			y: 3.25d
-			shape: "rsquare"
-			description: ["&5Paravites only spawn in Paravite Hives. Paravite Hives are structures that spawn on the Under Side."]
-			dependencies: ["07FC4FA004F497CD"]
-			id: "6FCF3A0B0D977967"
-			tasks: [{
-				id: "7717E1D9FB0B8E7D"
-				type: "kill"
-				entity: "aoa3:paravite"
-				value: 5L
-			}]
-		}
-		{
-			title: "Rawbone"
+			title: "Resetting the Paradox"
 			x: -0.75d
-			y: 3.25d
+			y: 1.25d
 			shape: "rsquare"
+			subtitle: "Refreshing the Layout"
 			description: [
-				"&5Rawbones are dangerous creatures that only spawn in the Under Side part of Boney Dungeons. Boney Dungeons are bone shaped structures that connect both Top Side and Under Side."
+				"&dBandit, if you've gotten unlucky with the room layout of your Divine Paradox vault, or want to choose differently, there IS a way to reset your Divine Paradox."
 				""
-				"&5Rawhides cause Hunger when they hit you with a melee attack."
-			]
-			dependencies: ["07FC4FA004F497CD"]
-			id: "4BE0321D1A79E31E"
-			tasks: [{
-				id: "6903F662CBC8D3DA"
-				type: "kill"
-				entity: "aoa3:rawbone"
-				value: 5L
-			}]
-			rewards: [{
-				id: "30603CD7F5B2286D"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Zhinx"
-			x: 3.25d
-			y: 2.25d
-			shape: "rsquare"
-			description: [
-				"&5Zhinx are dangerous creatures that only spawn in Zhinx Enclaves. Zhinx Enclaves are structures that only spawn on the Under Side."
+				"&5It isn't official, though, be warned about that. Ye won't get the money back ye spent on rooms."
 				""
-				"&5Zhinx can drop Zhinx Dust, which is used to make a special weapon. They can also drop a rare weapon called a Power Ray."
+				"&dBut sometimes, you gotta start again to come out ahead, yeah?"
+				""
+				"&5Agreed, sis. Now, Bandit, unsure if ye have come across any...Void themed Vaults yet. They are very dangerous! In fact, the \"End\"  rooms in Raw vaults are also 'Void' rooms."
+				""
+				"&dBe careful in these Void rooms or vaults. Touching the black water will start sapping your Vault Time quickly!"
+				""
+				"&5Aye, but bring a bucket! This is the key to resetting the Divine Paradox. Pour it out in the overworld, and throw an Architects' Vault Rock into it!"
 			]
-			dependencies: ["07FC4FA004F497CD"]
+			hide_dependency_lines: true
+			dependencies: ["391277708CA4B52A"]
 			id: "6B7E170787362D79"
 			tasks: [{
-				id: "0D1721F796A2098D"
-				type: "kill"
-				entity: "aoa3:zhinx"
-				value: 5L
+				id: "2070C1F05FB87996"
+				type: "item"
+				item: "the_vault:void_liquid_bucket"
 			}]
 			rewards: [{
 				id: "05417374BE7C18CF"
@@ -1353,27 +695,27 @@
 		}
 		{
 			title: "Zippity Zap"
-			x: 1.25d
-			y: -2.5d
+			x: -5.25d
+			y: -2.75d
 			shape: "rsquare"
 			description: [
-				"&dThe Power Ray is a rare weapon drop from Zhinx, located in Zhinx Enclaves on the Under Side of Lelyetia."
+				"&dYou've definitely noticed that when you roll a new piece of gear, if it has a model you've not seen before, you'll get notified that you've \"unlocked\" it."
 				""
-				"&dThe Power Ray uses AoA Spirit as its ammunition. Shots from the Power Ray will weaken enemies it hits."
+				"&5These are Transmogs, and ye can change the model of a piece of gear to a different one ye have unlocked."
+				""
+				"&dThe neat thing is you can unlock special Transmogs in various ways : researching mods, doing cool things in the Vault, etc."
+				""
+				"&5What isn't cool, Bandit, is ye can only change an item to the same item type. "
+				""
+				"&dWhich is silly. We have a special thing in another section that solves this, Bandit~"
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "1F97C49BAD78BAF3"
 			tasks: [{
 				id: "39F101A3D5D010BD"
 				type: "item"
-				item: {
-					id: "aoa3:power_ray"
-					Count: 1b
-					tag: {
-						Damage: 0
-						HideFlags: 2b
-					}
-				}
+				item: "the_vault:transmog_table"
 			}]
 			rewards: [{
 				id: "325AFC4D9CA321F7"
@@ -1382,320 +724,158 @@
 			}]
 		}
 		{
-			title: "Take Aim"
-			x: 2.25d
-			y: -2.5d
-			shape: "rsquare"
+			title: "God Affinity and Reputation"
+			x: -4.125d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "The Gods are Fickle"
 			description: [
-				"&dThe Decimator is a sniper rifle made with Zhinx Dust, which can be obtained from Zhinx's that spawn in the Zhinc Enclaves in the Under Side."
+				"&dSo it's important to understand the difference between Affinity and Reputation when it comes to the Gods."
 				""
-				"&dThe Decimator uses Metal Slugs for ammo. You can zoom in with the scope by holding Sneak."
+				"&5The FOP made the system a bit...complex. At least to begin with, ye know? Well, we can start with Affinity, sis."
+				""
+				"&dAffinity is, hm... basicaly showing to one of the four Vault Gods : Idona, Wendarr, Tenos, and Velara."
+				""
+				"&5The easiest way to do that is to wear one of their Charms, like what we're gonna give ya."
+				""
+				"&dSo next is Reputation. You see, Bandit, when you complete a God Altar's challenge, you get a buff and sometimes a reward. And a chance at a Reputation point with that God."
+				""
+				"&5The higher your Affinity, the bigger chance of gaining Reputation. But note ye can only have so much reputation between all the Gods."
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["1799D40CDE8D8F82"]
+			size: 0.75d
 			id: "7C3EC303E343D3EB"
-			tasks: [
-				{
-					id: "161B88EFB2CE119C"
-					type: "item"
-					item: {
-						id: "aoa3:decimator"
-						Count: 1b
-						tag: {
-							Damage: 0
-							HideFlags: 2b
-						}
-					}
-				}
-				{
-					id: "12735D58FCC36EB2"
-					type: "item"
-					item: "aoa3:metal_slug"
-				}
-			]
+			tasks: [{
+				id: "113242E800CF8004"
+				type: "checkmark"
+			}]
 			rewards: [{
-				id: "1E21E7CE213B67A6"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "4D679F3DE589DCB8"
+				type: "item"
+				item: {
+					id: "the_vault:small_charm"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
-			title: "Punch Through!"
-			x: 0.25d
-			y: -2.5d
+			title: "Many Builds"
+			x: -2.75d
+			y: 2.25d
 			shape: "rsquare"
+			subtitle: "Swap Like Gear"
 			description: [
-				"&dThe Gauge Rifle is a gun that can be purchased from Lelyetian Traders, found in Lelyetian Tower structures on the Top Side."
+				"&dBandit, if you want to play around with different builds, the Skill Altar is a must."
 				""
-				"&dThe Gauge Rifle uses Metal Slugs for ammo, and its shots can pierce through up to two creatures."
+				"&5It lets ye save yer Skill and Talents chosen and recall them later, for much less cost of Orb of Regrets."
+				""
+				"&dA little trick, though. You can load a 'blank' skill set by Importing the following line : "
+				""
+				"&5Heal_Base:0;Haste:0;Heal_Base|0"
+				""
+				"&dThe | before the 0 at the end is sometimes called a PIPE. It isn't an i or an L. Hold shift and hit the key marked with \\\\ (on average keyboard)."
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "6B6D6C7C538FCDB8"
-			tasks: [
-				{
-					id: "3BE46E270FCB9CD1"
-					type: "item"
-					item: {
-						id: "aoa3:gauge_rifle"
-						Count: 1b
-						tag: {
-							Damage: 0
-							HideFlags: 2b
-						}
-					}
-				}
-				{
-					id: "786507DB99D85CEB"
-					type: "item"
-					item: "aoa3:metal_slug"
-				}
-			]
+			tasks: [{
+				id: "3BE46E270FCB9CD1"
+				type: "item"
+				item: "the_vault:skill_altar"
+			}]
 			rewards: [{
 				id: "381DD2389928627A"
 				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "THE GRAW"
-			x: 4.25d
-			y: -0.25d
-			shape: "diamond"
-			subtitle: "BOSS FIGHT"
-			description: [
-				"&dThe Graw is a tough boss to face. You'll want to make sure you have some way to negate fall damage, or get around quickly, and a lot of heals. When you are ready, you Right Click the Guardian's Eye onto the Graw's Altar."
-				""
-				"&5The Graw will pull you with gravity towards it as it fires projectiles at you. You can negate this pull by Sneaking."
-				""
-				"&dWhen defeated, the Graw can drop the Skydriver Bow, which shoots Arrows that leave an acid trail under them. It can also drop the Monster, a decent sniper rifle."
-			]
-			dependencies: ["4D05DB966C33B676"]
-			id: "51FBCE181A236002"
-			tasks: [
-				{
-					id: "1A0A6B32DE580E31"
-					type: "kill"
-					entity: "aoa3:graw"
-					value: 1L
-				}
-				{
-					id: "08A9A9E4491472E6"
-					type: "item"
-					item: "kubejs:boss_card_graw"
-				}
-			]
-			rewards: [{
-				id: "61C115029E8785E7"
-				type: "choice"
+				exclude_from_claim_all: true
 				table_id: 5632731352558517809L
 			}]
 		}
 		{
-			title: "Lands o Plenty"
-			x: 4.25d
-			y: 0.75d
-			shape: "diamond"
-			subtitle: "BOSS BRIBE"
-			description: [
-				"&dWell, if you want to bribe the Graw into standing down, you'll have to convince them with the thing they know best : new lands."
-				""
-				"&5Or at least, a way to build their own land, a slice of home since when they chose to be digitized into a FOP Server Boss, there is no leaving."
-				""
-				"&dSo, a lot of Logs, Dirt, and Logs. Then some Ores to put under ground to enrich it, along with Lava keep it all going."
-				""
-				"&5And then don't forget Water to bring life to the Land, and some Fish to inhabit the Waters."
-			]
-			dependencies: ["4D05DB966C33B676"]
-			id: "1A68F27E4517BF23"
-			tasks: [
-				{
-					id: "734940966679373A"
-					type: "item"
-					title: "Any 500 Logs"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
-					count: 500L
-					consume_items: true
-				}
-				{
-					id: "47F55A44EBB05476"
-					type: "item"
-					title: "Any 500 Dirt"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dirt"
-						}
-					}
-					count: 500L
-					consume_items: true
-				}
-				{
-					id: "4FDC9DE55BC4AE65"
-					type: "item"
-					title: "Any 500 Cobblestone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:cobblestone"
-						}
-					}
-					count: 500L
-					consume_items: true
-				}
-				{
-					id: "0A1D86E814A7221D"
-					type: "item"
-					item: "minecraft:water_bucket"
-					count: 50L
-					consume_items: true
-				}
-				{
-					id: "227936EE87FE9AFC"
-					type: "item"
-					item: "minecraft:lava_bucket"
-					count: 20L
-					consume_items: true
-				}
-				{
-					id: "5916D65C9BC8AD2B"
-					type: "item"
-					title: "Any 50 Ores"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:ores"
-						}
-					}
-					count: 50L
-					consume_items: true
-				}
-				{
-					id: "3EFAE7DABF645261"
-					type: "item"
-					title: "Any 30 Fish"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:fish"
-						}
-					}
-					count: 30L
-					consume_items: true
-				}
-			]
-			rewards: [
-				{
-					id: "4B5DE000AD9D27E0"
-					type: "item"
-					item: "kubejs:boss_card_graw"
-				}
-				{
-					id: "689E2E7E5AA72F01"
-					type: "choice"
-					table_id: 5632731352558517809L
-				}
-			]
-		}
-		{
-			title: "Guardian Down"
-			x: 5.25d
+			title: "50, Halfway Down"
+			icon: "the_vault:neuralizer"
+			x: 3.25d
 			y: 0.25d
 			shape: "pentagon"
+			subtitle: "Or Halfway Up?"
 			description: [
-				"&dFantastic work, Bandit. "
+				"&dNext up, Bandit, is level 50."
 				""
-				"&5Other than exploring and wrapping up some crafting loose ends, you should be about ready to head to the next dimension."
+				"&5A big stepping stone, aye. A lot opens up to ya. "
 				""
-				"&dGive me a bit to find out how to access the next realms. There's still a few more worlds on this first Tier, so I'd make sure you got some good armor and weapons and are ready for whatever is next."
+				"&dNew vaults, new mechanics, new loot."
 				""
-				"&5Also, keep up with hacking or unlocking DLC with the help of Byte, yeah? "
+				"&5Especially that last one. More treasures."
+				""
+				"&dYep, but new mechanics also opens up new ways to break into the system more."
+				""
+				"&5Speaking of, Bandit. Take this Neuralizer. A bit expensive, but its the only way to reset your Expertise points."
+				""
+				"&dYeah, as you level up, you'll realize some Expertise aren't as useful anymore. I suggest saving it until you are sure you want to reallocate your Expertise points."
 			]
-			dependencies: [
-				"51FBCE181A236002"
-				"1A68F27E4517BF23"
-			]
+			dependencies: ["4D05DB966C33B676"]
 			dependency_requirement: "one_completed"
 			id: "0332B6DA83347AEB"
 			tasks: [{
-				id: "60E2C1F2A5DAF28E"
-				type: "item"
-				item: "kubejs:boss_card_graw"
+				id: "47166A052A188D22"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "517A58AD1B85A1C2"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "21A10FBACB521D33"
+				type: "item"
+				item: "the_vault:neuralizer"
 			}]
 		}
 		{
-			title: "Arrow, Knee, Joke"
-			x: 3.25d
-			y: -2.5d
+			title: "Challenging the Gods"
+			x: -0.75d
+			y: -0.75d
 			shape: "rsquare"
+			subtitle: "And Winning"
 			description: [
-				"&dThe Weaken Bow can be made with Yellow Spores. "
+				"&dSo, the objective of the Divine Paradox is to collect enough blessings from each God and submitting them in the main room."
 				""
-				"&dIt uses Arrows as ammunition, and will weaken enemies it hits."
+				"&5Blessings for a God only drop in rooms dedicated to em. Usually something of the room has that God's color to show you."
+				""
+				"&dAnd the Blessings come from Chests, Coin Piles, and Ores."
+				""
+				"&5At the beginning, ye won't have enough rooms unlocked to complete the Vault. Don't worry, eventually ye'll unlock plenty!"
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["391277708CA4B52A"]
 			id: "36B86835B3868BB7"
 			tasks: [{
 				id: "211407D0D850422B"
 				type: "item"
-				item: {
-					id: "aoa3:weaken_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "the_vault:vault_crate_paradox"
 			}]
 			rewards: [{
 				id: "101E9E8A2354FC30"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 2245246540467579945L
 			}]
 		}
 		{
-			title: "A Solid Rifle"
-			x: -0.75d
-			y: -2.5d
+			title: "A Suit For Every Occasion"
+			x: -2.75d
+			y: 1.25d
 			shape: "rsquare"
+			subtitle: "Where's My Super Suit?!"
 			description: [
-				"&dThe Core Rifle can be made with Yellow Spores and Lelyetian Leaves from Lelyetia, as well as a Power Core from certain monsters in the Overworld."
+				"&dGiven you find a lot of Vault Gear, some of it is bound to be really good, but not fit into your current build, Bandit."
 				""
-				"&dThe Core Rifle is a basic gun that uses Limonite Bullets as ammunition."
+				"&5This Wardrobe lets ye not only store a Gear loadout and instantly swap two it, it also lets ye store your main hotbar too."
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "5E426379F71796D7"
-			tasks: [
-				{
-					id: "233B0C117DDBDB76"
-					type: "item"
-					item: {
-						id: "aoa3:core_rifle"
-						Count: 1b
-						tag: {
-							Damage: 0
-							HideFlags: 2b
-						}
-					}
-				}
-				{
-					id: "409368F593587DD9"
-					type: "item"
-					item: "aoa3:limonite_bullet"
-				}
-			]
+			tasks: [{
+				id: "233B0C117DDBDB76"
+				type: "item"
+				item: "the_vault:wardrobe"
+			}]
 			rewards: [{
 				id: "1C754D31405639E5"
 				type: "choice"
@@ -1703,27 +883,25 @@
 			}]
 		}
 		{
-			title: "Spore Armor"
-			x: 1.25d
-			y: -3.5d
+			title: "A Bit Chaotic"
+			x: -5.25d
+			y: 3.25d
 			shape: "rsquare"
+			subtitle: "My Focus is Wobbly"
 			description: [
-				"&dSpores can be used to make the Weaken Armor set. "
+				"&dEach Prefix or Suffix on a piece of gear also rolls a Tier. Higher tiers effect the range that it can roll, with higher tiers being higher (of course)."
 				""
-				"&dEach piece of the Weaken Armor set you wear, the higher chance of weakening enemies that land hits on you. The full set will increase the level of Weaken you inflict on attackers."
+				"&5Using a Chaotic Focus means one of them will reroll their tier only, and gives it a chance to be higher."
+				""
+				"&dGood if you got a bunch of Prefix and Suffixes you want, but some of them rolled low in their ranges."
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "70C2A6B274238476"
 			tasks: [{
 				id: "6480966164AFFC88"
 				type: "item"
-				item: {
-					id: "aoa3:weaken_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "the_vault:chaotic_focus"
 			}]
 			rewards: [{
 				id: "02EC8BA1CE8DD16B"
@@ -1732,27 +910,27 @@
 			}]
 		}
 		{
-			title: "Heavy Blade of the Forest"
-			x: 2.25d
-			y: -3.5d
+			title: "Fundamentally Better"
+			x: -4.25d
+			y: 3.25d
 			shape: "rsquare"
+			subtitle: "Ex Bawx"
 			description: [
-				"&dWith Orange Spores from any creature in Lelyetia, you can fashion a Lelyetian Greatblade."
+				"&dBandit, the last section of stats for a piece of gear we haven't explained are the Implicits."
 				""
-				"&dThe Lelyetian Greatblade is a greatblade that can do extra damage against Flying creatures."
+				"&5These are the things like Attack Damage, Range, and some special abilities only roll as implicits."
+				""
+				"&dLike Endergized for Magnets, or Channeling for Tridents."
+				""
+				"&5The Fundamental Focus rerolls all Implicits, giving ye a chance at a higher roll, and some additional abilities."
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "6D4ECD8F4B33AF24"
 			tasks: [{
 				id: "304008F23AC7EE79"
 				type: "item"
-				item: {
-					id: "aoa3:lelyetian_greatblade"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "the_vault:fundamental_focus"
 			}]
 			rewards: [{
 				id: "1019AA21315C7F9C"
@@ -1761,21 +939,33 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: -3.5d
+			title: "Before and After"
+			x: -5.25d
+			y: 2.25d
 			shape: "rsquare"
+			subtitle: "Wax On, Wax Off"
 			description: [
-				"&dThe Lelyetian Upgrade Kit isn't very useful at the moment, but I suggest saving every one  you get."
+				"&dYou should be getting some new Focus' to use in the Vault Artisan Station, Bandit. Like the Waxing and Waning Foci."
 				""
-				"&dIn later worlds, you'll be able to use the Lelyetian Upgrade Kit to upgrade certain lower tier gear."
+				"&5Foci? Focuses? Can never get that straight. But yeah, while the Wild Focus lets you reroll all Prefixes AND Suffixes, these two will let you reroll one or the other."
+				""
+				"&dReally helps you narrow down a piece of gear to work with your build."
 			]
-			dependencies: ["70140CFE114C11D1"]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
 			id: "77761C3A93EA70CC"
-			tasks: [{
-				id: "6577F246310D8DCB"
-				type: "item"
-				item: "aoa3:lelyetian_upgrade_kit"
-			}]
+			tasks: [
+				{
+					id: "6577F246310D8DCB"
+					type: "item"
+					item: "the_vault:waxing_focus"
+				}
+				{
+					id: "51B1F59286A5B865"
+					type: "item"
+					item: "the_vault:waning_focus"
+				}
+			]
 			rewards: [{
 				id: "13D788EF7AED4240"
 				type: "choice"
@@ -1783,30 +973,512 @@
 			}]
 		}
 		{
-			title: "A Quiet Place"
-			x: -7.25d
+			title: "Spooky Door"
+			x: -8.25d
 			y: 1.25d
 			shape: "rsquare"
+			subtitle: "Dungeons of Dread, and More"
 			description: [
-				"&5Want to see something cool, Bandit? Something the FOP left in from earlier iterations of the FOP Game Server."
+				"&5There are two kinds of doors that will start spawning in the Vaults after level 20, Bandit."
 				""
-				"&dAs a player, even a Power User, you can't really do much in this room. Can't break or place things. But you CAN cook a bit of food, and listen to music."
+				"&dDungeon doors can spawn in the walls of Vault Rooms, usually on the bottom floor. They will have the symbol of a specific monster type on them."
 				""
-				"&5The place is called Nowhere, and it's a leftover Administrator world. Admins could hang out there between helping out players."
+				"&5When you open a Dungeon Door, a popup will tell you what difficulty the creatures that spawn inside are."
 				""
-				"&dYou know, before they digitized themselves and let the game control everything it could."
+				"&dThese range from Easy, Normal, Difficult, Challenging, and Impossible."
+				""
+				"&5Each Dungeon spawns one kind of Barrel, which are alternate versions of Chests, that all act like Wooden Chests. But to break them properly requires the proper tool Affinity."
+				""
+				"&dAt the end of the Dungeon, it will spawn a special Champion, the boss of the dungeon. It's usually tankier than normal Champions, and drops some decent loot."
 			]
+			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
 			id: "0E520C1ADD9E71DF"
 			tasks: [{
-				id: "2D73E3E6626A29FA"
-				type: "item"
-				item: "aoa3:nowhere_realmstone"
+				id: "3E8CDE870BD93874"
+				type: "observation"
+				title: "Find a Dungeon Door"
+				icon: {
+					id: "the_vault:dungeon_door"
+					Count: 1b
+					tag: {
+						type: "spider"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:dungeon_door"
 			}]
 			rewards: [{
 				id: "1A07AF4169199F48"
 				type: "choice"
 				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "A Vault Celebration"
+			x: -6.25d
+			y: -2.75d
+			shape: "rsquare"
+			subtitle: "Obvious, It's a Lie"
+			description: [
+				"&dBandit, keep on the lookout for one of these special Vault Rocks. It's for making a special vault called a Cake Vault."
+				""
+				"&5Cake Vaults are special, Bandit. The objective is to find as many Cakes as you can. The Rooms in this Vault only have one path : a spiral outward."
+				""
+				"&dEach room has only one Cake, somewhere. When you get close to it, your vision will change."
+				""
+				"&5Also in each room is a Crake Pedestal. Don't interact with it until ye are ready to leave!"
+				""
+				"&dSee, each Cake you find adds modifiers to the Vault. Usually good and bad. More loot, but tougher enemies."
+				""
+				"&5A good strategy is to go as far as ye can before the enemies get TOO deadly, then loop back and loot before leaving."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "2E4634E02915378E"
+			tasks: [{
+				id: "4EF621A2C992EF90"
+				type: "item"
+				item: "the_vault:crystal_seal_cake"
+			}]
+			rewards: [{
+				id: "17BEB55D0D0D8F77"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Little Bit of Chaos"
+			x: -7.25d
+			y: -2.75d
+			shape: "rsquare"
+			subtitle: "Maybe More Than a Little"
+			description: [
+				"&dBandit, if you see this Chaotic Vault Rock for sale in a Vendoor or the Black Market, I highly recommend picking it up!"
+				""
+				"&dThis is a special Vault Theme where it jumbles up rooms from all the other Themes into it."
+				""
+				"&5This includes more dangerous themes like Nether or Void themes. As well as the monsters from them."
+				""
+				"&dThe chests at points of interest are random too!"
+				""
+				"&5See? Chaos."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "0C0EF3E7F086CF9F"
+			tasks: [{
+				id: "68A7530BD8CA535A"
+				type: "item"
+				item: "the_vault:vault_catalyst_chaos"
+			}]
+			rewards: [{
+				id: "504F2DBDD7ADB7ED"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Supremely Strong Anvil"
+			x: -2.75d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "Fairly Looney, a Little Tooney"
+			description: [
+				"&dWell, this thing has seen better days. This is the Vault Anvil, Bandit."
+				""
+				"&5Before some of these special workstations were added, ye had to apply special items to a Crystal with an Anvil."
+				""
+				"&dYou would go through Anvils like sliced bread sometimes. So the FOP listened to feedback and actually implemented a useful item: The Vault Anvil."
+				""
+				"&5This Anvil won't take any damage when used, basically."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1881243BF68F0FAC"]
+			id: "2E6BE62F1163E67B"
+			tasks: [{
+				id: "3FD8D17F27D84BBE"
+				type: "item"
+				item: "the_vault:vault_anvil"
+			}]
+			rewards: [{
+				id: "48549EAF46D7F20A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Box of Mod Goodness"
+			x: -6.75d
+			y: 1.25d
+			shape: "rsquare"
+			subtitle: "What's In the Box? Well, What Do You Know?"
+			description: [
+				"&dBandit, keep an eye out for these little blue boxes. They are called Mod Boxes, and they contain..."
+				""
+				"&5...different things, depending on what mods ye Researched so far."
+				""
+				"&dIf you haven't Researched any Mods, the Mod Box will drop Knowledge Shards, to get you closer to Researched a mod. Once you've Researched certain mods, the Mod Box only drops certain items from those Mods."
+				""
+				"&5Hey, sis. I got an idea. Think you can tweak the boxes a bit so that Bandit still has a chance to get Knowledge Shards?"
+				""
+				"&dThat's not a bad idea. I'll keep it fairly low chance, cause at a higher level you might not need the Knowledge Shards more than the chance at a high tier Modded item."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "4258E78EC459B8E3"
+			tasks: [{
+				id: "18A04F41AA4F5B97"
+				type: "item"
+				item: "the_vault:mod_box"
+			}]
+			rewards: [
+				{
+					id: "7B8FA85B7D175E19"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "48825395020344FF"
+					type: "item"
+					item: "the_vault:mod_box"
+				}
+			]
+		}
+		{
+			title: "Monsterous View"
+			x: -6.75d
+			y: 3.25d
+			shape: "rsquare"
+			subtitle: "We Got Holograms?!"
+			description: [
+				"&dThe Animatrix is a fun little block. Not super useful, Bandit, but a good deco block."
+				""
+				"&5Ye can take one of the Spawn Eggs ye get from the Mystery Eggs and put it into this."
+				""
+				"&dIt'll display the creature above the Animatrix. Basically a hologram. Not super useful, like I said, but kinda nice."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "458B00C55596073B"
+			tasks: [{
+				id: "5AF228E345A48CD9"
+				type: "item"
+				item: "the_vault:animatrix_block"
+			}]
+			rewards: [
+				{
+					id: "67D23BA8FBBE6934"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "6585C4A5D94FDA1A"
+					type: "item"
+					item: "the_vault:mystery_egg"
+				}
+			]
+		}
+		{
+			title: "Dungeon Vision"
+			x: -9.25d
+			y: -0.75d
+			shape: "rsquare"
+			subtitle: "I See a Challenge!"
+			description: [
+				"&dThe Dungeon Capstone can be added to a Vault Crystal in the Crystal Workbench."
+				""
+				"&5This'll cause Dungeon Doors to highlight while yer in that Vault. Very helpful."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "5E76F2D1629500C0"
+			tasks: [{
+				id: "7F2B8A5B868F55BC"
+				type: "item"
+				item: "the_vault:capstone_dungeon_hunter"
+			}]
+			rewards: [{
+				id: "55494898BB9EB409"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Seeking Relics"
+			x: -9.25d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "Guaranteed Parchment"
+			description: [
+				"&dThe Prosperous Capstone can be added to a Vault Crystal to guarantee that the Completion Crate has an Artifact in it."
+				""
+				"&5Cavaet being, ye know, completing the Vault in the first place."
+				""
+				"&dTrue, but you could always add a Seal for an Objective you are good at as well."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "4B7A874A465F7563"
+			tasks: [{
+				id: "55E2DEEEA6095970"
+				type: "item"
+				item: "woldsvaults:capstone_prosperous"
+			}]
+			rewards: [{
+				id: "5CBDDCF3FF987145"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Phenomenal Power!"
+			x: -8.25d
+			y: -2.75d
+			shape: "rsquare"
+			subtitle: "Itty Bitty Health Bar"
+			description: [
+				"&dThe Frenzy Capstone adds a curse called Frenzy to your Vault."
+				""
+				"&5This is a bit of a double edged sword, Bandit. The mobs get much stronger, much faster, much deadlier."
+				""
+				"&dBut their health plumets to 1 HP... usually."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "1200CB57AA912FF4"
+			tasks: [{
+				id: "42A396C3E83A347A"
+				type: "item"
+				item: "woldsvaults:capstone_frenzy"
+			}]
+			rewards: [{
+				id: "3C1F40F0B2E6F34A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Pylon View"
+			x: -8.25d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "Need Additional Pylons"
+			description: [
+				"&dThe Pylon Capstone will cause all Pylons to highlight in the Vault."
+				""
+				"&5Pylons are those little buffing crystals scattered around. The ones that add strength, or vault time, etc."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "7F307FBDEDC63F14"
+			tasks: [{
+				id: "3906CE209E0117D2"
+				type: "item"
+				item: "the_vault:capstone_pylon_hunter"
+			}]
+			rewards: [{
+				id: "6110229CBA3CD7D5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Cap of the Gods"
+			x: -5.25d
+			y: -0.75d
+			shape: "rsquare"
+			subtitle: "Pray to My Altar"
+			description: [
+				"&dWhen you complete a God Altar, you will get a bonus modifier to the rest of that Vault, and the chance at gaining reputation with that God."
+				""
+				"&5But if you remember where that God Altar was, you can return to it to get a prize as well."
+				""
+				"&dThis is one of the few ways to get a God Capstone. When you add these to a Vault Crystal, they will highlight all altars of that God if you are in the same room as them."
+				""
+				"&5Aye, quite useful if you are trying to build God reputation for certain things."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1799D40CDE8D8F82"]
+			id: "4606E122BFBD99C6"
+			tasks: [{
+				id: "60F0944ABB06D46A"
+				type: "item"
+				title: "Any God Capstone"
+				item: "the_vault:god_token"
+			}]
+			rewards: [{
+				id: "7939C8327262FA53"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Vendoor Vision"
+			x: -8.25d
+			y: -0.75d
+			shape: "rsquare"
+			subtitle: "Sale-o-vision"
+			description: [
+				"&dThe Merchant Capstone can be added to Vault Crystal to get all Vendoors to highlight while you are in that Vault."
+				""
+				"&5Aye, just be sure ye bring plenty of Vault coins. Though many of the Vendoor rooms have some neat things to find."
+				""
+				"&dBe sure to look around before leaving. Especially under staircases."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1881243BF68F0FAC"]
+			id: "5F14F74106DDA042"
+			tasks: [{
+				id: "0CD1FD66DBB5E2EB"
+				type: "item"
+				item: "the_vault:capstone_vendoor_hunter"
+			}]
+		}
+		{
+			title: "Enchanted Testing"
+			x: -9.25d
+			y: -2.75d
+			shape: "rsquare"
+			subtitle: "Magic in the Air"
+			description: [
+				"&dBandit, with all these special Capstones, I want to try something. I've whipped up a new Capstone for you to try : the Enchanted Capstone. I've seeded it into Dungeon loot, so keep an eye open."
+				""
+				"&5What's that one do, sis?"
+				""
+				"&dSo, sometimes when you start a Vault, you'll see some special modifiers activate. Like the Raw Vaults always have specific modifiers, for example. I think I can hook into that system for some... shenanigans."
+				""
+				"&5Uh oh, she said Shenanigans. Be careful, Bandit."
+				""
+				"&dNot wrong, I'm not sure how the system will handle this. With the Enchanted Capstone, it'll add a custom modifier: Enchanted. Every so often some sort of event will happen while you run that Vault. If this works, I have an idea brewing..."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1881243BF68F0FAC"]
+			id: "08DF894A687E7AAB"
+			tasks: [{
+				id: "711CDCF51B4A2B34"
+				type: "item"
+				item: "woldsvaults:capstone_enchanted"
+			}]
+			rewards: [{
+				id: "7E9F54BDF987F8F2"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Wallhacks"
+			x: -4.75d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "Sight Beyond Sight"
+			description: [
+				"&dOkay, got another special Capstone for you to find, Bandit. It's called the All-Seeing-Eye. This one I was able to seed into Vendoor rooms."
+				""
+				"&5Hm, by the name, it probably is similar to the Merchant or Dungeon Capstones?"
+				""
+				"&dYep! All chests, all doors, and all Objective blocks (like the Lodestones or Braziers) will be visible in the same room. And uh....maybe further..."
+				""
+				"&5Further?!"
+				""
+				"&dYeah uh it might be a bit highly tuned. You might be able to see into the next room if you are close to the hallway...."
+				""
+				"&5That's...a lot of things to see at once. I'm getting a headache thinking about it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "52CC29799F792FCB"
+			tasks: [{
+				id: "5B7FF45FE0F9B448"
+				type: "item"
+				item: "woldsvaults:capstone_all_seeing_eye"
+			}]
+		}
+		{
+			title: "Godly Shaped Rocks"
+			x: -4.25d
+			y: -0.75d
+			shape: "rsquare"
+			subtitle: "One For Each God"
+			description: [
+				"&dWith the God Capstones, I think we can shift a few things to create a special Vault for each God."
+				""
+				"&5This should help ye gain Reputation with specific Gods faster, to build out yer Divine Paradox better."
+				""
+				"&dSo, make one of these four special God items, and put them onto your Vault Altar like any other Vault Rock. Completing the Vault Crystal will get you a special Zealot Vault."
+				""
+				"&5The whole Vault will be themed to that God, and all God Altars ye find will be for that God only."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4606E122BFBD99C6"]
+			id: "55C6A431EBF09D21"
+			tasks: [
+				{
+					id: "472E186670369A73"
+					type: "item"
+					item: "woldsvaults:idona_dagger"
+				}
+				{
+					id: "5854BB21C8B598EE"
+					type: "item"
+					item: "woldsvaults:wendarr_gem"
+				}
+				{
+					id: "376837BCC9E6ED64"
+					type: "item"
+					item: "woldsvaults:velara_apple"
+				}
+				{
+					id: "6342EC2DA2581EC7"
+					type: "item"
+					item: "woldsvaults:tome_of_tenos"
+				}
+			]
+			rewards: [{
+				id: "6A4E4C3F5FCDDD03"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "A Little Eccentric"
+			x: -4.25d
+			y: 2.25d
+			shape: "rsquare"
+			subtitle: "In Other Words : Unusual (Affectionate)"
+			description: [
+				"&dAnother new kind of Focus for your Vault Artisan Station, Bandit. The Eccentric Focus."
+				""
+				"&5This Focus lets ye add an Unusual modifier. These are modifiers ye can't usually get on that piece of gear."
+				""
+				"&dRight. I'm not sure how it'll play out using other Foci as well, so be careful."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			id: "5BBB1921175BF0C4"
+			tasks: [{
+				id: "11E251DB8CB2AF48"
+				type: "item"
+				item: "woldsvaults:eccentric_focus"
+			}]
+			rewards: [{
+				id: "123B546236386792"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
 			}]
 		}
 	]

@@ -3,59 +3,55 @@
 	group: "1A78C6EA3A0ABFDA"
 	order_index: 0
 	filename: "fop_game_server_mechanics"
-	title: "FOP Game Server Mechanics"
+	title: "[1] Starting Out"
+	icon: {
+		id: "the_vault:vault_crystal"
+		Count: 1b
+		tag: {
+			CrystalData: {
+				Properties: {
+					size: 0b
+					exhausted: 0b
+					type: "capacity"
+				}
+				Version: 3b
+				Modifiers: {
+					List: [ ]
+					RandomModifiers: 1b
+					type: "default"
+					Clarity: 0b
+				}
+			}
+		}
+	}
 	subtitle: [
-		"MODS : Advent of Ascension, ProjectMMO"
-		"MODS : Curios, Waystones (teleporting)"
+		"MODS : Vault Hunters"
+		"MODS : Lightman's Currency"
 	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: 0.0d
-			y: -2.5d
-			width: 10.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "tfb2:textures/menu/aoa_menu.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 9.0d
-			y: -2.5d
-			width: 5.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "tfb2:textures/menu/pmmo_menu.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-	]
 	quests: [
 		{
-			x: 5.5d
-			y: -5.5d
-			shape: "pentagon"
+			icon: "minecraft:experience_bottle"
+			x: 2.5d
+			y: -4.5d
+			shape: "rsquare"
 			subtitle: "Level Up!"
 			description: [
 				"&dDang, it's been quite a while since we've looked into the FOP Game Servers..."
 				""
 				"&5Looks like they piled on even more things to keep you working..."
 				""
-				"&dOkay, looks like two major systems control most things. Advent of Ascension, the FOP Game Server main system, and then Project MMO, which looks like they added more recently."
+				"&dOkay, looks like two major systems control most things: Vault Hunters is the FOP Game Server main system, and then under that is a lot of smaller things, but most of them have to be unlocked via Vault Hunters."
 				""
-				"&5We'll try to explain everything as we work it out ourselves, Bandit. A lot of the deeper systems are locked up between the two."
+				"&5We'll try to explain everything as we work it out ourselves, Bandit. A lot of the deeper systems are locked up still."
 				""
 				"&dWe'll change what we can to make it easier, but every time we do something overtly, the security system steps in and stops future attempts."
 				""
 				"&5We'll have to figure out a workaround. For now though, let's examine some of this stuff..."
 			]
-			dependencies: ["110C1EFD863C907C"]
+			hide_dependency_lines: true
+			dependencies: ["6DEFECFABD4DCB59"]
 			hide: true
 			id: "0CAB7196EB0D5F4C"
 			tasks: [{
@@ -63,14 +59,27 @@
 				type: "checkmark"
 				title: "So Many Levels"
 			}]
+			rewards: [{
+				id: "20EB9CC37EA8B96B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
 		}
 		{
-			x: 0.5d
-			y: -5.0d
+			icon: {
+				id: "the_vault:vault_artifact"
+				Count: 1b
+				tag: {
+					CustomModelData: 12
+				}
+			}
+			x: 4.75d
+			y: -5.25d
 			shape: "pentagon"
-			subtitle: "MOD: Advent of Ascension"
+			subtitle: "MOD: Vault Hunters"
 			description: [
-				"&5So this is the big one you'll have to deal with. The entire FOP Game Server is built around the Advent of Ascension game."
+				"&5So this is the big one you'll have to deal with. The entire FOP Game Server is built around the Vault Hunters game."
 				""
 				"&dIt adds and changes so many things to a 'vanilla' game of Minecraft that the Game is based on."
 				""
@@ -78,10 +87,10 @@
 				""
 				"&dHell, even some of their CEOs and board of directors live IN the game."
 				""
-				"&5Right. For now, if you hit Delete on your keyboard, you'll open up the AoA menu, which we can explain parts of now."
+				"&5Right. For now, if you hit H on your Keyboard, you'll bring up your Vault Hunters GUI. You can access your stats and skills here, as well as the Quests they give you."
 			]
 			hide_dependency_lines: true
-			dependencies: ["0CAB7196EB0D5F4C"]
+			dependencies: ["04D5AA9EB9007560"]
 			hide: true
 			id: "6DEFECFABD4DCB59"
 			tasks: [{
@@ -89,22 +98,30 @@
 				type: "checkmark"
 				title: "The Main System"
 			}]
+			rewards: [{
+				id: "7BDCD36DE828E1DA"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
 		}
 		{
-			x: 9.0d
-			y: -5.0d
+			title: "A Glitch....?"
+			icon: "minestuck:sbahjarang"
+			x: 6.25d
+			y: -5.25d
 			shape: "pentagon"
-			subtitle: "MOD: Project MMO"
+			subtitle: "MOD: Minestuck"
 			description: [
-				"&5Huh, they added another layer of skills and abilities to the system a few months ago."
+				"&7Huh, I'm vaguely remembering one of the first systems they had for the FOPGame Server...remember that?"
 				""
-				"&dInteresting... but a weird choice. They already had an MMO style system in with their Advent of Ascension core. Why add ano...wait, what am I saying. More game layers, more carrots on a stick."
+				"&dOh right, the one they got when they 'acquired' the old SBURB active worlds. It probably got wiped ages ago when they got the Vault Hunters system online. You and I played it some and tried to crack it. How come, squeaks?"
 				""
-				"&5Hm, too many and it confuses players. Gets them to stop playing. But FOP, I guess, thinks that since you all are prisoners, there isn't really a 'stop' as a valid option."
+				"&7Well, I used one of those old tools we coded up and well... I think I found a glitched item from a hole I poked. See, this data card?"
 				""
-				"&dLooks like you can level things and get extra abilities. Just do your thing: mining, building, crafting."
+				"&dWait. Wait a minute, you mean they just... left in that old code? That's... really important. Bandit, I'll split this off into its own section. Come check out the \"Stuck in the SBURB\" section. Squeaks, yer up."
 				""
-				"&5Shift + P on your keyboard will open up the Project MMO interface."
+				"&7I'll take it from here, boss. Let's go Bandit, time to break some things."
 			]
 			hide_dependency_lines: true
 			dependencies: ["6DEFECFABD4DCB59"]
@@ -115,25 +132,34 @@
 				type: "checkmark"
 				title: "The Second Layer"
 			}]
+			rewards: [{
+				id: "63C73A7B62DDA814"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
-			shape: "pentagon"
-			subtitle: "Every Aspect, Gamefied"
+			title: "Of Skills and Preperation"
+			icon: "minecraft:shulker_box"
+			x: 3.75d
+			y: 2.75d
+			shape: "hexagon"
+			subtitle: "Getting Ready"
 			description: [
-				"&5Wow... I think they removed some skills since we last looked into this..."
+				"&5That's helpful. The early Vault Hunters quests you can do, they give you a free skill point and a Shulker Box before you go into your first Vault."
 				""
-				"&dBut there's still a lot. Daunting, isn't it... But don't worry, thankfully the FOP built in a guide to all these skills in their AoA menu."
+				"&dVery handy. With the Shulker Box, you can store more loot in it from inside the Vault, and the Skill Point can be get you some kind of healing."
 				""
-				"&5Each skill earns experience by doing specific things. Most of them are pretty obvious. Farming is gained by... farming, for example. Hauling is Fishing. Etc."
+				"&5Whoops, thats an important thing to note to Bandit, sis. "
 				""
-				"&dEtc etc etc. You get the idea. Some things are gonna be locked behind leveling some of these. And leveling them will get you better 'rewards' for doing them."
+				"&dWhat do....OH, yeah, we almost forgot. Bandit, when you are inside a Vault, you do not heal naturally. Something about how they are twisting the worlds also twists how regular things function."
 				""
-				"&5You can click on a skill name to get a better idea of them."
+				"&5So things like a full stomach won't regenerate health."
+				""
+				"&dI suggest choosing a Healing skill in your VH GUI (H Key by default). I also suggest getting some Iron Armor and a Diamond Sword, but thats up to you."
 			]
-			hide_dependency_lines: true
-			dependencies: ["6DEFECFABD4DCB59"]
+			dependencies: ["19220F4E56CB0A0F"]
 			hide: true
 			id: "78B5BCD7C6C45779"
 			tasks: [{
@@ -141,51 +167,118 @@
 				type: "checkmark"
 				title: "Advent of Skills"
 			}]
-		}
-		{
-			x: -0.9285714285714306d
-			y: 0.017857142857145902d
-			shape: "pentagon"
-			subtitle: "So many meters..."
-			description: [
-				"&5AoA adds a few resource meters to keep in mind. They encourage you to keep doing things and keep working to keep them filled."
-				""
-				"&dAs you level your AoA skills, the meters get easier to fill and give bigger bonuses."
-				""
-				"&5First is Battle Rage. Fighting raises your Battle Rage meter maximum, which slowly regenerates. The higher you get, the higher chance of an extra critical hit, which will empty the meter."
-				""
-				"&dHuh, I see they got rid of Creation. It let you summon pets. I wonder why..."
-				""
-				"&5Some tools, blocks, and weapons use Spirit for power and ammunition."
-				""
-				"&dSoul Power is used to activate Tablets, craftable utility items."
-			]
-			hide_dependency_lines: true
-			dependencies: ["6DEFECFABD4DCB59"]
-			hide: true
-			id: "19220F4E56CB0A0F"
-			tasks: [{
-				id: "426BA08035022DCC"
-				type: "checkmark"
-				title: "Advent of Resources"
+			rewards: [{
+				id: "058993CDE4B6FF88"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.75d
-			shape: "pentagon"
-			subtitle: "Prayer and Sacrifice"
+			title: "The Altar"
+			icon: "the_vault:vault_altar"
+			x: 1.75d
+			y: 2.25d
+			shape: "hexagon"
+			subtitle: "A Sacrifice of Material"
 			description: [
-				"&5These are the Tribute bars. At some point, we aren't sure whether the FOP created fake 'Gods' for the Game Server, or if a prisoner 'ascended' by exploiting the game in some way, and became part of the system itself."
+				"&5Hm, okay, if you haven't already Bandit, I'd get at least a temporary base set up. You'll need the storage space."
 				""
-				"&dEach one covers a different game God. Each bar raises or lowers depending on actions."
+				"&dYou'll want a place to make your Vault Portal. And all your Vault work stations. You'll want your usual furnishings. Bed. Chests. A roof. "
 				""
-				"&5It seems the bars reset when night is finished. So you have the whole day to fill them as much as you can. If you do, each one can give you a different reward as night falls."
+				"&5Some kind of defense turrets..."
 				""
-				"&dHmm, looking into it, if you get all four above a certain level, you get a bonus from a fifth God? And filling all four to max nets you a tool to gain Tribute quickly."
+				"&dNot sure those are immediatley available, brother...not a bad idea however. Then you'll want to make yourself a Vault Altar. This is your key to the Vaults."
+				""
+				"&5Looks like you place the Altar down, and that one binds to you. Only you can place Vault Rocks onto it, which is how you start to make a Vault Crystal."
+				""
+				"&dThe items that show up? Those are the 'price' to make the Vault Crystal. Throw them at the Altar, then put down a Button or Lever against the Altar and activate them to finish creating the Vault Crystal."
 			]
-			hide_dependency_lines: true
-			dependencies: ["6DEFECFABD4DCB59"]
+			dependencies: ["13443B45E662A04C"]
+			hide: true
+			id: "19220F4E56CB0A0F"
+			tasks: [
+				{
+					id: "3889F0DFD4AD19B5"
+					type: "item"
+					item: "the_vault:vault_altar"
+				}
+				{
+					id: "749233C0BD55DFBF"
+					type: "item"
+					title: "A Ready Vault Crystal"
+					item: {
+						id: "the_vault:vault_crystal"
+						Count: 1b
+						tag: {
+							CrystalData: {
+								Properties: {
+									size: 0b
+									exhausted: 0b
+									type: "capacity"
+								}
+								Version: 3b
+								Modifiers: {
+									List: [ ]
+									RandomModifiers: 1b
+									type: "default"
+									Clarity: 0b
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1F76551071C7720D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Paying for Crystals"
+			icon: {
+				id: "the_vault:vault_crystal"
+				Count: 1b
+				tag: {
+					CrystalData: {
+						Properties: {
+							size: 0b
+							exhausted: 0b
+							type: "capacity"
+						}
+						Version: 3b
+						Modifiers: {
+							List: [ ]
+							RandomModifiers: 1b
+							type: "default"
+							Clarity: 0b
+						}
+					}
+				}
+			}
+			x: -0.25d
+			y: -2.75d
+			shape: "rsquare"
+			subtitle: "Entrance Fee"
+			description: [
+				"&5Hm, one of the major 'features' of the FOPGame Server is Vaults...but to get into them, you have to pay for Crystals, with an escalating cost the more you make."
+				""
+				"&dSo it encourages a User to build bigger and bigger farms to do more Vaulting, interesting."
+				""
+				"&5Yep, and the main reason for unlocking subsystems and other mods is to make these farms faster."
+				""
+				"&dHold on, looks like they have options for this too? You can make Crystals free to create, or even more expensive..."
+				""
+				"You can set the scaling of resources for Crystals with the following command : "
+				"&6/gamerule vaultCrystalMode mode :&r Replace mode with one of the following :"
+				"     Infinity (no cost)"
+				"     Normal"
+				"     Grindy"
+				"     Extreme"
+			]
+			dependencies: ["4CA0844372B19F19"]
 			hide: true
 			id: "33C206FEA6772466"
 			tasks: [{
@@ -193,27 +286,34 @@
 				type: "checkmark"
 				title: "Advent of Gods"
 			}]
+			rewards: [{
+				id: "659233E2E4509679"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
 		}
 		{
-			x: 7.75d
-			y: -2.5d
-			shape: "pentagon"
-			subtitle: "Improving Yourself"
+			title: "Group Survival"
+			icon: "luphieclutteredmod:luphie_bunny_garland"
+			x: 2.5d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "More the Merrier"
 			description: [
-				"&dOkay, looks like the main buttons you need to worry about are these two here. Stats and Skills."
+				"&dSince you aren't the only Power User around, Bandit, you may have already found someone to tackle the Vaults with."
 				""
-				"&5Stats show what bonuses you get with your skills. Looks like with enough skill, you can chop down bigger amounts of logs or larger sections of ore veins."
+				"&5Keep in mind we're working with you to free all of them as well."
 				""
-				"&dAnd you have a bigger chance at better loot, or avoiding fall damage. Hm...if these buffs stack with their Advent buffs, and the other systems their Game Server has in place...."
+				"&dThe FOPGame Server encourges partying with other Users to acquire more loot than they would individually."
 				""
-				"&5I wonder if they tested it enough before adding it. And just how protected their safeguards are..."
+				"&5Survival in numbers, of course."
 				""
-				"&dI smell a system vulnerability."
+				"To run Vaults with other players, you should form a party. You can do &6/party create&r, then &6/party invite player&r, where player is the name of the person you want to group with."
 				""
-				"&5Let's add it to the list. It's going to take careful planning to break the system. Every exploit is another opening."
+				"To join a different party or go solo, be sure to do &6/party leave&r!"
 			]
-			hide_dependency_lines: true
-			dependencies: ["45D2E30FD73E062E"]
+			dependencies: ["4CA0844372B19F19"]
 			hide: true
 			id: "40E4E5113E933B44"
 			tasks: [{
@@ -221,52 +321,80 @@
 				type: "checkmark"
 				title: "MMO Stats and Skills"
 			}]
-		}
-		{
-			x: 10.5d
-			y: -1.75d
-			shape: "pentagon"
-			subtitle: "What Does What?"
-			description: [
-				"&5Oh, here we go, this glossary lists what gives you experience, and what bonsues you get when."
-				""
-				"&dOh, apparently most equipment is level locked? No no no, that will NOT do..."
-				""
-				"&5Sis, be careful..."
-				""
-				"&dIt'll lock down the item level requirement, but that just means I gotta hit it with a big change all at the same time."
-				""
-				"&2ITEM DATABASE UPDATED."
-				""
-				"&2LEVEL RESTRICTION CONFIGURATION UPDATED"
-				""
-				"&4SECURITY SYSTEM UPDATED FOR USER PROTECTION."
-				""
-				"&dI couldn't remove the restriction, so I lowered everything I could. The more powerful items have tougher security layers, so I didn't have time to fix them. Sorry."
-			]
-			hide_dependency_lines: true
-			dependencies: ["45D2E30FD73E062E"]
-			hide: true
-			id: "70D9D62AF2856A7B"
-			tasks: [{
-				id: "31F11B66D415622E"
-				type: "checkmark"
-				title: "MMO Glossary"
+			rewards: [{
+				id: "7CADA419368B29E4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.0d
-			shape: "pentagon"
-			subtitle: "Things to Fight, Things to Do"
+			title: "Coins and Bills"
+			icon: "lightmanscurrency:trading_core"
+			x: 7.75d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "Mod: Lightman's Currency"
 			description: [
-				"&5Well, at least they include a pretty helpful guide on their game system."
+				"&5Looks like the FOP include a trading and banking system called Lightman's Currency."
 				""
-				"&dRight? It's decently extensive, and it should be enough to get started with, and point you to helpful things. I'll give them that much."
+				"&dA lot of useful things here for trading with other Users. Trading terminals. Vending machines. Display stands."
 				""
-				"&5We'll look over this as well and figure out a game plan. "
+				"&5And a slot machine? Isn't there another product they sell thats literally casino games?"
 				""
-				"&dAgreed. Layering so many systems on each other has probably opened up a vulnerability..."
+				"&dYeah that's a bit weird. But let me just... okay, that Wallet we gave you earlier, Bandit? It'll let you store Ferret Dollars as well now. As for your bank account..."
+				""
+				"&2BANKING DATABASE UPDATED."
+				""
+				"&4SECURITY SYSTEM UPDATED FOR USER PROTECTION."
+				""
+				"&dDamn, I couldn't get the ATM to store Ferret Dollars as well. But you should be able to store both major currencies on you at least."
+			]
+			hide_dependency_lines: true
+			dependencies: ["14E05D152CF5C051"]
+			hide: true
+			id: "70D9D62AF2856A7B"
+			tasks: [{
+				id: "79650DD340BF8295"
+				type: "item"
+				item: "lightmanscurrency:atm"
+			}]
+			rewards: [{
+				id: "26C528DFB0EF0517"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Too Easy? Too Difficult?"
+			icon: {
+				id: "ae2:fluix_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.25d
+			y: -2.25d
+			shape: "rsquare"
+			subtitle: "A Personal Challenge"
+			description: [
+				"&5That's different. Hey sis, it looks like they let you choose how difficult things are inside the Vaults."
+				""
+				"&dProbably as a way to keep as many players as possible. Vault Hunters looks like it can be very difficult, so giving players the ability to make their game easier and more enjoyable keeps them interested longer."
+				""
+				"&5Do Power Users like Bandit even get a choice?"
+				""
+				"&dYeah, looks like they can. Might as well take advantage of it, Bandit, if things are too hard or too easy."
+				""
+				"You can set your world or server's game mode by using the following : "
+				""
+				"&6/gamerule VaultMode Normal :&r The default mode. If you die in a Vault, you get a Spirit with your equipment, and have to pay Vault Gold to get your stuff back."
+				""
+				"&6/gamerule VaultMode Casual :&r You get your items back if you die, but they take some durability damage."
+				""
+				"&6/gamerule VaultMode Hardcore :&r You lose everything on you if you die in a Vault. "
 			]
 			hide_dependency_lines: true
 			dependencies: ["6DEFECFABD4DCB59"]
@@ -277,10 +405,16 @@
 				type: "checkmark"
 				title: "Advent of Information"
 			}]
+			rewards: [{
+				id: "22A2978704CBC9C0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
 		}
 		{
 			title: "Acidic Override"
-			icon: "kubejs:blindboxblindbox"
+			icon: "tfb2:blindboxblindbox"
 			x: 5.5d
 			y: -3.75d
 			shape: "hexagon"
@@ -296,7 +430,7 @@
 				""
 				"&dLayering so many systems made holes in their security, so I plugged one up with our own data pipe. So every one of those Blind Boxes you open up? Comes directly from their storage."
 				""
-				"&5Here. Send us 20 Copper Scrypto for another. Then open it."
+				"&5Here. Send us 5 Chromatic Iron for another one. Then open it."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -313,23 +447,24 @@
 			tasks: [{
 				id: "10A0F7F7A41CDF5B"
 				type: "item"
-				item: "aoa3:copper_coin"
-				count: 20L
+				item: "the_vault:chromatic_iron_ingot"
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [{
 				id: "0064B11CC48A7C44"
 				type: "item"
-				item: "kubejs:blindboxblindbox"
+				item: "tfb2:blindboxblindbox"
 			}]
 		}
 		{
+			icon: "minestuck:amber_gummy_worm"
 			x: 5.5d
 			y: -1.75d
 			shape: "hexagon"
 			subtitle: "Infect the Server!"
 			description: [
-				"&dYes! Success! This is good, no security alerts, no tracked Scrypto, I just need to edit the codespell a bit and..."
+				"&dYes! Success! This is good, no security alerts, no tracked currency; I just need to edit the codespell a bit and..."
 				""
 				"&5Sis..."
 				""
@@ -358,20 +493,21 @@
 			}]
 		}
 		{
+			icon: "mcwlights:double_street_lamp"
 			x: 5.5d
 			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Two Paths, One Goal"
 			description: [
-				"&dOkay, so infecting the items and Scrypto Coins is step 1. Step 2? Get them back into the system of course."
+				"&dOkay, so infecting the items and Vault Coins is step 1. Step 2? Get them back into the system of course."
 				""
-				"&5You have a choice here, Bandit. You can sell items and trade Scrypto Coins back to FOP and purchase their AMAZINGLY priced DLC..."
+				"&5You have a choice here, Bandit. You can sell items and trade Vault Coins back to FOP and purchase their AMAZINGLY priced DLC..."
 				""
 				"&dOr you can sell the items to us. We'll keep a portion of them, and send the rest back into their system. The Audubon Worm will very slowly spread without the FOP noticing."
 				""
 				"&5Take this TFB Shop Tablet. You can buy a resources from us, and learn how to sell to either us or the FOP."
 				""
-				"&dFOP Scrypto Coins are hard to earn, but we agree you should probably sell to both parties. Some things are easier to get Scrypto with, others Silver Coins. Either way, we get the Worm in their system."
+				"&dThe FOP's Vault Coins aren't too hard to earn... as long as you are vaulting. But we agree you could probably sell to both parties. Some things you can only get with Vault Coins, or some luck with our Blind Boxes. We have to limit how much we can sell you directly, as well. Using either or both, we get the Worm in their system."
 				""
 				"&dOkay, we're opening up the rest of the Q.U.E.S.T. sections to you, as well."
 			]
@@ -390,61 +526,81 @@
 			}]
 		}
 		{
-			title: "Salvage Operations"
-			x: 2.0d
-			y: 2.25d
-			shape: "square"
-			subtitle: "Repurpose Old Things"
+			title: "Twisting Worlds"
+			icon: "decocraft:globe"
+			x: 3.4285714285714306d
+			y: 3.4464285714285765d
+			shape: "gear"
+			subtitle: "Worlds, Gamefied"
 			description: [
-				"&dWell, looks like one of the systems of the Project MMO layer is 'Salvaging'. It lets you break down some items to get one of their components."
+				"&dSo we haven't quite explained what these Vaults are yet. It's kind of a doozy, I have to say."
 				""
-				"&5Oh, no Uncrafting Table I take it?"
+				"&5Well, I don't think its too hard to understand, sis. It's like that movie, uh... the one with The One and the computer program government agents..."
 				""
-				"&dUnfotunately not, bro. That'd be nice, but they've entwined Salvaging with their leveling systems. "
+				"&dThe Matrix"
 				""
-				"&5Ah, they tied it to Smithing. Strange choice. Looks like you'll need a Smithing Table to Salvage items."
+				"&5Yeah that one. Except the fake world the FOP created to control all the Power Users were real, they were just... digitized and rearranged into a game. So each Vault is actually small parts of an actual world they captured."
 				""
-				"&dWhich you level by smelting Ores in a normal Furnace. I'm unsure if things like the Smeltery will work, though. But Salvaging items also levels Smithing."
+				"&dSo you are saying all the loot..."
 				""
-				"&5Hmm, the ProjectMMO screen lists Salvagable items, and the level of Smithing you need. But it doesn't say how to Salvage..."
+				"&5Yeah, everything 'important' is made to look like a some kind of game loot. Precious metals and gems become Carbon and Vault Gems. Real Weapons become Vault Weapons. Money become Vault Coins."
 				""
-				"&dOh hey, Bitsy just figured it out! You Shift + Right Click the item onto the Smithing Table to try Salvaging it!"
+				"&dI don't know if thats a brilliant or wonky way to explain it..."
 			]
-			dependencies: ["14E05D152CF5C051"]
+			dependencies: ["78B5BCD7C6C45779"]
+			size: 0.75d
 			id: "2BBEFF6E9B2C2E8A"
 			tasks: [{
-				id: "7A994D653FB87F7F"
-				type: "item"
-				item: "minecraft:smithing_table"
-			}]
-			rewards: [{
-				id: "70A19F0B679C39BE"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "097B79599A40CEB5"
+				type: "checkmark"
 			}]
 		}
 		{
-			icon: "minecraft:gold_nugget"
-			x: 3.75d
-			y: 3.5d
-			shape: "square"
-			subtitle: "Rewarded For Doing"
+			title: "Your First Adventure"
+			icon: {
+				id: "the_vault:sword"
+				Count: 1b
+				tag: {
+					vaultGearData: [L;
+						-3866739080951473332L
+						-2997737712658537361L
+						1514722424829610008L
+						3527585455153845571L
+						2753168875257675788L
+						2987536090647L
+						557056L
+						8830586978304L
+					]
+					clientCache: {
+						"presentthe_vault:is_legendary": 0b
+						color: [B; ]
+						gearName: [B; ]
+						rollType: "Scrappy+"
+						jcolors: [I; ]
+						model: [B; ]
+						state: 0
+						hasModifierLEGENDARY: 0b
+						colors: [I;11184810]
+						rarity: 0
+					}
+				}
+			}
+			x: 7.25d
+			y: 2.75d
+			shape: "hexagon"
+			subtitle: "And a Starting Gift"
 			description: [
-				"&dWow, looks like they added a mechanic that drops extra things the higher level you are in a skill."
+				"&dOkay Bandit, when you have your Vault Crystal made, you'll need to make the Vault Portal."
 				""
-				"&5Like a Luck mechanic?"
+				"&5It's just like the Nether Portal. A 4 wide, 5 tall frame of Vault Cobblestone. Or Vault Stone. Or Polished Vault Stone. You can make the portal looking nice."
 				""
-				"&dKind of. Except instead of hoping good gear you have also has Luck, or dumping points into Luck, you just level your Project MMO skills."
+				"&dYou'll be using it a lot so that's always nice. After it's made, Right Click the Vault crystal onto the frame to open the portal, and step inside!"
 				""
-				"&5Ah, there's the stick again. What do you get, what's the carrot?"
+				"&5Once you do, you'll be teleported to another world. And if you've been following the Vault Hunter's quests, you should be given a Vault Sword and Shield to start you off."
 				""
-				"&dNot much for a good while. The occasional nugget of Iron from Stone. Bones from Dirt. Apples from Leaves."
+				"&dDon't leave the first room immediately! This is the Portal Room, it lets you prepare, as well as wait for other Users. Now hold those Unidentified items and Right Click with them!"
 				""
-				"&dLevel your skills enough though and you can find Enchanted Golden Apples from breaking Leaves!"
-				""
-				"&5...and the catch, sis?"
-				""
-				"&dWell, for the Enchanted Golden Apple, you gotta be level 50 to start for a 0.2% chance. Yes, 0.2, not 2%. That's only if you hit level 150. "
+				"&dOh! Let's also test if we can do this...you get to choose one more piece of equipment."
 			]
 			dependencies: ["4A7F919339917ED3"]
 			id: "249CEFD98AF2D014"
@@ -454,97 +610,120 @@
 				title: "Treasure?!"
 			}]
 			rewards: [{
-				id: "387C9A899B36F12B"
+				id: "50A9DFBF66CB81B2"
 				type: "choice"
-				table_id: 2640422954496342337L
+				icon: {
+					id: "the_vault:sword"
+					Count: 1b
+					tag: {
+						vaultGearData: [L;
+							2021937428410157036L
+							-1684196891531936923L
+							2392537302042635L
+							576460752303423488L
+							2056L
+						]
+						clientCache: {
+							"presentthe_vault:is_legendary": 0b
+							color: [B; ]
+							gearName: [B; ]
+							rollType: [B; ]
+							jcolors: [I; ]
+							model: [B; ]
+							state: 0
+							hasModifierLEGENDARY: 0b
+							colors: [I;11184810]
+							rarity: 0
+						}
+					}
+				}
+				exclude_from_claim_all: true
+				table_id: 3649100469019259830L
 			}]
 		}
 		{
-			title: "Forged in Magma"
-			x: 0.25d
-			y: 2.25d
-			shape: "square"
-			subtitle: "That Which Does Not Burn"
+			title: "To Build the Gate"
+			icon: "the_vault:bumbo_polished_vault_stone"
+			x: 0.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Preparing to Dial"
 			description: [
-				"&dInteresting! That's a new thing for the Advent of Ascension game layer..."
+				"&dOkay Bandit, you'll need to get started on the game loop, if we want any chance of getting a foothold with the Adubon Worm."
 				""
-				"&5What's up, sis?"
+				"&5Looking at the guide book they gave you, you'll need to get some more Chromatic Iron and some Vault Cobblestone."
 				""
-				"&dLotsa these worlds have deadly Lava..."
+				"&dYep, also keep an eye out for diamonds as well, Bandit. You'll need them and Obsidian as well to start making Vault Portals."
 				""
-				"&5Yeah, everybody has died at least once to Lava."
+				"&5If you are having trouble finding any of these, we've piped some into the Shop Tablet supplies for sale."
 				""
-				"&dYeah, and if those players quit the game, or for Power Users, have their Soul harvested, then their graves 'dissolve' and release their items into the Lava."
+				"&dExcept the Obsidian. Some materials we're having problems getting for you."
 				""
-				"&5Wait, they don't burn?"
-				""
-				"&dNo, but they aren't put back into the database either. So, the FOP created the Extraction Device. Place it with open air below it, pour a bucket of Lava on top. The machine will pull it in, so then Right Click a Stone Bowl onto it. It sifts through the Lava for items, turning it into Obsidian underneath. Clear the Obsidian to Extract again."
+				"&5Oh! Also make sure you get a couple Vault Rocks! They drop from the Vault Stone, you'll need a bunch."
 			]
+			hide_dependency_lines: true
 			dependencies: ["14E05D152CF5C051"]
+			hide: true
 			id: "13443B45E662A04C"
 			tasks: [
 				{
-					id: "1D50D6BECE193C9B"
+					id: "389605659C17384A"
 					type: "item"
-					item: "aoa3:extraction_device"
+					item: "the_vault:vault_cobblestone"
+					count: 12L
 				}
 				{
-					id: "0B8A0E86281EFE1F"
+					id: "7620201A22748C69"
 					type: "item"
-					item: {
-						id: "aoa3:stone_bowl"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "the_vault:chromatic_iron_ingot"
+					count: 5L
+				}
+				{
+					id: "150577D9C4A5F6FF"
+					type: "item"
+					item: "the_vault:vault_rock"
 				}
 			]
-			rewards: [{
-				id: "1BB75C9E3ABA3E47"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
+			rewards: [
+				{
+					id: "1BB75C9E3ABA3E47"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "43CF6A7F7FFEFCE5"
+					type: "item"
+					item: "the_vault:vault_rock"
+					count: 5
+				}
+			]
 		}
 		{
-			title: "Creating Life"
-			x: 5.5d
+			title: "The Time of Your Life"
+			icon: "botania:cosmetic_clock_eye"
+			x: 9.25d
 			y: 2.25d
-			shape: "square"
-			subtitle: "Creating Friends!"
+			shape: "hexagon"
+			subtitle: "Tick Tock Tick Tock"
 			description: [
-				"&dOne of the many systems that the AoA layer adds is the Creation system."
+				"&dOnce you cross the arch into the first Hallway, the Vault Timer will start."
 				""
-				"&5It used to be used for summoning pets to help you. Thus, creation. That recently got removed, however..."
+				"&5You get 25 minutes, by default, to \"Complete\" a Vault. And by Complete, you should see a thing at the top of your view that talks about Elixir."
 				""
-				"&dIt was an interesting system, but hard to balance I guess, brother. But yeah, to get started in it, you need to make a Stone Bowl, and find yourself a Pixon."
+				"&dEvery normal Vault has an \"Objective\", a goal for you to aim for to get bonus rewards. Some stuff you can only GET by completing a Vault successfully."
 				""
-				"&5Pixons are...strange things. They look like tiny starbursts constantly exploding."
+				"&5Hm, I remember the only Objective you could get would be touching these monolith things...but it looks like they changed it."
 				""
-				"&dOr like an animated * symbol. You can't kill them with normal weapons. But Right Clicking a Stone or Diamond Bowl on them will damage them and give you an Infusion Stone."
+				"&dYeah, now your first available objective is called Elixir Rush. Your goal is to fill up that bar with Elixir, which are these purple orbs that 'explode' out of enemies and chests."
 				""
-				"&5A lot of the FOPServer worlds have unique Pixons. The Overworld has the Glistening one, getting you a Glistening Infusion Stone."
+				"&5Reading into it, each monster and chest type will have different amounts of Elixir. And it changes every time you enter a new Elixir Rush Vault."
 			]
-			dependencies: ["14E05D152CF5C051"]
+			dependencies: ["249CEFD98AF2D014"]
 			id: "1F2875BC889232AC"
-			tasks: [
-				{
-					id: "6058ADF281771EAB"
-					type: "item"
-					item: {
-						id: "aoa3:stone_bowl"
-						Count: 1b
-						tag: {
-							Damage: 1
-						}
-					}
-				}
-				{
-					id: "53B80FB29D837FE2"
-					type: "item"
-					item: "aoa3:glistening_infusion_stone"
-				}
-			]
+			tasks: [{
+				id: "01B9FE8410D5956E"
+				type: "checkmark"
+			}]
 			rewards: [{
 				id: "12ED88887188DAC6"
 				type: "choice"
@@ -552,46 +731,63 @@
 			}]
 		}
 		{
-			title: "Life and Infusion"
-			x: 5.5d
-			y: 3.5d
-			shape: "square"
-			subtitle: "An Infusion of Power"
+			title: "Loot Loot Loot Loot"
+			icon: "supplementaries:sack"
+			x: 11.25d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Fight! Loot! Loot! Fight!"
 			description: [
-				"&dNow that you have an Infusion Stone or three, you can make the first steps in the Infusion system. Starting off, you'll need an Infusion Table."
+				"&dOkay, head on in, Bandit (if you haven't already, that is!). Every Vault is sectioned off into a grid of large Rooms, all connected with in each cardinal direction."
 				""
-				"&5Then you'll need a Blank Slab. Which will take Runium, and thats locked under... looks like Yellow Ore DLC? Huh they moved it up from Orange..."
+				"&5Except the Portal Room! This room only has one entrance, and you'll want to remember where it is!"
 				""
-				"&dStrange. I wonder why... Well, once you get that Runium, you can make a Blank Slab. Originally, you would imprint a creature to summon, but they patched that out recently. "
+				"&dSome Objectives can only be completed if you exit out of the Portal here. Or, if you can't complete the Objective, you'll need to get out via this Portal to not 'fail' the Vault."
 				""
-				"&5That's super strange. I wonder if the new ProjectMMO layer was causing issues with it?"
+				"&5For now, failing will only damage your equipment a little bit. After Level 19 though..."
 				""
-				"&dNo clue. Wonder what the Creation Forge will be used for, now?"
+				"&dWe can cover that later. For now, you'll want to mark your path through the vault somehow. Ideas, brother?"
+				""
+				"&5Well...here, take these blocks. Mark the hallway entrance or exit with them. They should stand out nicely. Also, these special Unobtanium Blocks can be crafted into Ingots...then back into a block...but you get an extra Ingot. So if you keep repeating that..."
 			]
 			dependencies: ["1F2875BC889232AC"]
 			id: "5E574242513BE343"
 			tasks: [{
-				id: "7B23CB673224C96E"
-				type: "item"
-				item: "aoa3:infusion_table"
+				id: "3CF0023E538CD2C5"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "3403A63A365E2029"
-				type: "choice"
-				table_id: 5632731352558517809L
+				id: "050DE05717B49BFB"
+				type: "item"
+				item: "architects_palette:unobtanium_block"
+				count: 64
 			}]
 		}
 		{
+			title: "Into a New World"
 			icon: {
-				id: "minecraft:diamond_pickaxe"
+				id: "the_vault:vault_crystal"
 				Count: 1b
 				tag: {
-					Damage: 0
+					CrystalData: {
+						Properties: {
+							size: 0b
+							exhausted: 0b
+							type: "capacity"
+						}
+						Version: 3b
+						Modifiers: {
+							List: [ ]
+							RandomModifiers: 1b
+							type: "default"
+							Clarity: 0b
+						}
+					}
 				}
 			}
-			x: 3.75d
-			y: 2.25d
-			shape: "square"
+			x: 5.5d
+			y: 2.75d
+			shape: "hexagon"
 			subtitle: "Vein Mining By The Numbers"
 			description: [
 				"&5Bad news, Bandit. You won't have the same kind of Veinmining skill you had in your previous world."
@@ -606,7 +802,7 @@
 				""
 				"&dOh, and if you Veinmine trees, it breaks from the TOP, not the bottom."
 			]
-			dependencies: ["14E05D152CF5C051"]
+			dependencies: ["78B5BCD7C6C45779"]
 			id: "4A7F919339917ED3"
 			tasks: [{
 				id: "1C84C5A5A169E1FA"
@@ -633,7 +829,7 @@
 				""
 				"&5Like that one game you showed me, sis. Level up the virus slowly. It can't kill fast or it just burns out or gets cured super fast before it can spread enough."
 				""
-				"&dRight. If we hit them with a big attack, they'll quickly see it and neutralize it. You saw how fast they countered me removing Item Level requirements, yeah? Same thing."
+				"&dRight. If we hit them with a big attack, they'll quickly see it and neutralize it. You saw how fast they countered me lowering that Vault Bronze requirement earlier, yeah? Same thing."
 				""
 				"&5This is one reason why we are putting a price on things in our Shop. Infecting more things but at a slower, steady pace. Sure, you could dump thousands of Cobblestone at once, but that stuff is cheap, so they wouldn't notice."
 			]
@@ -650,427 +846,413 @@
 			}]
 		}
 		{
-			title: "Rune Power"
-			x: 9.0d
-			y: 2.25d
-			shape: "square"
+			title: "Ornately Equipped"
+			icon: "the_vault:ornate_chest"
+			x: 7.25d
+			y: 4.75d
+			shape: "rsquare"
+			subtitle: "Get Power"
 			description: [
-				"&dWell that's interesting. Looks like they changed how the whole Rune thing worked."
+				"&dOrnate Chests usually contain things related to Vault Gear, Bandit."
 				""
-				"&5Really? Well, Runes are components you need not only to make some items, like Wands, but also power them, like ammunition."
+				"&5Vault Weapons, Vault Armor, Vault Trinkets. But not ALL Vault Gear..."
 				""
-				"&dAnyways, Bandit, each rune is of a different 'element'. Not just wind, fire, earth..."
-				""
-				"&5But also Wither, Lunar, Poison, etc. Many you cannot use until you level up your Runation skill."
-				""
-				"&dUsed to be, you had to find a Rune Shrine on each world to make a rune. Or get lucky with a Rune Bag lottery or something."
-				""
-				"&5Now you can just craft them. You should start with the Wind Rune."
+				"&dAlso lots of your Focuses and things related to re-rolling and customizing your Vault Gear."
 			]
-			dependencies: ["14E05D152CF5C051"]
+			hide_dependency_lines: true
+			dependencies: ["5E574242513BE343"]
 			id: "7543E03FC25521E7"
-			tasks: [
-				{
-					id: "13CB59E3639DA277"
-					type: "item"
-					item: "aoa3:runium_ore"
-				}
-				{
-					id: "07C7093833E61BCF"
-					type: "item"
-					item: "aoa3:unpowered_rune"
-				}
-				{
-					id: "6CCAAF243CB4D9A3"
-					type: "item"
-					item: "aoa3:wind_rune"
-				}
-			]
-			rewards: [{
-				id: "04F748B4C48FA024"
-				type: "choice"
-				table_id: 2640422954496342337L
+			tasks: [{
+				id: "46553F28DFD27AB0"
+				type: "observation"
+				title: "Find an Ornate Chest"
+				icon: "sophisticatedstorage:ornate_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:ornate_chest"
 			}]
 		}
 		{
-			title: "Crystalized Skill"
-			x: -1.5d
-			y: 2.25d
+			title: "Sly Moves"
+			icon: {
+				id: "the_vault:trinket"
+				Count: 1b
+				tag: {
+					vaultGearData: [L;
+						-8527086985746807220L
+						-5867191529188746856L
+						1514722424829573161L
+						5928572538477319491L
+						2676634361676693832L
+						23103588210495013L
+						-7814214667446693802L
+						335690905683768L
+					]
+					clientCache: {
+						color: [B; ]
+						gearName: [B; ]
+						rollType: [B; ]
+						jcolors: [B; ]
+						model: [B; ]
+						state: 2
+						colors: [B; ]
+						rarity: [B; ]
+					}
+					vaultUses: 28
+				}
+			}
+			x: 9.25d
+			y: -2.0d
 			shape: "rsquare"
-			subtitle: "A Little Boost"
+			subtitle: "PARKOUR!"
 			description: [
-				"&dIf you get your Advent of Ascension Foraging skill (which is different than the Project MMO's Mining skill, but... the same... thing...)"
+				"&dThe FOP have added an advanced movement system to their server that might interest you, Bandit. It's called Parcool, and it lets you Parkour around, whatever that actually means."
 				""
-				"&5Don't mind sis, trying to make logical thoughts about the FOP's server decisions hurts my head too..."
+				"&5Parkour is... basically, you go from point a to point b, except instead of going around stuff in your way, you go over it, under it, or through it instead, using it as leverage instead of a speed bump."
 				""
-				"&dEr, right. Well, these things are Skill Crystals. They come in varying sizes, but the smallest one can be found either in loot chests around the world, or as a bonus drop when your Foraging skill is high enough and you mine Stone."
+				"&dAccording to this book, you can do stuff like wall kicks, climbing ledges, wall running, long jumps... but you have a Stamina bar that recharges."
 				""
-				"&5You hold them and Right Click them against the ground. They'll raise up the lowest Advent of Ascension skill you have with a bit of XP."
+				"&5So you can't just fast run the entire Vault."
 				""
-				"&dBut only skills that are at least level 15 will count. They didn't want Users to power level their friends easily."
+				"&dHere, you take the book I found, Bandit. It should help. I wonder if we can find a Researcher to better explain how to use it..."
 			]
+			hide_dependency_lines: true
 			dependencies: ["14E05D152CF5C051"]
 			id: "2E8B1B1D23FEAF8E"
 			tasks: [{
-				id: "03EE998A065A93D5"
-				type: "item"
-				item: "aoa3:small_skill_crystal"
+				id: "3ACC070C6FC78B9C"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "18941D81C167934B"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "66EF0699CF754D85"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "parcool:parcool_guide"
+					}
+				}
 			}]
 		}
 		{
-			title: "All The Ways to Chop Wood"
-			x: -3.0d
-			y: 2.25d
-			shape: "square"
+			title: "Researchers Unite"
+			x: 3.25d
+			y: -3.25d
+			shape: "rsquare"
+			subtitle: "A Team For Knowledge"
 			description: [
-				"&dSo, because the FOP added a new game layer with Project MMO, there are a few skills that are well... duplicates?"
+				"&dThe FOP have a lot of subsystems that aren't available to new Users, Power or otherwise. You have to 'research' them to unlock them."
 				""
-				"&5But at the same time, different?"
+				"&5Not like our research I take it?"
 				""
-				"&dTake Logging for example. This is the Advent of Ascension skill you train by chopping down trees, and which can get you bonus items the higher level they are."
+				"&dNo, more like earning the priviledge to use them. You need Knowledge to unlock the systems, things like Botania or Mekanism."
 				""
-				"&5Then the Project MMO skill is... Woodcutting! Which also raises when you cut down trees. This, though, helps determine how far you can Veinmine logs. And also can give you bonus items the..... higher level it is...."
+				"&5By knowledge, you mean..."
 				""
-				"&dAnd the extra items you can find are different between the two skills."
+				"&dAn actual item you find inside the Vaults, of course. But hey, it looks like you can create a Research Team to combine multiple Users' \"Knowledge\"  to unlock them together."
+				""
+				"You can form a Research Team to unlock mods together. The cost of the Research goes up by 50% for each person added, but overall is cheaper for everyone on the team."
+				"&6/the_vault research_team invite player_name"
 			]
-			dependencies: ["14E05D152CF5C051"]
+			dependencies: ["0CAB7196EB0D5F4C"]
 			id: "764D1D5E68CF8085"
 			tasks: [{
-				id: "405512488B882A8A"
+				id: "7A51F6F42D24DFF6"
 				type: "item"
-				title: "Any 500 Logs"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				count: 500L
-				consume_items: true
+				item: "the_vault:knowledge_star_essence"
 			}]
 			rewards: [{
 				id: "1A4A2EEF8A2D17FE"
 				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Hauling in the Big Catches"
-			x: 11.0d
-			y: 2.25d
-			shape: "square"
-			description: [
-				"&5One of the majorly overlooked skills in Advent of Ascension is Hauling."
-				""
-				"&dThat's hauling as in, fish hauling. Fishing really. It's often overlooked as it's not 'lucrative', but if there's one thing the FOP did right, its that Fishing in the FOP Game Server is actually beneficial."
-				""
-				"&5It just takes a while to level up. Especially at the start, as you have to get to Hauling 15 to be able to use the special Hauling Rod."
-				""
-				"&dThe Hauling Rod, and other AoA rods like it, can pull from a special 'selection' of items depending on where you fish, and at what level."
-				""
-				"&5Also Note...when you start using the Hauling Rod, you have a chance of pulling up creatures themselves. Some of them may fight you. So have a weapon handy as well."
-				""
-				"&dWatch, catch a Violet Skipper..."
-			]
-			dependencies: ["14E05D152CF5C051"]
-			id: "4342B9F453AD1F1B"
-			tasks: [
-				{
-					id: "37A184DA5225A265"
-					type: "item"
-					item: {
-						id: "aoa3:hauling_rod"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "42F1FB6429A75236"
-					type: "item"
-					item: "aoa3:violet_skipper"
-				}
-			]
-			rewards: [{
-				id: "19FE2630FF8072CB"
-				type: "choice"
+				exclude_from_claim_all: true
 				table_id: 2640422954496342337L
 			}]
 		}
 		{
-			title: "Caged Fish"
-			x: 11.0d
-			y: 3.5d
-			shape: "square"
+			title: "A Touch of Gilding"
+			x: 9.25d
+			y: 4.75d
+			shape: "rsquare"
+			subtitle: "Sparkling Loot"
 			description: [
-				"&dWhen you reach 31 in Hauling, you can use Fish Cages."
+				"&dGilded Chests contain sparkling and luxurious loot."
 				""
-				"&5It's amusing when you try to use one without having the skill. It just...pops out of your hands. Usually into your inventory."
+				"&5It used to just be Vault Diamonds and Jewels, but luxury loot now includes Vault Plushies and Vault Sacks, but only after level 50."
 				""
-				"&dOr onto the ground if your inventory is full. But yeah, leveling up your Hauling, and you'll get to use Fishing Cages. "
-				""
-				"&5You can use these in water to place them, and they'll passively catch certain fish. Or other things."
-				""
-				"&dThey can only hold a couple stacks of fish or goodies, so you'll want to Right Click them to empty them regularly."
-				""
-				"&5Right Clicking is important. If you Left Click, you destroy the trap. You get the goodies, but no Hauling XP."
+				"&dThese will be your main source of Jewels for Vault Tools, and many non-low level crafts require Vault Diamonds."
 			]
+			hide_dependency_lines: true
+			dependencies: ["5E574242513BE343"]
+			id: "4342B9F453AD1F1B"
+			tasks: [{
+				id: "581BC33235669CC2"
+				type: "observation"
+				title: "Find a Gilded Chest"
+				icon: "the_vault:gilded_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:gilded_chest"
+			}]
+		}
+		{
+			title: "Full of Purple"
+			icon: "the_vault:vault_crate_elixir"
+			x: 5.5535714285714235d
+			y: 3.767857142857146d
+			shape: "circle"
+			subtitle: "Elixir Complete!"
+			description: [
+				"&dOkay Bandit, you know the goal of the first Vault Objective. But what do you get if you actually complete it?"
+				""
+				"&5Looks like.... a crate? Kind of reminds me of the shipping crates we used in your previous... adventure."
+				""
+				"&dI guess they do, kind of? Well, these Crates contain your rewards for completing the Vault Objective. You'll need to place it on the ground, then Sneak + Right Click to open it up."
+				""
+				"&5Makes a neat sound when it pops open. And some items you'll need can only be found in these Completion Crates."
+				""
+				"&dHmmmmm...."
+				""
+				"&5Oh I know that hmmm. Means she's got an idea brewing. Let's give her a bit of time to ponder."
+			]
+			hide_dependency_lines: true
 			dependencies: ["4342B9F453AD1F1B"]
+			hide: true
+			size: 1.1d
 			id: "38F44668E26A3013"
 			tasks: [{
 				id: "194724C69659499F"
 				type: "item"
-				item: {
-					id: "aoa3:fishing_cage"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7996146427414681"
-				type: "choice"
-				table_id: 2640422954496342337L
+				item: "the_vault:vault_crate_elixir"
 			}]
 		}
 		{
-			title: "Hot Hot Fish"
-			x: 12.0d
-			y: 2.25d
-			shape: "square"
-			description: [
-				"&5When you hit 54 Hauling, you'll be able to go fishing in new waters. "
-				""
-				"&dYou mean Lava. "
-				""
-				"&5Okay so its not water. But you'll be able to use a Thermally Insulated Rod to get special fish in any pool of Lava."
-				""
-				"&dAlso it's good to note many of the AoA Dimensions have their own...special fish you can catch."
-				""
-				"&5Sometimes bigger than fish..."
-			]
-			dependencies: ["38F44668E26A3013"]
-			id: "7E1AB67308E7DF75"
-			tasks: [{
-				id: "14BAC8D150F0C4C8"
-				type: "item"
-				item: {
-					id: "aoa3:thermally_insulated_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "1171E6FB5ADE5791"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "To Heavenly Waters"
-			x: 12.0d
-			y: 3.5d
-			shape: "square"
-			description: [
-				"&5Once you hit Hauling 69..."
-				""
-				"&dN&5i&dc&5e."
-				""
-				"&5You can use the Light Rod. It's much better at pulling in good stuff."
-				""
-				"&dAnd once you hit 100 Hauling, you can don the Helm of the Trawler."
-				""
-				"&5This will boost the Hauling XP gain. And from there, if you get all the way up to 1000 Hauling."
-				""
-				"&dYour Helm of the Trawler gets a special look to it."
-				""
-				"&5Also, that Trawler hat is unbreakable. Cool, eh? Though it's a bit difficult to get..."
-				""
-				"&dThe FOP only have it available in their Shop, unfortunately."
-			]
-			dependencies: ["7E1AB67308E7DF75"]
-			id: "4CF25E84D8FA533F"
-			tasks: [
-				{
-					id: "711036033FF4C05A"
-					type: "item"
-					item: {
-						id: "aoa3:light_rod"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0E0F9C5126CD7A75"
-					type: "item"
-					item: "aoa3:helm_of_the_trawler"
-				}
-			]
-			rewards: [{
-				id: "1CA6ACA633112240"
-				type: "choice"
-				table_id: 2245246540467579945L
-			}]
-		}
-		{
-			title: "Infusing Power"
-			x: 6.5d
-			y: 3.5d
+			title: "Pieces of the Soul"
+			icon: "the_vault:soul_shard"
+			x: 5.5d
+			y: 4.75d
 			shape: "rsquare"
+			subtitle: "Fighting Spirit"
 			description: [
-				"&dThe Infusion Table is used for more than just making Armor and Weapons. You can use the Infusion Table to enchant as well."
+				"&dSee that purple crystal looking thing you just got? Not the Elixir orb, that other thing. That's a Soul Shard."
 				""
-				"&5You'll need two things: Enhancers, and Power Stones. Those are more powerful versions of the Infusion Stones you've been collecting from Pixons."
+				"&5You get them from defeating enemies in the Vault. It's sort of... a piece of their fighting spirit. A reward for defeating them, basically."
 				""
-				"&dYou'll have a small chance of getting a Power Stone if you use a Diamond Bowl on Pixons instead of a Stone one."
+				"&dYou'll want to collect as many of these as you can, they are very useful. You'll get a way to store them later, but for now treat it like any other piece of loot."
 				""
-				"&5As for Enhancers, theres a little less than a dozen you can make. You'll need them in certain combinations. Good luck figuring those out, the FOP didn't document it in game very well unfortunately..."
+				"&5Consider it Yet Another Form of Currency, Bandit."
 			]
+			hide_dependency_lines: true
 			dependencies: ["5E574242513BE343"]
 			id: "0AF2E388B45934CC"
-			tasks: [
-				{
-					id: "245AE832D7E20F70"
-					type: "item"
-					item: {
-						id: "aoa3:diamond_bowl"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7F2A1B50ABC3B141"
-					type: "item"
-					item: "aoa3:glistening_power_stone"
-				}
-				{
-					id: "31FB3AD1EDA5E299"
-					type: "item"
-					item: "aoa3:speed_enhancer"
-				}
-			]
-			rewards: [{
-				id: "3BB7DD07AA8B33E0"
-				type: "choice"
-				table_id: 5632731352558517809L
+			tasks: [{
+				id: "31FB3AD1EDA5E299"
+				type: "item"
+				item: "the_vault:soul_shard"
 			}]
 		}
 		{
-			x: 7.75d
-			y: 3.5d
-			shape: "square"
+			title: "A Live Chest"
+			icon: "the_vault:living_chest"
+			x: 3.75d
+			y: 4.75d
+			shape: "rsquare"
+			subtitle: "Alive? Live? Life? Squishy!"
 			description: [
-				"&dIf you level up your AoA Farming enough, you can wield the Dryad's Blessing."
+				"&dLiving Chests tend to contain a variety of things related to knowledge and research. "
 				""
-				"&dWhen you harvest a crop while holding a Dryad's Blessing, it will double the output."
+				"&5Oh, and food!"
+				""
+				"&dYes, food. Specifically Vault Burger ingredients, as well as occasionally some other Vault Foods like Vault Fruit."
 			]
-			dependencies: ["232779928B96328E"]
+			hide_dependency_lines: true
+			dependencies: ["5E574242513BE343"]
 			id: "50D9EFE8ABEA9779"
 			tasks: [{
-				id: "58B3A5A2A9CBBC31"
-				type: "item"
-				item: {
-					id: "aoa3:dryads_blessing"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "74297A64BC633CC1"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "2E58E45C6F54C018"
+				type: "observation"
+				title: "Find a Living Chest"
+				icon: "sophisticatedstorage:living_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:living_chest"
 			}]
 		}
 		{
-			title: "Farm Fresh"
-			x: 7.75d
-			y: 2.25d
-			shape: "square"
+			title: "Common As Wood"
+			x: 1.75d
+			y: 4.75d
+			shape: "rsquare"
+			subtitle: "Knock On"
 			description: [
-				"&dFarming is one of the many skills that seems to have doubles in the FOP Game Server..."
+				"&dWooden Chests will be the most common chest you find in the Vaults, Bandit."
 				""
-				"&dBoth their Advent of Ascension and Project MMO layers have it as a skill...and you get different bonuses as you level them."
+				"&5They'll also contain some of your most common crafting resources."
 				""
-				"&5Well that just makes it easier to game I guess."
+				"&dWell that just makes it easier to game I guess."
 			]
-			dependencies: ["14E05D152CF5C051"]
+			hide_dependency_lines: true
+			dependencies: ["5E574242513BE343"]
 			id: "232779928B96328E"
 			tasks: [{
-				id: "02E4288203DF7AD2"
-				type: "item"
-				item: {
-					id: "minecraft:stone_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4C6D6B243925A26D"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "08D5E2871BC8ECD2"
+				type: "observation"
+				title: "Find a Wooden Chest"
+				icon: "the_vault:wooden_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:wooden_chest"
 			}]
 		}
 		{
 			title: "Curios and Baubles"
-			icon: "curios:ring"
-			x: -4.25d
-			y: 2.25d
-			shape: "square"
+			icon: "minestuck:black_queens_ring"
+			x: 11.25d
+			y: -2.75d
+			shape: "rsquare"
 			subtitle: "MOD : Curios"
 			description: [
 				"&dThe FOPGame Server adds a whole lot of equipment slots in the form of Curios."
 				""
-				"&5These used to be called Baubles in previous versions of the game. But they are things like Rings, Amulets, and other accessories you can wear. Like the Ferret Wallet, to hold your Silver Ferret Coins, can go into a slot that's marked as \"Wallet\"."
+				"&5These used to be called Baubles in previous versions of the game. But they are things like Rings, Amulets, and other accessories you can wear. Like the Wallet slot can hold that Wallet we gave you."
 				""
 				"&dTo access your Curios equipment, open up your inventory. In the upper left of your character image, you will see a little * looking symbol. Thats your Curios equipment page."
 			]
+			hide_dependency_lines: true
 			dependencies: ["14E05D152CF5C051"]
 			id: "261FB6A187AC7231"
 			tasks: [{
 				id: "046253A0F3B88D1A"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "250FAE3F6969FB29"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
 		}
 		{
-			title: "Returning to Safety"
-			icon: "waystones:return_scroll"
-			x: -5.5d
-			y: 2.25d
-			shape: "square"
-			subtitle: "MOD : Waystones (teleporting)"
+			title: "The Price is Light"
+			icon: "the_vault:vault_rock"
+			x: 1.25d
+			y: 2.8125d
+			shape: "gear"
+			subtitle: "Crystal Costs and You"
 			description: [
-				"&dSometimes, you just get stuck somewhere you don't want to be in the FOPGame Server."
+				"&dInteresting on having to pay to make Vault Crystals. You would think they would want you in and out of the Vaults as easily as possible."
 				""
-				"&5Or you just want a quick way back home, but don't got the tools or materials for teleporting on you."
+				"&5Well, there does seem to be a game setting for making them like that, but paying for crystals is, how you say, the default mode?"
 				""
-				"&dInstead of a standard /home or /spawn or whatever command most games have with a cooldown, the FOPGame Server has Waystones teleporting."
+				"&dWhy...let me look at something here..."
 				""
-				"&5You've probably noticed in your inventory, to the lower right of your character, is a scroll. You can click this to teleport back to the last Waystone you touched."
+				"&5What did you find, sis?"
 				""
-				"&dThe only cavaet is you have to have touched a Waystone in that dimension in the firstplace. "
+				"&dThe Crystals right now cost dirt. Both physically and metaphorically. But the more Crystals you make, the more their cost grows. And the more 'difficult' items are required."
+				""
+				"&5Hmm, thats interesting. So you'll have to pay more to be able to go into Vaults..."
+				""
+				"&dAnd you'll want to go into more Vaults to get more gear and to level up. And it looks like many of the subsystems you can unlock primarily help you get MORE of the items you need for Crystals."
 			]
-			dependencies: ["14E05D152CF5C051"]
+			dependencies: ["19220F4E56CB0A0F"]
+			size: 0.75d
 			id: "032265635198E365"
 			tasks: [{
 				id: "4D3E4B7763278CC6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Learn by Repetition"
+			icon: "the_vault:quest_book"
+			x: 4.8d
+			y: -2.6d
+			shape: "gear"
+			subtitle: "Important things!"
+			description: [
+				"Greetings, player! "
+				""
+				"Just so you know, the questlines in this Q.U.E.S.T. Tablet will repeat information presented to you by in-game documentation for their respective mods. Mods like Vault Hunters have built in quests and manuals you can access."
+				""
+				"But I'm repeating all that info here as part of the story, and to expand on that information as well."
+				""
+				"Plus, if the mod has built in quests like Vault Hunters or Psi, you'll get double the rewards for following them!"
+			]
+			dependencies: [
+				"04D5AA9EB9007560"
+				"65766106B865F4F9"
+			]
+			size: 0.8d
+			id: "4BC5F5AC19574ED7"
+			tasks: [{
+				id: "2AA170576B4CF593"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Vault Difficulty"
+			icon: "the_vault:soul_flame"
+			x: 1.25d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "A Difficulty Tweak"
+			description: [
+				"&dLooks like you can change how hard or easy the mobs you fight inside the Vaults are."
+				""
+				"&5Oh? Different from the GameMode?"
+				""
+				"&dYeah, looks like the difficulty settings are more...granular. "
+				""
+				"&5How does that work for people you are partied with in a Vault?"
+				""
+				"&dLooks like the last person to enter the portal sets the difficulty."
+				""
+				"To set your local difficulty, do the following command : "
+				"&6/the_vault local_difficulty your_name difficulty :&r Replace your_name with your minecraft name, and difficulty with one of the following. Each one increases the health and damage of mobs : "
+				"    Piece of Cake"
+				"    Easy"
+				"    Normal (Default)"
+				"    Hard (Dwellers can throw bricks now)"
+				"    Impossible"
+				"    Fragged"
+			]
+			dependencies: ["4CA0844372B19F19"]
+			id: "0BA78C5E27BA4351"
+			tasks: [{
+				id: "505126E565C13A73"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5CA9EACAD332C214"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Skill Levels and Skill OverLevels"
+			icon: "rftoolsutility:speedplus_module"
+			x: 4.071428571428569d
+			y: 2.160714285714292d
+			shape: "gear"
+			subtitle: "HOW High Can We Go?!"
+			description: [
+				"&dWhen looking through the skills, Bandit, you can see what every level of the skill does so you can plan out a build better."
+				""
+				"&5Hey sis, what are these levels that have the glitching icon in front of them?"
+				""
+				"&dOH, I forgot to mention! I kind of...untethered the skill cap for almost every skill. The problem is I can't enable you to just add more levels to a skill than the normal amount."
+				""
+				"&5Ah. Is there another workaround then?"
+				""
+				"&dYup, bro. You won't find much at low level, Bandit, but higher level gear has a higher chance of rolling +Levels to a skill. And if you happen to go over the normal 'max level', well you are now in OverLevel territory! Neat, huh?"
+			]
+			hide_dependency_lines: true
+			dependencies: ["78B5BCD7C6C45779"]
+			size: 0.75d
+			id: "239811C5D36CE83E"
+			tasks: [{
+				id: "2E6ECED64CDF404A"
 				type: "checkmark"
 			}]
 		}

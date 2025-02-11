@@ -1,0 +1,84 @@
+{
+  "name": "Equipment For All Sizes",
+  "quests": [
+    {
+      "uuid": "2dd55773-23fe-4275-9671-1f1168837b58",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 13,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dba459d5-6a05-4e9d-b931-2301d45c3918",
+      "name": {
+        "text": " A Scanner Helper",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    So, we kinda give you one of these to help you out early on, but no way to recharge it. You gotta figure out which DLC you wanna do that with.\n    But the Scanner is so helpful that it\u0027s one of the items we offer in the shop too, so you don\u0027t have to invest in the DLC just yet.",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 22,
+      "icon": {
+        "id": "scannable:scanner",
+        "Count": 1,
+        "tag": "{energy:5000s}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    You can bind the Block Scanner module to any block by Right Clicking it onto the block.\n    You cannot clear the blocks, however.\n    The Range module helps to scan a wider area.",
+            "isTranslationKey": true
+          },
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "scannable:scanner",
+          "Count": 1,
+          "tag": "{energy:5000s}"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

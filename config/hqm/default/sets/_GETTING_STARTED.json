@@ -1,0 +1,159 @@
+{
+  "name": " GETTING STARTED",
+  "quests": [
+    {
+      "uuid": "2f03f6e6-7c74-496e-b834-97ef6c01ea31",
+      "name": "  Start Here!",
+      "description": "    Welcome to the Business Shop, Bandit!\n    So, to go over things simply, this tablet will teach you how to \u0027sell\u0027 things to us back home at The Ferret Business, and how to use this tablet to buy items.\n    For now, take this Wallet. It can hold not only your Silver Ferret Coins, but also Shop Vouchers and more.",
+      "x": 15,
+      "y": 53,
+      "icon": {
+        "id": "botania:cosmetic_questgiver_mark",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "calemiutils:wallet",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3ac5316e-5492-4bd2-b0de-a8b695469b91",
+      "name": " Shop Vouchers",
+      "description": "    Since our primary goal is to infect as much of the FOPServer infected with the Audubon Worm as possible, without you or us getting caught too early, we have to do some workarounds.\n    Normally we would have the Shipping System sell items to you, but that puts too much data through one connection. Instead, this Shop Tablet will be how you purchase items we\u0027ve carefully pulled from the FOPServer and tagged with the Worm.\n    Like before, we\u0027ll be using Shop Vouchers as the primary currency, since its easier to carry around bills instead of coins, right?",
+      "x": 70,
+      "y": 53,
+      "icon": {
+        "id": "calemiutils:coin_nickel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "    Plus, Vouchers equal 5 coins, and its easier to price things in increments of 5 honestly.",
+          "items": [
+            {
+              "item": {
+                "id": "calemiutils:coin_nickel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b222e6b5-96ab-4049-84c0-7d7b618def6a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b222e6b5-96ab-4049-84c0-7d7b618def6a",
+      "name": " The Basics of Shipping",
+      "description": "    Alright Bandit, I don\u0027t really need to get too deep into the basics here.\n    To sell to The Ferret Business, you need to use the TFB Shipping System. I\u0027ll give this one to you free, along with a Shipping Manifest. Just place down the Shipping System and put the Manifest into the bottom center slot.\n    Now the system is ready! You can sell almost every item from the FOPServer to generate FMC.\n    FMC, or Ferret Market Calculation, is the rough \u0027price\u0027 of an item.  Every 1,000 FMC you generate equals 1 Silver Ferret Coin. You can pull them out of the right side of the Shipping System when you have saved up enough.",
+      "x": 42,
+      "y": 53,
+      "icon": {
+        "id": "calemiutils:coin_penny",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "    The Shipping Manifest teaches the Shipping System how to generate Silver Ferret Coins, Shop Vouchers (5 coins), Bags of Silver Coins (25 coins), and Chests of Silver Coins (100 coins).",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2f03f6e6-7c74-496e-b834-97ef6c01ea31"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_table",
+          "Count": 1
+        },
+        {
+          "id": "projecte:tome",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "417affdd-3858-4335-a33e-c64d04cd0d8f",
+      "name": " Extra Shipping Systems",
+      "description": "    The TFB Shipping System is a pricey device, especially since we have to mask it\u0027s functions from the FOPServer.\n    In the event that you have lost your TFB Shipping System, you can purchase a new one. And to prevent the Catch 22 of not having Silver Ferret Coins, you must pay for it with Copper Scrypto Coins.",
+      "x": 42,
+      "y": 88,
+      "icon": {
+        "id": "projecte:transmutation_table",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "    Buying a new one will also take time. We need about one day to rebuild the systems to keep them from being detected. Especially because we are ensuring that if one TFB Shipping System is compromised, none of the others are discovered.",
+          "items": [
+            {
+              "item": {
+                "id": "aoa3:copper_coin",
+                "Count": 1
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b222e6b5-96ab-4049-84c0-7d7b618def6a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_table",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "    Learn how to sell items to The Ferret Business, and earn yourself some Silver Coins.\n    You can also exchange between Silver Coins and Scrypto Coins here."
+}

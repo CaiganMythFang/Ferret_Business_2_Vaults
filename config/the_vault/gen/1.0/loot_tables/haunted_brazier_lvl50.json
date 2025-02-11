@@ -3,7 +3,7 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 3,
+        "min": 1,
         "max": 3
       },
       "pool": [
@@ -13,55 +13,44 @@
             {
               "weight": 20,
               "item": {
-                "id": "the_vault:rotten_meat",
+                "id": "the_vault:gem_black_opal",
                 "count": {
                   "type": "uniform",
                   "min": 2,
-                  "max": 10
+                  "max": 6
                 }
               }
             },
             {
-              "weight": 20,
+              "weight": 16,
               "item": {
-                "id": "the_vault:vault_meat",
+                "id": "the_vault:gem_pog",
                 "count": {
                   "type": "uniform",
-                  "min": 2,
-                  "max": 10
+                  "min": 1,
+                  "max": 1
                 }
               }
             },
             {
               "weight": 24,
               "item": {
-                "id": "the_vault:soul_shard",
-                "count": {
-                  "type": "uniform",
-                  "min": 16,
-                  "max": 64
-                }
-              }
-            },
-            {
-              "weight": 8,
-              "item": {
                 "id": "the_vault:eternal_soul",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 4
+                  "min": 4,
+                  "max": 8
                 }
               }
             },
             {
               "weight": 8,
               "item": {
-                "id": "the_vault:silver_scrap",
+                "id": "the_vault:vault_gold",
                 "count": {
                   "type": "uniform",
-                  "min": 2,
-                  "max": 8
+                  "min": 6,
+                  "max": 18
                 }
               }
             }
@@ -70,17 +59,6 @@
         {
           "weight": 20,
           "pool": [
-            {
-              "weight": 18,
-              "item": {
-                "id": "the_vault:carbon",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 5
-                }
-              }
-            },
             {
               "weight": 2,
               "item": {
@@ -238,11 +216,28 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:gem_box",
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:loot_sack",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
               }
             }
@@ -254,22 +249,11 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:gem_echo",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 2,
-              "item": {
                 "id": "the_vault:black_chromatic_steel_ingot",
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
+                  "max": 2
                 }
               }
             },
@@ -300,6 +284,17 @@
         {
           "weight": 2,
           "pool": [
+            {
+              "weight": 12,
+              "item": {
+                "id": "woldsvaults:poltergeist_plum",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
             {
               "weight": 20,
               "item": {
@@ -370,6 +365,17 @@
               "weight": 2,
               "item": {
                 "id": "the_vault:artifact_fragment",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:soul_vortex",
                 "count": {
                   "type": "uniform",
                   "min": 1,

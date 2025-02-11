@@ -3,7 +3,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 5
       },
       "Sell": {
@@ -17,7 +17,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_gold",
+        "ID": "the_vault:vault_silver",
         "Count": 1
       },
       "Sell": {
@@ -31,7 +31,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 5
       },
       "Sell": {
@@ -45,11 +45,11 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 4
       },
       "Price2": {
-        "ID": "lightmanscurrency:coin_copper",
+        "ID": "the_vault:vault_bronze",
         "Count": 8
       },
       "Sell": {
@@ -65,7 +65,7 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 6
       },
       "Sell": [
@@ -93,7 +93,7 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 6
       },
       "Sell": [
@@ -121,7 +121,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 10
       },
       "Sell": {
@@ -137,7 +137,7 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 15
       },
       "Sell": [
@@ -165,7 +165,7 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 15
       },
       "Sell": [
@@ -193,7 +193,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 20
       },
       "Sell": {
@@ -207,7 +207,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 15
       },
       "Sell": {
@@ -221,7 +221,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 10
       },
       "Sell": {
@@ -237,16 +237,16 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 25
       },
       "Sell": [
         {
-          "ID": "lightmanscurrency:vending_machine_green",
+          "ID": "lightmanscurrency:vending_machine_pink",
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_red",
+          "ID": "lightmanscurrency:vending_machine_green",
           "Count": 1
         },
         {
@@ -254,35 +254,7 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_brown",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_black",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_pink",
-          "Count": 1
-        },
-        {
           "ID": "lightmanscurrency:vending_machine",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_yellow",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_light_blue",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_blue",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_orange",
           "Count": 1
         },
         {
@@ -294,7 +266,15 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_cyan",
+          "ID": "lightmanscurrency:vending_machine_magenta",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_black",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_light_blue",
           "Count": 1
         },
         {
@@ -302,7 +282,27 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_magenta",
+          "ID": "lightmanscurrency:vending_machine_red",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_brown",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_blue",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_yellow",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_cyan",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_orange",
           "Count": 1
         }
       ],
@@ -313,7 +313,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 30
       },
       "Sell": {
@@ -327,16 +327,16 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 30
       },
       "Sell": [
         {
-          "ID": "lightmanscurrency:freezer_green",
+          "ID": "lightmanscurrency:freezer_pink",
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:freezer_red",
+          "ID": "lightmanscurrency:freezer_green",
           "Count": 1
         },
         {
@@ -344,35 +344,7 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:freezer_brown",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:freezer",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:freezer_pink",
-          "Count": 1
-        },
-        {
           "ID": "lightmanscurrency:freezer_white",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:freezer_yellow",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:freezer_light_blue",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:freezer_blue",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:freezer_orange",
           "Count": 1
         },
         {
@@ -384,7 +356,15 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:freezer_cyan",
+          "ID": "lightmanscurrency:freezer_magenta",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer_light_blue",
           "Count": 1
         },
         {
@@ -392,7 +372,27 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:freezer_magenta",
+          "ID": "lightmanscurrency:freezer_red",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer_brown",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer_blue",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer_yellow",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer_cyan",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:freezer_orange",
           "Count": 1
         }
       ],
@@ -403,7 +403,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_diamond",
+        "ID": "the_vault:vault_gold",
         "Count": 15
       },
       "Sell": {
@@ -420,16 +420,16 @@
     {
       "Type": "lightmanscurrency:random_selection",
       "Price": {
-        "ID": "lightmanscurrency:coin_iron",
+        "ID": "the_vault:vault_bronze",
         "Count": 25
       },
       "Sell": [
         {
-          "ID": "lightmanscurrency:vending_machine_large_green",
+          "ID": "lightmanscurrency:vending_machine_large_pink",
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_large_red",
+          "ID": "lightmanscurrency:vending_machine_large_green",
           "Count": 1
         },
         {
@@ -437,35 +437,7 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_large_brown",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_large_black",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_large_pink",
-          "Count": 1
-        },
-        {
           "ID": "lightmanscurrency:vending_machine_large",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_large_yellow",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_large_light_blue",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_large_blue",
-          "Count": 1
-        },
-        {
-          "ID": "lightmanscurrency:vending_machine_large_orange",
           "Count": 1
         },
         {
@@ -477,7 +449,15 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_large_cyan",
+          "ID": "lightmanscurrency:vending_machine_large_magenta",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_black",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_light_blue",
           "Count": 1
         },
         {
@@ -485,7 +465,27 @@
           "Count": 1
         },
         {
-          "ID": "lightmanscurrency:vending_machine_large_magenta",
+          "ID": "lightmanscurrency:vending_machine_large_red",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_brown",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_blue",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_yellow",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_cyan",
+          "Count": 1
+        },
+        {
+          "ID": "lightmanscurrency:vending_machine_large_orange",
           "Count": 1
         }
       ],
@@ -496,7 +496,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_gold",
+        "ID": "the_vault:vault_silver",
         "Count": 6
       },
       "Sell": {
@@ -510,7 +510,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_gold",
+        "ID": "the_vault:vault_silver",
         "Count": 10
       },
       "Sell": {
@@ -524,7 +524,7 @@
     {
       "Type": "lightmanscurrency:simple",
       "Price": {
-        "ID": "lightmanscurrency:coin_diamond",
+        "ID": "the_vault:vault_gold",
         "Count": 10
       },
       "Sell": {

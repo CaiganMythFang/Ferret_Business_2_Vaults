@@ -56,7 +56,7 @@
     "the_vault:chromatic_powder": {
       "weight": 10,
       "name": "Chromatic Powder",
-      "effectText": "Reduces vault gear damage with 50%",
+      "effectText": "Reduces vault gear durability damage with 35%",
       "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
@@ -64,7 +64,7 @@
       "maxUses": 30,
       "config": {
         "key": "the_vault:durability_wear_reduction",
-        "value": 0.5,
+        "value": 0.35,
         "curiosSlot": "red_trinket"
       }
     },
@@ -229,7 +229,7 @@
     "the_vault:idonas_blade": {
       "weight": 10,
       "name": "Idona's Pendant",
-      "effectText": "Increases your Soul Chance by 100% of your total Soul Chance",
+      "effectText": "Increases your Soul Quantity by 100% of your total Soul Quantity",
       "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
@@ -268,7 +268,7 @@
       "config": {
         "effect": "",
         "addedAmplifier": 1,
-        "radius": 16,
+		    "radius": 16,
         "curiosSlot": "blue_trinket"
       }
     },
@@ -325,7 +325,7 @@
     "the_vault:wendarrs_hourglass": {
       "weight": 10,
       "name": "Wendarr's Hourglass",
-      "effectText": "Boosts time given by fruit by 50%",
+      "effectText": "Boosts the fruit time added by 50%",
       "color": 3304444,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
@@ -355,7 +355,7 @@
     "the_vault:wings": {
       "weight": 10,
       "name": "Wings",
-      "effectText": "Grants elytra flight",
+      "effectText": "Gives the player elytra",
       "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 30,

@@ -61,11 +61,15 @@
 			description: [
 				"&2The primary form of currency for the Game Server is called Vault Coins! "
 				""
-				"&2Every coin of Scrypto is a piece of cryptocurrency that the server tracks for your safety."
+				"&2Every Vault Coin is actually a piece of cryptocurrency that the server tracks for your safety! How secure!"
 				""
-				"&2Scrypto Coins are only useable in the Game Server! They are used to purchase DLC from the shop, and some of our in-world vendors accept them as well!"
+				"&2Vault Coins are only useable in the FOP Game Server! They are used for many things : buying Shop DLC, purchasing items in the Black Market, paying for gear rerolls, and for buying your body back if you die! And much more!"
 				""
-				"&2There are four tiers of Scrypto Coins - Copper, Silver, Gold, and Lunevar. Bankers, located on higher ranked Game Server Worlds, exchange coins to a higher tier at 20:1 ratio! That is, for example, 20 Copper Coins to 1 Silver Coin."
+				"&2There are six tiers of Vault Coins - Copper, Silver, Gold, Platinum, Palladium, and Iridum! Each tier trades up to the next tier at a 9:1 ratio! So 9 Vault Copper turns into 1 Vault Silver!"
+				""
+				"&2Please take this Starter Wallet, a handy place to store ALL your money."
+				""
+				"&dYeah and when you die you lose it and have to buy it back to get the money. You know what, let me fix that... And bam... Soulbound!"
 			]
 			dependencies: ["6D986E5817BEF5A1"]
 			hide: true
@@ -75,6 +79,24 @@
 				type: "checkmark"
 				title: "Currencies of the Game"
 			}]
+			rewards: [{
+				id: "4A216024A73DC84C"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:wallet_copper"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"Starter Wallet\"}"
+						}
+						Enchantments: [{
+							lvl: 1s
+							id: "ensorcellation:soulbound"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -3.5d
@@ -82,11 +104,11 @@
 			shape: "pentagon"
 			subtitle: "Fight For Fun!"
 			description: [
-				"&2Scrypto is easy to earn! There are multiple approved methods of earning Scrypto within the Game Server."
+				"&2Vault Coins are easy to earn! There are multiple approved methods of earning Vault Coins in the FOPGame Server."
 				""
-				"&2The primary way all users can earn Scrypto is via combat mechanics! Fighting the various creatures, monsters, and NPCs in the world can earn you Scrypto!"
+				"&2The primary way all users can earn Vault Coins is inside the Vaults! You can find piles of Coins scattered around some points of interest! They'll be guarded though, so be ready to fight!"
 				""
-				"&2The second approved method of earning Scrypto is by finding one of many APPROVED vendors within the Game Server! They offer many items, and to purchase some items for Scrypto!"
+				"&2The second approved method of earning Vault Coins is by completing Bounties! Make yourself a Bounty Table, and you can select a Bounty that can earn you Vault Coins, amongst other rewards!"
 				""
 				"&2The final approved method, and easiest, is to procure resources and materials, and DIGITALIZE them!"
 				""
@@ -116,9 +138,9 @@
 				""
 				"&2By combining our Digitalizer with, for example, a Block of Iron, you will turn it into a bag of Digitalized Items! How many of these you get depends on how valuable the item you Digitalize is!"
 				""
-				"&2Then, to sell us the Digitalized Items, all you need to do is combine NINE bags in any crafting table! Our system will detect this, and give you a Copper Scrypto Coin in return!"
+				"&2Then, to sell us the Digitalized Items, all you need to do is combine NINE bags in any crafting table! Our system will detect this, and give you a chance at a Vault Bronze in return!"
 				""
-				"&2PLEASE INSERT 1,000 &dWrong. One sec... &4ERROR &21 COPPER SCRYPTO PAYMENT."
+				"&2PLEASE INSERT 1,000 &dWrong. One sec... &4ERROR &21 VAULT BRONZE PAYMENT."
 			]
 			dependencies: ["22810A844797AC73"]
 			hide: true
@@ -126,13 +148,13 @@
 			tasks: [{
 				id: "20022A2037551A06"
 				type: "item"
-				item: "aoa3:copper_coin"
+				item: "the_vault:vault_bronze"
 				consume_items: true
 			}]
 			rewards: [{
 				id: "23040D7A565F933F"
 				type: "item"
-				item: "kubejs:fop_digitalizer"
+				item: "tfb2:fop_digitalizer"
 			}]
 		}
 		{
@@ -143,11 +165,11 @@
 			description: [
 				"&2Now that you are up to speed and know how to earn money, new Power User, the rest of the DLC Store is open to you!"
 				""
-				"&2In a survey of the last 10,000 Power Users, 88% agreed that the fastest way to earn Scrypto was by making and selling items! Gathering resources is...."
+				"&2In a survey of the last 10,000 Power Users, 88% agreed that the fastest way to earn Vault Coins was by diving into Vaults, collecting everything, and selling us the items! You can also..."
 				""
 				"&dPfff, okay enough of their spiel, Bandit. You can see the grift now, right?"
 				""
-				"&dCombat pays pennies. Well, pennies compared to their Digitalization system. Even that is crazy on how much it gouges you..."
+				"&dCombat pays pennies, but not as bad as their Digitalization system gouges you!"
 				""
 				"&dThough, it might not be much faster to help us break the system open either, not if you need something specific that's locked behind DLC."
 				""

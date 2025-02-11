@@ -21,7 +21,7 @@
 		"alexsmobs:crocodile"
 	],
 	// Allows vanilla sweeping mechanic to work and Sweeping Edge enchantment
-	"allow_sweeping": true,
+	"allow_sweeping": false,
 	// Allows client-side target search to ignore obstacles. WARNING! Setting this to `false` significantly increases the load on clients.
 	"allow_attacking_thru_walls": false,
 	// Applies movement speed multiplier while attacking. (Min: 0, Max: 1). Use `0` for a full stop while attacking. Use `1` for no movement speed penalty

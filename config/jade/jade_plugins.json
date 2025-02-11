@@ -34,6 +34,9 @@
     "redstone": true,
     "fe": true
   },
+  "chunkymcchunkface": {
+    "show_time": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -42,17 +45,32 @@
     "slurry": true,
     "energy": true
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud.redstone": true
+  "create": {
+    "contraption_inv": true,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "placard": true
   },
   "jade": {
     "block_states": false,
     "entity_armor": true,
-    "registry_name": false,
+    "registry_name": true,
     "item_mod_name": false,
     "mod_name": true,
     "entity_hp": true
+  },
+  "secretroomsmod": {
+    "jadeaddons": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
+  "miningspeedometer": {
+    "speedometer": true
+  },
+  "lootr": {
+    "info": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

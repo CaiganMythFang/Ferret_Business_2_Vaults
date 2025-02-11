@@ -1,0 +1,567 @@
+{
+  "name": "FERRET RESOURCES DEPT",
+  "quests": [
+    {
+      "uuid": "0a4094a0-2af7-43e5-94f9-3199b2eb5f51",
+      "name": {
+        "text": "SHOP OPEN",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 99,
+      "y": 24,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "9b991f2a-7a6d-4995-b74e-ce4f72478dd1"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b222e6b5-96ab-4049-84c0-7d7b618def6a",
+      "name": {
+        "text": " The Basics of Shipping",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Alright Bandit, I don\u0027t really need to get too deep into the basics here.\n    To sell to The Ferret Business, you need to use the TFB Shipping System. I\u0027ll give this one to you free. Just place down the Shipping System and a Ferret Dollar into the bottom center slot.\n    Now the system is ready! You can sell most items in the FOPGame Server by putting them into the same \"Sell\" slot. Many things like Dirt aren\u0027t tracked by the FOP, so we can\u0027t use those to spread the Audubon Worm.\n    FMC, or Ferret Market Calculation, is the rough \u0027price\u0027 of an item.  Every 1,000 FMC you generate equals 1 Ferret Dollar. You can pull them out of the right side of the Shipping System when you have saved up enough.",
+        "isTranslationKey": false
+      },
+      "x": 42,
+      "y": 53,
+      "icon": {
+        "id": "projecte:transmutation_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "description": {
+            "text": "Items In, Money Out",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "    For the TFB Shipping System to offer more than Ferret Dollars, you\u0027ll need to \u0027sell\u0027 it the higher tiers of Ferret Dollars (Fan of Ferret Dollars, Stack of Ferret Dollars, Bag of Ferret Dollars) to instruct it. These are made by crafting Ferret Dollars together.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "2f03f6e6-7c74-496e-b834-97ef6c01ea31"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_table",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:ferret_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9758b76-b4dc-4992-b575-4169ed0b3856",
+      "name": {
+        "text": " Portable Shipping System",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    If you want to take your Shipping System on the go, then you\u0027ll want the Portable version.\n    This version is fairly expensive, but it allows you to open up the Shipping interface anywhere you want.",
+        "isTranslationKey": false
+      },
+      "x": 72,
+      "y": 122,
+      "icon": {
+        "id": "projecte:transmutation_tablet",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 100000
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_tablet",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4b637e90-c469-47fd-8746-3db232afd611",
+      "name": {
+        "text": " TFB Copper Debit Card",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The TFB Shipping System can only hold a certain amount of FMC.\n    To expand the capacity of the System, as well as better transfer FMC to other assistants, use of a TFB Debit Card is suggested.\n    Multiple Debit cards can be slotted into the Left side of the Shipping System.",
+        "isTranslationKey": false
+      },
+      "x": 100,
+      "y": 89,
+      "icon": {
+        "id": "projecte:klein_star_ein",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    Higher tier Debit Cards can be obtained by combining 4 of the previous tier. The Tiers are as follows : \n    Copper \u003e Iron \u003e Gold \u003e Diamond \u003e Platinum \u003e Singularity\n    Higher tiers hold much more FMC.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:klein_star_ein",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "47b88e92-11d1-4fd0-ad86-3e4c85bb13f4",
+      "name": {
+        "text": " TFB Scanner - Major",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The TFB Scanners are quick ways to scan a small area for the FMC value of all materials.\n    Simply hold the Scanner and Right Click the center of the area you want to scan.\n    The Major Scanner gives you the average FMC value of all blocks in the Scan area, as well as the top three largest FMC values.",
+        "isTranslationKey": false
+      },
+      "x": 228,
+      "y": 47,
+      "icon": {
+        "id": "projecte:divining_rod_3",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 500
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:divining_rod_3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "79a6f402-c622-4bde-8cbb-806d4c878e3a",
+      "name": {
+        "text": " TFB Scanner - Mini",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The TFB Scanners are quick ways to scan a small area for the FMC value of all materials.\n    Simply hold the Scanner and Right Click the center of the area you want to scan.\n    The Mini Scanner simply gives you the average FMC value of all blocks in the Scan area.",
+        "isTranslationKey": false
+      },
+      "x": 169,
+      "y": 47,
+      "icon": {
+        "id": "projecte:divining_rod_1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:divining_rod_1",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "12ae2217-db2c-4343-ba0a-66c6318ba242",
+      "name": {
+        "text": " TFB Scanner - Medium",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The TFB Scanners are quick ways to scan a small area for the FMC value of all materials.\n    Simply hold the Scanner and Right Click the center of the area you want to scan.\n    The Medium Scanner gives you the average FMC value of all blocks in the Scan area, as well as the largest single FMC value.",
+        "isTranslationKey": false
+      },
+      "x": 198,
+      "y": 47,
+      "icon": {
+        "id": "projecte:divining_rod_2",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 250
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:divining_rod_2",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f03f6e6-7c74-496e-b834-97ef6c01ea31",
+      "name": {
+        "text": "  Start Here!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Welcome to the Business Shop, Bandit!\n    So, to go over things simply, this tablet will teach you how to \u0027sell\u0027 things to us back home at The Ferret Business, and how to use this tablet to buy items.\n    For now, take this TFB Copper Debit Card. This will be a useful tool we\u0027ll explain later.",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 53,
+      "icon": {
+        "id": "projecte:klein_star_ein",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "description": {
+            "text": "Click the Tiny Box",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To progress this quest, simply mark the checkbox below.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:klein_star_ein",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3ac5316e-5492-4bd2-b0de-a8b695469b91",
+      "name": {
+        "text": " No Shop Vouchers",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Since our primary goal is to infect as much of the FOPServer infected with the Audubon Worm as possible, without you or us getting caught too early, we have to do some workarounds.\n    Normally we would have the Shipping System sell items to you, but that puts too much data through one connection. Instead, this Shop Tablet will be how you purchase items we\u0027ve carefully pulled from the FOPServer and tagged with the Worm.\n    We won\u0027t be using Shop Vouchers this time around, since we have the \u0027tiers\u0027 of Ferret Dollars (fan, stack, bag, etc)",
+        "isTranslationKey": false
+      },
+      "x": 70,
+      "y": 53,
+      "icon": {
+        "id": "tfb2:ferret_dollar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "description": {
+            "text": "Cash Only",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To progress this quest, simply mark the checkbox below.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "b222e6b5-96ab-4049-84c0-7d7b618def6a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f72af0b5-3f55-4a4a-a722-8c856f52b381",
+      "name": {
+        "text": " TFB Market Chest Mk II",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The original TFB Market Chest worked well enough, but could be slow if many items were piped into it at once.\n    The Mk II Market Chest improves upon the internal design, making it sell items much faster, and putting the money in a seperate area in the Inventory.\n    This speed and convenience comes at a price, as the bandwidth needed for a Mk II chests requires some expensive spellcode materials to hide it.",
+        "isTranslationKey": false
+      },
+      "x": 213,
+      "y": 109,
+      "icon": {
+        "id": "projecte:condenser_mk2",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:condenser_mk2",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7231760f-0437-4ea4-8879-6c47b7993bbc",
+      "name": {
+        "text": " TFB Market Chest",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The TFB Market Chest is a way for you to automate the selling of items to earn Silver Ferret Coins.\n    There are two sections of the TFB Market Chest : The \u0027Coin\u0027 Slot in the upper left, where only Silver Ferret Coins, Shop Vouchers, and Bags/Chests of Coins can be placed; then the inventory. Any items that have an FMC value and aren\u0027t the item placed in the Coin Slot, will be sold and converted to that item when it enters the inventory.",
+        "isTranslationKey": false
+      },
+      "x": 184,
+      "y": 108,
+      "icon": {
+        "id": "projecte:condenser_mk1",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    TFB Debit Cards cannot be placed in the Market Chest inventory. To use stored FMC, you need to pull it out of your Shipping System itself.",
+            "isTranslationKey": true
+          },
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:condenser_mk1",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "417affdd-3858-4335-a33e-c64d04cd0d8f",
+      "name": {
+        "text": " Extra Shipping Systems",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The TFB Shipping System is a pricey device, especially since we have to mask it\u0027s functions from the FOPServer.\n    In the event that you have lost your TFB Shipping System, you can purchase a new one.\n    If you don\u0027t have enough Ferret Dollars to purchase a new one, you can use the second to last section of this Shop Tablet to sell some specific items.",
+        "isTranslationKey": false
+      },
+      "x": 42,
+      "y": 88,
+      "icon": {
+        "id": "projecte:transmutation_table",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    Buying a new one will also take time. We need about one day to rebuild the systems to keep them from being detected. Especially because we are ensuring that if one TFB Shipping System is compromised, none of the others are discovered.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 256
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projecte:transmutation_table",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9b991f2a-7a6d-4995-b74e-ce4f72478dd1",
+      "name": {
+        "text": " Opening the Shop",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Those are the basics of the Shipping System and the Shop Tablet. We\u0027ll open up the rest of the tablet to you. Each section will explain have their own explanations you should read.\n    The rest of this Shop page will be tools and machines you can buy that aid you in making and collecting FMC.",
+        "isTranslationKey": false
+      },
+      "x": 99,
+      "y": 53,
+      "icon": {
+        "id": "everycomp:mcd/hexcasting/akashic_glass_door",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": {
+            "text": "Quarter Hundro",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "    I\u0027ll have the system check that you have 25 Ferret Dollars minimum before proceeding. Things are going to cost a lot here, due to time and effort needed to spread the Worm.\n    I estimate items will cost 5x to 10x more than they sell for.\n    You can follow the main Q.U.E.S.T. Tablet to get more Ferret Dollars, or combine an Ender Pearl with a Vault Bronze to \u0027emergency sell\u0027 it.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 25,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ac5316e-5492-4bd2-b0de-a8b695469b91"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    START HERE!\n    Learn how to sell items to The Ferret Business, and earn yourself some Ferret Dollars. \n    Also contains various tools to assist in obtaining items to sell.",
+    "isTranslationKey": false
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "name": "STUCK IN THE SBURB",
+  "quests": [
+    {
+      "uuid": "605b6b27-f951-48f7-a153-604199c81b42",
+      "name": {
+        "text": " Good Base Weaponry",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    There were many types of weapons in SBurb, and a lot are built off Alchemizing a base weapon and adding something special to it.",
+        "isTranslationKey": false
+      },
+      "x": 130,
+      "y": 91,
+      "icon": {
+        "id": "minestuck:mace",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_brazier",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:mace",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:lipstick",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:crowbar",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:bisickle",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5fb2e3e1-d854-4b68-b37f-66dcb7ea33e0",
+      "name": {
+        "text": " Strange Texts Vol 1",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    SBurb had a variety of in-game books that provided knowledge, instructions, recipes, and lore.\n    Most of these texts no longer exist or are readable, but the books themselves are needed to craft certain items.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 12,
+      "icon": {
+        "id": "minestuck:grimoire",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_elixir",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:grimoire",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:sassacre_text",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:wiseguy",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:tablestuck_manual",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b4eed920-882e-4639-8684-3461429d8829",
+      "name": {
+        "text": " Strange Liquid Mediums",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The Medium had a variety of liquids that were needed to do some Alchemical combinations.",
+        "isTranslationKey": false
+      },
+      "x": 47,
+      "y": 169,
+      "icon": {
+        "id": "minestuck:blood_bucket",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:blood_bucket",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:oil_bucket",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:water_colors_bucket",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:light_water_bucket",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "99b1e6a3-46cc-4bf7-a218-5c78e254e7f4",
+      "name": {
+        "text": " GristWidget",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    If you somehow lose your GristWidget, you can get another one here.",
+        "isTranslationKey": false
+      },
+      "x": 21,
+      "y": 16,
+      "icon": {
+        "id": "minestuck:grist_widget",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_bingo",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minestuck:grist_widget",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b6739fd7-f5aa-401f-ba1f-a0a82b80028f",
+      "name": {
+        "text": " Medium Materials",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The Medium had a few very interesting materials for building.\n    The trees grown from the saplings have some neat wood color patterns.",
+        "isTranslationKey": false
+      },
+      "x": 150,
+      "y": 91,
+      "icon": {
+        "id": "minestuck:rainbow_sapling",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_brazier",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:black_cobblestone",
+          "Count": 16
+        },
+        {
+          "id": "minestuck:rainbow_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:end_sapling",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "97297dcb-0de7-4f66-baed-7da9b062356f",
+      "name": {
+        "text": " Strange Snacks",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    There are a lot of different Grist Candies and strange foods from the Medium, but most of them aren\u0027t very useful.\n    These four are needed to Alchemize other items, though.",
+        "isTranslationKey": false
+      },
+      "x": 215,
+      "y": 92,
+      "icon": {
+        "id": "minestuck:build_gushers",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:build_gushers",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:sushroom",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:diamond_mint",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:fuchsia_cake",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9aeabb6-f434-4a99-b3c5-1edfeca48181",
+      "name": {
+        "text": " Neat, Colorful Paper",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    There were a lot of interestingly designed things to look at in SBurb. \n    Or hang on your wall. \n    Or flip through.",
+        "isTranslationKey": false
+      },
+      "x": 77,
+      "y": 12,
+      "icon": {
+        "id": "minestuck:sbahj_poster",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_card",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:crew_poster",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:sbahj_poster",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:gamegrl_magazine",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:gamebro_magazine",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c6069cda-327b-4e3e-b621-1b8aae983741",
+      "name": {
+        "text": "    Four Aces",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    These four Aces don\u0027t show up in JEI for some reason, but they are needed for specific Alchemical creations.",
+        "isTranslationKey": false
+      },
+      "x": 111,
+      "y": 169,
+      "icon": {
+        "id": "minestuck:ace_of_hearts",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:ace_of_hearts",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:ace_of_spades",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:ace_of_diamonds",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:ace_of_clubs",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "921894ce-0984-4c89-be1f-ec345dcd4011",
+      "name": {
+        "text": " Special Weaponry",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    I\u0027m not sure which weapons were actually released in SBurb before it was shut down. Here\u0027s a few more I\u0027ve found in the files.",
+        "isTranslationKey": false
+      },
+      "x": 240,
+      "y": 169,
+      "icon": {
+        "id": "minestuck:horse_hitcher",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_boss",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:horse_hitcher",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:club_of_felony",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:zillyhoo_hammer",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:cutlass_of_zillywair",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "95d5cef0-468e-493e-b21b-c30caeb9184b",
+      "name": {
+        "text": " SBurb Electronics",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    SBurb had special computers you could use to access it and the Medium. They required Cruxite and special computer parts.\n    While you can\u0027t access the Medium anymore, you may still be able to Alchemize using these computer components.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 12,
+      "icon": {
+        "id": "minestuck:computer_parts",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    The Holopad is a special machine that lets you display an item that\u0027s on a Captchalogue Card.\n    The Blender, however, doesn\u0027t really do anything but look cool.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_scavenger",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:computer_parts",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:battery",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:holopad",
+          "Count": 2
+        },
+        {
+          "id": "minestuck:blender",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ed2df82-ba27-42d9-b75b-16f9a68381ff",
+      "name": {
+        "text": " BANK READ-ME",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    So this section of the Shop Tablet is for exchanging the different kinds of currency available in the FOPServer.\n    The primary exchanges will be Scrypto to Scrypto.\n    We can\u0027t exchange between Scrypto and Ferret Coins due to the security risk. Well, not directly, anyways...",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 12,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aaba3d84-e2dd-4d5a-823a-de6c5cc8de34",
+      "name": {
+        "text": " Unassuming Household Product",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    A bunch of these items are just plain household type items, but with Alchemy they can be turned into fairly powerful items.",
+        "isTranslationKey": false
+      },
+      "x": 21,
+      "y": 88,
+      "icon": {
+        "id": "minestuck:barbasol",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_bounty",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:barbasol",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:ice_shard",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:dice",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:cassette_player",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0cde00c3-e4c8-4609-b87b-5240b73124e2",
+      "name": {
+        "text": " Useful Bits",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    With Alchemy, you can use pretty common items to make pretty weird creations.",
+        "isTranslationKey": false
+      },
+      "x": 273,
+      "y": 93,
+      "icon": {
+        "id": "minestuck:eightball",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_chest",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:cueball",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:eightball",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "227fffa2-4216-4d44-846f-e2ff889b6652",
+      "name": {
+        "text": " Interesting Foods",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Various plants and edible things could be found in the Medium, including things brought by previous visitors.",
+        "isTranslationKey": false
+      },
+      "x": 91,
+      "y": 169,
+      "icon": {
+        "id": "minestuck:desert_fruit",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:desert_fruit",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:strawberry_chunk",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:cake_mix",
+          "Count": 2
+        },
+        {
+          "id": "minestuck:morel_mushroom",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b1a71287-e062-4195-a36d-2f7fb5fbed26",
+      "name": {
+        "text": " Strange Texts Vol 2",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    SBurb had a variety of in-game books that provided knowledge, instructions, recipes, and lore.\n    Most of these texts no longer exist or are readable, but the books themselves are needed to craft certain items.",
+        "isTranslationKey": false
+      },
+      "x": 210,
+      "y": 12,
+      "icon": {
+        "id": "minestuck:nonbinary_code",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_elixir",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:binary_code",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:nonbinary_code",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:tilldeath_handbook",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:flarp_manual",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7bafbc52-a287-498b-bbc6-63a58fa0b44a",
+      "name": {
+        "text": " Neat Items",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Various items that are used in Alchemy combinations.",
+        "isTranslationKey": false
+      },
+      "x": 80,
+      "y": 87,
+      "icon": {
+        "id": "minestuck:crumply_hat",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_cake",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:crumply_hat",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:electric_autoharp",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d8cd44da-ea1a-45c7-8592-1a5e06380c24",
+      "name": {
+        "text": " Buggy Bugs",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The Medium had a variety of insects to make it feel more alive. Also, to be used in various Alchemy combinations.",
+        "isTranslationKey": false
+      },
+      "x": 205,
+      "y": 116,
+      "icon": {
+        "id": "minestuck:grasshopper",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:chocolate_beetle",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:grasshopper",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:jar_of_bugs",
+          "Count": 5
+        },
+        {
+          "id": "minestuck:cicada",
+          "Count": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "433dfa40-0a04-4a9e-af7c-c1d2a2d4bac7",
+      "name": {
+        "text": " Weapon Striking",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Some weapons, especially base weapons, could only be found in the Medium.",
+        "isTranslationKey": false
+      },
+      "x": 168,
+      "y": 168,
+      "icon": {
+        "id": "minestuck:pool_cue_wand",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_guardian",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:cuestick",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:pogo_cane",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minestuck:subtractshumidire_zomorrodnegative",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "620e166e-3fba-45ca-8d53-2408f0ede65a",
+      "name": {
+        "text": " Strange Creatures",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Many odd little creatures inhabit the Medium, and a few of them are needed for special Alchemy combinations.",
+        "isTranslationKey": false
+      },
+      "x": 195,
+      "y": 92,
+      "icon": {
+        "id": "minestuck:frog",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_vendor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:frog",
+          "Count": 2
+        },
+        {
+          "id": "minestuck:mini_frog_statue",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:mini_typheus_statue",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:mini_wizard_statue",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c49ce06d-5821-45a2-b28c-e902c64a67c8",
+      "name": {
+        "text": " Special Music",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    There were some music tracks from SBurb that people remember fondly, and would search high and low for the rare Music Disc of them.",
+        "isTranslationKey": false
+      },
+      "x": 273,
+      "y": 12,
+      "icon": {
+        "id": "minestuck:music_disc_retro_battle",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_hacked",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minestuck:music_disc_emissary_of_dance",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:music_disc_dance_stab_dance",
+          "Count": 1
+        },
+        {
+          "id": "minestuck:music_disc_retro_battle",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    This section contains various items that are normally unavailable from the FOPGame Server\u0027s previous game : SBurb / Minestuck.\n    These can only be purchased using Tokens obtained from the Vaults.",
+    "isTranslationKey": false
+  }
+}

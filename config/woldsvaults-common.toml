@@ -2,12 +2,22 @@
 ["Vault Settings"]
 	#Controls whether Creative flight should be blocked while inside a vault. (default: true)
 	disableFlightInVaults = true
+	#Whether the "Normalized" Modifier should be enabled and functional (default: true)
+	normalizedModifierEnabled = true
+
+["Developer Settings"]
+	#Don't recommend turning on unless asked, enables debug messages for development. (default: false)
+	enableDebugMode = false
 
 ["Gameplay Settings"]
 	#Controls whether Mote of Purity, Sanctity, and Clarity should work in the Crystal Workbench. (default: false)
 	enableMoteRecipes = false
 	#The max capacity that can be added to a tool with Crystal Reinforcements. (default: 20)
 	crystalReinforcementMaxCapacityAdded = 20
+	#Controls whether or not wandering wisps should spawn (default: true)
+	disableWanderingWispSpawning = true
+	#Whether Better Combat should be disabled for weapons or not (default: false)
+	weaponsShouldntBeBetter = false
 
 ["Compatability Settings"]
 
@@ -15,7 +25,19 @@
 		#Whether Item Borders from the Item Borders mod should show in terminals like Refined Storage, AE2, etc., this will also cause them to show on the hot-bar. (default: true)
 		displayItemBordersInTerminals = true
 
-["Developer Settings"]
-	#Don't recommend turning on unless asked, enables debug messages for development. (default: false)
-	enableDebugMode = false
+[Features]
+
+	[Features.Items]
+		#Whether to register and enable Vault Battlestaff or not
+		enableVaultBattlestaff = true
+		#Whether to register and enable Vault Trident or not
+		enableVaultTrident = true
+		#Whether to register and enable Vault Plushie or not
+		enableVaultPlushie = true
+		#Whether to register and enable Vault Loot Sack or not
+		enableVaultLootSack = true
+		#Whether to enable the Running Shoes trinket or not
+		enableRunningShoes = true
+		#Whether to enable the Miner's Headlamp trinket or not
+		enableMinersHeadlamp = true
 

@@ -8,22 +8,22 @@
       "entries": {
         "the_vault:scavenger_ripped_page": {
           "weight": 8,
-          "multiplier": 2.0,
+          "multiplier": 2.2,
           "color": 5353215
         },
         "the_vault:scavenger_old_book": {
           "weight": 4,
-          "multiplier": 1.0,
+          "multiplier": 1.2,
           "color": 16771072
         },
         "the_vault:scavenger_pottery_shard": {
           "weight": 2,
-          "multiplier": 0.8,
+          "multiplier": 0.9,
           "color": 16711935
         },
         "the_vault:scavenger_broken_pottery": {
           "weight": 1,
-          "multiplier": 0.25,
+          "multiplier": 0.35,
           "color": 7012096
         }
       }
@@ -36,22 +36,22 @@
       "entries": {
         "the_vault:scavenger_red_scroll": {
           "weight": 8,
-          "multiplier": 0.5,
+          "multiplier": 0.55,
           "color": 5353215
         },
         "the_vault:scavenger_blue_scroll": {
           "weight": 4,
-          "multiplier": 0.3,
+          "multiplier": 0.35,
           "color": 16771072
         },
         "the_vault:scavenger_cracked_script": {
           "weight": 2,
-          "multiplier": 0.15,
+          "multiplier": 0.2,
           "color": 16711935
         },
         "the_vault:scavenger_wizard_wand": {
           "weight": 1,
-          "multiplier": 0.1,
+          "multiplier": 0.15,
           "color": 7012096
         }
       }
@@ -64,22 +64,22 @@
       "entries": {
         "the_vault:scavenger_goblet": {
           "weight": 8,
-          "multiplier": 0.5,
+          "multiplier": 0.55,
           "color": 5353215
         },
         "the_vault:scavenger_sack": {
           "weight": 4,
-          "multiplier": 0.3,
+          "multiplier": 0.35,
           "color": 16771072
         },
         "the_vault:scavenger_saddle_bag": {
           "weight": 2,
-          "multiplier": 0.15,
+          "multiplier": 0.2,
           "color": 16711935
         },
         "the_vault:scavenger_earrings": {
           "weight": 1,
-          "multiplier": 0.1,
+          "multiplier": 0.15,
           "color": 7012096
         }
       }
@@ -92,22 +92,22 @@
       "entries": {
         "the_vault:scavenger_empty_jar": {
           "weight": 8,
-          "multiplier": 0.5,
+          "multiplier": 0.55,
           "color": 5353215
         },
         "the_vault:scavenger_poultice_jar": {
           "weight": 4,
-          "multiplier": 0.3,
+          "multiplier": 0.35,
           "color": 16771072
         },
         "the_vault:scavenger_preserves_jar": {
           "weight": 2,
-          "multiplier": 0.15,
+          "multiplier": 0.2,
           "color": 16711935
         },
         "the_vault:scavenger_spice_jar": {
           "weight": 1,
-          "multiplier": 0.1,
+          "multiplier": 0.15,
           "color": 7012096
         }
       }
@@ -120,22 +120,22 @@
       "entries": {
         "the_vault:scavenger_blue_bangle": {
           "weight": 8,
-          "multiplier": 0.7,
+          "multiplier": 0.75,
           "color": 5353215
         },
         "the_vault:scavenger_cracked_pearl": {
           "weight": 4,
-          "multiplier": 0.5,
+          "multiplier": 0.6,
           "color": 16771072
         },
         "the_vault:scavenger_pink_bangle": {
           "weight": 2,
-          "multiplier": 0.3,
+          "multiplier": 0.35,
           "color": 16711935
         },
         "the_vault:scavenger_green_bangle": {
           "weight": 1,
-          "multiplier": 0.15,
+          "multiplier": 0.2,
           "color": 7012096
         }
       }
@@ -147,22 +147,22 @@
       "entries": {
         "the_vault:scavenger_benitoite_gemstone": {
           "weight": 8,
-          "multiplier": 0.7,
+          "multiplier": 0.75,
           "color": 5353215
         },
         "the_vault:scavenger_wutodic_gemstone": {
           "weight": 4,
-          "multiplier": 0.5,
+          "multiplier": 0.65,
           "color": 16771072
         },
         "the_vault:scavenger_echoing_gemstone": {
           "weight": 2,
-          "multiplier": 0.3,
+          "multiplier": 0.45,
           "color": 16711935
         },
         "the_vault:scavenger_pogging_gemstone": {
           "weight": 1,
-          "multiplier": 0.15,
+          "multiplier": 0.3,
           "color": 7012096
         }
       }
@@ -180,7 +180,15 @@
           "mobs": [
             "the_vault:vault_spider",
             "the_vault:dungeon_spider",
-            "the_vault:dungeon_black_widow_spider"
+            "the_vault:dungeon_black_widow_spider",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_spider_soul_charm": {
@@ -190,7 +198,15 @@
           "mobs": [
             "the_vault:vault_spider",
             "the_vault:dungeon_spider",
-            "the_vault:dungeon_black_widow_spider"
+            "the_vault:dungeon_black_widow_spider",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_spider_cursed_charm": {
@@ -200,7 +216,15 @@
           "mobs": [
             "the_vault:vault_spider",
             "the_vault:dungeon_spider",
-            "the_vault:dungeon_black_widow_spider"
+            "the_vault:dungeon_black_widow_spider",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_spider_fangs": {
@@ -210,7 +234,15 @@
           "mobs": [
             "the_vault:vault_spider",
             "the_vault:dungeon_spider",
-            "the_vault:dungeon_black_widow_spider"
+            "the_vault:dungeon_black_widow_spider",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_spider_leg": {
@@ -220,7 +252,15 @@
           "mobs": [
             "the_vault:vault_spider",
             "the_vault:dungeon_spider",
-            "the_vault:dungeon_black_widow_spider"
+            "the_vault:dungeon_black_widow_spider",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_spider_webbing_spool": {
@@ -230,7 +270,15 @@
           "mobs": [
             "the_vault:vault_spider",
             "the_vault:dungeon_spider",
-            "the_vault:dungeon_black_widow_spider"
+            "the_vault:dungeon_black_widow_spider",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_drowned_hide": {
@@ -241,7 +289,16 @@
             "minecraft:drowned",
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
-            "the_vault:t3_drowned"
+            "the_vault:t3_drowned",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_drowned"
           ]
         },
         "the_vault:scavenger_drowned_barnacle": {
@@ -252,7 +309,16 @@
             "minecraft:drowned",
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
-            "the_vault:t3_drowned"
+            "the_vault:t3_drowned",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_drowned"
           ]
         },
         "the_vault:scavenger_drowned_vial": {
@@ -263,7 +329,16 @@
             "minecraft:drowned",
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
-            "the_vault:t3_drowned"
+            "the_vault:t3_drowned",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_drowned"
           ]
         },
         "the_vault:scavenger_drowned_soul_charm": {
@@ -274,7 +349,16 @@
             "minecraft:drowned",
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
-            "the_vault:t3_drowned"
+            "the_vault:t3_drowned",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_drowned"
           ]
         },
         "the_vault:scavenger_drowned_eye": {
@@ -285,7 +369,16 @@
             "minecraft:drowned",
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
-            "the_vault:t3_drowned"
+            "the_vault:t3_drowned",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_drowned"
           ]
         },
         "the_vault:scavenger_zombie_blood_vial": {
@@ -309,7 +402,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_hide": {
@@ -333,7 +439,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_arm": {
@@ -357,7 +476,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_nose": {
@@ -381,7 +513,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_ear": {
@@ -405,7 +550,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_brain": {
@@ -429,7 +587,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_eye": {
@@ -453,7 +624,20 @@
             "the_vault:deep_dark_zombie",
             "the_vault:t1_zombie",
             "the_vault:t2_zombie",
-            "the_vault:t3_zombie"
+            "the_vault:t3_zombie",
+            "the_vault:t1_plastic_zombie",
+            "the_vault:t2_plastic_zombie",
+            "the_vault:t3_plastic_zombie",
+            "the_vault:t4_plastic_zombie",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_creeper_vial": {
@@ -464,7 +648,15 @@
             "minecraft:creeper",
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
-            "the_vault:t3_creeper"
+            "the_vault:t3_creeper",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_creeper_foot": {
@@ -475,7 +667,15 @@
             "minecraft:creeper",
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
-            "the_vault:t3_creeper"
+            "the_vault:t3_creeper",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_creeper_soul_charm": {
@@ -486,7 +686,15 @@
             "minecraft:creeper",
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
-            "the_vault:t3_creeper"
+            "the_vault:t3_creeper",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_creeper_fuse": {
@@ -497,7 +705,15 @@
             "minecraft:creeper",
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
-            "the_vault:t3_creeper"
+            "the_vault:t3_creeper",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_creeper_tnt": {
@@ -508,7 +724,15 @@
             "minecraft:creeper",
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
-            "the_vault:t3_creeper"
+            "the_vault:t3_creeper",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_creeper_eye": {
@@ -519,7 +743,15 @@
             "minecraft:creeper",
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
-            "the_vault:t3_creeper"
+            "the_vault:t3_creeper",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_skeleton_bone_shard": {
@@ -543,7 +775,17 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_skeleton_milky_vial": {
@@ -567,7 +809,33 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:blood_skeleton_t0",
+            "the_vault:blood_skeleton_t1",
+            "the_vault:blood_skeleton_t2",
+            "the_vault:blood_skeleton_t3",
+            "the_vault:blood_skeleton_t4",
+            "the_vault:blood_skeleton_t5",
+            "the_vault:t1_plastic_skeleton",
+            "the_vault:t2_plastic_skeleton",
+            "the_vault:t3_plastic_skeleton",
+            "the_vault:t4_plastic_skeleton",
+            "the_vault:t0_cave_skeleton",
+            "the_vault:t1_cave_skeleton",
+            "the_vault:t2_cave_skeleton",
+            "the_vault:t3_cave_skeleton",
+            "the_vault:t4_cave_skeleton",
+            "the_vault:t5_cave_skeleton",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_skeleton_wishbone": {
@@ -591,7 +859,33 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:blood_skeleton_t0",
+            "the_vault:blood_skeleton_t1",
+            "the_vault:blood_skeleton_t2",
+            "the_vault:blood_skeleton_t3",
+            "the_vault:blood_skeleton_t4",
+            "the_vault:blood_skeleton_t5",
+            "the_vault:t1_plastic_skeleton",
+            "the_vault:t2_plastic_skeleton",
+            "the_vault:t3_plastic_skeleton",
+            "the_vault:t4_plastic_skeleton",
+            "the_vault:t0_cave_skeleton",
+            "the_vault:t1_cave_skeleton",
+            "the_vault:t2_cave_skeleton",
+            "the_vault:t3_cave_skeleton",
+            "the_vault:t4_cave_skeleton",
+            "the_vault:t5_cave_skeleton",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_skeleton_soul_charm": {
@@ -615,7 +909,33 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:blood_skeleton_t0",
+            "the_vault:blood_skeleton_t1",
+            "the_vault:blood_skeleton_t2",
+            "the_vault:blood_skeleton_t3",
+            "the_vault:blood_skeleton_t4",
+            "the_vault:blood_skeleton_t5",
+            "the_vault:t1_plastic_skeleton",
+            "the_vault:t2_plastic_skeleton",
+            "the_vault:t3_plastic_skeleton",
+            "the_vault:t4_plastic_skeleton",
+            "the_vault:t0_cave_skeleton",
+            "the_vault:t1_cave_skeleton",
+            "the_vault:t2_cave_skeleton",
+            "the_vault:t3_cave_skeleton",
+            "the_vault:t4_cave_skeleton",
+            "the_vault:t5_cave_skeleton",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_skeleton_ribcage": {
@@ -639,7 +959,33 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:blood_skeleton_t0",
+            "the_vault:blood_skeleton_t1",
+            "the_vault:blood_skeleton_t2",
+            "the_vault:blood_skeleton_t3",
+            "the_vault:blood_skeleton_t4",
+            "the_vault:blood_skeleton_t5",
+            "the_vault:t1_plastic_skeleton",
+            "the_vault:t2_plastic_skeleton",
+            "the_vault:t3_plastic_skeleton",
+            "the_vault:t4_plastic_skeleton",
+            "the_vault:t0_cave_skeleton",
+            "the_vault:t1_cave_skeleton",
+            "the_vault:t2_cave_skeleton",
+            "the_vault:t3_cave_skeleton",
+            "the_vault:t4_cave_skeleton",
+            "the_vault:t5_cave_skeleton",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_skeleton_milky_eye": {
@@ -663,7 +1009,33 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:blood_skeleton_t0",
+            "the_vault:blood_skeleton_t1",
+            "the_vault:blood_skeleton_t2",
+            "the_vault:blood_skeleton_t3",
+            "the_vault:blood_skeleton_t4",
+            "the_vault:blood_skeleton_t5",
+            "the_vault:t1_plastic_skeleton",
+            "the_vault:t2_plastic_skeleton",
+            "the_vault:t3_plastic_skeleton",
+            "the_vault:t4_plastic_skeleton",
+            "the_vault:t0_cave_skeleton",
+            "the_vault:t1_cave_skeleton",
+            "the_vault:t2_cave_skeleton",
+            "the_vault:t3_cave_skeleton",
+            "the_vault:t4_cave_skeleton",
+            "the_vault:t5_cave_skeleton",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_skeleton_skull": {
@@ -687,7 +1059,33 @@
             "the_vault:t3_wither_skeleton",
             "the_vault:dungeon_skeleton",
             "the_vault:deep_dark_skeleton",
-            "rottencreatures:dead_beard"
+            "rottencreatures:dead_beard",
+            "the_vault:blood_skeleton_t0",
+            "the_vault:blood_skeleton_t1",
+            "the_vault:blood_skeleton_t2",
+            "the_vault:blood_skeleton_t3",
+            "the_vault:blood_skeleton_t4",
+            "the_vault:blood_skeleton_t5",
+            "the_vault:t1_plastic_skeleton",
+            "the_vault:t2_plastic_skeleton",
+            "the_vault:t3_plastic_skeleton",
+            "the_vault:t4_plastic_skeleton",
+            "the_vault:t0_cave_skeleton",
+            "the_vault:t1_cave_skeleton",
+            "the_vault:t2_cave_skeleton",
+            "the_vault:t3_cave_skeleton",
+            "the_vault:t4_cave_skeleton",
+            "the_vault:t5_cave_skeleton",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
+            "the_vault:elite_skeleton",
+            "the_vault:elite_wither_skeleton"
           ]
         },
         "the_vault:scavenger_enderman_eye": {
@@ -699,6 +1097,15 @@
             "the_vault:t1_enderman",
             "the_vault:t2_enderman",
             "the_vault:t3_enderman",
+            "the_vault:elite_enderman",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
             "the_vault:elite_enderman"
           ]
         },
@@ -711,7 +1118,15 @@
             "the_vault:t1_enderman",
             "the_vault:t2_enderman",
             "the_vault:t3_enderman",
-            "the_vault:elite_enderman"
+            "the_vault:elite_enderman",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian"
           ]
         },
         "the_vault:scavenger_ender_artifact": {
@@ -723,6 +1138,15 @@
             "the_vault:t1_enderman",
             "the_vault:t2_enderman",
             "the_vault:t3_enderman",
+            "the_vault:elite_enderman",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
             "the_vault:elite_enderman"
           ]
         },
@@ -735,6 +1159,15 @@
             "the_vault:t1_enderman",
             "the_vault:t2_enderman",
             "the_vault:t3_enderman",
+            "the_vault:elite_enderman",
+            "the_vault:bruiser_guardian",
+            "the_vault:arbalist_guardian",
+            "the_vault:pirate_bruiser_guardian",
+            "the_vault:pirate_arbalist_guardian",
+            "the_vault:crystal_bruiser_guardian",
+            "the_vault:crystal_arbalist_guardian",
+            "the_vault:butcher_bruiser_guardian",
+            "the_vault:butcher_arbalist_guardian",
             "the_vault:elite_enderman"
           ]
         }

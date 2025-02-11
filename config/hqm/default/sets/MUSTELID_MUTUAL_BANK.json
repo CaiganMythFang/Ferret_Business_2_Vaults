@@ -1,0 +1,232 @@
+{
+  "name": "MUSTELID MUTUAL BANK",
+  "quests": [
+    {
+      "uuid": "5ed2df82-ba27-42d9-b75b-16f9a68381ff",
+      "name": {
+        "text": " BANK READ-ME",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    So this section of the Shop Tablet is for exchanging the different kinds of currency available in the FOPServer.\n    The primary exchanges will be Scrypto to Scrypto.\n    We can\u0027t exchange between Scrypto and Ferret Coins due to the security risk. Well, not directly, anyways...",
+        "isTranslationKey": false
+      },
+      "x": 18,
+      "y": 21,
+      "bigicon": true,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "95d5cef0-468e-493e-b21b-c30caeb9184b",
+      "name": {
+        "text": " SCRYPTO: Gold to Lunaver",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    This exchanges One(1) Lunaver Scrypto to Fifteen(15) Gold Scrypto.\n    In-Server bankers can exchange at a more favorable rate.",
+        "isTranslationKey": false
+      },
+      "x": 146,
+      "y": 27,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "5290c936-0d74-41ae-a60f-dddd13244820"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aaba3d84-e2dd-4d5a-823a-de6c5cc8de34",
+      "name": {
+        "text": " SCRYPTO: Lunaver to Gold",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    This exchanges One(1) Lunaver Scrypto to Fifteen(15) Gold Scrypto.\n    In-Server bankers can exchange at a more favorable rate.",
+        "isTranslationKey": false
+      },
+      "x": 147,
+      "y": 60,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "5290c936-0d74-41ae-a60f-dddd13244820"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5fb2e3e1-d854-4b68-b37f-66dcb7ea33e0",
+      "name": {
+        "text": " SCRYPTO: Silver to Copper",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    This exchanges One(1) Silver Scrypto to Fifteen(15) Copper Scrypto.\n    In-Server bankers can exchange at a more favorable rate.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 58,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "5290c936-0d74-41ae-a60f-dddd13244820"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b1a71287-e062-4195-a36d-2f7fb5fbed26",
+      "name": {
+        "text": " SCRYPTO: Silver to Gold",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    This exchanges Thirty(30) Silver Scrypto into One(1) Gold Scrypto.\n    In-Server bankers can exchange at a more favorable rate.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 27,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "5290c936-0d74-41ae-a60f-dddd13244820"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5290c936-0d74-41ae-a60f-dddd13244820",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 49,
+      "y": 24,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "97297dcb-0de7-4f66-baed-7da9b062356f",
+      "name": {
+        "text": " SCRYPTO: Copper to Silver",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    This exchanges Thirty(30) Copper Scrypto into One(1) Silver Scrypto.\n    In-Server bankers can exchange at a more favorable rate.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 27,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "5290c936-0d74-41ae-a60f-dddd13244820"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9aeabb6-f434-4a99-b3c5-1edfeca48181",
+      "name": {
+        "text": " SCRYPTO: Gold to Silver",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    This exchanges One(1) Gold Scrypto to Fifteen(15) Silver Scrypto.\n    In-Server bankers can exchange at a more favorable rate.",
+        "isTranslationKey": false
+      },
+      "x": 123,
+      "y": 59,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "5290c936-0d74-41ae-a60f-dddd13244820"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    Trade Scrypto, Ferret Silver Coins, and other currencies here.\n    NOTE:\n        Trades here are at a loss for the user, to encourage in-server methods that promote Worm propogation.",
+    "isTranslationKey": false
+  }
+}

@@ -1,0 +1,772 @@
+{
+  "name": "~~World DLC",
+  "quests": [
+    {
+      "uuid": "a7da196c-9149-4e27-b4e1-41c63899eaa3",
+      "name": {
+        "text": " Purchase Dimension DLC - Red",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 22,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "efcfa90c-3efb-42c8-bbe2-a0f11f68c4a6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8e0503c8-1dbd-4376-9f6e-ca3369f2daee",
+      "name": {
+        "text": " Purchase Dimension DLC - Orange",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 43,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "a34e8627-5d0e-40f1-9087-24fd1def28ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "64c6e2aa-d1b2-4a55-92a5-70fa9e7796ea",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 63,
+      "y": 22,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "00379b91-ba29-43f5-a69a-99e9ed38946d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ce5fed78-54d0-4e58-8107-1c63aaf01ff0",
+      "name": {
+        "text": " Purchase Ore DLC - Yellow",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 63,
+      "y": 29,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "64c6e2aa-d1b2-4a55-92a5-70fa9e7796ea"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56962f56-6f7b-4a6c-b86b-42c440252256",
+      "name": {
+        "text": " Purchase Ore DLC - Violet",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 147,
+      "y": 29,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "b64809a7-ef87-4c40-b864-10dbd2928abc"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c9ff641-9cf6-498e-9738-70b7b637f1d0",
+      "name": {
+        "text": " A HOW TO GUIDE",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    So you\u0027ve decided NOT to pay the FOP\u0027s prices for their DLC? Welcome to the open seas, crewmate!\n   When you pirate a DLC in the main Q.U.E.S.T. Tablet, it completes the original DLC quest for you. And when you hold the DLC book in your inventory, it will unlock in this Shop Tablet too.\n    While alone that isn\u0027t super useful to you, Bandit, if you have other assistants, it makes it easier to buy a copy of the DLC for them.",
+        "isTranslationKey": false
+      },
+      "x": 17,
+      "y": 22,
+      "bigicon": true,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a63606b-5f30-4c87-a8e4-ad99d12a75ba",
+      "name": {
+        "text": " Purchase Ore DLC - Indigo",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 29,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "96398b68-2c7b-4194-af05-3267b757782b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "edf0669b-d869-4e68-bf09-2b09ebda96a6",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 146,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "920f92dc-13eb-4540-8cc7-a3b5c3047fa4"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00379b91-ba29-43f5-a69a-99e9ed38946d",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 42,
+      "y": 22,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "0c9ff641-9cf6-498e-9738-70b7b637f1d0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "96398b68-2c7b-4194-af05-3267b757782b",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 22,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "855c4b25-6f5d-42cc-9951-0ca6c7844df1"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd2db17a-2725-46e2-bc99-695fc0cd9f7a",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 63,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "a34e8627-5d0e-40f1-9087-24fd1def28ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "afb25422-1b91-4963-8638-00b99defa92a",
+      "name": {
+        "text": " Purchase Dimension DLC - Green",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 85,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "df8d238d-c6c8-4fd4-a292-19d7fb6bdf07"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "63413d30-dc49-4877-b8bf-603d3637245d",
+      "name": {
+        "text": " Purchase Ore DLC - Green",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 84,
+      "y": 29,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "7c3d5d8d-b9f3-4502-9ebc-9a9e6ff2ec60"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "855c4b25-6f5d-42cc-9951-0ca6c7844df1",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 105,
+      "y": 22,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "7c3d5d8d-b9f3-4502-9ebc-9a9e6ff2ec60"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a1a225b5-f415-4dae-b003-a45adb1eac81",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 105,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "df8d238d-c6c8-4fd4-a292-19d7fb6bdf07"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "920f92dc-13eb-4540-8cc7-a3b5c3047fa4",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 125,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "a1a225b5-f415-4dae-b003-a45adb1eac81"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "efcfa90c-3efb-42c8-bbe2-a0f11f68c4a6",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 22,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "0c9ff641-9cf6-498e-9738-70b7b637f1d0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d08e3e9-ce48-4221-a525-69ff2b7e1201",
+      "name": {
+        "text": " Purchase Dimension DLC - Indigo",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 127,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "920f92dc-13eb-4540-8cc7-a3b5c3047fa4"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1e18327c-09a0-4423-9189-ce5967c3645a",
+      "name": {
+        "text": " Purchase Dimension DLC - Violet",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 148,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "edf0669b-d869-4e68-bf09-2b09ebda96a6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27f230cf-996f-4bf9-ae2f-6b9d24b806ce",
+      "name": {
+        "text": " Purchase Dimension DLC - Yellow",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 64,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "fd2db17a-2725-46e2-bc99-695fc0cd9f7a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c3d5d8d-b9f3-4502-9ebc-9a9e6ff2ec60",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 84,
+      "y": 22,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "64c6e2aa-d1b2-4a55-92a5-70fa9e7796ea"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6302743f-a17e-4896-871b-79931ecbf8e7",
+      "name": {
+        "text": " Purchase Ore DLC - Blue",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 105,
+      "y": 29,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "855c4b25-6f5d-42cc-9951-0ca6c7844df1"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "df8d238d-c6c8-4fd4-a292-19d7fb6bdf07",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 84,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "fd2db17a-2725-46e2-bc99-695fc0cd9f7a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b4b08160-809f-49e7-b68a-7da675eb2d97",
+      "name": {
+        "text": " Purchase Dimension DLC - Blue",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 63,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "a1a225b5-f415-4dae-b003-a45adb1eac81"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1c1ceb43-676c-4908-83e4-3ae3727f663a",
+      "name": {
+        "text": " Purchase Ore DLC - Orange",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 42,
+      "y": 29,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "00379b91-ba29-43f5-a69a-99e9ed38946d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b64809a7-ef87-4c40-b864-10dbd2928abc",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 147,
+      "y": 22,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "96398b68-2c7b-4194-af05-3267b757782b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a34e8627-5d0e-40f1-9087-24fd1def28ff",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 42,
+      "y": 57,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "efcfa90c-3efb-42c8-bbe2-a0f11f68c4a6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    This section is for re-purchasing World DLC, and also where to learn about unlocking DLC in the Shop Tablet.",
+    "isTranslationKey": false
+  }
+}

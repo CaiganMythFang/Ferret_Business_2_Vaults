@@ -1,0 +1,176 @@
+{
+  "name": "Misc Messes and Things",
+  "quests": [
+    {
+      "uuid": "18fc59ef-11be-42bb-8dcc-211d0bbd36fb",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 33,
+      "y": 17,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "6f987ba3-777e-4063-87b0-86c442f11deb"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3caaccdc-4f06-4a55-8687-296630208013",
+      "name": {
+        "text": "Buddycards - Base Pack",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Did you get addicted to the Buddycard game too? Well, so you aren\u0027t giving the FOP money, we\u0027re going to sell packs in the Shop Tablet too!\n    They will be fairly expensive due to having to carefully clear all the tracking data these digital addictions have built in.",
+        "isTranslationKey": false
+      },
+      "x": 63,
+      "y": 17,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "26d710ff-1104-47f2-9e42-0930c91df736",
+      "name": {
+        "text": "Buddycards - Nether Set",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Did you get addicted to the Buddycard game too? Well, so you aren\u0027t giving the FOP money, we\u0027re going to sell packs in the Shop Tablet too!\n    They will be fairly expensive due to having to carefully clear all the tracking data these digital addictions have built in.",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 18,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f987ba3-777e-4063-87b0-86c442f11deb",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 17,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ftbquests:book",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29056875-45be-4d26-9045-c9d701257e20",
+      "name": {
+        "text": " Supply Caravans",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Byte\u0027s got a good idea in making a Colony to work together to free you all.\n    But sometimes you need to put up a new camp somewhere safer, or start over again, yeah? You\u0027ll need one of these two Caravans to get it going.\n    The Camp can only be deployed on land, while the Ship can be deployed in water. ",
+        "isTranslationKey": false
+      },
+      "x": 33,
+      "y": 22,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "18fc59ef-11be-42bb-8dcc-211d0bbd36fb"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "246d5bb7-efa1-43e8-b2f8-431d01773d4e",
+      "name": {
+        "text": "Buddycards - End Set",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Did you get addicted to the Buddycard game too? Well, so you aren\u0027t giving the FOP money, we\u0027re going to sell packs in the Shop Tablet too!\n    They will be fairly expensive due to having to carefully clear all the tracking data these digital addictions have built in.",
+        "isTranslationKey": false
+      },
+      "x": 111,
+      "y": 18,
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

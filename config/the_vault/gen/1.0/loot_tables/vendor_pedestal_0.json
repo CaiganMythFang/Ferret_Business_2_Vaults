@@ -11,6 +11,16 @@
           "weight": 50,
           "pool": [
             {
+              "weight": 2,
+              "item": {
+                "id": "tfb2:token_vendor",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
               "weight": 1,
               "item": {
                 "id": "sophisticatedbackpacks:iron_backpack",

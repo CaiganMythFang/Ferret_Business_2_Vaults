@@ -81,6 +81,30 @@
         }
       }
     },
+    "the_vault:iskallian_leaves": {
+      "display": "Iskallian Leaves",
+      "lootTableKeys": {
+        "the_vault:iskallian_leaves": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:hellish_sand": {
+      "display": "Hellish Sand",
+      "lootTableKeys": {
+        "the_vault:hellish_sand": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:digsite_sand": {
+      "display": "Digsite Sand",
+      "lootTableKeys": {
+        "the_vault:digsite_sand_lvl0": {
+          "level": 0
+        }
+      }
+    },
     "the_vault:treasure_sand": {
       "display": "Treasure Sand",
       "lootTableKeys": {
@@ -100,6 +124,22 @@
         }
       }
     },
+    "the_vault:treasure_pedestal": {
+      "display": "Treasure Pedestal",
+      "lootTableKeys": {
+        "the_vault:treasure_chest_stand_lvl50": {
+          "level": 50
+        }
+      }
+    },
+    "the_vault:dungeon_pedestal": {
+      "display": "Dungeon Pedestal",
+      "lootTableKeys": {
+        "the_vault:dungeon_pedestal_lvl50": {
+          "level": 50
+        }
+      }
+    },
     "the_vault:brazier_pillage": {
       "display": "Brazier Pillage",
       "lootTableKeys": {
@@ -108,7 +148,7 @@
         }
       }
     },
-    "the_vault:completion_crate_haunted_mono": {
+    "the_vault:completion_crate_haunted_braziers": {
       "display": "Haunted Braziers Completion Crate",
       "lootTableKeys": {
         "the_vault:base_crate_cursed_0": {
@@ -117,10 +157,27 @@
         "the_vault:base_crate_cursed_20": {
           "level": 20
         },
-        "the_vault:base_crate_cursed_50": {
+        "the_vault:haunted_braziers_crate_50": {
           "level": 50
         },
-        "the_vault:base_crate_cursed_100": {
+        "the_vault:haunted_braziers_crate_100": {
+          "level": 100
+        }
+      }
+    },
+    "the_vault:completion_crate_zealot": {
+      "display": "Zealot Completion Crate",
+      "lootTableKeys": {
+        "the_vault:base_crate_cursed_0": {
+          "level": 0
+        },
+        "the_vault:base_crate_cursed_20": {
+          "level": 20
+        },
+        "the_vault:zealot_crate_50": {
+          "level": 50
+        },
+        "the_vault:zealot_crate_100": {
           "level": 100
         }
       }
@@ -138,7 +195,7 @@
           "level": 50
         },
         "the_vault:base_crate_100": {
-          "level": 50
+          "level": 100
         }
       }
     },
@@ -155,7 +212,7 @@
           "level": 50
         },
         "the_vault:base_crate_100": {
-          "level": 50
+          "level": 100
         }
       }
     },
@@ -189,6 +246,65 @@
           "level": 50
         },
         "the_vault:base_crate_100": {
+          "level": 100
+        }
+      }
+    },
+    "the_vault:completion_crate_bingo": {
+      "display": "Bingo Completion Crate",
+      "lootTableKeys": {
+        "the_vault:base_crate_0": {
+          "level": 0
+        },
+        "the_vault:base_crate_20": {
+          "level": 20
+        },
+        "the_vault:base_crate_50": {
+          "level": 50
+        },
+        "the_vault:base_crate_100": {
+          "level": 100
+        }
+      }
+    },
+    "the_vault:completion_crate_ballistic_bingo": {
+      "display": "Ballistic Bingo Completion Crate",
+      "lootTableKeys": {
+        "the_vault:base_crate_cursed_0": {
+          "level": 0
+        },
+        "the_vault:base_crate_cursed_20": {
+          "level": 20
+        },
+        "the_vault:base_crate_cursed_50": {
+          "level": 50
+        },
+        "the_vault:base_crate_cursed_100": {
+          "level": 100
+        }
+      }
+    },
+    "the_vault:completion_crate_bingo_wold_full": {
+      "display": "Bingo Full Completion Crate",
+      "lootTableKeys": {
+        "the_vault:base_crate_0": {
+          "level": 0
+        },
+        "the_vault:bingo_bonus": {
+          "level": 50
+        }
+      }
+    },
+    "the_vault:completion_crate_ballistic_bingo_full": {
+      "display": "Ballistic Bingo Full Completion Crate",
+      "lootTableKeys": {
+        "the_vault:base_crate_cursed_0": {
+          "level": 0
+        },
+        "the_vault:base_crate_cursed_20": {
+          "level": 20
+        },
+        "the_vault:bingo_bonus_cursed": {
           "level": 50
         }
       }
@@ -223,7 +339,7 @@
           "level": 50
         },
         "the_vault:base_crate_2_100": {
-          "level": 50
+          "level": 100
         }
       }
     },
@@ -244,32 +360,11 @@
         }
       }
     },
-    "the_vault:vendor_pedestal": {
-      "display": "Vendor Pedestal",
+    "the_vault:full_bingo": {
+      "display": "Full Bingo Crate",
       "lootTableKeys": {
-        "the_vault:vendor_pedestal_0": {
-          "level": 0
-        },
-        "the_vault:vendor_pedestal_30": {
-          "level": 30
-        },
-        "the_vault:vendor_pedestal_50": {
-          "level": 50
-        },
-        "the_vault:vendor_pedestal_65": {
-          "level": 65
-        }
-      }
-    },
-    "the_vault:completion_crate_paradox": {
-      "display": "Divine Paradox Completion Crate",
-      "lootTableKeys": {
-        "the_vault:completion_paradox": {
-          "level": 0
-        },
-        "the_vault:completion_paradoxlvl100": {
-          "level": 100
-        }
+        "the_vault:bingo_full_crate": {"level": 0},
+        "the_vault:bingo_bonus": {"level": 50}
       }
     },
     "the_vault:ornate_chest": {

@@ -91,12 +91,12 @@
 	#Entity loot settings. Accepts entity ids (i.e. minecraft:zombie)
 	[common.entity_loot]
 		#Whether coins can be dropped by entities. Does not effect chest loot generation.
-		enableEntityDrops = true
+		enableEntityDrops = false
 		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
 		enableSpawnerEntityDrops = false
 		#Whether modded machines that emulate player behaviour can trigger coin drops from entities.
 		#Set to false to help prevent coin farming.
-		allowFakePlayerTrigger = true
+		allowFakePlayerTrigger = false
 		#Entities that will occasionally drop T1 loot.
 		entityListT1 = ["minecraft:slime", "minecraft:silverfish", "alexsmobs:cosmic_cod", "alexsmobs:fly", "alexsmobs:raccoon", "alexsmobs:stradpole"]
 		#Entities that will occasionally drop T1 -> T2 loot.
@@ -125,7 +125,7 @@
 	#Chest loot settings.
 	[common.chest_loot]
 		#Whether coins can spawn in chests Does not effect entity loot drops.
-		enableChestLoot = true
+		enableChestLoot = false
 		#Chests that will occasionally spawn T1 loot.
 		chestListT1 = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
 		#Chests that will occasionally spawn T1 -> T2 loot.

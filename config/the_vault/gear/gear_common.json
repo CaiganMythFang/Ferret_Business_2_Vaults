@@ -1,15 +1,34 @@
 {
+  "legendaryModifierChance": 0.03,
+  "craftingPotentialRanges": {
+    "SCRAPPY": {
+      "min": 20,
+      "max": 80
+    },
+    "COMMON": {
+      "min": 50,
+      "max": 120
+    },
+    "RARE": {
+      "min": 90,
+      "max": 190
+    },
+    "EPIC": {
+      "min": 140,
+      "max": 280
+    },
+    "OMEGA": {
+      "min": 180,
+      "max": 500
+    }
+  },
   "swapCooldown": 400,
   "swapItems": {
     "FEET": [
-      "the_vault:boots"
     ],
     "CHEST": [
-      "the_vault:chestplate",
-      "minecraft:elytra"
     ],
     "LEGS": [
-      "the_vault:leggings"
     ],
     "OFFHAND": [
       "the_vault:focus",
@@ -23,7 +42,6 @@
       "the_vault:loot_sack"
     ],
     "HEAD": [
-      "the_vault:helmet"
     ]
   }
 }

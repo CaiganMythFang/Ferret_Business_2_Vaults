@@ -13,7 +13,7 @@
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
 	#Blocks that Quark should treat as Shulker Boxes.
-	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "the_vault:vault_crate_scavenger", "the_vault:vault_crate_bingo", "the_vault:vault_crate_elixir", "the_vault:vault_crate_cake", "the_vault:vault_crate_monolith", "the_vault:vault_crate"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
 	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
@@ -438,7 +438,7 @@
 		#Can players harvest crops with empty hand clicks?
 		"Empty Hand Harvest" = true
 		#Does harvesting crops with a hoe cost durability?
-		"Harvesting Costs Durability" = true
+		"Harvesting Costs Durability" = false
 		#Should Quark look for (nonvanilla) crops, and handle them?
 		"Do Harvesting Search" = true
 		#Which crops can be harvested?
@@ -540,15 +540,15 @@
 		"Pike Range" = 5.0
 
 [world]
-	"Spiral Spires" = false
-	Permafrost = false
+	"Spiral Spires" = true
+	Permafrost = true
 	"No More Lava Pockets" = true
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"Nether Obsidian Spikes" = false
 	"Monster Box" = true
 	"Glimmering Weald" = true
 	"Fairy Rings" = false
-	Corundum = false
+	Corundum = true
 	"Chorus Vegetation" = false
 	"Blossom Trees" = true
 	"Big Stone Clusters" = false
@@ -601,7 +601,7 @@
 
 			[world.permafrost.generation_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.permafrost.generation_settings.biomes]
 
@@ -619,16 +619,16 @@
 					"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Limestone" = false
-		"Enable Jasper" = false
-		"Enable Shale" = false
-		"Enable Myalite" = false
+		"Enable Limestone" = true
+		"Enable Jasper" = true
+		"Enable Shale" = true
+		"Enable Myalite" = true
 
 		[world.new_stone_types.limestone]
 
 			[world.new_stone_types.limestone.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.new_stone_types.limestone.oregen_lower]
 				#Allowed values: [-64,320]
@@ -639,7 +639,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 2.0
+				"Cluster Count" = 0
 
 			[world.new_stone_types.limestone.oregen_upper]
 				#Allowed values: [-64,320]
@@ -650,13 +650,13 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
+				"Cluster Count" = 0
 
 		[world.new_stone_types.jasper]
 
 			[world.new_stone_types.jasper.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.new_stone_types.jasper.oregen_lower]
 				#Allowed values: [-64,320]
@@ -667,7 +667,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 2.0
+				"Cluster Count" = 0
 
 			[world.new_stone_types.jasper.oregen_upper]
 				#Allowed values: [-64,320]
@@ -678,13 +678,13 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
+				"Cluster Count" = 0
 
 		[world.new_stone_types.shale]
 
 			[world.new_stone_types.shale.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 
 			[world.new_stone_types.shale.oregen_lower]
 				#Allowed values: [-64,320]
@@ -695,7 +695,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 2.0
+				"Cluster Count" = 0
 
 			[world.new_stone_types.shale.oregen_upper]
 				#Allowed values: [-64,320]
@@ -706,7 +706,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
+				"Cluster Count" = 0
 
 		[world.new_stone_types.myalite]
 
@@ -723,7 +723,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 2.0
+				"Cluster Count" = 2
 
 			[world.new_stone_types.myalite.oregen_upper]
 				#Allowed values: [-64,320]
@@ -734,7 +734,7 @@
 				"Cluster Size" = 64
 				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
 				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
+				"Cluster Count" = 1.666666
 
 	[world.nether_obsidian_spikes]
 		#The chance for a chunk to contain spikes (1 is 100%, 0 is 0%)
@@ -785,7 +785,7 @@
 		"Double Crystal Chance" = 0.2
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
-		"Crystals Craft Runes" = true
+		"Crystals Craft Runes" = false
 		"Enable Collateral Movement" = true
 
 		[world.corundum.generation_settings]
@@ -806,7 +806,7 @@
 
 			[world.corundum.generation_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "tropicraft:tropics"]
 
 			[world.corundum.generation_settings.biomes]
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
@@ -1550,13 +1550,13 @@
 		"Vertical Shift" = 0
 
 [oddities]
-	"Totem Of Holding" = true
-	"Tiny Potato" = true
+	"Totem Of Holding" = false
+	"Tiny Potato" = false
 	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
-	Backpack = true
+	"Matrix Enchanting" = false
+	Magnets = false
+	Crate = false
+	Backpack = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -1580,7 +1580,7 @@
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.
-		"Pipe Speed" = 5
+		"Pipe Speed" = 10
 		#Set to 0 if you don't want pipes to have a max amount of items
 		"Max Pipe Items" = 16
 		#When items eject or are absorbed by pipes, should they make sounds?

@@ -33,7 +33,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -43,7 +42,33 @@
               },
               "weight": 1
             }
-
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:arbalist_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+          ],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:crossbow"
+              },
+              "weight": 12
+            }
           ],
           "LEGS": [],
           "FEET": [],
@@ -84,7 +109,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -94,7 +118,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -135,7 +158,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -152,7 +174,6 @@
               },
               "weight": 0
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -191,7 +212,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -208,7 +228,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -247,7 +266,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -264,7 +282,150 @@
               },
               "weight": 1
             }
-
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:bruiser_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/axe/greathammer\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:pirate_bruiser_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:trident",
+                "NBT": ""
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:pirate_arbalist_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:crossbow"
+              },
+              "weight": 12
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:crystal_bruiser_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/axe/crystal_crusher\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:crystal_arbalist_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:crossbow"
+              },
+              "weight": 12
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:butcher_bruiser_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/axe/butchers_bone_cleaver\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:butcher_arbalist_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:crossbow"
+              },
+              "weight": 12
+            }
           ],
           "LEGS": [],
           "FEET": [],
@@ -305,7 +466,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -322,7 +482,6 @@
               },
               "weight": 0
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -361,7 +520,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -378,7 +536,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -417,7 +574,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -434,7 +590,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -475,7 +630,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -492,7 +646,6 @@
               },
               "weight": 0
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -531,7 +684,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -548,7 +700,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -587,7 +738,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -604,7 +754,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -645,7 +794,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -662,7 +810,6 @@
               },
               "weight": 0
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -701,7 +848,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -718,7 +864,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -757,7 +902,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -774,7 +918,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -815,7 +958,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -872,7 +1014,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -922,7 +1063,6 @@
               },
               "weight": 10
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -964,7 +1104,6 @@
               },
               "weight": 10
             }
-
           ],
           "LEGS": [
             {
@@ -983,18 +1122,18 @@
           ],
           "FEET": [
             {
-            "value": {
-              "ITEM": "the_vault:boots",
-              "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              "value": {
+                "ITEM": "the_vault:boots",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
             },
-            "weight": 2
-          },
-          {
-            "value": {
-              "ITEM": ""
-            },
-            "weight": 10
-          }
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
           ],
           "MAINHAND": [
             {
@@ -1049,7 +1188,6 @@
               },
               "weight": 10
             }
-
           ],
           "LEGS": [
             {
@@ -1068,18 +1206,18 @@
           ],
           "FEET": [
             {
-            "value": {
-              "ITEM": "the_vault:boots",
-              "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              "value": {
+                "ITEM": "the_vault:boots",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
             },
-            "weight": 2
-          },
-          {
-            "value": {
-              "ITEM": ""
-            },
-            "weight": 10
-          }
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
           ],
           "MAINHAND": [
             {
@@ -1134,7 +1272,6 @@
               },
               "weight": 10
             }
-
           ],
           "LEGS": [
             {
@@ -1153,18 +1290,18 @@
           ],
           "FEET": [
             {
-            "value": {
-              "ITEM": "the_vault:boots",
-              "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              "value": {
+                "ITEM": "the_vault:boots",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
             },
-            "weight": 2
-          },
-          {
-            "value": {
-              "ITEM": ""
-            },
-            "weight": 10
-          }
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
           ],
           "MAINHAND": [
             {
@@ -1186,14 +1323,181 @@
         }
       }
     ],
+    "the_vault:blood_skeleton_t2": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/red_katana\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/dark_blade\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:air",
+                "NBT": ""
+              },
+              "weight": 24
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:red_banner"
+              },
+              "weight": 6
+            }
+          ]
+        }
+      }
+    ],
+    "the_vault:blood_skeleton_t3": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/red_katana\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/dark_blade\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:air",
+                "NBT": ""
+              },
+              "weight": 24
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:red_banner"
+              },
+              "weight": 6
+            }
+          ]
+        }
+      }
+    ],
+    "the_vault:blood_skeleton_t4": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/red_katana\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/dark_blade\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:air",
+                "NBT": ""
+              },
+              "weight": 24
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:red_banner"
+              },
+              "weight": 6
+            }
+          ]
+        }
+      }
+    ],
+    "the_vault:blood_skeleton_t5": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/red_katana\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/dark_blade\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/red_katana\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/dark_blade\",\"the_vault:state\":2}"
+              },
+              "weight": 12
+            }
+          ]
+        }
+      }
+    ],
     "the_vault:skeleton_pirate_t0": [
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1204,7 +1508,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1229,20 +1532,11 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:bow",
-                "NBT": ""
-              },
-              "weight": 2
-            },
             {
               "value": {
                 "ITEM": "the_vault:sword",
@@ -1250,7 +1544,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1282,20 +1575,11 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:bow",
-                "NBT": ""
-              },
-              "weight": 4
-            },
             {
               "value": {
                 "ITEM": "the_vault:sword",
@@ -1303,7 +1587,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1335,20 +1618,11 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:bow",
-                "NBT": ""
-              },
-              "weight": 4
-            },
             {
               "value": {
                 "ITEM": "the_vault:sword",
@@ -1356,7 +1630,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1388,20 +1661,11 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:bow",
-                "NBT": ""
-              },
-              "weight": 4
-            },
             {
               "value": {
                 "ITEM": "the_vault:sword",
@@ -1409,7 +1673,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1434,20 +1697,11 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:bow",
-                "NBT": ""
-              },
-              "weight": 4
-            },
             {
               "value": {
                 "ITEM": "the_vault:sword",
@@ -1455,7 +1709,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1475,9 +1728,142 @@
             {
               "value": {
                 "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"iskall85\"}"
+                "NBT": "{SkullOwner:\"iwolfking\"}"
               },
-              "weight": 1
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Seapeekay\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"jojosolos\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Etho\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"tangofrags\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"InTheLittleWood\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"CaptainSparklez\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"BrryHrry\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"KaraCorvus\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"falsesymmetry\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Hbomb94\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"RyanHiga\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"PeteZahHutt\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"ChosenArchitect\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"5upppps\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"BaboAbe\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Stressmonster101\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Tubbo_\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"rhiga\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"CaptainPuffy\"}"
+              },
+              "weight": 3
             }
           ]
         }
@@ -1487,10 +1873,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1508,7 +1892,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1533,10 +1916,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1554,7 +1935,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1579,10 +1959,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1600,7 +1978,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1625,10 +2002,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1646,7 +2021,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": [
             {
@@ -1671,10 +2045,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1692,18 +2064,23 @@
               },
               "weight": 12
             }
-
           ],
-          "OFFHAND": []
+          "OFFHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:tipped_arrow",
+                "NBT": "{Potion:\"minecraft:slowness\"}"
+              },
+              "weight": 100
+            }
+          ]
         }
       },
       {
         "minLevel": 15,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1721,9 +2098,37 @@
               },
               "weight": 10
             }
-
           ],
           "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:elite_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/elite_skeleton_dagger\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            }
+          ],
+          "OFFHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/elite_skeleton_dagger\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            }
+          ]
         }
       }
     ],
@@ -1731,10 +2136,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1752,7 +2155,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -1760,10 +2162,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1772,16 +2172,15 @@
                 "ITEM": "minecraft:bow",
                 "NBT": ""
               },
-              "weight": 2
+              "weight": 50
             },
             {
               "value": {
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 10
+              "weight": 50
             }
-
           ],
           "OFFHAND": []
         }
@@ -1791,10 +2190,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1812,7 +2209,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -1820,10 +2216,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1832,16 +2226,15 @@
                 "ITEM": "minecraft:bow",
                 "NBT": ""
               },
-              "weight": 2
+              "weight": 50
             },
             {
               "value": {
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 10
+              "weight": 50
             }
-
           ],
           "OFFHAND": []
         }
@@ -1851,10 +2244,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1863,16 +2254,15 @@
                 "ITEM": "minecraft:bow",
                 "NBT": ""
               },
-              "weight": 1
+              "weight": 50
             },
             {
               "value": {
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 12
+              "weight": 50
             }
-
           ],
           "OFFHAND": []
         }
@@ -1880,10 +2270,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1892,16 +2280,36 @@
                 "ITEM": "minecraft:bow",
                 "NBT": ""
               },
-              "weight": 2
+              "weight": 50
             },
             {
               "value": {
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 2
+              "weight": 50
             }
-
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:elite_stray": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 50
+            }
           ],
           "OFFHAND": []
         }
@@ -1911,10 +2319,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1932,7 +2338,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -1940,10 +2345,8 @@
       {
         "minLevel": 15,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1961,20 +2364,30 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
       }
     ],
-    "the_vault:dungeon_skeleton": [
+    "the_vault:overgrown_tank": [
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t1_cave_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -1992,7 +2405,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2000,10 +2412,278 @@
       {
         "minLevel": 15,
         "slots": {
-          "HEAD": [
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 10
+            }
           ],
-          "CHEST": [
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t2_cave_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
           ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 15,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 8
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t3_cave_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 15,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 8
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t4_cave_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 15,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 8
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:t5_cave_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 15,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 3
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:dungeon_skeleton": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:bow",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_sword",
+                "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 15,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2021,7 +2701,6 @@
               },
               "weight": 16
             }
-
           ],
           "OFFHAND": []
         }
@@ -2031,10 +2710,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2052,7 +2729,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2060,10 +2736,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2081,7 +2755,6 @@
               },
               "weight": 10
             }
-
           ],
           "OFFHAND": []
         }
@@ -2091,10 +2764,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2112,7 +2783,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2120,10 +2790,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2141,7 +2809,6 @@
               },
               "weight": 10
             }
-
           ],
           "OFFHAND": []
         }
@@ -2151,10 +2818,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2172,7 +2837,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2180,10 +2844,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2201,40 +2863,8 @@
               },
               "weight": 0
             }
-
           ],
           "OFFHAND": []
-        }
-      }
-    ],
-    "the_vault:elite_stray": [
-      {
-        "minLevel": 0,
-        "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
-          "LEGS": [],
-          "FEET": [],
-          "MAINHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:air",
-                "NBT": ""
-              },
-              "weight": 24
-            }
-          ],
-          "OFFHAND": [
-            {
-              "value": {
-                "ITEM": "minecraft:air",
-                "NBT": ""
-              },
-              "weight": 24
-            }
-          ]
         }
       }
     ],
@@ -2242,10 +2872,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2272,10 +2900,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2302,10 +2928,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2323,7 +2947,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2331,10 +2954,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2352,7 +2973,6 @@
               },
               "weight": 0
             }
-
           ],
           "OFFHAND": []
         }
@@ -2362,10 +2982,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2383,10 +3001,8 @@
       {
         "minLevel": 15,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2413,10 +3029,8 @@
       {
         "minLevel": 0,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2434,7 +3048,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2442,10 +3055,8 @@
       {
         "minLevel": 10,
         "slots": {
-          "HEAD": [
-          ],
-          "CHEST": [
-          ],
+          "HEAD": [],
+          "CHEST": [],
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [
@@ -2463,7 +3074,6 @@
               },
               "weight": 12
             }
-
           ],
           "OFFHAND": []
         }
@@ -2502,7 +3112,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -2557,7 +3166,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -2612,7 +3220,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -2674,7 +3281,6 @@
               },
               "weight": 0
             }
-
           ],
           "MAINHAND": [
             {
@@ -2733,7 +3339,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -2769,7 +3374,6 @@
               },
               "weight": 1
             }
-
           ],
           "LEGS": [],
           "FEET": [],
@@ -2936,4 +3540,3 @@
     ]
   }
 }
-

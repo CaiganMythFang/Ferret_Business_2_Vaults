@@ -1,0 +1,334 @@
+{
+	id: "7D9D8801E748EDEC"
+	order_index: 5
+	title: "Starter Card Choice"
+	icon: {
+		id: "the_vault:card"
+		Count: 1b
+		tag: {
+			data: {
+				tier: 1b
+				entries: [{
+					name: "{\"text\":\"Hacked Resource : Iron\"}"
+					groups: ["Resource"]
+					model: "minecraft:iron_ingot#inventory"
+					colors: ["PURPLE"]
+					modifier: {
+						task: {
+							renderer: {
+								tooltip: "{\"text\":\"per ${target} mobs killed\"}"
+								type: "card"
+							}
+							operating: 0b
+							counter: {
+								baseTarget: 15b
+								current: 0b
+								type: "target"
+								config: {
+									variables: {
+										targetTierContribution: 1b
+									}
+									target: {
+										type: "uniform"
+										max: 22b
+										min: 14b
+									}
+								}
+								target: 15b
+							}
+							type: "kill_entity"
+							children: [ ]
+							config: {
+								filter: "@the_vault:mobs"
+							}
+						}
+						type: "task_loot"
+						config: {
+							count: [{
+								tier: 1b
+								roll: {
+									type: "uniform"
+									max: 12b
+									min: 3b
+								}
+							}]
+							tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Iron/Glitched Ingot \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
+							highlightColor: 65280
+							loot: [
+								{
+									weight: 90.0d
+									item: "iron_ingot"
+								}
+								{
+									weight: 10.0d
+									item: "tfb2:glitched_ingot"
+								}
+							]
+							task: "@easy"
+							maxTier: 1b
+						}
+						uuid: [I;
+							-1911935070
+							-1706406286
+							-1383748896
+							-1696547688
+						]
+						counts: [{
+							tier: 1b
+							count: 5b
+						}]
+					}
+				}]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "the_vault:card"
+				Count: 1b
+				tag: {
+					data: {
+						tier: 1b
+						entries: [{
+							name: "{\"text\":\"Hacked Resource : Iron\"}"
+							groups: ["Resource"]
+							model: "minecraft:iron_ingot#inventory"
+							colors: ["PURPLE"]
+							modifier: {
+								task: {
+									renderer: {
+										tooltip: "{\"text\":\"per ${target} mobs killed\"}"
+										type: "card"
+									}
+									operating: 0b
+									counter: {
+										baseTarget: 15b
+										current: 0b
+										type: "target"
+										config: {
+											variables: {
+												targetTierContribution: 1b
+											}
+											target: {
+												type: "uniform"
+												max: 22b
+												min: 14b
+											}
+										}
+										target: 15b
+									}
+									type: "kill_entity"
+									children: [ ]
+									config: {
+										filter: "@the_vault:mobs"
+									}
+								}
+								type: "task_loot"
+								config: {
+									count: [{
+										tier: 1b
+										roll: {
+											type: "uniform"
+											max: 12b
+											min: 3b
+										}
+									}]
+									tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Iron/Glitched Ingot \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
+									highlightColor: 65280
+									loot: [
+										{
+											weight: 90.0d
+											item: "iron_ingot"
+										}
+										{
+											weight: 10.0d
+											item: "tfb2:glitched_ingot"
+										}
+									]
+									task: "@easy"
+									maxTier: 1b
+								}
+								uuid: [I;
+									-1911935070
+									-1706406286
+									-1383748896
+									-1696547688
+								]
+								counts: [{
+									tier: 1b
+									count: 5b
+								}]
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "the_vault:card"
+				Count: 1b
+				tag: {
+					data: {
+						tier: 1b
+						entries: [{
+							name: "{\"text\":\"Hacked Resource : Emerald\"}"
+							groups: ["Resource"]
+							model: "minecraft:emerald#inventory"
+							colors: ["WHITE"]
+							modifier: {
+								task: {
+									renderer: {
+										tooltip: "{\"text\":\"per ${target} Gilded Chests looted\"}"
+										type: "card"
+									}
+									operating: 0b
+									counter: {
+										baseTarget: 7b
+										current: 0b
+										type: "target"
+										config: {
+											variables: {
+												targetTierContribution: 1b
+											}
+											target: {
+												type: "uniform"
+												max: 7b
+												min: 6b
+											}
+										}
+										target: 7b
+									}
+									type: "loot_chest"
+									children: [ ]
+									config: {
+										filter: "@the_vault:gilded"
+									}
+								}
+								type: "task_loot"
+								config: {
+									count: [{
+										tier: 1b
+										roll: {
+											type: "uniform"
+											max: 10b
+											min: 2b
+										}
+									}]
+									tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Emerald/Glitched Gemstone \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
+									highlightColor: 65280
+									loot: [
+										{
+											weight: 90.0d
+											item: "emerald"
+										}
+										{
+											weight: 10.0d
+											item: "tfb2:glitched_gemstone"
+										}
+									]
+									task: "@easy"
+									maxTier: 1b
+								}
+								uuid: [I;
+									-852280538
+									1867008862
+									-2086623610
+									285184189
+								]
+								counts: [{
+									tier: 1b
+									count: 3b
+								}]
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "the_vault:card"
+				Count: 1b
+				tag: {
+					data: {
+						tier: 1b
+						entries: [{
+							name: "{\"text\":\"Hacked Resource : Redstone\"}"
+							groups: ["Resource"]
+							model: "minecraft:redstone#inventory"
+							colors: ["PURPLE"]
+							modifier: {
+								task: {
+									renderer: {
+										tooltip: "{\"text\":\"per ${target} Wooden Chests looted\"}"
+										type: "card"
+									}
+									operating: 0b
+									counter: {
+										baseTarget: 11b
+										current: 0b
+										type: "target"
+										config: {
+											variables: {
+												targetTierContribution: 1b
+											}
+											target: {
+												type: "uniform"
+												max: 14b
+												min: 10b
+											}
+										}
+										target: 11b
+									}
+									type: "loot_chest"
+									children: [ ]
+									config: {
+										filter: "@the_vault:wooden"
+									}
+								}
+								type: "task_loot"
+								config: {
+									count: [{
+										tier: 1b
+										roll: {
+											type: "uniform"
+											max: 25b
+											min: 5b
+										}
+									}]
+									tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Redstone/Glitched Dust \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
+									highlightColor: 65280
+									loot: [
+										{
+											weight: 90.0d
+											item: "redstone"
+										}
+										{
+											weight: 10.0d
+											item: "tfb2:glitched_dust"
+										}
+									]
+									task: "@easy"
+									maxTier: 1b
+								}
+								uuid: [I;
+									332649862
+									1306673250
+									-1268275556
+									-1248473132
+								]
+								counts: [{
+									tier: 1b
+									count: 13b
+								}]
+							}
+						}]
+					}
+				}
+			}
+		}
+	]
+}
