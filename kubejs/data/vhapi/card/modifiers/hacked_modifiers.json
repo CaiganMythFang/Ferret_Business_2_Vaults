@@ -1,0 +1,3038 @@
+{
+  "values": {    
+    "resource2_copper_coin_purple": {
+      "type": "task_loot",
+      "name": {
+        "text": "Copper Coin Card"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "lightmanscurrency:coin_copper#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "lightmanscurrency:coin_copper"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Copper Coin ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource2_copper_coin_white": {
+      "type": "task_loot",
+      "name": {
+        "text": "Copper Coin Card"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "lightmanscurrency:coin_copper#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "lightmanscurrency:coin_copper"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Copper Coin ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_iron": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Iron"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:iron_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:iron_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 12
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Iron/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_iron": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Iron"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:iron_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:iron_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 12
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Iron/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_copper": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Copper"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:copper_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:copper_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 15
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Copper/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_copper": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Copper"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:copper_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:copper_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 15
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Copper/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_gold": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Gold"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:gold_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:gold_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Gold/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_gold": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Gold"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:gold_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:gold_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Gold/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_netherite": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Netherite"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:netherite_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Netherite/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_netherite": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Netherite"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:netherite_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Netherite/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_osmium": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Osmium"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "mekanism:ingot_osmium#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:ingot_osmium"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 7
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Osmium/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_osmium": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Osmium"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "mekanism:ingot_osmium#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:ingot_osmium"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 7
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Osmium/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_zinc": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Zinc"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "create:zinc_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "create:zinc_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 12
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Zinc/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_zinc": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Zinc"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "create:zinc_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "create:zinc_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 12
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Zinc/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_tin": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Tin"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "mekanism:ingot_tin#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:ingot_tin"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 4,
+            "max": 15
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Tin/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_tin": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Tin"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "mekanism:ingot_tin#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:ingot_tin"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 4,
+            "max": 15
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Tin/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_uranium": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Uranium"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "mekanism:ingot_uranium#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:ingot_uranium"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Uranium/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_uranium": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Uranium"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "mekanism:ingot_uranium#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:ingot_uranium"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Uranium/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_lead": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Lead"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "thermal:lead_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:lead_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Lead/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_lead": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Lead"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "thermal:lead_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:lead_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 4,
+            "max": 15
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Lead/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_nickel": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Nickel"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "thermal:nickel_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:lead_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Lead/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_nickel": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Nickel"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "thermal:nickel_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:nickel_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@Medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Nickel/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_silver": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Silver"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "thermal:silver_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:silver_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Silver/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_silver": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Silver"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "thermal:silver_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:silver_ingot"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_ingot"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Silver/Glitched Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_certus": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Certus"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "ae2:certus_quartz_dust#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "ae2:certus_quartz_dust"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 12
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Certus/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_certus": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Certus"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "ae2:certus_quartz_dust#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "ae2:certus_quartz_dust"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 3,
+            "max": 12
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Certus/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_redstone": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Redstone"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:redstone#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:redstone"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 5,
+            "max": 25
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Redstone/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_redstone": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Redstone"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:redstone#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:redstone"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 5,
+            "max": 25
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Redstone/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_uraninite": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Uraninite"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "powah:uraninite#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "powah:uraninite"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 4
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Uraninite/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_uraninite": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Uraninite"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "powah:uraninite#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "powah:uraninite"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 4
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Uraninite/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_sulfur": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Sulfur"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "thermal:sulfur#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:sulfur"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Silfur/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_sulfur": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Sulfur"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "thermal:sulfur#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:sulfur"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Sulfur/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_cinnabar": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Cinnabar"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "thermal:cinnabar#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:cinnabar"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Cinnabar/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_cinnabar": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Cinnabar"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "thermal:cinnabar#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:cinnabar"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_dust"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Cinnabar/Glitched Dust ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_fluorite": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Fluorite"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "mekanism:fluorite_gem#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:fluorite_gem"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 4,
+            "max": 17
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Fluorite/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_fluorite": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Fluorite"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "mekanism:fluorite_gem#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "mekanism:fluorite_gem"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 4,
+            "max": 17
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Fluorite/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_diamond": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Diamond"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:diamond#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:diamond"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Diamond/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_diamond": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Diamond"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:diamond#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:diamond"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Diamond/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_lapis": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Lapis Lazuli"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:lapis_lazuli#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:lapis_lazuli"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 5,
+            "max": 25
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Lapis Lazuli/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_lapis": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Lapis Lazuli"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:lapis_lazuli#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:lapis_lazuli"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 5,
+            "max": 25
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Lapis Lazuli/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_dimensional": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Dimensional"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "rftoolsbase:dimensionalshard#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "rftoolsbase:dimensionalshard"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Dimensional/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_dimensional": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Dimensional Shard"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "rftoolsbase:dimensionalshard#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "rftoolsbase:dimensionalshard"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Dimensional/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_niter": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Niter"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "thermal:niter#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:niter"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Niter/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_niter": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Niter"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "thermal:niter#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "thermal:niter"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Niter/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_emerald": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Emerald"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:emerald#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:emerald"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 2,
+            "max": 10
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Emerald/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_emerald": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Emerald"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:emerald#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:emerald"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 2,
+            "max": 10
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Emerald/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_amethyst": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Amethyst"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:amethyst_shard#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:amethyst_shard"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 5,
+            "max": 25
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Amethyst/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_amethyst": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Amethyst"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:amethyst_shard#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:amethyst_shard"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 5,
+            "max": 25
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Amethyst/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_white_prismarine": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Prismarine"
+      },
+      "colors": [
+        "WHITE"
+      ],
+      "model": "minecraft:prismarine_crystals#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:prismarine_crystals"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 2,
+            "max": 10
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Prismarine/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "hacked_resource_purple_prismarine": {
+      "type": "task_loot",
+      "name": {
+        "text": "Hacked Resource : Prismarine"
+      },
+      "colors": [
+        "PURPLE"
+      ],
+      "model": "minecraft:prismarine_crystals#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 90,
+          "item": {
+            "id": "minecraft:prismarine_crystals"
+          }
+        },
+        {
+          "weight": 10,
+          "item": {
+            "id": "tfb2:glitched_gemstone"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 2,
+            "max": 10
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+ ",
+          "color": "red"
+        },
+        {
+          "text": "${count}",
+          "color": "purple"
+        },
+        {
+          "text":  " Prismarine/Glitched Gemstone ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    }
+  },
+  "pools": {
+    "hacks": [
+      {
+        "value": "hacked_resource_white_iron",
+        "weight": 25.0
+      },
+      {
+        "value": "hacked_resource_purple_iron",
+        "weight": 25.0
+      },
+      {
+        "value": "hacked_resource_white_copper",
+        "weight": 30.0
+      },
+      {
+        "value": "hacked_resource_purple_copper",
+        "weight": 30.0
+      },
+      {
+        "value": "hacked_resource_white_gold",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_gold",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_netherite",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_purple_netherite",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_white_osmium",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_osmium",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_zinc",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_purple_zinc",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_white_tin",
+        "weight": 20.0
+      },
+      {
+        "value": "hacked_resource_purple_tin",
+        "weight": 20.0
+      },
+      {
+        "value": "hacked_resource_white_uranium",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_purple_uranium",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_white_lead",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_purple_lead",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_white_nickel",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_nickel",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_silver",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_silver",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_certus",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_purple_certus",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_white_redstone",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_redstone",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_uraninite",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_purple_uraninite",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_white_sulfur",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_purple_sulfur",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_white_cinnabar",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_purple_cinnabar",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_white_fluorite",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_fluorite",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_diamond",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_diamond",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_lapis",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_purple_lapis",
+        "weight": 15.0
+      },
+      {
+        "value": "hacked_resource_white_dimensional",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_dimensional",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_niter",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_niter",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_emerald",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_emerald",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_amethyst",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_purple_amethyst",
+        "weight": 10.0
+      },
+      {
+        "value": "hacked_resource_white_prismarine",
+        "weight": 5.0
+      },
+      {
+        "value": "hacked_resource_purple_prismarine",
+        "weight": 5.0
+      }
+    ]
+  }
+}

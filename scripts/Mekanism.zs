@@ -68,70 +68,10 @@ craftingTable.addShaped("mekanism_metallurgic_infuser", <item:mekanism:metallurg
     [<item:the_vault:chromatic_steel_ingot>, <tag:items:forge:furnaces>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
-craftingTable.addShaped("mekanism_basic_thermodynamic_conductor", <item:mekanism:basic_thermodynamic_conductor> *4, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:the_vault:chromatic_steel_ingot>, <tag:items:forge:storage_blocks/copper>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("mekanism_basic_logistical_transporter", <item:mekanism:basic_logistical_transporter> *4, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:mekanism:basic_control_circuit>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
 craftingTable.addShaped("mekanism_basic_pressurized_tube", <item:mekanism:basic_pressurized_tube> *4, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:tinted_glass>, <item:the_vault:chromatic_steel_ingot>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("mekanism_basic_mechanical_pipe", <item:mekanism:basic_mechanical_pipe> *4, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:the_vault:chromatic_steel_ingot>, <tag:items:forge:storage_blocks/iron>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("mekanism_basic_universal_cable", <item:mekanism:basic_universal_cable> *4, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:redstone_block>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("mekanism_basic_tier_installer", <item:mekanism:basic_tier_installer>, [
-    [<item:minecraft:redstone_block>, <item:mekanism:basic_control_circuit>, <item:minecraft:redstone_block>],
-    [<tag:items:forge:storage_blocks/iron>, <item:the_vault:driftwood>, <tag:items:forge:storage_blocks/iron>],
-    [<item:minecraft:redstone_block>, <item:mekanism:basic_control_circuit>, <item:minecraft:redstone_block>]
-]);
-
-craftingTable.addShaped("mekanism_advanced_tier_installer", <item:mekanism:advanced_tier_installer>, [
-    [<item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>],
-    [<item:mekanism:block_osmium>, <item:mekanism:basic_tier_installer>, <item:mekanism:block_osmium>],
-    [<item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>]
-]);
-
-craftingTable.addShaped("mekanism_elite_tier_installer", <item:mekanism:elite_tier_installer>, [
-    [<item:mekanism:alloy_reinforced>, <item:the_vault:gem_pog>, <item:mekanism:alloy_reinforced>],
-    [<tag:items:forge:storage_blocks/gold>, <item:mekanism:advanced_tier_installer>, <tag:items:forge:storage_blocks/gold>],
-    [<item:mekanism:alloy_reinforced>, <item:mekanism:elite_control_circuit>, <item:mekanism:alloy_reinforced>]
-]);
-
-craftingTable.addShaped("mekanism_ultimate_tier_installer", <item:mekanism:ultimate_tier_installer>, [
-    [<item:mekanism:alloy_atomic>, <tag:items:forge:storage_blocks/diamond>, <item:mekanism:alloy_atomic>],
-    [<tag:items:forge:storage_blocks/diamond>, <item:mekanism:elite_tier_installer>, <tag:items:forge:storage_blocks/diamond>],
-    [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>]
-]);
-
-craftingTable.addShaped("mekanism_upgrade_speed", <item:mekanism:upgrade_speed> *2, [
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
-    [<item:mekanism:alloy_infused>, <item:mekanism:block_osmium>, <item:mekanism:alloy_infused>],
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("mekanism_upgrade_energy", <item:mekanism:upgrade_energy> *2, [
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
-    [<item:mekanism:alloy_infused>, <tag:items:forge:storage_blocks/gold>, <item:mekanism:alloy_infused>],
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("mekanism_upgrade_filter", <item:mekanism:upgrade_filter> *2, [
@@ -140,11 +80,7 @@ craftingTable.addShaped("mekanism_upgrade_filter", <item:mekanism:upgrade_filter
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShaped("mekanism_upgrade_gas", <item:mekanism:upgrade_gas> *2, [
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
-    [<item:mekanism:alloy_infused>, <tag:items:forge:storage_blocks/iron>, <item:mekanism:alloy_infused>],
-    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
-]);
+
 
 craftingTable.addShaped("mekanism_upgrade_stone_generator", <item:mekanism:upgrade_stone_generator> *1, [
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
@@ -152,40 +88,10 @@ craftingTable.addShaped("mekanism_upgrade_stone_generator", <item:mekanism:upgra
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShaped("mekanism_energy_tablet", <item:mekanism:energy_tablet>, [
-    [<item:minecraft:redstone_block>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:redstone_block>],
-    [<item:mekanism:alloy_infused>, <tag:items:forge:storage_blocks/gold>, <item:mekanism:alloy_infused>],
-    [<item:minecraft:redstone_block>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:redstone_block>]
-]);
 
-craftingTable.addShaped("mekanism_digital_miner", <item:mekanism:digital_miner>, [
-    [<item:mekanism:alloy_atomic>, <item:the_vault:omega_pog>, <item:mekanism:alloy_atomic>],
-    [<item:mekanism:logistical_sorter>, <item:mekanism:robit>, <item:mekanism:logistical_sorter>],
-    [<item:mekanism:teleportation_core>, <item:mekanism:steel_casing>, <item:mekanism:teleportation_core>]
-]);
 
-craftingTable.addShaped("mekanism_basic_energy_cube", <item:mekanism:basic_energy_cube>, [
-    [<item:minecraft:redstone_block>, <item:mekanism:energy_tablet>, <item:minecraft:redstone_block>],
-    [<item:mekanism:energy_tablet>, <item:mekanism:alloy_infused>, <item:mekanism:energy_tablet>],
-    [<item:minecraft:redstone_block>, <item:mekanism:energy_tablet>, <item:minecraft:redstone_block>]
-]);
 
-craftingTable.addShaped("mekanism_steel_casing", <item:mekanism:steel_casing>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_larimar>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:mekanism:block_steel>, <item:mekanism:block_osmium>, <item:mekanism:block_steel>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_larimar>, <item:the_vault:chromatic_steel_ingot>]
-]);
 
-craftingTable.addShaped("mekanism_basic_tank", <item:mekanism:basic_fluid_tank>, [
-    [<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>],
-    [<item:minecraft:tinted_glass>, <item:minecraft:air>, <item:minecraft:tinted_glass>],
-    [<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>]
-]);
 
-craftingTable.addShaped("mekanismgenerators_generatorgas_burning", <item:mekanismgenerators:gas_burning_generator>, [
-    [<item:the_vault:gem_pog>, <tag:items:mekanism:alloys/infused>, <item:the_vault:gem_pog>], 
-    [<item:mekanism:steel_casing>, <item:mekanism:electrolytic_core>, <item:mekanism:steel_casing>], 
-    [<item:the_vault:gem_pog>, <tag:items:mekanism:alloys/infused>, <item:the_vault:gem_pog>]
-]);
 
 <recipetype:mekanism:crushing>.addRecipe("buildinggadgets_block_to_paste_mekanism", ItemStackIngredient.from(<item:buildinggadgets:construction_block_dense>), <item:buildinggadgets:construction_paste> * 4);

@@ -1,0 +1,96 @@
+{
+  "values": {
+    "the_vault:hacked_pack": {
+      "name": {
+        "text": "Hacked Booster Pack"
+      },
+      "model": {
+        "unopened": "the_vault:booster_pack/hacked_pack#inventory",
+        "opened": "the_vault:booster_pack/hacked_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@hacks",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@hacks",
+              "groups": [
+                "Foil"
+              ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:test_pack": {
+      "name": {
+        "text": "Test Booster Pack"
+      },
+      "model": {
+        "unopened": "the_vault:booster_pack/stat_pack#inventory",
+        "opened": "the_vault:booster_pack/stat_pack#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@resource2",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource2",
+              "groups": [
+                "Foil"
+              ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

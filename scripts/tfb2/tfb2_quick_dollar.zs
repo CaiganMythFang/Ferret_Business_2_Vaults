@@ -1,0 +1,1 @@
+craftingTable.addShapeless("quick_dollar_recipe",<item:tfb2:ferret_dollar>, [<item:minecraft:ender_pearl>,<item:the_vault:vault_bronze>]);

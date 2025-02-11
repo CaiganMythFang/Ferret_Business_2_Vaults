@@ -5,6 +5,11 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Ferret Business Blind Box of Blind Boxes! '))
-        .tooltip(text.darkPurple('Right Click me to get yourself a random Blind Box!'))
-})
+});
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:blindboxblindbox', (item, advanced, text) => {
+    text.add(1, [Text.of('A Ferret Business Blind Box of Blind Boxes!').lightPurple()])
+    text.add(2, [Text.of('Right Click me to get yourself a random Blind Box!').darkPurple()])
+    })
+});

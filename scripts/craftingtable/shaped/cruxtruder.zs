@@ -1,0 +1,1 @@
+craftingTable.addShaped("cruxtruder",<item:minestuck:cruxtruder>, [[<item:minecraft:air>,<item:minestuck:raw_cruxite>,<item:minecraft:air>],[<item:minecraft:air>,<item:minestuck:blank_disk>,<item:minecraft:air>],[<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>]]);

@@ -1,0 +1,1 @@
+craftingTable.addShaped("punch_designix",<item:minestuck:punch_designix>, [[<item:minestuck:cruxite_dowel>,<item:minecraft:air>,<item:minestuck:cruxite_dowel>],[<item:minecraft:piston>,<item:minestuck:blank_disk>,<item:minecraft:piston>],[<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>]]);

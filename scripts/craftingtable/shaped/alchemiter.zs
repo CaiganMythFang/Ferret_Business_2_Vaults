@@ -1,0 +1,1 @@
+craftingTable.addShaped("alchemiter",<item:minestuck:alchemiter>, [[<item:architects_palette:unobtanium_block>,<item:minestuck:cruxite_dowel>,<item:minecraft:air>],[<item:minestuck:blank_disk>,<item:minecraft:air>,<item:minecraft:air>],[<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>]]);

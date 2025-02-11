@@ -49,6 +49,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:is_river
 - minecraft:river
 - minecraft:frozen_river
+- tectonic:cold_river
+- tectonic:warm_river
+- tectonic:lukewarm_river
+- #tectonic:is_underground_river
 - minecraft:river
 - minecraft:frozen_river
 
@@ -74,6 +78,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:savanna_plateau
 - minecraft:dripstone_caves
 - minecraft:lush_caves
+- wildbackport:mangrove_swamp
+- tectonic:island
+- tectonic:cold_plains
+- tectonic:desert_dunes
+- tectonic:grasslands
+- tectonic:autumn_forest
+- tectonic:autumn_birch_forest
 - #minecraft:is_ocean
 - #minecraft:is_river
 - #minecraft:is_beach
@@ -259,6 +270,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:yosemite_cliffs
 - terralith:yosemite_lowlands
 
+#tectonic:is_underground_river
+- tectonic:coral_river
+- tectonic:dripstone_river
+- tectonic:icy_river
+- tectonic:lantern_river
+- tectonic:lush_river
+
 #c:savanna
 - terralith:arid_highlands
 - terralith:ashen_savanna
@@ -296,6 +314,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cold_ocean
 - minecraft:lukewarm_ocean
 - minecraft:warm_ocean
+- tectonic:lagoon
 - #minecraft:is_deep_ocean
 - minecraft:frozen_ocean
 - minecraft:ocean
@@ -378,6 +397,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:orchid_swamp
 
 #forge:is_hot/overworld
+- tectonic:desert_dunes
+- tectonic:red_desert
+- tectonic:red_desert_dunes
+- tectonic:sandstone_cliffs
+- tectonic:grasslands
+- tectonic:badlands_spires
 - minecraft:desert
 - minecraft:jungle
 - minecraft:sparse_jungle
@@ -544,6 +569,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #c:in_nether?
 
 #forge:is_desert
+- tectonic:desert_dunes
+- tectonic:red_desert
+- tectonic:red_desert_dunes
 - terralith:desert_canyon
 - terralith:desert_oasis
 - terralith:desert_spires
@@ -635,6 +663,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:is_badlands
 - #minecraft:is_badlands
 
+#c:underground
+- #tectonic:is_underground_river
+
 #forge:is_peak
 - minecraft:jagged_peaks
 - minecraft:frozen_peaks
@@ -656,6 +687,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:rocky_shrubland
 
 #forge:is_wet/overworld
+- tectonic:cold_beach
+- tectonic:lukewarm_beach
+- tectonic:island
 - minecraft:swamp
 - minecraft:jungle
 - minecraft:bamboo_jungle
@@ -678,6 +712,37 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:white_cliffs
 - terralith:yellowstone
 - terralith:cave/thermal_caves
+
+#tectonic:all_tectonic_biomes
+- tectonic:alpine_meadow
+- tectonic:autumn_birch_forest
+- tectonic:autumn_forest
+- tectonic:cold_beach
+- tectonic:cold_cliffs
+- tectonic:cold_plains
+- tectonic:cold_river
+- tectonic:coral_river
+- tectonic:desert_dunes
+- tectonic:dripstone_river
+- tectonic:grasslands
+- tectonic:icy_cliffs
+- tectonic:icy_river
+- tectonic:island
+- tectonic:lagoon
+- tectonic:lantern_river
+- tectonic:lukewarm_beach
+- tectonic:lukewarm_cliffs
+- tectonic:lukewarm_river
+- tectonic:lush_river
+- tectonic:old_growth_snowy_taiga
+- tectonic:red_desert
+- tectonic:red_desert_dunes
+- tectonic:sandstone_cliffs
+- tectonic:warm_river
+- tectonic:badlands_spires
+- tectonic:evergreen_forest
+- tectonic:old_growth_evergreen_forest
+- tectonic:white_cliffs
 
 #c:vegetation_dense
 - terralith:jungle_mountains
@@ -722,6 +787,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:snowy_taiga
 - minecraft:snowy_plains
 - minecraft:snowy_slopes
+- tectonic:old_growth_snowy_taiga
 - minecraft:snowy_taiga
 - minecraft:snowy_plains
 - minecraft:snowy_slopes
@@ -803,6 +869,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:orchid_swamp
 
 #forge:is_plains
+- tectonic:grasslands
+- tectonic:cold_plains
 - minecraft:plains
 - minecraft:snowy_plains
 - minecraft:meadow
@@ -849,6 +917,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #rottencreatures:undead_miner_blacklist
 - minecraft:mushroom_fields
 
+#tectonic:is_desert_dunes
+- tectonic:desert_dunes
+- tectonic:red_desert_dunes
+
+#wildbackport:spawns_warm_variant_frogs
+- minecraft:desert
+- minecraft:warm_ocean
+- #minecraft:is_jungle
+- #minecraft:has_structure/village_savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- #minecraft:is_nether
+- #minecraft:is_badlands
+- wildbackport:mangrove_swamp
+
+#c:in_overworld
+- #tectonic:all_tectonic_biomes
+
 #c:tree_jungle
 - terralith:amethyst_rainforest
 - terralith:jungle_mountains
@@ -864,6 +950,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minestuck:land
 
 #forge:is_sandy
+- tectonic:sandstone_cliffs
 - minecraft:desert
 - minecraft:badlands
 - minecraft:wooded_badlands
@@ -925,11 +1012,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #quark:stoneling_pathfinding
 - quark:glimmering_weald
 
-#minestuck:has_structure/frog_temple
-- #forge:is_overworld
+#wildbackport:spawns_cold_variant_frogs
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:snowy_slopes
+- minecraft:frozen_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:grove
+- wildbackport:deep_dark
+- minecraft:frozen_river
+- minecraft:snowy_taiga
+- minecraft:snowy_beach
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_barrens
+- #minecraft:has_structure/end_city
 
 #minecraft:has_structure/desert_pyramid
 - minecraft:desert
+- tectonic:desert_dunes
 - minecraft:desert
 - terralith:desert_oasis
 - terralith:sandstone_valley
@@ -1012,10 +1115,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:warped_forest
 
 #forge:is_lush
+- tectonic:lush_river
 - minecraft:lush_caves
 - terralith:white_cliffs
 
 #forge:is_dry/overworld
+- tectonic:desert_dunes
+- tectonic:red_desert
+- tectonic:red_desert_dunes
+- tectonic:badlands_spires
 - minecraft:desert
 - minecraft:badlands
 - minecraft:wooded_badlands
@@ -1084,6 +1192,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:cave/thermal_caves
 
 #c:desert
+- tectonic:desert_dunes
 - terralith:desert_canyon
 - terralith:desert_oasis
 - terralith:desert_spires
@@ -1147,8 +1256,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lukewarm_ocean
 - minecraft:warm_ocean
 - minecraft:deep_lukewarm_ocean
+- tectonic:island
+- tectonic:lagoon
 
 #c:shallow_ocean
+- tectonic:lagoon
 
 #betteroceanmonuments:has_structure/better_ocean_monument
 - #minecraft:is_deep_ocean
@@ -1216,6 +1328,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:skylands_spring
 
 #c:tree_deciduous
+- tectonic:autumn_birch_forest
+- tectonic:autumn_forest
 - terralith:alpha_islands
 - terralith:alpha_islands_winter
 - terralith:alpine_highlands
@@ -1233,6 +1347,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #minecraft:has_structure/village_desert
 - minecraft:desert
+- tectonic:desert_dunes
 - minecraft:desert
 - terralith:sandstone_valley
 - terralith:desert_oasis
@@ -1270,6 +1385,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:cloud_forest
 
 #minecraft:is_overworld
+- #tectonic:all_tectonic_biomes
 - #terralith:all_terralith_biomes
 
 #c:icy
@@ -1312,6 +1428,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:snowy_beach
 - minecraft:stony_shore
 - minecraft:mushroom_fields
+- wildbackport:mangrove_swamp
+- integrateddynamics:meneglin
+- tropicraft:tropics
+- tropicraft:beach
+- tropicraft:mangroves
+- tropicraft:overgrown_mangroves
+- tropicraft:tropical_peaks
 
 #minecraft:has_structure/village_savanna
 - minecraft:savanna
@@ -1322,6 +1445,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:savanna_badlands
 
 #c:stony_shores
+- tectonic:cold_cliffs
+- tectonic:lukewarm_cliffs
 - terralith:amethyst_canyon
 - terralith:basalt_cliffs
 - terralith:granite_cliffs
@@ -1410,6 +1535,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:has_structure/village_plains
 - minecraft:plains
 - minecraft:meadow
+- tectonic:grasslands
+- tectonic:cold_plains
 - minecraft:plains
 - minecraft:meadow
 - terralith:blooming_plateau
@@ -1477,12 +1604,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #minecraft:has_structure/ruined_portal_desert
 - minecraft:desert
+- tectonic:desert_dunes
 - minecraft:desert
 - terralith:sandstone_valley
 - terralith:desert_spires
 - terralith:desert_oasis
 
 #forge:is_snowy
+- tectonic:old_growth_snowy_taiga
 - minecraft:frozen_ocean
 - minecraft:frozen_river
 - minecraft:snowy_plains
@@ -1517,6 +1646,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #minecraft:has_structure/ruined_portal_swamp
 - minecraft:swamp
+- wildbackport:mangrove_swamp
 - minecraft:swamp
 - terralith:orchid_swamp
 - terralith:ice_marsh
@@ -1525,8 +1655,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:savanna
 - minecraft:savanna_plateau
 
-#minestuck:has_structure/consort_village
-- #minestuck:land/normal
+#c:icy_cliffs
+- tectonic:icy_cliffs
 
 #bettermineshafts:has_structure/has_mineshaft_mesa
 - #minecraft:is_badlands
@@ -1585,6 +1715,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:cave/desert_caves
 
 #forge:is_underground
+- wildbackport:deep_dark
+- #tectonic:is_underground_river
 - minecraft:lush_caves
 - minecraft:dripstone_caves
 - terralith:cave/andesite_caves
@@ -1611,6 +1743,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:is_beach
 - minecraft:beach
 - minecraft:snowy_beach
+- tectonic:cold_beach
+- tectonic:lukewarm_beach
 - minecraft:beach
 - minecraft:snowy_beach
 - terralith:gravel_beach
@@ -1628,6 +1762,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:snowy_plains
 - minecraft:plains
 - minecraft:sunflower_plains
+- tectonic:grasslands
+- tectonic:cold_plains
+- tectonic:autumn_forest
+- tectonic:autumn_birch_forest
+- tectonic:evergreen_forest
+- tectonic:old_growth_evergreen_forest
 - #minecraft:is_beach
 - #minecraft:is_river
 - #minecraft:is_taiga
@@ -1641,6 +1781,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:plains
 - minecraft:sunflower_plains
 
+#wildbackport:allows_surface_slime_spawns
+- minecraft:swamp
+- wildbackport:mangrove_swamp
+
 #minecraft:has_structure/pillager_outpost
 - minecraft:desert
 - minecraft:plains
@@ -1649,6 +1793,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:taiga
 - #minecraft:is_mountain
 - minecraft:grove
+- tectonic:grasslands
+- tectonic:cold_plains
 - minecraft:desert
 - minecraft:plains
 - minecraft:savanna
@@ -1674,11 +1820,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:warped_mesa
 - terralith:white_mesa
 
+#createdieselgenerators:oil_biomes
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:desert
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:eroded_badlands
+- minecraft:plains
+- minecraft:deep_ocean
+- minecraft:deep_lukewarm_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ocean
+- minecraft:warm_ocean
+- minecraft:lukewarm_ocean
+- minecraft:cold_ocean
+- minecraft:frozen_ocean
+
 #minecraft:is_taiga
 - minecraft:taiga
 - minecraft:snowy_taiga
 - minecraft:old_growth_pine_taiga
 - minecraft:old_growth_spruce_taiga
+- tectonic:old_growth_snowy_taiga
 - minecraft:taiga
 - minecraft:snowy_taiga
 - minecraft:old_growth_pine_taiga
@@ -1690,6 +1855,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:forested_highlands
 - terralith:wintry_forest
 - terralith:yosemite_lowlands
+
+#tectonic:is_oceanside_cliff
+- minecraft:stony_shore
+- tectonic:cold_cliffs
+- tectonic:icy_cliffs
+- tectonic:lukewarm_cliffs
+- tectonic:sandstone_cliffs
+- tectonic:white_cliffs
 
 #forge:is_sparse
 - minecraft:windswept_forest
@@ -1705,6 +1878,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dripstone_caves
 
 #forge:is_swamp
+- wildbackport:mangrove_swamp
 - minecraft:swamp
 - terralith:ice_marsh
 - terralith:orchid_swamp
@@ -1727,6 +1901,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:jagged_peaks
 - minecraft:stony_peaks
 - minecraft:snowy_slopes
+- tectonic:alpine_meadow
 - #forge:is_peak
 - #forge:is_slope
 - minecraft:meadow
@@ -1741,6 +1916,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:volcanic_peaks
 
 #c:plains
+- tectonic:grasslands
+- tectonic:cold_plains
 - terralith:highlands
 
 #minecraft:has_structure/village_snowy
@@ -1755,6 +1932,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:meadow
 
 #c:snowy
+- tectonic:old_growth_snowy_taiga
 - terralith:alpha_islands_winter
 - terralith:alpine_grove
 - terralith:cold_shrubland
@@ -1778,6 +1956,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:badlands
 - minecraft:eroded_badlands
 - minecraft:wooded_badlands
+- tectonic:red_desert
+- tectonic:red_desert_dunes
+- tectonic:badlands_spires
 - minecraft:badlands
 - minecraft:eroded_badlands
 - minecraft:wooded_badlands
@@ -1955,6 +2136,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - terralith:yosemite_cliffs
 
 #forge:is_cold/overworld
+- tectonic:cold_plains
+- tectonic:alpine_meadow
+- tectonic:old_growth_snowy_taiga
+- tectonic:cold_cliffs
+- tectonic:cold_beach
+- tectonic:cold_river
+- tectonic:icy_cliffs
+- tectonic:icy_river
+- tectonic:white_cliffs
 - minecraft:taiga
 - minecraft:frozen_ocean
 - minecraft:frozen_river
@@ -2014,6 +2204,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lush_caves
 
 #forge:is_dense/overworld
+- tectonic:old_growth_snowy_taiga
 - minecraft:jungle
 - minecraft:dark_forest
 - minecraft:old_growth_birch_forest

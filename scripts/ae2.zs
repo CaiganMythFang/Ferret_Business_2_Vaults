@@ -110,7 +110,7 @@ craftingTable.addShapeless("ae2_storage_cell_16k_shapeless", <item:ae2:item_stor
 
 craftingTable.addShaped("ae2_64k_component", <item:ae2:cell_component_64k>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:ae2:cell_component_16k>, <item:the_vault:echo_pog>, <item:ae2:cell_component_16k>],
+    [<item:ae2:cell_component_16k>, <item:the_vault:gem_pog>, <item:ae2:cell_component_16k>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:cell_component_16k>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
@@ -120,7 +120,7 @@ craftingTable.addShapeless("ae2_storage_cell_64k_shapeless", <item:ae2:item_stor
 
 craftingTable.addShaped("ae2_256k_component", <item:ae2:cell_component_256k>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:ae2:cell_component_64k>, <item:the_vault:echo_pog>, <item:ae2:cell_component_64k>],
+    [<item:ae2:cell_component_64k>, <item:the_vault:pog_prism>, <item:ae2:cell_component_64k>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:cell_component_64k>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
@@ -248,11 +248,6 @@ craftingTable.addShaped("ae2_crafting_unit", <item:ae2:crafting_unit>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
-craftingTable.addShaped("ae2_wireless_crafting_terminal", <item:ae2:wireless_crafting_terminal>, [
-    [<item:minecraft:air>, <item:ae2:wireless_receiver>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:crafting_terminal>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:dense_energy_cell>, <item:minecraft:air>]
-]);
 
 craftingTable.addShapeless("ae2_shapeless_wireless_crafting_terminal", <item:ae2:wireless_crafting_terminal>, [
 <item:ae2:wireless_terminal>, <item:ae2:calculation_processor>, <item:the_vault:echo_pog>, <item:minecraft:crafting_table>

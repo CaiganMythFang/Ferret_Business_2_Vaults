@@ -58,11 +58,12 @@ onEvent('item.registry', event => {
 	event.create('woldsvaults:arcane_essence').group('the_vault').displayName('Arcane Essence')
 	event.create('woldsvaults:arcane_shard').group('the_vault').displayName('Arcane Shard')
 	event.create('woldsvaults:extraordinary_pog_prism').group('the_vault').displayName('Extraordinary Pog Prism')
+	event.create('woldsvaults:heart_of_chaos').group('the_vault').displayName('Heart of Chaos')
 })
 
 onEvent('block.registry', event => {
-	event.create('the_vault:silver_scrap_block').displayName('1x Compressed Silver Scrap').tagBlock('minecraft:mineable/pickaxe')
-	event.create('the_vault:silver_scrap_block_2').displayName('2x Compressed Silver Scrap').tagBlock('minecraft:mineable/pickaxe')
+	event.create('the_vault:silver_scrap_1').displayName('1x Compressed Silver Scrap').tagBlock('minecraft:mineable/pickaxe')
+	event.create('the_vault:silver_scrap_2').displayName('2x Compressed Silver Scrap').tagBlock('minecraft:mineable/pickaxe')
 	event.create('the_vault:chromatic_gold_block').displayName('Block of Chromatic Gold').tagBlock('minecraft:mineable/pickaxe').tag('forge:storage_blocks/chromatic_gold')
 	//Gem Blocks
 	event.create('the_vault:block_gem_larimar').displayName('Block of Larimar Gem').tagBlock('forge:storage_blocks/larimar').tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:beacon_base_blocks')

@@ -1,0 +1,56 @@
+onEvent('jei.hide.items', event => {
+    event.hide('pneumaticcraft:jet_boots_upgrade_1')
+    event.hide('pneumaticcraft:jet_boots_upgrade_2')
+    event.hide('pneumaticcraft:jet_boots_upgrade_3')
+    event.hide('pneumaticcraft:jet_boots_upgrade_4')
+    event.hide('pneumaticcraft:jet_boots_upgrade_5')
+    event.hide('pneumaticcraft:jumping_upgrade_1')
+    event.hide('pneumaticcraft:jumping_upgrade_2')
+    event.hide('pneumaticcraft:jumping_upgrade_3')
+    event.hide('pneumaticcraft:jumping_upgrade_4')
+    event.hide('pneumaticcraft:elytra_upgrade')
+    event.hide('pneumaticcraft:creative_upgrade')
+    event.hide('farmingforblockheads:green_fertilizer')
+    event.hide('farmingforblockheads:red_fertilizer')
+    event.hide('farmingforblockheads:yellow_fertilizer')
+    event.hide('sophisticatedvaultupgrades:debagnetizer')
+    event.hide(/mysticalagriculture:.*_helmet/)
+    event.hide(/mysticalagriculture:.*_chestplate/)
+    event.hide(/mysticalagriculture:.*_leggings/)
+    event.hide(/mysticalagriculture:.*_boots/)
+    event.hide(/mysticalagriculture:.*_sword/)
+    event.hide(/mysticalagriculture:.*_pickaxe/)
+    event.hide(/mysticalagriculture:.*_shovel/)
+    event.hide(/mysticalagriculture:.*_axe/)
+    event.hide(/mysticalagriculture:.*_bow/)
+    event.hide(/mysticalagriculture:.*_crossbow/)
+    event.hide(/mysticalagriculture:.*_augment/)
+    event.hide('angelring:itemring')
+    event.hide('angelring:energetic_angel_ring')
+    event.hide('angelring:leadstone_angel_ring')
+    event.hide('angelring:hardened_angel_ring')
+    event.hide('angelring:reinforced_angel_ring')
+    event.hide('angelring:resonant_angel_ring')
+    event.hide(/davespotioneering:.*_umbrella/)
+
+    //Blocks with rendering/crashing issues
+    event.hide('blockcarpentry:frame_sign')
+    event.hide('blockcarpentry:illusion_sign')
+    event.hide(/ecologics:.*_sign/)
+    event.hide(/quark:.*_sign/)
+    event.hide(/twigs:.*_sign/)
+})
+
+
+
+onEvent('jei.add.items', event => {
+    let modifierTypes = ["reaping", "picking", "axing", "shovelling", "ornate_affinity", "coin_affinity", "gilded_affinity", "living_affinity", "wooden_affinity", "hammering", "hydrovoid", "rotating", "durability", "immortality", "mining_speed", "item_quantity", "item_rarity", "trap_disarming", "soulbound", "smelting", "pulverizing"];
+    event.add('the_vault:shop_pedestal')
+
+    modifierTypes.forEach(type => {
+        event.add(Item.of('woldsvaults:chiseling_focus', { modifier: `the_vault:${type}` }))
+    })
+})
+onEvent('jei.add.items', event => {
+    event.add(Item.of('example:item', { test: 123 }))
+})

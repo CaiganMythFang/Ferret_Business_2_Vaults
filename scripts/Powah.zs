@@ -161,23 +161,6 @@ JEI.hideIngredient(<item:powah:player_transmitter_starter>);
   }
 });
 
-craftingTable.addShapeless("powah_dielectric_paste", <item:powah:dielectric_paste> * 4, [
-	<item:the_vault:gem_larimar>, <item:the_vault:carbon>,
-	<item:the_vault:chromatic_iron_ingot>, <item:the_vault:magic_silk>
-]);
-
-craftingTable.addShaped("powah_dielectric_rod", <item:powah:dielectric_rod> *2, [
-	[<item:powah:dielectric_paste>, <item:the_vault:gem_larimar>, <item:powah:dielectric_paste>],
-	[<item:powah:dielectric_paste>, <item:the_vault:chromatic_iron_ingot>, <item:powah:dielectric_paste>],
-	[<item:powah:dielectric_paste>, <item:the_vault:gem_larimar>, <item:powah:dielectric_paste>]
-]);
-
-craftingTable.addShaped("powah_dielectric_rod_horizontal", <item:powah:dielectric_rod_horizontal> *2, [
-	[<item:powah:dielectric_paste>, <item:powah:dielectric_paste>, <item:powah:dielectric_paste>],
-	[<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>],
-	[<item:powah:dielectric_paste>, <item:powah:dielectric_paste>, <item:powah:dielectric_paste>]
-]);
-
 craftingTable.addShaped("powah_dielectric_casing", <item:powah:dielectric_casing>, [
 	[<item:the_vault:chromatic_iron_ingot>, <item:powah:dielectric_rod_horizontal>, <item:the_vault:chromatic_iron_ingot>],
 	[<item:powah:dielectric_rod>, <item:the_vault:chromatic_steel_ingot>, <item:powah:dielectric_rod>],
@@ -242,12 +225,6 @@ craftingTable.addShaped("powah_photoelectric_pane", <item:powah:photoelectric_pa
 	[<item:the_vault:driftwood>, <item:powah:dielectric_paste>, <item:the_vault:driftwood>],
 	[<item:powah:dielectric_paste>, <item:minecraft:tinted_glass>, <item:powah:dielectric_paste>],
 	[<item:the_vault:driftwood>, <item:powah:dielectric_paste>, <item:the_vault:driftwood>]
-]);
-
-craftingTable.addShaped("powah_tiny_basic_capacitor", <item:powah:capacitor_basic_tiny> * 2, [
-	[<item:the_vault:magic_silk>, <item:the_vault:gem_larimar>, <item:the_vault:magic_silk>],
-	[<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>],
-	[<item:the_vault:magic_silk>, <item:the_vault:gem_larimar>, <item:the_vault:magic_silk>]
 ]);
 
 craftingTable.addShaped("powah_large_basic_capacitor", <item:powah:capacitor_basic_large>, [

@@ -1,0 +1,1 @@
+craftingTable.addShaped("grist_widget_1200",<item:minestuck:grist_widget>, [[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],[<item:minestuck:raw_uranium>,<item:minestuck:blank_disk>,<item:minestuck:raw_uranium>],[<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>,<item:architects_palette:unobtanium_block>]]);

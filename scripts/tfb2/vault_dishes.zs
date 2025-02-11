@@ -1,0 +1,3 @@
+// Vault Dish - Adobo
+craftingTable.addShapeless("vault_dish_adobo", <item:tfb2:vault_dish_adobo>, [<item:the_vault:scavenger_zombie_blood_vial>, <item:the_vault:scavenger_zombie_blood_vial>, <item:the_vault:scavenger_zombie_blood_vial>, <item:the_vault:scavenger_goblet>, <item:the_vault:vault_rock>, <item:the_vault:scavenger_skeleton_soul_charm>, <item:the_vault:scavenger_cracked_script>, <item:the_vault:scavenger_spider_vial>, <item:the_vault:scavenger_wutodic_gemstone>
+]);

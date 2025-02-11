@@ -5,9 +5,15 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('An undiscovered Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('Right Click to determine which vulnerability.'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_card', (item, advanced, text) => {
+    text.add(1, [Text.of('An undiscovered Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('Right Click to determine which vulnerability.').lightPurple()])
+    })
+});
+
 // Vulnerability - DOS - A
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_dos_a')
@@ -15,10 +21,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('Healthy fruit covered in chocolate.'))
-        .tooltip(text.darkPurple('A sugar overload either way...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_dos_a', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('Healthy fruit covered in chocolate.').lightPurple()])
+    text.add(3, [Text.of('A sugar overload either way...').darkPurple()])
+    })
+});
+
 // Vulnerability - DOS - B
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_dos_b')
@@ -26,10 +38,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A fancy sprinkle covered frosted donut.'))
-        .tooltip(text.darkPurple('A two hit combo of fats and sugars...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_dos_b', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A fancy sprinkle covered frosted donut.').lightPurple()])
+    text.add(3, [Text.of('A two hit combo of fats and sugars...').darkPurple()])
+    })
+});
+
 // Vulnerability - DOS - C
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_dos_c')
@@ -37,10 +55,16 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A very large, fruity gummy bear.'))
-        .tooltip(text.darkPurple('Hard to resist, the pure sugar cuteness...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_dos_c', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A very large, fruity gummy bear.').lightPurple()])
+    text.add(3, [Text.of('Hard to resist, the pure sugar cuteness...').darkPurple()])
+    })
+});
+
 // Vulnerability - DOS - D
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_dos_d')
@@ -48,10 +72,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('An oversized piece of candy corn'))
-        .tooltip(text.darkPurple('Pure bliss to some, hatred to others...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_dos_d', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('An oversized piece of candy corn').lightPurple()])
+    text.add(3, [Text.of('Pure bliss to some, hatred to others...').darkPurple()])
+    })
+});
+
 // Vulnerability - HACKING - A
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_hack_a')
@@ -59,10 +89,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A sharp and glittering kunai'))
-        .tooltip(text.darkPurple('Throw, stab, slice, it is getting in...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_hack_a', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A sharp and glittering kunai').lightPurple()])
+    text.add(3, [Text.of('Throw, stab, slice, it is getting in...').darkPurple()])
+    })
+});
+
 // Vulnerability - HACKING - B
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_hack_b')
@@ -70,10 +106,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A small, razor sharp shuriken'))
-        .tooltip(text.darkPurple('Thrown so fast, only a shimmer before it hits...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_hack_b', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A small, razor sharp shuriken').lightPurple()])
+    text.add(3, [Text.of('Thrown so fast, only a shimmer before it hits...').darkPurple()])
+    })
+});
+
 // Vulnerability - HACKING - C
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_hack_c')
@@ -81,10 +123,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A heavy baseball bat'))
-        .tooltip(text.darkPurple('Brute force, tried and true...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_hack_c', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A heavy baseball bat').lightPurple()])
+    text.add(3, [Text.of('Brute force, tried and true...').darkPurple()])
+    })
+});
+
 // Vulnerability - HACKING - D
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_hack_d')
@@ -92,10 +140,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A dangerously glowing magic wand'))
-        .tooltip(text.darkPurple('If one magic missile never misses...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_hack_d', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A dangerously glowing magic wand').lightPurple()])
+    text.add(3, [Text.of('If one magic missile never misses...').darkPurple()])
+    })
+});
+
 // Vulnerability - Social Engineering - A
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_soceng_a')
@@ -103,10 +157,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('The strongest energy drink'))
-        .tooltip(text.darkPurple('Sugar and caffine make you jittery...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_soceng_a', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('The strongest energy drink').lightPurple()])
+    text.add(3, [Text.of('Sugar and caffine make you jittery...').darkPurple()])
+    })
+});
+
 // Vulnerability - Social Engineering - B
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_soceng_b')
@@ -114,10 +174,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('An artistic cup of coffee'))
-        .tooltip(text.darkPurple('Elegant designs and pretentious talks...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_soceng_b', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('An artistic cup of coffee').lightPurple()])
+    text.add(3, [Text.of('Elegant designs and pretentious talks...').darkPurple()])
+    })
+});
+
 // Vulnerability - Social Engineering - C
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_soceng_c')
@@ -125,10 +191,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A fancy cosmopolitan'))
-        .tooltip(text.darkPurple('Sweet and tart and alcoholic...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_soceng_c', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A fancy cosmopolitan').lightPurple()])
+    text.add(3, [Text.of('Sweet and tart and alcoholic...').darkPurple()])
+    })
+});
+
 // Vulnerability - Social Engineering - D
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_soceng_d')
@@ -136,10 +208,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A lowball of whiskey'))
-        .tooltip(text.darkPurple('Strong and smooth, easy to talk...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_soceng_d', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A lowball of whiskey').lightPurple()])
+    text.add(3, [Text.of('Strong and smooth, easy to talk...').darkPurple()])
+    })
+});
+
 // Vulnerability - Spoofing - A
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_spoofing_a')
@@ -147,10 +225,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A simple, classic mining pick'))
-        .tooltip(text.darkPurple('Common down in the mines, makes perfect openings...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_spoofing_a', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A simple, classic mining pick').lightPurple()])
+    text.add(3, [Text.of('Common down in the mines, makes perfect openings...').darkPurple()])
+    })
+});
+
 // Vulnerability - Spoofing - B
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_spoofing_b')
@@ -158,10 +242,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A small set of tools'))
-        .tooltip(text.darkPurple('Good for "fixing" any problem...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_spoofing_b', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A small set of tools').lightPurple()])
+    text.add(3, [Text.of('Good for "fixing" any problem...').darkPurple()])
+    })
+});
+
 // Vulnerability - Spoofing - C
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_spoofing_c')
@@ -169,10 +259,16 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A good quality hacksaw'))
-        .tooltip(text.darkPurple('A valid tool, with a lot of uses...'))
 });
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_spoofing_c', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A good quality hacksaw').lightPurple()])
+    text.add(3, [Text.of('A valid tool, with a lot of uses...').darkPurple()])
+    })
+});
+
 // Vulnerability - Spoofing - D
 onEvent('item.registry', event => {
     event.create('tfb2:vulnerability_spoofing_d')
@@ -180,7 +276,12 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
-        .tooltip(text.lightPurple('A Vulnerability in the FOP Game Server.'))
-        .tooltip(text.lightPurple('A rugged farmer sickle'))
-        .tooltip(text.darkPurple('Good for "fixing" any problem...'))
+});
+
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:vulnerability_spoofing_d', (item, advanced, text) => {
+    text.add(1, [Text.of('A Vulnerability in the FOP Game Server.').lightPurple()])
+    text.add(2, [Text.of('A rugged farmer sickle').lightPurple()])
+    text.add(3, [Text.of('Good for "fixing" any problem...').darkPurple()])
+    })
 });

@@ -1,0 +1,142 @@
+{
+  "values": {
+    "vhapi:hacked_pack": {
+      "name": {
+        "text": "Hacked Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/hacked_pack#inventory",
+        "opened": "vhapi:booster_pack/hacked_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@hacks",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@hacks",
+              "groups": [
+                "Foil"
+              ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "vhapi:glitched_pack": {
+      "name": {
+        "text": "Glitched Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/glitched_pack#inventory",
+        "opened": "vhapi:booster_pack/glitched_pack_ripped#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@glitches",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@glitches",
+              "groups": [
+                "Foil"
+              ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "vhapi:test_pack": {
+      "name": {
+        "text": "Test Booster Pack"
+      },
+      "model": {
+        "unopened": "vhapi:booster_pack/stat_pack#inventory",
+        "opened": "vhapi:booster_pack/stat_pack#inventory"
+      },
+      "roll": [
+        {
+          "value": 3,
+          "weight": 1.0
+        }
+      ],
+      "tier": [
+        {
+          "value": 1,
+          "weight": 1.0
+        }
+      ],
+      "color": [],
+      "card": [
+        {
+          "value": [
+            {
+              "modifier": "@resource2",
+              "probability": 1.0
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@resource2",
+              "groups": [
+                "Foil"
+              ],
+              "condition": "",
+              "probability": 1.0
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tfb2:blindboxes_cheap",
+          "weight": 200
+        },
+        {
+          "type": "loot_table",
+          "name": "tfb2:blindboxes_decent",
+          "weight": 50
+        },
+        {
+          "type": "loot_table",
+          "name": "tfb2:blindboxes_good",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "tfb2:blindboxes_amazing",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
