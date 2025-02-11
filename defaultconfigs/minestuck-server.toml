@@ -30,10 +30,10 @@
 	dropItemsInCards = false
 	#The initial amount of captchalogue cards in your sylladex.
 	#Range: > 0
-	initialModusSize = 5
+	initialModusSize = 0
 	#The max size on a modus. Ignored if the value is 0.
 	#Range: > 1
-	modusMaxSize = 15
+	modusMaxSize = 10
 	#Determines which items from the modus that are dropped on death. "items": Only the items are dropped. "cards_and_items": Both items and cards are dropped. (So that you have at most initial_modus_size amount of cards) "all": Everything is dropped, even the modus.
 	#Allowed Values: ITEMS, CARDS_AND_ITEMS, ALL
 	dropMode = "CARDS_AND_ITEMS"
