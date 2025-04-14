@@ -1,7 +1,7 @@
 {
 	id: "4F7668EA2DF53234"
 	group: "1A78C6EA3A0ABFDA"
-	order_index: 11
+	order_index: 7
 	filename: "spooky_times"
 	title: "Spooky Times"
 	default_quest_shape: ""
@@ -23,7 +23,6 @@
 				""
 				"&5...they aren't as overly ridiculously edgy."
 			]
-			dependencies: ["3614A04B234B4A20"]
 			id: "2F85F104F5FA32CB"
 			tasks: [{
 				id: "617A6D41EC7B51D5"
@@ -1676,10 +1675,7 @@
 				""
 				"&dEach piece worn will increase your attack speed with every melee hit. The more pieces you wear, the faster you'll attack with every hit. "
 			]
-			dependencies: [
-				"534BDB2C7AD316FF"
-				"23AB592D49E8D2AF"
-			]
+			dependencies: ["23AB592D49E8D2AF"]
 			id: "61C31E9731A8D419"
 			tasks: [{
 				id: "022F3B9AE3204151"
