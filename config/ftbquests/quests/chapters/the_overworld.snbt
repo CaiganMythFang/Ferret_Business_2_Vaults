@@ -35,6 +35,7 @@
 				"0AF2E388B45934CC"
 				"4342B9F453AD1F1B"
 				"7543E03FC25521E7"
+				"5E574242513BE343"
 			]
 			id: "69C663CDD23190A9"
 			tasks: [{
@@ -120,23 +121,40 @@
 				""
 				"&5...Bandit will get some junk back?"
 				""
-				"&dNot just any junk. Glitched junk. Glitchy, broken items. We can use these, so collect, say, 5 of them? To start with at least. We'll need a lot of them if this works..."
+				"&dNot just any junk. Glitched junk. Glitchy, broken items. We can use these, so send us, say, 5 of them? To start with at least. And 5 of those Glitched Blocks as well. We'll need a lot of them if this works..."
 			]
 			dependencies: ["5FC0C65E68336246"]
 			id: "7C074ABF2EDF12C1"
-			tasks: [{
-				id: "4AF96E7F8EDA62A5"
-				type: "item"
-				title: "Any Glitched Resources"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "tfb2:glitched_resources"
+			tasks: [
+				{
+					id: "4AF96E7F8EDA62A5"
+					type: "item"
+					title: "Any Glitched Item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:glitched_resources"
+						}
 					}
+					count: 5L
+					consume_items: true
 				}
-				count: 5L
-			}]
+				{
+					id: "68A136A227C41126"
+					type: "item"
+					title: "Any Glitched Block"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:glitched_block"
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+			]
 		}
 		{
 			title: "Lighting the Way"
@@ -561,8 +579,8 @@
 		}
 		{
 			title: "Quite Magnetizing"
-			x: -6.25d
-			y: 1.0d
+			x: -14.0d
+			y: -1.25d
 			shape: "rsquare"
 			subtitle: "An Attractive Personality"
 			description: [
@@ -2491,6 +2509,8 @@
 				"&dVault Sacks are one of a variety of Offhand gear types you can use. Most Offhand gear gain a broader range of Suffixes and Prefixes as you level up."
 				""
 				"&5Vault Sacks focus on improving your looting in the Vault. They can add more loot, better loot, faster movement, trap disarm, etc."
+				""
+				"&dVault Sacks usually don't drop until level 50, but if you can kill a Champion, you have a chance at getting an early one."
 			]
 			dependencies: ["5E574242513BE343"]
 			id: "173ED1C0127D1BB3"
@@ -2587,6 +2607,117 @@
 			tasks: [{
 				id: "66DE3B2D8804617F"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "Unique Field Guide"
+			x: 4.25d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "Kind of Like VHat Can I Roll?"
+			description: [
+				"&dIt looks like the FOP added an item in to help players hunt down their special 'unique' items they added to the game."
+				""
+				"&5Aye, they hoped to incentivise looting and vaulting to find these rare Unique pieces of gear, but it turns out if ye got no idea where to find em..."
+				""
+				"&d...then Players won't bother with the chase, yeah. So they came out with the Unique Codex."
+				""
+				"&5It works kind of like the VHat Can I Roll tool we added to yer Vault Window (Key: H). Both are nice to have, yeah."
+			]
+			hide_dependency_lines: true
+			dependencies: ["76B7D44E338DC9B7"]
+			id: "7C06CB39886FCC9B"
+			tasks: [{
+				id: "0E41BFBAFDE67D5D"
+				type: "item"
+				item: "the_vault:unique_codex"
+			}]
+			rewards: [{
+				id: "383A243178D67811"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Uniquely Found"
+			x: 0.25d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Tucked Away for a Rainy Day"
+			description: [
+				"&dHey Bandit, the FOP added some interesting things lately. Primarily something they call Uniques."
+				""
+				"&5Aye, uniques are...well, ye can figure out that they are Unique items, pieces of equipment mostly, with unique looks and special stats."
+				""
+				"&dYou can find them in various ways, usually in specific rooms, or on the Black Market, or in Vendoors."
+				""
+				"&5And most recently they added these Unique Crates. Ye can find em in those big crates in Factory Rooms, or in the catacombs beneath Village Rooms in the Vaults."
+			]
+			hide_dependency_lines: true
+			dependencies: ["76B7D44E338DC9B7"]
+			id: "096608AC80F2A0F0"
+			tasks: [{
+				id: "6A36F4E0B8DA3824"
+				type: "observation"
+				title: "Find a Unique Crate"
+				icon: "the_vault:unique_crate"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "015E558ED94503F3"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Clearing Conflicts"
+			icon: "the_vault:demagnetizer"
+			x: -6.25d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Computer, Deactivate Lizard"
+			description: [
+				"&dBandit, as you start to get higher level and get more gear and tools, you'll probably end up with a need to...turn off some of those tools in your Base."
+				""
+				"&5Aye, popping half yer base with a super hammer isn't really fun the first time."
+				""
+				"&dNor is always having to dig into your backpack to grab dropped items."
+				""
+				"&5So there's a few things ye can make to help out. The Debagnitizer will stop your Sophisticated Backpacks from auto picking up items in an area."
+				""
+				"&dAnd the Demagnetizer will disable all Vault Magnets near it."
+				""
+				"&5As for the hammer, ye can use the Dehammerizer to disable the area effect of yer hammer. Save yerself a big headache."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5FC0C65E68336246"]
+			id: "40B3DC65625197C4"
+			tasks: [
+				{
+					id: "51E7EAEE0120B591"
+					type: "item"
+					item: "the_vault:demagnetizer"
+				}
+				{
+					id: "7FAA3F96102DBC40"
+					type: "item"
+					item: "the_vault:debagnetizer"
+				}
+				{
+					id: "2CFB49DD80033A6D"
+					type: "item"
+					item: "the_vault:dehammerizer"
+				}
+			]
+			rewards: [{
+				id: "2844250BBBC7E16A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 	]

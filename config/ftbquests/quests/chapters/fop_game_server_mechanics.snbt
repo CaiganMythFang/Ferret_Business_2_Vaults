@@ -258,8 +258,8 @@
 					}
 				}
 			}
-			x: -0.25d
-			y: -2.75d
+			x: 0.0d
+			y: -3.25d
 			shape: "rsquare"
 			subtitle: "Entrance Fee"
 			description: [
@@ -296,8 +296,8 @@
 		{
 			title: "Group Survival"
 			icon: "luphieclutteredmod:luphie_bunny_garland"
-			x: 2.5d
-			y: -2.0d
+			x: 1.25d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "More the Merrier"
 			description: [
@@ -701,8 +701,8 @@
 		{
 			title: "The Time of Your Life"
 			icon: "botania:cosmetic_clock_eye"
-			x: 9.25d
-			y: 2.25d
+			x: 8.75d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "Tick Tock Tick Tock"
 			description: [
@@ -733,8 +733,8 @@
 		{
 			title: "Loot Loot Loot Loot"
 			icon: "supplementaries:sack"
-			x: 11.25d
-			y: 1.5d
+			x: 10.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Fight! Loot! Loot! Fight!"
 			description: [
@@ -788,19 +788,19 @@
 			x: 5.5d
 			y: 2.75d
 			shape: "hexagon"
-			subtitle: "Vein Mining By The Numbers"
+			subtitle: "Abilities, Talents, and Expertise"
 			description: [
-				"&5Bad news, Bandit. You won't have the same kind of Veinmining skill you had in your previous world."
+				"&5Bad news, Bandit. Ye won't have the same kind of Veinmining skill you had in yer previous world."
 				""
-				"&dThe FOP entwined it with their Project MMO layer. So you need to level skills to be able to Veinmine more blocks."
+				"&dThe FOP entwined  it and other useful skills into the Vault Hunters skill system, which is split into three types : "
 				""
-				"&5You still activate it by holding ~(grave) key, but you'll get an overlay telling you how many blocks you can veinmine with your current skill and tool."
+				"&5Abilities are yer activatable abilities. Throw a fireball, teleport, etc. The Veinmine skill activates while holding down the Vault Ability button and ye mine something."
 				""
-				"&dLeveling skills will help you veinmine more AND harder blocks. It does some calculation between your skill, how hard the block is, and your tool."
+				"&dSecond type is Talents. These are passive buffs. More damage with certain abilities, faster mana regeneration, more damage at low health, etc."
 				""
-				"&5Level Mining for ore, Woodcutting for logs, etc etc. You get the idea. But keep in mind, you have a charge bar for Veinmining as well. It slowly replenishes, but if you sleep at night, it recovers most of it."
+				"&5Third is Expertise. Ye only get one Expertise per level, so don't worry about em for now."
 				""
-				"&dOh, and if you Veinmine trees, it breaks from the TOP, not the bottom."
+				"&dThere should be items you can loot or craft that replicate Vein Mining or similar 'handy' functions..."
 			]
 			dependencies: ["78B5BCD7C6C45779"]
 			id: "4A7F919339917ED3"
@@ -1253,6 +1253,145 @@
 			id: "239811C5D36CE83E"
 			tasks: [{
 				id: "2E6ECED64CDF404A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Buggy Blocks"
+			x: 11.0d
+			y: 1.25d
+			shape: "pentagon"
+			subtitle: "Something is a Bit Glitchy...."
+			description: [
+				"&dHuh, what the heck happened to these servers. They are way less stable than last time we peeked in on them..."
+				""
+				"&5Aye, there seem to be some glitched blocks scattered about in the Vaults..."
+				""
+				"&dI see that, brother. That definitely isn't good..."
+				""
+				"&5...for the FOP."
+				""
+				"&dPrecisely! Okay Bandit, you'll want to collect all the Glitched Blocks you can, Bandit. These should help us crack into the FOPGame Server better."
+			]
+			dependencies: ["5E574242513BE343"]
+			id: "0DE8115F3B5CEE93"
+			tasks: [{
+				id: "73D7E99D51C40268"
+				type: "item"
+				title: "Any Glitched Block"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:glitched_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F6E636CC0C04EB6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "All The Time or None of the Time"
+			icon: {
+				id: "the_vault:trinket"
+				Count: 1b
+				tag: {
+					vaultGearData: [L;
+						-6439719864584895362L
+						7828464262077542849L
+						2398430684365457449L
+						1518721614702010373L
+						5927863009526580560L
+						2676634361676693832L
+						23103609685331493L
+						1228943359166468182L
+						5484580942976963144L
+						19760L
+					]
+					clientCache: {
+						color: [B; ]
+						gearName: [B; ]
+						rollType: [B; ]
+						jcolors: [B; ]
+						hasModifierUNUSUAL: 0b
+						model: [B; ]
+						hasModifierGREATER: 0b
+						state: 2
+						hasModifierLEGENDARY: 0b
+						hasModifierCORRUPTED: 0b
+						colors: [B; ]
+						rarity: [B; ]
+					}
+					vaultUses: 21
+				}
+			}
+			x: 9.25d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "Go Fast or Go Slow, You Choose"
+			description: [
+				"If you are worried about the timer being a factor in how you enjoy running Vaults, you can change how much base time you have in a vault!"
+				""
+				"If you do : "
+				"/gamerule vaultTimer X"
+				"You can replace the X with the number of minutes you would like the base timer to be! This changes the base time for EVERYONE on the server, keep in mind!"
+				""
+				"The default amount of time is 25. If you set it to 30, for example, it would be 30 minutes instead."
+				""
+				"If you set it to 0, however, there is NO Vault timer anymore!"
+				""
+				"Be careful though, there's a few issues with the system. Using a Pylon to add time might just insta-kill you."
+			]
+			dependencies: ["1F2875BC889232AC"]
+			size: 0.75d
+			id: "2771C2A7766E883D"
+			tasks: [{
+				id: "4D76FEB2D4FD340A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Loot! Experience! Rewards!"
+			icon: {
+				id: "inventorypets:pet_loot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "How Much or Little Would You Like?"
+			description: [
+				"&dHm, the FOP really have expanded the system to try getting as many Users as possible. They've included a few new ways to customize the ah... 'loot' you can find in the Vaults."
+				""
+				"&5Oh, showing a bigger share to users who want it, eh?"
+				""
+				"&dAlso letting Users choose how fast they gain experience and level up."
+				""
+				"&5Hrm, guess keeping a player in the game for a dozen hours is better than one hour cause they got bored and left."
+				""
+				"&6/gamerule VaultExperience amount"
+				"Replace amount with : "
+				"  POOR (10%) / HALF (50%)"
+				"  NORMAL (100%) / DOUBLE (200%)"
+				"  TRIPLE (300%)"
+				""
+				"&6/gamerule VaultLoot amount"
+				"Replace amount with :"
+				"  LEGACY (50%) / NORMAL (100%)"
+				"  PLENTY (200%) / EXTREME (300%)"
+				""
+			]
+			dependencies: ["4CA0844372B19F19"]
+			id: "281380C803D15FCC"
+			tasks: [{
+				id: "567CEA37E19B68AD"
 				type: "checkmark"
 			}]
 		}
