@@ -659,86 +659,6 @@
           },
           "weight": 2
         },
-        { "_name": "drawers_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "storagedrawers:oak_full_drawers_1",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
-        },
-        { "_name": "1storageup_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "storagedrawers:obsidian_storage_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 2
-          },
-          "weight": 3
-        },
-        { "_name": "2storageup_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "storagedrawers:iron_storage_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 2
-          },
-          "weight": 3
-        },
-        { "_name": "3storageup_2",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "storagedrawers:gold_storage_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 2
-        },
-        { "_name": "voidup_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "storagedrawers:void_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
         { "_name": "vault_essence_3",
           "value": {
             "buy": {
@@ -1506,86 +1426,6 @@
             },
             "sell": {
               "id": "easy_villagers:trader",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "drawers_4",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "storagedrawers:oak_full_drawers_1",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 2
-          },
-          "weight": 4
-        },
-        { "_name": "1storageup_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "storagedrawers:obsidian_storage_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 2
-          },
-          "weight": 3
-        },
-        { "_name": "2storageup_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "storagedrawers:iron_storage_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 2
-          },
-          "weight": 3
-        },
-        { "_name": "3storageup_2",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 6
-            },
-            "sell": {
-              "id": "storagedrawers:gold_storage_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 2
-        },
-        { "_name": "voidup_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "storagedrawers:void_upgrade",
               "amountMin": 1,
               "amountMax": 1
             },
@@ -2610,22 +2450,6 @@
           },
           "weight": 1
         },
-        { "_name": "voidup_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "storagedrawers:void_upgrade",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
         { "_name": "vault_essence_5",
           "value": {
             "buy": {
@@ -3470,22 +3294,6 @@
             },
             "sell": {
               "id": "easy_villagers:trader",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "voidup_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "storagedrawers:void_upgrade",
               "amountMin": 1,
               "amountMax": 1
             },
@@ -4368,22 +4176,6 @@
             },
             "sell": {
               "id": "easy_villagers:trader",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 1
-        },
-        { "_name": "voidup_1",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 3,
-              "amountMax": 9
-            },
-            "sell": {
-              "id": "storagedrawers:void_upgrade",
               "amountMin": 1,
               "amountMax": 1
             },
