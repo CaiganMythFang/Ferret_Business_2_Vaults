@@ -8,8 +8,9 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:stripped_dark_oak_log": 60,
-        "minecraft:dark_oak_log": 40
+        "minecraft:stripped_dark_oak_log": 130,
+        "minecraft:dark_oak_log": 69,
+        "tfb2:glitched_dark_oak_log": 1
       }
     },
     {
@@ -45,7 +46,8 @@
       "type": "weighted_target",
       "target": "minecraft:dirt",
       "output": {
-        "minecraft:rooted_dirt": 1
+        "minecraft:rooted_dirt": 199,
+        "tfb2:glitched_dirt": 1
       }
     },
     {

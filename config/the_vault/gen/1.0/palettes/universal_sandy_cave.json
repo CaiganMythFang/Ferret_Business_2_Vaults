@@ -8,10 +8,11 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_sandstone": 35,
-                "auxiliaryblocks:dirty_sand": 35,
-                "minecraft:andesite": 25,
-                "auxiliaryblocks:rocky_sand": 15
+                "minecraft:smooth_sandstone": 65,
+                "auxiliaryblocks:dirty_sand": 65,
+                "minecraft:andesite": 53,
+                "auxiliaryblocks:rocky_sand": 17,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
@@ -38,33 +39,37 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:smooth_sandstone": 55,
-                "auxiliaryblocks:cobbled_sandstone": 25,
-                "auxiliaryblocks:rocky_sand": 20
+                "minecraft:smooth_sandstone": 99,
+                "auxiliaryblocks:cobbled_sandstone": 53,
+                "auxiliaryblocks:rocky_sand": 47,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 3,
-                "minecraft:coarse_dirt": 1
+                "minecraft:sand": 130,
+                "minecraft:coarse_dirt": 69,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:sandstone": 1
+                "minecraft:sandstone": 199,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_slab",
             "output": {
-                "minecraft:sandstone_slab": 1,
-                "minecraft:sand": 1,
-                "minecraft:sandstone": 1
+                "minecraft:sandstone_slab": 66,
+                "minecraft:sand": 66,
+                "minecraft:sandstone": 66,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {

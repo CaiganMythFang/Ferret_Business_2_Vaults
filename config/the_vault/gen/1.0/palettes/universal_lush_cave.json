@@ -8,8 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_basalt": 1,
-                "minecraft:deepslate": 1
+                "minecraft:smooth_basalt": 99,
+                "minecraft:deepslate": 99,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
 	{
@@ -42,16 +43,18 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 1
+                "minecraft:coarse_dirt": 199,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 40,
-                "minecraft:rooted_dirt": 40,
-                "minecraft:dripstone_block": 20
+                "minecraft:coarse_dirt": 80,
+                "minecraft:rooted_dirt": 80,
+                "minecraft:dripstone_block": 39,
+                "tfb2:glitched_dirt": 1
             }
         },
         {

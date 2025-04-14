@@ -37,26 +37,29 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 45,
-                "auxiliaryblocks:dirty_sand": 25,
-                "auxiliaryblocks:rocky_sand": 30
+                "minecraft:sand": 82,
+                "auxiliaryblocks:dirty_sand": 54,
+                "auxiliaryblocks:rocky_sand": 63,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "architects_palette:dark_oak_boards": 35,
-                "minecraft:stripped_dark_oak_wood": 35,
-                "minecraft:dark_oak_planks": 20,
-                "minecraft:coarse_dirt": 10
+                "architects_palette:dark_oak_boards": 58,
+                "minecraft:stripped_dark_oak_wood": 58,
+                "minecraft:dark_oak_planks": 42,
+                "minecraft:coarse_dirt": 42,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 1
+                "minecraft:coarse_dirt": 199,
+                "tfb2:glitched_dirt": 1
             }
         },
         {

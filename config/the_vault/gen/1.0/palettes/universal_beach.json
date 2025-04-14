@@ -8,9 +8,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "auxiliaryblocks:rocky_sand": 1,
-                "auxiliaryblocks:dirty_sand": 1,
-                "minecraft:andesite": 3
+                "auxiliaryblocks:rocky_sand": 40,
+                "auxiliaryblocks:dirty_sand": 40,
+                "minecraft:andesite": 117,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
@@ -34,26 +35,29 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 45,
-                "auxiliaryblocks:dirty_sand": 25,
-                "auxiliaryblocks:rocky_sand": 30
+                "minecraft:sand": 65,
+                "auxiliaryblocks:dirty_sand": 45,
+                "auxiliaryblocks:rocky_sand": 40,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "everycomp:ap/ecologics/walnut_boards": 35,
-                "minecraft:stripped_spruce_wood": 35,
-                "ecologics:walnut_planks": 20,
-                "minecraft:coarse_dirt": 10
+                "everycomp:ap/ecologics/walnut_boards": 70,
+                "minecraft:stripped_spruce_wood": 70,
+                "ecologics:walnut_planks": 39,
+                "minecraft:coarse_dirt": 20,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 1
+                "minecraft:coarse_dirt": 199,
+                "tfb2:glitched_dirt": 1
             }
         },
         {

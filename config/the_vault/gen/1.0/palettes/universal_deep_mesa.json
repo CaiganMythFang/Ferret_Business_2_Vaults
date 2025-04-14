@@ -8,20 +8,22 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:deepslate": 1,
-        "minecraft:cobbled_deepslate": 1,
-        "minecraft:smooth_basalt": 1,
-        "minecraft:basalt": 1
+        "minecraft:deepslate": 49,
+        "minecraft:cobbled_deepslate": 49,
+        "minecraft:smooth_basalt": 49,
+        "minecraft:basalt": 49,
+        "tfb2:glitched_deepslate_cobble": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:cobbled_deepslate": 1,
-        "minecraft:smooth_basalt": 1,
-        "minecraft:tuff": 1,
-        "create:cut_tuff": 1
+        "minecraft:cobbled_deepslate": 49,
+        "minecraft:smooth_basalt": 49,
+        "minecraft:tuff": 49,
+        "create:cut_tuff": 49,
+        "tfb2:glitched_deepslate_cobble": 1
       }
     },
     {
@@ -43,11 +45,12 @@
       "type": "weighted_target",
       "target": "minecraft:coarse_dirt",
       "output": {
-        "minecraft:coarse_dirt": 4,
-        "minecraft:rooted_dirt": 4,
-        "minecraft:terracotta": 3,
-        "auxiliaryblocks:rocky_dirt": 2,
-        "minecraft:dripstone_block": 1
+        "minecraft:coarse_dirt": 53,
+        "minecraft:rooted_dirt": 53,
+        "minecraft:terracotta": 46,
+        "auxiliaryblocks:rocky_dirt": 27,
+        "minecraft:dripstone_block": 20,
+        "tfb2:glitched_dirt": 1
       }
     },
     {

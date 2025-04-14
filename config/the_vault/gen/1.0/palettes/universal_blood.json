@@ -12,8 +12,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:cobbled_deepslate": 1,
-                "minecraft:deepslate": 1
+                "minecraft:cobbled_deepslate": 99,
+                "minecraft:deepslate": 99,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
@@ -29,32 +30,36 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:red_gelatin": 4,
-                "auxiliaryblocks:red_crystal": 1,
-                "minecraft:red_concrete": 16
+                "auxiliaryblocks:red_gelatin": 42,
+                "auxiliaryblocks:red_crystal": 13,
+                "minecraft:red_concrete": 144,
+                "tfb2:glitched_crimsite": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:cobbled_deepslate": 1,
-                "minecraft:deepslate": 1
+                "minecraft:cobbled_deepslate": 99,
+                "minecraft:deepslate": 99,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:cracked_deepslate_tiles": 1,
-                "minecraft:deepslate_tiles": 6
+                "minecraft:cracked_deepslate_tiles": 71,
+                "minecraft:deepslate_tiles": 128,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:polished_deepslate": 1
+                "minecraft:polished_deepslate": 199,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {

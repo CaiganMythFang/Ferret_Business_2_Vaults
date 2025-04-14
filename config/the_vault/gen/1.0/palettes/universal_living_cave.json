@@ -8,8 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:stripped_dark_oak_wood": 75,
-                "architects_palette:spruce_boards": 25
+                "minecraft:stripped_dark_oak_wood": 128,
+                "architects_palette:spruce_boards": 71,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
 	{
@@ -50,10 +51,11 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 40,
-                "minecraft:rooted_dirt": 20,
-                "minecraft:dripstone_block": 20,
-                "auxiliaryblocks:mossy_dirt": 20
+                "minecraft:coarse_dirt": 80,
+                "minecraft:rooted_dirt": 40,
+                "minecraft:dripstone_block": 40,
+                "auxiliaryblocks:mossy_dirt": 40,
+                "tfb2:glitched_dirt": 1
             }
         },
         {

@@ -8,8 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "the_vault:vault_stone_bricks": 3,
-                "the_vault:polished_vault_stone": 1
+                "the_vault:vault_stone_bricks": 130,
+                "the_vault:polished_vault_stone": 69,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
@@ -32,21 +33,24 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "the_vault:vault_cobblestone": 1
+                "the_vault:vault_cobblestone": 199,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "the_vault:vault_stone": 1
+                "the_vault:vault_stone": 199,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "the_vault:vault_cobblestone": 1
+                "the_vault:vault_cobblestone": 199,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
