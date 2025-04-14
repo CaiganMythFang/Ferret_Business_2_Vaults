@@ -398,26 +398,6 @@
         "ignoreArrow": true,
         "lockedBy": []
       },
-      "Extra Storage": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Refined Storage"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Cable Tiers": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Refined Storage"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
       "Mega Cells": {
         "dependsOn": [
           {
@@ -427,6 +407,16 @@
           {
             "type": "constant",
             "id": "Mekanism"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Scanner": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Advanced Finders"
           }
         ],
         "ignoreArrow": true,
@@ -503,11 +493,11 @@
           },
           {
             "type": "constant",
-            "id": "Stack Upgrading"
+            "id": "Backpack Upgrades 1"
           },
           {
             "type": "constant",
-            "id": "Auto Feeding"
+            "id": "Advanced Finders"
           },
           {
             "type": "constant",
@@ -613,10 +603,6 @@
           },
           {
             "type": "constant",
-            "id": "Vault Compass"
-          },
-          {
-            "type": "constant",
             "id": "Mekanism QIO"
           },
           {
@@ -673,7 +659,19 @@
           },
           {
             "type": "constant",
+            "id": "Mob Gates"
+          },
+          {
+            "type": "constant",
             "id": "Psi"
+          },
+          {
+            "type": "constant",
+            "id": "Mahou Tsukai"
+          },
+          {
+            "type": "constant",
+            "id": "Hexerei"
           },
           {
             "type": "constant",
@@ -701,23 +699,11 @@
           },
           {
             "type": "constant",
-            "id": "Xnet"
-          },
-          {
-            "type": "constant",
             "id": "Elevators"
           },
           {
             "type": "constant",
             "id": "Oops, All Iron Mods"
-          },
-          {
-            "type": "constant",
-            "id": "Functional Storage"
-          },
-          {
-            "type": "constant",
-            "id": "Drawers"
           },
           {
             "type": "constant",
@@ -757,15 +743,7 @@
           },
           {
             "type": "constant",
-            "id": "Colossal Chests"
-          },
-          {
-            "type": "constant",
             "id": "Mega Cells"
-          },
-          {
-            "type": "constant",
-            "id": "Extra Storage"
           },
           {
             "type": "constant",
@@ -801,10 +779,6 @@
           },
           {
             "type": "constant",
-            "id": "Cable Tiers"
-          },
-          {
-            "type": "constant",
             "id": "Little Logistics"
           },
           {
@@ -825,15 +799,15 @@
           },
           {
             "type": "constant",
+            "id": "Immersive Engineering"
+          },
+          {
+            "type": "constant",
             "id": "Dave's Potioneering"
           },
           {
             "type": "constant",
             "id": "Integrated Dynamics"
-          },
-          {
-            "type": "constant",
-            "id": "Refined Storage"
           },
           {
             "type": "constant",
@@ -870,17 +844,8 @@
       "Altar Automation": {
         "dependsOn": [
           {
-            "type": "either",
-            "gates": [
-              {
-                "type": "constant",
-                "id": "Refined Storage"
-              },
-              {
-                "type": "constant",
-                "id": "Applied Energistics"
-              }
-            ]
+            "type": "constant",
+            "id": "Applied Energistics"
           }
         ],
         "ignoreArrow": true,

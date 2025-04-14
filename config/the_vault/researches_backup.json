@@ -939,40 +939,6 @@
         },
         {
             "modIds": [
-                "adfinders"
-            ],
-            "restrictions": {
-                "restricts": {
-                    "HITTABILITY": false,
-                    "BLOCK_INTERACTABILITY": false,
-                    "USABILITY": false,
-                    "CRAFTABILITY": true,
-                    "ENTITY_INTERACTABILITY": false
-                }
-            },
-            "name": "Advanced Finders",
-            "cost": 1,
-            "usesKnowledge": true
-        },
-        {
-            "modIds": [
-                "pocketstorage"
-            ],
-            "restrictions": {
-                "restricts": {
-                    "HITTABILITY": false,
-                    "BLOCK_INTERACTABILITY": true,
-                    "USABILITY": false,
-                    "CRAFTABILITY": true,
-                    "ENTITY_INTERACTABILITY": false
-                }
-            },
-            "name": "Pocket Storage",
-            "cost": 2,
-            "usesKnowledge": true
-        },
-        {
-            "modIds": [
                 "botania"
             ],
             "restrictions": {
@@ -1951,6 +1917,23 @@
                 "usesKnowledge": true
         },
         {
+            "modIds": [
+                "adfinders"
+            ],
+            "restrictions": {
+                "restricts": {
+                    "HITTABILITY": false,
+                    "BLOCK_INTERACTABILITY": false,
+                    "USABILITY": false,
+                    "CRAFTABILITY": true,
+                    "ENTITY_INTERACTABILITY": false
+                }
+            },
+            "name": "Advanced Finders",
+            "cost": 1,
+            "usesKnowledge": true
+        },
+        {
             "itemRestrictions": {},
             "blockRestrictions": {},
             "entityRestrictions": {},
@@ -2064,6 +2047,23 @@
             "entityRestrictions": {},
             "name": "Big Backpacks",
             "cost": 4,
+            "usesKnowledge": true
+        },
+        {
+            "modIds": [
+                "pocketstorage"
+            ],
+            "restrictions": {
+                "restricts": {
+                    "HITTABILITY": false,
+                    "BLOCK_INTERACTABILITY": true,
+                    "USABILITY": false,
+                    "CRAFTABILITY": true,
+                    "ENTITY_INTERACTABILITY": false
+                }
+            },
+            "name": "Pocket Storage",
+            "cost": 2,
             "usesKnowledge": true
         },
         {

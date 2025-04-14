@@ -20,11 +20,9 @@
         "Mekanism QIO",
         "Applied Compatability",
         "Mega Cells",
-        "Extra Storage",
         "Create Crafts and Additions",
         "Create Diesel Generators",
         "Botanical Machinery",
-        "Cable Tiers",
         "Incorporeal",
         "Advanced Peripherals",
         "Compressed Creativity",
@@ -35,32 +33,34 @@
         "Addons": 1
       }
     },
-    "Logistics": {
-      "title": "Logistics",
+    "Storage Solutions": {
+      "title": "Storage Solutions",
       "research": [
-        "Toms Simple Storage",
-        "Refined Storage",
-        "Applied Energistics",
-        "Integrated Dynamics"
-      ],
-      "globalCostIncrease": 0.0,
-      "groupCostIncrease": {
-        "Logistics": 2
-      }
-    },
-    "Storage": {
-      "title": "Storage",
-      "research": [
-        "Colossal Chests",
         "Sophisticated Storage",
-        "Drawers",
         "Cloud Storage",
         "RFTools Storage",
-        "Functional Storage"
+        "Toms Simple Storage",
+        "Applied Energistics",
+        "Integrated Dynamics",
+        "MultiStorage"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Storage": 1
+        "Storage Solutions": 2
+      }
+    },
+    "Pirate Broadcast": {
+      "title": "Pirate Broadcast",
+      "research": [
+        "Grappling Hooks",
+        "Vehicles",
+        "Turrets",
+        "Inventory Pets",
+        "Animalistic"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Pirate Broadcast": 0
       }
     },
     "BigToys": {
@@ -71,7 +71,9 @@
         "Building Gadgets",
         "Create Ore Excavation",
         "Hexcasting",
-        "Psi"
+        "Psi",
+        "Mahou Tsukai",
+        "Hexerei"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
@@ -88,7 +90,8 @@
         "Phytogenic Insulator",
         "Botany Pots",
         "Bonsai Pots",
-        "Hostile Neural Networks"
+        "Hostile Neural Networks",
+        "Mob Gates"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
@@ -104,6 +107,7 @@
         "Botania",
         "PneumaticCraft",
         "Industrial Foregoing",
+        "Immersive Engineering",
         "Occultism",
         "Ars Nouveau"
       ],
@@ -135,7 +139,6 @@
         "Trashcans",
         "Elevators",
         "Waystones",
-        "Vault Compass",
         "Altar Automation",
         "RFTools Utility",
         "Time in a Bottle",
@@ -152,10 +155,10 @@
         "Backpacks",
         "Big Backpacks",
         "Junk Management",
-        "Stack Upgrading",
-        "Auto Feeding",
+        "Backpack Upgrades 1",
+        "Advanced Finders",
         "Scanner",
-        "Soul Harvester"
+        "Pocket Storage"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
@@ -165,7 +168,6 @@
     "Handling": {
       "title": "Handling",
       "research": [
-        "Xnet",
         "Modular Routers",
         "Pipez",
         "Dark Utilities",
