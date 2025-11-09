@@ -1,0 +1,35 @@
+{
+  "type": "lostcities:lostcity",
+  "generator": {
+    "type": "minecraft:flat",
+      "settings": {
+        "biome": "lostcities:liminal_vaults",
+        "lakes": false,
+        "features": true,
+        "layers": [
+          {
+            "block": "minecraft:bedrock",
+            "height": 70
+          },
+          {
+            "block": "chipped:cyan_terracotta_48",
+            "height": 2
+          },
+          {
+            "block": "minecraft:air",
+            "height": 11
+          },
+          {
+            "block": "chipped:calcite_32",
+            "height": 3
+          },
+          {
+            "block": "minecraft:bedrock",
+            "height": 80
+          }
+        ],
+        "structure_overrides": []
+      }
+  },
+  "forge:use_server_seed": true
+}
