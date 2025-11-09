@@ -1,0 +1,381 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "minestuck:white_chess_dirt",
+				"Description": "Floor",
+				"Color": "e5e5e5ff"
+			},
+			{
+				"char": "3",
+				"block": "davebuildingmod:laboratory_block",
+				"Description": "wall",
+				"Color": "cddbdbff"
+			},
+			{
+				"char": "m",
+				"block": "decocraft:modular_desk_right_ebony[facing=west]",
+				"Description": "Teach Desk - left",
+				"Color": "464646ff"
+			},
+			{
+				"char": ">",
+				"block": "rechiseled:bone_block_bordered",
+				"Description": "Ceiling",
+				"Color": "dcdcdcff"
+			},
+			{
+				"char": "<",
+				"block": "neoncraft2:wallneon_number_9_red[facing=west,waterlogged=false]",
+				"Description": "Number 9 - West",
+				"Color": "f90c0cff"
+			},
+			{
+				"char": "O",
+				"block": "moa_decor_science:pizarraabecedario[facing=south]",
+				"Description": "Chalkboard - Letters",
+				"Color": "323232ff"
+			},
+			{
+				"char": "5",
+				"Description": "Small Wall Bookshelf",
+				"blocks": [
+					{
+						"block": "luphieclutteredmod:luphie_wall_bookshelf[facing=west,waterlogged=false]",
+						"random": 66
+					},
+					{
+						"block": "luphieclutteredmod:luphie_pastel_wall_bookshelf[facing=west,waterlogged=false]",
+						"random": 66
+					}
+				],
+				"Color": "d6c2e9ff"
+			},
+			{
+				"char": "k",
+				"block": "decocraft:chair_borje_dw_brown[facing=east]",
+				"Description": "Teacher Chair",
+				"Color": "67613fff"
+			},
+			{
+				"char": "j",
+				"block": "decocraft:filing_cabinet_white[facing=east]",
+				"Description": "Filing Cabinet",
+				"Color": "999999ff"
+			},
+			{
+				"char": "N",
+				"block": "moa_decor_science:pizarra[facing=south]",
+				"Description": "Blank Chalkboard",
+				"Color": "3a3a3aff"
+			},
+			{
+				"char": "6",
+				"block": "tanukidecor:minimalist_clock[facing=north,waterlogged=false]",
+				"Description": "Wall Clock"
+			},
+			{
+				"char": ",",
+				"block": "simplylight:illuminant_block_on[on=true]",
+				"Description": "Ceiling Light"
+			},
+			{
+				"char": "q",
+				"Description": "Under window Shelves",
+				"Color": "604022ff",
+				"blocks": [
+					{
+						"block": "mcwfurnitures:dark_oak_bookshelf[connection=base,facing=north]",
+						"random": 33
+					},
+					{
+						"block": "mcwfurnitures:dark_oak_bookshelf_cupboard[connection=base,facing=north]",
+						"random": 33
+					},
+					{
+						"random": 33,
+						"block": "mcwfurnitures:dark_oak_bookshelf_drawer[connection=base,facing=north]"
+					},
+					{
+						"random": 33,
+						"block": "mcwfurnitures:dark_oak_lower_bookshelf_drawer[connection=base,facing=north]"
+					}
+				]
+			},
+			{
+				"char": "8",
+				"block": "neoncraft2:wallneon_number_9_red[facing=south,waterlogged=false]",
+				"Description": "Number 9 - South",
+				"Color": "ff1700ff"
+			},
+			{
+				"char": "[",
+				"block": "neoncraft2:wallneon_number_3_blue[facing=west,waterlogged=false]",
+				"Description": "Number 3 - West",
+				"Color": "1a40d2ff"
+			},
+			{
+				"char": "n",
+				"block": "decocraft:modular_desk_drawers_ebony[facing=west]",
+				"Description": "Teacher Desk - Drawers",
+				"Color": "474747ff"
+			},
+			{
+				"char": "&",
+				"block": "neoncraft2:wallneon_number_2_red[facing=west,waterlogged=false]",
+				"Description": "Number 2 - West",
+				"Color": "ff0505ff"
+			},
+			{
+				"char": "0",
+				"block": "decocraft:cork_board[facing=north]",
+				"Description": "Cork Board",
+				"Color": "ccc7a1ff"
+			},
+			{
+				"char": "r",
+				"block": "decocraft:school_desk_gray[facing=south]",
+				"Description": "School Desk",
+				"Color": "d7d2abff"
+			},
+			{
+				"char": "o",
+				"block": "mcwfurnitures:dark_oak_bookshelf[connection=bottom,facing=south]",
+				"Description": "East Bookshelf - Bottom",
+				"Color": "5f4e2bff"
+			},
+			{
+				"char": "7",
+				"block": "chipped:green_terracotta_33",
+				"Description": "Green letter Background",
+				"Color": "3d671dff"
+			},
+			{
+				"char": "{",
+				"block": "neoncraft2:wallneon_number_5_red[facing=west,waterlogged=false]",
+				"Description": "Number 5 - West",
+				"Color": "ff2000ff"
+			},
+			{
+				"char": "E",
+				"block": "decocraft:school_chair_blue[facing=north]",
+				"Description": "School Chair",
+				"Color": "285c8aff"
+			},
+			{
+				"char": "]",
+				"block": "neoncraft2:wallneon_number_4_orange[facing=west,waterlogged=false]",
+				"Description": "Number 4 - West",
+				"Color": "df9715ff"
+			},
+			{
+				"char": "H",
+				"block": "moa_decor_art:caballetelienzo[facing=east]",
+				"Description": "Easel"
+			},
+			{
+				"char": "U",
+				"block": "mcwfurnitures:dark_oak_bookshelf[connection=top,facing=south]",
+				"Description": "East Bookshelf - Top",
+				"Color": "5f4e2bff"
+			},
+			{
+				"char": "^",
+				"block": "neoncraft2:wallneon_number_1_orange[facing=west,waterlogged=false]",
+				"Description": "Number 1 - West",
+				"Color": "ed930aff"
+			},
+			{
+				"char": "V",
+				"block": "buildersdelight:dark_oak_glass_6",
+				"Description": "Window"
+			},
+			{
+				"char": "'",
+				"block": "neoncraft2:wallneon_number_7_orange[facing=west,waterlogged=false]",
+				"Description": "Number 7 - west",
+				"Color": "fb8003ff"
+			},
+			{
+				"char": "|",
+				"block": "neoncraft2:wallneon_number_6_blue[facing=west,waterlogged=false]",
+				"Description": "Number 6 - West",
+				"Color": "0916fbff"
+			},
+			{
+				"char": "P",
+				"block": "moa_decor_science:globoterraqueo[facing=east]",
+				"Description": "Globe",
+				"Color": "5f8da9ff"
+			},
+			{
+				"char": "i",
+				"block": "neoncraft2:wallneon_number_8_blue[facing=west,waterlogged=false]",
+				"Description": "Number 8 - West",
+				"Color": "1456deff"
+			},
+			{
+				"char": "⚏",
+				"block": "neoncraft2:wallneon_number_8_blue[facing=south,waterlogged=false]",
+				"Description": "Number 8 - South",
+				"Color": "1456deff"
+			},
+			{
+				"char": "Ƥ",
+				"block": "neoncraft2:wallneon_number_7_orange[facing=south,waterlogged=false]",
+				"Description": "Number 7 - South",
+				"Color": "efa506ff"
+			},
+			{
+				"char": "⛦",
+				"block": "neoncraft2:wallneon_number_6_blue[facing=south,waterlogged=false]",
+				"Description": "Number 6 - South",
+				"Color": "1439e1ff"
+			},
+			{
+				"char": "Í",
+				"block": "neoncraft2:wallneon_number_5_red[facing=south,waterlogged=false]",
+				"Description": "Number 5 - South",
+				"Color": "f20707ff"
+			},
+			{
+				"char": "Ī",
+				"block": "neoncraft2:wallneon_number_4_orange[facing=south,waterlogged=false]",
+				"Description": "Number 4 - South",
+				"Color": "ea9011ff"
+			},
+			{
+				"char": "ɋ",
+				"block": "neoncraft2:wallneon_number_3_blue[facing=south,waterlogged=false]",
+				"Description": "Number 3 - South",
+				"Color": "0065f9ff"
+			},
+			{
+				"char": "♑",
+				"block": "neoncraft2:wallneon_number_2_red[facing=south,waterlogged=false]",
+				"Description": "Number 2 - South",
+				"Color": "f30a0aff"
+			},
+			{
+				"char": "♱",
+				"block": "neoncraft2:wallneon_number_1_orange[facing=south,waterlogged=false]",
+				"Description": "Number 1 - South",
+				"Color": "f99e1fff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"X$#####$$#####$X",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"$22222222222222$",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"$22222222l22222$",
+			"X$#####i$#####$X"
+		],
+		[
+			"X#$##########$#X",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#3jkm        33#",
+			"#3  n       o33#",
+			"#3q r r r r o33#",
+			"#3q E E E E  33#",
+			"#3H r r r r    #",
+			"#3q E E E E  33#",
+			"#3q r r r r o33#",
+			"#3  E E E E o33#",
+			"#3           33#",
+			"#333333 3333333#",
+			"$333333 3333333$",
+			"#333333  l33333#",
+			"X#$##########$#X"
+		],
+		[
+			"X##$########$##X",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$3  N  O  N  33$",
+			"#3  P       U33#",
+			"VV          U33#",
+			"VV           33#",
+			"#3             #",
+			"VV           33#",
+			"VV          U33#",
+			"#3          U33#",
+			"#3  0     0  33#",
+			"$333333 3333333$",
+			"#333333 3333333#",
+			"#333333  l33333#",
+			"X##$########$##X"
+		],
+		[
+			"X###$######$###X",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#3           33#",
+			"$3          533$",
+			"VV          533#",
+			"VV           33#",
+			"#3           33#",
+			"VV           33#",
+			"VV          533#",
+			"#3          533#",
+			"$3     6     33$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X###$######$###X"
+		],
+		[
+			"X####$####$####X",
+			"#33333333333333#",
+			"#37777777777733#",
+			"#3 ♱♑ɋĪÍ⛦Ƥ⚏8^73#",
+			"#3          &73#",
+			"$3          [73$",
+			"#3          ]73#",
+			"#3          {73#",
+			"#3          |73#",
+			"#3          '73#",
+			"$3          i73$",
+			"#3          <73#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X####$####$####X"
+		],
+		[
+			"X#####$##$#####X",
+			"#33333333333333#",
+			"#3>>>>>>>>>>>>3#",
+			"#3>>>>>>>>>>>>3#",
+			"#3>,>,>,>,>,>>3#",
+			"#3>>>>>>>>>>>>3#",
+			"$3>,>,>,>,>,>>3$",
+			"#3>>>>>>>>>>>>3#",
+			"#3>,>,>,>,>,>>3#",
+			"$3>>>>>>>>>>>>3$",
+			"#3>,>,>,>,>,>>3#",
+			"#3>>>>>>>>>>>>3#",
+			"#3>>>>>>>>>>>>3#",
+			"#33333333f33333#",
+			"#3333333>l>3333#",
+			"X##############X"
+		]
+	]
+}
