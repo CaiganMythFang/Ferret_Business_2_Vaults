@@ -1,0 +1,48 @@
+name "basic move test script"
+
+every 20 ticks do
+    -- gems to controller
+    input the_vault:gem_painite, the_vault:gem_benitoite, the_vault:gem_alexandrite, the_vault:gem_black_opal, the_vault:gem_wutodie, the_vault:gem_larimar, the_vault:gem_gorginite, the_vault:gem_petzanite, the_vault:gem_bomignite, the_vault:gem_iskallium, the_vault:gem_wutodie, the_vault:gem_sparkletine, the_vault:gemstone, the_vault:vault_diamond, the_vault:gem_echo, the_vault:dreamstone, the_vault:gem_tubium, the_vault:vault_catalyst_fragment, the_vault:smashed_vault_gem, the_vault:gem_ashium, the_vault:gem_xenium, the_vault:gem_upaline from bag
+    output to controller
+    output to overflow
+    -- vault junk to junk chest
+    input the_vault:rotten_meat, the_vault:living_rock, the_vault:mossy_bone, the_vault:wooden_chunk, the_vault:overgrown_wooden_chunk, the_vault:sandy_rocks, the_vault:ancient_copper_ingot, the_vault:ornate_chain, the_vault:vault_moss, the_vault:gilded_sconce, the_vault:soot, the_vault:gilded_ingot, the_vault:topaz_shard, the_vault:ornate_ingot, the_vault:velvet from bag
+    output to junk_chest
+    output to overflow
+    --vault burger and meat to controller
+    input the_vault:burger_bun, the_vault:burger_patty, the_vault:burger_cheese, the_vault:burger_tomato, the_vault:burger_lettuce, the_vault:vault_meat from bag
+    output to controller
+    output to overflow
+    --focuses to artisan
+    input the_vault:amplifying_focus, the_vault:fundamental_focus, the_vault:nullifying_focus, the_vault:wild_focus, the_vault:chaotic_focus, the_vault:waxing_focus, the_vault:waning_focus, the_vault:vault_plating from bag
+    output to artisan
+    output to overflow
+    --Various materials to controller
+    input the_vault:knowledge_star_essence, the_vault:regret_nugget, the_vault:silver_scrap, the_vault:carbon_nugget, the_vault:bounty_pearl, the_vault:chromatic_iron_ingot, the_vault:chromatic_steel_ingot, the_vault:carbon, the_vault:black_chromatic_steel_ingot from bag
+    output to controller
+    output to overflow
+    -- inscription pieces to table
+    input the_vault:inscription_piece from bag
+    output to inscription_table
+    output to overflow
+    -- vault food to food chest
+    input the_vault:sweet_kiwi, the_vault:bitter_lemon, the_vault:sour_orange, woldsvaults:wisdom_fruit, the_vault:mango, the_vault:grapes, the_vault:star_fruit, woldsvaults:hasty_pomegranate, the_vault:vault_sweets from bag
+    output to vault_food_chest
+    output to overflow
+    -- materials to vault materials
+    input the_vault:driftwood, the_vault:driftwood, the_vault:vault_essence, the_vault:magic_silk from bag
+    output to vault_materials_chest
+    output to overflow
+    -- Gear and Jewels to Sorting Chest
+    input the_vault:jewel, the_vault:sword, the_vault:axe, the_vault:helmet, the_vault:chestplate, the_vault:leggings, the_vault:boots, the_vault:shield, the_vault:idol, the_vault:wand, the_vault:focus, the_vault:small_charm, the_vault:large_charm, the_vault:grand_charm, the_vault:majestic_charm, the_vault:magnet, the_vault:unidentified_treasure_key, the_vault:battlestaff, the_vault:trident, the_vault:plushie, the_vault:loot_sack from bag
+    output to vault_sorting_chest
+    output to overflow
+    -- Chest scrolls and souls to Things chest
+    input the_vault:wooden_chest_scroll, the_vault:ornate_chest_scroll, the_vault:gilded_chest_scroll, the_vault:living_chest_scroll, the_vault:hardened_chest_scroll, the_vault:flesh_chest_scroll, the_vault:enigma_chest_scroll, the_vault:altar_chest_scroll, the_vault:treasure_chest_scroll, woldsvaults:general_decor_scroll from bag
+    output to vault_things_chest
+    output to overflow
+    -- Consumables to consumable chest
+    input the_vault:mystery_box, the_vault:mod_box, the_vault:repair_core, the_vault:crystal_seal_empty, the_vault:regret_orb, the_vault:knowledge_star, the_vault:gem_box, the_vault:supply_box, the_vault:augment_box, woldsvaults:inscription_box, woldsvaults:omega_box, woldsvaults:catalyst_box, woldsvaults:vaultar_box from bag
+    output to vault_consumable_chest
+    output to overflow
+end
