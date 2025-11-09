@@ -94,7 +94,7 @@
           },
           {
             "text": "core metal",
-            "color": "$qhighlight"
+            "color": "$text"
           },
           {
             "text": " of Vault Hunters, ",
@@ -539,7 +539,7 @@
           },
           {
             "text": " Black Market",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ".\nHowever, all of this loot can quickly become overwhelming, and any good hunter needs good loot organisation!\n\n",
@@ -551,7 +551,7 @@
           },
           {
             "text": "Wooden Chests",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ", however, a ",
@@ -559,7 +559,7 @@
           },
           {
             "text": "Pouch",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " is a much better and more reliable way to collect your loot.\n",
@@ -583,7 +583,7 @@
           },
           {
             "text": "Backpack Settings",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " tab inside it. The ",
@@ -591,7 +591,7 @@
           },
           {
             "text": "Slot Memory Settings",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " tab allows you to set a filter for your pouch to either whitelist or blacklist certain content to go inside it. These filters can also be saved and reapplied to other pouches later on. We recommend you play around with these settings until you understand the system.\n\n",
@@ -603,7 +603,7 @@
           },
           {
             "text": "The Pickup Upgrade",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " which will make the pouch automatically pick up items from the floor, when a chest is broken or items are thrown out of it\n",
@@ -611,7 +611,7 @@
           },
           {
             "text": "The Void Upgrade",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " which can be configured to void (delete) any excess items that can't fit in your pouch. Voiding items may sound weird, but can be extremely useful to improve your early game looting. These are expensive to craft however, so use the one from this quest wisely!\n\n",
@@ -723,6 +723,144 @@
     },
     {
       "type": "collection",
+      "id": "animal_pens",
+      "name": "Animal Pens",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Animals can be hard to manage on a large scale, and can cause a lot of lag in ",
+            "color": "$text"
+          },
+          {
+            "text": "Minecraft",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". This is solved by the use of ",
+            "color": "$text"
+          },
+          {
+            "text": "Animal Pens",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". These can be crafted, and with the use of an ",
+            "color": "$text"
+          },
+          {
+            "text": "Animal Jar",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", an infinite amount of one type of animal can be kept and bred in a single pen! This reduces lag massively, and makes animals not just cute to keep on your shelf, but easy to manage!\n\nAfter placing down an ",
+            "color": "$text"
+          },
+          {
+            "text": "Animal Pen",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", collect as many of a single type of animal as you want in an ",
+            "color": "$text"
+          },
+          {
+            "text": "Animal Jar",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". All passive, breedable animals in the game can be collected. Then simply right-click your jar on the pen to make it their home.\n\nYou can breed the animals if you have at least 2, by using their breed item — for example ",
+            "color": "$text"
+          },
+          {
+            "text": "Wheat",
+            "color": "$gold"
+          },
+          {
+            "text": " for a cow.\n\nFinally, the animals can be killed with your ",
+            "color": "$text"
+          },
+          {
+            "text": "sword",
+            "color": "$damage"
+          },
+          {
+            "text": " to gain their loot drops. The ",
+            "color": "$text"
+          },
+          {
+            "text": "Looting",
+            "color": "$fortune"
+          },
+          {
+            "text": " enchantment works here too, increasing your yield. Some animals have special features — for example, you can ",
+            "color": "$text"
+          },
+          {
+            "text": "milk a Cow",
+            "color": "$heal"
+          },
+          {
+            "text": " in a pen by using a ",
+            "color": "$text"
+          },
+          {
+            "text": "bucket",
+            "color": "$blocks"
+          },
+          {
+            "text": ", or ",
+            "color": "$text"
+          },
+          {
+            "text": "shear a Bee",
+            "color": "$yellow"
+          },
+          {
+            "text": " for honeycombs. By holding ",
+            "color": "$text"
+          },
+          {
+            "text": "shift",
+            "color": "$cooldown"
+          },
+          {
+            "text": " while looking at an ",
+            "color": "$text"
+          },
+          {
+            "text": "Animal Pen",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", you can see more information about the specific pen.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAcquire an Animal Pen",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/animal_pen",
+      "targetId": "the_vault:animal_pen",
+      "targetProgress": 1.0,
+      "unlockedBy": "enter_vault",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:animal_jar",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:animal_pen",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    }, 
+    {
+      "type": "collection",
       "id": "tool_station",
       "name": "Tool Station",
       "descriptionData": {
@@ -748,8 +886,8 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:chromatic_iron_ingot",
-            "amount": 16
+            "item": "the_vault:gemstone",
+            "amount": 2
           }
         ],
         "vaultExp": 0
@@ -887,23 +1025,23 @@
         "items": [
           {
             "item": "the_vault:jewel",
-            "nbt": "{vaultGearData:[L;971376693723047437L,-168107611866396186L,2398483460923590697L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,2196334573319662592L,-6834473908914065246L,1099511627698L,32768L,65536L]}"
+            "nbt": "{vaultGearData:[L;3591402060363627150L,2130563721701514760L,2398483460923590697L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,2196334573319662592L,-6834473908914065246L,1099511627698L,32768L,65536L]}"
           },
           {
             "item": "the_vault:jewel",
-            "nbt": "{vaultGearData:[L;-5409796860451422771L,7603660194345864875L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,-7164678727146624000L,-6834473908914083200L,1099511627698L,32768L,65536L]}"
+            "nbt": "{vaultGearData:[L;8807676962843960878L,-1018090581902778908L,2398483460923590697L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,-7164678727146624000L,-6834473908914083200L,1099511627698L,32768L,65536L]}"
           },
           {
             "item": "the_vault:jewel",
-            "nbt": "{vaultGearData:[L;-2915353807708431011L,4285152979133458645L,2398483460923590698L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,1749915260256562176L,-6834473908914085726L,1099511627698L,32768L,65536L]}"
+            "nbt": "{vaultGearData:[L;-4246674546207997586L,469804410667479720L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,1749915260256562176L,-6834473908914085726L,1099511627698L,32768L,65536L]}"
           },
           {
             "item": "the_vault:jewel",
-            "nbt": "{vaultGearData:[L;-1576843100873769395L,-2976429644939743046L,2398483460923590697L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,-6032128973979210752L,-6834473908914079292L,1099511627698L,32768L,65536L]}"
+            "nbt": "{vaultGearData:[L;9040600318283653614L,-2646425694881105473L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617703201862843645L,-6032128973979210752L,-6834473908914079292L,1099511627698L,32768L,65536L]}"
           },
           {
             "item": "the_vault:jewel",
-            "nbt": "{vaultGearData:[L;-5794345560873588563L,6759959357241824319L,2398483460923590698L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617707599909354749L,1330939757422750720L,-348445744039196665L,268435455L,8L,16L]}"
+            "nbt": "{vaultGearData:[L;1437378485525153694L,-4161882800610591095L,2398483460923590699L,7301343536245727237L,5575674136L,23103591157858304L,324563159483502678L,-8640993352180625592L,3132658643786425171L,661424963584L,423311976693760L,5788814723563913216L,5980992884900975665L,-281474976377438L,36028797019029503L,72057594037927936L,-6617707599909354749L,1330939757422750720L,-348445744039196665L,268435455L,8L,16L]}"
           }
         ],
         "vaultExp": 0
@@ -1349,7 +1487,7 @@
       "descriptionData": {
         "description": [
         {
-          "text": "Seals are especially handy items as they let you set the objective of the vault. This way even if you are lower level you will be able to play any objective at any time. To use a seal apply it to a crystal in a anvil or in the crystal workbench",
+          "text": "Seals are especially handy items as they let you set the objective of the vault. This way even if you are lower level you will be able to play any objective at any time. To use a seal apply it to a crystal in the crystal workbench",
           "color": "$text"
         },
         {
@@ -1515,15 +1653,15 @@
             "color": "$qhighlight"
           },
           {
-            "text": ". This will make organising your scav items a lot easier! Another good thing to know is that when you exit the vaults the scav items become",
+            "text": ". This will make organising your scav items a lot easier! Another good thing to know is that when you exit the vaults the scav items get",
             "color": "$text"
           },
           {
-            "text": "rotten",
+            "text": "removed",
             "color": "$qhighlight"
           },
           {
-            "text": ". Rotten scav items can't be used in another scav vault. They can be however smelted down into soul dust in the soul harvester.",
+            "text": ". Scavenger items are locked to that vault only!",
             "color": "$text"
           },
           {
@@ -1877,7 +2015,7 @@
           },
           {
             "text": "identify",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " all unidentified vault gear in your inventory instantly.",
@@ -1960,7 +2098,7 @@
           },
           {
             "text": "Casual Mode",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " dying in a vault no longer keeps your items, you will learn more about that in the ",
@@ -1968,7 +2106,7 @@
           },
           {
             "text": "Spirit Extractor",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " quest.\n\n",
@@ -1980,7 +2118,7 @@
           },
           {
             "text": "Vendoors",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " and ",
@@ -1988,7 +2126,7 @@
           },
           {
             "text": "Dungeon Doors",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " inside the vault, as well as additional loot and new mobs!\n\n",
@@ -2012,6 +2150,9 @@
         "items": [
           {
             "item": "the_vault:knowledge_star"
+          },
+          {
+            "item": "the_vault:spirit_extractor"
           }
         ],
         "vaultExp": 0
@@ -2069,14 +2210,6 @@
           },
           {
             "item": "the_vault:deluxe_cheese_burger",
-            "amount": 1
-          },
-          {
-            "item": "the_vault:crispy_deluxe_cheese_burger",
-            "amount": 1
-          },
-          {
-            "item": "the_vault:cheese_burger_feast",
             "amount": 1
           }
         ],
@@ -2441,6 +2574,69 @@
     },
 
     {
+      "type": "mining",
+      "id": "temporal_shards",
+      "name": "Pylons & Temporal Relics",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "You may already have come across ",
+            "color": "$text"
+          },
+          {
+            "text": "Pylons",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " inside your vaults. These powerful floating crystals, when right clicked, gives you a limited buff depending on the pylon.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "You can however choose to destroy the Pylon and its power, instead of consuming it, by breaking it with your tool. It does takes a long time to break it, but when done there is a small chance you will have it yield a ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Relic",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". This is a very powerful item that when identified, gives you a consumable item, that adds a ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Modifier",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " to the vault it is consumed in!\n\nTemporal Modifiers are super strong, and lasts for 5 minutes, and when used correctly they can completely change the outcome of your vault or your current objective!",
+            "color": "$text"
+          },
+          {
+            "text": "!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Break a Pylon to have a chance of getting a Temporal Relic",
+            "color": "$heal"
+          }
+        ]        
+      },
+      "icon": "the_vault:gui/quests/temporal_shard",
+      "targetId": "the_vault:pylon",
+      "targetProgress": 1,
+      "unlockedBy": "crystal_workbench",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:temporal_shard",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+
+    {
       "type": "collection",
       "id": "artifact",
       "name": "Artifacts",
@@ -2526,7 +2722,7 @@
       }
     },
     {
-      "type": "collection",
+      "type": "block_interact",
       "id": "spirit_extractor",
       "name": "Revival",
       "descriptionData": {
@@ -2536,7 +2732,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nAcquire a Spirit Extractor",
+            "text": "\n\nInteract with a Spirit Extractor",
             "color": "$heal"
           }
         ]
@@ -2591,7 +2787,7 @@
           },
           {
             "text": "triple jump",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " or ",
@@ -2599,7 +2795,7 @@
           },
           {
             "text": "climb walls",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ".\n\n",
@@ -2655,7 +2851,7 @@
           },
           {
             "text": "Vault Forge",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ".\nA Crafted Trinket will always have 12 uses/charges, while a looted trinket randomly rolls 20 to 30 uses/charges.",
@@ -2667,7 +2863,7 @@
           },
           {
             "text": "Trinket Scrap",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ".\nThe chance to get a Trinket Scrap is determined by how many uses/charges the trinket have left when being scrapped; A fully charged trinket will always yield the scrap, while a completely depleted one will never yield the scrap.",
@@ -2705,7 +2901,7 @@
           },
           {
             "text": "Trinket",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ", you can craft your own in the ",
@@ -2713,7 +2909,7 @@
           },
           {
             "text": "Trinket Forge",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ".\n\n",
@@ -2725,7 +2921,7 @@
           },
           {
             "text": "Trinket Scraps",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": " which you can get in the ",
@@ -2733,7 +2929,7 @@
           },
           {
             "text": "Vault Recycler",
-            "color": "$name"
+            "color": "$qhighlight"
           },
           {
             "text": ".\n\n",
@@ -3501,39 +3697,63 @@
             "color": "$text"
           },
           {
-            "text": "After level 40, you can find ",
+            "text": "Now that you have reached level 40, you may, however very rarely, come across ",
             "color": "$text"
           },
           {
-            "text": "charms",
+            "text": "God Charms",
             "color": "$qhighlight"
           },
           {
-            "text": " rarely inside ",
+            "text": ". They can be found inside ",
             "color": "$text"
           },
           {
             "text": "Living Chests",
-            "color": "$living"
+            "color": "$qhighlight"
           },
           {
-            "text": ". They can not be crafted.\n\nCharms is your way to show your affinity to a specific god while inside a vault",
+            "text": " and ",
             "color": "$text"
           },
           {
-            "text": ". They can be identified by rolling them like gear, and there are four different tiers of charms; ",
+            "text": "Living Dungeon Barrels",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". They can not be crafted, nor modified, but they can be recycled for vault scrap.\n\n",
             "color": "$text"
           },
           {
-            "text": "Noble, Distinguished, Regal and Majestic.",
+            "text": "Charms can be equipped in your ",
             "color": "$text"
           },
           {
-            "text": "\nThe higher the tier, the more affinity they can have to their god.\n\nCharms have uses, and can not be unequipped or equipped during a vault. A use charge is consumed every time you interact with a God Altar inside a vault.",
+            "text": "charm slot",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and, like Trinkets, have uses until they deplete.\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nAffinity is important to understand for your next quest, so, here is your first charm, identify it, and wear it proudly!",
+            "text": "Depending on which God the charm is tied to, they can add valuable attributes and ",
+            "color": "$text"
+          },
+          {
+            "text": " Temporal Modifiers",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nThe power of these attributes are based on your ",
+            "color": "$text"
+          },
+          {
+            "text": "reputation",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " with the god it is tied to! The higher your reputation, the more powerful the attributes become.\n\nIn the next quest you can learn about how to increase your god reputation, but for now, to get you off on the right foot, here is a free God Charm for you to identify!",
             "color": "$text"
           }
         ]
@@ -3545,7 +3765,7 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:small_charm"
+            "item": "the_vault:vault_god_charm"
           }
         ],
         "vaultExp": 0
@@ -3554,7 +3774,7 @@
     {
       "type": "block_interact",
       "id": "god_altars",
-      "name": "God Altars",
+      "name": "God Altars & Reputation",
       "descriptionData": {
         "description": [
           {
@@ -3574,7 +3794,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", strongly buffing you in the vault and if you are lucky enough, and show enough affinity to the god, you can also gain a ",
+            "text": ", strongly buffing you in the vault and perhaps more importantly, earn you a ",
             "color": "$text"
           },
           {
@@ -3586,11 +3806,27 @@
             "color": "$text"
           },
           {
-            "text": "curse your vault",
+            "text": "revoke a reputation point",
             "color": "$qhighlight"
           },
           {
-            "text": "!\n\nNote, you can only reach 25 reptuation points in total, after that point you will lose reputation with another god, when gaining a new one.",
+            "text": "!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "You can reach ",
+            "color": "$text"
+          },
+          {
+            "text": "50",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " reputation points per each god, and you can track your progress in your statistics screen.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nThe more reputation you have with each god, the more powerful their charms are!",
             "color": "$text"
           },
           {
@@ -3607,261 +3843,6 @@
         "items": [
           {
             "item": "the_vault:gem_pog"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "divine_paradox_seal",
-      "name": "Architect's Vault Rock",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "(This mechanic is marked for a rework in the future. We cannot guarantee any resources spent to unlock rooms will be refunded!)",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nNow that you know a bit about the gods and understand their altars, it's time to let you know about the ",
-            "color": "$text"
-          },
-          {
-            "text": "Divine Paradox",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "!\n\nThe ",
-            "color": "$text"
-          },
-          {
-            "text": "Divine Paradox",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " is a vault designed completely by you! It can be revisited once every day, and can be ",
-            "color": "$text"
-          },
-          {
-            "text": "customized",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " to fully suit your needs.\n\nIn order to get started, you will need a ",
-            "color": "$text"
-          },
-          {
-            "text": "Architect's Vault Rock",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " which you can place on a vault altar to create a ",
-            "color": "$text"
-          },
-          {
-            "text": "Divine Paradox Architect Crystal",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ", letting you buy rooms for ",
-            "color": "$text"
-          },
-          {
-            "text": "vault gold",
-            "color": "$gold"
-          },
-          {
-            "text": " to extend your vault.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nEach room is associated with a god, and will require you to have the sufficient ",
-            "color": "$text"
-          },
-          {
-            "text": "reputation",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " with that god to build. Every time you add a room of any god, the ",
-            "color": "$text"
-          },
-          {
-            "text": "reputation requirement",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " from that god goes up.\n\nThe ",
-            "color": "$text"
-          },
-          {
-            "text": "build realm",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " of the Divine Paradox is empty in terms of loot and mobs, it exists solely for you to design and extend it,",
-            "color": "$text"
-          },
-          {
-            "text": "Craft an Architect's Vault Rock",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/architectrock",
-      "targetId": "the_vault:crystal_seal_ordinator_build",
-      "targetProgress": 1.0,
-      "unlockedBy": "god_altars",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_diamond",
-            "amount": 9
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "divine_paradox_seal_run",
-      "name": "Paradox's Vault Rock",
-      "descriptionData": {
-        "description": [
-            {
-                "text": "(This mechanic is marked for a rework in the future. We cannot guarantee any resources spent to unlock rooms will be refunded!)",
-                "color": "$qhighlight"
-            },
-            {
-                "text": "\n\nOnce you have built a few rooms in your Divine Paradox, it's time to run the vault!\n\nYou can do this only once every ",
-                "color": "$text"
-            },
-            {
-                "text": "20 hours",
-                "color": "$qhighlight"
-            },
-            {
-                "text": ", and since the Divine Paradox is a personal vault, you can not bring your friends.\n\nThe Divine Paradox starts out with ",
-                "color": "$text"
-            },
-            {
-                "text": "10 minutes",
-                "color": "$qhighlight"
-            },
-            {
-                "text": " on the timer, as opposed to the 25 minutes of a regular vault. ",
-                "color": "$text"
-            },
-            {
-                "text": "Relics",
-                "color": "$qhighlight"
-            },
-            {
-                "text": " and ",
-                "color": "$text"
-            },
-            {
-                "text": "Extended Modifiers",
-                "color": "$qhighlight"
-            },
-            {
-                "text": " can increase the time.\n\nThe goal of running your Divine Paradox is to collect ",
-                "color": "$text"
-            },
-            {
-                "text": "Blessings",
-                "color": "$qhighlight"
-            },
-            {
-                "text": " from each god, they appear in chests, coin piles and ores in a room blessed by the corresponding god. Collect the required amount and return to your start room to sacrifice them to the correct god to complete the Divine Paradox!\nThis will be difficult in the beginning, as you may not have enough rooms of each god to complete the vault, however, as you extend your Divine Paradox it becomes easier and easier to complete, and completing it is good, because the gods will always bless you with an ",
-                "color": "$text"
-            },
-            {
-                "text": "Artifact",
-                "color": "$qhighlight"
-            },
-            {
-                "text": "!\n\nOnce you have built a few rooms in the build realm of the Divine Paradox, craft a ",
-                "color": "$text"
-            },
-            {
-                "text": "Paradox's Vault Rock",
-                "color": "$qhighlight"
-            },
-            {
-                "text": " and turn it in to a Paradox Vault Crystal by completing it on the Vault Altar.",
-                "color": "$text"
-            },
-            {
-              "text": "\n\nCraft a Paradox's Vault Rock",
-              "color": "$heal"
-            }
-          ]
-      
-        
-      },
-      "icon": "the_vault:gui/quests/paradoxrock",
-      "targetId": "the_vault:crystal_seal_ordinator_run",
-      "targetProgress": 1.0,
-      "unlockedBy": "divine_paradox_seal",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_gold",
-            "amount": 64
-          },
-          {
-            "item": "the_vault:vault_gold",
-            "amount": 64
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "checkmark",
-      "id": "paradoxical_gem",
-      "name": "Resetting your Divine Paradox",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "(This mechanic is marked for a rework in the future. We cannot guarantee any resources spent to unlock rooms will be refunded!)",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nIf you ever feel like you want to ",
-            "color": "$text"
-          },
-          {
-            "text": "reset your progress",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " of your Divine Paradox, and start over, you can!\n\nYou will need a pool of ",
-            "color": "$text"
-          },
-          {
-            "text": "Void Liquid",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ", and then simply drop an Architect's Divine Paradox Vault Crystal in it. This will void all progress and allow you to start over!\n\n",
-            "color": "$text"
-          },
-          {
-            "text": "BEWARE, this does not refund any gold spent to unlock rooms!",
-            "color": "$warning"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/resetdivine",
-      "targetId": "the_vault:vault_stone",
-      "targetProgress": 1.0,
-      "unlockedBy": "divine_paradox_seal_run",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_gold"
           }
         ],
         "vaultExp": 0
@@ -4165,15 +4146,27 @@
             "color": "$qhighlight"
           },
           {
-            "text": " as well as a ",
+            "text": ", which when mined yields a lot of different treasures.",
             "color": "$text"
           },
           {
-            "text": "Treasure Pedestal",
+            "text": "\nThe Treasure Room also contains ",
+            "color": "$text"
+          },
+          {
+            "text": "Three Treasure Pedestal",
             "color": "$qhighlight"
           },
           {
-            "text": "!\n\nThe loot is random, but also the only place to find certain items!",
+            "text": ", containing one vault gear item each. However, these vault gear items are guaranteed to have ",
+            "color": "$text"
+          },
+          {
+            "text": "one legendary modifier",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "!\n\nYou may only pick one of the pedestals, and the only information you have when picking is the gear type and rarity!",
             "color": "$text"
           },
           {
@@ -4189,7 +4182,297 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:lost_bounty"
+            "item": "the_vault:unidentified_treasure_key"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+{
+      "type": "collection",
+      "id": "royale",
+      "name": "Royale Vaults",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Royale vaults are a completely optional part of Vault Hunters, but a nice change of pace if your road to level 100 gets stale and grindy, and the rewards can be incredible!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "When you enter a Royale vault you will be completely bare; all your gear and skill point allocation will be stored for when you return. The first thing you do is meet ",
+            "color": "$text"
+          },
+          {
+            "text": "Tommy",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "!\n",
+            "color": "$text"
+          },
+          {
+            "text": "Tommy",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " will provide you with 3 loadouts. You can pick whichever one you feel comfortable with—or none, if you want an extreme challenge.\n",
+            "color": "$text"
+          },
+          {
+            "text": "Next, ",
+            "color": "$text"
+          },
+          {
+            "text": "Tommy",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " will offer you one of three blue trinkets, and then one of three red trinkets. Finally, you will pick your reward—should you win.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "One of the rewards will always be the ",
+            "color": "$text"
+          },
+          {
+            "text": "Royale Crown",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". The crown is a loot multiplier, which increases your reward multiplier each time it’s attached to the ",
+            "color": "$text"
+          },
+          {
+            "text": "Royale Crystal",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", which you do in an anvil between Royale runs.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "As you leave ",
+            "color": "$text"
+          },
+          {
+            "text": "Tommy",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", you will have some skill points allocated—but still be naked. Gear and further skill point scrolls can be found in the glowing ",
+            "color": "$text"
+          },
+          {
+            "text": "Royale Barrels",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " scattered across the vault. Make sure to loot up before fighting!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "One last thing: a Royale vault is locked and cannot be exited the way you came in. You must complete the random objective to get out!\n\nGood luck, hunter—you’ll either love or hate it!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Obtain a Royale Rock",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/royale",
+      "targetId": "the_vault:crystal_seal_vault_royale",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:crystal_seal_vault_royale"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "antiques",
+      "name": "Antiques",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Antiques are ancient stamps, carried by the realm of the vault. These ancient stamps can be collected and combined to give you a reward tied to that specific antique collection.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Antiques appear after level 50, but only if the hunter is carrying the ",
+            "color": "$text"
+          },
+          {
+            "text": "Antique Stamp Collector book",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", which can be crafted and left in your inventory. It will automatically pick up, sort, and organise all of your antiques. Once you have the required amount of any one antique, you can take them out and right-click them to trade them in for their reward.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Where and how to find antiques will reveal itself the more of one you find. Pay attention when hovering an antique to try and figure out where it came from!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Craft an Antique Stamp Collector book",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/antique_collector_book",
+      "targetId": "the_vault:antique_collector_book",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "companions",
+      "name": "Companions!",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "After level 50 you can start finding ",
+            "color": "$text"
+          },
+          {
+            "text": "Companions",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "! They are quite shy, but their nests can be found inside a vault, in any room, at any time! If you find one, gently break it open with your tool in order to retrieve its egg.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "The egg can be hatched inside an ",
+            "color": "$text"
+          },
+          {
+            "text": "Incubator",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", and every companion will be personally bound to its owner after this stage.\n",
+            "color": "$text"
+          },
+          {
+            "text": "Equip your companion in the Head Slot in your curious inventory to equip it. As long as its state is ready, it will join you when you enter a vault.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Companions",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " come with one ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Modifier",
+            "color": "$titleLine"
+          },
+          {
+            "text": ". This modifier can be activated at any time by pressing the hotkey for it, which you can bind in keybinds. The length of the ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Modifier",
+            "color": "$titleLine"
+          },
+          {
+            "text": " is determined by the level of your companion, it lasts 1 minute at level 1, 3 minutes at level 3, etc. The ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Modifier",
+            "color": "$titleLine"
+          },
+          {
+            "text": " cannot be changed or altered. It is kind of like the soul of your companion.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Companions",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " can also equip ",
+            "color": "$text"
+          },
+          {
+            "text": "Companion Relics",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". These rare items can be found inside any ",
+            "color": "$text"
+          },
+          {
+            "text": "chest",
+            "color": "$yellow"
+          },
+          {
+            "text": ", or in ",
+            "color": "$text"
+          },
+          {
+            "text": "Treasure Sand",
+            "color": "$yellow"
+          },
+          {
+            "text": ", as long as you have a companion with you in the vault.\n",
+            "color": "$text"
+          },
+          {
+            "text": "Companion Relics",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " carry vault modifiers, and can be equipped inside a ",
+            "color": "$text"
+          },
+          {
+            "text": "Companion Home",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". However, the companion grows quite fond of their relics, and attempting to de-equip one will cost you a lot of gold!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "If cared for correctly, your companions can become very powerful, and aid you in your journey throughout the vaults!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Craft a Companion Incubator",
+            "color": "$heal"
+          }
+        ]
+      },
+
+      "icon": "the_vault:gui/quests/companion",
+      "targetId": "the_vault:companion_incubator",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:companion_egg",
+            "nbt": "{HatchTime:20,Series:\"PET\"}"
           }
         ],
         "vaultExp": 0
@@ -4284,7 +4567,7 @@
               "color": "$text"
           },
           {
-              "text": "special transmorgs",
+              "text": "special transmogs",
               "color": "$qhighlight"
           },
           {
@@ -4322,6 +4605,247 @@
           {
             "item": "the_vault:ember",
             "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+ {
+      "type": "level_up",
+      "id": "reach_level_100",
+      "name": "Reaching Max Level",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Level 100 marks the end of ordinary levels in Vault Hunters, once here you have conquered all skill points available, and unlocked all possible gear tier groups!\n\nMost importantly, you have now unlocked the ability to enter The Arena, and to face the Herald.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nReach Vault Level 100",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/100",
+      "targetId": "the_vault:100",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:modifier_scroll"
+          },
+          {
+            "item": "the_vault:companion_egg",
+            "nbt": "{HatchTime:20,Series:\"PET\"}"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "complete_vault",
+      "id": "herald",
+      "name": "The Herald",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "It is time for you to prove your worth!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "In order to face the ultimate challenge, the ",
+            "color": "$text"
+          },
+          {
+            "text": "Herald",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", you must have reached level 100 and completed your ",
+            "color": "$text"
+          },
+          {
+            "text": "Artifact Puzzle",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". Only once both of those things have been completed will you be able to enter ",
+            "color": "$text"
+          },
+          {
+            "text": "The Arena",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Retrieve the ",
+            "color": "$text"
+          },
+          {
+            "text": "Herald's Rock",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " by right-clicking on your completed ",
+            "color": "$text"
+          },
+          {
+            "text": "Artifact Tome",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "; you can retrieve as many as you want. Crafting this rock on your altar gives you the ",
+            "color": "$text"
+          },
+          {
+            "text": "Herald's Crystal",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Beware, this is a very difficult boss with different phases, and all your previous knowledge will be evaluated in order to beat this challenge.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Good Luck Hunter\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Beat the Herald",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/herald",
+      "targetId": "the_vault:herald",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_100",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:omega_pog",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "spend_prestige_point",
+      "id": "prestige",
+      "name": "Prestige Powers",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Well done! After defeating the ",
+            "color": "$text"
+          },
+          {
+            "text": "Herald ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "and reaching level 100, you have unlocked the final chapter of Vault Hunters: ",
+            "color": "$text"
+          },
+          {
+            "text": "Prestige Powers",
+            "color": "$omega"
+          },
+          {
+            "text": ".\n\nEach level gained beyond 100 becomes a ",
+            "color": "$text"
+          },
+          {
+            "text": "Prestige Level",
+            "color": "$white"
+          },
+          {
+            "text": ", granting you 1 ",
+            "color": "$text"
+          },
+          {
+            "text": "Prestige Point",
+            "color": "$prestige_points"
+          },
+          {
+            "text": ".You can spend ",
+            "color": "$text"
+          },
+          {
+            "text": "Prestige Points ",
+            "color": "$prestige_points"
+          },
+          {
+            "text": "alongside Knowledge Points in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Prestige Powers ",
+            "color": "$omega"
+          },
+          {
+            "text": "tab (accessible through the Vault Hunters menu).\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Prestige Powers ",
+            "color": "$omega"
+          },
+          {
+            "text": "follow an intuitive tier system with each row representing a different tier. ",
+            "color": "text"
+          },
+          {
+            "text": "Higher-tier powers require investment in lower-tier powers, with each row building naturally upon the previous one to ensure meaningful and satisfying progression.\n\n",
+            "color": "text"
+          },
+          {
+            "text": "Some Prestige Powers can be activated or deactivated once the ",
+            "color": "text"
+          },
+          {
+            "text": "Prestige Activation Screen ",
+            "color": "$white"
+          },
+          {
+            "text": "keybind is bound.\n\n",
+            "color": "text"
+          },
+          {
+            "text": "With an extensive collection of ",
+            "color": "text"
+          },
+          {
+            "text": "Prestige Powers ",
+            "color": "$omega"
+          },
+          {
+            "text": "available to unlock, the ultimate question remains:\n\nWill you obtain them all?\n\n",
+            "color": "text"
+          },
+          {
+            "text": "Spend a Prestige Point",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/prestige_powers",
+      "targetId": "the_vault:1",
+      "targetProgress": 1.0,
+      "unlockedBy": "herald",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:knowledge_star",
+            "amount": 25
           }
         ],
         "vaultExp": 0
