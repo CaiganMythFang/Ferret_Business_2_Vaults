@@ -1,6 +1,26 @@
 {
   "catalystRecipes": [
     {
+      "id": "woldsvaults:greed_rock",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "woldsvaults:greedy_vault_rock",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_rock",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gem_pog",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
       "id": "the_vault:catalyst_wooden_cascade",
       "output": {
         "AMOUNT": 1,
@@ -14,7 +34,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -39,7 +59,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -64,7 +84,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -89,7 +109,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -114,7 +134,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -139,7 +159,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -164,7 +184,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -189,7 +209,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
@@ -214,7 +234,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
