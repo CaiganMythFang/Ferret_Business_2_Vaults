@@ -485,7 +485,7 @@
 			}]
 		}
 		{
-			title: "Guardians : Hacked!"
+			title: "Rune Boss : Hacked!"
 			x: 9.25d
 			y: -0.75d
 			shape: "diamond"
@@ -552,10 +552,11 @@
 			}]
 		}
 		{
-			title: "Sword of Red"
+			title: "Bounty Posted"
 			x: 1.0d
 			y: 0.25d
 			shape: "rsquare"
+			subtitle: "Reward : A Gold Vaulter Box!"
 			description: [
 				"&dYou've been digging up all the Treasure Sand in the Treasure Rooms, right Bandit?"
 				""
@@ -589,11 +590,13 @@
 			shape: "rsquare"
 			subtitle: "A Prize on Display"
 			description: [
-				"&dWhen you finally get into a Treasure Room, Bandit, you'll find one of two things: a Treasure Chest or a Treasure Pedestal."
+				"&dWhen you finally get into a Treasure Room, Bandit, you'll find one of three things: a Treasure Chest, a single Treasure Pedestal, or THREE Treasure Pedestals!"
 				""
 				"&5Unlike the Treasure Chest, there is only one piece of loot on a Treasure Pedestal. But this is the only way to get two of the rarest treasure rewards: The Treasure Card Deck, and a unique Treasure Magnet."
 				""
-				"&dEven if its one item, these are usually good ways of finding Wold Star Chunks, which you'll want for high end items, Bandit."
+				"&dIf you get a Treasure Room with THREE Pedestals, you can only take one of them, so choose carefully, Bandit!"
+				""
+				"&5Even if its one item, these are usually good ways of finding Wold Star Chunks, which ye'll want for high end items, Bandit."
 			]
 			hide_dependency_lines: true
 			dependencies: ["59965C1CF354E4CE"]
@@ -696,7 +699,7 @@
 			description: [
 				"&dWhen you finally get into a Treasure Room, Bandit, you'll find one of two things: a Treasure Chest or a Treasure Pedestal."
 				""
-				"&5Three out of four times ye will find a Treasure Chest. Full of good loot in it, but not always the best loot."
+				"&5Usually ye will find a Treasure Chest. Full of good loot in it, but not always the best loot."
 				""
 				"&dBut these are usually good ways of finding Wold Star Chunks, which you'll want for high end items, Bandit."
 			]
@@ -766,15 +769,24 @@
 				"&dThe Cryonic Focus will Freeze a random modifier on a piece of gear."
 				""
 				"&5This will let you reroll the gear, but keep the frozen modifier as it is."
+				""
+				"&5To unfreeze modifiers, using a Blazing Focus."
 			]
 			hide_dependency_lines: true
 			dependencies: ["59965C1CF354E4CE"]
 			id: "7B257BDD8F86B489"
-			tasks: [{
-				id: "70819B310BCF6E12"
-				type: "item"
-				item: "the_vault:cryonic_focus"
-			}]
+			tasks: [
+				{
+					id: "70819B310BCF6E12"
+					type: "item"
+					item: "the_vault:cryonic_focus"
+				}
+				{
+					id: "4AC6451A79B06871"
+					type: "item"
+					item: "woldsvaults:blazing_focus"
+				}
+			]
 			rewards: [{
 				id: "6927E9A82BF7874A"
 				type: "choice"
@@ -968,6 +980,54 @@
 				id: "20D95980A5C8FC51"
 				type: "item"
 				item: "the_vault:herald_trophy"
+			}]
+		}
+		{
+			title: "Suspending Belief"
+			x: 3.75d
+			y: 0.25d
+			shape: "rsquare"
+			subtitle: "Highlighting the Unique"
+			description: ["&5The Suspension Focus enables you to freeze specifically a Legendary, Corrupted, Greater, or Unusual modifier."]
+			hide_dependency_lines: true
+			dependencies: ["59965C1CF354E4CE"]
+			hide: true
+			id: "5840D59D137BB271"
+			tasks: [{
+				id: "1B49EF3C27F69587"
+				type: "item"
+				item: "woldsvaults:suspension_focus"
+			}]
+			rewards: [{
+				id: "6EFAE945353A92E5"
+				type: "item"
+				item: "woldsvaults:suspension_focus"
+			}]
+		}
+		{
+			title: "Egg of Surprises"
+			x: 9.0d
+			y: -0.75d
+			shape: "rsquare"
+			subtitle: "What Lay Inside?"
+			description: [
+				"&5A special mob egg can be obtained by completing the Brutal Bosses objective."
+				""
+				"&5The Enigma Egg contains special eggs you cannot get anywhere else."
+			]
+			hide_dependency_lines: true
+			dependencies: ["27D6F5C91318727E"]
+			hide: true
+			id: "150237358E8A756A"
+			tasks: [{
+				id: "318D0EF06532BD79"
+				type: "item"
+				item: "woldsvaults:enigma_egg"
+			}]
+			rewards: [{
+				id: "406BA1260254FFB4"
+				type: "item"
+				item: "woldsvaults:enigma_egg"
 			}]
 		}
 	]
