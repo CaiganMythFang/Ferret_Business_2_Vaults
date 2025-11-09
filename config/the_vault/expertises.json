@@ -4,6 +4,90 @@
     "skills": [
       {
         "type": "tiered",
+        "id": "Companion_Loyalty",
+        "name": "Companion's Loyalty",
+        "tiers": [
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.3,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 75
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.5,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Blessed",
+        "name": "Blessed",
+        "tiers": [
+          {
+            "type": "blessed",
+            "affinityIncrease": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "blessed",
+            "affinityIncrease": 0.2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "blessed",
+            "affinityIncrease": 0.3,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "blessed",
+            "affinityIncrease": 0.4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          },
+          {
+            "type": "blessed",
+            "affinityIncrease": 0.5,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 100
+          }
+        ]
+      },
+      {
+        "type": "tiered",
         "id": "Lucky_Altar",
         "name": "Lucky Altar",
         "tiers": [
@@ -205,6 +289,34 @@
       },
       {
         "type": "tiered",
+        "id": "ShopReroll",
+        "name": "Negotiator",
+        "tiers": [
+          {
+            "type": "negotiator",
+            "rerollTimeout": 900,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "negotiator",
+            "rerollTimeout": 300,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "negotiator",
+            "rerollTimeout": 100,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          }
+        ]
+      },
+      {
+        "type": "tiered",
         "id": "Divine",
         "name": "Divine",
         "tiers": [
@@ -228,20 +340,34 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
-          },
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Pylon_Pilferer",
+        "name": "Pylon Pilferer",
+        "tiers": [
           {
-            "type": "divine",
-            "affinityIncrease": 0.4,
+            "type": "pylon_pilferer",
+            "chanceIncrease": 0.02,
             "learnPointCost": 1,
             "regretPointCost": 0,
-            "unlockLevel": 50
+            "unlockLevel": 0
           },
           {
-            "type": "divine",
-            "affinityIncrease": 0.5,
+            "type": "pylon_pilferer",
+            "chanceIncrease": 0.035,
             "learnPointCost": 1,
             "regretPointCost": 0,
-            "unlockLevel": 100
+            "unlockLevel": 0
+          },
+          {
+            "type": "pylon_pilferer",
+            "chanceIncrease": 0.05,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
           }
         ]
       },
@@ -326,6 +452,34 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 100
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Surprise_Favors",
+        "name": "Surprise Favors",
+        "tiers": [
+          {
+            "type": "surprise_favors",
+            "surpriseLevel": 2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "surprise_favors",
+            "surpriseLevel": 4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "surprise_favors",
+            "surpriseLevel": 6,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
           }
         ]
       },
@@ -463,7 +617,7 @@
           {
             "type": "jeweler",
             "additionalIdentifiedJewels": 0,
-            "learnPointCost": 2,
+            "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           }
@@ -494,30 +648,6 @@
             "type": "marketer",
             "timeReductionInMinutes": 0,
             "numberOfRolls": 3,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "marketer",
-            "timeReductionInMinutes": 0,
-            "numberOfRolls": 4,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "marketer",
-            "timeReductionInMinutes": 0,
-            "numberOfRolls": 5,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "marketer",
-            "timeReductionInMinutes": 0,
-            "numberOfRolls": 6,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0

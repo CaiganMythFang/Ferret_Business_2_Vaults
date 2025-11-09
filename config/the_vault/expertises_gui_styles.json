@@ -1,5 +1,17 @@
 {
   "styles": {
+    "ShopReroll": {
+      "x": 210,
+      "y": -140,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/negotiator"
+    },
+    "Pylon_Pilferer": {
+      "x": 210,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/pylon_pilferer"
+    },
     "Lucky_Altar": {
       "x": 210,
       "y": 140,
@@ -23,12 +35,6 @@
       "y": 70,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/jeweller"
-    },
-    "Angel": {
-      "x": 210,
-      "y": 70,
-      "frameType": "STAR",
-      "icon": "the_vault:gui/skills/angel"
     },
     "Bounty_Hunter": {
       "x": 280,
@@ -92,9 +98,21 @@
     },
     "Craftsman": {
       "x": 210,
-      "y": 190,
+      "y": 210,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/reroll"
+    },
+    "Surprise_Favors": {
+      "x": 210,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/ward"
+    },
+    "Companion_Loyalty": {
+      "x": 210,
+      "y": -70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/companion_sleepy"
     }
   }
 }
