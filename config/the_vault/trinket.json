@@ -3,27 +3,27 @@
     "the_vault:carapace": {
       "weight": 10,
       "name": "Carapace",
-      "effectText": "Grants Immunity to Poison, Slowness, Mining Fatigue and Fire",
-      "color": 3304444,
+      "effectText": "Grants Immunity to all negative effects except Time Acceleration",
+      "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "blue_trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:cat_in_a_jar": {
       "weight": 10,
       "name": "Portable Cat",
       "effectText": "Grants a dodge chance for incoming projectiles and removes block damage from explosions",
-      "color": 3304444,
+      "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "blue_trinket",
+        "curiosSlot": "red_trinket",
         "chance": 0.75
       }
     },
@@ -56,8 +56,8 @@
     "the_vault:chromatic_powder": {
       "weight": 10,
       "name": "Chromatic Powder",
-      "effectText": "Reduces vault gear durability damage with 35%",
-      "color": 16534066,
+      "effectText": "Reduces vault gear durability damage by 35%",
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -65,20 +65,20 @@
       "config": {
         "key": "the_vault:durability_wear_reduction",
         "value": 0.35,
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:ender_anchor": {
       "weight": 10,
       "name": "Ender Anchor",
-      "effectText": "Makes items automatically teleport to you when in range of your Magnet",
-      "color": 3304444,
+      "effectText": "Makes items automatically teleport to you when in range of your Magnet, Magnets take 50% reduced durability damage",
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "blue_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:clover": {
@@ -183,27 +183,27 @@
       "weight": 10,
       "name": "Golden Burger",
       "effectText": "+100% Vault Experience",
-      "color": 16534066,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
       "maxUses": 30,
       "config": {
         "experienceIncrease": 1.0,
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:gluttony_pendant": {
       "weight": 10,
       "name": "Gluttony Pendant",
       "effectText": "Grants instant eating, and potion consuming speed.",
-      "color": 3304444,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "blue_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:high_heels": {
@@ -230,7 +230,7 @@
       "weight": 10,
       "name": "Idona's Pendant",
       "effectText": "Increases your Soul Quantity by 100% of your total Soul Quantity",
-      "color": 16534066,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -238,6 +238,57 @@
       "config": {
         "key": "the_vault:soul_chance_percentile",
         "value": 1,
+        "curiosSlot": "green_trinket"
+      }
+    },
+    "the_vault:chromatic_diffuser": {
+      "weight": 10,
+      "name": "Chromatic Diffuser",
+      "effectText": "Adds an additional 10% chance to trigger Effect Clouds",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "key": "the_vault:effect_cloud_chance_additive",
+        "value": 0.1,
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:swift_amulet": {
+      "weight": 10,
+      "name": "Swift Amulet",
+      "effectText": "Gives you a 15% chance to dodge attacks",
+      "color": 3304444,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "key": "the_vault:dodge_percent",
+        "value": 0.15,
+        "curiosSlot": "blue_trinket"
+      }
+    },
+    "the_vault:vibrating_stone": {
+      "weight": 10,
+      "name": "Vibrating Stone",
+      "effectText": "Gives your attacks a 10% chance to echo, your echoed attacks do 25% more damage",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "keys": [
+          "the_vault:echoing_chance",
+          "the_vault:echoing_damage"
+        ],
+        "values": [
+          0.1,
+          0.25
+        ],
         "curiosSlot": "red_trinket"
       }
     },
@@ -245,7 +296,7 @@
       "weight": 10,
       "name": "Picture of a Lucky Goose",
       "effectText": "+50% Item Rarity",
-      "color": 16534066,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -253,14 +304,14 @@
       "config": {
         "key": "the_vault:item_rarity",
         "value": 0.5,
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:night_vision_goggles": {
       "weight": 10,
       "name": "Treasure Goggles",
       "effectText": "Grants vision of chests and coin piles, with their associated colour in a nearby area around you.",
-      "color": 3304444,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -269,7 +320,7 @@
         "effect": "",
         "addedAmplifier": 1,
 		    "radius": 16,
-        "curiosSlot": "blue_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:phylactery": {
@@ -296,7 +347,7 @@
       "weight": 10,
       "name": "Tenos' Necklace",
       "effectText": "+25% Item Quantity",
-      "color": 16534066,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -304,14 +355,14 @@
       "config": {
         "key": "the_vault:item_quantity",
         "value": 0.25,
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:velaras_petal": {
       "weight": 10,
       "name": "Velara's Petal",
       "effectText": "+1 Regeneration",
-      "color": 3304444,
+      "color": 16534066,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -319,14 +370,14 @@
       "config": {
         "effect": "minecraft:regeneration",
         "addedAmplifier": 1,
-        "curiosSlot": "blue_trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:wendarrs_hourglass": {
       "weight": 10,
       "name": "Wendarr's Hourglass",
       "effectText": "Boosts the fruit time added by 50%",
-      "color": 3304444,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -334,7 +385,7 @@
       "config": {
         "key": "the_vault:fruit_effectiveness",
         "value": 0.5,
-        "curiosSlot": "blue_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:stone_of_jordan": {
@@ -369,7 +420,7 @@
       "weight": 10,
       "name": "Miner's Headlamp",
       "effectText": "Grants night vision, +25% Copiously",
-      "color": 16534066,
+      "color": 3120128,
       "minCraftedUses": 12,
       "maxCraftedUses": 12,
       "minUses": 20,
@@ -377,7 +428,7 @@
       "config": {
         "effect": "minecraft:night_vision",
         "addedAmplifier": 1,
-        "curiosSlot": "red_trinket"
+        "curiosSlot": "green_trinket"
       }
     },
     "the_vault:running_shoes": {
@@ -411,7 +462,7 @@
       }
     },
     "the_vault:shadow_cloak": {
-      "weight": 100,
+      "weight": 10,
       "name": "Shadow Cloak",
       "effectText": "Become invisible to mobs while not making noises, if a noise is made the cloak will deactivate for 20 seconds. Champions, Elites, Guardians, Illagers and Bosses do not respect your cloak!",
       "color": 3304444,
@@ -420,19 +471,16 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "disableLength": 400,
+        "disableLength": 600,
         "dontShadowMobs": [
-          "@the_vault:guardians",
           "@the_vault:elite",
-          "@the_vault:champion",
-          "@the_vault:illagers",
           "@the_vault:bosses"
         ],
         "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:slimey": {
-      "weight": 100,
+      "weight": 10,
       "name": "Slimey",
       "effectText": "Negate all fall damage and bounce when you hit the floor",
       "color": 3304444,
@@ -442,6 +490,36 @@
       "maxUses": 30,
       "config": {
         "curiosSlot": "blue_trinket"
+      }
+    },
+"the_vault:aether": {
+      "weight": 10,
+      "name": "Aether Spark",
+      "effectText": "Provide a boost while jumping, allowing temporary flight",
+      "color": 3304444,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "durationTicks": 14,
+        "aetherStrength": -1.0,
+        "curiosSlot": "blue_trinket"
+      }
+    },
+    "the_vault:the_dice": {
+      "weight": 10,
+      "name": "The Dice",
+      "effectText": "All damage is multiplied by 1% to 300% each time it is dealt.",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "minimumMultiplier": 0.01,
+        "maximumMultiplier": 3.0,
+        "curiosSlot": "red_trinket"
       }
     }
   }
