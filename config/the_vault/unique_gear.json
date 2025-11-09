@@ -5,7 +5,8 @@
       "model": "the_vault:gear/armor/jester/helmet",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -21,12 +22,41 @@
       "modifierTags": [],
       "weight": 1
     },
+    
+    "the_vault:annmari": {
+      "name": "Ann-Mari",
+      "model": "the_vault:gear/armor/phoenix_chestplate/chestplate",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability",
+          "the_vault:u_living"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_armor",
+          "the_vault:u_base_crit_hit",
+          "the_vault:base_ap"
+        ],
+        "PREFIX": [
+          "the_vault:u_mod_armor",
+          "the_vault:mod_health",
+          "the_vault:mod_added_ability_level_groupheal"
+        ],
+        "SUFFIX": [
+          "the_vault:heal_cooldown",
+          "the_vault:u_phoenix"
+          
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
     "the_vault:castle": {
       "name": "The Castle",
       "model": "the_vault:gear/armor/castle/chestplate",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -52,7 +82,8 @@
       "model": "the_vault:gear/armor/sweetheart/chestplate",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -72,10 +103,12 @@
       "model": "the_vault:gear/armor/crystalplate/chestplate",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_all_skills",
+          "the_vault:u_all_talents",
           "the_vault:base_ap"
         ],
         "PREFIX": [
@@ -94,7 +127,8 @@
       "model": "the_vault:gear/shield/grim",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [],
         "PREFIX": [
@@ -112,7 +146,8 @@
       "model": "the_vault:gear/shield/glass_flower",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_thorns_damage_flat"
@@ -134,7 +169,8 @@
       "model": "the_vault:gear/armor/crashguards/leggings",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -158,7 +194,8 @@
       "model": "the_vault:gear/sword/iskallibur_sword",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -172,6 +209,21 @@
           "the_vault:u_relentless_strike",
           "the_vault:mod_attack_speed_percent"
         ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
+    "woldsvaults:shattering_jewel": {
+      "name": "Shatterer",
+      "model": "the_vault:gear/jewel/treasure",
+      "modifierIdentifiers": {
+        "IMPLICIT": [
+          "the_vault:u_jewel_size_stella"
+        ],
+        "PREFIX": [
+          "the_vault:breaching_jewel"
+        ],
+        "SUFFIX": []
       },
       "modifierTags": [],
       "weight": 1
@@ -196,7 +248,8 @@
       "model": "the_vault:gear/shield/gladiator_buckler",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_base_block"
@@ -284,7 +337,8 @@
       "model": "the_vault:gear/sword/inflatedjustice",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -306,7 +360,8 @@
       "model": "the_vault:gear/focus/frozenorb",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:offhand_base_durability"
+          "the_vault:offhand_base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_offhand_mana_additive"
@@ -327,7 +382,8 @@
       "model": "the_vault:gear/armor/frozen_throne/chestplate",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:offhand_base_durability"
+          "the_vault:offhand_base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_armor",
@@ -350,7 +406,8 @@
       "model": "the_vault:gear/armor/stormcrown/helmet",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_ap"
@@ -372,7 +429,8 @@
       "model": "the_vault:gear/wand/infernos_reach",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:offhand_base_durability"
+          "the_vault:offhand_base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_ap"
@@ -395,7 +453,8 @@
       "model": "the_vault:gear/armor/spiral_guardian/helmet",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_armor"
@@ -439,7 +498,8 @@
       "model": "the_vault:gear/plushie/witch",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [],
         "PREFIX": [
@@ -458,7 +518,8 @@
       "model": "the_vault:gear/wand/baguette",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_saturation",
@@ -477,7 +538,8 @@
       "model": "the_vault:gear/wand/chaining_wand",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:offhand_base_durability"
+          "the_vault:offhand_base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_chaining"
@@ -497,11 +559,12 @@
       "model": "the_vault:magnets/heart_magnet",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_magnet_durability"
+          "the_vault:base_magnet_durability",
+           "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_base_magnet_range",
-          "the_vault:u_base_magnet_velocity"
+          "the_vault:base_endergized"
         ],
         "PREFIX": [
           "the_vault:u_chunky_magnet_health",
@@ -520,11 +583,12 @@
       "model": "the_vault:magnets/treasure_magnet",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_magnet_durability"
+          "the_vault:base_magnet_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_base_magnet_range",
-          "the_vault:u_base_magnet_velocity"
+          "the_vault:base_endergized"
         ],
         "PREFIX": [
           "the_vault:u_treasure_magnet_item_rarity",
@@ -543,11 +607,12 @@
       "model": "the_vault:magnets/bloody_magnet",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_magnet_durability"
+          "the_vault:base_magnet_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_base_magnet_range",
-          "the_vault:u_base_magnet_velocity"
+          "the_vault:base_endergized"
         ],
         "PREFIX": [
           "the_vault:u_bloody_magnet_increase",
@@ -571,7 +636,7 @@
         ],
         "IMPLICIT": [
           "the_vault:u_base_magnet_range",
-          "the_vault:u_base_magnet_velocity"
+          "the_vault:base_endergized"
         ],
         "PREFIX": [],
         "SUFFIX": []
@@ -584,7 +649,8 @@
       "model": "the_vault:gear/sword/crystalblade",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -606,7 +672,9 @@
       "model": "the_vault:gear/shield/slab",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living",
+          "the_vault:u_base_block"
         ],
         "IMPLICIT": [],
         "PREFIX": [
@@ -624,7 +692,8 @@
       "model": "the_vault:gear/axe/leviathan",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_leviathan_attack_damage",
@@ -643,7 +712,8 @@
       "model": "the_vault:gear/rang/trirang",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:rang_standard_attack_speed",
@@ -670,7 +740,8 @@
       "model": "the_vault:gear/sword/everfrost",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -693,7 +764,8 @@
       "model": "the_vault:gear/sword/everflame",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -716,7 +788,8 @@
       "model": "the_vault:gear/sword/hexblade",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -739,7 +812,8 @@
       "model": "the_vault:gear/axe/zombie_horse",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_leviathan_attack_damage",
@@ -761,7 +835,8 @@
       "model": "the_vault:gear/battlestaff/ninja_baton",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage_battlestaff",
@@ -780,7 +855,8 @@
       "model": "the_vault:gear/battlestaff/bamboo_fightstick",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage_battlestaff_stick",
@@ -801,7 +877,8 @@
       "model": "the_vault:gear/sword/mineral_greatsword",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -823,7 +900,8 @@
       "model": "the_vault:gear/sword/grass_blade",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -845,7 +923,8 @@
       "model": "the_vault:gear/sword/aurora_scissors",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -868,7 +947,8 @@
       "model": "the_vault:gear/armor/pacifistsandals/boots",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:u_pacifist_movement"
@@ -889,7 +969,8 @@
       "model": "the_vault:gear/sword/honey_wand",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -907,12 +988,36 @@
       "modifierTags": [],
       "weight": 1
     },
+    "the_vault:frostguards": {
+      "name": "Frostguards",
+      "model": "the_vault:gear/armor/frost_guard/boots",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability",
+          "the_vault:u_living"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_armor",
+          "the_vault:base_movement"
+        ],
+        "PREFIX": [
+          "the_vault:u_coldsnap",
+          "the_vault:u_mod_armor"
+        ],
+        "SUFFIX": [
+          "the_vault:u_chilled_effect_trail"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
     "woldsvaults:young_kitsune": {
       "name": "Young Kitsune Blade",
       "model": "the_vault:gear/sword/young_kitsune",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
@@ -933,7 +1038,8 @@
       "model": "the_vault:gear/plushie/safer_spaces",
       "modifierIdentifiers": {
         "BASE_ATTRIBUTE": [
-          "the_vault:base_durability"
+          "the_vault:base_durability",
+          "the_vault:u_living"
         ],
         "IMPLICIT": [
           "the_vault:saferspaceeffect",
@@ -1066,6 +1172,9 @@
     "the_vault:pax": {
       "the_vault:pax": 1
     },
+    "woldsvaults:shattering_jewel": {
+      "woldsvaults:shattering_jewel": 1
+    },
     "woldsvaults:safer_spaces": {
       "woldsvaults:safer_spaces": 1
     },
@@ -1089,6 +1198,12 @@
     },
     "the_vault:frozen_throne": {
       "the_vault:frozen_throne": 1
+    },
+    "the_vault:frostguards": {
+      "the_vault:frostguards": 1
+    },
+    "the_vault:annmari": {
+      "the_vault:annmari": 1
     }
   }
 }
