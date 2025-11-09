@@ -1,6 +1,18 @@
 {
   "tooltips": [
     {
+      "item": "the_vault:coin_pouch",
+      "value": "It is recommended to use the wallet from Lightman's Currency instead!"
+    },
+    {
+      "item": "woldsvaults:mod_box_workstation",
+      "value": "Used to create Targeted Mod Boxes that will only give items from a particular mod."
+    },
+    {
+      "item": "woldsvaults:soul_ichor",
+      "value": "Used in the Black Market to re-roll the offers."
+    },
+    {
       "item": "woldsvaults:augment_piece",
       "value": "Used in the Augment Assembly Pedestal to craft Augments, can be obtained by recycling Augments."
     },
@@ -35,6 +47,14 @@
     {
       "item": "woldsvaults:eccentric_focus",
       "value": "Use with Vault Gear in the Artisan Station to add an unusual modifier."
+    },
+    {
+      "item": "woldsvaults:suspension_focus",
+      "value": "Use with Vault Gear in the Artisan Station to freeze a Legendary, Greater, Corrupted, or Unusual modifier."
+    },
+    {
+      "item": "woldsvaults:blazing_focus",
+      "value": "Use with Vault Gear in the Artisan Station to unfreeze all frozen modifiers."
     },
     {
       "item": "supplementaries:mob_cage",
@@ -75,6 +95,10 @@
     {
       "item": "woldsvaults:layout_manipulator",
       "value": "Combine with Vault Crystal in Anvil to set the Vault's Layout"
+    },
+    {
+      "item": "the_vault:crystal_seal_doomsayer",
+      "value": "Use in the Crystal Workbench to set the objective to 'Ballistic Bingo'"
     },
     {
       "item": "woldsvaults:crystal_seal_warrior",
@@ -147,6 +171,10 @@
     {
       "item": "the_vault:god_token",
       "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding this god's favour"
+    },
+    {
+      "item": "the_vault:capstone_pylon_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Pylon Hunter' modifier"
     },
     {
       "item": "the_vault:crystal_seal_cake",
@@ -1223,6 +1251,10 @@
     {
       "item": "the_vault:regret_orb",
       "value": "Regret points changed in Update 17, unlearning a skill now requires Vault Gold."
+    },
+    {
+      "item": "powah:photoelectric_pane",
+      "value": "Right click on a natural spawned enderman"
     }
   ]
 }
