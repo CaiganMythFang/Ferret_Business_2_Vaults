@@ -60,8 +60,8 @@
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 3
+                  "min": 3,
+                  "max": 5
                 }
               }
             }
@@ -82,13 +82,24 @@
               }
             },
             {
-              "weight": 12,
+              "weight": 8,
               "item": {
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 2,
-                  "max": 4
+                  "min": 3,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:carbon",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
               }
             }
@@ -136,20 +147,9 @@
           "weight": 2,
           "pool": [
             {
-              "weight": 20,
+              "weight": 9,
               "item": {
                 "id": "the_vault:fundamental_focus",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 3,
-              "item": {
-                "id": "the_vault:trinket",
                 "count": {
                   "type": "uniform",
                   "min": 1,

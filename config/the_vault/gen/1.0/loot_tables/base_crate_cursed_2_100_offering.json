@@ -42,7 +42,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 3,
-                  "max": 6
+                  "max": 4
                 }
               }
             }
@@ -66,8 +66,8 @@
                 "id": "woldsvaults:arcane_essence",
                 "count": {
                   "type": "uniform",
-                  "min": 3,
-                  "max": 6
+                  "min": 2,
+                  "max": 4
                 }
               }
             }
@@ -78,7 +78,7 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 0,
+        "min": 1,
         "max": 2
       },
       "pool": [
@@ -103,8 +103,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 0,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -299,8 +299,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -371,8 +371,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -396,8 +396,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -443,8 +443,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -468,8 +468,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -652,34 +652,12 @@
               }
             },
             {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:gem_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
-                  "max": 4
-                }
-              }
-            },
-            {
-              "weight": 12,
+              "weight": 5,
               "item": {
                 "id": "woldsvaults:catalyst_box",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
-            {
-              "weight": 8,
-              "item": {
-                "id": "woldsvaults:omega_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
+                  "min": 2,
                   "max": 2
                 }
               }

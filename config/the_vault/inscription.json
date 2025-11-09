@@ -1,5 +1,121 @@
 {
   "pools": {
+    "the_vault:graveyard": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool":  "the_vault:vault/rooms/challenge/graveyard",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 104,
+                "max": 104
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:labyrinth": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool":  "the_vault:vault/rooms/challenge/labyrinth",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 103,
+                "max": 103
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:aquarium": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool":  "the_vault:vault/rooms/challenge/aquarium",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 102,
+                "max": 102
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:gateway": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:map/rooms/gateway_rooms",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 101,
+                "max": 101
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
     "the_vault:playzone": [
       {
         "level": 0,
@@ -475,6 +591,72 @@
             "value": {
               "entries": [
                 {
+                  "pool": "the_vault:vault/rooms/challenge/graveyard",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 104,
+                "max": 104
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/labyrinth",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 103,
+                "max": 103
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/aquarium",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 102,
+                "max": 102
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
                   "pool": "the_vault:vault/rooms/omega/playzone",
                   "count": 1,
                   "color": 7012096
@@ -487,8 +669,8 @@
               },
               "model": {
                 "type": "uniform",
-                "min": 20,
-                "max": 20
+                "min": 94,
+                "max": 94
               }
             },
             "weight": 16
@@ -784,6 +966,72 @@
     ],
     "the_vault:pedestal": [
       {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/graveyard",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 104,
+            "max": 104
+          }
+        },
+        "weight": 16
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/labyrinth",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 103,
+            "max": 103
+          }
+        },
+        "weight": 4
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/aquarium",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 102,
+            "max": 102
+          }
+        },
+        "weight": 16
+      },
+      {
         "level": 0,
         "pool": [
           {
@@ -802,8 +1050,8 @@
               },
               "model": {
                 "type": "uniform",
-                "min": 20,
-                "max": 20
+                "min": 94,
+                "max": 94
               }
             },
             "weight": 16
@@ -1093,14 +1341,124 @@
               }
             },
             "weight": 16
+          },
+ {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/pixel",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 21,
+                "max": 21
+              }
+            },
+            "weight": 4
           }
         ]
       }
     ],
     "the_vault:blackmarket": [
       {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/aquarium",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 102,
+            "max": 102
+          }
+        },
+        "weight": 12
+      },
+      {
         "level": 0,
         "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/graveyard",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 104,
+                "max": 104
+              }
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/labyrinth",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 103,
+                "max": 103
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/aquarium",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 102,
+                "max": 102
+              }
+            },
+            "weight": 16
+          },
           {
             "value": {
               "entries": [
@@ -1117,8 +1475,8 @@
               },
               "model": {
                 "type": "uniform",
-                "min": 20,
-                "max": 20
+                "min": 94,
+                "max": 94
               }
             },
             "weight": 16
@@ -1540,14 +1898,373 @@
               }
             },
             "weight": 10
+          },
+ {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/pixel",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 21,
+                "max": 21
+              }
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ],
+     "the_vault:blackmarket_prestige": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/mush_room",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 2,
+                "max": 2
+              }
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/blacksmith",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+              }
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/mine",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 9,
+                "max": 9
+              }
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/library",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/cove",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 4,
+                "max": 4
+              }
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/painting",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              }
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/vendor",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 12,
+                "max": 12
+              }
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/x-mark",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 15,
+                "max": 15
+              }
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 19,
+                "max": 19
+              }
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/pixel",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 21,
+                "max": 21
+              }
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 20,
+                "max": 20
+              }
+            },
+            "weight": 3
           }
         ]
       }
     ],
     "the_vault:blackmarket_omega": [
+ {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/pixel",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 21,
+                "max": 21
+              }
+            },
+            "weight": 2
+          },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/graveyard",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 104,
+            "max": 104
+          }
+        },
+        "weight": 16
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/labyrinth",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 103,
+            "max": 103
+          }
+        },
+        "weight": 4
+      },
       {
         "level": 0,
         "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/aquarium",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 102,
+                "max": 102
+              }
+            },
+            "weight": 12
+          },
           {
             "value": {
               "entries": [
@@ -1828,8 +2545,8 @@
               },
               "model": {
                 "type": "uniform",
-                "min": 20,
-                "max": 20
+                "min": 94,
+                "max": 94
               }
             },
             "weight": 16
@@ -1949,6 +2666,72 @@
     ],
     "the_vault:random": [
       {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/graveyard",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 104,
+            "max": 104
+          }
+        },
+        "weight": 16
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/labyrinth",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 103,
+            "max": 103
+          }
+        },
+        "weight": 4
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/aquarium",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 102,
+            "max": 102
+          }
+        },
+        "weight": 16
+      },
+      {
         "level": 0,
         "pool": [
           {
@@ -2197,6 +2980,28 @@
             "value": {
               "entries": [
                 {
+                  "pool": "the_vault:vault/rooms/challenge/aquarium",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 102,
+                "max": 102
+              }
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
                   "pool": "the_vault:vault/rooms/challenge/crystal_caves",
                   "count": 1,
                   "color": 15769088
@@ -2231,11 +3036,77 @@
               },
               "model": {
                 "type": "uniform",
-                "min": 20,
-                "max": 20
+                "min": 94,
+                "max": 94
               }
             },
             "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/arcade",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 95,
+                "max": 95
+              }
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/iskallian_garden",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 98,
+                "max": 98
+              }
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/trove",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 11,
+                "max": 11
+              }
+            },
+            "weight": 2
           },
           {
             "value": {
@@ -2258,6 +3129,116 @@
               }
             },
             "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 99,
+                "max": 99
+              }
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 100,
+                "max": 100
+              }
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/raw/farm",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 17,
+                "max": 17
+              }
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/raw/emerald_caves",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 18,
+                "max": 18
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/raw/chromatic_caves",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 16,
+                "max": 16
+              }
+            },
+            "weight": 8
           }
         ]
       }
@@ -2419,11 +3400,99 @@
               }
             },
             "weight": 3
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/pixel",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 21,
+                "max": 21
+              }
+            },
+            "weight": 2
           }
         ]
       }
     ],
     "the_vault:challenge": [
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/graveyard",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 104,
+            "max": 104
+          }
+        },
+        "weight": 16
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/labyrinth",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 103,
+            "max": 103
+          }
+        },
+        "weight": 4
+      },
+      {
+        "value": {
+          "entries": [
+            {
+              "pool": "the_vault:vault/rooms/challenge/aquarium",
+              "count": 1,
+              "color": 15769088
+            }
+          ],
+          "size": {
+            "type": "uniform",
+            "min": 10,
+            "max": 10
+          },
+          "model": {
+            "type": "uniform",
+            "min": 102,
+            "max": 102
+          }
+        },
+        "weight": 16
+      },
       {
         "level": 0,
         "pool": [
@@ -3129,6 +4198,122 @@
           }
         ]
       }
+    ],
+    "the_vault:raid_room": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 19,
+                "max": 19
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:the_lab": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 20,
+                "max": 20
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:pixel": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/pixel",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 21,
+                "max": 21
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:digsite": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/omega/digsite2",
+                  "count": 1,
+                  "color": 7012096
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 6,
+                "max": 6
+              }
+            },
+            "weight": 0
+          }
+        ]
+      }
     ]
   },
   "poolToModel": {
@@ -3147,16 +4332,21 @@
     "the_vault:vault/rooms/challenge/village": 13,
     "the_vault:vault/rooms/challenge/wildwest": 14,
     "the_vault:vault/rooms/challenge/x-mark": 15,
-    "the_vault:vault/rooms/omega/iskallian_garden": 98,
-    "the_vault:vault/rooms/challenge/pirate_cave": 97,
-    "the_vault:vault/rooms/omega/arcade": 95,
-    "the_vault:vault/rooms/omega/hellish_digsite": 96,
-    "the_vault:vault/rooms/omega/playzone": 94,
-    "the_vault:vault/rooms/challenge/raid/rooms": 99,
-    "the_vault:vault/rooms/challenge/laboratory": 100,
     "the_vault:vault/rooms/raw/chromatic_caves": 16,
     "the_vault:vault/rooms/raw/farm": 17,
-    "the_vault:vault/rooms/raw/emerald_caves": 18
+    "the_vault:vault/rooms/raw/emerald_caves": 18,
+    "the_vault:vault/rooms/omega/pixel": 21,
+    "the_vault:vault/rooms/omega/playzone": 94,
+    "the_vault:vault/rooms/omega/arcade": 95,
+    "the_vault:vault/rooms/omega/hellish_digsite": 96,
+    "the_vault:vault/rooms/challenge/pirate_cave": 97,
+    "the_vault:vault/rooms/omega/iskallian_garden": 98,
+    "the_vault:vault/rooms/challenge/raid/rooms": 99,
+    "the_vault:vault/rooms/challenge/laboratory": 100,
+    "the_vault:map/rooms/gateway_rooms": 101,
+    "the_vault:vault/rooms/challenge/aquarium": 102,
+    "the_vault:vault/rooms/challenge/labyrinth": 103,
+    "the_vault:vault/rooms/challenge/graveyard": 104
   },
   "ringWeights": [
     50,

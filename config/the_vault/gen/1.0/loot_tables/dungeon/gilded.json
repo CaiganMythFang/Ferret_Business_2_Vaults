@@ -4,13 +4,24 @@
       "roll": {
         "type": "uniform",
         "min": 1,
-        "max": 1
+        "max": 2
       },
       "pool": [
         { "weight": 1,
           "pool": [
+              {
+              "weight": 40,
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
             {
-                "weight": 50,
+                "weight": 70,
                 "item": {
                 "id": "the_vault:jewel_pouch",
                 "count": {
@@ -21,9 +32,9 @@
                 }
             },
             {
-              "weight": 45,
+              "weight": 10,
               "item": {
-              "id": "the_vault:gemstone",
+              "id": "the_vault:key_piece",
               "count": {
                 "type": "uniform",
                 "min": 1,
@@ -32,7 +43,7 @@
               }
             },
             {
-              "weight": 5,
+              "weight": 20,
               "item": {
                 "id": "the_vault:magnet",
                 "nbt": {
@@ -43,6 +54,45 @@
                   "min": 1,
                   "max": 1
                   }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "dungeon"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:loot_sack",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "dungeon"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+              "id": "the_vault:trinket",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
               }
             }
           ]

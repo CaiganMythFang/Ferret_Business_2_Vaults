@@ -7,11 +7,10 @@
         "max": 15
       },
       "pool": [
-        {
-          "weight": 3,
+        { "weight": 70,
           "pool": [
             {
-              "weight": 10,
+              "weight": 1,
               "item": {
                 "id": "tfb2:token_dungeon",
                 "count": {
@@ -23,8 +22,6 @@
             }
           ]
         },
-        { "weight": 70,
-          "pool": [
             {
                 "weight": 16,
                 "item": {
@@ -283,8 +280,6 @@
               }
             }
           ]
-        }
-      ]
     }
   ]
 }

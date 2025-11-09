@@ -19,6 +19,54 @@
         }
       }
     },
+    "the_vault:enigma_chest_map": {
+      "display": "Enigma Chest (Map)",
+      "lootTableKeys": {
+        "the_vault:enigma_chest_map": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:wooden_chest_map": {
+      "display": "Wooden Chests (Map)",
+      "lootTableKeys": {
+        "the_vault:wooden_chest_map": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:living_chest_map": {
+      "display": "Living Chests (Map)",
+      "lootTableKeys": {
+        "the_vault:living_chest_100_map": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:ornate_chest_map": {
+      "display": "Ornate Chests (Map)",
+      "lootTableKeys": {
+        "the_vault:ornate_chest_100_map": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:gilded_chest_map": {
+      "display": "Gilded Chests (Map)",
+      "lootTableKeys": {
+        "the_vault:gilded_chest_100_map": {
+          "level": 0
+        }
+      }
+    },
+    "the_vault:treasure_chest_map": {
+      "display": "Treasure Chests (Map)",
+      "lootTableKeys": {
+        "the_vault:treasure_chest_map": {
+          "level": 0
+        }
+      }
+    },
     "the_vault:coin_pile": {
       "display": "Coin Piles",
       "lootTableKeys": {
@@ -137,6 +185,9 @@
       "lootTableKeys": {
         "the_vault:dungeon_pedestal_lvl50": {
           "level": 50
+        },
+        "the_vault:dungeon_pedestal_lvl75": {
+          "level": 75
         }
       }
     },
@@ -225,10 +276,10 @@
         "the_vault:base_crate_cursed_20": {
           "level": 20
         },
-        "the_vault:base_crate_cursed_50": {
+        "the_vault:base_crate_cursed_3_50": {
           "level": 50
         },
-        "the_vault:base_crate_cursed_100": {
+        "the_vault:base_crate_cursed_3_100": {
           "level": 100
         }
       }
@@ -290,6 +341,9 @@
         "the_vault:base_crate_0": {
           "level": 0
         },
+        "the_vault:base_crate_20": {
+          "level": 20
+        },
         "the_vault:bingo_bonus": {
           "level": 50
         }
@@ -335,10 +389,10 @@
         "the_vault:base_crate_2_20": {
           "level": 20
         },
-        "the_vault:base_crate_2_50": {
+        "the_vault:base_crate_3_50": {
           "level": 50
         },
-        "the_vault:base_crate_2_100": {
+        "the_vault:base_crate_3_100": {
           "level": 100
         }
       }
@@ -352,12 +406,18 @@
         "the_vault:base_crate_cursed_20": {
           "level": 20
         },
-        "the_vault:base_crate_cursed_50": {
+        "the_vault:base_crate_cursed_2_50": {
           "level": 50
         },
-        "the_vault:base_crate_cursed_100": {
+        "the_vault:base_crate_cursed_2_100": {
           "level": 100
         }
+      }
+    },
+    "the_vault:completion_crate_corrupted": {
+      "display": "Corrupted Crate",
+      "lootTableKeys": {
+        "the_vault:corrupted_crate_0": {"level": 0}
       }
     },
     "the_vault:full_bingo": {
@@ -440,6 +500,25 @@
         "the_vault:living_strongbox_lvl80": {
           "level": 80
         }
+      }
+    },
+    "the_vault:ornate_barrel": {
+      "display": "Ornate Barrel",
+      "lootTableKeys": {
+        "the_vault:ornate_dungeon_barrel": {"level": 0}
+      }
+    },
+    "the_vault:living_barrel": {
+      "display": "Living Barrel",
+      "lootTableKeys": {
+        "the_vault:living_dungeon_barrel": {"level": 0}
+      }
+    },
+    "the_vault:gilded_barrel": {
+      "display": "Gilded Barrel",
+      "lootTableKeys": {
+        "the_vault:gilded_dungeon_barrel": {"level": 0},
+        "the_vault:gilded_dungeon_barrel_lvl50": {"level": 50}
       }
     }
   }

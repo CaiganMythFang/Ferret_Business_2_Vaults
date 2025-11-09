@@ -1,5 +1,6 @@
 {
-  "dropChance": 0.02,
+  "dropChance": 0.035,
+  "uberChance": 0.50,
   "modifiers": [
     {
       "level": 0,
@@ -89,6 +90,13 @@
                 "duration": 6000
               },
               "weight": 50.0
+            },
+            {
+              "value": {
+                "modifier": "the_vault:pylon_hunter",
+                "duration": 6000
+              },
+              "weight": 0.0
             },
             {
               "value": {

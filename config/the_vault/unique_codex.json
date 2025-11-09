@@ -9,14 +9,16 @@
       "CHEST": [
         "the_vault:castle",
         "the_vault:crystalplate",
-        "the_vault:frozen_throne"
+        "the_vault:frozen_throne",
+        "the_vault:annmari"
       ],
       "LEGS": [
         "the_vault:crashguards",
         "the_vault:swarmwalkers"
       ],
       "FEET": [
-        "the_vault:pacifist_sandals"
+        "the_vault:pacifist_sandals",
+        "the_vault:frostguards"
       ],
       "SWORD": [
         "the_vault:iskallibur",
@@ -271,6 +273,31 @@
     {
       "title": {
         "description": {
+          "text": "Ann-Mari",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Let the great Ann-Mari watch over you, always having your back.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "X-Mark",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:annmari"
+    },
+    {
+      "title": {
+        "description": {
           "text": "Crashguards",
           "color": "#7D520E"
         }
@@ -350,6 +377,31 @@
         ]
       },
       "uniqueId": "the_vault:pacifist_sandals"
+    },
+     {
+      "title": {
+        "description": {
+          "text": "Frostguards",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Frostguards offers a unique feature by leaving a trail of chill whereever you walk.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "The Factory",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frostguards"
     },
     {
       "title": {
@@ -1190,7 +1242,7 @@
     {
       "title": {
         "description": {
-          "text": "Grass Sword",
+          "text": "Aurora Scissors",
           "color": "#716191"
         }
       },

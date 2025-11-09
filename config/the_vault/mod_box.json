@@ -13,7 +13,7 @@
     "Immersive Engineering": [
       {
         "value": {
-          "id": "immersiveengineeering:light_engineering",
+          "id": "immersiveengineering:light_engineering",
           "amountMin": 1,
           "amountMax": 6
         },
@@ -21,7 +21,7 @@
       },
       {
         "value": {
-          "id": "immersiveengineeering:rs_engineering",
+          "id": "immersiveengineering:rs_engineering",
           "amountMin": 1,
           "amountMax": 4
         },
@@ -1192,6 +1192,38 @@
           "amountMax": 1
         },
         "weight": 40
+      },
+      {
+        "value": {
+          "id": "thermal:rf_potato",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 5
+      },
+      {
+        "value": {
+          "id": "thermal:xp_crystal",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 5
+      },
+      {
+        "value": {
+          "id": "thermal:device_potion_diffuser",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 5
+      },
+      {
+        "value": {
+          "id": "thermal:redprint",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 5
       }
     ],
     "Mekanism Generators": [
@@ -1316,6 +1348,22 @@
           "amountMax": 1
         },
         "weight": 5
+      }, 
+      {
+        "value": {
+          "id": "create:potato_cannon",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 3
+      },
+      {
+        "value": {
+          "id": "create:wand_of_symmetry",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 2
       }
     ],
     "Mekanism": [
@@ -1414,6 +1462,22 @@
           "amountMax": 1
         },
         "weight": 5
+      },
+      {
+        "value": {
+          "id": "mekanism:flamethrower",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 3
+      },
+      {
+        "value": {
+          "id": "mekanism:free_runners",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 3
       },
       {
         "value": {
@@ -1568,6 +1632,30 @@
           "amountMax": 1
         },
         "weight": 5
+      },
+      {
+        "value": {
+          "id": "botania:infinite_fruit",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 1
+      },
+      {
+        "value": {
+          "id": "botania:laputa_shard",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 3
+      },
+      {
+        "value": {
+          "id": "botania:pinkinator",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 3
       }
     ],
     "Easy Villagers": [
@@ -1623,7 +1711,7 @@
       },
       {
         "value": {
-          "id": "modularrouters:blank_nmodule",
+          "id": "modularrouters:blank_module",
           "amountMin": 1,
           "amountMax": 6
         },
@@ -1726,40 +1814,6 @@
           "amountMax": 1
         },
         "weight": 2
-      }
-    ],
-    "Hostile Neural Networks": [
-      {
-        "value": {
-          "id": "hostilenetworks:empty_prediction",
-          "amountMin": 32,
-          "amountMax": 64
-        },
-        "weight": 120
-      },
-      {
-        "value": {
-          "id": "hostilenetworks:entity_data_model",
-          "amountMin": 1,
-          "amountMax": 1
-        },
-        "weight": 60
-      },
-      {
-        "value": {
-          "id": "hostilenetworks:sim_chamber",
-          "amountMin": 1,
-          "amountMax": 1
-        },
-        "weight": 10
-      },
-      {
-        "value": {
-          "id": "hostilenetworks:loot_fabricator",
-          "amountMin": 1,
-          "amountMax": 1
-        },
-        "weight": 10
       }
     ]
   }

@@ -11,24 +11,24 @@
           "weight": 80,
           "pool": [
             {
-              "weight": 12,
+              "weight": 8,
               "item": {
                 "id": "the_vault:ornate_chain",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 2,
+                  "max": 4
                 }
               }
             },
             {
-              "weight": 12,
+              "weight": 8,
               "item": {
                 "id": "the_vault:ornate_ingot",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 2
+                  "min": 2,
+                  "max": 4
                 }
               }
             },
@@ -38,30 +38,30 @@
                 "id": "the_vault:velvet",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:soot",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
+                  "min": 2,
                   "max": 2
                 }
               }
             },
             {
-              "weight": 4,
+              "weight": 12,
+              "item": {
+                "id": "the_vault:soot",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            },
+            {
+              "weight": 12,
               "item": {
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 3
+                  "min": 5,
+                  "max": 8
                 }
               }
             }
@@ -77,18 +77,29 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
+                  "max": 2
                 }
               }
             },
             {
-              "weight": 12,
+              "weight": 8,
               "item": {
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 2,
-                  "max": 4
+                  "min": 3,
+                  "max": 6
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:carbon",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
                 }
               }
             }
@@ -104,7 +115,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
+                  "max": 2
                 }
               }
             },
@@ -115,7 +126,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
+                  "max": 2
                 }
               }
             },
@@ -126,7 +137,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
+                  "max": 2
                 }
               }
             }
@@ -136,20 +147,9 @@
           "weight": 2,
           "pool": [
             {
-              "weight": 20,
+              "weight": 11,
               "item": {
                 "id": "the_vault:fundamental_focus",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:trinket",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -164,7 +164,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
+                  "max": 2
                 }
               }
             },
@@ -320,6 +320,17 @@
                   "min": 1,
                   "max": 1
                 }
+              }
+            },
+            {
+              "weight": 3,
+              "item": {
+                "id": "the_vault:vault_necklace",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
               }
             }
           ]
