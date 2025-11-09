@@ -3,8 +3,8 @@
   "perCompletionMultiplierDecrease": 5.0,
   "heroDiscountMin": 0.0,
   "heroDiscountMax": 0.0,
-  "rescuedBonusMin": 0.3,
-  "rescuedBonusMax": 0.9,
+  "rescuedBonusMin": 0.5,
+  "rescuedBonusMax": 0.99,
   "levelCosts": [
     {
       "minLevel": 0,
@@ -14,18 +14,18 @@
         "SCRAPPY": 0,
         "COMMON": 0,
         "RARE": 0,
-        "EPIC": 0,
-        "OMEGA": 0,
-        "UNIQUE": 0
+        "EPIC": 1,
+        "OMEGA": 2,
+        "UNIQUE": 2
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 0,
+        "VAULT_ALLOY": 2,
+        "BLACK_CHROMATIC_STEEL_INGOT": 4,
+        "ECHOING_INGOT": 16,
+        "OMEGA_POG": 24
       },
       "itemCost": [
         [
@@ -129,9 +129,16 @@
             "item": "the_vault:mystic_pear"
           },
           8
+        ],
+        [
+          {
+            "item": "woldsvaults:zephyr_charm"
+          },
+          12
         ]
       ],
-      "trinketCost": 10
+      "trinketCost": 6,
+      "pendantCost": 6
     },
     {
       "minLevel": 20,
@@ -140,19 +147,19 @@
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 0,
-        "RARE": 0,
-        "EPIC": 0,
-        "OMEGA": 0,
-        "UNIQUE": 0
+        "RARE": 1,
+        "EPIC": 2,
+        "OMEGA": 8,
+        "UNIQUE": 8
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 1,
+        "VAULT_ALLOY": 3,
+        "BLACK_CHROMATIC_STEEL_INGOT": 8,
+        "ECHOING_INGOT": 20,
+        "OMEGA_POG": 32
       },
       "itemCost": [
         [
@@ -256,9 +263,16 @@
             "item": "the_vault:mystic_pear"
           },
           8
+        ],
+        [
+          {
+            "item": "woldsvaults:zephyr_charm"
+          },
+          8
         ]
       ],
-      "trinketCost": 10
+      "trinketCost": 8,
+      "pendantCost": 8
     },
     {
       "minLevel": 40,
@@ -266,20 +280,20 @@
       "count": 0.1,
       "gearRarityCost": {
         "SCRAPPY": 0,
-        "COMMON": 0,
-        "RARE": 0,
-        "EPIC": 0,
-        "OMEGA": 0,
-        "UNIQUE": 0
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 6,
+        "OMEGA": 10,
+        "UNIQUE": 10
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
         "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULT_ALLOY": 4,
+        "BLACK_CHROMATIC_STEEL_INGOT": 8,
+        "ECHOING_INGOT": 16,
+        "OMEGA_POG": 32
       },
       "itemCost": [
         [
@@ -383,9 +397,16 @@
             "item": "the_vault:mystic_pear"
           },
           8
+        ],
+        [
+          {
+            "item": "woldsvaults:zephyr_charm"
+          },
+          12
         ]
       ],
-      "trinketCost": 16
+      "trinketCost": 12,
+      "pendantCost": 12
     },
     {
       "minLevel": 50,
@@ -393,20 +414,20 @@
       "count": 0.2,
       "gearRarityCost": {
         "SCRAPPY": 0,
-        "COMMON": 0,
-        "RARE": 0,
-        "EPIC": 0,
-        "OMEGA": 0,
-        "UNIQUE": 0
+        "COMMON": 2,
+        "RARE": 4,
+        "EPIC": 8,
+        "OMEGA": 12,
+        "UNIQUE": 12
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 4,
-        "VAULT_ALLOY": 12,
-        "BLACK_CHROMATIC_STEEL_INGOT": 20,
-        "ECHOING_INGOT": 36,
-        "OMEGA_POG": 54
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 4,
+        "BLACK_CHROMATIC_STEEL_INGOT": 8,
+        "ECHOING_INGOT": 16,
+        "OMEGA_POG": 32
       },
       "itemCost": [
         [
@@ -516,9 +537,16 @@
             "item": "the_vault:mystic_pear"
           },
           8
+        ],
+        [
+          {
+            "item": "woldsvaults:zephyr_charm"
+          },
+          12
         ]
       ],
-      "trinketCost": 16
+      "trinketCost": 12,
+      "pendantCost": 12
     },
     {
       "minLevel": 65,
@@ -526,20 +554,20 @@
       "count": 0.2,
       "gearRarityCost": {
         "SCRAPPY": 0,
-        "COMMON": 0,
-        "RARE": 0,
-        "EPIC": 0,
-        "OMEGA": 0,
-        "UNIQUE": 0
+        "COMMON": 2,
+        "RARE": 6,
+        "EPIC": 8,
+        "OMEGA": 16,
+        "UNIQUE": 16
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 4,
-        "VAULT_ALLOY": 12,
-        "BLACK_CHROMATIC_STEEL_INGOT": 24,
-        "ECHOING_INGOT": 32,
-        "OMEGA_POG": 64
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 4,
+        "BLACK_CHROMATIC_STEEL_INGOT": 8,
+        "ECHOING_INGOT": 16,
+        "OMEGA_POG": 32
       },
       "itemCost": [
         [
@@ -649,9 +677,16 @@
             "item": "the_vault:mystic_pear"
           },
           8
+        ],
+        [
+          {
+            "item": "woldsvaults:zephyr_charm"
+          },
+          12
         ]
       ],
-      "trinketCost": 16
+      "trinketCost": 12,
+      "pendantCost": 12
     }
   ]
 }
