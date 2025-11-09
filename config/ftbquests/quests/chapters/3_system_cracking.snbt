@@ -58,7 +58,7 @@
 		{
 			title: "A Vendor Door"
 			x: -9.25d
-			y: 1.25d
+			y: 1.5d
 			shape: "rsquare"
 			subtitle: "Vendoor: Capitalism, Ho!"
 			description: [
@@ -130,7 +130,7 @@
 			title: "Inscribing a Path"
 			icon: "the_vault:vault_catalyst_infused"
 			x: -6.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "Determined Destiny"
 			description: [
@@ -219,7 +219,7 @@
 		{
 			title: "Warding Your Inventory"
 			x: -6.75d
-			y: -0.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "KeepInventory=true"
 			description: [
@@ -248,7 +248,7 @@
 		{
 			title: "Bigger Modifiers"
 			x: -8.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "Make My Modifier Grow!"
 			description: [
@@ -279,7 +279,7 @@
 		{
 			title: "My Little Modification"
 			x: -4.25d
-			y: -2.75d
+			y: -3.0d
 			shape: "rsquare"
 			subtitle: "I Asked For This"
 			description: [
@@ -308,7 +308,7 @@
 		{
 			title: "Potion Seller!"
 			x: -9.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "Give Me Your Strongest Potions"
 			description: [
@@ -347,7 +347,7 @@
 				""
 				"&dI shifted what items were considered 'Scavenger Drops' to a bunch of special food ingredients. This is so you can use them better outside the vault."
 				""
-				"&5See, normally when you leave a Vault, all the items become 'Rotten' and are only good for breaking down into Soul Shards. Now they become [Stale]"
+				"&5See, normally when you leave a Vault, all the scav item are deleted. Used to be they became [Rotten] and you could break them down for Soul Shards."
 				""
 				"&dAnd these 'Vault Ingredients' are another key to cracking open the system. You'll need these to create Vault Food, which you can find out more about in the Research section of the Q.U.E.S.T. Tablet."
 			]
@@ -381,7 +381,7 @@
 				}
 			}
 			x: -7.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "rsquare"
 			description: [
 				"&dOne thing you'll start finding in Living Chests, Bandit, are Inscriptions and Inscription Pieces. Full Inscriptions will either be a basic Common Room, or one of the special Vault Rooms."
@@ -426,7 +426,7 @@
 		{
 			title: "Death In Spirit"
 			x: -2.75d
-			y: -0.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "Body Recovery"
 			description: [
@@ -456,7 +456,7 @@
 		{
 			title: "Baubles n' Trinkets"
 			x: -4.75d
-			y: 1.25d
+			y: 1.5d
 			shape: "rsquare"
 			subtitle: "Accessorize with Power"
 			description: [
@@ -464,7 +464,7 @@
 				""
 				"&5Sorta like magic rings or amulets, Bandit. They give some sort of bonus or power in the Vaults when worn."
 				""
-				"&dThey are sorted into two colors : Blue and Red. You can only equip one trinket of each color."
+				"&5They are sorted into three colors : Blue, Red, and Green. To equip them, you'll need a Vault Trinket Pouch."
 				""
 				"&5And note they have limited uses, Bandit. Each time you enter a Vault with one, it consumes a use."
 				""
@@ -500,7 +500,7 @@
 		{
 			title: "Loot n' Plunder"
 			x: -6.75d
-			y: -1.75d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "An Experience All It's Own"
 			description: [
@@ -529,8 +529,8 @@
 		}
 		{
 			title: "A Good Crate"
-			x: -9.75d
-			y: 0.25d
+			x: -9.25d
+			y: 3.5d
 			shape: "rsquare"
 			subtitle: "For a Tough Battle"
 			description: [
@@ -620,11 +620,11 @@
 			}]
 		}
 		{
-			title: "Guards Guards"
+			title: "BOSS BATTLE!"
 			x: 1.25d
 			y: 0.25d
 			shape: "pentagon"
-			subtitle: "Mini Boss Battles"
+			subtitle: "Neighborhood or a City Boss?"
 			description: [
 				"&dOh, while Paradox Vaults are the highlight of what unlocks at 40 for you, Bandit, then at 50 there is another more normal Vault type that unlocks as well : Hunt the Runes."
 				""
@@ -693,7 +693,7 @@
 		{
 			title: "Zippity Zap"
 			x: -5.25d
-			y: -2.75d
+			y: -3.0d
 			shape: "rsquare"
 			description: [
 				"&dYou've definitely noticed that when you roll a new piece of gear, if it has a model you've not seen before, you'll get notified that you've \"unlocked\" it."
@@ -722,9 +722,9 @@
 		}
 		{
 			title: "God Affinity and Reputation"
-			x: -4.125d
-			y: 0.0d
-			shape: "gear"
+			x: -5.25d
+			y: -1.0d
+			shape: "rsquare"
 			subtitle: "The Gods are Fickle"
 			description: [
 				"&dSo it's important to understand the difference between Affinity and Reputation when it comes to the Gods."
@@ -733,11 +733,11 @@
 				""
 				"&dAffinity is, hm... basicaly showing to one of the four Vault Gods : Idona, Wendarr, Tenos, and Velara."
 				""
-				"&5The easiest way to do that is to wear one of their Charms, like what we're gonna give ya."
+				"&5The easiest way to do that is to wear one of the God Charms. There's also an Expertise to help with this."
 				""
 				"&dSo next is Reputation. You see, Bandit, when you complete a God Altar's challenge, you get a buff and sometimes a reward. And a chance at a Reputation point with that God."
 				""
-				"&5The higher your Affinity, the bigger chance of gaining Reputation. But note ye can only have so much reputation between all the Gods."
+				"&5The higher your Affinity, the bigger chance of gaining Reputation. Note that there's a max amount of Reputation you can have with every Vault God."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1799D40CDE8D8F82"]
@@ -827,7 +827,7 @@
 		{
 			title: "Challenging the Gods"
 			x: -0.75d
-			y: -0.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "And Winning"
 			description: [
@@ -863,7 +863,7 @@
 			description: [
 				"&dGiven you find a lot of Vault Gear, some of it is bound to be really good, but not fit into your current build, Bandit."
 				""
-				"&5This Wardrobe lets ye not only store a Gear loadout and instantly swap two it, it also lets ye store your main hotbar too."
+				"&5This Wardrobe lets ye not only store a Gear loadout and instantly swap to it, it also lets ye store your main hotbar too."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -882,7 +882,7 @@
 		{
 			title: "A Bit Chaotic"
 			x: -1.25d
-			y: 3.25d
+			y: 3.5d
 			shape: "rsquare"
 			subtitle: "My Focus is Wobbly"
 			description: [
@@ -909,7 +909,7 @@
 		{
 			title: "Fundamentally Better"
 			x: -0.25d
-			y: 3.25d
+			y: 3.5d
 			shape: "rsquare"
 			subtitle: "Ex Bawx"
 			description: [
@@ -938,7 +938,7 @@
 		{
 			title: "Before and After"
 			x: -1.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "Wax On, Wax Off"
 			description: [
@@ -972,7 +972,7 @@
 		{
 			title: "Spooky Door"
 			x: -8.25d
-			y: 1.25d
+			y: 1.5d
 			shape: "rsquare"
 			subtitle: "Dungeons of Dread, and More"
 			description: [
@@ -1015,7 +1015,7 @@
 		{
 			title: "A Vault Celebration"
 			x: -6.25d
-			y: -2.75d
+			y: -3.0d
 			shape: "rsquare"
 			subtitle: "Obvious, It's a Lie"
 			description: [
@@ -1049,7 +1049,7 @@
 		{
 			title: "A Little Bit of Chaos"
 			x: -7.25d
-			y: -2.75d
+			y: -3.0d
 			shape: "rsquare"
 			subtitle: "Maybe More Than a Little"
 			description: [
@@ -1080,8 +1080,8 @@
 		}
 		{
 			title: "Supremely Strong Anvil"
-			x: -2.75d
-			y: -1.75d
+			x: -3.25d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Fairly Looney, a Little Tooney"
 			description: [
@@ -1110,8 +1110,8 @@
 		}
 		{
 			title: "Box of Mod Goodness"
-			x: -6.75d
-			y: 1.25d
+			x: -7.25d
+			y: 1.5d
 			shape: "rsquare"
 			subtitle: "What's In the Box? Well, What Do You Know?"
 			description: [
@@ -1150,7 +1150,7 @@
 		{
 			title: "Monsterous View"
 			x: -6.75d
-			y: 3.25d
+			y: 3.5d
 			shape: "rsquare"
 			subtitle: "We Got Holograms?!"
 			description: [
@@ -1185,7 +1185,7 @@
 		{
 			title: "Dungeon Vision"
 			x: -9.25d
-			y: -0.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "I See a Challenge!"
 			description: [
@@ -1211,7 +1211,7 @@
 		{
 			title: "Seeking Relics"
 			x: -9.25d
-			y: -1.75d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Guaranteed Parchment"
 			description: [
@@ -1239,7 +1239,7 @@
 		{
 			title: "Phenomenal Power!"
 			x: -8.25d
-			y: -2.75d
+			y: -3.0d
 			shape: "rsquare"
 			subtitle: "Itty Bitty Health Bar"
 			description: [
@@ -1267,7 +1267,7 @@
 		{
 			title: "Pylon View"
 			x: -8.25d
-			y: -1.75d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Need Additional Pylons"
 			description: [
@@ -1293,7 +1293,7 @@
 		{
 			title: "Cap of the Gods"
 			x: -5.25d
-			y: -0.75d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Pray to My Altar"
 			description: [
@@ -1324,7 +1324,7 @@
 		{
 			title: "Vendoor Vision"
 			x: -8.25d
-			y: -0.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "Sale-o-vision"
 			description: [
@@ -1352,7 +1352,7 @@
 		{
 			title: "Enchanted Testing"
 			x: -9.25d
-			y: -2.75d
+			y: -3.0d
 			shape: "rsquare"
 			subtitle: "Magic in the Air"
 			description: [
@@ -1383,8 +1383,8 @@
 		}
 		{
 			title: "Wallhacks"
-			x: -4.75d
-			y: -1.75d
+			x: -4.25d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Sight Beyond Sight"
 			description: [
@@ -1412,7 +1412,7 @@
 		{
 			title: "Godly Shaped Rocks"
 			x: -4.25d
-			y: -0.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "One For Each God"
 			description: [
@@ -1459,7 +1459,7 @@
 		{
 			title: "A Little Eccentric"
 			x: -0.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "In Other Words : Unusual (Affectionate)"
 			description: [
@@ -1486,8 +1486,8 @@
 		}
 		{
 			title: "Hammering Out Some Accessories"
-			x: -4.75d
-			y: 2.25d
+			x: -4.25d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "Baubled Preferences"
 			description: [
@@ -1512,6 +1512,263 @@
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Pouch of Flair"
+			x: -5.25d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Full of Shinies"
+			description: [
+				"&5In Wold's Vaults, Trinkets require you to wear a Trinket Pouch to equip them."
+				""
+				"&5The starter Trinket Pouch enables you to equip one Blue and one Red trinket. You can find other Trinket Pouches as loot or other ways, and they can let you equip Green color trinkets, or two of the same color Trinket, or more than 2 Trinkets."
+				""
+				"&5As well, you can remove a Trinket Pouch and it will keep the Trinkets you put into it, enabling you to swap in and out sets of Trinkets for different builds."
+			]
+			hide_dependency_lines: true
+			dependencies: ["59D6A7EF6A2A5123"]
+			hide: true
+			id: "5DA329FC1A2F69DA"
+			tasks: [{
+				id: "60B8679F1D277685"
+				type: "item"
+				title: "Any Trinket Pouch"
+				icon: {
+					id: "woldsvaults:trinket_pouch"
+					Count: 1b
+					tag: {
+						id: "woldsvaults:basic_vanilla"
+					}
+				}
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "curios:trinket_pouch"
+					}
+				}
+			}]
+			rewards: [{
+				id: "585A7298FBCD86CA"
+				type: "item"
+				item: "the_vault:magic_silk_block"
+				count: 2
+			}]
+		}
+		{
+			title: "A Powerful Weave"
+			x: -4.75d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "Sewing Destiny"
+			description: [
+				"&5The Weaving Station is used to craft other Trinket Pouches."
+				""
+				"&5By default, you can craft one of three starting Trinket Pouches with it, which give you some combination of the three Trinket colors : Blue, Red, and Green."
+				""
+				"&5There are also special Trinket Pouch recipes you will have to find and loot!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA329FC1A2F69DA"]
+			hide: true
+			id: "2FD33954095C8638"
+			tasks: [{
+				id: "215B0D7222B78010"
+				type: "item"
+				item: "woldsvaults:weaving_station"
+			}]
+			rewards: [{
+				id: "61AEFC3675C5D5FB"
+				type: "item"
+				item: "the_vault:vault_diamond"
+				count: 3
+			}]
+		}
+		{
+			title: "Modding Boxes of Mod Boxes"
+			x: -6.25d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Boxing Boxed Boxes Box"
+			description: [
+				"&5The Mod Box Workstation is a Researchable tool that enables you to craft Targeted Mod Boxes."
+				""
+				"&5These boxes will only drop items from the listed mod."
+				""
+				"&5To craft a specific box, you must have that mod Researched."
+				""
+				"&4(RESEARCH REQUIRED)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4258E78EC459B8E3"]
+			hide: true
+			id: "3473933CA0BA9431"
+			tasks: [{
+				id: "43C5FE79B2B916BC"
+				type: "item"
+				item: "woldsvaults:mod_box_workstation"
+			}]
+			rewards: [{
+				id: "3EE72AC1589B4D24"
+				type: "item"
+				item: "the_vault:mod_box"
+				count: 2
+			}]
+		}
+		{
+			title: "A Token of Grattitude"
+			x: 0.5d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "Maybe a Bit of Attitude"
+			description: ["&5God Tokens are lootables that you can add to a Vault Crystal like a Catalyst, which will add Affinity to the listed God to that Crystal."]
+			hide_dependency_lines: true
+			dependencies: ["1799D40CDE8D8F82"]
+			hide: true
+			id: "0DA132E829339F40"
+			tasks: [{
+				id: "697982D2BB6A4CB3"
+				type: "item"
+				item: "the_vault:grand_charm"
+			}]
+			rewards: [{
+				id: "33D6EC98B8CCBD35"
+				type: "item"
+				item: "the_vault:grand_charm"
+			}]
+		}
+		{
+			title: "Fruit By The Vault"
+			x: -10.5d
+			y: 0.25d
+			shape: "rsquare"
+			subtitle: "Sweet, Sweet Time"
+			description: [
+				"&5Around level 20, you'll start finding Vault Fruit in your Completion Crates and other sources."
+				""
+				"&5Vault Fruit enables you to add time to your Vault Timer, to help eek out just a bit more loot or enough time to finish the Objective."
+				""
+				"&5Each Vault Fruit you consume takes 10% of your max HP. "
+				""
+				"&5You'll find bigger and better Fruit the higher you level up. Some of them have special side effects as well."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1881243BF68F0FAC"]
+			hide: true
+			id: "6CFEA59289784411"
+			tasks: [{
+				id: "75C92F8199751526"
+				type: "item"
+				item: "the_vault:sweet_kiwi"
+			}]
+			rewards: [{
+				id: "672D2BEE3F8597AB"
+				type: "item"
+				item: "the_vault:sweet_kiwi"
+				count: 4
+			}]
+		}
+		{
+			title: "Voiding Possibilities"
+			x: -3.25d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "Just Say No"
+			description: [
+				"&5By Researching Junk Management, you gain access to a helpful tool to keeping your backpacks and inventory clear of extra blocks, especially if you use a hammer : The Void Crucible."
+				""
+				"&5The Void Crucible will let you craft a Void Pendant in the top tab, using Vault Gold and Vault Alloy. When worn, it will automatically void and destroy any non-Vault resource related blocks (such as the blocks that make up the floor, walls, and ceilings)."
+				""
+				"&5Blocks voided this way won't take durability from your Magnet."
+				""
+				"&5In the Void Crucible UI, in the middle tab, you can look through the different themes and select blocks to blacklist and disable voiding on."
+				""
+				"&5The third tab will show you all the items you have blacklisted, and you can click to remove them."
+				""
+				"&4(RESEARCH REQUIRED)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2EC8B80AE1A271D5"]
+			hide: true
+			id: "6CA424DD23A91F38"
+			tasks: [{
+				id: "3036A2BF403D688B"
+				type: "item"
+				item: "the_vault:vault_charm_controller"
+			}]
+			rewards: [{
+				id: "15FFC8DF8ECD08FF"
+				type: "item"
+				item: "the_vault:vault_alloy"
+				count: 2
+			}]
+		}
+		{
+			title: "A Filter of the Void"
+			x: -2.25d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "More Void Power"
+			description: [
+				"&5The issue with the Void Crucible and Void Stone, as they are, is that they void all non-Vault blocks, and the blacklist function has a max of 54 blocks to save from Voiding."
+				""
+				"&5Which is an issue as, especially in Wolds, there are LOTS of great blocks you might want to keep for your own builds or resources."
+				""
+				"&5Enter the Filter Necklace! Using the power of Create's Filter and Attribute Filter, you can instead be more selective on what you want to Void."
+				""
+				"&5Hold the Filter Necklace and Right Click with it to open it up, and you can fit plenty of Filters or Attribute Filters in."
+				""
+				"&5Then when worn, the Filter Necklace will only void blocks that match the settings in any filters you have inside it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6CA424DD23A91F38"]
+			hide: true
+			id: "70300E888AB7DE9C"
+			tasks: [{
+				id: "1A6976A9603BBA7E"
+				type: "item"
+				item: "woldsvaults:filter_necklace"
+			}]
+			rewards: [{
+				id: "451198DE4FC8CF64"
+				type: "item"
+				item: "create:attribute_filter"
+				count: 2
+			}]
+		}
+		{
+			title: "Just Like New"
+			x: -2.25d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "Ignore The Scuff Marks"
+			description: [
+				"&5As you level higher, you will slow down in gaining levels, but increase the amount of equipment you find in a Vault."
+				""
+				"&5Eventually you'll find a piece of equipment that should last you long enough that you wear down the Durability to the breaking point."
+				""
+				"&5If you still have a piece of Gear you want to use longer when the Durability runs out, you'll want a Repair Core."
+				""
+				"&5Combine a Repair Core with the piece of equipment in an Anvil to repair it. It will consume a Repair slot on the equipment and refill the Durability."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"29198B5EA727A867"
+				"1881243BF68F0FAC"
+			]
+			hide: true
+			id: "0CCBD4A4DBE2C736"
+			tasks: [{
+				id: "49FDF7B74CF66C95"
+				type: "item"
+				item: "the_vault:repair_core"
+			}]
+			rewards: [{
+				id: "24EDEEC339CA4223"
+				type: "item"
+				item: "the_vault:repair_core"
 			}]
 		}
 	]
