@@ -1,0 +1,165 @@
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.item.tooltip.ITooltipFunction;
+import stdlib.List;
+import mods.projecte.CustomEMC;
+import mods.projecte.NSSResolver;
+
+// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
+var release_mode = false;
+
+// Item  to EMC/FMC value map.
+val priceTable as int[IItemStack] = {
+    <item:powah:energy_cell_creative> : 3606175,
+    <item:powah:battery_nitro> : 183525,
+    <item:powah:energizing_rod_nitro> : 167800,
+    <item:powah:energy_cell_nitro> : 212425,
+    <item:powah:energy_discharger_nitro> : 108625,
+    <item:powah:energy_hopper_nitro> : 165825,
+    <item:powah:furnator_nitro> : 231925,
+    <item:powah:magmator_nitro> : 232700,
+    <item:powah:reactor_nitro> : 42275,
+    <item:powah:solar_panel_nitro> : 207675,
+    <item:powah:thermo_generator_nitro> : 191650,
+    <item:powah:battery_niotic> : 30275,
+    <item:powah:battery_spirited> : 65850,
+    <item:powah:capacitor_nitro> : 54050,
+    <item:powah:capacitor_spirited> : 16150,
+    <item:powah:crystal_nitro> : 9475,
+    <item:powah:ender_cell_niotic> : 2550,
+    <item:powah:ender_cell_nitro> : 40150,
+    <item:powah:ender_gate_nitro> : 6650,
+    <item:powah:ender_gate_spirited> : 2450,
+    <item:powah:energizing_rod_niotic> : 25350,
+    <item:powah:energizing_rod_spirited> : 588675,
+    <item:powah:energy_cable_nitro> : 6075,
+    <item:powah:energy_cable_spirited> : 1875,
+    <item:powah:energy_cell_niotic> : 19225,
+    <item:powah:energy_cell_spirited> : 65375,
+    <item:powah:energy_discharger_niotic> : 7175,
+    <item:powah:energy_discharger_spirited> : 32825,
+    <item:powah:energy_hopper_niotic> : 24375,
+    <item:powah:energy_hopper_spirited> : 57200,
+    <item:powah:furnator_niotic> : 27100,
+    <item:powah:furnator_spirited> : 75925,
+    <item:powah:magmator_niotic> : 27775,
+    <item:powah:magmator_spirited> : 76600,
+    <item:powah:nitro_crystal_block> : 85275,
+    <item:powah:reactor_niotic> : 6950,
+    <item:powah:reactor_spirited> : 15125,
+    <item:powah:solar_panel_niotic> : 27100,
+    <item:powah:solar_panel_spirited> : 70075,
+    <item:powah:spirited_crystal_block> : 28800,
+    <item:powah:thermo_generator_niotic> : 33900,
+    <item:powah:thermo_generator_spirited> : 71725,
+    <item:powah:battery_basic> : 11025,
+    <item:powah:battery_blazing> : 23400,
+    <item:powah:battery_hardened> : 17150,
+    <item:powah:battery_starter> : 4575,
+    <item:powah:blazing_crystal_block> : 675,
+    <item:powah:capacitor_basic> : 1125,
+    <item:powah:capacitor_basic_large> : 3150,
+    <item:powah:capacitor_blazing> : 3025,
+    <item:powah:capacitor_hardened> : 2725,
+    <item:powah:capacitor_niotic> : 3325,
+    <item:powah:crystal_blazing> : 75,
+    <item:powah:crystal_niotic> : 75,
+    <item:powah:crystal_spirited> : 3200,
+    <item:powah:deepslate_uraninite_ore> : 650,
+    <item:powah:deepslate_uraninite_ore_dense> : 1275,
+    <item:powah:deepslate_uraninite_ore_poor> : 325,
+    <item:powah:dry_ice> : 1100,
+    <item:powah:ender_cell_basic> : 4500,
+    <item:powah:ender_cell_blazing> : 2550,
+    <item:powah:ender_cell_hardened> : 4550,
+    <item:powah:ender_cell_spirited> : 15050,
+    <item:powah:ender_cell_starter> : 1175,
+    <item:powah:ender_core> : 2150,
+    <item:powah:ender_gate_basic> : 675,
+    <item:powah:ender_gate_blazing> : 825,
+    <item:powah:ender_gate_hardened> : 900,
+    <item:powah:ender_gate_niotic> : 850,
+    <item:powah:ender_gate_starter> : 575,
+    <item:powah:energized_steel_block> : 5175,
+    <item:powah:energizing_rod_basic> : 4135,
+    <item:powah:energizing_rod_blazing> : 17675,
+    <item:powah:energizing_rod_hardened> : 10600,
+    <item:powah:energizing_rod_starter> : 850,
+    <item:powah:energy_cable_blazing> : 275,
+    <item:powah:energy_cable_hardened> : 325,
+    <item:powah:energy_cable_niotic> : 300,
+    <item:powah:energy_cell_basic> : 2475,
+    <item:powah:energy_cell_blazing> : 11225,
+    <item:powah:energy_cell_hardened> : 3825,
+    <item:powah:energy_discharger_basic> : 2775,
+    <item:powah:energy_discharger_blazing> : 6575,
+    <item:powah:energy_discharger_hardened> : 5981,
+    <item:powah:energy_hopper_basic> : 4625,
+    <item:powah:energy_hopper_blazing> : 17200,
+    <item:powah:energy_hopper_hardened> : 10625,
+    <item:powah:furnator_basic> : 3750,
+    <item:powah:furnator_blazing> : 19550,
+    <item:powah:furnator_hardened> : 12600,
+    <item:powah:lens_of_ender> : 325,
+    <item:powah:magmator_basic> : 4425,
+    <item:powah:magmator_blazing> : 20225,
+    <item:powah:magmator_hardened> : 13275,
+    <item:powah:niotic_crystal_block> : 675,
+    <item:powah:photoelectric_pane> : 325,
+    <item:powah:reactor_basic> : 2075,
+    <item:powah:reactor_blazing> : 5175,
+    <item:powah:reactor_hardened> : 3550,
+    <item:powah:reactor_starter> : 375,
+    <item:powah:solar_panel_basic> : 4450,
+    <item:powah:solar_panel_blazing> : 19150,
+    <item:powah:solar_panel_hardened> : 12250,
+    <item:powah:solar_panel_starter> : 1425,
+    <item:powah:thermo_generator_basic> : 8050,
+    <item:powah:thermo_generator_blazing> : 24850,
+    <item:powah:thermo_generator_hardened> : 16400,
+    <item:powah:thermo_generator_starter> : 3425,
+    <item:powah:thermoelectric_plate> : 900,
+    <item:powah:uraninite> : 150,
+    <item:powah:uraninite_block> : 1350,
+    <item:powah:uraninite_ore> : 650,
+    <item:powah:uraninite_ore_dense> : 1275,
+    <item:powah:uraninite_ore_poor> : 325,
+    <item:powah:uraninite_raw> : 150,
+    <item:powah:book> : 10,
+    <item:powah:capacitor_basic_tiny> : 100,
+    <item:powah:charged_snowball> : 75,
+    <item:powah:dielectric_casing> : 525,
+    <item:powah:dielectric_paste> : 1,
+    <item:powah:dielectric_rod> : 10,
+    <item:powah:dielectric_rod_horizontal> : 10,
+    <item:powah:energizing_orb> : 675,
+    <item:powah:energy_cable_basic> : 100,
+    <item:powah:energy_cable_starter> : 10,
+    <item:powah:energy_cell_starter> : 1125,
+    <item:powah:energy_discharger_starter> : 725,
+    <item:powah:energy_hopper_starter> : 1850,
+    <item:powah:furnator_starter> : 725,
+    <item:powah:magmator_starter> : 1400,
+    <item:powah:steel_energized> : 575,
+    <item:powah:wrench> : 450
+};
+
+// For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
+for item, value in priceTable {
+    if (release_mode == true){
+        if (value < 26 ) {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        } else {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        }
+    } else {
+        CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+        <tag:items:projectextended:blacklist_condenser>.add(item);
+        <tag:items:projectextended:blacklist_learning>.add(item);
+    }
+}

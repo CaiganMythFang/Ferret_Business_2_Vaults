@@ -1,0 +1,179 @@
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.item.tooltip.ITooltipFunction;
+import stdlib.List;
+import mods.projecte.CustomEMC;
+import mods.projecte.NSSResolver;
+
+// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
+var release_mode = false;
+
+// Item  to EMC/FMC value map.
+val priceTable as int[IItemStack] = {
+    <item:industrialforegoing:fermented_ore_meat_bucket> : 675,
+    <item:industrialforegoing:raw_ore_meat_bucket> : 675,
+    <item:industrialforegoing:supreme_black_hole_tank> : 826725,
+    <item:industrialforegoing:supreme_black_hole_unit> : 835650,
+    <item:industrialforegoing:efficiency_addon_2> : 118850,
+    <item:industrialforegoing:infinity_drill> : 110650,
+    <item:industrialforegoing:infinity_saw> : 142000,
+    <item:industrialforegoing:infinity_trident> : 116600,
+    <item:industrialforegoing:mycelial_netherstar> : 101000,
+    <item:industrialforegoing:mycelial_reactor> : 111300,
+    <item:industrialforegoing:wither_builder> : 101100,
+    <item:industrialforegoing:advanced_black_hole_tank> : 81100,
+    <item:industrialforegoing:advanced_black_hole_unit> : 80750,
+    <item:industrialforegoing:animal_rancher> : 57050,
+    <item:industrialforegoing:black_hole_controller> : 88250,
+    <item:industrialforegoing:efficiency_addon_1> : 91325,
+    <item:industrialforegoing:enchantment_applicator> : 87325,
+    <item:industrialforegoing:enchantment_extractor> : 67075,
+    <item:industrialforegoing:enchantment_sorter> : 61450,
+    <item:industrialforegoing:fermentation_station> : 53125,
+    <item:industrialforegoing:fluid_laser_base> : 68500,
+    <item:industrialforegoing:fluid_sieving_machine> : 66525,
+    <item:industrialforegoing:hydroponic_bed> : 68550,
+    <item:industrialforegoing:infinity_charger> : 61525,
+    <item:industrialforegoing:laser_drill> : 56800,
+    <item:industrialforegoing:machine_frame_advanced> : 60400,
+    <item:industrialforegoing:machine_frame_supreme> : 84625,
+    <item:industrialforegoing:marine_fisher> : 51900,
+    <item:industrialforegoing:material_stonework_factory> : 71725,
+    <item:industrialforegoing:mob_crusher> : 79075,
+    <item:industrialforegoing:mob_detector> : 50675,
+    <item:industrialforegoing:mob_slaughter_factory> : 68750,
+    <item:industrialforegoing:mycelial_crimed> : 60675,
+    <item:industrialforegoing:mycelial_culinary> : 49925,
+    <item:industrialforegoing:mycelial_death> : 60575,
+    <item:industrialforegoing:mycelial_disenchantment> : 60475,
+    <item:industrialforegoing:mycelial_ender> : 61375,
+    <item:industrialforegoing:mycelial_explosive> : 60800,
+    <item:industrialforegoing:mycelial_frosty> : 49900,
+    <item:industrialforegoing:mycelial_furnace> : 50000,
+    <item:industrialforegoing:mycelial_halitosis> : 84820,
+    <item:industrialforegoing:mycelial_magma> : 60925,
+    <item:industrialforegoing:mycelial_meatallurgic> : 84675,
+    <item:industrialforegoing:mycelial_pink> : 49925,
+    <item:industrialforegoing:mycelial_potion> : 60500,
+    <item:industrialforegoing:mycelial_rocket> : 60550,
+    <item:industrialforegoing:mycelial_slimey> : 61550,
+    <item:industrialforegoing:ore_laser_base> : 67650,
+    <item:industrialforegoing:plant_fertilizer> : 50575,
+    <item:industrialforegoing:plant_gatherer> : 70275,
+    <item:industrialforegoing:potion_brewer> : 69250,
+    <item:industrialforegoing:range_addon11> : 60825,
+    <item:industrialforegoing:simple_black_hole_tank> : 56375,
+    <item:industrialforegoing:simple_black_hole_unit> : 55800,
+    <item:industrialforegoing:speed_addon_1> : 87775,
+    <item:industrialforegoing:spores_recreator> : 58300,
+    <item:industrialforegoing:stasis_chamber> : 66375,
+    <item:industrialforegoing:washing_factory> : 66275,
+    <item:industrialforegoing:animal_baby_separator> : 6150,
+    <item:industrialforegoing:animal_feeder> : 9525,
+    <item:industrialforegoing:biofuel_generator> : 6700,
+    <item:industrialforegoing:bioreactor> : 3325,
+    <item:industrialforegoing:block_breaker> : 6875,
+    <item:industrialforegoing:block_placer> : 2925,
+    <item:industrialforegoing:common_black_hole_tank> : 5550,
+    <item:industrialforegoing:common_black_hole_unit> : 2850,
+    <item:industrialforegoing:conveyor> : 125,
+    <item:industrialforegoing:conveyor_blinking_upgrade> : 1700,
+    <item:industrialforegoing:conveyor_bouncing_upgrade> : 1925,
+    <item:industrialforegoing:conveyor_detection_upgrade> : 1625,
+    <item:industrialforegoing:conveyor_dropping_upgrade> : 1550,
+    <item:industrialforegoing:conveyor_extraction_upgrade> : 1575,
+    <item:industrialforegoing:conveyor_insertion_upgrade> : 2700,
+    <item:industrialforegoing:conveyor_splitting_upgrade> : 2725,
+    <item:industrialforegoing:dark_glass> : 10,
+    <item:industrialforegoing:diamond_gear> : 575,
+    <item:industrialforegoing:dissolution_chamber> : 7575,
+    <item:industrialforegoing:dye_mixer> : 5750,
+    <item:industrialforegoing:fluid_collector> : 5150,
+    <item:industrialforegoing:fluid_extractor> : 5350,
+    <item:industrialforegoing:fluid_placer> : 3125,
+    <item:industrialforegoing:fluid_transporter_type> : 1400,
+    <item:industrialforegoing:gold_gear> : 37175,
+    <item:industrialforegoing:item_transporter_type> : 2050,
+    <item:industrialforegoing:laser_lens0> : 5,
+    <item:industrialforegoing:laser_lens1> : 5,
+    <item:industrialforegoing:laser_lens10> : 5,
+    <item:industrialforegoing:laser_lens11> : 5,
+    <item:industrialforegoing:laser_lens12> : 5,
+    <item:industrialforegoing:laser_lens13> : 5,
+    <item:industrialforegoing:laser_lens14> : 5,
+    <item:industrialforegoing:laser_lens15> : 5,
+    <item:industrialforegoing:laser_lens2> : 5,
+    <item:industrialforegoing:laser_lens3> : 5,
+    <item:industrialforegoing:laser_lens4> : 5,
+    <item:industrialforegoing:laser_lens5> : 5,
+    <item:industrialforegoing:laser_lens6> : 5,
+    <item:industrialforegoing:laser_lens7> : 5,
+    <item:industrialforegoing:laser_lens8> : 5,
+    <item:industrialforegoing:laser_lens9> : 5,
+    <item:industrialforegoing:latex_processing_unit> : 3675,
+    <item:industrialforegoing:machine_frame_pity> : 2475,
+    <item:industrialforegoing:machine_frame_simple> : 49875,
+    <item:industrialforegoing:mechanical_dirt> : 2525,
+    <item:industrialforegoing:pink_slime> : 10,
+    <item:industrialforegoing:pink_slime_ingot> : 1825,
+    <item:industrialforegoing:pitiful_generator> : 3300,
+    <item:industrialforegoing:pity_black_hole_tank> : 5900,
+    <item:industrialforegoing:pity_black_hole_unit> : 4550,
+    <item:industrialforegoing:plant_sower> : 3700,
+    <item:industrialforegoing:processing_addon_1> : 18425,
+    <item:industrialforegoing:processing_addon_2> : 13850,
+    <item:industrialforegoing:range_addon0> : 1750,
+    <item:industrialforegoing:range_addon1> : 1825,
+    <item:industrialforegoing:range_addon10> : 3525,
+    <item:industrialforegoing:range_addon2> : 2375,
+    <item:industrialforegoing:range_addon3> : 350,
+    <item:industrialforegoing:range_addon4> : 1250,
+    <item:industrialforegoing:range_addon5> : 900,
+    <item:industrialforegoing:range_addon6> : 1050,
+    <item:industrialforegoing:range_addon7> : 950,
+    <item:industrialforegoing:range_addon8> : 1925,
+    <item:industrialforegoing:range_addon9> : 2725,
+    <item:industrialforegoing:resourceful_furnace> : 6400,
+    <item:industrialforegoing:sewage_composter> : 3375,
+    <item:industrialforegoing:sewer> : 3625,
+    <item:industrialforegoing:sludge_refiner> : 6650,
+    <item:industrialforegoing:speed_addon_2> : 14225,
+    <item:industrialforegoing:water_condensator> : 3575,
+    <item:industrialforegoing:world_transporter_type> : 2400,
+    <item:industrialforegoing:biofuel_bucket> : 725,
+    <item:industrialforegoing:dryrubber> : 100,
+    <item:industrialforegoing:essence_bucket> : 700,
+    <item:industrialforegoing:ether_gas_bucket> : 675,
+    <item:industrialforegoing:fertilizer> : 10,
+    <item:industrialforegoing:iron_gear> : 225,
+    <item:industrialforegoing:latex_bucket> : 675,
+    <item:industrialforegoing:meat_bucket> : 700,
+    <item:industrialforegoing:meat_feeder> : 875,
+    <item:industrialforegoing:pink_slime_bucket> : 675,
+    <item:industrialforegoing:plastic> : 100,
+    <item:industrialforegoing:sewage_bucket> : 675,
+    <item:industrialforegoing:sludge_bucket> : 700,
+    <item:industrialforegoing:straw> : 400,
+    <item:industrialforegoing:tinydryrubber> : 10
+
+};
+
+// For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
+for item, value in priceTable {
+    if (release_mode == true){
+        if (value < 26 ) {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        } else {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        }
+    } else {
+        CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+        <tag:items:projectextended:blacklist_condenser>.add(item);
+        <tag:items:projectextended:blacklist_learning>.add(item);
+    }
+}

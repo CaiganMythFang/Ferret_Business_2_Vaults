@@ -1,0 +1,138 @@
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.item.tooltip.ITooltipFunction;
+import stdlib.List;
+import mods.projecte.CustomEMC;
+import mods.projecte.NSSResolver;
+
+// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
+var release_mode = false;
+
+// Item  to EMC/FMC value map.
+val priceTable as int[IItemStack] = {
+    <item:sophisticatedstorage:diffuser_upgrade_advanced> : 332150,
+    <item:sophisticatedstorage:recycler_upgrade_advanced> : 196850,
+    <item:sophisticatedstorage:diffuser_upgrade> : 139300,
+    <item:sophisticatedstorage:recycler_upgrade> : 166750,
+    <item:sophisticatedstorage:treasure_chest> : 139050,
+    <item:sophisticatedstorage:advanced_compacting_upgrade> : 11900,
+    <item:sophisticatedstorage:altar_chest> : 23150,
+    <item:sophisticatedstorage:basic_to_netherite_tier_upgrade> : 22875,
+    <item:sophisticatedstorage:controller> : 43000,
+    <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade> : 18700,
+    <item:sophisticatedstorage:gilded_chest> : 39900,
+    <item:sophisticatedstorage:gilded_strongbox> : 77800,
+    <item:sophisticatedstorage:gold_to_netherite_tier_upgrade> : 19500,
+    <item:sophisticatedstorage:iron_to_netherite_tier_upgrade> : 22450,
+    <item:sophisticatedstorage:limited_netherite_barrel_1> : 22850,
+    <item:sophisticatedstorage:limited_netherite_barrel_2> : 22850,
+    <item:sophisticatedstorage:limited_netherite_barrel_2> : 22850,
+    <item:sophisticatedstorage:limited_netherite_barrel_3> : 22850,
+    <item:sophisticatedstorage:limited_netherite_barrel_4> : 22850,
+    <item:sophisticatedstorage:netherite_chest> : 22850,
+    <item:sophisticatedstorage:netherite_shulker_box> : 22900,
+    <item:sophisticatedstorage:ornate_strongbox> : 18000,
+    <item:sophisticatedstorage:advanced_feeding_upgrade> : 10950,
+    <item:sophisticatedstorage:advanced_filter_upgrade> : 1950,
+    <item:sophisticatedstorage:advanced_hopper_upgrade> : 4125,
+    <item:sophisticatedstorage:advanced_magnet_upgrade> : 3325,
+    <item:sophisticatedstorage:advanced_pickup_upgrade> : 1400,
+    <item:sophisticatedstorage:advanced_void_upgrade> : 1050,
+    <item:sophisticatedstorage:auto_blasting_upgrade> : 6650,
+    <item:sophisticatedstorage:auto_smelting_upgrade> : 5525,
+    <item:sophisticatedstorage:auto_smoking_upgrade> : 5525,
+    <item:sophisticatedstorage:basic_to_diamond_tier_upgrade> : 4175,
+    <item:sophisticatedstorage:basic_to_gold_tier_upgrade> : 3375,
+    <item:sophisticatedstorage:basic_to_iron_tier_upgrade> : 425,
+    <item:sophisticatedstorage:blasting_upgrade> : 2375,
+    <item:sophisticatedstorage:chipped/glassblower_workbench_upgrade> : 2375,
+    <item:sophisticatedstorage:chipped/mason_workbench_upgrade> : 1450,
+    <item:sophisticatedstorage:chipped/philosopher_workbench_upgrade> : 4750,
+    <item:sophisticatedstorage:chipped/tinkerer_workbench_upgrade> : 1300,
+    <item:sophisticatedstorage:compacting_upgrade> : 2525,
+    <item:sophisticatedstorage:compression_upgrade> : 2725,
+    <item:sophisticatedstorage:crafting_upgrade> : 1250,
+    <item:sophisticatedstorage:diamond_barrel> : 4150,
+    <item:sophisticatedstorage:diamond_chest> : 4150,
+    <item:sophisticatedstorage:diamond_shulker_box> : 4200,
+    <item:sophisticatedstorage:drop_upgrade> : 875,
+    <item:sophisticatedstorage:drop_upgrade_advanced> : 2100,
+    <item:sophisticatedstorage:enigma_chest> : 28575,
+    <item:sophisticatedstorage:feeding_upgrade> : 8275,
+    <item:sophisticatedstorage:filter_upgrade> : 1175,
+    <item:sophisticatedstorage:flesh_chest> : 9050,
+    <item:sophisticatedstorage:gold_barrel> : 3350,
+    <item:sophisticatedstorage:gold_chest> : 3350,
+    <item:sophisticatedstorage:gold_shulker_box> : 3400,
+    <item:sophisticatedstorage:gold_to_diamond_tier_upgrade> : 800,
+    <item:sophisticatedstorage:hardened_chest> : 2900,
+    <item:sophisticatedstorage:hopper_upgrade> : 3600,
+    <item:sophisticatedstorage:identification_upgrade> : 6875,
+    <item:sophisticatedstorage:iron_barrel> : 400,
+    <item:sophisticatedstorage:iron_chest> : 400,
+    <item:sophisticatedstorage:iron_shulker_box> : 450,
+    <item:sophisticatedstorage:iron_to_diamond_tier_upgrade> : 3750,
+    <item:sophisticatedstorage:iron_to_gold_tier_upgrade> : 2950,
+    <item:sophisticatedstorage:jukebox_upgrade> : 2775,
+    <item:sophisticatedstorage:limited_diamond_barrel_1> : 4150,
+    <item:sophisticatedstorage:limited_diamond_barrel_2> : 4150,
+    <item:sophisticatedstorage:limited_diamond_barrel_3> : 4150,
+    <item:sophisticatedstorage:limited_diamond_barrel_4> : 4150,
+    <item:sophisticatedstorage:limited_gold_barrel_1> : 3350,
+    <item:sophisticatedstorage:limited_gold_barrel_2> : 3350,
+    <item:sophisticatedstorage:limited_gold_barrel_3> : 3350,
+    <item:sophisticatedstorage:limited_gold_barrel_4> : 3350,
+    <item:sophisticatedstorage:limited_iron_barrel_1> : 400,
+    <item:sophisticatedstorage:limited_iron_barrel_2> : 400,
+    <item:sophisticatedstorage:limited_iron_barrel_3> : 400,
+    <item:sophisticatedstorage:limited_iron_barrel_4> : 400,
+    <item:sophisticatedstorage:living_chest> : 5600,
+    <item:sophisticatedstorage:living_strongbox> : 9200,
+    <item:sophisticatedstorage:magnet_upgrade> : 2350,
+    <item:sophisticatedstorage:ornate_chest> : 10000,
+    <item:sophisticatedstorage:pickup_upgrade> : 1100,
+    <item:sophisticatedstorage:smelting_upgrade> : 1250,
+    <item:sophisticatedstorage:smoking_upgrade> : 1250,
+    <item:sophisticatedstorage:stack_upgrade_tier_1> : 1125,
+    <item:sophisticatedstorage:stack_upgrade_tier_2> : 2225,
+    <item:sophisticatedstorage:stack_upgrade_tier_3> : 3725,
+    <item:sophisticatedstorage:stack_upgrade_tier_4> : 7725,
+    <item:sophisticatedstorage:stonecutter_upgrade> : 1100,
+    <item:sophisticatedstorage:storage_link> : 50,
+    <item:sophisticatedstorage:storage_tool> : 2100,
+    <item:sophisticatedstorage:void_upgrade> : 675,
+    <item:sophisticatedstorage:wooden_chest> : 3250,
+    <item:sophisticatedstorage:barrel> : 10,
+    <item:sophisticatedstorage:basic_tier_upgrade> : 10,
+    <item:sophisticatedstorage:chest> : 10,
+    <item:sophisticatedstorage:chipped/botanist_workbench_upgrade> : 1050,
+    <item:sophisticatedstorage:chipped/carpenter_workbench_upgrade> : 1200,
+    <item:sophisticatedstorage:chipped/shepherd_workbench_upgrade> : 1000,
+    <item:sophisticatedstorage:limited_barrel_1> : 10,
+    <item:sophisticatedstorage:limited_barrel_2> : 10,
+    <item:sophisticatedstorage:limited_barrel_3> : 10,
+    <item:sophisticatedstorage:limited_barrel_4> : 10,
+    <item:sophisticatedstorage:packing_tape> : 25,
+    <item:sophisticatedstorage:shulker_box> : 75,
+    <item:sophisticatedstorage:upgrade_base> : 525
+};
+
+// For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
+for item, value in priceTable {
+    if (release_mode == true){
+        if (value < 26 ) {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        } else {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        }
+    } else {
+        CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+        <tag:items:projectextended:blacklist_condenser>.add(item);
+        <tag:items:projectextended:blacklist_learning>.add(item);
+    }
+}

@@ -1,0 +1,170 @@
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.item.tooltip.ITooltipFunction;
+import stdlib.List;
+import mods.projecte.CustomEMC;
+import mods.projecte.NSSResolver;
+
+// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
+var release_mode = false;
+
+// Item  to EMC/FMC value map.
+val priceTable as int[IItemStack] = {
+    <item:lightmanscurrency:coinmint> : 1125,
+    <item:lightmanscurrency:wallet_netherite> : 99450,
+    <item:lightmanscurrency:speed_upgrade_5> : 12400,
+    <item:lightmanscurrency:tax_block> : 16300,
+    <item:lightmanscurrency:wallet_diamond> : 72250,
+    <item:lightmanscurrency:armor_display> : 800,
+    <item:lightmanscurrency:atm> : 1350,
+    <item:lightmanscurrency:auction_stand_acacia> : 350,
+    <item:lightmanscurrency:auction_stand_birch> : 350,
+    <item:lightmanscurrency:auction_stand_crimson> : 350,
+    <item:lightmanscurrency:auction_stand_dark_oak> : 350,
+    <item:lightmanscurrency:auction_stand_jungle> : 350,
+    <item:lightmanscurrency:auction_stand_oak> : 350,
+    <item:lightmanscurrency:auction_stand_spruce> : 350,
+    <item:lightmanscurrency:auction_stand_warped> : 350,
+    <item:lightmanscurrency:bookshelf_trader_acacia> : 350,
+    <item:lightmanscurrency:bookshelf_trader_birch> : 350,
+    <item:lightmanscurrency:bookshelf_trader_crimson> : 350,
+    <item:lightmanscurrency:bookshelf_trader_dark_oak> : 350,
+    <item:lightmanscurrency:bookshelf_trader_jungle> : 350,
+    <item:lightmanscurrency:bookshelf_trader_oak> : 350,
+    <item:lightmanscurrency:bookshelf_trader_spruce> : 350,
+    <item:lightmanscurrency:bookshelf_trader_warped> : 350,
+    <item:lightmanscurrency:card_display_acacia> : 350,
+    <item:lightmanscurrency:card_display_birch> : 350,
+    <item:lightmanscurrency:card_display_crimson> : 350,
+    <item:lightmanscurrency:card_display_dark_oak> : 350,
+    <item:lightmanscurrency:card_display_jungle> : 350,
+    <item:lightmanscurrency:card_display_oak> : 350,
+    <item:lightmanscurrency:card_display_spruce> : 350,
+    <item:lightmanscurrency:card_display_warped> : 350,
+    <item:lightmanscurrency:cash_register> : 1400,
+    <item:lightmanscurrency:coin_chest> : 150,
+    <item:lightmanscurrency:coin_chest_exchange_upgrade> : 1375,
+    <item:lightmanscurrency:coin_chest_magnet_upgrade_1> : 125,
+    <item:lightmanscurrency:coin_chest_magnet_upgrade_2> : 350,
+    <item:lightmanscurrency:coin_chest_magnet_upgrade_3> : 1025,
+    <item:lightmanscurrency:coin_chest_magnet_upgrade_4> : 1975,
+    <item:lightmanscurrency:coin_chest_security_upgrade> : 1825,
+    <item:lightmanscurrency:display_case> : 350,
+    <item:lightmanscurrency:freezer> : 350,
+    <item:lightmanscurrency:freezer_blue> : 350,
+    <item:lightmanscurrency:freezer_brown> : 350,
+    <item:lightmanscurrency:freezer_cyan> : 350,
+    <item:lightmanscurrency:freezer_gray> : 350,
+    <item:lightmanscurrency:freezer_green> : 350,
+    <item:lightmanscurrency:freezer_light_blue> : 350,
+    <item:lightmanscurrency:freezer_light_gray> : 350,
+    <item:lightmanscurrency:freezer_lime> : 350,
+    <item:lightmanscurrency:freezer_magenta> : 350,
+    <item:lightmanscurrency:freezer_orange> : 350,
+    <item:lightmanscurrency:freezer_pink> : 350,
+    <item:lightmanscurrency:freezer_purple> : 350,
+    <item:lightmanscurrency:freezer_red> : 350,
+    <item:lightmanscurrency:freezer_white> : 350,
+    <item:lightmanscurrency:freezer_yellow> : 350,
+    <item:lightmanscurrency:gem_terminal> : 1000,
+    <item:lightmanscurrency:hopper_upgrade> : 1800,
+    <item:lightmanscurrency:item_capacity_upgrade_2> : 900,
+    <item:lightmanscurrency:item_capacity_upgrade_3> : 2700,
+    <item:lightmanscurrency:item_trader_interface> : 2350,
+    <item:lightmanscurrency:item_trader_server_lrg> : 2975,
+    <item:lightmanscurrency:item_trader_server_med> : 2750,
+    <item:lightmanscurrency:item_trader_server_sml> : 2525,
+    <item:lightmanscurrency:item_trader_server_xlrg> : 3200,
+    <item:lightmanscurrency:network_upgrade> : 1500,
+    <item:lightmanscurrency:paygate> : 1800,
+    <item:lightmanscurrency:portable_atm> : 1350,
+    <item:lightmanscurrency:portable_gem_terminal> : 1000,
+    <item:lightmanscurrency:portable_terminal> : 1275,
+    <item:lightmanscurrency:shelf_2x2_acacia> : 350,
+    <item:lightmanscurrency:shelf_2x2_birch> : 350,
+    <item:lightmanscurrency:shelf_2x2_crimson> : 350,
+    <item:lightmanscurrency:shelf_2x2_dark_oak> : 350,
+    <item:lightmanscurrency:shelf_2x2_jungle> : 350,
+    <item:lightmanscurrency:shelf_2x2_oak> : 350,
+    <item:lightmanscurrency:shelf_2x2_spruce> : 350,
+    <item:lightmanscurrency:shelf_2x2_warped> : 350,
+    <item:lightmanscurrency:shelf_acacia> : 350,
+    <item:lightmanscurrency:shelf_birch> : 350,
+    <item:lightmanscurrency:shelf_crimson> : 350,
+    <item:lightmanscurrency:shelf_dark_oak> : 350,
+    <item:lightmanscurrency:shelf_jungle> : 350,
+    <item:lightmanscurrency:shelf_oak> : 350,
+    <item:lightmanscurrency:shelf_spruce> : 350,
+    <item:lightmanscurrency:shelf_warped> : 350,
+    <item:lightmanscurrency:slot_machine> : 1550,
+    <item:lightmanscurrency:speed_upgrade_1> : 2925,
+    <item:lightmanscurrency:speed_upgrade_2> : 3600,
+    <item:lightmanscurrency:speed_upgrade_3> : 4550,
+    <item:lightmanscurrency:speed_upgrade_4> : 6350,
+    <item:lightmanscurrency:terminal> : 1275,
+    <item:lightmanscurrency:ticket_kiosk> : 1500,
+    <item:lightmanscurrency:ticket_machine> : 975,
+    <item:lightmanscurrency:trading_core> : 350,
+    <item:lightmanscurrency:vending_machine> : 1250,
+    <item:lightmanscurrency:vending_machine_black> : 1250,
+    <item:lightmanscurrency:vending_machine_blue> : 1250,
+    <item:lightmanscurrency:vending_machine_brown> : 1250,
+    <item:lightmanscurrency:vending_machine_cyan> : 1250,
+    <item:lightmanscurrency:vending_machine_gray> : 1250,
+    <item:lightmanscurrency:vending_machine_green> : 1250,
+    <item:lightmanscurrency:vending_machine_large> : 2150,
+    <item:lightmanscurrency:vending_machine_large_black> : 2150,
+    <item:lightmanscurrency:vending_machine_large_blue> : 2150,
+    <item:lightmanscurrency:vending_machine_large_brown> : 2150,
+    <item:lightmanscurrency:vending_machine_large_cyan> : 2150,
+    <item:lightmanscurrency:vending_machine_large_gray> : 2150,
+    <item:lightmanscurrency:vending_machine_large_green> : 2150,
+    <item:lightmanscurrency:vending_machine_large_light_blue> : 2150,
+    <item:lightmanscurrency:vending_machine_large_light_gray> : 2150,
+    <item:lightmanscurrency:vending_machine_large_lime> : 2150,
+    <item:lightmanscurrency:vending_machine_large_magenta> : 2150,
+    <item:lightmanscurrency:vending_machine_large_orange> : 2150,
+    <item:lightmanscurrency:vending_machine_large_pink> : 2150,
+    <item:lightmanscurrency:vending_machine_large_purple> : 2150,
+    <item:lightmanscurrency:vending_machine_large_red> : 2150,
+    <item:lightmanscurrency:vending_machine_large_yellow> : 2150,
+    <item:lightmanscurrency:vending_machine_light_blue> : 1250,
+    <item:lightmanscurrency:vending_machine_light_gray> : 1250,
+    <item:lightmanscurrency:vending_machine_lightblue> : 1250,
+    <item:lightmanscurrency:vending_machine_lightgray> : 1250,
+    <item:lightmanscurrency:vending_machine_lime> : 1250,
+    <item:lightmanscurrency:vending_machine_magenta> : 1250,
+    <item:lightmanscurrency:vending_machine_orange> : 1250,
+    <item:lightmanscurrency:vending_machine_pink> : 1250,
+    <item:lightmanscurrency:vending_machine_purple> : 1250,
+    <item:lightmanscurrency:vending_machine_red> : 1250,
+    <item:lightmanscurrency:vending_machine_yellow> : 1250,
+    <item:lightmanscurrency:wallet_emerald> : 58750,
+    <item:lightmanscurrency:wallet_gold> : 40225,
+    <item:lightmanscurrency:coinjar_blue> : 10,
+    <item:lightmanscurrency:item_capacity_upgrade_1> : 225,
+    <item:lightmanscurrency:piggy_bank> : 10,
+    <item:lightmanscurrency:sus_jar> : 25,
+    <item:lightmanscurrency:wallet_copper> : 125,
+    <item:lightmanscurrency:wallet_iron> : 1725
+};
+
+// For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
+for item, value in priceTable {
+    if (release_mode == true){
+        if (value < 26 ) {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        } else {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        }
+    } else {
+        CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+        <tag:items:projectextended:blacklist_condenser>.add(item);
+        <tag:items:projectextended:blacklist_learning>.add(item);
+    }
+}

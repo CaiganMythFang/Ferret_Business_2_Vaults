@@ -1,0 +1,387 @@
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.item.tooltip.ITooltipFunction;
+import stdlib.List;
+import mods.projecte.CustomEMC;
+import mods.projecte.NSSResolver;
+
+// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
+var release_mode = false;
+
+// Item  to EMC/FMC value map.
+val priceTable as int[IItemStack] = {
+    <item:mekanism:creative_energy_cube> : 2675875,
+    <item:mekanism:pellet_antimatter> : 7930000,
+    <item:mekanism:qio_drive_supermassive> : 9919039,
+    <item:mekanism:antiprotonic_nucleosynthesizer> : 15879050,
+    <item:mekanism:atomic_disassembler> : 97475,
+    <item:mekanism:digital_miner> : 152700,
+    <item:mekanism:ultimate_induction_cell> : 6193100,
+    <item:mekanism:ultimate_induction_provider> : 2755200,
+    <item:mekanism:qio_drive_time_dilating> : 664615,
+    <item:mekanism:elite_induction_cell> : 1515175,
+    <item:mekanism:elite_induction_provider> : 661475,
+    <item:mekanism:pellet_polonium> : 8000,
+    <item:mekanism:portable_qio_dashboard> : 91775,
+    <item:mekanism:sps_port> : 166850,
+    <item:mekanism:ultimate_combining_factory> : 69900,
+    <item:mekanism:ultimate_compressing_factory> : 69550,
+    <item:mekanism:ultimate_crushing_factory> : 66225,
+    <item:mekanism:ultimate_energy_cube> : 88300,
+    <item:mekanism:ultimate_enriching_factory> : 67300,
+    <item:mekanism:ultimate_infusing_factory> : 67000,
+    <item:mekanism:ultimate_injecting_factory> : 76525,
+    <item:mekanism:ultimate_purifying_factory> : 70600,
+    <item:mekanism:ultimate_sawing_factory> : 68050,
+    <item:mekanism:ultimate_smelting_factory> : 66825,
+    <item:mekanism:ultimate_tier_installer> : 35925,
+    <item:mekanism:advanced_induction_cell> : 354600,
+    <item:mekanism:advanced_induction_provider> : 150500,
+    <item:mekanism:alloy_atomic> : 1775,
+    <item:mekanism:basic_induction_cell> : 70225,
+    <item:mekanism:basic_induction_provider> : 29125,
+    <item:mekanism:block_refined_obsidian> : 18225,
+    <item:mekanism:chemical_crystallizer> : 20150,
+    <item:mekanism:chemical_dissolution_chamber> : 21725,
+    <item:mekanism:chemical_washer> : 21800,
+    <item:mekanism:elite_combining_factory> : 34300,
+    <item:mekanism:elite_compressing_factory> : 33950,
+    <item:mekanism:elite_crushing_factory> : 30625,
+    <item:mekanism:elite_energy_cube> : 52700,
+    <item:mekanism:elite_enriching_factory> : 31675,
+    <item:mekanism:elite_fluid_tank> : 41000,
+    <item:mekanism:elite_infusing_factory> : 31400,
+    <item:mekanism:elite_injecting_factory> : 41000,
+    <item:mekanism:elite_purifying_factory> : 35000,
+    <item:mekanism:elite_sawing_factory> : 31250,
+    <item:mekanism:elite_smelting_factory> : 31250,
+    <item:mekanism:elite_tier_installer> : 23475,
+    <item:mekanism:elite_universal_cable> : 200,
+    <item:mekanism:hdpe_elytra> : 5800,
+    <item:mekanism:isotopic_centrifuge> : 11900,
+    <item:mekanism:modification_station> : 20350,
+    <item:mekanism:pellet_plutonium> : 8000,
+    <item:mekanism:qio_dashboard> : 31150,
+    <item:mekanism:qio_drive_array> : 51225,
+    <item:mekanism:qio_drive_base> : 13500,
+    <item:mekanism:qio_drive_hyper_dense> : 88300,
+    <item:mekanism:qio_exporter> : 28450,
+    <item:mekanism:qio_importer> : 28400,
+    <item:mekanism:qio_redstone_adapter> : 49320,
+    <item:mekanism:quantum_entangloporter> : 28950,
+    <item:mekanism:reprocessed_fissile_fragment> : 2000,
+    <item:mekanism:robit> : 29000,
+    <item:mekanism:security_desk> : 12525,
+    <item:mekanism:sps_casing> : 40400,
+    <item:mekanism:supercharged_coil> : 61000,
+    <item:mekanism:teleportation_core> : 6800,
+    <item:mekanism:teleporter> : 1825,
+    <item:mekanism:ultimate_bin> : 13350,
+    <item:mekanism:ultimate_chemical_tank> : 12250,
+    <item:mekanism:ultimate_control_circuit> : 5250,
+    <item:mekanism:ultimate_fluid_tank> : 54800,
+    <item:mekanism:ultimate_logistical_transporter> : 425,
+    <item:mekanism:ultimate_mechanical_pipe> : 575,
+    <item:mekanism:ultimate_pressurized_tube> : 325,
+    <item:mekanism:ultimate_thermodynamic_conductor> : 450,
+    <item:mekanism:ultimate_universal_cable> : 425,
+    <item:mekanism:advanced_bin> : 2225,
+    <item:mekanism:advanced_chemical_tank> : 4350,
+    <item:mekanism:advanced_combining_factory> : 11150,
+    <item:mekanism:advanced_compressing_factory> : 10800,
+    <item:mekanism:advanced_control_circuit> : 1100,
+    <item:mekanism:advanced_crushing_factory> : 7500,
+    <item:mekanism:advanced_energy_cube> : 29550,
+    <item:mekanism:advanced_enriching_factory> : 8525,
+    <item:mekanism:advanced_fluid_tank> : 2700,
+    <item:mekanism:advanced_infusing_factory> : 8250,
+    <item:mekanism:advanced_injecting_factory> : 17800,
+    <item:mekanism:advanced_logistical_transporter> : 375,
+    <item:mekanism:advanced_mechanical_pipe> : 325,
+    <item:mekanism:advanced_pressurized_tube> : 75,
+    <item:mekanism:advanced_purifying_factory> : 11825,
+    <item:mekanism:advanced_sawing_factory> : 9300,
+    <item:mekanism:advanced_smelting_factory> : 8100,
+    <item:mekanism:advanced_thermodynamic_conductor> : 175,
+    <item:mekanism:advanced_tier_installer> : 3775,
+    <item:mekanism:advanced_universal_cable> : 150,
+    <item:mekanism:alloy_infused> : 175,
+    <item:mekanism:alloy_reinforced> : 300,
+    <item:mekanism:basic_combining_factory> : 7700,
+    <item:mekanism:basic_compressing_factory> : 7350,
+    <item:mekanism:basic_control_circuit> : 750,
+    <item:mekanism:basic_crushing_factory> : 4025,
+    <item:mekanism:basic_energy_cube> : 26100,
+    <item:mekanism:basic_enriching_factory> : 5050,
+    <item:mekanism:basic_infusing_factory> : 4800,
+    <item:mekanism:basic_injecting_factory> : 14325,
+    <item:mekanism:basic_purifying_factory> : 8400,
+    <item:mekanism:basic_sawing_factory> : 5850,
+    <item:mekanism:basic_smelting_factory> : 4625,
+    <item:mekanism:basic_tier_installer> : 1975,
+    <item:mekanism:basic_universal_cable> : 150,
+    <item:mekanism:block_bronze> : 675,
+    <item:mekanism:block_lead> : 2700,
+    <item:mekanism:block_raw_lead> : 2700,
+    <item:mekanism:block_raw_uranium> : 2700,
+    <item:mekanism:block_refined_glowstone> : 2025,
+    <item:mekanism:block_steel> : 2025,
+    <item:mekanism:block_uranium> : 2700,
+    <item:mekanism:boiler_casing> : 275,
+    <item:mekanism:boiler_valve> : 1100,
+    <item:mekanism:chargepad> : 11450,
+    <item:mekanism:chemical_infuser> : 5325,
+    <item:mekanism:chemical_injection_chamber> : 12700,
+    <item:mekanism:chemical_oxidizer> : 5350,
+    <item:mekanism:clump_gold> : 675,
+    <item:mekanism:clump_lead> : 300,
+    <item:mekanism:clump_uranium> : 300,
+    <item:mekanism:combiner> : 6050,
+    <item:mekanism:configuration_card> : 1125,
+    <item:mekanism:configurator> : 11400,
+    <item:mekanism:crafting_formula> : 450,
+    <item:mekanism:crusher> : 2400,
+    <item:mekanism:crystal_gold> : 675,
+    <item:mekanism:crystal_lead> : 300,
+    <item:mekanism:crystal_uranium> : 300,
+    <item:mekanism:deepslate_lead_ore> : 600,
+    <item:mekanism:deepslate_uranium_ore> : 600,
+    <item:mekanism:dirty_dust_gold> : 675,
+    <item:mekanism:dirty_dust_iron> : 225,
+    <item:mekanism:dirty_dust_lead> : 300,
+    <item:mekanism:dirty_dust_uranium> : 300,
+    <item:mekanism:dirty_netherite_scrap> : 275,
+    <item:mekanism:diversion_transporter> : 275,
+    <item:mekanism:dosimeter> : 600,
+    <item:mekanism:dust_bronze> : 75,
+    <item:mekanism:dust_diamond> : 1800,
+    <item:mekanism:dust_emerald> : 950,
+    <item:mekanism:dust_gold> : 675,
+    <item:mekanism:dust_lead> : 300,
+    <item:mekanism:dust_netherite> : 6050,
+    <item:mekanism:dust_quartz> : 125,
+    <item:mekanism:dust_refined_obsidian> : 1825,
+    <item:mekanism:dust_steel> : 225,
+    <item:mekanism:dust_sulfur> : 100,
+    <item:mekanism:dust_uranium> : 300,
+    <item:mekanism:dynamic_valve> : 1150,
+    <item:mekanism:electric_pump> : 3075,
+    <item:mekanism:electrolytic_core> : 2175,
+    <item:mekanism:electrolytic_separator> : 3450,
+    <item:mekanism:elite_bin> : 4525,
+    <item:mekanism:elite_chemical_tank> : 4350,
+    <item:mekanism:elite_control_circuit> : 1700,
+    <item:mekanism:elite_logistical_transporter> : 200,
+    <item:mekanism:elite_mechanical_pipe> : 375,
+    <item:mekanism:elite_pressurized_tube> : 100,
+    <item:mekanism:elite_thermodynamic_conductor> : 225,
+    <item:mekanism:energized_smelter> : 3000,
+    <item:mekanism:energy_tablet> : 11025,
+    <item:mekanism:enriched_diamond> : 1800,
+    <item:mekanism:enriched_gold> : 675,
+    <item:mekanism:enriched_redstone> : 10,
+    <item:mekanism:enriched_refined_obsidian> : 1825,
+    <item:mekanism:enrichment_chamber> : 3425,
+    <item:mekanism:fluidic_plenisher> : 5125,
+    <item:mekanism:formulaic_assemblicator> : 3825,
+    <item:mekanism:free_runners_armored> : 5000,
+    <item:mekanism:fuelwood_heater> : 3275,
+    <item:mekanism:geiger_counter> : 1000,
+    <item:mekanism:hazmat_boots> : 575,
+    <item:mekanism:hazmat_gown> : 1150,
+    <item:mekanism:hazmat_mask> : 725,
+    <item:mekanism:hazmat_pants> : 1025,
+    <item:mekanism:hdpe_pellet> : 10,
+    <item:mekanism:hdpe_rod> : 50,
+    <item:mekanism:hdpe_sheet> : 100,
+    <item:mekanism:hdpe_stick> : 75,
+    <item:mekanism:induction_casing> : 2975,
+    <item:mekanism:induction_port> : 6800,
+    <item:mekanism:industrial_alarm> : 2150,
+    <item:mekanism:ingot_bronze> : 75,
+    <item:mekanism:ingot_lead> : 300,
+    <item:mekanism:ingot_refined_glowstone> : 225,
+    <item:mekanism:ingot_refined_obsidian> : 2025,
+    <item:mekanism:ingot_steel> : 225,
+    <item:mekanism:ingot_uranium> : 300,
+    <item:mekanism:laser> : 26200,
+    <item:mekanism:laser_amplifier> : 29400,
+    <item:mekanism:laser_tractor_beam> : 31325,
+    <item:mekanism:lead_ore> : 600,
+    <item:mekanism:logistical_sorter> : 2550,
+    <item:mekanism:metallurgic_infuser> : 3150,
+    <item:mekanism:network_reader> : 11600,
+    <item:mekanism:nugget_lead> : 10,
+    <item:mekanism:nugget_osmium> : 25,
+    <item:mekanism:nugget_refined_glowstone> : 25,
+    <item:mekanism:nugget_refined_obsidian> : 225,
+    <item:mekanism:nugget_steel> : 25,
+    <item:mekanism:nugget_uranium> : 25,
+    <item:mekanism:nutritional_liquifier> : 3000,
+    <item:mekanism:osmium_compressor> : 5700,
+    <item:mekanism:osmium_ore> : 400,
+    <item:mekanism:painting_machine> : 4350,
+    <item:mekanism:personal_barrel> : 1925,
+    <item:mekanism:personal_chest> : 1925,
+    <item:mekanism:pigment_extractor> : 3000,
+    <item:mekanism:pigment_mixer> : 6150,
+    <item:mekanism:precision_sawmill> : 4200,
+    <item:mekanism:pressure_disperser> : 1350,
+    <item:mekanism:pressurized_reaction_chamber> : 7600,
+    <item:mekanism:purification_chamber> : 6750,
+    <item:mekanism:radioactive_waste_barrel> : 2300,
+    <item:mekanism:raw_lead> : 300,
+    <item:mekanism:raw_uranium> : 300,
+    <item:mekanism:resistive_heater> : 12875,
+    <item:mekanism:restrictive_transporter> : 250,
+    <item:mekanism:rotary_condensentrator> : 14275,
+    <item:mekanism:scuba_mask> : 1400,
+    <item:mekanism:scuba_tank> : 21600,
+    <item:mekanism:seismic_reader> : 12500,
+    <item:mekanism:seismic_vibrator> : 3425,
+    <item:mekanism:shard_lead> : 300,
+    <item:mekanism:shard_uranium> : 300,
+    <item:mekanism:solar_neutron_activator> : 5675,
+    <item:mekanism:steel_casing> : 1450,
+    <item:mekanism:substrate> : 1,
+    <item:mekanism:superheating_element> : 1900,
+    <item:mekanism:teleporter_frame> : 1825,
+    <item:mekanism:thermal_evaporation_controller> : 4075,
+    <item:mekanism:thermal_evaporation_valve> : 2050,
+    <item:mekanism:upgrade_energy> : 525,
+    <item:mekanism:upgrade_filter> : 450,
+    <item:mekanism:upgrade_gas> : 200,
+    <item:mekanism:upgrade_muffling> : 575,
+    <item:mekanism:upgrade_speed> : 200,
+    <item:mekanism:upgrade_stone_generator> : 400,
+    <item:mekanism:uranium_ore> : 600,
+    <item:mekanism:yellow_cake_uranium> : 100,
+    <item:mekanism:basic_bin> : 775,
+    <item:mekanism:basic_chemical_tank> : 850,
+    <item:mekanism:basic_fluid_tank> : 900,
+    <item:mekanism:basic_logistical_transporter> : 150,
+    <item:mekanism:basic_mechanical_pipe> : 300,
+    <item:mekanism:basic_pressurized_tube> : 50,
+    <item:mekanism:basic_thermodynamic_conductor> : 150,
+    <item:mekanism:bio_fuel> : 1,
+    <item:mekanism:block_charcoal> : 25,
+    <item:mekanism:block_fluorite> : 450,
+    <item:mekanism:block_osmium> : 1800,
+    <item:mekanism:block_raw_osmium> : 1800,
+    <item:mekanism:block_raw_tin> : 900,
+    <item:mekanism:block_salt> : 50,
+    <item:mekanism:block_tin> : 900,
+    <item:mekanism:canteen> : 225,
+    <item:mekanism:clump_copper> : 100,
+    <item:mekanism:clump_iron> : 225,
+    <item:mekanism:clump_osmium> : 200,
+    <item:mekanism:clump_tin> : 100,
+    <item:mekanism:crystal_copper> : 100,
+    <item:mekanism:crystal_iron> : 225,
+    <item:mekanism:crystal_osmium> : 200,
+    <item:mekanism:crystal_tin> : 100,
+    <item:mekanism:deepslate_fluorite_ore> : 200,
+    <item:mekanism:deepslate_osmium_ore> : 400,
+    <item:mekanism:deepslate_tin_ore> : 200,
+    <item:mekanism:dictionary> : 450,
+    <item:mekanism:dirty_dust_copper> : 100,
+    <item:mekanism:dirty_dust_osmium> : 200,
+    <item:mekanism:dirty_dust_tin> : 100,
+    <item:mekanism:dust_charcoal> : 2,
+    <item:mekanism:dust_coal> : 2,
+    <item:mekanism:dust_copper> : 100,
+    <item:mekanism:dust_fluorite> : 50,
+    <item:mekanism:dust_iron> : 225,
+    <item:mekanism:dust_lapis_lazuli> : 25,
+    <item:mekanism:dust_lithium> : 10,
+    <item:mekanism:dust_obsidian> : 5,
+    <item:mekanism:dust_osmium> : 200,
+    <item:mekanism:dust_tin> : 100,
+    <item:mekanism:dye_base> : 2,
+    <item:mekanism:dynamic_tank> : 375,
+    <item:mekanism:enriched_carbon> : 2,
+    <item:mekanism:enriched_iron> : 225,
+    <item:mekanism:enriched_tin> : 100,
+    <item:mekanism:fluorite_gem> : 50,
+    <item:mekanism:fluorite_ore> : 200,
+    <item:mekanism:gauge_dropper> : 200,
+    <item:mekanism:ingot_osmium> : 200,
+    <item:mekanism:ingot_tin> : 100,
+    <item:mekanism:nugget_bronze> : 5,
+    <item:mekanism:nugget_tin> : 10,
+    <item:mekanism:oredictionificator> : 2800,
+    <item:mekanism:raw_osmium> : 200,
+    <item:mekanism:raw_tin> : 100,
+    <item:mekanism:salt> : 10,
+    <item:mekanism:sawdust> : 1,
+    <item:mekanism:shard_copper> : 100,
+    <item:mekanism:shard_gold> : 325,
+    <item:mekanism:shard_iron> : 225,
+    <item:mekanism:shard_osmium> : 200,
+    <item:mekanism:shard_tin> : 100,
+    <item:mekanism:structural_glass> : 225,
+    <item:mekanism:thermal_evaporation_block> : 250,
+    <item:mekanism:tin_ore> : 200
+};
+
+// For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
+for item, value in priceTable {
+    if (release_mode == true){
+        if (value < 26 ) {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        } else {
+            CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+            <tag:items:projectextended:blacklist_condenser>.add(item);
+            <tag:items:projectextended:blacklist_learning>.add(item);
+        }
+        if (value > 999 && value < 10001) {
+            <tag:items:tfb2:fop_miniscule>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Miniscule");
+            });
+        }
+        if (value > 10000 && value < 25001) {
+            <tag:items:tfb2:fop_small>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Small");
+            });
+        }
+        if (value > 25000 && value < 75001) {
+            <tag:items:tfb2:fop_medium>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Medium");
+            });
+        }
+        if (value > 75000) {
+            <tag:items:tfb2:fop_large>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Large");
+            });
+        }
+    } else {
+        CustomEMC.setEMCValue(NSSResolver.fromItem(item), value);
+        <tag:items:projectextended:blacklist_condenser>.add(item);
+        <tag:items:projectextended:blacklist_learning>.add(item);
+    }
+        if (value > 10000 && value < 25001) {
+            <tag:items:tfb2:fop_small>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Small");
+            });
+        }
+        if (value > 25000 && value < 75001) {
+            <tag:items:tfb2:fop_medium>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Medium");
+            });
+        }
+        if (value > 75000) {
+            <tag:items:tfb2:fop_large>.add(item);
+            item.modifyTooltip((stack, tooltip, flag) => {
+                tooltip.insert(2, "FOP Digitization Value: Large");
+            });
+        }
+}
