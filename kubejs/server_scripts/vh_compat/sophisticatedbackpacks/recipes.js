@@ -1,3 +1,4 @@
+/*
 let removedOutputsBBB = [
     'sophisticatedbackpacks:crafting_upgrade',
     'sophisticatedbackpacks:compacting_upgrade',
@@ -272,3 +273,4 @@ onEvent("recipes", event => {
     }).id('sophisticatedbackpacks:advanced_void_upgrade_alt')
 
 })
+*/

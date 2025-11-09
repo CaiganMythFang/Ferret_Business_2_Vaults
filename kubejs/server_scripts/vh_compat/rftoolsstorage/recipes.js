@@ -1,3 +1,4 @@
+/*
 let removedOutputsRFS = [
     'rftoolsstorage:modular_storage',
     'rftoolsstorage:storage_module0',
@@ -406,3 +407,4 @@ onEvent("recipes", event => {
 
 
 })
+*/

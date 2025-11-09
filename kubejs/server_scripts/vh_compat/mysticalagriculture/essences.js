@@ -228,16 +228,6 @@ onEvent("recipes", event => {
         E: 'mysticalagriculture:silver_essence'
     }).id('mysticalagriculture:essence/common/silver_ingot')
 
-
-    event.shaped(Item.of('refinedstorage:quartz_enriched_iron', 6),
-        [
-            'EEE',
-            'E E',
-            'EEE'
-        ], {
-        E: 'mysticalagriculture:quartz_enriched_iron_essence'
-    }).id('mysticalagriculture:essence/common/quartz_enriched_iron_ingot')
-
     event.shaped(Item.of('thermal:lumium_ingot', 4),
         [
             'EEE',
@@ -281,5 +271,14 @@ onEvent("recipes", event => {
         ], {
         E: 'mysticalagriculture:aluminum_essence'
     }).id('mysticalagriculture:essence/common/aluminum_ingot')
+
+    event.shaped(Item.of('immersiveengineering:ingot_aluminum', 6),
+        [
+            'E E',
+            'E E',
+            'EEE'
+        ], {
+        E: 'mysticalagriculture:aluminum_essence'
+    }).id('mysticalagriculture:essence/common/aluminum_ingot2')
 
 })

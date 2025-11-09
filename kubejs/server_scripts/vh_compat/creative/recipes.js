@@ -95,71 +95,6 @@ onEvent("recipes", event => {
         X: 'thermal:signalum_ingot'
     })
 
-    event.shaped(Item.of('refinedstorage:creative_controller'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'refinedstorage:controller',
-        B: 'the_vault:wold_star',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'refinedstorage:silicon'
-    })
-
-    event.shaped(Item.of('refinedstorage:creative_wireless_grid'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'refinedstorage:wireless_grid',
-        B: 'the_vault:vault_essence_2',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'the_vault:wold_star_chunk'
-    })
-
-    event.shaped(Item.of('refinedstorageaddons:creative_wireless_crafting_grid'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'refinedstorageaddons:wireless_crafting_grid',
-        B: 'the_vault:vault_essence_2',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'the_vault:wold_star_chunk'
-    })
-
-    event.shaped(Item.of('refinedstorage:creative_wireless_fluid_grid'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'refinedstorage:wireless_fluid_grid',
-        B: 'the_vault:vault_essence_2',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'the_vault:wold_star_chunk'
-    })
-
-    event.shaped(Item.of('refinedstorage:creative_wireless_crafting_monitor'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'refinedstorage:wireless_crafting_monitor',
-        B: 'the_vault:vault_essence_2',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'the_vault:wold_star_chunk'
-    })
-
     event.shaped(Item.of('rftoolsutility:creative_screen'),
         [
             'XVX',
@@ -223,32 +158,6 @@ onEvent("recipes", event => {
         E: 'the_vault:echo_pog',
         V: 'the_vault:vault_diamond_block_1',
         X: 'the_vault:infinite_water_bucket'
-    })
-
-    event.shaped(Item.of('refinedstorage:creative_storage_disk'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'extrastorage:disk_16384k',
-        B: 'the_vault:wold_star',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'extrastorage:neural_processor'
-    })
-
-    event.shaped(Item.of('refinedstorage:creative_fluid_storage_disk'),
-        [
-            'XVX',
-            'ECE',
-            'XBX'
-        ], {
-        C: 'extrastorage:disk_1048576k_fluid',
-        B: 'the_vault:wold_star',
-        E: 'the_vault:echo_pog',
-        V: 'the_vault:vault_diamond_block_1',
-        X: 'extrastorage:neural_processor'
     })
 
     event.custom({

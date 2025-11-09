@@ -2,21 +2,21 @@ let removedOutputsME = [
     'create_mechanical_extruder:mechanical_extruder'
 ];
 onEvent("recipes", event => {
-    removedOutputsME.forEach(id => {
-        event.remove({ 'output': `${id}` })
-    })
-
-    event.shaped(Item.of('create_mechanical_extruder:mechanical_extruder'),
-        [
-            ' P ',
-            'GEG',
-            ' X '
-        ], {
-        P: 'create:shaft',
-        G: '#forge:glass',
-        X: 'the_vault:pog_prism',
-        E: 'create:andesite_casing'
-    })
+    // removedOutputsME.forEach(id => {
+    //     event.remove({ 'output': `${id}` })
+    // })
+    // 
+    // event.shaped(Item.of('create_mechanical_extruder:mechanical_extruder'),
+    //     [
+    //         ' P ',
+    //         'GEG',
+    //         ' X '
+    //     ], {
+    //     P: 'create:shaft',
+    //     G: '#forge:glass',
+    //     X: 'the_vault:pog_prism',
+    //     E: 'create:andesite_casing'
+    // })
     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:obsidian'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('quark:blaze_lantern')
     event.recipes.createMechanicalExtruderExtruding(Item.of('the_vault:vault_stone'), [Fluid.of('the_vault:void_liquid'), Fluid.of('minecraft:lava')])
     event.recipes.createMechanicalExtruderExtruding(Item.of('minecraft:deepslate'), [Fluid.of('minecraft:lava'), Item.of('minecraft:packed_ice')]).withCatalyst('minecraft:magma_block')
@@ -39,7 +39,7 @@ onEvent("recipes", event => {
     
     event.recipes.createMechanicalExtruderExtruding(Item.of('quark:limestone'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:calcite')
     event.recipes.createMechanicalExtruderExtruding(Item.of('quark:jasper'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:quartz_block')
-    event.recipes.createMechanicalExtruderExtruding(Item.of('quark:shale'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:clay_block')
+    event.recipes.createMechanicalExtruderExtruding(Item.of('quark:shale'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:clay')
     event.recipes.createMechanicalExtruderExtruding(Item.of('quark:permafrost'), [Fluid.of('minecraft:lava'), Fluid.of('minecraft:water')]).withCatalyst('minecraft:blue_ice')
     event.recipes.createMechanicalExtruderExtruding(Item.of('quark:myalite'), [Fluid.of('the_vault:void_liquid'), Fluid.of('auxiliaryblocks:purple_water')]).withCatalyst('the_vault:chromatic_gold_block')
     event.recipes.createMechanicalExtruderExtruding(Item.of('quark:dusky_myalite'), [Fluid.of('the_vault:void_liquid'), Fluid.of('auxiliaryblocks:gray_water')]).withCatalyst('the_vault:chromatic_gold_block')

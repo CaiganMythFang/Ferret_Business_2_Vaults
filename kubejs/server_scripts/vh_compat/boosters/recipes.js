@@ -1,8 +1,6 @@
 let removedOutputsWB = [
     'aeinfinitybooster:infinity_card',
-    'rsinfinitybooster:infinity_card',
-    'aeinfinitybooster:dimension_card',
-    'rsinfinitybooster:dimension_card'
+    'aeinfinitybooster:dimension_card'
 ];
 onEvent("recipes", event => {
     removedOutputsWB.forEach(id => {
@@ -17,33 +15,9 @@ onEvent("recipes", event => {
         ], {
         P: 'the_vault:echo_pog',
         B: 'ae2:wireless_booster',
-        S: 'the_vault:wold_star_chunk',
+        S: 'woldsvaults:pogominium_ingot',
         L: 'the_vault:cluster_netherite'
 
-    })
-
-    event.shaped(Item.of('rsinfinitybooster:infinity_card'),
-        [
-            'PBP',
-            'BSB',
-            'LLL'
-        ], {
-        P: 'the_vault:echo_pog',
-        B: 'refinedstorage:range_upgrade',
-        S: 'the_vault:wold_star_chunk',
-        L: 'the_vault:cluster_netherite'
-
-    })
-
-    event.shaped(Item.of('rsinfinitybooster:dimension_card'),
-        [
-            'PSP',
-            'SXS',
-            'PSP'
-        ], {
-        S: 'the_vault:wold_star',
-        P: 'rsinfinitybooster:infinity_card',
-        X: 'the_vault:echo_pog'
     })
 
     event.shaped(Item.of('aeinfinitybooster:dimension_card'),

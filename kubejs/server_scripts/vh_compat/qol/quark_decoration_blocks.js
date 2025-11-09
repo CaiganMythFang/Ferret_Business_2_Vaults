@@ -1,3 +1,4 @@
+/*
 onEvent("recipes", event => {
     event.shapeless('3x quark:limestone', ['minecraft:stone', 'minecraft:andesite', 'minecraft:diorite'])
     event.shapeless('3x quark:jasper', ['minecraft:granite', 'minecraft:stone', 'minecraft:diorite'])
@@ -19,3 +20,4 @@ onEvent("recipes", event => {
 
     event.smelting('quark:myalite_crystal', 'quark:myalite')
 })
+*/

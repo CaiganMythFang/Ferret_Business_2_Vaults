@@ -1,8 +1,29 @@
+/*
 onEvent("recipes", event => {
     let corals = ['tube', 'brain', 'bubble', 'fire', 'horn']
 
-    event.recipes.thermal.press('the_vault:bitter_lemon', ['16x the_vault:sweet_kiwi', 'thermal:press_packing_3x3_die'])
-    event.recipes.thermal.press('the_vault:sour_orange', ['9x the_vault:bitter_lemon', 'thermal:press_packing_3x3_die'])
+    event.custom({
+        "type": "thermal:insolator",
+        "ingredient": {
+          "item": "integrateddynamics:menril_sapling"
+        },
+        "result": [
+          {
+            "item": "integrateddynamics:menril_log",
+            "chance": 6.0
+          },
+          {
+            "item": "integrateddynamics:menril_sapling",
+            "chance": 1.1
+          },
+          {
+            "item": "integrateddynamics:crystalized_menril_chunk",
+            "chance": 0.2
+          }
+        ],
+        "energy_mod": 3.0,
+        "water_mod": 3.0
+      })
 
     corals.forEach(coral => {
         event.custom({
@@ -128,3 +149,4 @@ onEvent("recipes", event => {
     })
 })
 
+*/

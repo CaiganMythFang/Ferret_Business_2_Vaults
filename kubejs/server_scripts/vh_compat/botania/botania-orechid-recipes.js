@@ -3,24 +3,24 @@ onEvent('recipes', event => {
 	// Removing current orechid recipes for minecraft:stone because Vazkii is insane.
 	event.remove({type: "botania:orechid",input: "minecraft:stone"});
 	event.remove({type: "botania:orechid",input: "minecraft:deepslate"});
-	event.remove({output: 'botania:orechid' });
+	// event.remove({output: 'botania:orechid' });
 	
 	// New Orechid recipe:
-	event.recipes.botania.petal_apothecary({
-		"type": "botania:petal_apothecary",
-		"output": {"item": "botania:orechid"},
-		"ingredients": [
-			{"tag": "botania:petals/gray"},
-			{"tag": "botania:petals/yellow"},
-			{"tag": "botania:petals/green"},
-			{"tag": "botania:petals/red"},
-			{"item": "the_vault:echo_pog"},
-			{"item": "botania:rune_pride"},
-			{"item": "botania:rune_greed"},
-			{"item": "botania:redstone_root"},
-			{"item": "botania:pixie_dust"}
-		]
-	})	
+	// event.recipes.botania.petal_apothecary({
+	// 	"type": "botania:petal_apothecary",
+	// 	"output": {"item": "botania:orechid"},
+	// 	"ingredients": [
+	// 		{"tag": "botania:petals/gray"},
+	// 		{"tag": "botania:petals/yellow"},
+	// 		{"tag": "botania:petals/green"},
+	// 		{"tag": "botania:petals/red"},
+	// 		{"item": "the_vault:echo_pog"},
+	// 		{"item": "botania:rune_pride"},
+	// 		{"item": "botania:rune_greed"},
+	// 		{"item": "botania:redstone_root"},
+	// 		{"item": "botania:pixie_dust"}
+	// 	]
+	// })	
 
 	// Redoing all the recipes. Yeah I know chromatic iron doesn't have a stone texture, we will persist however.
 	event.recipes.botania.orechid({"type": "botania:orechid","input": "minecraft:stone","output": {"type": "block","block": "minecraft:coal_ore"},"weight": 300});

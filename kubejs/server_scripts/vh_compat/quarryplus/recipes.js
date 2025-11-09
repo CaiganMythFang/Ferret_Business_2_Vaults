@@ -1,7 +1,7 @@
 let removedOutputsQP = [
     'quarryplus:quarry',
-    'quarryplus:solid_fuel_quarry',
-    'quarryplus:workbench',
+    // 'quarryplus:solid_fuel_quarry',
+    // 'quarryplus:workbench',
     'quarryplus:mover',
     'quarryplus_mining_well',
     'quarryplus:pump_plus',
@@ -60,31 +60,31 @@ onEvent("recipes", event => {
         ]
     })
 
-    event.shaped(Item.of('quarryplus:solid_fuel_quarry'),
-        [
-            'GGG',
-            'DCD',
-            'LLL'
-        ], {
-        G: 'ironfurnaces:netherite_furnace',
-        D: 'the_vault:vault_diamond_block',
-        C: 'the_vault:vault_essence_2',
-        L: 'the_vault:chromatic_steel_block'
+    // event.shaped(Item.of('quarryplus:solid_fuel_quarry'),
+    //     [
+    //         'GGG',
+    //         'DCD',
+    //         'LLL'
+    //     ], {
+    //     G: 'ironfurnaces:netherite_furnace',
+    //     D: 'the_vault:vault_diamond_block',
+    //     C: 'the_vault:vault_essence_2',
+    //     L: 'the_vault:chromatic_steel_block'
+    // 
+    // })
 
-    })
-
-    event.shaped(Item.of('quarryplus:workbench'),
-        [
-            'GGG',
-            'DCD',
-            'LLL'
-        ], {
-        G: 'the_vault:chromatic_iron_block',
-        D: 'the_vault:vault_diamond_block',
-        C: 'minecraft:diamond_block',
-        L: 'the_vault:extraordinary_larimar'
-
-    })
+    // event.shaped(Item.of('quarryplus:workbench'),
+    //     [
+    //         'GGG',
+    //         'DCD',
+    //         'LLL'
+    //     ], {
+    //     G: 'the_vault:chromatic_iron_block',
+    //     D: 'the_vault:vault_diamond_block',
+    //     C: 'minecraft:diamond_block',
+    //     L: 'the_vault:extraordinary_larimar'
+    // 
+    // })
 
     event.custom({
         "type": "quarryplus:workbench_recipe",
