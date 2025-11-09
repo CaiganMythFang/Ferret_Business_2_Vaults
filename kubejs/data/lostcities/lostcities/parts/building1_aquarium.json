@@ -1,0 +1,211 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "palette": {
+    "palette": [
+      {
+          "char": "2",
+          "block": "auxiliaryblocks:concrete"
+      },
+      {
+          "char": "3",
+          "block": "chipped:blue_concrete_5"
+      },
+      {
+          "char": "4",
+          "block": "chipped:blue_concrete_14"
+      },
+      {
+          "char": "5",
+          "block": "chipped:blue_concrete_11"
+      },
+      {
+          "char": "6",
+          "block": "chipped:blue_concrete_13"
+      },
+      {
+          "char": "7",
+          "block": "chipped:blue_concrete_16"
+      },
+      {
+          "char": "8",
+          "block": "auxiliaryblocks:light_blue_frameless_glass"
+      },
+      {
+          "char": "9",
+          "block": "simplylight:wall_lamp[facing=down,waterlogged=true]"
+      },
+      {
+          "char": "E",
+          "block": "chipped:blue_concrete_15"
+      },
+      {
+          "char": "H",
+          "block": "everycomp:cfm/ecologics/walnut_crate"
+      },
+      {
+          "char": "I",
+          "block": "mcwdoors:metal_windowed_door[facing=south,half=lower]"
+      },
+      {
+          "char": "J",
+          "block": "mcwdoors:metal_windowed_door[facing=south,half=upper]"
+      },
+      {
+          "char": "M",
+          "blocks": [
+          {
+            "random": 150,
+            "block": "decocraft:barrel"
+          },
+          {
+            "random": 20,
+            "block": "decocraft:barrel_green_apple"
+          },
+          {
+            "random": 20,
+            "block": "decocraft:barrel_golden_apple"
+          },
+          {
+            "random": 20,
+            "block": "decocraft:barrel_carrots"
+          },
+          {
+            "random": 20,
+            "block": "decocraft:barrel_red_apple"
+          },
+          {
+            "random": 20,
+            "block": "decocraft:barrel_potatoes"
+          }
+        ]
+      },
+      {
+          "char": "N",
+          "block": "mcwdoors:metal_windowed_door[facing=east,half=lower]"
+      },
+      {
+          "char": "O",
+          "block": "mcwdoors:metal_windowed_door[facing=east,half=upper]"
+      },
+      {
+          "char": "P",
+          "block": "mcwdoors:metal_windowed_door[facing=west,half=lower]"
+      },
+      {
+          "char": "Q",
+          "block": "mcwdoors:metal_windowed_door[facing=west,half=upper]"
+      }
+    ]
+  },
+  "slices": [
+    [
+      "################",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222222222#",
+      "#22222222l22222#",
+      "################"
+    ],
+    [
+      "################",
+      "#33333333333333#",
+      "#33333333333333#",
+      "#33333333333333#",
+      "#34543454345433#",
+      "#7           77#",
+      "#3           33#",
+      "#P           N #",
+      "#3          M33#",
+      "#7          H77#",
+      "#345543 3455433#",
+      "#333333 3333333#",
+      "#333333 3333333#",
+      "#333333I3333333#",
+      "#333333  l33333#",
+      "################"
+    ],
+    [
+      "################",
+      "#3WWWWWWWWWWW33#",
+      "#3WWWWWWWWWWW33#",
+      "#3WWWWWWWWWWW33#",
+      "#38888888888833#",
+      "#7           77#",
+      "#3           33#",
+      "#Q           O #",
+      "#3           33#",
+      "#7           77#",
+      "#388883 3888833#",
+      "#3WWWW8 8WWWWW3#",
+      "#3WWWW8 8WWWWW3#",
+      "#333333J3333333#",
+      "#333333  l33333#",
+      "################"
+    ],
+    [
+      "################",
+      "#3WWWWWWWWWWW33#",
+      "#3WWWWWWWWWWW33#",
+      "#3WWWWWWWWWWW33#",
+      "#38888888888833#",
+      "#7           77#",
+      "#3           33#",
+      "#E           EE#",
+      "#3           33#",
+      "#7           77#",
+      "#388883 3888833#",
+      "#3WWWW8 8WWWWW3#",
+      "#3WWWW8 8WWWWW3#",
+      "#333333 3333333#",
+      "#333333E3l33333#",
+      "################"
+    ],
+    [
+      "################",
+      "#3WWWWWWWWWWW33#",
+      "#3W9WWW9WWW9W33#",
+      "#3WWWWWWWWWWW33#",
+      "#38888888888833#",
+      "#7           77#",
+      "#3           33#",
+      "#E           EE#",
+      "#3           33#",
+      "#7           77#",
+      "#388883E3888833#",
+      "#3W99W8 8W99W33#",
+      "#3WWWW8 8WWWW33#",
+      "#333333 3333333#",
+      "#333333E3l33333#",
+      "################"
+    ],
+    [
+      "################",
+      "#33333333333333#",
+      "#33333333333333#",
+      "#33333333333333#",
+      "#34643464346433#",
+      "#3           33#",
+      "#3           33#",
+      "#3           33#",
+      "#3           33#",
+      "#3           33#",
+      "#34664333466433#",
+      "#33333333333333#",
+      "#33333333333333#",
+      "#33333333333333#",
+      "#33333333l33333#",
+      "################"
+    ]
+  ]
+}
