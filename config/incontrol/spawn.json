@@ -3,11 +3,16 @@
         "dimension": "mining_dimension:mining",
         "result": "deny"
     },
+     {
+        "mod": "enchantwithmob",
+        "result": "deny"
+    },
     {
-        "mob": "quark:frog",
-        "mincount": {
-            "amount": 15
-        },
+        "mod": "dungeons_mobs",
+        "result": "deny"
+    },
+    {
+        "mod": "ars_nouveau",
         "result": "deny"
     },
     {
@@ -18,9 +23,11 @@
         "mod": "naturalist",
         "result": "deny"
     },
-    {
-        "mob": "wildbackport:frog",
-        "dimension": "minecraft:overworld",
+        {
+        "mob": "quark:frog",
+        "mincount": {
+            "amount": 15
+        },
         "result": "deny"
     },
     {
