@@ -265,7 +265,7 @@
 		}
 		{
 			title: "Recycling and Reusing"
-			x: -6.25d
+			x: -6.75d
 			y: -3.5d
 			shape: "rsquare"
 			subtitle: "Repurposed"
@@ -773,7 +773,7 @@
 		{
 			title: "Becoming an Expert"
 			icon: "woldsvaults:expertise_orb"
-			x: 4.25d
+			x: 4.75d
 			y: 1.0d
 			shape: "rsquare"
 			subtitle: "Smart Strength"
@@ -980,41 +980,6 @@
 			}]
 			rewards: [{
 				id: "419563E1A0D7FAF4"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "A Little Regretful"
-			icon: "the_vault:regret_orb"
-			x: 2.25d
-			y: -3.5d
-			shape: "rsquare"
-			subtitle: "Forget What You Knew"
-			description: [
-				"&dYou've probably already come across these little red nuggets in Living Chests. A bunch of these can be combined together into an Orb of Regret."
-				""
-				"&5The Skill system in Vault Hunters has a lot of options, and since you get a Skill Point every level, you'll eventually select a skill you don't like anymore."
-				""
-				"&dFor this, you can use Orbs of Regret to unlearn one level's worth of a skill."
-			]
-			hide_dependency_lines: true
-			dependencies: ["76B7D44E338DC9B7"]
-			id: "0F213FAC45AAB2D3"
-			tasks: [
-				{
-					id: "3F08C71BC44C99AC"
-					type: "item"
-					item: "the_vault:regret_nugget"
-				}
-				{
-					id: "7760AC2177521534"
-					type: "item"
-					item: "the_vault:regret_orb"
-				}
-			]
-			rewards: [{
-				id: "281A6CBFDB2288AC"
 				type: "choice"
 				table_id: 2640422954496342337L
 			}]
@@ -1267,7 +1232,7 @@
 		{
 			title: "Box of Mystery"
 			x: -2.0d
-			y: 0.0d
+			y: 1.0d
 			shape: "rsquare"
 			subtitle: "What Do You Hold?"
 			description: [
@@ -1293,7 +1258,7 @@
 		{
 			title: "Eggy Surprise"
 			x: -2.0d
-			y: 1.0d
+			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Is it a Kinder Creature?"
 			description: [
@@ -2718,6 +2683,188 @@
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Adapt Or Perish"
+			x: -5.75d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "A Worthy Sacrifice"
+			description: [
+				"&5The Adaptive Focus is a rare Focus you can only obtain by recycling Omega rarity gear. There's a 1 in 4 chance of getting an Adaptive Focus when you scrap one, but can be very powerful."
+				""
+				"&5When you apply an Adaptive Focus to a piece of gear in the Artisan Station, it will upgrade the tier of EVERY modifier on it."
+				""
+				"&5The downside is twofold, though : It is very expensive to apply, and it will consume a Repair Slot on the piece of gear."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"29198B5EA727A867"
+				"6473A9F33F692821"
+			]
+			id: "66FBB145605DD232"
+			tasks: [{
+				id: "155AF24522E6CF48"
+				type: "item"
+				item: "the_vault:adaptive_focus"
+			}]
+		}
+		{
+			title: "To Be Alike"
+			x: 3.75d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "You Equals Me"
+			description: [
+				"&5If you are playing on a server and have a friend joining your game late, you can use the Mentor's Brew to bring them up to your level."
+				""
+				"&5When you craft the Mentor's Brew, it will be set to the level you are at the time. When someone else drinks it, their level will raise up to match yours."
+				""
+				"&5Note this will ONLY work if the player drinking the Mentor's Brew is lower level than the Brew is set to!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69C663CDD23190A9"]
+			id: "2EB82342DD80197E"
+			tasks: [{
+				id: "7FB953ABB761A9DB"
+				type: "item"
+				item: {
+					id: "the_vault:mentors_brew"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Sharing Knowledge"
+			x: 2.25d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "Can I Make It? Not Yet..."
+			description: [
+				"&5If you are playing on a server and are grouping up with friends, you can use the Knowledge Brew to share what Research you have unlocked."
+				""
+				"&5When you craft the Brew, it will copy all Researches you have."
+				""
+				"&5When someone else drinks the Knowledge Brew, they will gain any Research from it they didn't have yet."
+			]
+			hide_dependency_lines: true
+			dependencies: ["50203F008ADF0804"]
+			id: "74637538A0EBEA2E"
+			tasks: [{
+				id: "46C5A1FB03E02BB0"
+				type: "item"
+				item: {
+					id: "the_vault:knowledge_brew"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Additional Pylons"
+			icon: "the_vault:pylon"
+			x: -2.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Construct? No, Break Them!"
+			description: [
+				"&5Dotted around the Vaults you can occasionally find these large floating crystals called Pylons."
+				""
+				"&5Each Pylon will give you a specific buff for a short amount of time, which will be listed above the Pylon if you are close enough."
+				""
+				"&5You can Right Click the Pylon to activate it.."
+				""
+				"&5...Or you can break the Pylon!"
+				""
+				"&5Breaking it gives you a small chance at obtaining a Temporal Shard. These roll like other Vault Gear, and can have a powerful ability."
+				""
+				"&5The Temporal Shard is consumed when used, but you can hold and save Shards between Vaults."
+			]
+			hide_dependency_lines: true
+			dependencies: ["69C663CDD23190A9"]
+			id: "3F5860F8A067ED38"
+			tasks: [{
+				id: "074E58FA044A2409"
+				type: "item"
+				item: {
+					id: "the_vault:temporal_shard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6BA46AB82BB8383D"
+				type: "item"
+				item: {
+					id: "the_vault:temporal_shard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Steep Infusion"
+			x: -6.25d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Let's Give It Power"
+			description: [
+				"&5Early on, recipes for both Vault Hunters items and Researched items will use basic Vault ingredients. Magic Silk, Vault Diamonds, etc."
+				""
+				"&5But soon you'll be needing more complex ingredients. Enter the Chromatic Iron Vault Infuser. With this, you can infuse various Vault ingredients together into more powerful resources."
+				""
+				"&5Recipes have a base ingredient in the left slot, and in the middle slot is the ingredient you infuse into it. The bar below this shows how many you need if you hover over it. "
+				""
+				"&5When the Choromatic Iron Vault Infuser becomes too slow, you can upgrade it into a Chromatic Steel Vault Infuser instead."
+			]
+			hide_dependency_lines: true
+			dependencies: ["76B7D44E338DC9B7"]
+			hide: true
+			id: "2A847F412902DA5B"
+			tasks: [{
+				id: "3FDF17BD0A6025A8"
+				type: "item"
+				item: "woldsvaults:chromatic_iron_vault_infuser"
+			}]
+			rewards: [{
+				id: "55FC9E8CAA562232"
+				type: "item"
+				item: "woldsvaults:infused_driftwood"
+				count: 16
+			}]
+		}
+		{
+			title: "An Empty Forge?"
+			icon: "davebuildingmod:alarm_sign"
+			x: -5.625d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Where'd Everything Go? Bingo?"
+			description: [
+				"&5If you've opened the Vault Forge and noticed that there are no items to craft, don't panic!"
+				""
+				"&5This means you are filtering the items shown using JEI Search!"
+				""
+				"&5In the lower right of your screen, when you have your inventory or a machine GUI open, you have a black text bar that is used to search JEI."
+				""
+				"&5If you have text here, it will also filter the items showing in Vault stations like the Forge."
+				""
+				"&5To quickly clear the JEI Search, you can simply Right Click on it."
+				""
+				"&5If you find this function annoying, you can disable it by going into your config files, opening wolds-client.toml, finding : "
+				"syncJEISearchForWorkstations = true"
+				""
+				"&5And change true to false."
+			]
+			dependencies: ["075AD2D046BFE367"]
+			hide: true
+			size: 0.75d
+			id: "5CC8056094D7569C"
+			tasks: [{
+				id: "358CB059DA797C0A"
+				type: "checkmark"
 			}]
 		}
 	]
