@@ -1,0 +1,417 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "Template For Buildnig 1",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "architects_palette:twisted_boards",
+				"Description": "Floor",
+				"Color": "4c4a4fff"
+			},
+			{
+				"char": "3",
+				"block": "architects_palette:twisted_planks",
+				"Description": " Upper Walls + Ceiling",
+				"Color": "3f3d45ff"
+			},
+			{
+				"char": "V",
+				"block": "architects_palette:twisted_board_stairs[facing=north,half=bottom,shape=straight]",
+				"Description": "Stairs",
+				"Color": "504259ff"
+			},
+			{
+				"char": "ƿ",
+				"block": "everycomp:mct/architects_palette/twisted_four_panel_trapdoor[facing=south,half=top]",
+				"Description": "Trapdoor Stairwell Ceiling",
+				"Color": "594864ff"
+			},
+			{
+				"char": "7",
+				"block": "everycomp:q/architects_palette/vertical_twisted_planks",
+				"Description": "Lower Wall",
+				"Color": "534f59ff"
+			},
+			{
+				"char": "Ð",
+				"block": "chipped:light_blue_stained_glass_1",
+				"Description": "Window",
+				"Color": "6990baff"
+			},
+			{
+				"char": "n",
+				"block": "architects_palette:twisted_fence[south=true]",
+				"Description": "Railing - Straights",
+				"Color": "7b728dff"
+			},
+			{
+				"char": "⛞",
+				"block": "architects_palette:twisted_fence[north=true,west=true]",
+				"Description": "Railing : south east corner",
+				"Color": "7b728dff"
+			},
+			{
+				"char": "ǧ",
+				"block": "architects_palette:twisted_fence[east=true,west=true]",
+				"Description": "Railing - South Center",
+				"Color": "7b728dff"
+			},
+			{
+				"char": "⛪",
+				"block": "architects_palette:twisted_fence[east=true,north=true]",
+				"Description": "Railing - South West corner",
+				"Color": "7b728dff"
+			},
+			{
+				"char": "ö",
+				"block": "chipped:barrel_31[facing=west]",
+				"Description": "Large Crates",
+				"Color": "7c6138ff"
+			},
+			{
+				"char": "Ȉ",
+				"block": "tanukidecor:handcart[facing=west,side=left]",
+				"Description": "Handcart - Left Side",
+				"Color": "726a5cff"
+			},
+			{
+				"char": "☹",
+				"block": "tanukidecor:handcart[facing=west,side=right]",
+				"Description": "Handcart - Right Side",
+				"Color": "726a5cff"
+			},
+			{
+				"char": "☼",
+				"block": "architects_palette:twisted_fence",
+				"Description": "Support Beams",
+				"Color": "7e7189ff"
+			},
+			{
+				"char": "⛧",
+				"block": "architects_palette:twisted_fence[east=true,south=true]",
+				"Description": "Support Beam - Fencing Left Side",
+				"Color": "7e7189ff"
+			},
+			{
+				"char": ">",
+				"block": "architects_palette:twisted_fence[north=true,south=true]",
+				"Description": "Fencing Connector - North South",
+				"Color": "7e7189ff"
+			},
+			{
+				"char": "ɹ",
+				"block": "architects_palette:twisted_fence[north=true]",
+				"Description": "Support Beam - Fencing Right Side",
+				"Color": "7e7189ff"
+			},
+			{
+				"char": "☫",
+				"block": "architects_palette:twisted_fence[east=true,west=true]",
+				"Description": "Fencing Cnnector - East West",
+				"Color": "7e7189ff"
+			},
+			{
+				"char": "¹",
+				"block": "luphieclutteredmod:luphie_office_box[facing=south]",
+				"Description": "Small Black Boxes - South Facing",
+				"Color": "131331ff"
+			},
+			{
+				"char": "Ȇ",
+				"block": "luphieclutteredmod:luphie_office_box[facing=west]",
+				"Description": "Small Black Boxes - West Facing",
+				"Color": "131331ff"
+			},
+			{
+				"char": "ʢ",
+				"block": "luphieclutteredmod:luphie_cardboard_box_closed[facing=west]",
+				"Description": "Cardboard box - West Facing",
+				"Color": "ab996eff"
+			},
+			{
+				"char": "⚔",
+				"block": "luphieclutteredmod:luphie_cardboard_box_closed[facing=south]",
+				"Description": "Cardboard Box - South Facing",
+				"Color": "ab996eff"
+			},
+			{
+				"char": "ǚ",
+				"block": "everycomp:mcfur/architects_palette/stripped_twisted_chair[facing=south]",
+				"Description": "Chair - South Facing",
+				"Color": "77717fff"
+			},
+			{
+				"char": "⚗",
+				"block": "everycomp:mcfur/architects_palette/stripped_twisted_chair[facing=west]",
+				"Description": "Chair - West Facing",
+				"Color": "77717fff"
+			},
+			{
+				"char": "☮",
+				"block": "decocraft:chair_borje_mw_brown[facing=north]",
+				"Description": "Chair - North Facing",
+				"Color": "89725fff"
+			},
+			{
+				"char": "<",
+				"block": "tanukidecor:fancy_vase",
+				"Description": "Vase"
+			},
+			{
+				"char": "ȝ",
+				"block": "tanukidecor:wooden_block_bookshelf[facing=west,half=lower]",
+				"Description": "Bookshelf - Lower",
+				"Color": "9d9874ff"
+			},
+			{
+				"char": "ʉ",
+				"block": "tanukidecor:wooden_block_bookshelf[facing=west,half=upper]",
+				"Description": "Bookshelf - Upper",
+				"Color": "9d9874ff"
+			},
+			{
+				"char": "ʮ",
+				"block": "tanukidecor:antique_cabinet[facing=north,height=1,width=1]",
+				"Description": "Large Cabinet - Lower Left Corner",
+				"Color": "7b7760ff"
+			},
+			{
+				"char": "☇",
+				"block": "tanukidecor:antique_cabinet[facing=north,height=1,width=2]",
+				"Description": "Large Cabinet - Lower Right Corner",
+				"Color": "7b7760ff"
+			},
+			{
+				"char": "⛑",
+				"block": "tanukidecor:antique_cabinet[facing=north,height=2,width=1]",
+				"Description": "Large Cabinet - Upper Left Corner",
+				"Color": "7b7760ff"
+			},
+			{
+				"char": "Ǝ",
+				"block": "tanukidecor:antique_cabinet[facing=north,height=2,width=2]",
+				"Description": "Large Cabinet - Upper Right Corner",
+				"Color": "7b7760ff"
+			},
+			{
+				"char": "♖",
+				"block": "cardsnboards:bishop[facing=north]",
+				"Description": "Bishop"
+			},
+			{
+				"char": "⛊",
+				"Description": "Painting - North Facing",
+				"blocks": [
+					{
+						"block": "moa_decor_art:caballetegoticoestadounidense[facing=north]",
+						"random": 30
+					},
+					{
+						"block": "moa_decor_art:caballetelajovendelaperla[facing=north]",
+						"random": 30
+					},
+					{
+						"random": 30,
+						"block": "moa_decor_art:caballetelanocheestrellada[facing=north]"
+					},
+					{
+						"random": 30,
+						"block": "moa_decor_art:caballeteconlamonalisa[facing=north]"
+					},
+					{
+						"random": 30,
+						"block": "moa_decor_art:caballeteserenatamexicana[facing=north]"
+					}
+				]
+			},
+			{
+				"char": "⚴",
+				"Description": "Painting - West Facing",
+				"blocks": [
+					{
+						"block": "moa_decor_art:caballetegoticoestadounidense[facing=west]",
+						"random": 30
+					},
+					{
+						"block": "moa_decor_art:caballetelajovendelaperla[facing=west]",
+						"random": 30
+					},
+					{
+						"random": 30,
+						"block": "moa_decor_art:caballetelanocheestrellada[facing=west]"
+					},
+					{
+						"random": 30,
+						"block": "moa_decor_art:caballeteconlamonalisa[facing=west]"
+					},
+					{
+						"random": 30,
+						"block": "moa_decor_art:caballeteserenatamexicana[facing=west]"
+					}
+				]
+			},
+			{
+				"char": "Ą",
+				"Description": "Suitcase - South Facing",
+				"blocks": [
+					{
+						"block": "luphieclutteredmod:luphie_rovers_briefcase[facing=south]",
+						"random": 50
+					},
+					{
+						"block": "luphieclutteredmod:luphie_briefcase[facing=south]",
+						"random": 88
+					}
+				],
+				"Color": "d92424ff"
+			},
+			{
+				"char": "⛭",
+				"Description": "Suitcase - West Facing",
+				"blocks": [
+					{
+						"block": "luphieclutteredmod:luphie_rovers_briefcase[facing=west]",
+						"random": 50
+					},
+					{
+						"block": "luphieclutteredmod:luphie_briefcase[facing=west]",
+						"random": 88
+					}
+				],
+				"Color": "d92424ff"
+			},
+			{
+				"char": "ƽ",
+				"block": "decocraft:coat_stand_white",
+				"Description": "Coat Rack"
+			},
+			{
+				"char": "ş",
+				"block": "a_man_with_plushies:goose_plush[facing=south]",
+				"Description": "Goose"
+			},
+			{
+				"char": "Ǵ",
+				"block": "supplementaries:cage",
+				"Description": "Cage"
+			},
+			{
+				"char": "¬",
+				"block": "moa_decor_science:pergaminoenrollado[facing=east]",
+				"Description": "Rolled parchment"
+			}
+		]
+	},
+	"slices": [
+		[
+			"X$#####$$#####$X",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"$22222222222222$",
+			"$22222222222222$",
+			"#222222V2222222#",
+			"#222222 2222222#",
+			"#222222 2222222#",
+			"#222222 2222222#",
+			"#222222 2222222#",
+			"$222222  l22222$",
+			"X$#####$$#####$X"
+		],
+		[
+			"X#$##########$#X",
+			"#22222222222222#",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#222222V2222222#",
+			"#222222 2222222#",
+			"#222222 2222222#",
+			"#222222ƿ2222222#",
+			"#222222ƿ2222222#",
+			"$222222ƿ2222222$",
+			"#222222  l22222#",
+			"X#$##########$#X"
+		],
+		[
+			"X##$########$##X",
+			"#77777777777777#",
+			"#7  ¹    ö ʢ¹77#",
+			"$7   ǚ⚔  Ȉ ⚔⚔77$",
+			"#7 ☼     ☹☼Ȇ 77#",
+			"#7ö       ⚔ş 77#",
+			"#7Ą☼      ☼☫☫77#",
+			"#7¬Ǵ     ƽ> ⚗77#",
+			"#7¬☼  n n⛭⛧ʢ⚴77#",
+			"#7 ⚔♖⚔> >⛭>  77#",
+			"#7⚔☼ ⚔> > ɹȆ 77#",
+			"#7< ☮⛊⛪ǧ⛞ ȝ  77#",
+			"$7   ☇ʮ öö   77$",
+			"#777777 7777777#",
+			"#777777  l77777#",
+			"X##$########$##X"
+		],
+		[
+			"X###$######$###X",
+			"#33333333333333#",
+			"#3           33#",
+			"#3           33#",
+			"$3 ☼      ☼  33$",
+			"#3Ȇ          33#",
+			"#3 ☼      ☼  33#",
+			"#3           33#",
+			"#3 ☼      ☼  33#",
+			"#3           33#",
+			"#3 ☼      ☼  33#",
+			"$3        ʉ  33$",
+			"#3   Ǝ⛑  <   33#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X###$######$###X"
+		],
+		[
+			"X####$#Ð##$####X",
+			"#333333Ð3333333#",
+			"#3           33#",
+			"#3           33#",
+			"#3 ☼      ☼  33#",
+			"$3           33$",
+			"#3 ☼      ☼  33#",
+			"#3           33#",
+			"#3 ☼      ☼  33#",
+			"#3           33#",
+			"$3 ☼      ☼  33$",
+			"#3           33#",
+			"#3           33#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X####$####$####X"
+		],
+		[
+			"X#####$##$#####X",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X##############X"
+		]
+	]
+}

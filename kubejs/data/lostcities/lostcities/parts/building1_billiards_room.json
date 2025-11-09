@@ -1,0 +1,276 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "Blue Prince - Billiards Room",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "everycomp:ap/the_vault/driftwood_boards",
+				"Description": "Wooden Flooring",
+				"Color": "877c5dff"
+			},
+			{
+				"char": "3",
+				"block": "chipped:gray_wool_11",
+				"Description": "Walls",
+				"Color": "2b2d3cff"
+			},
+			{
+				"char": "4",
+				"block": "chipped:blackstone_6",
+				"Description": "Ceiling - Outer Edging",
+				"Color": "3c405bff"
+			},
+			{
+				"char": "5",
+				"block": "chipped:blackstone_2",
+				"Description": "Ceiling - Inner block",
+				"Color": "20222eff"
+			},
+			{
+				"char": "6",
+				"block": "cfm:dark_oak_kitchen_counter[facing=north]",
+				"Description": "Bar counter",
+				"Color": "6c5a3eff"
+			},
+			{
+				"char": "7",
+				"block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_purple_lower_bookshelf_drawer[connection=left,facing=west]",
+				"Description": "Bar Back - Lower - Left",
+				"Color": "362f3fff"
+			},
+			{
+				"char": "8",
+				"block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_purple_lower_bookshelf_drawer[connection=middle,facing=west]",
+				"Description": "Bar Back - Lower - Center",
+				"Color": "362f3fff"
+			},
+			{
+				"char": "9",
+				"block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_purple_lower_bookshelf_drawer[connection=right,facing=west]",
+				"Description": "Bar Back - Lower - Right",
+				"Color": "362f3fff"
+			},
+			{
+				"char": "0",
+				"block": "buildersdelight:dark_oak_chair_1[facing=north]",
+				"Description": "Bar Chairs",
+				"Color": "645030ff"
+			},
+			{
+				"char": "Ȯ",
+				"block": "decocraft:pool_table[facing=north]",
+				"Description": "Pool Table",
+				"Color": "2a942dff"
+			},
+			{
+				"char": "⚞",
+				"block": "decocraft:pool_rack[facing=east]",
+				"Description": "Pool Rack",
+				"Color": "cba658ff"
+			},
+			{
+				"char": "ȓ",
+				"block": "everycomp:mcd/architects_palette/twisted_cottage_door[facing=south,half=lower,hinge=right]",
+				"Description": "South Door - Bottom",
+				"Color": "a082c0ff"
+			},
+			{
+				"char": "ã",
+				"block": "everycomp:mcd/architects_palette/twisted_cottage_door[facing=south,half=upper,hinge=right]",
+				"Description": "South Door - Top",
+				"Color": "a082c0ff"
+			},
+			{
+				"char": "[",
+				"block": "everycomp:mcd/architects_palette/twisted_cottage_door[facing=west,half=lower,hinge=left]",
+				"Description": "West Door - Bottom",
+				"Color": "a082c0ff"
+			},
+			{
+				"char": "⛀",
+				"block": "everycomp:mcd/architects_palette/twisted_cottage_door[facing=west,half=upper,hinge=left]",
+				"Description": "West Door - Top",
+				"Color": "a082c0ff"
+			},
+			{
+				"char": "♪",
+				"block": "luphieclutteredmod:luphie_purple_black_cat_bookshelf",
+				"Description": "Bar Shelving - Sides",
+				"Color": "362f3fff"
+			},
+			{
+				"char": "⚨",
+				"block": "luphieclutteredmod:luphie_black_glass_cabinet[facing=north]",
+				"Description": "Bar Shelving - Center",
+				"Color": "362f3fff",
+				"loot": "lost_city_bar"
+			},
+			{
+				"char": "ɗ",
+				"block": "luphieclutteredmod:luphie_cluttered_seltzer_cans[facing=east]",
+				"Description": "Bar Top Clutter",
+				"Color": "b0aeaeff"
+			},
+			{
+				"char": "♞",
+				"block": "supplementaries:blackboard[facing=south]",
+				"Description": "Dart Board Blackboards",
+				"Color": "323232ff"
+			},
+			{
+				"char": "Ĩ",
+				"block": "decocraft:dartboard[facing=south]",
+				"Description": "Dart Board",
+				"Color": "e51818ff"
+			},
+			{
+				"char": "⛆",
+				"block": "ae2:smooth_sky_stone_chest",
+				"Description": "Dartboard Reward Chest",
+				"loot": "lost_city_billiard",
+				"Color": "697682ff"
+			},
+			{
+				"char": "ʘ",
+				"block": "decocraft:sconce_2_gold[facing=north]",
+				"Description": "Wall Lamps - South",
+				"Color": "cbd347ff"
+			},
+			{
+				"char": "{",
+				"block": "decocraft:sconce_2_gold[facing=west]",
+				"Description": "Wall Lamps - East",
+				"Color": "cbd347ff"
+			},
+			{
+				"char": "⛩",
+				"block": "decocraft:sconce_2_gold[facing=south]",
+				"Description": "Wall Lamps - South",
+				"Color": "cbd347ff"
+			},
+			{
+				"char": "O",
+				"block": "simplylight:lightbulb[facing=down]",
+				"Description": "Bar Light",
+				"Color": "ffffffff"
+			},
+			{
+				"char": "⛨",
+				"block": "simplylight:illuminant_slab[facing=down]",
+				"Description": "Pool Table Light"
+			}
+		]
+	},
+	"slices": [
+		[
+			"################",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222l22222#",
+			"################"
+		],
+		[
+			"################",
+			"#33333333333333#",
+			"#33 00       33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33      Ȯ   33#",
+			"# [          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33⚞         33#",
+			"#33       00 33#",
+			"#333333ȓ3366 33#",
+			"#333333 33   33#",
+			"#333333  l98733#",
+			"################"
+		],
+		[
+			"#######2########",
+			"#333333333⛆3333#",
+			"#33      ♞Ĩ♞ 33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"# ⛀          33#",
+			"233          332",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#333333ã33ɗ  33#",
+			"#333333 33   33#",
+			"#333333  l♪⚨♪33#",
+			"#######2########"
+		],
+		[
+			"################",
+			"#33333333333333#",
+			"#33  ⛩  ⛩    33#",
+			"#33          33#",
+			"#33         {33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33         {33#",
+			"#33          33#",
+			"#33  ʘ       33#",
+			"#333333333   33#",
+			"#333333333OOO33#",
+			"#33333333l33333#",
+			"################"
+		],
+		[
+			"################",
+			"#33333333333333#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33    ⛨⛨⛨   33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33          33#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"################"
+		],
+		[
+			"################",
+			"#33333333333333#",
+			"#33444444444433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33455555555433#",
+			"#33444444444433#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"################"
+		]
+	]
+}
