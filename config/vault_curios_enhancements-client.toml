@@ -1,10 +1,4 @@
 
-["Black Market"]
-	#Show shard count in black market
-	showShardCountInBlackMarket = false
-	#Show 12.3k instead of 12345 in black market
-	blackMarketShortFmt = false
-
 ["Inventory HUD"]
 	#Show shard count in Inventory HUD overlay
 	invHudShardCount = true
@@ -14,4 +8,15 @@
 	invHudCharmUsesLeft = true
 	#Show trinket uses left in Inventory HUD overlay
 	invHudTrinketUsesLeft = true
+	#Show coins in Inventory HUD overlay
+	invHudCoins = true
+	#Currency to show in Inventory HUD overlay (0 = bronze, 1 = silver, 2 = gold, 3 = platinum), more currencies might be added by other mods - setting higher value than max will show highest currency available
+	#Range: 0 ~ 32
+	invHudCoinsCurrency = 2
+	#Enable suffix after coin count in Inventory HUD overlay (B for bronze, S for silver, G for gold, P for platinum)
+	invHudCoinsCurrencySuffix = false
+	#Show 12.3k instead of 12345 in Inventory HUD overlay for coin pouch
+	invHudCoinCountShortFmt = false
+	#Show void stone uses left in Inventory HUD overlay
+	invHudVoidStoneUsesLeft = true
 

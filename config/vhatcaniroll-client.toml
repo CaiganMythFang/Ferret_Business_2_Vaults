@@ -1,14 +1,27 @@
 #show ability enhancements
 showAbilityEnhancements = false
-#show weight
+#show gear roll weight
 showWeight = false
-#show chance
+#show gear roll chance
 showChance = true
 #show unobtainable crafted modifiers (above current lvl)
 showUnobtainableCrafted = false
-#width of the screen
+#width of the gear screen
 #Range: > 250
 screenWidth = 370
+#width of the gear screen
+#Range: 0.0 ~ 1.0
+screenHeight = 0.95
+#width of the card screen
+#Range: 0.0 ~ 1.0
+cardScreenHeight = 0.95
+#width of the card screen
+#Range: > 250
+cardScreenWidth = 450
+#show card roll weight
+showCardWeight = false
+#show card roll chance
+showCardChance = true
 
 [DEBUG]
 	#QOL Hunters conflict resolution (shouldn't be disabled unless it causes issues)
@@ -20,6 +33,8 @@ screenWidth = 370
 	maxLevelOverride = -1
 	#debug unique gear
 	debugUniqueGear = false
+	#debug cards
+	debugCards = false
 
 [BUTTON]
 	#open VHat can I roll? from vault screen

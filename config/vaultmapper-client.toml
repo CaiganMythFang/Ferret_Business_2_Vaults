@@ -22,8 +22,6 @@
 	MAP_ENABLED = true
 	#Show Inscripted Rooms on the Map
 	SHOW_INSCRIPTIONS = true
-	#Enable the WebMap Server
-	WEBMAP_ENABLED = false
 	#The maximum amount of map history snapshots that can be saved on file.
 	#Favorites will be saved forever regardless of this number.
 	#This number is a global number, not per world/server.
@@ -51,4 +49,15 @@
 	ORE_ROOM_COLOR = "#00FFFF"
 	#Render border around the player centric rendering range
 	PC_BORDER = true
+	#Color for an explored Resource Room
+	RESOURCE_ROOM_COLOR = "#FFFFFF"
+	#Show viewer code below the vault map
+	SHOW_VIEWER_CODE = false
+	#Scale of the arrow, 3 to 30
+	ARROW_SCALE = 10
+	#Show Tunnels on the Map
+	SHOW_TUNNELS = true
+	#Number of pixels cropped from icon from each side
+	#Range: 0 ~ 8
+	ICON_CROP = 0
 

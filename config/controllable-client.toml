@@ -7,11 +7,11 @@
 		#If enabled, some actions will cause the controller to vibrate
 		forceFeedback = true
 		#If enabled, controller will be automatically selected on start up or when plugged in
-		autoSelect = true
+		autoSelect = false
 		#If enabled, the player will render in the top left corner likes Bedrock Edition
 		renderMiniPlayer = true
 		#If enabled, the game will use a virtual cursor instead of the real cursor. This must be turned on to be able to run multiple instances!
-		virtualMouse = true
+		virtualMouse = false
 		#If enabled, hotbar will render closer to the center of the screen like on console.
 		consoleHotbar = false
 		#The image to use for the cursor. This only applies if virtual mouse is enabled!
