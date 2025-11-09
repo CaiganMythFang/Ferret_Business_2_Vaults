@@ -11,4 +11,5 @@ onEvent("minestuck.grist.registry", event => {
   event.create("the_world").rarity(1).value(1);
   event.create("junkite").rarity(0).value(1);
   event.create("fopium").rarity(0).value(1);
+  event.create("greed").rarity(3).value(5);
 });
