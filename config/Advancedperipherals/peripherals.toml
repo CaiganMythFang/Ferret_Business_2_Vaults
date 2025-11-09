@@ -42,14 +42,14 @@
 
 	[Peripherals.ME_Bridge]
 		#Enable the Me Bridge or not.
-		enableMeBridge = true
+		enableMeBridge = false
 		#Power consumption per tick.
 		#Range: > 0
 		mePowerConsumption = 10
 
 	[Peripherals.RS_Bridge]
 		#Enable the Rs Bridge or not.
-		enableRsBridge = true
+		enableRsBridge = false
 		#Power consumption per tick.
 		#Range: > 0
 		rsPowerConsumption = 10
