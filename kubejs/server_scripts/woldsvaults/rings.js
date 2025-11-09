@@ -1,17 +1,17 @@
 onEvent('recipes', event => {
 
-    event.remove({ mod: 'angelring' });
+    // event.remove({ mod: 'angelring' });
 
-    event.shaped(Item.of('angelring:itemdiamondring'),
-        [
-            'GXG',
-            'XRX',
-            'GXG'
-        ], {
-        G: 'the_vault:vault_essence_2',
-        X: 'the_vault:vault_diamond_block_1',
-        R: 'the_vault:pog_prism'
-    })
+    // event.shaped(Item.of('angelring:itemdiamondring'),
+    //     [
+    //         'GXG',
+    //         'XRX',
+    //         'GXG'
+    //     ], {
+    //     G: 'the_vault:vault_essence_2',
+    //     X: 'the_vault:vault_diamond_block_1',
+    //     R: 'the_vault:pog_prism'
+    // })
 
     event.shaped(Item.of('woldsvaults:chromatic_iron_angel_ring'),
         [
@@ -71,17 +71,17 @@ onEvent('recipes', event => {
         X: 'the_vault:omega_pog'
     })
 
-    event.shaped(Item.of('woldsvaults:zephyr_charm'),
-        [
-            'WVT',
-            'PGV',
-            'WPW'
-        ], {
-        G: 'the_vault:omega_pog',
-        T: 'the_vault:trinket_scrap',
-        W: 'the_vault:wold_star_chunk',
-        V: 'the_vault:vault_ingot_1',
-        P: 'woldsvaults:extraordinary_pog_prism'
-    })
+    // event.shaped(Item.of('woldsvaults:zephyr_charm'),
+    //     [
+    //         'WVT',
+    //         'PGV',
+    //         'WPW'
+    //     ], {
+    //     G: 'the_vault:omega_pog',
+    //     T: 'the_vault:trinket_scrap',
+    //     W: 'the_vault:wold_star_chunk',
+    //     V: 'the_vault:vault_ingot_1',
+    //     P: 'woldsvaults:extraordinary_pog_prism'
+    // })
 
 })
