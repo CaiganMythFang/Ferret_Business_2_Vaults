@@ -1,0 +1,48 @@
+{
+  "name": "bd5db982-19cf-49b9-9d7f-500c2248d3fe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "a558abf1-a7e7-42ea-a831-f96c1cc8493f",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "the_vault:sword"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "predicate",
+          "condition": {
+            "tooltip": "{\"text\":\"null\"}"
+          }
+        }
+      ]
+    }
+  ],
+  "ui": "test_machine.mbdui"
+}
