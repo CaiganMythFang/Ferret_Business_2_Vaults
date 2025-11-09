@@ -148,7 +148,7 @@ var HideList = [
     <item:minestuck:server_disk>,
     <item:minestuck:black_kings_scepter>,
     <item:minestuck:white_kings_scepter>,
-    <item:minestuck:mine_and_grist>
+    <item:minestuck:mine_and_grist>,
     <item:minestuck:green_stone_brick_salamander_right>, 
     <item:minestuck:green_stone_brick_salamander_left>, 
     <item:minestuck:green_stone_brick_nak_right>, 
