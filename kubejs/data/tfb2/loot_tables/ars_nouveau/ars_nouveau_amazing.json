@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "name": "ars_nouveau_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ars_nouveau:archmage_spell_book",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:enchanters_sword",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:potion_flask",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:potion_flask_amplify",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:potion_flask_extend_time",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:potion_melder",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_brazier",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:spell_bow",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

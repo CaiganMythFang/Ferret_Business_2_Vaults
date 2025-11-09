@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "name": "ccvault_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ccvault:vault_reader",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

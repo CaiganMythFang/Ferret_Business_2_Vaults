@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "quarryplus_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "quarryplus:flex_marker",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:marker",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:marker16",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:waterlogged_flex_marker",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:waterlogged_marker",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:waterlogged_marker16",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:y_setter",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

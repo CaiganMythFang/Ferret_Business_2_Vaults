@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "name": "lost_city_vanity",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:air",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "decocraft:nail_makeup",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "decocraft:nail_makeup_messy",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "decocraft:makeup",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "decocraft:brush_and_comb",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

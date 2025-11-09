@@ -1,0 +1,536 @@
+{
+  "pools": [
+    {
+      "name": "car_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "car:acacia_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:asphalt",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:asphalt_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:asphalt_slope",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:asphalt_slope_flat_lower",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:asphalt_slope_flat_upper",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:big_wheel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:bio_diesel_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:birch_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:black_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:blue_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:brown_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:cable",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:canola",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:canola_cake",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:canola_methanol_mix_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:canola_oil_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:canola_seeds",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:car_pressure_plate",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:crank",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:cyan_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:dark_oak_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:engine_piston",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:fluid_extractor",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:fluid_pipe",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:glycerin_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:gray_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:green_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:guard_rail",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:hammer",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:iron_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:iron_stick",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:jungle_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:license_plate",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:light_blue_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:light_gray_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:lime_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:magenta_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:methanol_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:oak_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:orange_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:painter",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:painter_yellow",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:pink_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:purple_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:red_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:screw_driver",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:sign",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:sign_post",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:spruce_license_plate_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:wheel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "car:white_container",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:wrench",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "car:yellow_container",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

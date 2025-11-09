@@ -1,0 +1,157 @@
+{
+  "pools": [
+    {
+      "name": "mekanism_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mekanism:creative_energy_cube",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "mekanism:pellet_antimatter",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_drive_supermassive",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "mekanism:antiprotonic_nucleosynthesizer",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "mekanism:atomic_disassembler",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "mekanism:digital_miner",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_induction_cell",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_induction_provider",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_drive_time_dilating",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_induction_cell",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_induction_provider",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:pellet_polonium",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:portable_qio_dashboard",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:sps_port",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_combining_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_compressing_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_crushing_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_energy_cube",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_enriching_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_infusing_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_injecting_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_purifying_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_sawing_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_smelting_factory",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_tier_installer",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1566 @@
+{
+  "pools": [
+    {
+      "name": "ars_nouveau_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_alternating",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_basket",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_clover",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_herring",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_mosaic",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_smooth",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ab_smooth_slab",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:abjuration_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:agronomic_sourcelink",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:air_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:amethyst_golem_charm",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:amplify_arrow",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:amulet_of_mana_boost",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:annotated_codex",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:apprentice_boots",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:apprentice_hood",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:apprentice_leggings",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:apprentice_robes",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:arcane_bricks",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:arcane_core",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:arcane_pedestal",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:arcane_stone",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:archmage_boots",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:archmage_hood",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:archmage_leggings",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:archmage_robes",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_alt",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_ashlar",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_basket",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_clover",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_herring",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_mosaic",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_slab",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:as_gold_stone",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:blaze_fiber",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:bookwyrm_charm",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:bucket_of_source",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:conjuration_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:dominion_wand",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:dowsing_rod",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:drygmy_charm",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:drygmy_shard",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:dull_trinket",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:earth_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:end_fiber",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:fire_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_accelerate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_amplify",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_aquatic",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_blink",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_bounce",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_cold_snap",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_conjure_water",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_crush",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_cut",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_dampen",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_decelerate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_delay",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_dispel",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_duration_down",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_ender_inventory",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_evaporate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_exchange",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_explosion",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_extend_time",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_extract",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_fell",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_firework",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_flare",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_fortune",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_freeze",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_glide",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_grow",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_gust",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_harm",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_harvest",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_heal",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_intangible",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_interact",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_invisibility",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_launch",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_leap",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_lightning",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_name",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_orbit",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_pickup",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_place_block",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_redstone_signal",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_rune",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_self",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_sense_magic",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_slowfall",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_smelt",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_snare",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_summon_decoy",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_summon_undead",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_summon_wolves",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_toss",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_wind_shear",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:imbuement_chamber",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:jar_of_light",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:lava_lily",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:manipulation_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:novice_spell_book",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:pierce_arrow",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:potion_jar",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ring_of_lesser_discount",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ring_of_potential",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_awakening",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_binding",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_challenge",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_cloudshaping",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_disintegration",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_fertility",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_flight",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_overgrowth",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_restoration",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_scrying",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ritual_warping",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:runic_chalk",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sas_alternating",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sas_ashlar",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sas_basket",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sas_clover",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sas_herring",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sas_mosaic",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:sconce",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:scryer_scroll",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:scryers_crystal",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:scryers_oculus",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:source_gem",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:spell_parchment",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:spell_prism",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:split_arrow",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:starbuncle_charm",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:starbuncle_shades",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:starbuncle_shards",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:summon_focus",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:warp_scroll",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:water_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:whirlisprig_charm",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:whirlisprig_shards",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:wixie_shards",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

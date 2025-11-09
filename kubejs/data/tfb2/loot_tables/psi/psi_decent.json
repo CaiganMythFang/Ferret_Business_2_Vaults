@@ -1,0 +1,330 @@
+{
+  "pools": [
+    {
+      "name": "psi_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "psi:black_psimetal_plate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_assembler",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_assembly_gold",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_battery_basic",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_battery_extended",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_core_hyperclocked",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_core_overclocked",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_core_radiative",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_socket_huge",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_socket_large",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_socket_signaling",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:cad_socket_transmissive",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:detonator",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:ebony_psimetal",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:ebony_substance",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:exosuit_controller",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:exosuit_sensor_heat",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:exosuit_sensor_light",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:exosuit_sensor_stress",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:exosuit_sensor_trigger",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:exosuit_sensor_water",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:ivory_psimetal",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:ivory_substance",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:lit_black_psimetal_plate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:lit_white_psimetal_plate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:programmer",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:psidust",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:psidust_block",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:psigem",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:psigem_block",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:psimetal",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "psi:psimetal_axe",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:psimetal_pickaxe",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:psimetal_shovel",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:psimetal_sword",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:spell_drive",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:vector_ruler",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "psi:white_psimetal_plate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

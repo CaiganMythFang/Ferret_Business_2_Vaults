@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "name": "thermal_extra_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "thermal_extra:amethyst_dust",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:sticky_ball",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:sunflower_oil_bucket",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "name": "rftoolsstorage_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rftoolsstorage:modular_storage",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rftoolsstorage:storage_control_module",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "rftoolsstorage:storage_module0",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "rftoolsstorage:storage_module1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "rftoolsstorage:storage_module2",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

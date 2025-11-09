@@ -1,0 +1,276 @@
+{
+  "pools": [
+    {
+      "name": "industrialforegoing_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "industrialforegoing:advanced_black_hole_tank",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:advanced_black_hole_unit",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:animal_rancher",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:black_hole_controller",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:efficiency_addon_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:enchantment_applicator",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:enchantment_extractor",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:enchantment_sorter",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:fermentation_station",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:fluid_laser_base",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:fluid_sieving_machine",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:hydroponic_bed",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:infinity_charger",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:laser_drill",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:machine_frame_advanced",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:machine_frame_supreme",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:marine_fisher",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:material_stonework_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mob_crusher",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mob_detector",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mob_slaughter_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_crimed",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_culinary",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_death",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_disenchantment",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_ender",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_explosive",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_frosty",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_furnace",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_halitosis",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_magma",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_meatallurgic",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_pink",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_potion",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_rocket",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:mycelial_slimey",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:ore_laser_base",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:plant_fertilizer",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:plant_gatherer",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:potion_brewer",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:range_addon11",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:simple_black_hole_tank",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:simple_black_hole_unit",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:speed_addon_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:spores_recreator",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:stasis_chamber",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "industrialforegoing:washing_factory",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

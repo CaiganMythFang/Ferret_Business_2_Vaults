@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "pneumaticcraft_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "pneumaticcraft:aerial_interface",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:creative_compressed_iron_block",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:creative_compressor",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:drill_bit_netherite",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:unassembled_netherite_drill_bit",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

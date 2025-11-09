@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "mininggadgets_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_battery_3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_efficiency_4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_efficiency_5",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_fortune_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_fortune_3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_magnet",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_three_by_three",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "buildinggadgets_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "buildinggadgets:construction_paste_container_t2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "buildinggadgets:construction_paste_container_t3",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "buildinggadgets:gadget_building",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "buildinggadgets:gadget_copy_paste",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "buildinggadgets:gadget_exchanging",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "buildinggadgets:template_manager",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

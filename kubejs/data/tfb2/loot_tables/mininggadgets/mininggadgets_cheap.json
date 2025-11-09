@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "mininggadgets_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mininggadgets:modificationtable",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_efficiency_1",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_freezing",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_light_placer",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_void_junk",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

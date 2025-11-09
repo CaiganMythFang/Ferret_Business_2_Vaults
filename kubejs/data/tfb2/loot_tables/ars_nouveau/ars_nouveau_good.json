@@ -1,0 +1,202 @@
+{
+  "pools": [
+    {
+      "name": "ars_nouveau_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ars_nouveau:alchemical_sourcelink",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:amulet_of_mana_regen",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:apprentice_spell_book",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:basic_spell_turret",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:enchanters_mirror",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:enchanting_apparatus",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:familiar_bookwyrm",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:familiar_drygmy",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:familiar_starbuncle",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:familiar_whirlisprig",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:familiar_wixie",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_fangs",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_gravity",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_hex",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_linger",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_split",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_summon_vex",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:glyph_wither",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:mycelial_sourcelink",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:relay",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:relay_collector",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:relay_deposit",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:relay_splitter",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:relay_warp",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:ring_of_greater_discount",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:shapers_focus",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:source_gem_block",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:spell_turret",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:timer_spell_turret",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:vitalic_sourcelink",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:void_jar",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:volcanic_sourcelink",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:wand",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:wilden_tribute",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

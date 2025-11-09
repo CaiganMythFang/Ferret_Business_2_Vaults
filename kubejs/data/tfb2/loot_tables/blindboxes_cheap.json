@@ -1,17 +1,772 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "name": "blindboxes_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "item",
+          "name": "tfb2:blindbox_advancedperipherals_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ae2_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_alexsmobs_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_animalistic_a_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_appmek_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_archers_paradox_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_architects_palette_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ars_nouveau_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_a_man_with_plushies_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_blockcarpentry_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_botania_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_buildersdelight_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_buildinggadgets_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cagerium_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_camera_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_car_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cardsnboards_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_casinocraft_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cfm_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap5",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap6",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_cheap7",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cloudstorage_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_coffee_delight_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_comforts_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_compressium_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_controlengineering_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cookingforblockheads_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_copycats_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cosmeticarmoursmod_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_craftingstation_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_crafting_on_a_stick_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_create_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createaddition_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createbb_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createdeco_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createdieselgenerators_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createoreexcavation_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_create_enchantment_industry_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_crittersandcompanions_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_darkutils_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_davebuildingmod_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_davespotioneering_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decocraft_cheap1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decocraft_cheap2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decocraft_cheap3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decocraft_cheap4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decocraft_cheap5",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decorative_blocks_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_display_case_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_dyenamics_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_easy_villagers_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_eccentrictome_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ecologics_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_effortlessbuilding_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap5",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap6",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap7",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap8",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_cheap9",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_fairylights_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_farmersdelight_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_farmersrespite_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_farmingforblockheads_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_fluxnetworks_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_hexcasting_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersiveengineering_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersivepetroleum_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersive_aircraft_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersive_paintings_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_incorporeal_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_industrialforegoing_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integrateddynamics_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integratedterminals_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integratedtunnels_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ironchests_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_irongenerators_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_itemfilters_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_kacys_cosmetics_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_lctech_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_lightmanscurrency_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_littlelogistics_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_luphieclutteredmod_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_magic_vibe_decorations_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mahoutsukai_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mannequins_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwbridges_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwdoors_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwfences_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwfurnitures_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwlights_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwroofs_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwtrpdoors_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwwindows_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_measurements_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mekanism_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mekanismgenerators_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
           "name": "tfb2:blindbox_minecraft_cheap",
-          "weight": 40
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mininggadgets_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_moa_decor_art_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_moa_decor_cookery_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_moa_decor_holidays_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_moa_decor_science_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_modularrouters_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_moremekanismprocessing_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_morphtool_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_multistorage_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_naturalist_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_neoncraft2_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_occultism_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_peripherals_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_pipez_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_pneumaticcraft_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_powah_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_projecte_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_psi_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_quark_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_railways_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rechiseled_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rechiseledcreate_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolsbase_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolspower_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolsstorage_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolsutility_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_secretroomsmod_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_silence_s_defense_tower_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_smallships_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_sophisticatedbackpacks_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_sophisticatedstorage_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_supplementaries_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_tanukidecor_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_technoblade_plushies_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_thermal_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_thermal_extra_cheap",
+          "weight": 100
         },
         {
           "type": "item",
           "name": "tfb2:blindbox_the_vault_cheap",
-          "weight": 30
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_toms_storage_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_trashcans_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_tropicraft_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_twigs_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_vaultbeacon_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_viescraftmachines_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_wares_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_woldsvaults_cheap",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_xercapaint_cheap",
+          "weight": 100
         }
       ]
     }

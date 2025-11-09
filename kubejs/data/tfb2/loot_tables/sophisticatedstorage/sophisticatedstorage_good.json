@@ -1,0 +1,3841 @@
+{
+  "pools": [
+    {
+      "name": "sophisticatedstorage_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:advanced_compacting_upgrade",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:altar_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:controller",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:gilded_chest",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:gilded_strongbox",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:gold_to_netherite_tier_upgrade",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:iron_to_netherite_tier_upgrade",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"crimson\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"overgrown\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"tenos\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"spruce\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"velara\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"dark_oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"vault_wooden_planks\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"warped\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"birch\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"chromatic\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"jungle\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"driftwood\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{flatTop:1b,woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"crimson\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"overgrown\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"tenos\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"spruce\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"velara\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"dark_oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"vault_wooden_planks\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"warped\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"birch\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"chromatic\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"jungle\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"driftwood\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{flatTop:1b,woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"crimson\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"overgrown\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"tenos\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"spruce\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"velara\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"dark_oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"vault_wooden_planks\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"warped\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"birch\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"chromatic\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"jungle\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"driftwood\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{flatTop:1b,woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"crimson\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"overgrown\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"tenos\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"spruce\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"velara\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"dark_oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"vault_wooden_planks\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"warped\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"birch\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"chromatic\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"jungle\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"driftwood\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:limited_netherite_barrel_4",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{flatTop:1b,woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"crimson\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"overgrown\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"tenos\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"spruce\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"velara\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"dark_oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"vault_wooden_planks\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"warped\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"birch\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"chromatic\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"jungle\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"driftwood\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_barrel",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{flatTop:1b,woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"crimson\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"overgrown\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"tenos\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"spruce\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"velara\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"dark_oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"vault_wooden_planks\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"warped\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"birch\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"chromatic\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"acacia\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"jungle\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"oak\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{woodType:\\\"driftwood\\\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16383998,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16351261,mainColor:16351261}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:13061821,mainColor:13061821}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3847130,mainColor:3847130}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:16701501,mainColor:16701501}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8439583,mainColor:8439583}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:15961002,mainColor:15961002}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:4673362,mainColor:4673362}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:10329495,mainColor:10329495}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1481884,mainColor:1481884}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:8991416}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:3949738,mainColor:3949738}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8606770,mainColor:8606770}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:6192150,mainColor:6192150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:11546150,mainColor:11546150}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:1908001,mainColor:1908001}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:netherite_shulker_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{accentColor:8991416,mainColor:16383998}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedstorage:ornate_strongbox",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

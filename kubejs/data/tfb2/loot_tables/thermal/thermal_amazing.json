@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "thermal_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "thermal:fluid_tank_creative_augment",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "thermal:machine_catalyst_creative_augment",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "thermal:machine_efficiency_creative_augment",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "thermal:rf_coil_creative_augment",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "thermal:machine_crafter",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "thermal:machine_insolator",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

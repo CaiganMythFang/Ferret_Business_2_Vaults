@@ -1,0 +1,450 @@
+{
+  "pools": [
+    {
+      "name": "hexcasting_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hexcasting:abacus",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:akashic_record",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:amethyst_sconce",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:amethyst_tiles",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:ancient_scroll_paper",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:ancient_scroll_paper_lantern",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:artifact",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:battery",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:charged_amethyst",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:cypher",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:directrix_redstone",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:empty_directrix",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:empty_impetus",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:focus",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:impetus_look",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:impetus_rightclick",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:impetus_storedplayer",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_agender",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_aroace",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_aromantic",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_asexual",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_bisexual",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_demiboy",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_demigirl",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_gay",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_genderfluid",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_genderqueer",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_intersex",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_lesbian",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_nonbinary",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_pansexual",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_plural",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:pride_colorizer_transgender",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:scroll",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:scroll_medium",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:scroll_paper",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:scroll_paper_lantern",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:scroll_small",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:slate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:slate_block",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:spellbook",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:sub_sandwich",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:trinket",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:uuid_colorizer",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_acacia",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_akashic",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_birch",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_crimson",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_dark_oak",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_jungle",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_oak",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_spruce",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "hexcasting:wand_warped",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

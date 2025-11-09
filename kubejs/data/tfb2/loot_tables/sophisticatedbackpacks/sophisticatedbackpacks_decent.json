@@ -1,0 +1,234 @@
+{
+  "pools": [
+    {
+      "name": "sophisticatedbackpacks_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_filter_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_pickup_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_pump_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:anvil_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/carpenter_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/glassblower_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/mason_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/philosopher_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/shepherd_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:chipped/tinkerer_workbench_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:deposit_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:drop_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:drop_upgrade_advanced",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:feeding_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:filter_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:gold_backpack",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:identification_upgrade",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:identification_upgrade_advanced",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:pickup_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:pump_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:refill_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:restock_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_2",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:upgrade_base",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:void_upgrade",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

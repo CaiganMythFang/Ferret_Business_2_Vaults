@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "name": "smallships_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "smallships:acacia_cog",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:acacia_drakkar",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:acacia_galley",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:birch_cog",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:birch_drakkar",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:birch_galley",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:cannon_ball",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "smallships:dark_oak_cog",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:dark_oak_drakkar",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:dark_oak_galley",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:jungle_cog",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:jungle_drakkar",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:jungle_galley",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:oak_cog",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:oak_drakkar",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:oak_galley",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:sail",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "smallships:spruce_cog",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:spruce_drakkar",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "smallships:spruce_galley",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

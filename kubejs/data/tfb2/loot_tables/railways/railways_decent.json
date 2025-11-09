@@ -1,0 +1,346 @@
+{
+  "pools": [
+    {
+      "name": "railways_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "railways:benchcart",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:black_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:blue_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:brown_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:cyan_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:gray_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:green_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:jukeboxcart",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:light_blue_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:light_gray_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:lime_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:magenta_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:orange_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:pink_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:purple_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:red_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:remote_lens",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:semaphore",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:smokestack_caboosestyle",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:smokestack_coalburner",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:smokestack_diesel",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:smokestack_oilburner",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:smokestack_streamlined",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:smokestack_woodburner",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_blackstone",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_coupler",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_crimson",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_ender",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_hexcasting_edified",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_phantom",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_switch_brass",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:track_warped",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "railways:white_conductor_cap",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "railways:yellow_conductor_cap",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

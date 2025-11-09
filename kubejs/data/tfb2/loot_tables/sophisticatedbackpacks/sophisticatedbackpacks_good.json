@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "name": "sophisticatedbackpacks_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_deposit_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_feeding_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_refill_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_restock_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:advanced_void_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:auto_blasting_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:auto_smelting_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:auto_smoking_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:tank_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:tool_swapper_upgrade",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "sophisticatedbackpacks:xp_pump_upgrade",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

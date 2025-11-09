@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "tropicraft_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "tropicraft:music_disc_buried_treasure",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tropicraft:music_disc_eastern_isles",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tropicraft:music_disc_low_tide",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tropicraft:music_disc_summering",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tropicraft:music_disc_the_tribe",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tropicraft:music_disc_trade_winds",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

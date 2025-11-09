@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "name": "lightmanscurrency_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lightmanscurrency:coinjar_blue",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "lightmanscurrency:item_capacity_upgrade_1",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "lightmanscurrency:piggy_bank",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "lightmanscurrency:sus_jar",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "lightmanscurrency:wallet_copper",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "lightmanscurrency:wallet_iron",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

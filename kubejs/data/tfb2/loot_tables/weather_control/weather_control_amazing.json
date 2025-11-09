@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "name": "weather_control_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "weather_control:dwp",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "weather_control:dw_offline",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "weather_control:dw_sensor",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "weather_control:mini_housing",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "weather_control:rmp",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "weather_control:dw_core",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "weather_control:rm_core",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "weather_control:rm_offline",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

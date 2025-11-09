@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "incorporeal_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "incorporeal:octuple_compressed_tiny_potato",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "incorporeal:septuple_compressed_tiny_potato",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "incorporeal:sextuple_compressed_tiny_potato",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "incorporeal:quintuple_compressed_tiny_potato",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "incorporeal:fractured_space_rod",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "incorporeal:quadruple_compressed_tiny_potato",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

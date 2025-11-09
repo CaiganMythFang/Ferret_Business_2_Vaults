@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "name": "powah_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "powah:energy_cell_creative",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "powah:battery_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:energizing_rod_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_cell_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_discharger_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_hopper_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:furnator_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:magmator_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:reactor_nitro",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:solar_panel_nitro",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "powah:thermo_generator_nitro",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

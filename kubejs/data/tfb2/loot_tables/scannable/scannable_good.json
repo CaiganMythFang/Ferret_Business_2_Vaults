@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "name": "scannable_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "scannable:blank_module",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "scannable:common_ores_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "scannable:entity_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "scannable:fluid_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "scannable:friendly_entity_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "scannable:hostile_entity_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "scannable:rare_ores_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "scannable:vault_chests_module_wooden",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

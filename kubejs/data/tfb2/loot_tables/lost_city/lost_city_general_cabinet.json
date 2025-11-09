@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "name": "lost_city_general_cabinet",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:air",
+          "weight": 500
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "luphieclutteredmod:luphie_sketchbook",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "decocraft:notebook_white",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minestuck:grimoire",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minestuck:tilldeath_handbook",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:worn_notebook",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "moa_decor_science:libro",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "moa_decor_science:libroabierto",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "luphieclutteredmod:luphie_blank_paper_pile",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "tanukidecor:small_striped_vase",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "tanukidecor:small_fancy_vase",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:programming_puzzle",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "cardsnboards:pawn_black",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cardsnboards:pawn",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "decocraft:toy_boat",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "decocraft:posable_doll",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "tanukidecor:wooden_block_toys",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "decocraft:train",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

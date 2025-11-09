@@ -1,0 +1,189 @@
+{
+  "pools": [
+    {
+      "name": "powah_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "powah:book",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "powah:capacitor_basic_tiny",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:charged_snowball",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:dielectric_casing",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:dielectric_paste",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:dielectric_rod",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:dielectric_rod_horizontal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:energizing_orb",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_cable_basic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_cable_starter",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_cell_starter",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_discharger_starter",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "powah:energy_hopper_starter",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "powah:furnator_starter",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "powah:magmator_starter",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "powah:steel_energized",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "powah:wrench",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "grapplemod_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "grapplemod:block_grapple_modifier",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:limitsupgradeitem",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

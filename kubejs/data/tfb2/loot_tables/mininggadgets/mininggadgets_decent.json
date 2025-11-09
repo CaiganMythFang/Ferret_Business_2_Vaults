@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "name": "mininggadgets_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mininggadgets:mininggadget",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:mininggadget_fancy",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:mininggadget_simple",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_battery_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_battery_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_efficiency_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_efficiency_3",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_empty",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_fortune_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_range_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_range_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_range_3",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "mininggadgets:upgrade_silk",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

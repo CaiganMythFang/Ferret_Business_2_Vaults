@@ -1,17 +1,717 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "name": "blindboxes_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "item",
+          "name": "tfb2:blindbox_advancedperipherals_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ae2_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ae2additions_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ae2things_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_animalistic_a_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_appbot_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_appmek_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_archers_paradox_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_architects_palette_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ars_nouveau_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_blockcarpentry_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_bobberdetector_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_bonsaitrees3_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_botania_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_botanicalextramachinery_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_botanicalmachinery_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_botanypots_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_buildersdelight_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_buildinggadgets_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cagerium_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_camera_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_car_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cardsnboards_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_casinocraft_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cccbridge_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cfm_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_chipped_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cloudstorage_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_coffee_delight_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_compressium_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_controlengineering_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_cookingforblockheads_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_create_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createaddition_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createbb_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createdeco_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createdieselgenerators_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_createoreexcavation_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_create_enchantment_industry_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_darkutils_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_davebuildingmod_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_davespotioneering_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_decorative_blocks_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_dyenamics_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_easy_piglins_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_easy_villagers_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_effortlessbuilding_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_elevatorid_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_enercell_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_entangled_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_everycomp_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_experienceobelisk_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_farmersdelight_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_farmingforblockheads_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_fluxnetworks_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_gamingdeco_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_gateways_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_grapplemod_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_hexcasting_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_iammusicplayer_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersiveengineering_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersivepetroleum_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_immersive_aircraft_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_incorporeal_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_industrialforegoing_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integratedcrafting_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integrateddynamics_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integratednbt_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_integratedtunnels_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_ironchests_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_irongenerators_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_jecalculation_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_laserbridges_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_laserio_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_lctech_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_lightmanscurrency_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_littlelogistics_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_luphieclutteredmod_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_magic_vibe_decorations_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mahoutsukai_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwdoors_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwlights_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mcwroofs_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_megacells_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mekanism_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mekanismgenerators_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_merequester_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
           "name": "tfb2:blindbox_minecraft_decent",
-          "weight": 30
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_mininggadgets_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_modularrouters_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_moremekanismprocessing_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_more_immersive_wires_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_multistorage_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_naturalist_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_neoncraft2_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_occultism_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_peripherals_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_pipez_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_playertrackingcompass_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_pneumaticcraft_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_pocketstorage_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_powah_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_projecte_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_psi_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_quark_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_quarryplus_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_railways_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rechiseled_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rechiseledcreate_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolsbase_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolspower_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolsstorage_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_rftoolsutility_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_secretroomsmod_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_sfm_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_silence_s_defense_tower_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_simplylight_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_smallships_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_snad_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_sophisticatedbackpacks_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_sophisticatedstorage_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_summoningrituals_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_supplementaries_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_technoblade_plushies_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_thermal_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_thermal_extra_decent",
+          "weight": 100
         },
         {
           "type": "item",
           "name": "tfb2:blindbox_the_vault_decent",
-          "weight": 30
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_tinygates_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_toms_storage_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_toolbelt_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_torchmaster_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_transmog_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_travel_anchors_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_tropicraft_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_twigs_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_vaultbeacon_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_vaultintegrations_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_viescraftmachines_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_waystones_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_weather_control_decent",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "tfb2:blindbox_woldsvaults_decent",
+          "weight": 100
         }
       ]
     }

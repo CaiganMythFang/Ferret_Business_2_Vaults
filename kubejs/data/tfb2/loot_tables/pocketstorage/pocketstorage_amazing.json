@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "pocketstorage_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "pocketstorage:psu_4",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "pocketstorage:psu_3",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

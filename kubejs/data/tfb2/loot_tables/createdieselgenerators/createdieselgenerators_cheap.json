@@ -1,0 +1,198 @@
+{
+  "pools": [
+    {
+      "name": "createdieselgenerators_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "createdieselgenerators:asphalt_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:asphalt_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:asphalt_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:biodiesel_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:canister",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:chip_wood_beam",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:chip_wood_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:chip_wood_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:chip_wood_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:crude_oil_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:diesel_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:engine_piston",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:ethanol_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:kelp_handle",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:oil_barrel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:plant_oil_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "createdieselgenerators:wood_chip",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

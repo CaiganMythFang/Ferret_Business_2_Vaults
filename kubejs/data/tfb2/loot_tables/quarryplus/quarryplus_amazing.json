@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "quarryplus_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "quarryplus:adv_quarry",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:adv_pump",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:quarry",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:solid_fuel_quarry",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:fuel_module_normal",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:mini_quarry",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:mover",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:pump_module",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:pump_plus",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "quarryplus:mining_well",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

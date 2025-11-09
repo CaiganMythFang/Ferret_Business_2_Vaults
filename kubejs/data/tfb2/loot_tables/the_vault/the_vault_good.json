@@ -1,0 +1,725 @@
+{
+  "pools": [
+    {
+      "name": "the_vault_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "the_vault:adaptive_focus",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:altar_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:altar_chest_scroll",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:ancient_copper_conduit_block",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:artifact_fragment",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:artifact_projector_block",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:ascension_forge",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:bitter_lemon",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:black_chromatic_steel_block",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:blank_key",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:burger_pickles",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:burger_sauce",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:capstone_peaceful",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:capstone_treasure_hunter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:card_essence_extractor",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crispy_deluxe_cheese_burger",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:cryonic_focus",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_architect",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_cake",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_doomsayer",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 102
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_enchanter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_prophet",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_spirits",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_titan",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:crystal_seal_unhinged",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:echo_pog",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:ember",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:empowered_chaotic_focus",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:enigma_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:enigma_chest_scroll",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:extraordinary_echo_gem",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:hardened_wutodic_mass",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_ashium",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_bomignite",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_gorginite",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_iskallium",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_mould",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_petzanite",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_piece",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_puffium",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_sparkletine",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_tubium",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_upaline",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:key_xenium",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:large_charm",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:majestic_charm",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:mango",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:old_notes",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:omega_pog",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:phoenix_dust",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:pog_prism",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:pyretic_focus",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:resilient_focus",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:small_charm",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:sour_orange",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:spicy_hearty_burger",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:sublime_vault_elixir",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:sublime_vault_substance",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:sublime_vault_vision",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:treasure_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:treasure_chest_scroll",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:unidentified_artifact",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:unidentified_treasure_key",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:vault_artifact",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:vault_catalyst_chaos",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:vault_harvester",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:vault_palladium",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "the_vault:vault_salvager",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "the_vault:vorpal_focus",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "pools": [
+    {
+      "name": "occultism_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "occultism:afrit_essence",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_afrit",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_bound_afrit",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_bound_djinni",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_bound_foliot",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_bound_marid",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_djinni",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_foliot",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:book_of_binding_marid",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:candle_white",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_gold",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_gold_impure",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_purple",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_purple_impure",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_red",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_red_impure",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_white",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:chalk_white_impure",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:crushed_end_stone",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:gold_dust",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:iesnium_block",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:iesnium_dust",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:iesnium_ingot",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:iesnium_nugget",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:iesnium_ore_natural",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:iesnium_pickaxe",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:infused_lenses",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:infused_pickaxe",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:lens_frame",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:magic_lamp_empty",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:miner_foliot_unspecialized",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:obsidian_dust",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:otherworld_goggles",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:raw_iesnium",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:raw_silver",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:sacrificial_bowl",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:satchel",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:silver_block",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:silver_dust",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:silver_ingot",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:silver_ore",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:silver_ore_deepslate",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:soul_gem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:spirit_attuned_crystal",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "occultism:spirit_attuned_gem",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:spirit_attuned_pickaxe_head",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:storage_stabilizer_tier1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "occultism:storage_stabilizer_tier2",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

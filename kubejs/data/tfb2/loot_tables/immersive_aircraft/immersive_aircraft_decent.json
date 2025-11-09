@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "name": "immersive_aircraft_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "immersive_aircraft:airship",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:biplane",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:boiler",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:cargo_airship",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:eco_engine",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:engine",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:enhanced_propeller",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:gyrodyne",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:gyroscope",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:hull_reinforcement",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:nether_engine",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:quadrocopter",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "immersive_aircraft:steel_boiler",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

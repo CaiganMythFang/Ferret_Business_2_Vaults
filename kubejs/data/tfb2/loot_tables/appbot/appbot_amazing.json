@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "appbot_amazing",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "appbot:mana_storage_cell_256k",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "appbot:portable_mana_storage_cell_256k",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "appbot:mana_storage_cell_64k",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "appbot:portable_mana_storage_cell_64k",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "appbot:mana_storage_cell_16k",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "appbot:portable_mana_storage_cell_16k",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

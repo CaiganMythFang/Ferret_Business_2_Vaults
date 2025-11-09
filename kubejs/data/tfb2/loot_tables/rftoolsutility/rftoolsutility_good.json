@@ -1,0 +1,112 @@
+{
+  "pools": [
+    {
+      "name": "rftoolsutility_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rftoolsutility:crafter1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:featherfalling_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:glowing_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:haste_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:luck_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:nightvision_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:noteleport_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:peaceful_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:poison_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:regeneration_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:saturation_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:slowness_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:spawner",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:speed_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:waterbreathing_module",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "rftoolsutility:weakness_module",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

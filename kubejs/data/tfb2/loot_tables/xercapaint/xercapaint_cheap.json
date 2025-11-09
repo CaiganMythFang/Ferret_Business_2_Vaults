@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "xercapaint_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "xercapaint:item_canvas",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "xercapaint:item_canvas_large",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "xercapaint:item_canvas_long",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "xercapaint:item_canvas_tall",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "xercapaint:item_easel",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "xercapaint:item_palette",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

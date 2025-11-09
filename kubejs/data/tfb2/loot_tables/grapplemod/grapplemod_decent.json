@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "name": "grapplemod_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "grapplemod:baseupgradeitem",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:doubleupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:forcefieldupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:grapplinghook",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:magnetupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:motorupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:repeller",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:rocketupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:ropeupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:swingupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:throwupgradeitem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:launcheritem",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "grapplemod:staffupgradeitem",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

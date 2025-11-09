@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "appmek_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "appmek:chemical_storage_cell_16k",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "appmek:portable_chemical_storage_cell_16k",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

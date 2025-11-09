@@ -1,0 +1,386 @@
+{
+  "pools": [
+    {
+      "name": "silence_s_defense_tower_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:acid_core_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:acid_eater_level2_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:acid_eater_level3_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:amethyst_armor_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:arcane_missiles_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:arrogance",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:ball_lightning_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:ball_lightning_gennerator_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:battery_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:blood_magic_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bloodthirsty_soul_3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bronze_armor_4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:cruel_soul",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:cruel_soul_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:diamond_armor_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:driving_core_4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:electric_arc",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:electromagnetic_gun_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:electromagnetic_railgun_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:emergency_maintenance_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:enmity_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:flesh_armor_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:flesh_armor_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:fracture_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:fracture_3",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:frightened_soul",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:heavy_armor",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:heavy_crossbow_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:hell_core_3",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:impatient_soul_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:iron_armor_4",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:large_fireworks_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:leakage",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:magic_shield",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:overclock",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:overload_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:pactof_blood",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:plague_silverfish_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:precision_components_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:reinforcement_materials_2",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:shield_generator_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:tactical_chip_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:tesla_electric_tower",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:thorn_armor_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:type_a_robot_barracks_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:type_c_robot_barracks_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:type_s_robot_barracks_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:tyrant_cannon_level1_p",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:weeping_soul",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:welding_torch_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:wither_armor_1",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

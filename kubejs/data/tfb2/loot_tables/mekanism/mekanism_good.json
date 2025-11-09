@@ -1,0 +1,525 @@
+{
+  "pools": [
+    {
+      "name": "mekanism_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mekanism:advanced_induction_cell",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:advanced_induction_provider",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:alloy_atomic",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:basic_induction_cell",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:basic_induction_provider",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:block_refined_obsidian",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:chemical_crystallizer",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:chemical_dissolution_chamber",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:chemical_washer",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_combining_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_compressing_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_crushing_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_energy_cube",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_enriching_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_fluid_tank",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_infusing_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_injecting_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_purifying_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_sawing_factory",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_smelting_factory",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_tier_installer",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:elite_universal_cable",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:hdpe_elytra",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:isotopic_centrifuge",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:modification_station",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:pellet_plutonium",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_dashboard",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_drive_array",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_drive_base",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_drive_hyper_dense",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_exporter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_importer",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:qio_redstone_adapter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:quantum_entangloporter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:reprocessed_fissile_fragment",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:robit",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:security_desk",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:sps_casing",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:supercharged_coil",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:teleportation_core",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:teleporter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_bin",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_chemical_tank",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_control_circuit",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_fluid_tank",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_logistical_transporter",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_mechanical_pipe",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_pressurized_tube",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_thermodynamic_conductor",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mekanism:ultimate_universal_cable",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

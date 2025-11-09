@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "name": "entangled_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "entangled:block",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

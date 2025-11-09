@@ -1,0 +1,658 @@
+{
+  "pools": [
+    {
+      "name": "silence_s_defense_tower_decent",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:acid_core_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:acid_core_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:acid_eater_level1_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:advanced_part",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:aluminum_part",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:amethyst_armor",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:arrow_turret_leavl1_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:arrow_turret_leavl2_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:ball_lightning_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:blood_arrow_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:blood_arrow_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:blood_magic_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bloodthirsty_soul",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bloodthirsty_soul_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bouncy_ball",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:brand_new",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bronze_armor_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bronze_armor_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bronze_armor_3",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:bursts_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:candy_turret_base",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:cannon_level1_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:cannon_level2_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:counter_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:dart_launcher_level1_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:dart_launcher_level2_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:diamond_armor_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:driving_core_2",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:driving_core_3",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:dry_ice_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:dry_ice_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:electric_field_diffusion",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:emergency_maintenance_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:enmity_2",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:fracture",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:fury_chip_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:fury_chip_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:giant_dart_launcher_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:hell_core_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:hell_core_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:hellraiser_level_1_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:hellraiser_level_2_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:ice_cannon_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:impatient_soul",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:iron_armor_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:iron_armor_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:iron_armor_3",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:large_container",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:large_fireworks",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:living_lightning",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:maintenance_station0",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:miniature_electromagnetic_gun_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:molotov_cocktail_2",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:molotov_cocktail_3",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:multishot_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:nether_wart_sauce",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:overload_1",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:power_chip_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:power_chip_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:precision_components_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:quick_loading_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:quick_loading_2",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:reinforcement_materials_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:rubber_band",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:sentry_gun_p",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:soul",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:soul_container",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:strafing_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:strong_acidity_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:strong_acidity_2",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:tactical_chip_1",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:thorn_armor",
+          "weight": 150
+        },
+        {
+          "type": "item",
+          "name": "silence_s_defense_tower:welding_torch",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

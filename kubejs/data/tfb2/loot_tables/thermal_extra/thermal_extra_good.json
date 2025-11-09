@@ -1,0 +1,251 @@
+{
+  "pools": [
+    {
+      "name": "thermal_extra_good",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "thermal_extra:area_radius_augment_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:av_item_filter_augment",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_block",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_coin",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_dust",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_gear",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_glass",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_ingot",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_nugget",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dragonsteel_plate",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dynamo_fuel_augment_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dynamo_fuel_augment_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dynamo_output_augment_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:dynamo_output_augment_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:fluid_tank_augment_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:machine_catalyst_augment_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:machine_catalyst_augment_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:machine_efficiency_augment_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:machine_efficiency_augment_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:machine_output_augment_1",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:machine_output_augment_2",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:rf_coil_augment_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:rf_coil_storage_augment_1",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "thermal_extra:rf_coil_xfer_augment_1",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}
