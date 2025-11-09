@@ -11,6 +11,44 @@
         ]
       }
     ],
+    "charms": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common+",
+            "weight": 100
+          },
+          {
+            "value": "Rare+",
+            "weight": 20
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          }
+        ]
+      }
+    ],
+    "charms_dungeons": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 20
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          },
+          {
+            "value": "Omega",
+            "weight": 2
+          }
+        ]
+      }
+    ],
     "rune_boss": [
       {
         "level": 0,
@@ -39,6 +77,25 @@
             "value": "Common+",
             "weight": 8
           },
+          {
+            "value": "Rare+",
+            "weight": 4
+          },
+          {
+            "value": "Epic+",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "blacksmith_pedestal": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
           {
             "value": "Rare+",
             "weight": 4
@@ -95,6 +152,21 @@
           {
             "value": "Scrappy+",
             "weight": 40
+          }
+        ]
+      }
+    ],
+    "map_loot": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 97
+          },
+          {
+            "value": "Omega+",
+            "weight": 3
           }
         ]
       }
@@ -171,6 +243,17 @@
         ]
       }
     ],
+"blackmarket_omega_only": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
     "blackmarket_omega": [
       {
         "level": 0,
@@ -227,6 +310,25 @@
           },
           {
             "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+     "dungeon_map": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 20
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          },
+          {
+            "value": "Omega+",
             "weight": 1
           }
         ]
@@ -685,6 +787,29 @@
         ]
       }
     ],
+    "gear_treasure_map": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 40
+          },
+          {
+            "value": "Epic+",
+            "weight": 12
+          },
+          {
+            "value": "Omega",
+            "weight": 8
+          },
+          {
+            "value": "Omega+",
+            "weight": 1
+          }
+        ]
+      }
+    ],
     "gear_digsite": [
       {
         "level": 0,
@@ -760,6 +885,21 @@
           {
             "value": "Omega",
             "weight": 1
+          }
+        ]
+      }
+    ],
+    "etching_vendor": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Omega+",
+            "weight": 95
+          },
+          {
+            "value": "Mythic",
+            "weight": 4
           }
         ]
       }

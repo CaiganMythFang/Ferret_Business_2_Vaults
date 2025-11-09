@@ -62,6 +62,70 @@
             }
           }
         ]
+      },
+      {
+        "attribute": "the_vault:divine",
+        "group": "BaseDivine",
+        "identifier": "the_vault:base_divine",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 5,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:divine",
+        "group": "BaseDivine",
+        "identifier": "the_vault:base_no_divine",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 95,
+            "value": {
+              "flag": false
+            }
+          }
+        ]
+      },
+   { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 2,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_no_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 98,
+            "value": {
+              "flag": false
+            }
+          }
+        ]
       }
     ],
     "IMPLICIT": [
@@ -1562,6 +1626,84 @@
     ],
     "CORRUPTED_IMPLICIT": [
       {
+        "attribute": "the_vault:added_talent_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_talent_level_prudent",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "talentKey": "Prudent",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "talentKey": "Prudent",
+              "levelChange": 2
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_talent_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_talent_level_treasure_seeker",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "talentKey": "Treasure_Seeker",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "talentKey": "Treasure_Seeker",
+              "levelChange": 2
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_talent_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_talent_level_harvest",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "talentKey": "Bountiful_Harvest",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "talentKey": "Bountiful_Harvest",
+              "levelChange": 2
+            }
+          }
+        ]
+      },
+      {
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_totem",
@@ -2036,26 +2178,6 @@
             "weight": 60,
             "value": {
               "abilityKey": "Vein_Miner_Chain",
-              "levelChange": 1
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlUtility",
-        "identifier": "the_vault:corrupted_added_ability_level_veinminervoid",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerVeinMiner"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Vein_Miner_Void",
               "levelChange": 1
             }
           }
@@ -2676,6 +2798,197 @@
             "weight": 30,
             "value": {
               "abilityKey": "Storm_Arrow_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:corrupted_added_ability_level_arcane",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerArcane"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Arcane_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:corrupted_added_ability_level_arcane_rail",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerArcaneRail"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Arcane_Rail",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:corrupted_added_ability_level_lightning_strike",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerLightningStrike"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Chain_Lightning_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:corrupted_added_ability_level_lightning_orbs",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerLightningOrbs"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Chain_Lightning_Orbs",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:corrupted_added_ability_level_grenade_toxic",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerGrenadeToxic"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Toxic_Grenade",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_ability_level_implode_life_tap",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityImplodeLifeTap"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Implode_Life_Tap",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_ability_level_earthquake",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerEarthquake"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Earthquake_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_ability_level_landmine",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityLandmine"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Earthquake_Landmine",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlBuff",
+        "identifier": "the_vault:corrupted_added_ability_level_grenade_chaos",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityGrenadeChaos"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Grenade_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlUtility",
+        "identifier": "the_vault:corrupted_added_ability_level_shield_bash",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerShieldBash"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Shield_Bash",
               "levelChange": 1
             }
           }
