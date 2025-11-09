@@ -2,16 +2,20 @@
   "tile_processors": [
     {
       "type": "reference",
+      "id": "the_vault:generic/ore_placeholder_sandsworn"
+    },
+    {
+      "type": "reference",
       "id": "the_vault:generic/treasure_door_placeholder"
     },
     {
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:deepslate": 49,
-        "minecraft:cobbled_deepslate": 49,
-        "minecraft:smooth_basalt": 49,
-        "minecraft:basalt": 49,
+        "minecraft:deepslate": 40,
+        "minecraft:cobbled_deepslate": 40,
+        "minecraft:smooth_basalt": 40,
+        "minecraft:basalt": 40,
         "tfb2:glitched_deepslate_cobble": 1
       }
     },
@@ -19,11 +23,10 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:cobbled_deepslate": 49,
-        "minecraft:smooth_basalt": 49,
-        "minecraft:tuff": 49,
-        "create:cut_tuff": 49,
-        "tfb2:glitched_deepslate_cobble": 1
+        "minecraft:cobbled_deepslate": 1,
+        "minecraft:smooth_basalt": 1,
+        "minecraft:tuff": 1,
+        "create:cut_tuff": 1
       }
     },
     {
@@ -45,11 +48,10 @@
       "type": "weighted_target",
       "target": "minecraft:coarse_dirt",
       "output": {
-        "minecraft:coarse_dirt": 53,
-        "minecraft:rooted_dirt": 53,
-        "minecraft:terracotta": 46,
-        "auxiliaryblocks:rocky_dirt": 27,
-        "minecraft:dripstone_block": 20,
+        "minecraft:coarse_dirt": 4,
+        "minecraft:rooted_dirt": 2,
+        "minecraft:brown_concrete_powder": 2,
+        "minecraft:dirt": 4,
         "tfb2:glitched_dirt": 1
       }
     },
@@ -181,7 +183,6 @@
       "target": "minecraft:grass",
       "output": {
         "minecraft:dead_bush": 4,
-        "minecraft:pointed_dripstone": 2,
         "quark:glow_shroom": 1,
         "minecraft:air": 7
       }
@@ -190,21 +191,21 @@
       "type": "weighted_target",
       "target": "minecraft:tall_grass[half=lower]",
       "output": {
-        "minecraft:pointed_dripstone[thickness=frustum,vertical_direction=up]": 1
+        "minecraft:air": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:tall_grass[half=upper]",
       "output": {
-        "minecraft:pointed_dripstone[thickness=tip,vertical_direction=up]": 1
+        "minecraft:air": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:twisting_vines_plant",
       "output": {
-        "minecraft:cactus": 1
+        "minecraft:grass": 1
       }
     },
     {
@@ -225,21 +226,23 @@
       "type": "weighted_target",
       "target": "minecraft:lime_wool",
       "output": {
-        "ecologics:walnut_leaves": 1
+        "ecologics:walnut_leaves": 10,
+        "minecraft:oak_leaves": 15
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cyan_wool",
       "output": {
-        "ecologics:walnut_leaves": 1
+        "ecologics:walnut_leaves": 1,
+        "minecraft:oak_leaves": 10
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_log",
       "output": {
-        "minecraft:spruce_log": 1
+        "minecraft:oak_log": 1
       }
     },
     {
@@ -260,51 +263,51 @@
       "type": "weighted_target",
       "target": "minecraft:oak_planks",
       "output": {
-        "minecraft:dark_oak_planks": 1
+        "minecraft:oak_planks": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_fence",
       "output": {
-        "minecraft:dark_oak_fence": 1
+        "minecraft:oak_fence": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_slab",
       "output": {
-        "minecraft:dark_oak_slab": 1
+        "minecraft:oak_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_trapdoor",
       "output": {
-        "mcwtrpdoors:dark_oak_cottage_trapdoor": 3,
-        "mcwtrpdoors:dark_oak_tropical_trapdoor": 1
+        "mcwtrpdoors:oak_cottage_trapdoor": 3,
+        "mcwtrpdoors:oak_tropical_trapdoor": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_stairs",
       "output": {
-        "minecraft:dark_oak_stairs": 1
+        "minecraft:oak_stairs": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_fence_gate",
       "output": {
-        "minecraft:dark_oak_fence_gate": 1
+        "minecraft:oak_fence_gate": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_door",
       "output": {
-        "mcwdoors:dark_oak_cottage_door": 2,
-        "mcwdoors:dark_oak_classic_door": 1
+        "mcwdoors:oak_cottage_door": 2,
+        "mcwdoors:oak_classic_door": 1
       }
     },
     {
@@ -480,23 +483,16 @@
     },
     {
       "type": "weighted_target",
-      "target": "minecraft:bookshelf",
-      "output": {
-        "quark:dark_oak_bookshelf": 1
-      }
-    },
-    {
-      "type": "weighted_target",
       "target": "ecologics:azalea_log",
       "output": {
-        "minecraft:spruce_log": 1
+        "minecraft:oak_log": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "ecologics:azalea_fence",
       "output": {
-        "minecraft:dark_oak_fence": 1
+        "minecraft:oak_fence": 1
       }
     },
     {
@@ -510,21 +506,21 @@
       "type": "weighted_target",
       "target": "quark:azalea_log",
       "output": {
-        "minecraft:spruce_log": 1
+        "minecraft:oak_log": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "quark:azalea_planks",
       "output": {
-        "minecraft:spruce_log": 1
+        "minecraft:oak_log": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "quark:azalea_planks_stairs",
       "output": {
-        "minecraft:dark_oak_stairs": 1
+        "minecraft:oak_stairs": 1
       }
     },
     {
@@ -559,7 +555,7 @@
       "type": "weighted_target",
       "target": "decorative_blocks:oak_support",
       "output": {
-        "decorative_blocks:dark_oak_support": 1
+        "decorative_blocks:oak_support": 1
       }
     },
     {

@@ -2,13 +2,17 @@
     "tile_processors": [
         {
             "type": "reference",
+            "id": "the_vault:generic/ore_placeholder_sandsworn"
+        },
+        {
+            "type": "reference",
             "id": "the_vault:generic/treasure_door_placeholder"
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:orange_terracotta": 1
+                "minecraft:terracotta": 1
             }
         },
         {
@@ -30,10 +34,13 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:red_sandstone": 19,
-                "minecraft:smooth_red_sandstone": 90,
-                "minecraft:red_sand": 90,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:red_sandstone": 0,
+                "minecraft:smooth_red_sandstone": 0,
+                "minecraft:red_sand": 0,
+                "minecraft:coarse_dirt": 4,
+                "minecraft:dirt": 4,
+                "minecraft:rooted_dirt": 2,
+                "minecraft:brown_concrete_powder": 4
                 
             }
         },
@@ -41,17 +48,17 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:terracotta": 1
+                "minecraft:dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 105,
-                "minecraft:rooted_dirt": 27,
-                "minecraft:dirt": 67,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 400,
+                "minecraft:rooted_dirt": 100,
+                "minecraft:dirt": 200,
+                "tfb2:glitched_dirt": 3
             }
         },
         {
@@ -93,7 +100,8 @@
             "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
-                "minecraft:spruce_log": 1
+                "minecraft:spruce_log": 199,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
@@ -201,14 +209,14 @@
             "type": "weighted_target",
             "target": "minecraft:twisting_vines",
             "output": {
-                "minecraft:cactus": 1
+                "minecraft:air": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:fern",
             "output": {
-                "quark:glow_lichen_growth": 1
+                "minecraft:fern": 1
             }
         },
         {
@@ -222,7 +230,7 @@
             "type": "weighted_target",
             "target": "minecraft:cyan_wool",
             "output": {
-                "minecraft:air": 1
+                "minecraft:orange_terracotta": 1
             }
         },
         {
@@ -243,7 +251,7 @@
             "type": "weighted_target",
             "target": "minecraft:oak_leaves",
             "output": {
-                "minecraft:air": 1
+                "ecologics:walnut_leaves": 1
             }
         },
         {
@@ -301,42 +309,42 @@
             "type": "weighted_target",
             "target": "minecraft:stone_bricks",
             "output": {
-                "minecraft:deepslate_bricks": 1
+                "minecraft:stripped_jungle_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_brick_stairs",
             "output": {
-                "minecraft:deepslate_brick_stairs": 1
+                "minecraft:jungle_stairs": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "create:andesite_pillar",
             "output": {
-                "minecraft:cobbled_deepslate": 1
+                "minecraft:stripped_jungle_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:chiseled_stone_bricks",
             "output": {
-                "minecraft:polished_deepslate": 1
+                "minecraft:stripped_jungle_wood": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_brick_slab",
             "output": {
-                "minecraft:deepslate_brick_slab": 1
+                "minecraft:jungle_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:stone_brick_vertical_slab",
             "output": {
-                "quark:deepslate_brick_vertical_slab": 1
+                "quark:jungle_vertical_slab": 1
             }
         },
         {
@@ -350,45 +358,44 @@
             "type": "weighted_target",
             "target": "minecraft:stone_brick_wall",
             "output": {
-                "minecraft:deepslate_brick_wall": 1
+                "architects_palette:jungle_board_wall": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_wall",
             "output": {
-                "minecraft:cobbled_deepslate_wall": 3,
-                "minecraft:deepslate_brick_wall": 1
+                "architects_palette:jungle_board_wall": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_stairs",
             "output": {
-                "minecraft:cobbled_deepslate_stairs": 3,
-                "minecraft:deepslate_brick_stairs": 1
+                "minecraft:jungle_stairs": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:mossy_stone_bricks",
             "output": {
-                "minecraft:cracked_deepslate_bricks": 1
+                "minecraft:cracked_stripped_jungle_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:mossy_cobblestone",
             "output": {
-                "minecraft:cobbled_deepslate": 1
+                "buildersdelight:jungle_planks_1": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:green_concrete",
             "output": {
-                "minecraft:red_sand": 1,
-                "minecraft:red_sandstone": 2
+                "minecraft:dirt": 6,
+                "minecraft:coarse_dirt": 4,
+                "minecraft:brown_concrete_powder": 1
             }
         },
         {
@@ -493,7 +500,7 @@
             "type": "weighted_target",
             "target": "create:cut_crimsite_wall",
             "output": {
-                "minecraft:cobbled_deepslate_wall": 1
+                "architects_palette:jungle_board_wall": 1
             }
         },
         {
@@ -521,14 +528,14 @@
             "type": "weighted_target",
             "target": "create:cut_veridium_wall",
             "output": {
-                "minecraft:cobbled_deepslate_wall": 1
+                "architects_palette:jungle_board_wall": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:sand",
             "output": {
-                "minecraft:orange_concrete_powder": 1
+                "minecraft:brown_concrete_powder": 1
             }
         },
         {
@@ -556,29 +563,28 @@
             "type": "weighted_target",
             "target": "minecraft:end_stone_bricks",
             "output": {
-                "minecraft:polished_deepslate": 7,
-                "minecraft:deepslate": 1
+                "minecraft:stripped_jungle_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:end_stone_brick_stairs",
             "output": {
-                "minecraft:polished_deepslate_stairs": 1
+                "minecraft:jungle_stairs": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:end_stone_brick_slab",
             "output": {
-                "minecraft:polished_deepslate_slab": 1
+                "minecraft:jungle_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:end_stone",
             "output": {
-                "create:deepslate_pillar": 1
+                "buildersdelight:jungle_planks_5": 1
             }
         },
         {

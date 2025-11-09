@@ -13,12 +13,42 @@
           "modifierFailurePool": "the_vault:altar_curses",
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "woldsvaults:god_offering",
                 "nbt": {
-                  "type": "velara"
+                  "god": "VELARA"
                 }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:altar_chest_scroll"
               }
             }
           ],
@@ -40,12 +70,42 @@
           "weight": 1,
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "woldsvaults:god_offering",
                 "nbt": {
-                  "type": "tenos"
+                  "god": "TENOS"
                 }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:altar_chest_scroll"
               }
             }
           ]
@@ -66,12 +126,42 @@
           "weight": 1,
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "woldsvaults:god_offering",
                 "nbt": {
-                  "type": "wendarr"
+                  "god": "WENDARR"
                 }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:altar_chest_scroll"
               }
             }
           ]
@@ -92,12 +182,42 @@
           "weight": 1,
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "woldsvaults:god_offering",
                 "nbt": {
-                  "type": "idona"
+                  "god": "IDONA"
                 }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:altar_chest_scroll"
               }
             }
           ]
@@ -201,8 +321,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 8,
-                    "max": 16
+                    "min": 4,
+                    "max": 8
                   }
                 },
                 "renderer": {
@@ -221,8 +341,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 16,
-                    "max": 32
+                    "min": 4,
+                    "max": 10
                   }
                 },
                 "renderer": {
@@ -473,8 +593,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 16,
-                    "max": 34
+                    "min": 4,
+                    "max": 8
                   }
                 },
                 "renderer": {
@@ -725,8 +845,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 24,
-                    "max": 42
+                    "min": 6,
+                    "max": 12
                   }
                 },
                 "renderer": {
@@ -977,8 +1097,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 28,
-                    "max": 50
+                    "min": 6,
+                    "max": 10
                   }
                 },
                 "renderer": {
@@ -1229,8 +1349,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 28,
-                    "max": 52
+                    "min": 8,
+                    "max": 12
                   }
                 },
                 "renderer": {

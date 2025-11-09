@@ -12,19 +12,21 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:polished_blackstone_bricks": 5,
-                "supplementaries:blackstone_tile": 3,
-                "minecraft:polished_blackstone": 2
+                "minecraft:polished_blackstone_bricks": 100,
+                "supplementaries:blackstone_tile": 60,
+                "minecraft:polished_blackstone": 40,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "architects_palette:weeping_blackstone": 2,
-                "architects_palette:sunstone": 1,
-                "minecraft:magma_block": 2,
-                "minecraft:blackstone": 5
+                "architects_palette:weeping_blackstone": 40,
+                "architects_palette:sunstone": 20,
+                "minecraft:magma_block": 40,
+                "minecraft:blackstone": 100,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
@@ -40,17 +42,16 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:crimson_nylium": 69,
-                "minecraft:netherrack": 130,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:crimson_nylium": 100,
+                "minecraft:netherrack": 300,
+                "tfb2:glitched_crimsite": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:crimson_nylium": 199,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:crimson_nylium": 1
             }
         },
         {
@@ -605,7 +606,7 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/nether_elite_spawners"
+            "id": "the_vault:generic/common_elite_spawners"
         },
         {
             "type": "template_stack_tile",

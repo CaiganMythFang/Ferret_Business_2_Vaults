@@ -8,9 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "chipped:deepslate_67": 80,
-                "chipped:deepslate_7": 80,
-                "chipped:deepslate_24": 39,
+                "chipped:deepslate_67": 55,
+                "chipped:deepslate_7": 45,
+                "chipped:deepslate_24": 30,
                 "tfb2:glitched_deepslate_cobble": 1
             }
         },
@@ -18,18 +18,19 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "davebuildingmod:gray_steel_seamless": 2,
-                "chipped:deepslate_62": 3,
-                "rechiseled:cobbled_deepslate_bricks": 3,
-                "chipped:deepslate_8": 2
+                "davebuildingmod:gray_steel_seamless": 40,
+                "chipped:deepslate_62": 60,
+                "rechiseled:cobbled_deepslate_bricks": 60,
+                "chipped:deepslate_8": 40,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "chipped:deepslate_50": 99,
-                "chipped:deepslate_53": 99,
+                "chipped:deepslate_50": 100,
+                "chipped:deepslate_53": 100,
                 "tfb2:glitched_deepslate_cobble": 1
             }
         },
@@ -58,8 +59,8 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "chipped:deepslate_7": 99,
-                "rechiseled:cobbled_deepslate_bricks": 99,
+                "chipped:deepslate_7": 85,
+                "rechiseled:cobbled_deepslate_bricks": 95,
                 "tfb2:glitched_deepslate_cobble": 1
             }
         },
@@ -106,7 +107,8 @@
             "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
-                "minecraft:dark_oak_log": 1
+                "minecraft:dark_oak_log": 199,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {

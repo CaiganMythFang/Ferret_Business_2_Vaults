@@ -19,8 +19,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "architects_palette:oak_boards": 1,
-                "minecraft:oak_planks": 1
+                "architects_palette:oak_boards": 100,
+                "minecraft:oak_planks": 100,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
@@ -53,9 +54,9 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:smooth_sandstone": 66,
-                "minecraft:sand": 66,
-                "auxiliaryblocks:dirty_sand": 66,
+                "minecraft:smooth_sandstone": 135,
+                "minecraft:sand": 135,
+                "auxiliaryblocks:dirty_sand": 130,
                 "tfb2:glitched_sandstone": 1
             }
         },
@@ -604,6 +605,10 @@
             "output": {
                 "twigs:stripped_bundled_bamboo": 1
             }
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/oasis_coin_stack_placeholder"
         },
         {
             "type": "reference",

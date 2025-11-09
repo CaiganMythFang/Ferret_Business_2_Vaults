@@ -36,21 +36,21 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 40,
-                "auxiliaryblocks:dirty_sand": 79,
-                "auxiliaryblocks:rocky_sand": 79,
-                "tfb2:glitched_dirt": 1
+                "minecraft:sand": 120,
+                "auxiliaryblocks:dirty_sand": 140,
+                "auxiliaryblocks:rocky_sand": 140,
+                "tfb2:glitched_sandstone": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:spruce_wood": 49,
-                "minecraft:stripped_dark_oak_wood": 49,
-                "minecraft:dark_oak_planks": 49,
-                "architects_palette:dark_oak_boards": 49,
-                "tfb2:glitched_dark_oak_log": 1
+                "minecraft:spruce_wood": 100,
+                "minecraft:stripped_dark_oak_wood": 100,
+                "minecraft:dark_oak_planks": 100,
+                "architects_palette:dark_oak_boards": 100,
+                "tfb2:glitched_dark_oak_log": 2
             }
         },
         {
@@ -606,6 +606,10 @@
             "output": {
                 "ecologics:stripped_walnut_wood": 1
             }
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/oasis_coin_stack_placeholder"
         },
         {
             "type": "reference",

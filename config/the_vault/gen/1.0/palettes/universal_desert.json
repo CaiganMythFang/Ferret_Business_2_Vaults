@@ -2,15 +2,19 @@
     "tile_processors": [
         {
             "type": "reference",
+            "id": "the_vault:generic/ore_placeholder_sandsworn"
+        },
+        {
+            "type": "reference",
             "id": "the_vault:generic/treasure_door_placeholder"
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:smooth_sandstone": 70,
-                "minecraft:sandstone": 70,
-                "auxiliaryblocks:dirty_sand": 39,
+                "minecraft:smooth_sandstone": 60,
+                "minecraft:sandstone": 60,
+                "auxiliaryblocks:dirty_sand": 40,
                 "quark:sandstone_bricks": 20,
                 "tfb2:glitched_sandstone": 1
             }
@@ -19,10 +23,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_sandstone": 66,
-                "minecraft:sandstone": 66,
-                "quark:sandstone_bricks": 66,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:smooth_sandstone": 100,
+                "minecraft:sandstone": 100,
+                "quark:sandstone_bricks": 100,
+                "tfb2:glitched_sandstone": 2
             }
         },
         {
@@ -40,8 +44,7 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 199,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:sand": 1
             }
         },
         {
@@ -56,9 +59,9 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "auxiliaryblocks:cobbled_sandstone": 66,
-                "auxiliaryblocks:dirty_sand": 84,
-                "auxiliaryblocks:rocky_sand": 49,
+                "auxiliaryblocks:cobbled_sandstone": 60,
+                "auxiliaryblocks:dirty_sand": 80,
+                "auxiliaryblocks:rocky_sand": 40,
                 "tfb2:glitched_sandstone": 1
             }
         },
@@ -66,10 +69,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone_slab",
             "output": {
-                "minecraft:sandstone_slab": 66,
-                "minecraft:sand": 66,
-                "minecraft:sandstone": 66,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:sandstone_slab": 1,
+                "minecraft:sand": 1,
+                "minecraft:sandstone": 1
             }
         },
         {

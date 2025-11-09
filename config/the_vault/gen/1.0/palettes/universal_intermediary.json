@@ -8,9 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "the_vault:vault_stone_bricks": 130,
-                "the_vault:polished_vault_stone": 69,
-                "tfb2:glitched_vault_cobble": 1
+                "the_vault:vault_stone_bricks": 300,
+                "the_vault:polished_vault_stone": 100,
+                "tfb2:glitched_vault_cobble": 2
             }
         },
         {
@@ -24,9 +24,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "the_vault:vault_stone_bricks": 3,
-                "the_vault:polished_vault_stone": 1,
-                "auxiliaryblocks:white_crystal": 1
+                "the_vault:vault_stone_bricks": 300,
+                "the_vault:polished_vault_stone": 100,
+                "auxiliaryblocks:white_crystal": 10,
+                "tfb2:glitched_vault_cobble": 4
             }
         },
         {
@@ -95,7 +96,8 @@
             "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
-                "minecraft:oak_log": 1
+                "minecraft:oak_log": 199,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {

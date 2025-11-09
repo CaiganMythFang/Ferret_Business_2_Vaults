@@ -12,9 +12,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:netherrack": 134,
-                "minecraft:crimson_planks": 36,
-                "minecraft:warped_hyphae": 29,
+                "minecraft:netherrack": 175,
+                "minecraft:crimson_planks": 115,
+                "minecraft:warped_hyphae": 110,
                 "tfb2:glitched_crimsite": 1
             }
         },
@@ -32,8 +32,9 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:blackstone": 60,
-                "minecraft:polished_blackstone": 40
+                "minecraft:blackstone": 160,
+                "minecraft:polished_blackstone": 140,
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
         {
@@ -84,9 +85,10 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:netherrack": 75,
-                "minecraft:crimson_planks": 15,
-                "minecraft:warped_hyphae": 10
+                "minecraft:netherrack": 175,
+                "minecraft:crimson_planks": 115,
+                "minecraft:warped_hyphae": 110,
+                "tfb2:glitched_crimsite": 2
             }
         },
         {
@@ -610,7 +612,7 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/nether_elite_spawners"
+            "id": "the_vault:generic/common_elite_spawners"
         },
         {
             "type": "template_stack_tile",

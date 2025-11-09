@@ -2,6 +2,10 @@
     "tile_processors": [
         {
             "type": "reference",
+            "id": "the_vault:generic/ore_placeholder_snowfell"
+        },
+        {
+            "type": "reference",
             "id": "the_vault:generic/treasure_door_placeholder"
         },
         {
@@ -16,18 +20,19 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "ecologics:snow_bricks": 2,
-                "everycomp:ap/the_vault/chromatic_boards": 1
+                "ecologics:snow_bricks": 200,
+                "everycomp:ap/the_vault/chromatic_boards": 100,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "everycomp:ap/the_vault/chromatic_boards": 117,
-                "ecologics:snow_bricks": 41,
-                "minecraft:snow_block": 41,
-                "tfb2:glitched_snow_block": 1
+                "everycomp:ap/the_vault/chromatic_boards": 300,
+                "ecologics:snow_bricks": 200,
+                "minecraft:snow_block": 100,
+                "tfb2:glitched_snow_block": 2
             }
         },
         {
@@ -600,7 +605,7 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/ice_elite_spawners"
+            "id": "the_vault:generic/common_elite_spawners"
         },
         {
             "type": "template_stack_tile",

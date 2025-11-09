@@ -12,19 +12,20 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "quark:smooth_soul_sandstone": 5,
-                "quark:soul_sandstone_bricks": 2,
-                "quark:soul_sandstone": 3
+                "quark:smooth_soul_sandstone": 150,
+                "quark:soul_sandstone_bricks": 120,
+                "quark:soul_sandstone": 130,
+                "tfb2:glitched_sandstone": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:soul_soil": 113,
-                "minecraft:dark_oak_wood": 43,
-                "minecraft:brown_terracotta": 43,
-                "tfb2:glitched_dark_oak_log": 1
+                "minecraft:soul_soil": 300,
+                "minecraft:dark_oak_wood": 100,
+                "minecraft:brown_terracotta": 100,
+                "tfb2:glitched_dark_oak_log": 3
             }
         },
         {
@@ -54,7 +55,7 @@
             "target": "minecraft:coarse_dirt",
             "output": {
                 "minecraft:warped_nylium": 3,
-                "minecraft:warped_wart_block": 2
+                "create:veridium": 2
             }
         },
         {
@@ -595,7 +596,7 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/nether_elite_spawners"
+            "id": "the_vault:generic/common_elite_spawners"
         },
         {
             "type": "template_stack_tile",

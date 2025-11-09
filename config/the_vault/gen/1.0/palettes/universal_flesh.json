@@ -12,8 +12,8 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "create:cut_crimsite": 99,
-                "create:crimsite": 99,
+                "create:cut_crimsite": 100,
+                "create:crimsite": 100,
                 "tfb2:glitched_crimsite": 1
             }
         },
@@ -21,9 +21,10 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stripped_crimson_hyphae": 11,
-                "minecraft:stripped_crimson_stem": 7,
-                "architects_palette:salmon_scales": 2
+                "minecraft:stripped_crimson_hyphae": 110,
+                "minecraft:stripped_crimson_stem": 70,
+                "architects_palette:salmon_scales": 20,
+                "tfb2:glitched_crimsite": 1
             }
         },
         {
@@ -39,8 +40,8 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "create:cut_crimsite": 99,
-                "architects_palette:salmon_scales": 99,
+                "create:cut_crimsite": 100,
+                "architects_palette:salmon_scales": 100,
                 "tfb2:glitched_crimsite": 1
             }
         },
@@ -56,9 +57,8 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "create:cut_crimsite": 99,
-                "quark:netherrack_bricks": 99,
-                "tfb2:glitched_crimsite": 1
+                "create:cut_crimsite": 1,
+                "quark:netherrack_bricks": 1
             }
         },
         {

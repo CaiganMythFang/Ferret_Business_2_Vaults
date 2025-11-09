@@ -12,10 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:netherrack": 134,
-                "minecraft:crimson_hyphae": 36,
-                "minecraft:crimson_planks": 29,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:netherrack": 750,
+                "minecraft:crimson_hyphae": 150,
+                "minecraft:crimson_planks": 100,
+                "tfb2:glitched_crimsite": 5
             }
         },
         {
@@ -40,15 +40,14 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:crimson_nylium": 199,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:crimson_nylium": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:netherrack": 199,
+                "minecraft:netherrack": 200,
                 "tfb2:glitched_crimsite": 1
             }
         },
@@ -85,9 +84,10 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:netherrack": 75,
-                "minecraft:crimson_hyphae": 15,
-                "minecraft:crimson_planks": 10
+                "minecraft:netherrack": 145,
+                "minecraft:crimson_hyphae": 35,
+                "minecraft:crimson_planks": 30,
+                "tfb2:glitched_crimsite": 1
             }
         },
         {
@@ -606,7 +606,7 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/nether_elite_spawners"
+            "id": "the_vault:generic/common_elite_spawners"
         },
         {
             "type": "template_stack_tile",

@@ -12,8 +12,7 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 199,
-            "tfb2:glitched_snow_block": 1
+            "minecraft:snow_block": 1
           }
         },
         {
@@ -21,9 +20,8 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 130,
-            "minecraft:powder_snow": 69,
-            "tfb2:glitched_snow_block": 1
+            "minecraft:snow_block": 9,
+            "minecraft:powder_snow": 1
           }
         }
       ]
@@ -32,11 +30,10 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "auxiliaryblocks:drippy_icing_block": 80,
-        "quark:white_corundum": 40,
-        "auxiliaryblocks:white_crystal": 40,
-        "ecologics:snow_bricks": 40,
-        "tfb2:glitched_snow_block": 1
+        "auxiliaryblocks:drippy_icing_block": 2,
+        "quark:white_corundum": 1,
+        "auxiliaryblocks:white_crystal": 1,
+        "ecologics:snow_bricks": 1
       }
     },
     {
@@ -67,8 +64,9 @@
       "type": "weighted_target",
       "target": "minecraft:coarse_dirt",
       "output": {
-        "architects_palette:dark_oak_boards": 2,
-        "minecraft:brown_terracotta": 1
+        "architects_palette:dark_oak_boards": 200,
+        "minecraft:brown_terracotta": 100,
+        "tfb2:glitched_dark_oak_log": 2
       }
     },
     {

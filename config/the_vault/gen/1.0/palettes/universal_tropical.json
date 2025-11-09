@@ -8,10 +8,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "tropicraft:purified_sand": 33,
-                "tropicraft:mineral_sand": 33,
-                "chipped:andesite_7": 133,
-                "tfb2:glitched_sandstone": 1
+                "tropicraft:purified_sand": 100,
+                "tropicraft:mineral_sand": 100,
+                "chipped:andesite_7": 300,
+                "tfb2:glitched_sandstone": 2
             }
         },
         {
@@ -35,9 +35,9 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 86,
-                "tropicraft:mineral_sand": 46,
-                "tropicraft:purified_sand": 67,
+                "minecraft:sand": 145,
+                "tropicraft:mineral_sand": 125,
+                "tropicraft:purified_sand": 130,
                 "tfb2:glitched_sandstone": 1
             }
         },
@@ -618,6 +618,10 @@
                 "THEME_TROPICAL",
                 "THEME_CATEGORY_TROPICAL"
             ]
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/oasis_coin_stack_placeholder"
         },
         {
             "type": "template_stack_spawner",

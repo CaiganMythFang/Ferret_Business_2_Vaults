@@ -30,8 +30,8 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:deepslate": 113,
-                "create:layered_deepslate": 86,
+                "minecraft:deepslate": 85,
+                "create:layered_deepslate": 75,
                 "tfb2:glitched_deepslate_cobble": 1
             }
         },
@@ -89,9 +89,10 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "quark:waxed_violet_corundum": 2,
-                "mcwwindows:purple_mosaic_glass": 1,
-                "auxiliaryblocks:purple_gelatin": 2
+                "quark:waxed_violet_corundum": 200,
+                "mcwwindows:purple_mosaic_glass": 100,
+                "auxiliaryblocks:purple_gelatin": 200,
+                "tfb2:glitched_purple_terracotta": 4
             }
         },
         {

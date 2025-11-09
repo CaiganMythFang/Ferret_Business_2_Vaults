@@ -2,6 +2,10 @@
   "tile_processors": [
     {
       "type": "reference",
+      "id": "the_vault:generic/ore_placeholder_snowfell"
+    },
+    {
+      "type": "reference",
       "id": "the_vault:generic/treasure_door_placeholder"
     },
     {
@@ -51,8 +55,7 @@
           "type": "weighted_target",
           "target": "minecraft:grass_block",
           "output": {
-            "minecraft:snow_block": 199,
-            "tfb2:glitched_snow_block": 1
+            "minecraft:snow_block": 1
           }
         },
         {
@@ -60,8 +63,7 @@
           "type": "weighted_target",
           "target": "minecraft:grass_block",
           "output": {
-            "minecraft:snow_block": 199,
-            "tfb2:glitched_snow_block": 1
+            "minecraft:snow_block": 39
           }
         }
       ]
@@ -656,7 +658,7 @@
     },
     {
       "type": "reference",
-      "id": "the_vault:generic/ice_elite_spawners"
+      "id": "the_vault:generic/common_elite_spawners"
     },
     {
       "type": "template_stack_tile",

@@ -2,6 +2,10 @@
     "tile_processors": [
         {
             "type": "reference",
+            "id": "the_vault:generic/ore_placeholder_deepcrag"
+        },
+        {
+            "type": "reference",
             "id": "the_vault:generic/treasure_door_placeholder"
         },
 	{
@@ -25,18 +29,17 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:cobbled_deepslate": 99,
-                "minecraft:smooth_basalt": 99,
-                "tfb2:glitched_deepslate_cobble": 1
+                "minecraft:cobbled_deepslate": 1,
+                "minecraft:smooth_basalt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:dirt": 43,
-                "minecraft:rooted_dirt": 43,
-                "auxiliaryblocks:rocky_dirt": 113,
+                "minecraft:dirt": 20,
+                "minecraft:rooted_dirt": 20,
+                "auxiliaryblocks:rocky_dirt": 60,
                 "tfb2:glitched_dirt": 1
             }
         },
@@ -44,8 +47,8 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:podzol": 64,
-                "minecraft:coarse_dirt": 135,
+                "minecraft:podzol": 30,
+                "minecraft:coarse_dirt": 70,
                 "tfb2:glitched_dirt": 1
             }
         },

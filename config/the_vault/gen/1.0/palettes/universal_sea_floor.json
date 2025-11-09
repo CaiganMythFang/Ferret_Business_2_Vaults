@@ -8,27 +8,26 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:sandstone": 40,
-        "minecraft:smooth_sandstone": 85,
-        "auxiliaryblocks:rocky_sand": 34,
-        "auxiliaryblocks:cobbled_sandstone": 40,
-        "tfb2:glitched_sandstone": 1
+        "minecraft:sandstone": 120,
+        "minecraft:smooth_sandstone": 130,
+        "auxiliaryblocks:rocky_sand": 110,
+        "auxiliaryblocks:cobbled_sandstone": 120,
+        "tfb2:glitched_sandstone": 3
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:sandstone": 22,
-        "minecraft:smooth_sandstone": 33,
-        "auxiliaryblocks:rocky_sand": 11,
-        "auxiliaryblocks:cobbled_sandstone": 22,
-        "auxiliaryblocks:cyan_gelatin": 44,
-        "quark:glow_shroom_block": 22,
-        "minecraft:cyan_concrete": 11,
-        "auxiliaryblocks:lab_cyan": 11,
-        "auxiliaryblocks:blue_crystal": 22,
-        "tfb2:glitched_sandstone": 1
+        "minecraft:sandstone": 2,
+        "minecraft:smooth_sandstone": 3,
+        "auxiliaryblocks:rocky_sand": 1,
+        "auxiliaryblocks:cobbled_sandstone": 2,
+        "auxiliaryblocks:cyan_gelatin": 4,
+        "quark:glow_shroom_block": 2,
+        "minecraft:cyan_concrete": 1,
+        "auxiliaryblocks:lab_cyan": 1,
+        "auxiliaryblocks:blue_crystal": 2
       }
     },
     {
@@ -46,8 +45,9 @@
       "type": "weighted_target",
       "target": "minecraft:oak_planks",
       "output": {
-        "minecraft:oak_planks": 1,
-        "minecraft:jungle_planks": 1
+        "minecraft:oak_planks": 100,
+        "minecraft:jungle_planks": 100,
+        "tfb2:glitched_dark_oak_log": 1
       }
     },
     {
@@ -72,8 +72,9 @@
       "type": "weighted_target",
       "target": "minecraft:dirt",
       "output": {
-        "minecraft:sand": 1,
-        "auxiliaryblocks:dirty_sand": 1
+        "minecraft:sand": 100,
+        "auxiliaryblocks:dirty_sand": 100,
+        "tfb2:glitched_sandstone": 1
       }
     },
     {
@@ -90,16 +91,18 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone_slab",
       "output": {
-        "minecraft:smooth_sandstone_slab": 1,
-        "minecraft:sandstone_slab": 1
+        "minecraft:smooth_sandstone_slab": 100,
+        "minecraft:sandstone_slab": 100,
+        "tfb2:glitched_sandstone": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:stone_slab",
       "output": {
-        "minecraft:smooth_sandstone_slab": 1,
-        "minecraft:sandstone_slab": 1
+        "minecraft:smooth_sandstone_slab": 100,
+        "minecraft:sandstone_slab": 100,
+        "tfb2:glitched_sandstone": 1
       }
     },
     {
@@ -641,6 +644,10 @@
         "minecraft:sea_lantern": 1
       }
     },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/oasis_coin_stack_placeholder"
+  },
     {
       "type": "reference",
       "id": "the_vault:generic/room_base"

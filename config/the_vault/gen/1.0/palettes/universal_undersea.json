@@ -22,10 +22,10 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:sandstone": 43,
-        "minecraft:smooth_sandstone": 85,
-        "auxiliaryblocks:rocky_sand": 28,
-        "auxiliaryblocks:cobbled_sandstone": 43,
+        "minecraft:sandstone": 120,
+        "minecraft:smooth_sandstone": 130,
+        "auxiliaryblocks:rocky_sand": 110,
+        "auxiliaryblocks:cobbled_sandstone": 120,
         "tfb2:glitched_sandstone": 1
       }
     },
@@ -33,16 +33,16 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:sandstone": 22,
-        "minecraft:smooth_sandstone": 33,
-        "auxiliaryblocks:rocky_sand": 11,
-        "auxiliaryblocks:cobbled_sandstone": 22,
-        "auxiliaryblocks:cyan_gelatin": 44,
-        "quark:glow_shroom_block": 22,
-        "minecraft:cyan_concrete": 11,
-        "auxiliaryblocks:lab_cyan": 11,
-        "auxiliaryblocks:blue_crystal": 22,
-        "tfb2:glitched_sandstone": 1
+        "minecraft:sandstone": 120,
+        "minecraft:smooth_sandstone": 130,
+        "auxiliaryblocks:rocky_sand": 110,
+        "auxiliaryblocks:cobbled_sandstone": 120,
+        "auxiliaryblocks:cyan_gelatin": 140,
+        "quark:glow_shroom_block": 120,
+        "minecraft:cyan_concrete": 110,
+        "auxiliaryblocks:lab_cyan": 110,
+        "auxiliaryblocks:blue_crystal": 120,
+        "tfb2:glitched_sandstone": 4
       }
     },
     {
@@ -76,18 +76,20 @@
       "type": "weighted_target",
       "target": "minecraft:grass_block",
       "output": {
-        "minecraft:sand": 4,
-        "auxiliaryblocks:rocky_sand": 2,
-        "auxiliaryblocks:dirty_sand": 1,
-        "auxiliaryblocks:cobbled_sandstone": 1
+        "minecraft:sand": 140,
+        "auxiliaryblocks:rocky_sand": 120,
+        "auxiliaryblocks:dirty_sand": 110,
+        "auxiliaryblocks:cobbled_sandstone": 110,
+        "tfb2:glitched_sandstone": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:dirt",
       "output": {
-        "minecraft:sand": 1,
-        "auxiliaryblocks:dirty_sand": 1
+        "minecraft:sand": 100,
+        "auxiliaryblocks:dirty_sand": 100,
+        "tfb2:glitched_sandstone": 1
       }
     },
     {

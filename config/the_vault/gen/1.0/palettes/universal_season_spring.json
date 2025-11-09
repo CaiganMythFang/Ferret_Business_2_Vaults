@@ -8,8 +8,8 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stripped_crimson_hyphae": 99,
-                "minecraft:purple_terracotta": 99,
+                "minecraft:stripped_crimson_hyphae": 100,
+                "minecraft:purple_terracotta": 100,
                 "tfb2:glitched_purple_terracotta": 1
             }
         },
@@ -26,10 +26,11 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "the_vault:chromatic_planks": 1,
-                "the_vault:stripped_chromatic_log": 1,
-                "everycomp:ap/the_vault/chromatic_boards": 3,
-                "minecraft:snow_block": 5
+                "the_vault:chromatic_planks": 110,
+                "the_vault:stripped_chromatic_log": 110,
+                "everycomp:ap/the_vault/chromatic_boards": 130,
+                "minecraft:snow_block": 150,
+                "tfb2:glitched_snow_block": 3
             }
         },
         {
@@ -44,17 +45,18 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "auxiliaryblocks:mossy_dirt": 1
+                "auxiliaryblocks:mossy_dirt": 199,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 66,
-                "minecraft:dirt": 66,
-                "auxiliaryblocks:rocky_dirt": 66,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 135,
+                "minecraft:dirt": 130,
+                "auxiliaryblocks:rocky_dirt": 135,
+                "tfb2:glitched_dirt": 2
             }
         },
         {
