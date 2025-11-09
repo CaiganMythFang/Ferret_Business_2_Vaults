@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:technology_damage"
+    },
+    "B": {
+      "item": "the_vault:vault_essence_1"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:technology_speed"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:fracture"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:fracture_2"
+  }
+}

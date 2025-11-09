@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "minecraft:milk_bucket"
+    },
+    "D": {
+      "item": "thermal:fluid_cell_frame"
+    },
+    "E": {
+      "item": "minecraft:lava_bucket"
+    },
+    "F": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "thermal:fluid_cell"
+  }
+}

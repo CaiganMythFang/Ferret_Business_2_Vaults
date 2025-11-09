@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "item": "the_vault:driftwood_planks"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:barge"
+  }
+}

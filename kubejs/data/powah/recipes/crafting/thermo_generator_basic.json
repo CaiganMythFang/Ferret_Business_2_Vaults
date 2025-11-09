@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_paste"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "powah:capacitor_basic"
+    },
+    "D": {
+      "item": "powah:dielectric_casing"
+    },
+    "E": {
+      "item": "powah:thermoelectric_plate"
+    },
+    "F": {
+      "item": "powah:thermo_generator_starter"
+    }
+  },
+  "result": {
+	"item": "powah:thermo_generator_basic"
+  }
+}

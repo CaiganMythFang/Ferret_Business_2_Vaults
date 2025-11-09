@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    "CDC"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "item": "modularrouters:blank_upgrade"
+    }
+  },
+  "result": {
+    "item": "modularrouters:fluid_upgrade",
+    "count": 3
+  }
+}

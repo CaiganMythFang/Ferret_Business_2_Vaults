@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CBC",
+    "DED"
+  ],
+  "key": {
+    "B": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "C": {
+      "item": "woldsvaults:infused_driftwood"
+    },
+    "D": {
+      "item": "minecraft:smooth_stone"
+    },
+    "E": {
+      "item": "the_vault:vault_diamond_block"
+    }
+  },
+  "result": {
+    "item": "create:schematicannon",
+    "count": 1
+  }
+}

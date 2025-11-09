@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "tag": "forge:ingots/electrum"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "thermal:electrum_gear"
+  }
+}

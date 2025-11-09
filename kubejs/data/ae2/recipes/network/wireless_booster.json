@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGF"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "tag": "forge:dusts/fluix"
+    },
+    "D": {
+      "tag": "ae2:all_certus_quartz"
+    },
+    "E": {
+      "tag": "forge:dusts/ender_pearl"
+    },
+    "F": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "G": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "ae2:wireless_booster",
+    "count": 1
+  }
+}

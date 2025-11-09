@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:chests/wooden"
+    },
+    "C": {
+      "item": "laserio:logic_chip"
+    }
+  },
+  "result": {
+    "item": "laserio:card_holder"
+  }
+}

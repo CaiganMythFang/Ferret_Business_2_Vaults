@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "the_vault:gem_larimar"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/quartz"
+    }
+  },
+  "result": {
+    "item": "laserio:logic_chip_raw"
+  }
+}

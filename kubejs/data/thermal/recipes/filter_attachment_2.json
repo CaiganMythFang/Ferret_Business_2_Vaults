@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_nugget"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "item": "the_vault:magic_silk_block"
+    }
+  },
+  "result": {
+    "item": "thermal:filter_attachment",
+    "count": 2
+  }
+}

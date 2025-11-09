@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:gaia_ingot"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block_1"
+    },
+    "C": {
+      "item": "the_vault:echo_pog"
+    },
+    "D": {
+      "item": "botanicalmachinery:mana_battery"
+    },
+    "E": {
+      "item": "the_vault:wold_star"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:mana_battery_creative"
+  }
+}

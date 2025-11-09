@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "CDC",
+    "E E"
+  ],
+  "key": {
+    "A": {
+      "item": "davebuildingmod:red_steel_slab"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "davebuildingmod:red_steel_plating"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "E": {
+      "item": "the_vault:extraordinary_larimar"
+    }
+  },
+  "result": {
+    "item": "transportmod:car_truck_red"
+  }
+}

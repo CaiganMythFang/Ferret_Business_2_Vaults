@@ -1,0 +1,28 @@
+{
+  "type": "occultism:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:raw_materials/aluminum"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/aluminum"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:raw_materials/aluminum"
+  },
+  "result": {
+    "tag": "forge:dusts/aluminum",
+    "count": 2
+  },
+  "crushing_time": 200,
+  "ignore_crushing_multiplier": false
+}

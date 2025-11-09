@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_pog"
+    },
+    "B": {
+      "item": "the_vault:pog_prism"
+    },
+    "C": {
+      "tag": "the_vault:vault_ores"
+    },
+    "D": {
+      "item": "scannable:blank_module"
+    },
+    "E": {
+      "item": "the_vault:black_chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_ores_module"
+  }
+}

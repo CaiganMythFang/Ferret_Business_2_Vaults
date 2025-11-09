@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "tag": "forge:ingots/twinite"
+    },
+    "C": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:twinite_gear"
+  }
+}

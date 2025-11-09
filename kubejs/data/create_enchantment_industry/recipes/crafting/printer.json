@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_block"
+    },
+    "B": {
+      "item": "create:copper_casing"
+    },
+    "C": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "D": {
+      "item": "woldsvaults:extraordinary_pog_prism"
+    }
+  },
+  "result": {
+    "item": "create_enchantment_industry:printer"
+  }
+}

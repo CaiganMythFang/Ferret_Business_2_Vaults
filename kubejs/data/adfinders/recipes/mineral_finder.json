@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A B",
+    " C ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "D": {
+      "item": "the_vault:echo_pog"
+    }
+  },
+  "result": {
+    "item": "adfinders:mineral_finder"
+  }
+}

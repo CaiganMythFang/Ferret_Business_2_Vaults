@@ -1,0 +1,29 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SHS",
+    "SPS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "dyenamics:bubblegum_concrete"
+    },
+    "P": {
+      "item": "minecraft:flower_pot"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "item": "tfb2:deleted_item",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ]
+}

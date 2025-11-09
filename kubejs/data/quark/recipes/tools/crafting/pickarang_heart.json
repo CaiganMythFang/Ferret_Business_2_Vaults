@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "  B",
+    "  A"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:driftwood"
+    },
+    "C": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "quark:pickarang",
+    "count": 1
+  }
+}

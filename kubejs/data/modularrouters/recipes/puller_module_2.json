@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    },
+    "D": {
+      "item": "modularrouters:blank_module"
+    },
+    "E": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "modularrouters:puller_module_2",
+    "count": 1
+  }
+}

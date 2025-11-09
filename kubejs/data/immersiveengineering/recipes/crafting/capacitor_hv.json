@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:treated_wood"
+    },
+    "B": {
+      "tag": "forge:plates/aluminum"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "immersiveengineering:redstone_acid_bucket"
+    },
+    "E": {
+      "tag": "forge:ingots/hop_graphite"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:capacitor_hv"
+  }
+}

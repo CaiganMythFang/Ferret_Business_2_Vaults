@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:tinted_glass"
+    },
+    "B": {
+      "item": "powah:dielectric_casing"
+    },
+    "C": {
+      "item": "powah:dielectric_rod_horizontal"
+    }
+  },
+  "result": {
+    "item": "powah:energizing_orb"
+  }
+}

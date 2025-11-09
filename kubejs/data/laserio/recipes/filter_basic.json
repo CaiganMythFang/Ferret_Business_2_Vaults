@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_nugget"
+    },
+    "B": {
+      "tag": "forge:glass_panes"
+    },
+    "C": {
+      "item": "laserio:logic_chip"
+    }
+  },
+  "result": {
+    "item": "laserio:filter_basic",
+    "count": 4
+  }
+}

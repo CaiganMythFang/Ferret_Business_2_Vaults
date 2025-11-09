@@ -1,0 +1,29 @@
+{
+  "type": "pocketstorage:data_upgrade",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:echoing_ingot"
+    },
+    "B": {
+      "item": "the_vault:wold_star"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "D": {
+      "item": "pocketstorage:psu_3",
+      "type": "pocketstorage:nbt_target"
+    },
+    "E": {
+      "item": "the_vault:infused_eternal_soul"
+    }
+  },
+  "result": {
+    "item": "pocketstorage:psu_4"
+  }
+}

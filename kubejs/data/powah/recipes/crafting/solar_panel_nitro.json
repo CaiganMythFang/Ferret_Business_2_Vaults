@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "powah:solar_panel_spirited"
+    },
+    "C": {
+      "item": "powah:capacitor_nitro"
+    },
+    "D": {
+      "item": "powah:dielectric_casing"
+    },
+    "E": {
+      "item": "powah:crystal_nitro"
+    }
+  },
+  "result": {
+	"item": "powah:solar_panel_nitro"
+  }
+}

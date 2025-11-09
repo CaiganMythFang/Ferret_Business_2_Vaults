@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "darkutils:blank_plate"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "the_vault:gem_pog"
+    }
+  },
+  "result": {
+    "item": "darkutils:damage_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "item": "ironchests:gold_chest"
+    }
+  },
+  "result": {
+    "item": "ironchests:diamond_chest"
+  }
+}

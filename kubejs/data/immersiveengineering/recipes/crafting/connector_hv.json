@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "tag": "forge:terracotta"
+    },
+    "C": {
+      "tag": "forge:ingots/aluminum"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:connector_hv",
+        "count": 4
+  }
+}

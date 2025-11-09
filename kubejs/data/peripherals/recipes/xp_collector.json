@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "minecraft:lapis_block"
+    },
+    "D": {
+      "item": "minecraft:glass_bottle"
+    },
+    "E": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "peripherals:xp_collector"
+  }
+}

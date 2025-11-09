@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_black_opal"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "D": {
+      "item": "integratedterminals:part_terminal_storage"
+    },
+    "E": {
+      "item": "the_vault:echo_pog"
+    }
+  },
+  "result": {
+    "item": "integratedterminals:terminal_storage_portable"
+  }
+}

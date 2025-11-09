@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:treated_wood"
+    },
+    "B": {
+      "tag": "forge:dusts/redstone"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "E": {
+      "item": "immersiveengineering:conveyor_basic"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:sorter"
+  }
+}

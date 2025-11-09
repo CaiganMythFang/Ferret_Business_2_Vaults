@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "immersiveengineering:generator"
+    },
+    "D": {
+      "item": "immersiveengineering:capacitor_lv"
+    }
+  },
+  "result": {
+    "item": "immersivepetroleum:gas_generator"
+  }
+}

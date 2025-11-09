@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "integrateddynamics:variable"
+    },
+    "B": {
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "D": {
+      "item": "integrateddynamics:variablestore"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:delay"
+  }
+}

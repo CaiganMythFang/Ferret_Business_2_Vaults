@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass/colorless"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "woldsvaults:chroma_core"
+    },
+    "D": {
+      "item": "easy_villagers:trader"
+    },
+    "E": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:auto_trader",
+    "count": 1
+  }
+}

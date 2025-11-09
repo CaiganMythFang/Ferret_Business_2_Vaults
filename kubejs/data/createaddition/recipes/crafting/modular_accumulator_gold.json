@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "CD ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rods/gold"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "createaddition:modular_accumulator"
+  }
+}

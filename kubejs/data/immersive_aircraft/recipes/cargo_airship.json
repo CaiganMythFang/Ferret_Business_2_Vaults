@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "immersive_aircraft:airship"
+    },
+    "C": {
+      "item": "immersive_aircraft:hull"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:cargo_airship"
+  }
+}

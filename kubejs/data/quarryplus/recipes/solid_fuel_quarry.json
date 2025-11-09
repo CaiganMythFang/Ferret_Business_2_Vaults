@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "ironfurnaces:netherite_furnace"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "C": {
+      "item": "the_vault:vault_essence_2"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "quarryplus:solid_fuel_quarry"
+  }
+}

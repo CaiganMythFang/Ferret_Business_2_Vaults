@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:firework_rocket"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:large_fireworks"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:reinforcement_materials_2"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:driving_core_4"
+    },
+    "E": {
+      "item": "the_vault:driftwood_planks"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:firework_launcher_p"
+  }
+}

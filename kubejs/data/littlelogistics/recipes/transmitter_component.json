@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_pearl"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:transmitter_component",
+    "count": 4
+  }
+}

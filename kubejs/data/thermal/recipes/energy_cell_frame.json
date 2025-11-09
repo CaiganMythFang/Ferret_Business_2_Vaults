@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:cured_rubber_block"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "thermal:machine_frame"
+    },
+    "E": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "result": {
+    "item": "thermal:energy_cell_frame"
+  }
+}

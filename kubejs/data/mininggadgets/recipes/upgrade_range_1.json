@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EBE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "C": {
+      "item": "minecraft:tinted_glass"
+    },
+    "D": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_range_1",
+    "count": 1
+  }
+}

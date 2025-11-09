@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone_torch"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "modularrouters:augment_core"
+    }
+  },
+  "result": {
+    "item": "modularrouters:redstone_augment",
+    "count": 1
+  }
+}

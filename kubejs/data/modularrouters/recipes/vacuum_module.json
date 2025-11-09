@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DE ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "modularrouters:blank_module"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "C": {
+      "item": "minecraft:hopper"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "modularrouters:vacuum_module",
+    "count": 1
+  }
+}

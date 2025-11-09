@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "tag": "minecraft:stairs"
+    },
+    "C": {
+      "item": "littlelogistics:barge"
+    },
+    "D": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:seater_barge"
+  }
+}

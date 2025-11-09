@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " B ",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "tag": "forge:rods/steel"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:steel_scaffolding_standard",
+        "count": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "littlelogistics:vessel_charger"
+    },
+    "D": {
+      "item": "littlelogistics:seater_car"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:energy_locomotive"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "C": {
+      "tag": "forge:generators"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond_block"
+    }
+  },
+  "result": {
+    "item": "irongenerators:diamond_generator"
+  }
+}

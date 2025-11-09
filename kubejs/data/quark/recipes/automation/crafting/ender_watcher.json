@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DBD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "minecraft:ender_eye"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "quark:ender_watcher"
+  }
+}

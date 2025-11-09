@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "the_vault:gem_echo"
+    },
+    "D": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "F": {
+      "item": "the_vault:vault_diamond_block"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_three_by_three",
+    "count": 1
+  }
+}

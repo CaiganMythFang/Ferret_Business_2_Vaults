@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "peripherals:spawner_interface"
+  }
+}

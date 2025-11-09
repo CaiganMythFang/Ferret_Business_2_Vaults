@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:magic_silk"
+    },
+    "B": {
+      "item": "woldsvaults:infused_driftwood"
+    },
+    "C": {
+      "tag": "forge:gems/certus_quartz"
+    },
+    "D": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ae2:blank_pattern",
+    "count": 1
+  }
+}

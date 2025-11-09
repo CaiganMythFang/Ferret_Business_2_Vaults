@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "transportmod:fuel_machine"
+  }
+}

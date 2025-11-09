@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_torch"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "tinygates:xor_gate_item",
+    "count": 4
+  }
+}

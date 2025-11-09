@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:grindstone"
+    },
+    "C": {
+      "item": "minecraft:iron_bars"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    }
+  },
+  "result": {
+    "item": "peripherals:grindstone_interface"
+  }
+}

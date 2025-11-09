@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass/colorless"
+    },
+    "B": {
+      "item": "the_vault:chromatic_gold_block"
+    },
+    "C": {
+      "item": "the_vault:wutodic_silver_ingot"
+    },
+    "D": {
+      "item": "minecraft:red_nether_bricks"
+    }
+  },
+  "result": {
+    "item": "easy_piglins:barterer",
+    "count": 1
+  }
+}

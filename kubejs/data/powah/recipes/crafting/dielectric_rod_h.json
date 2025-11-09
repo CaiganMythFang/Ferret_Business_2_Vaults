@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_paste"
+    },
+    "B": {
+      "item": "the_vault:gem_larimar"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+	"item": "powah:dielectric_rod_horizontal",
+	"count": 8
+  }
+}

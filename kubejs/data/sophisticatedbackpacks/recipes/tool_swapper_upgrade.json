@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGF"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_pog"
+    },
+    "B": {
+      "item": "minecraft:netherite_sword"
+    },
+    "C": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "item": "minecraft:netherite_axe"
+    },
+    "F": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "G": {
+      "item": "minecraft:netherite_shovel"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+  }
+}

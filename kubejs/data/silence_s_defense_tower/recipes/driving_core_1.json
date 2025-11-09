@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:stone"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:resource_box_1"
+    },
+    "D": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:driving_core_1"
+  }
+}

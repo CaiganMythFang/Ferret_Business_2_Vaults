@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence_1"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:quick_loading_2"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:technology_heal"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:overclock"
+  }
+}

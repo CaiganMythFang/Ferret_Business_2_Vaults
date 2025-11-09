@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    "D": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:endergenic"
+  }
+}

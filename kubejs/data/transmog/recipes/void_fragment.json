@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "the_vault:gem_wutodie"
+    }
+  },
+  "result": {
+    "item": "transmog:void_fragment"
+  }
+}

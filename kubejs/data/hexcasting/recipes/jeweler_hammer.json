@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    " D ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_nugget"
+    },
+    "D": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "hexcasting:jeweler_hammer"
+  }
+}

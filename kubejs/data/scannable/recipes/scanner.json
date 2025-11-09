@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "woldsvaults:extraordinary_pog_prism"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "E": {
+      "item": "the_vault:extraordinary_benitoite"
+    }
+  },
+  "result": {
+    "item": "scannable:scanner"
+  }
+}

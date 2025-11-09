@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:chest"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "D": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rftoolsstorage:modular_storage"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:rf_coil"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "thermal:copper_gear"
+    },
+    "D": {
+      "item": "thermal:bronze_block"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "thermal:dynamo_compression"
+  }
+}

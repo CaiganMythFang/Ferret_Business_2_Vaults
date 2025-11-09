@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "hexcasting:amethyst_dust"
+    },
+    "D": {
+      "tag": "minecraft:music_discs"
+    }
+  },
+  "result": {
+    "item": "hexcasting:artifact"
+  }
+}

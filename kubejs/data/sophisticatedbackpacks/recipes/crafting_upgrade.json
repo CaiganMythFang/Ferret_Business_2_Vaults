@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "craftingstation:crafting_station"
+    },
+    "C": {
+      "item": "the_vault:vault_essence"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:crafting_upgrade"
+  }
+}

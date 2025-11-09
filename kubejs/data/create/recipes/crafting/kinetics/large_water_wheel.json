@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "woldsvaults:infused_driftwood"
+    },
+    "B": {
+      "item": "create:water_wheel"
+    },
+    "C": {
+      "item": "woldsvaults:chroma_core"
+    }
+  },
+  "result": {
+    "item": "create:large_water_wheel",
+    "count": 1
+  }
+}

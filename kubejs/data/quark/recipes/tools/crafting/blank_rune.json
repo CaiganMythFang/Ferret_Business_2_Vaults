@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:stone"
+    },
+    "B": {
+      "item": "the_vault:vault_essence"
+    }
+  },
+  "result": {
+    "item": "quark:blank_rune",
+    "count": 1
+  }
+}

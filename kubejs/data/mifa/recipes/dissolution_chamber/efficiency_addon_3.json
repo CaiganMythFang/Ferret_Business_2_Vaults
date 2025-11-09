@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    {
+      "item": "the_vault:memory_shard"
+    },
+    {
+      "item": "the_vault:memory_shard"
+    },
+    {
+      "item": "industrialforegoing:efficiency_addon_2"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "item": "quark:blaze_lantern"
+    },
+    {
+      "item": "quark:blaze_lantern"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:latex\"}",
+  "processingTime": 200,
+  "output": {
+    "item": "mifa:efficiency_addon_3",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Efficiency:0.7f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

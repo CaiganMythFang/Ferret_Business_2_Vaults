@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "modularrouters:blank_module"
+    },
+    "E": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "modularrouters:energy_output_module",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:snowball"
+    },
+    "B": {
+      "item": "mininggadgets:upgrade_empty"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_freezing",
+    "count": 1
+  }
+}

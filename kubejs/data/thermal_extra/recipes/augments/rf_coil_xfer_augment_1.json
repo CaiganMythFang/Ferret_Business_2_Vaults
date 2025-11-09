@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "B": {
+      "tag": "forge:gears/soul_infused"
+    },
+    "C": {
+      "item": "thermal:rf_coil_xfer_augment"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:rf_coil_xfer_augment_1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_painite"
+    },
+    "C": {
+      "item": "minecraft:spyglass"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    },
+    "E": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "F": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.wireless_terminal"
+  }
+}

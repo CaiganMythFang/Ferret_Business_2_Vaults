@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "AAA",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:ersatz_leather"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:conveyor_basic",
+        "count": 8
+  }
+}

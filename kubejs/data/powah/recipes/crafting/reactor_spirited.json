@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CBC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:reactor_niotic"
+    },
+    "B": {
+      "item": "powah:uraninite"
+    },
+    "C": {
+      "item": "powah:capacitor_spirited"
+    }
+  },
+  "result": {
+	"item": "powah:reactor_spirited",
+	"count": 4
+  }
+}

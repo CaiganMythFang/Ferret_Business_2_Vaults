@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "darkutils:vector_plate"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "the_vault:magic_silk"
+    }
+  },
+  "result": {
+    "item": "darkutils:vector_plate_fast",
+    "count": 6
+  }
+}

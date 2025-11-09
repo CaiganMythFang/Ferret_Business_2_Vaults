@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "EDE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_pog"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "C": {
+      "tag": "botanypots:basic_botany_pots"
+    },
+    "D": {
+      "item": "minecraft:hopper"
+    },
+    "E": {
+      "item": "dyenamics:mint_terracotta"
+    }
+  },
+  "result": {
+    "item": "dyenamicsandfriends:botanypots_mint_terracotta_hopper_botany_pot"
+  }
+}

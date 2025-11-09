@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:repeater"
+    },
+    "B": {
+      "item": "minecraft:comparator"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "tinygates:t_flip_flop_item",
+    "count": 4
+  }
+}

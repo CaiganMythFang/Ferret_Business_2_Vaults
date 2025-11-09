@@ -1,0 +1,25 @@
+}{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "D": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "create_mechanical_extruder:mechanical_extruder"
+  }
+}

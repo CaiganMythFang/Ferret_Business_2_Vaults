@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " B ",
+    "CDC"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:cauldron"
+    },
+    "C": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "item": "modularrouters:blank_module"
+    }
+  },
+  "result": {
+    "item": "modularrouters:fluid_module",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/nether_brick"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "tag": "forge:ingots/brick"
+    },
+    "D": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:blastbrick",
+        "count": 3
+  }
+}

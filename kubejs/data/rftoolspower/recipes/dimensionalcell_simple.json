@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "minecraft:quartz"
+    },
+    "D": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:dimensionalcell_simple"
+  }
+}

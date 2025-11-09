@@ -9,7 +9,7 @@ import mods.mekanism.api.ingredient.ChemicalStackIngredient.SlurryStackIngredien
 import mods.mekanism.api.ingredient.FluidStackIngredient;
 import mods.mekanism.api.ingredient.ItemStackIngredient;
 import mods.mekanism.recipe.Combining;
-
+/*
 <recipetype:mekanism:crushing>.addRecipe("crush_vaultstone_to_rock", ItemStackIngredient.from(<item:the_vault:vault_stone> *2), <item:the_vault:vault_rock>);
 
 <recipetype:mekanism:dissolution>.addRecipe("chromaticore_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ore>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 1000);
@@ -17,14 +17,14 @@ import mods.mekanism.recipe.Combining;
 <recipetype:mekanism:dissolution>.addRecipe("chromaticblock_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron_block>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 6000);
 
 <recipetype:mekanism:washing>.addRecipe("cleaning_chromatic_slurry", FluidStackIngredient.from(<tag:fluids:minecraft:water>, 10), SlurryStackIngredient.from(<slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry>), <slurry:crafttweaker:the_vault_clean_chromatic_iron_slurry>);
-
+*/
 furnace.addJsonRecipe("recipe_name", {
  ingredient: <item:the_vault:chromatic_iron_dust>,
  result: <item:the_vault:chromatic_iron_ingot>.registryName,
  experience: 0.35 as float,
  cookingtime:250
  });
-
+/*
 <recipetype:mekanism:enriching>.addRecipe("dirty_dust_to_clean_dust", ItemStackIngredient.from(<item:the_vault:chromatic_iron_dirty_dust>), <item:the_vault:chromatic_iron_dust>);
 <recipetype:mekanism:enriching>.addRecipe("raw_to_clean_dust", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron> *3), <item:the_vault:chromatic_iron_dust> *4);
 <recipetype:mekanism:enriching>.addRecipe("raw_ore_block_leaves_to_clean_dust", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron_block>), <item:the_vault:chromatic_iron_dust> *12);
@@ -51,13 +51,13 @@ furnace.addJsonRecipe("recipe_name", {
 <recipetype:mekanism:infusion_conversion>.addRecipe("infusion_conversion/larimar/from_echo", ItemStackIngredient.from(<item:the_vault:gem_echo>), <infuse_type:crafttweaker:the_vault_echo> * 75);
 <recipetype:mekanism:infusion_conversion>.addRecipe("infusion_conversion/larimar/from_perfect_echo", ItemStackIngredient.from(<item:the_vault:perfect_echo_gem>), <infuse_type:crafttweaker:the_vault_echo> * 375);
 <recipetype:mekanism:infusion_conversion>.addRecipe("infusion_conversion/larimar/from_extraordinary_echo", ItemStackIngredient.from(<item:the_vault:extraordinary_echo_gem>), <infuse_type:crafttweaker:the_vault_echo> * 1875);
-
+*/
 <recipetype:mekanism:metallurgic_infusing>.addRecipe("infused_alloy", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ingot>), InfusionStackIngredient.from(<infuse_type:crafttweaker:the_vault_larimar> * 40), <item:mekanism:alloy_infused>);
 
 <recipetype:mekanism:metallurgic_infusing>.addRecipe("atomic_alloy", ItemStackIngredient.from(<item:mekanism:alloy_reinforced>), InfusionStackIngredient.from(<infuse_type:crafttweaker:the_vault_echo> * 25), <item:mekanism:alloy_atomic>);
 
 <recipetype:mekanism:metallurgic_infusing>.addRecipe("basic_circuit", ItemStackIngredient.from(<item:the_vault:chromatic_steel_ingot>), InfusionStackIngredient.from(<infuse_type:crafttweaker:the_vault_larimar> * 160), <item:mekanism:basic_control_circuit>);
-
+/*
 craftingTable.addShapeless("mekanism_alloy_reinforced", <item:mekanism:alloy_reinforced>, [
     <item:mekanism:alloy_infused>, <item:the_vault:vault_diamond>
 ]);
@@ -93,5 +93,5 @@ craftingTable.addShaped("mekanism_upgrade_stone_generator", <item:mekanism:upgra
 
 
 
-
+*/
 <recipetype:mekanism:crushing>.addRecipe("buildinggadgets_block_to_paste_mekanism", ItemStackIngredient.from(<item:buildinggadgets:construction_block_dense>), <item:buildinggadgets:construction_paste> * 4);

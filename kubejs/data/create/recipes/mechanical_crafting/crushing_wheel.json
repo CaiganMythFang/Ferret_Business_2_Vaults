@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "woldsvaults:infused_driftwood"
+    },
+    "C": {
+      "item": "woldsvaults:chroma_core"
+    }
+  },
+  "result": {
+    "item": "create:crushing_wheel",
+    "count": 1
+  }
+}

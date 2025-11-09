@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "the_vault:vault_essence"
+    },
+    "D": {
+      "item": "create:brass_casing"
+    },
+    "E": {
+      "item": "the_vault:gem_pog"
+    }
+  },
+  "result": {
+    "item": "create:rotation_speed_controller",
+    "count": 1
+  }
+}

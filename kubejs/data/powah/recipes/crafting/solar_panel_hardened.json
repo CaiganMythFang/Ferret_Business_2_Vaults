@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "powah:solar_panel_basic"
+    },
+    "C": {
+      "item": "powah:capacitor_hardened"
+    },
+    "D": {
+      "item": "powah:dielectric_casing"
+    },
+    "E": {
+      "item": "powah:steel_energized"
+    }
+  },
+  "result": {
+	"item": "powah:solar_panel_hardened"
+  }
+}

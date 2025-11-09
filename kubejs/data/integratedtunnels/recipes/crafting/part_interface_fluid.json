@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:vault_essence"
+    },
+    "C": {
+      "item": "minecraft:bucket"
+    },
+    "D": {
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    }
+  },
+  "result": {
+    "item": "integratedtunnels:part_interface_fluid",
+    "count": 4
+  }
+}

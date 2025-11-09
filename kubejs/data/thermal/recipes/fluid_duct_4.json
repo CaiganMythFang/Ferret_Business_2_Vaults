@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "tag": "forge:ingots/bronze"
+    },
+    "C": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "result": {
+    "item": "thermal:fluid_duct",
+    "count": 4
+  }
+}

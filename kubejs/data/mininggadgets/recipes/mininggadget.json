@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "ADE",
+    "ABB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:mininggadget",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "integrateddynamics:crafting_special_shaped_omni_directional",
+  "group": "integrateddynamics:part_connector_omni_directional",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_black_opal"
+    },
+    "B": {
+      "item": "integrateddynamics:logic_director"
+    },
+    "C": {
+      "item": "integrateddynamics:part_connector_mono_directional"
+    },
+    "D": {
+      "item": "integrateddynamics:cable"
+    }
+  }
+}

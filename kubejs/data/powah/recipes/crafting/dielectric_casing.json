@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "C": {
+      "item": "powah:dielectric_rod"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "powah:dielectric_casing"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:repeater"
+    },
+    "B": {
+      "item": "createaddition:connector"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "D": {
+      "item": "the_vault:vault_stone"
+    }
+  },
+  "result": {
+    "item": "createaddition:redstone_relay"
+  }
+}

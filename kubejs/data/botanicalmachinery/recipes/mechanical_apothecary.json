@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "tag": "botania:petals"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "botania:apothecary_default"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:mechanical_apothecary"
+  }
+}

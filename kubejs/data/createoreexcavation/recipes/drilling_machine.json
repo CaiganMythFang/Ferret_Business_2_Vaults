@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "B": {
+      "item": "create:copper_casing"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "the_vault:echo_pog"
+    },
+    "E": {
+      "item": "create:mechanical_drill"
+    }
+  },
+  "result": {
+    "item": "createoreexcavation:drilling_machine"
+  }
+}

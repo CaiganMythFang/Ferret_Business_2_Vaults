@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:fluid_hopper"
+  }
+}

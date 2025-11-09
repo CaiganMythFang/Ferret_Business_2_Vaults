@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_painite"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "laserio:logic_chip"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "laserio:laser_connector"
+  }
+}

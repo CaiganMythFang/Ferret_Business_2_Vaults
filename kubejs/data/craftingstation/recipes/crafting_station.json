@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:wooden_planks"
+    },
+    "B": {
+      "item": "minecraft:crafting_table"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    }
+  },
+  "result": {
+    "item": "craftingstation:crafting_station"
+  }
+}

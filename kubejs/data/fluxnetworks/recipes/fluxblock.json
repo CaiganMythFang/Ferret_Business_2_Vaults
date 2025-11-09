@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_block"
+  }
+}

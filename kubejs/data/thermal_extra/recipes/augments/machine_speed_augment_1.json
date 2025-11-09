@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence_2"
+    },
+    "B": {
+      "tag": "forge:gears/soul_infused"
+    },
+    "C": {
+      "item": "thermal:machine_speed_augment"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:machine_speed_augment_1"
+  }
+}

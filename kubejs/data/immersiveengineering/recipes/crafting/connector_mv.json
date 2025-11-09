@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "B": {
+      "tag": "forge:terracotta"
+    },
+    "C": {
+      "tag": "forge:ingots/electrum"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:connector_mv",
+        "count": 4
+  }
+}

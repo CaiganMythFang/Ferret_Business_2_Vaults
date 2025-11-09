@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:sheetmetals/steel"
+    },
+    "B": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "C": {
+      "item": "the_vault:chromatic_gold_block"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:heavy_engineering",
+        "count": 4
+  }
+}

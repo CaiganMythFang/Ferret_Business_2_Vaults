@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "thermal:lapis_gear"
+  }
+}

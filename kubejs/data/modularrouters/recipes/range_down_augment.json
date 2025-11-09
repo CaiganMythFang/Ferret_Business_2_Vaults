@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " C "
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:rods/wooden"
+    },
+    "C": {
+      "item": "minecraft:quartz"
+    },
+    "D": {
+      "item": "modularrouters:augment_core"
+    }
+  },
+  "result": {
+    "item": "modularrouters:range_down_augment",
+    "count": 4
+  }
+}

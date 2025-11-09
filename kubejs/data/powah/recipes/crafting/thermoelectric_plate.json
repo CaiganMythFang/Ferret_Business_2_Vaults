@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "quark:blaze_lantern"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "powah:capacitor_basic_tiny"
+    }
+  },
+  "result": {
+	"item": "powah:thermoelectric_plate"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_block"
+    },
+    "B": {
+      "item": "create:hose_pulley"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    },
+    "E": {
+      "item": "create:mechanical_drill"
+    }
+  },
+  "result": {
+    "item": "createoreexcavation:extractor"
+  }
+}

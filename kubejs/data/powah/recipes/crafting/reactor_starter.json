@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:uraninite"
+    },
+    "B": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "C": {
+      "item": "powah:dielectric_casing"
+    }
+  },
+  "result": {
+	"item": "powah:reactor_starter",
+	"count": 4
+  }
+}

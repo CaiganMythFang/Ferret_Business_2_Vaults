@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "ae2:engineering_processor"
+    },
+    "D": {
+      "item": "ae2:inscriber"
+    }
+  },
+  "result": {
+    "item": "ae2things:advanced_inscriber",
+    "count": 1
+  }
+}

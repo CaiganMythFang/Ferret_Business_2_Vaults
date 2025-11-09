@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "BCD",
+    "BEB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "tag": "balm:stones"
+    },
+    "D": {
+      "item": "minecraft:redstone_torch"
+    },
+    "E": {
+      "item": "modularrouters:blank_upgrade"
+    }
+  },
+  "result": {
+    "item": "modularrouters:sync_upgrade",
+    "count": 16
+  }
+}

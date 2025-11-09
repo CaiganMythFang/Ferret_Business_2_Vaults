@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " N ",
+        "NRN",
+        " N "
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:iron_nugget"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "playertrackingcompass:tracking_compass"
+    }
+}{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "playertrackingcompass:tracking_compass"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "botanicalextramachinery:saffron_ingot_block"
+    },
+    "B": {
+      "item": "botanicalextramachinery:crimson_ingot"
+    },
+    "C": {
+      "item": "botanicalextramachinery:base_alfheim_market"
+    },
+    "D": {
+      "item": "botanicalextramachinery:crimson_dragonstone_block"
+    }
+  },
+  "result": {
+    "item": "botanicalextramachinery:upgraded_alfheim_market"
+  }
+}

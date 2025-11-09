@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "B": {
+      "item": "the_vault:vault_essence"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "D": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:machine_infuser"
+  }
+}

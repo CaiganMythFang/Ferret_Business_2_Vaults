@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "immersive_aircraft:boiler"
+    },
+    "C": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:steel_boiler"
+  }
+}

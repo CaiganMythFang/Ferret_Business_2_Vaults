@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:dragonstone"
+    },
+    "B": {
+      "item": "botania:gaia_ingot"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "botanicalmachinery:mana_emerald_block"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:mana_battery"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    "E": {
+      "item": "industrialforegoing:diamond_gear"
+    },
+    "F": {
+      "item": "the_vault:chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:biofuel_generator"
+  }
+}

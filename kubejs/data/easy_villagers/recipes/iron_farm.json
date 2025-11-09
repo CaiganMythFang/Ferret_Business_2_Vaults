@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass/colorless"
+    },
+    "B": {
+      "item": "easy_villagers:farmer"
+    },
+    "C": {
+      "item": "woldsvaults:chroma_core"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:iron_farm",
+    "count": 1
+  }
+}

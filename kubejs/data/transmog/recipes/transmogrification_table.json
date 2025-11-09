@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "transmog:void_fragment"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "the_vault:block_gem_wutodie"
+    },
+    "D": {
+      "item": "the_vault:transmog_table"
+    }
+  },
+  "result": {
+    "item": "transmog:transmogrification_table"
+  }
+}

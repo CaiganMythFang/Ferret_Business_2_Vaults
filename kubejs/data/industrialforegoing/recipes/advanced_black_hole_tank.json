@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "the_vault:mystical_powder"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "F": {
+      "tag": "industrialforegoing:machine_frame/advanced"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:advanced_black_hole_tank"
+  }
+}

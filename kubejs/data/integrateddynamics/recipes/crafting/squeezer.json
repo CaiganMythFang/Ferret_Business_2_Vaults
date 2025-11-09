@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "A A",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:driftwood"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "C": {
+      "item": "the_vault:driftwood_planks"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:squeezer"
+  }
+}

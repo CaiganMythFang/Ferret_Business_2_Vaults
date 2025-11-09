@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "immersive_aircraft:engine"
+    },
+    "D": {
+      "item": "the_vault:perfect_painite"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:nether_engine"
+  }
+}

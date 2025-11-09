@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iesnium"
+    },
+    "B": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "C": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "occultism:iesnium_pickaxe"
+  }
+}

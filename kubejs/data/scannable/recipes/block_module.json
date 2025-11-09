@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_pog_1"
+    },
+    "B": {
+      "item": "the_vault:wold_star"
+    },
+    "C": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:block_module"
+  }
+}

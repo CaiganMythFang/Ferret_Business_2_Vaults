@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/tin"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:tinted_glass"
+    },
+    "D": {
+      "item": "minecraft:lava_bucket"
+    },
+    "E": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "result": {
+    "item": "thermal:device_nullifier"
+  }
+}

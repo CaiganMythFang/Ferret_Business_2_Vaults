@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "tag": "forge:ingots/lead"
+    },
+    "D": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "thermal:energy_duct",
+    "count": 4
+  }
+}

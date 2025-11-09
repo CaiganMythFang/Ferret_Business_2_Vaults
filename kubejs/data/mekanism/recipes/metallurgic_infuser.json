@@ -1,0 +1,32 @@
+{
+"key":
+    {
+    "A":
+        {
+        "item": "the_vault:chromatic_steel_ingot"
+        },
+    "B":
+        {
+        "tag": "forge:furnaces"
+        },
+    "C":
+        {
+        "item": "the_vault:vault_diamond"
+        },
+    "D":
+        {
+        "item": "mekanism:block_osmium"
+        }
+    },
+"pattern":
+    [
+    "ABA",
+    "CDC",
+    "ABA"
+    ],
+"result":
+    {
+    "item": "mekanism:metallurgic_infuser"
+    },
+"type": "minecraft:crafting_shaped"
+}

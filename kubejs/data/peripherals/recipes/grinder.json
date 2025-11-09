@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:netherite_sword"
+    },
+    "C": {
+      "item": "the_vault:perfect_black_opal"
+    },
+    "D": {
+      "item": "the_vault:pog_prism"
+    },
+    "E": {
+      "item": "the_vault:vault_diamond_block"
+    }
+  },
+  "result": {
+    "item": "peripherals:grinder"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "tag": "forge:plates/aluminum"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "tag": "forge:terracotta"
+    },
+    "E": {
+      "item": "controlengineering:bus_wire_coil"
+    }
+  },
+  "result": {
+    "item": "controlengineering:bus_interface"
+  }
+}

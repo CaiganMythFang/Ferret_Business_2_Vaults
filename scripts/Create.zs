@@ -2,8 +2,8 @@
 for Iskall85's Vaulthunters */
 
 // adding recipes
-
-<recipetype:create:crushing>.addRecipe("crushed_vaultstone_to_rock", [<item:the_vault:vault_rock> % 50, <item:the_vault:vault_cobblestone>], <item:the_vault:vault_stone>, 350);
+/*
+<recipetype:create:crushing>.addRecipe("crushed_vaultstone_to_rock", [<item:the_vault:vault_rock> % 12, <item:the_vault:vault_cobblestone>], <item:the_vault:vault_stone>, 350);
 
 <recipetype:create:crushing>.addRecipe("chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:chromatic_iron_ore>, 350);
 <recipetype:create:crushing>.addRecipe("chromatic_raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:raw_chromatic_iron>, 350);
@@ -41,7 +41,7 @@ for Iskall85's Vaulthunters */
 
 <recipetype:create:item_application>.addRecipe("track_station", [<item:create:track_station>],
 <item:create:railway_casing>, <item:minecraft:compass>);
-
+*/
 <recipetype:create:sequenced_assembly>.builder("sequenced");
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_blast_brick")
@@ -56,7 +56,7 @@ for Iskall85's Vaulthunters */
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:perfect_larimar>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:chromatic_iron_ingot>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50)));
-
+/*
 craftingTable.addShaped("create_andesite_alloy", <item:create:andesite_alloy> *2, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:andesite>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:andesite>],
@@ -89,18 +89,18 @@ craftingTable.addShapeless("create_large_cogwheel_shapeless2", <item:create:larg
 
 craftingTable.addShaped("create_hand_crank", <item:create:hand_crank>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:the_vault:driftwood>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:driftwood>],
+    [<item:the_vault:driftwood>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:driftwood>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:create:andesite_alloy>]
 ]);
 
 craftingTable.addShaped("create_crushing_wheel", <item:create:crushing_wheel>, [
-    [<item:create:andesite_alloy>, <item:the_vault:driftwood>, <item:create:andesite_alloy>],
-    [<item:the_vault:driftwood>, <item:the_vault:polished_vault_stone>, <item:the_vault:driftwood>],
-    [<item:create:andesite_alloy>, <item:the_vault:driftwood>, <item:create:andesite_alloy>]
+    [<item:create:andesite_alloy>, <item:woldsvaults:infused_driftwood>, <item:create:andesite_alloy>],
+    [<item:woldsvaults:infused_driftwood>, <item:woldsvaults:chroma_core>, <item:woldsvaults:infused_driftwood>],
+    [<item:create:andesite_alloy>, <item:woldsvaults:infused_driftwood>, <item:create:andesite_alloy>]
 ]);
 
 craftingTable.addShaped("create_cart_assembler", <item:create:cart_assembler>, [
-    [<item:the_vault:extraordinary_larimar>, <item:create:andesite_alloy>, <item:the_vault:extraordinary_larimar>],
+    [<item:the_vault:extraordinary_larimar>, <item:woldsvaults:pogominium_ingot>, <item:the_vault:extraordinary_larimar>],
     [<item:the_vault:vault_diamond_block>, <item:the_vault:echo_pog>, <item:the_vault:vault_diamond_block>],
     [<item:the_vault:extraordinary_larimar>, <item:create:andesite_alloy>, <item:the_vault:extraordinary_larimar>]
 ]);
@@ -124,15 +124,15 @@ craftingTable.addShaped("create_smart_chute", <item:create:smart_chute>, [
 ]);
 
 craftingTable.addShaped("create_waterwheel", <item:create:water_wheel>, [
-    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
+    [<item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>],
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:water_bucket>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
+    [<item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>]
 ]);
 
 craftingTable.addShaped("create_large_waterwheel", <item:create:large_water_wheel>, [
-    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
-    [<item:create:water_wheel>, <item:the_vault:gem_pog>, <item:create:water_wheel>],
-    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
+    [<item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>],
+    [<item:create:water_wheel>, <item:woldsvaults:chroma_core>, <item:create:water_wheel>],
+    [<item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>, <item:woldsvaults:infused_driftwood>]
 ]);
 
 craftingTable.addShaped("create_basin", <item:create:basin>, [
@@ -217,8 +217,8 @@ craftingTable.addShaped("create_gantry_carriage", <item:create:gantry_carriage>,
 
 craftingTable.addShaped("create_steam_engine", <item:create:steam_engine>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <tag:items:forge:plates/gold>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:the_vault:vault_diamond>, <item:create:brass_casing>, <item:the_vault:vault_diamond>],
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:gem_pog>, <item:the_vault:black_chromatic_steel_ingot>]
+    [<item:the_vault:vault_diamond_block>, <item:create:brass_casing>, <item:the_vault:vault_diamond_block>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:pog_prism>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("create_vault", <item:create:item_vault> *3, [
@@ -226,13 +226,13 @@ craftingTable.addShaped("create_vault", <item:create:item_vault> *3, [
     [<item:the_vault:chromatic_iron_ingot>, <item:create:andesite_casing>, <item:the_vault:chromatic_iron_ingot>],
     [<item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>]
 ]);
-
+*/
 <recipetype:create:mixing>.addRecipe("mixing_healing_potion", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion: "minecraft:healing", Bottle:"REGULAR"}) *1000], [
     <item:minecraft:golden_apple>,], [<fluid:create:potion>.withTag({Potion: "minecraft:awkward", Bottle:"REGULAR"}) *1000], 100);
 
 <recipetype:create:mixing>.addRecipe("mixing_healing_potion_2", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion: "minecraft:strong_healing", Bottle:"REGULAR"}) *1000], [
     <item:minecraft:glowstone_dust>,], [<fluid:create:potion>.withTag({Potion: "minecraft:healing", Bottle:"REGULAR"}) *1000], 100);
-
+/*
 craftingTable.addShapeless("create_veridium_shapeless", <item:create:veridium> *2, [
     <item:create:copper_nugget>, <item:minecraft:warped_planks>, <item:minecraft:cobbled_deepslate>,
 ]);
@@ -255,8 +255,8 @@ craftingTable.addShapeless("create_limestone_shapeless", <item:create:limestone>
 
 craftingTable.addShaped("create_schematicannon", <item:create:schematicannon>, [
     [<item:minecraft:air>, <item:the_vault:chromatic_iron_block>, <item:minecraft:air>], 
-    [<item:the_vault:driftwood>, <item:the_vault:chromatic_iron_block>, <item:the_vault:driftwood>], 
-    [<item:minecraft:smooth_stone>, <item:the_vault:vault_essence>, <item:minecraft:smooth_stone>]
+    [<item:woldsvaults:infused_driftwood>, <item:the_vault:chromatic_iron_block>, <item:woldsvaults:infused_driftwood>], 
+    [<item:minecraft:smooth_stone>, <item:the_vault:vault_diamond_block>, <item:minecraft:smooth_stone>]
 ]);
 
 craftingTable.addShaped("create_schematic_table", <item:create:schematic_table>, [
@@ -266,3 +266,31 @@ craftingTable.addShaped("create_schematic_table", <item:create:schematic_table>,
 ]);
 
 craftingTable.addShapeless("create_empty_schematic", <item:create:empty_schematic>, [<item:the_vault:magic_silk>, <tag:items:forge:dyes/light_blue>]);
+*/
+
+craftingTable.addShapeless("create_andesite_alloy_unpack", <item:create:andesite_alloy> *9, [
+    <item:create:andesite_alloy_block>
+]);
+
+var clusters = {
+  "cluster_bomignite": "bomignite",
+  "cluster_tubium": "tubium",
+  "cluster_ashium": "ashium",
+  "cluster_upaline": "upaline",
+  "cluster_xenium": "xenium",
+  "cluster_gorginite": "gorginite",
+  "cluster_petzanite": "petzanite",
+  "cluster_iskallium": "iskallium",
+  "cluster_sparkletine": "sparkletine"
+};
+
+for clusterId, clusterName in clusters {
+    <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_" + clusterName + "_key")
+                                                      .transitionTo(<item:create:incomplete_track>)
+                                                      .require(<item:the_vault:cluster_${clusterName}>)
+                                                      .loops(0)
+                                                      .addOutput(<item:the_vault:key_${clusterName}> * 1, 32)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:blank_key>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(500)));
+
+}

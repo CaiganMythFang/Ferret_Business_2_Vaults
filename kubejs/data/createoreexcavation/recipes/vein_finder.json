@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "CD ",
+    "  D"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "tag": "forge:ores/redstone"
+    },
+    "D": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "createoreexcavation:vein_finder"
+  }
+}

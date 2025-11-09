@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:photoelectric_pane"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "D": {
+      "item": "powah:dielectric_casing"
+    },
+    "E": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "result": {
+	"item": "powah:solar_panel_starter"
+  }
+}

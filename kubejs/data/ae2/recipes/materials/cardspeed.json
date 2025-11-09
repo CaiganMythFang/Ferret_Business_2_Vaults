@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_larimar"
+    },
+    "C": {
+      "item": "the_vault:vault_essence"
+    },
+    "D": {
+      "item": "ae2:advanced_card"
+    }
+  },
+  "result": {
+    "item": "ae2:speed_card",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "the_vault:vault_stone"
+    }
+  ],
+  "results": [
+    {
+      "item": "the_vault:vault_cobblestone",
+      "chance": 1.0
+    },
+    {
+      "item": "the_vault:vault_rock",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 350
+}

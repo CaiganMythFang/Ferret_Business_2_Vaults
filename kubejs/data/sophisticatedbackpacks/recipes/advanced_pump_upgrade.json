@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "minecraft:dispenser"
+    },
+    "C": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:pump_upgrade"
+    },
+    "E": {
+      "item": "the_vault:vault_essence"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_pump_upgrade"
+  }
+}

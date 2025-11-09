@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "C": {
+      "item": "rftoolsstorage:storage_module1"
+    },
+    "D": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "rftoolsstorage:storage_module2"
+  }
+}

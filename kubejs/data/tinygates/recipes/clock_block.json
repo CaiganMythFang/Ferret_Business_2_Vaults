@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:repeater"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "tinygates:clock_item",
+    "count": 4
+  }
+}

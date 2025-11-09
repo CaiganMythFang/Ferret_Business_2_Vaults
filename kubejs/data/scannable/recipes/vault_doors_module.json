@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_block"
+    },
+    "B": {
+      "item": "the_vault:echo_pog_1"
+    },
+    "C": {
+      "item": "scannable:vault_treasure_doors_module"
+    },
+    "D": {
+      "item": "scannable:vault_dungeon_doors_module"
+    },
+    "E": {
+      "item": "scannable:vault_vendoors_module"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_doors_module"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:candles"
+    },
+    "B": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "C": {
+      "item": "the_vault:perfect_painite"
+    },
+    "D": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "summoningrituals:altar"
+  }
+}

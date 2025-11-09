@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_wutodie"
+    },
+    "B": {
+      "tag": "forge:gears/twinite"
+    },
+    "C": {
+      "item": "thermal_extra:area_radius_augment_3"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:area_radius_augment_4"
+  }
+}

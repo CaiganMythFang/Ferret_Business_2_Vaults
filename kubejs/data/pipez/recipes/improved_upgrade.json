@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "pipez:basic_upgrade"
+    },
+    "D": {
+      "item": "woldsvaults:chroma_core"
+    }
+  },
+  "result": {
+    "item": "pipez:improved_upgrade"
+  }
+}

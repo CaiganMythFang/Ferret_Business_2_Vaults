@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA ",
+    "AC ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/gold"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "D": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "create:wrench",
+    "count": 1
+  }
+}

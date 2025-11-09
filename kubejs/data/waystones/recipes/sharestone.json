@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "waystones:warp_dust"
+    },
+    "B": {
+      "item": "the_vault:polished_vault_stone"
+    },
+    "C": {
+      "item": "waystones:warp_stone"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "waystones:sharestone"
+  }
+}

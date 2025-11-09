@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "B": {
+      "item": "powah:energy_cable_starter"
+    },
+    "C": {
+      "item": "powah:capacitor_basic"
+    }
+  },
+  "result": {
+    "item": "powah:energy_cable_basic",
+    "count": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "hexcasting:amethyst_dust"
+    }
+  },
+  "result": {
+    "item": "hexcasting:cypher"
+  }
+}

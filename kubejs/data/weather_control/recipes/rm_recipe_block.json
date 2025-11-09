@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "weather_control:rm_casing"
+    },
+    "B": {
+      "item": "weather_control:rm_sensor"
+    },
+    "C": {
+      "item": "weather_control:rm_vent"
+    },
+    "D": {
+      "item": "weather_control:rm_core"
+    }
+  },
+  "result": {
+    "item": "weather_control:rm_offline"
+  }
+}

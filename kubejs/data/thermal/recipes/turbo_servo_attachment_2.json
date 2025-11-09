@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "thermal:invar_ingot"
+    },
+    "D": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "result": {
+    "item": "thermal:turbo_servo_attachment"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "the_vault:vault_essence"
+    },
+    "C": {
+      "item": "ironchests:blank_chest_upgrade"
+    }
+  },
+  "result": {
+    "item": "ironchests:gold_chest_upgrade"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " C ",
+    " D "
+  ],
+  "key": {
+    "B": {
+      "item": "the_vault:driftwood"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "D": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "create:mechanical_bearing",
+    "count": 1
+  }
+}

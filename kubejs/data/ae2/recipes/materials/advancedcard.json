@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "ADB",
+    "AB "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {  
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "item": "ae2:basic_card"
+    }
+  },
+  "result": {
+    "item": "ae2:advanced_card",
+    "count": 1
+  }
+}

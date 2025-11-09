@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CAC",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "B": {
+      "item": "occultism:otherstone_tablet"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "D": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "occultism:storage_remote_inert"
+  }
+}

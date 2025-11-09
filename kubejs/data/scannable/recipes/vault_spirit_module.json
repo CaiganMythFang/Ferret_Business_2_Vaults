@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:compressed_soot_block"
+    },
+    "B": {
+      "item": "the_vault:pog_prism"
+    },
+    "C": {
+      "item": "the_vault:eternal_soul"
+    },
+    "D": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_spirit_module"
+  }
+}

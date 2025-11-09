@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "hexcasting:akashic_logs"
+    },
+    "B": {
+      "tag": "hexcasting:akashic_planks"
+    },
+    "C": {
+      "item": "hexcasting:charged_amethyst"
+    }
+  },
+  "result": {
+    "item": "hexcasting:akashic_connector"
+  }
+}

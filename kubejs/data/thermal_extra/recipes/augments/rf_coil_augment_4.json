@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:gears/twinite"
+    },
+    "C": {
+      "item": "thermal_extra:rf_coil_augment_3"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:rf_coil_augment_4"
+  }
+}

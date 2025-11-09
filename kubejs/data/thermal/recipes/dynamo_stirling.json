@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:rf_coil"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "thermal:iron_gear"
+    },
+    "D": {
+      "item": "the_vault:polished_vault_stone"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "thermal:dynamo_stirling"
+  }
+}

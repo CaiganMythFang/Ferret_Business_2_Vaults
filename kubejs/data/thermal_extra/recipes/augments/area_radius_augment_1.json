@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "B": {
+      "tag": "forge:gears/soul_infused"
+    },
+    "C": {
+      "item": "thermal:area_radius_augment"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:area_radius_augment_1"
+  }
+}

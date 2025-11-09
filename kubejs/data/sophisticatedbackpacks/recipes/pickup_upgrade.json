@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "the_vault:magic_silk"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:pickup_upgrade"
+  }
+}

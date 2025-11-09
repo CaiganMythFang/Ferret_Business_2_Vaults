@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "the_vault:perfect_alexandrite"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:driving_core_2"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:glass_jar"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:acid_core_1"
+  }
+}

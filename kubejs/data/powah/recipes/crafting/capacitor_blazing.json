@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_paste"
+    },
+    "B": {
+      "item": "powah:crystal_blazing"
+    },
+    "C": {
+      "item": "powah:capacitor_hardened"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_blazing"
+  }
+}

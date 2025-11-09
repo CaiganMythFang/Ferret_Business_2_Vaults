@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:crystal_nitro"
+    },
+    "B": {
+      "item": "powah:capacitor_nitro"
+    },
+    "C": {
+      "item": "powah:dielectric_casing"
+    },
+    "D": {
+      "item": "powah:energy_cell_spirited"
+    }
+  },
+  "result": {
+	"item": "powah:energy_cell_nitro"
+  }
+}

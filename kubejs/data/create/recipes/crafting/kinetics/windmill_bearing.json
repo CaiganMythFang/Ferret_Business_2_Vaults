@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    " F "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "the_vault:polished_vault_stone"
+    },
+    "F": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "create:windmill_bearing",
+    "count": 1
+  }
+}

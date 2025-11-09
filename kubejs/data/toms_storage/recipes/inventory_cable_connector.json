@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    "CDE",
+    " FB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "the_vault:wooden_planks"
+    },
+    "C": {
+      "item": "toms_storage:ts.inventory_cable"
+    },
+    "D": {
+      "tag": "forge:chests/wooden"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "F": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_cable_connector"
+  }
+}

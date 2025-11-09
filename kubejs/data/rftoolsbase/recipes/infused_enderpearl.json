@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "B": {
+      "item": "the_vault:gem_larimar"
+    },
+    "C": {
+      "item": "the_vault:bounty_pearl"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:infused_enderpearl"
+  }
+}

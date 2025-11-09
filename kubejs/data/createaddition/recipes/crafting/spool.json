@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+		"item": "createaddition:spool",
+		"count": 16
+  }
+}

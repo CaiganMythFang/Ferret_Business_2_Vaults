@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "the_vault:perfect_larimar"
+    },
+    {
+      "item": "the_vault:perfect_larimar"
+    },
+    {
+      "tag": "forge:glass_panes"
+    },
+    {
+      "tag": "forge:glass_panes"
+    },
+    {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon4",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:4.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_torch"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "tinygates:not_gate_item",
+    "count": 4
+  }
+}

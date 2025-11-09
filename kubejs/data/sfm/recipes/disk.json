@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FBF"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "B": {
+      "item": "minecraft:repeater"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_painite"
+    },
+    "D": {
+      "item": "minecraft:redstone_block"
+    },
+    "E": {
+      "item": "the_vault:extraordinary_benitoite"
+    },
+    "F": {
+      "item": "the_vault:vault_essence"
+    }
+  },
+  "result": {
+    "item": "sfm:disk"
+  }
+}

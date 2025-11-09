@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "tag": "forge:gears/enderium"
+    },
+    "C": {
+      "item": "thermal_extra:rf_coil_storage_augment_1"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:rf_coil_storage_augment_2"
+  }
+}

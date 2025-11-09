@@ -1,6 +1,6 @@
 /* scripts made by Douwsky
 for Iskall85's Vaulthunters */
-
+/*
 // adding recipes
 
 craftingTable.addShaped("ae2_logic_processor", <item:ae2:logic_processor>, [
@@ -26,57 +26,6 @@ craftingTable.addShaped("ae2_controller", <item:ae2:controller>, [
     [<item:ae2:fluix_crystal>, <item:ae2:engineering_processor>, <item:ae2:fluix_crystal>],
     [<item:the_vault:chromatic_steel_ingot>, <item:ae2:fluix_crystal>, <item:the_vault:chromatic_steel_ingot>]
 ]);
-
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_logic_processor", { 
-// "result": {"item": "ae2:logic_processor"},
-//  "mode": "press",
-//   "ingredients": {
-//     "middle": {"item": "the_vault:chromatic_steel_ingot"},
-//     "top": {"item": "ae2:printed_logic_processor"},
-//     "bottom": {"item": "ae2:printed_silicon"}
-// }});
-
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_printed_logic_processor", { 
-// "result": {"item": "ae2:printed_logic_processor"},
-//  "mode": "inscribe",
-//   "ingredients": {
-//     "middle": {"item": "the_vault:gem_larimar"},
-//     "top": {"item": "ae2:logic_processor_press"}
-// }});
-
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_calculation_processor", { 
-// "result": {"item": "ae2:calculation_processor"},
-//  "mode": "press",
-//   "ingredients": {
-//     "middle": {"item": "the_vault:chromatic_steel_ingot"},
-//     "top": {"item": "ae2:printed_calculation_processor"},
-//     "bottom": {"item": "ae2:printed_silicon"}
-// }});
-
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_printed_calculation_processor", { 
-// "result": {"item": "ae2:printed_calculation_processor"},
-//  "mode": "inscribe",
-//   "ingredients": {
-//     "middle": {"item": "the_vault:chromatic_iron_ingot"},
-//     "top": {"item": "ae2:calculation_processor_press"}
-// }});
-
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_engineering_processor", { 
-// "result": {"item": "ae2:engineering_processor"},
-//  "mode": "press",
-//   "ingredients": {
-//     "middle": {"item": "the_vault:chromatic_steel_ingot"},
-//     "top": {"item": "ae2:printed_engineering_processor"},
-//     "bottom": {"item": "ae2:printed_silicon"}
-// }});
-
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_printed_engineering_processor", { 
-// "result": {"item": "ae2:printed_engineering_processor"},
-//  "mode": "inscribe",
-//   "ingredients": {
-//     "middle": {"item": "the_vault:perfect_larimar"},
-//     "top": {"item": "ae2:engineering_processor_press"}
-// }});
 
 craftingTable.addShaped("ae2_1k_component", <item:ae2:cell_component_1k>, [
     [<item:the_vault:vault_essence>, <item:ae2:certus_quartz_crystal>, <item:the_vault:vault_essence>],
@@ -159,9 +108,9 @@ craftingTable.addShaped("ae2_annihilation_core", <item:ae2:annihilation_core>, [
 ]);
 
 craftingTable.addShaped("ae2_molecular_assembler", <item:ae2:molecular_assembler>, [
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:pog_prism>, <item:the_vault:chromatic_steel_ingot>],
     [<item:ae2:formation_core>, <item:minecraft:crafting_table>, <item:ae2:annihilation_core>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:woldsvaults:chroma_core>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_interface", <item:ae2:interface>, [
@@ -187,7 +136,7 @@ craftingTable.addShaped("ae2_quartz_fiber", <item:ae2:quartz_fiber> *4, [
 ]);
 
 craftingTable.addShapeless("ae2_shapeless_terminal", <item:ae2:terminal>, [
-    <item:ae2:annihilation_core>, <item:ae2:monitor>,
+    <item:ae2:annihilation_core>, <tag:items:ae2:illuminated_panel>,
     <item:ae2:logic_processor>, <item:ae2:formation_core>,
     <item:the_vault:gem_pog>
 ]);
@@ -208,11 +157,11 @@ craftingTable.addShaped("ae2_charger", <item:ae2:charger>, [
     [<item:the_vault:chromatic_iron_block>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);
-
+*/
 craftingTable.addShapeless("ae2_cable_anchor", <item:ae2:cable_anchor> *3, [
 <item:the_vault:chromatic_iron_ingot>, <tag:items:ae2:knife>.asIIngredient().anyDamage().transformDamage(10)
 ]);
-
+/*
 craftingTable.addShaped("ae2_basic_card", <item:ae2:basic_card>, [
     [<item:minecraft:gold_block>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>],
     [<item:minecraft:redstone>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>],
@@ -288,14 +237,14 @@ craftingTable.addShaped("ae2_network_wireless_booster", <item:ae2:wireless_boost
 ]);
 
 craftingTable.addShaped("ae2_pattern_provider", <item:ae2:pattern_provider>, [
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>], 
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:pog_prism>, <item:the_vault:chromatic_iron_ingot>], 
     [<item:ae2:formation_core>, <item:minecraft:crafting_table>, <item:ae2:annihilation_core>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>]
+    [<item:the_vault:chromatic_iron_ingot>, <item:woldsvaults:chroma_core>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
     [<item:the_vault:magic_silk>, <item:the_vault:magic_silk>, <item:the_vault:magic_silk>],
-    [<item:the_vault:driftwood>, <tag:items:forge:gems/certus_quartz>, <item:the_vault:driftwood>],
+    [<item:woldsvaults:infused_driftwood>, <tag:items:forge:gems/certus_quartz>, <item:woldsvaults:infused_driftwood>],
     [<item:the_vault:chromatic_iron_ingot>,<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
@@ -322,7 +271,7 @@ craftingTable.addShaped("security_station", <item:ae2:security_station>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
-smithing.addRecipe("ae2t_disk_smithing", <item:ae2things:disk_housing>, <item:ae2:item_cell_housing>, <item:the_vault:black_chromatic_steel_ingot>);
+smithing.addRecipe("ae2t_disk_smithing", <item:ae2things:disk_housing>, <item:ae2:item_cell_housing>, <item:the_vault:wutodic_silver_ingot>);
 
 craftingTable.addShapeless("ae2t_storage_cell_1k_shapeless", <item:ae2things:disk_drive_1k>, [
     <item:ae2things:disk_housing>, <item:ae2:cell_component_1k>
@@ -349,19 +298,4 @@ craftingTable.addShaped("ae2t_advanced_inscriber", <item:ae2things:advanced_insc
     [<item:ae2:engineering_processor>, <item:ae2:inscriber>, <item:ae2:engineering_processor>],
     [<item:the_vault:perfect_larimar>, <item:minecraft:hopper>, <item:the_vault:perfect_larimar>]
 ]);
-
-craftingTable.addShapeless("ae2_calculation_processor_press", <item:ae2:calculation_processor_press>, [
-    <item:the_vault:crystal_budding>, <item:minecraft:paper>
-]);
-
-// craftingTable.addShapeless("ae2_engineering_processor_press", <item:ae2:engineering_processor_press>, [
-//     <item:the_vault:crystal_budding>, <item:minecraft:emerald>
-// ]);
-
-craftingTable.addShapeless("ae2_logic_processor_press", <item:ae2:logic_processor_press>, [
-    <item:the_vault:crystal_budding>, <item:minecraft:diamond>
-]);
-
-craftingTable.addShapeless("ae2_silicon_processor_press", <item:ae2:silicon_press>, [
-    <item:the_vault:crystal_budding>, <tag:items:forge:silicon>
-]);
+*/

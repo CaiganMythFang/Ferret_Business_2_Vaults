@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABB",
+    "C D"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "B": {
+      "tag": "forge:treated_wood_slab"
+    },
+    "C": {
+      "item": "immersiveengineering:craftingtable"
+    },
+    "D": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:workbench"
+  }
+}

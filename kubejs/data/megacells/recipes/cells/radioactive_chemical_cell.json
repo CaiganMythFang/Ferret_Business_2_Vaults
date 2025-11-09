@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "compressium:obsidian_1"
+    },
+    "B": {
+      "item": "the_vault:gem_black_opal"
+    },
+    "C": {
+      "item": "megacells:radioactive_cell_component"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "mekanism:pellet_polonium"
+    }
+  },
+  "result": {
+    "item": "megacells:radioactive_chemical_cell"
+  }
+}

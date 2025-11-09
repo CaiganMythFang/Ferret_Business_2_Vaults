@@ -1,0 +1,34 @@
+{
+"group": "darkutils:charm_warding",
+"key":
+    {
+    "G":
+        {
+        "item": "minecraft:air"
+        },
+    "N":
+        {
+        "item": "minecraft:air"
+        },
+    "S":
+        {
+        "tag": "minecraft:air"
+        },
+    "T":
+        {
+        "item": "minecraft:air"
+        }
+    },
+"pattern":
+    [
+    "SSS",
+    "GNG",
+    " T "
+    ],
+"result":
+    {
+    "count": 1,
+    "item": "minecraft:air"
+    },
+"type": "crafting_shaped"
+}

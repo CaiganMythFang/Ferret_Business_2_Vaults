@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "C C",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:driftwood_planks"
+    },
+    "B": {
+      "tag": "forge:dyes/black"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:drying_basin"
+  }
+}

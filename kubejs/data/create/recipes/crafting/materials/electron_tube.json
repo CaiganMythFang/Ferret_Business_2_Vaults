@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " C ",
+    " D "
+  ],
+  "key": {
+    "B": {
+      "item": "create:polished_rose_quartz"
+    },
+    "C": {
+      "item": "minecraft:redstone_torch"
+    },
+    "D": {
+      "item": "the_vault:chromatic_iron_nugget"
+    }
+  },
+  "result": {
+    "item": "create:electron_tube",
+    "count": 1
+  }
+}

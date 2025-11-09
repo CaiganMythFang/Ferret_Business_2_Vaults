@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:tank_upgrade"
+  }
+}

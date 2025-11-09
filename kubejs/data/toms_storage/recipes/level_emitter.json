@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_torch"
+    },
+    "B": {
+      "item": "the_vault:gem_larimar"
+    },
+    "C": {
+      "item": "toms_storage:ts.inventory_cable"
+    },
+    "D": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.level_emitter"
+  }
+}

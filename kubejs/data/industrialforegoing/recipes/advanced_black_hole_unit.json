@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "the_vault:mystical_powder"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "E": {
+      "tag": "industrialforegoing:machine_frame/advanced"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:advanced_black_hole_unit"
+  }
+}

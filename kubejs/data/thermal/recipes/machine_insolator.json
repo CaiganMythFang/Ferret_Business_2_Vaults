@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:rf_coil"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "D": {
+      "item": "thermal:lumium_gear"
+    },
+    "E": {
+      "item": "the_vault:echo_pog"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_insolator"
+  }
+}

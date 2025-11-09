@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "tag": "forge:chests/wooden"
+    },
+    "C": {
+      "tag": "forge:gears/iron"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/pity"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:common_black_hole_unit"
+  }
+}

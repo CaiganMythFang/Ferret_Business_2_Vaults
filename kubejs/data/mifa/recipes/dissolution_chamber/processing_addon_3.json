@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    {
+      "item": "industrialforegoing:processing_addon_2"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "item": "woldsvaults:chromatic_iron_vault_infuser"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:pink_slime\"}",
+  "processingTime": 200,
+  "output": {
+    "item": "mifa:processing_addon_3",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Processing:4.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

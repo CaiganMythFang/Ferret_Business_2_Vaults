@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_frame"
+  }
+}

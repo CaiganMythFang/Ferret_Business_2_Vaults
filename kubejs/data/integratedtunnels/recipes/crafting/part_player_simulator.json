@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABC",
+    "DEF"
+  ],
+  "key": {
+    "A": {
+      "item": "integratedtunnels:part_exporter_world_item"
+    },
+    "B": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "C": {
+      "item": "integratedtunnels:part_exporter_world_block"
+    },
+    "D": {
+      "item": "integratedtunnels:part_importer_world_item"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "F": {
+      "item": "integratedtunnels:part_importer_world_block"
+    }
+  },
+  "result": {
+    "item": "integratedtunnels:part_player_simulator"
+  }
+}

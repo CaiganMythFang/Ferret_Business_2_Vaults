@@ -4,7 +4,7 @@ for Iskall85's Vaulthunters */
 // adding recipes
 
 <tag:items:forge:generators>.add([<item:irongenerators:stone_generator>, <item:irongenerators:iron_generator>, <item:irongenerators:copper_generator>, <item:irongenerators:gold_generator>, <item:irongenerators:diamond_generator>, <item:irongenerators:netherite_generator>]);
-
+/*
 craftingTable.addShaped("irongenerators_irongenerator", <item:irongenerators:iron_generator>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>],
     [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:furnace>, <item:the_vault:chromatic_iron_ingot>],
@@ -34,7 +34,7 @@ craftingTable.addShaped("irongenerators_netherite_generator", <item:irongenerato
     [<item:irongenerators:diamond_generator>, <tag:items:forge:generators>, <item:irongenerators:diamond_generator>],
     [<item:minecraft:netherite_block>, <item:the_vault:black_chromatic_steel_block>, <item:minecraft:netherite_block>]
 ]);
-
+*/
 craftingTable.addShaped("ironfurnaces_heater", <item:ironfurnaces:heater>, [
     [<item:the_vault:polished_vault_stone>, <item:minecraft:comparator>, <item:the_vault:polished_vault_stone>],
     [<item:the_vault:polished_vault_stone>, <item:minecraft:redstone_block>, <item:the_vault:polished_vault_stone>],

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I I",
+        "IJI",
+        "IPI"
+    ],
+    "key": {
+        "J": {
+            "item": "minecraft:stone"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "tfb2:deleted_item",
+        "count": 4
+    }
+}

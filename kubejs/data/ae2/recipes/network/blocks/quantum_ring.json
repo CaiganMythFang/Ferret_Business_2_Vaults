@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "ae2:logic_processor"
+    },
+    "C": {
+      "item": "ae2:engineering_processor"
+    },
+    "D": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "E": {
+      "tag": "ae2:smart_dense_cable"
+    }
+  },
+  "result": {
+    "item": "ae2:quantum_ring",
+    "count": 8
+  }
+}

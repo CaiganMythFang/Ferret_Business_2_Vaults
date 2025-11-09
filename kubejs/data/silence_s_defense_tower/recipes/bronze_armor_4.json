@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "supplementaries:bamboo_spikes"
+    },
+    "B": {
+      "tag": "forge:ingots/bronze"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:bronze_armor_3"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:reinforcement_materials_2"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:bronze_armor_4"
+  }
+}

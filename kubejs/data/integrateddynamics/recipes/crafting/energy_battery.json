@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DBD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "integrateddynamics:crystalized_menril_block"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:energy_battery"
+  }
+}

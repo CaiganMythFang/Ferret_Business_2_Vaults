@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "item": "integrateddynamics:menril_berries"
+    },
+    "C": {
+      "item": "integrateddynamics:part_static_light_panel"
+    },
+    "D": {
+      "item": "integrateddynamics:variable_transformer_output"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:part_display_panel"
+  }
+}

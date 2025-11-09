@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "C": {
+      "item": "minecraft:diamond_block"
+    },
+    "D": {
+      "item": "the_vault:extraordinary_larimar"
+    }
+  },
+  "result": {
+    "item": "quarryplus:workbench"
+  }
+}

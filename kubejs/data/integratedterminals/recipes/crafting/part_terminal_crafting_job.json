@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " C ",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence_1"
+    },
+    "B": {
+      "item": "integratedterminals:menril_glass"
+    },
+    "C": {
+      "item": "integrateddynamics:part_display_panel"
+    },
+    "D": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "integratedterminals:part_terminal_crafting_job"
+  }
+}

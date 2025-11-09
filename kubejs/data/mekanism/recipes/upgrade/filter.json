@@ -1,0 +1,29 @@
+{
+"key":
+    {
+    "A":
+        {
+        "item": "minecraft:tinted_glass"
+        },
+    "B":
+        {
+        "item": "mekanism:alloy_infused"
+        },
+    "C":
+        {
+        "tag": "forge:storage_blocks/tin"
+        }
+    },
+"pattern":
+    [
+    " A ",
+    "BCB",
+    " A "
+    ],
+"result":
+    {
+    "item": "mekanism:upgrade_filter",
+    "count": 2
+    },
+"type": "minecraft:crafting_shaped"
+}

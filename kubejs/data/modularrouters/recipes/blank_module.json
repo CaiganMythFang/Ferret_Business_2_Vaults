@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "C": {
+      "item": "the_vault:magic_silk"
+    },
+    "D": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "modularrouters:blank_module",
+    "count": 3
+  }
+}

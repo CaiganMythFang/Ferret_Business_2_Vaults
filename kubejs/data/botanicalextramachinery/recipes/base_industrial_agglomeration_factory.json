@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "B": {
+      "item": "botanicalextramachinery:malachite_ingot"
+    },
+    "C": {
+      "item": "botanicalmachinery:industrial_agglomeration_factory"
+    },
+    "D": {
+      "item": "botanicalextramachinery:malachite_dragonstone_block"
+    }
+  },
+  "result": {
+    "item": "botanicalextramachinery:base_industrial_agglomeration_factory"
+  }
+}

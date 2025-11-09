@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "compressium:obsidian_1"
+    },
+    "B": {
+      "item": "the_vault:gem_black_opal"
+    },
+    "C": {
+      "item": "megacells:cell_component_256m"
+    },
+    "D": {
+      "item": "the_vault:ancient_copper_block"
+    }
+  },
+  "result": {
+    "item": "megacells:fluid_storage_cell_256m"
+  }
+}

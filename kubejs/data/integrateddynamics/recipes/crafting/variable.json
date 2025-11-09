@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "item": "integrateddynamics:crystalized_menril_block"
+    },
+    "C": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:variable",
+    "count": 24
+  }
+}

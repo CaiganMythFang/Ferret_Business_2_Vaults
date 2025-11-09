@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "tag": "forge:plates/brass"
+    },
+    "D": {
+      "item": "createaddition:copper_spool"
+    },
+    "E": {
+      "item": "createaddition:capacitor"
+    },
+    "F": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "createaddition:electric_motor"
+  }
+}

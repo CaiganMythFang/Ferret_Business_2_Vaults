@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:shears"
+    },
+    "C": {
+      "tag": "industrialforegoing:machine_frame/simple"
+    },
+    "D": {
+      "tag": "forge:gears/gold"
+    },
+    "E": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:animal_rancher"
+  }
+}

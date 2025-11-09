@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:wold_star_chunk"
+    },
+    "B": {
+      "item": "the_vault:extraordinary_black_opal"
+    },
+    "C": {
+      "item": "minecraft:polished_deepslate_slab"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:creative_capacitor"
+  }
+}

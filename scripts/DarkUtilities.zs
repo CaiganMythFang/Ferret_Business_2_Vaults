@@ -2,7 +2,7 @@
 for Iskall85's Vaulthunters */
 
 // adding recipes
-
+/*
 stoneCutter.addRecipe("darkutils_blank_plate", <item:darkutils:blank_plate>, <item:the_vault:chromatic_iron_ingot>);
 
 craftingTable.addShaped("darkutils_vector_plate", <item:darkutils:vector_plate> *4, [
@@ -41,3 +41,4 @@ craftingTable.addShaped("darkutils_damage_plate_player", <item:darkutils:damage_
     [<item:the_vault:black_chromatic_steel_ingot>, <item:darkutils:damage_plate>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
+*/

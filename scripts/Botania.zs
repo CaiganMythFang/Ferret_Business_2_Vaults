@@ -8,7 +8,7 @@ import mods.botania.recipe.manager.ElvenTradeRecipeManager;
 import mods.botania.recipe.manager.ManaInfusionRecipeManager;
 import mods.botania.recipe.manager.PetalApothecaryRecipeManager;
 import mods.botania.recipe.manager.TerraPlateRecipeManager;
-
+/*
 var apothecary = {
   "default": <item:minecraft:cobblestone>,
   "forest": <item:botania:metamorphic_forest_cobblestone>,
@@ -38,10 +38,10 @@ craftingTable.addShapeless("ender_air", <item:botania:ender_air_bottle>, [
 ]);
 
 <recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>,
- <item:the_vault:vault_diamond>, 25000);
+ <item:the_vault:vault_diamond>, 10000);
 
  <recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>,
- <item:the_vault:chromatic_iron_ingot>, 17500);
+ <item:the_vault:chromatic_iron_ingot>, 5000);
 
 <recipetype:botania:terra_plate>.addRecipe("terra_plate_test", <item:botania:terrasteel_ingot>, 500000,
 <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:botania:mana_diamond>, <item:botania:manasteel_ingot>, <item:botania:mana_pearl>, <item:the_vault:vault_essence>);
@@ -133,7 +133,7 @@ craftingTable.addShaped("botania_dreamwood_twig", <item:botania:dreamwood_twig>,
     [<item:minecraft:air>, <tag:items:botania:dreamwood_logs>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:driftwood>, <item:minecraft:air>]
 ]);
-
+*/
 craftingTable.addShaped("botania_wand", <item:botania:twig_wand>.withTag({color1: 6 as int, color2: 6 as int}), [
     [<item:minecraft:air>, <item:botania:pink_petal_block>, <item:botania:livingwood_twig>],
     [<item:minecraft:air>, <item:botania:livingwood_twig>, <item:the_vault:perfect_larimar>],
@@ -145,7 +145,7 @@ craftingTable.addShaped("botania_elvenwood_wand", <item:botania:dreamwood_wand>.
     [<item:minecraft:air>, <item:botania:dreamwood_twig>, <item:the_vault:extraordinary_larimar>],
     [<item:botania:dreamwood_twig>, <item:the_vault:driftwood>, <item:minecraft:air>]
 ]);
-
+/*
 craftingTable.addShaped("botania_spark", <item:botania:spark>, [
     [<item:the_vault:gem_larimar>, <tag:items:botania:petals>, <item:the_vault:gem_larimar>],
     [<item:quark:blaze_lantern>, <item:minecraft:gold_block>, <item:quark:blaze_lantern>],
@@ -189,3 +189,24 @@ craftingTable.addShaped("botania_alchemy_catalyst", <item:botania:alchemy_cataly
     10000,
     <block:botania:alchemy_catalyst>
 );
+*/
+
+// <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_vault_stone",  <item:the_vault:chipped_vault_rock>,
+//  <item:the_vault:vault_stone> *2, 10000, <block:botania:alchemy_catalyst>);
+
+var clusters = {
+  "cluster_bomignite": "bomignite",
+  "cluster_tubium": "tubium",
+  "cluster_ashium": "ashium",
+  "cluster_upaline": "upaline",
+  "cluster_xenium": "xenium",
+  "cluster_gorginite": "gorginite",
+  "cluster_petzanite": "petzanite",
+  "cluster_iskallium": "iskallium",
+  "cluster_sparkletine": "sparkletine"
+};
+
+for clusterId, clusterName in clusters {
+    <recipetype:botania:terra_plate>.addRecipe("terra_plate_" + clusterName +"_key", <item:the_vault:key_${clusterName}>, 5000,
+<item:the_vault:cluster_${clusterName}>, <item:the_vault:blank_key>);
+}

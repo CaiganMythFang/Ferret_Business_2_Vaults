@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    " CD",
+    "C  "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_alexandrite"
+    },
+    "B": {
+      "item": "the_vault:perfect_benitoite"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "item": "the_vault:perfect_painite"
+    }
+  },
+  "result": {
+    "item": "morphtool:tool"
+  }
+}

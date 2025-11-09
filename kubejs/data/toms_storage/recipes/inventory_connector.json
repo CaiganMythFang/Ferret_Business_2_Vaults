@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:wooden_planks"
+    },
+    "B": {
+      "item": "minecraft:comparator"
+    },
+    "C": {
+      "item": "the_vault:driftwood_planks"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond"
+    },
+    "E": {
+      "item": "the_vault:gem_larimar"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_connector"
+  }
+}

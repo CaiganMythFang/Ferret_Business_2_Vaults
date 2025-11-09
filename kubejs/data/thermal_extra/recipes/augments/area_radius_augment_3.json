@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:gears/shellite"
+    },
+    "C": {
+      "item": "thermal_extra:area_radius_augment_2"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:area_radius_augment_3"
+  }
+}

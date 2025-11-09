@@ -1,0 +1,26 @@
+{
+  "type": "pocketstorage:data_upgrade",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "woldsvaults:extraordinary_pog_prism"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "D": {
+      "item": "pocketstorage:psu_2",
+      "type": "pocketstorage:nbt_target"
+    }
+  },
+  "result": {
+    "item": "pocketstorage:psu_3"
+  }
+}

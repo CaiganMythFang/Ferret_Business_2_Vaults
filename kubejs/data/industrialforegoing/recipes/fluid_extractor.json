@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "C": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "E": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:fluid_extractor"
+  }
+}

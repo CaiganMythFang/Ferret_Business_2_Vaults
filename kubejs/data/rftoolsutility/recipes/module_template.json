@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "rftoolsbase:infused_diamond"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:module_template"
+  }
+}

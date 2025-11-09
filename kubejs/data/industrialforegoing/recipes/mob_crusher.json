@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:netherite_sword"
+    },
+    "C": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/advanced"
+    },
+    "E": {
+      "tag": "forge:gears/diamond"
+    },
+    "F": {
+      "item": "the_vault:chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:mob_crusher"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/bronze"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:resource_box_1"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:bronze_armor_1"
+  }
+}

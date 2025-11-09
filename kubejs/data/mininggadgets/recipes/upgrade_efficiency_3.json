@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "item": "mininggadgets:upgrade_efficiency_2"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_efficiency_3",
+    "count": 1
+  }
+}

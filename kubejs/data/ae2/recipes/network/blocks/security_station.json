@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "ae2:engineering_processor"
+    },
+    "C": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+    "item": "ae2:security_station",
+    "count": 1
+  }
+}

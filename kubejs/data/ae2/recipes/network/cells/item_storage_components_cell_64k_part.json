@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "ae2:cell_component_16k"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    }
+  },
+  "result": {
+    "item": "ae2:cell_component_64k",
+    "count": 1
+  }
+}

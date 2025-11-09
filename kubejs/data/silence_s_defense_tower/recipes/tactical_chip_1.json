@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "B B",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:technology_speed"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:reinforcement_materials_1"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:technology_health"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:tactical_chip_1"
+  }
+}

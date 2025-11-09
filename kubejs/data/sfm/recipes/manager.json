@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "B": {
+      "item": "sfm:cable"
+    },
+    "C": {
+      "item": "the_vault:echo_pog"
+    }
+  },
+  "result": {
+    "item": "sfm:manager"
+  }
+}

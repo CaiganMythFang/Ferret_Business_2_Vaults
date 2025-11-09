@@ -2,7 +2,7 @@
 for Iskall85's Vaulthunters */
 
 // adding recipes
-
+/*
 craftingTable.addShaped("mininggadgets_mininggadget", <item:mininggadgets:mininggadget>, [
     [<item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>],
     [<item:the_vault:vault_diamond>, <item:the_vault:gem_pog>, <item:minecraft:redstone_block>],
@@ -140,3 +140,4 @@ craftingTable.addShaped("mininggadgets_silk_upgrade", <item:mininggadgets:upgrad
     [<item:the_vault:chromatic_steel_ingot>, <item:mininggadgets:upgrade_empty>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:magic_silk>, <item:the_vault:magic_silk_block>, <item:the_vault:magic_silk>]
 ]);
+*/

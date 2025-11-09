@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "item": "rftoolsutility:module_template"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:moduleplus_template"
+  }
+}

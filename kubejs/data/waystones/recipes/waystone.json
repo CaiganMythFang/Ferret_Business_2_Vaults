@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "waystones:warp_dust"
+    },
+    "B": {
+      "tag": "bookshelf:stones"
+    },
+    "C": {
+      "item": "waystones:warp_stone"
+    },
+    "D": {
+      "item": "the_vault:wutodic_silver_ingot"
+    }
+  },
+  "result": {
+    "item": "waystones:waystone"
+  }
+}

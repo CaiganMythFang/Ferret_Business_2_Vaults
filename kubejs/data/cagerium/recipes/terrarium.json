@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "the_vault:vault_meat_block"
+    },
+    "C": {
+      "item": "cagerium:binding_wood_plate"
+    }
+  },
+  "result": {
+    "item": "cagerium:terrarium"
+  }
+}

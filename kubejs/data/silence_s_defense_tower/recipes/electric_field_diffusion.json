@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "B B",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:technology_speed"
+    },
+    "B": {
+      "item": "the_vault:driftwood_planks"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:technology_health"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:electric_field_diffusion"
+  }
+}

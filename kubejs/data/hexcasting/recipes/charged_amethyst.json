@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "item": "the_vault:vault_essence"
+    },
+    "C": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "hexcasting:charged_amethyst"
+  }
+}

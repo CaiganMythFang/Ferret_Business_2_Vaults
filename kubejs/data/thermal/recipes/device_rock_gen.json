@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "thermal:constantan_gear"
+    },
+    "C": {
+      "item": "minecraft:tinted_glass"
+    },
+    "D": {
+      "item": "thermal:machine_frame"
+    },
+    "E": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "result": {
+    "item": "thermal:device_rock_gen"
+  }
+}

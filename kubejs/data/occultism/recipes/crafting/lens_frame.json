@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "occultism:otherstone"
+    },
+    "B": {
+      "tag": "forge:ingots/silver"
+    },
+    "C": {
+      "item": "the_vault:wutodic_silver_ingot"
+    }
+  },
+  "result": {
+    "item": "occultism:lens_frame"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "C": {
+      "item": "minecraft:bucket"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "F": {
+      "item": "industrialforegoing:diamond_gear"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:dissolution_chamber"
+  }
+}

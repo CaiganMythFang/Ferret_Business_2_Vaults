@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/tin"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "the_vault:driftwood_planks"
+    },
+    "D": {
+      "tag": "forge:ingots/signalum"
+    }
+  },
+  "result": {
+    "item": "thermal:item_buffer"
+  }
+}

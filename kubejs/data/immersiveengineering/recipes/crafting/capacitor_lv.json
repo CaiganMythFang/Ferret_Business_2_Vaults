@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:treated_wood"
+    },
+    "B": {
+      "tag": "forge:plates/lead"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "item": "immersiveengineering:redstone_acid_bucket"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:capacitor_lv"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_painite"
+    },
+    "C": {
+      "item": "integrateddynamics:logic_programmer"
+    },
+    "D": {
+      "item": "integrateddynamics:crystalized_menril_block"
+    },
+    "E": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "integratednbt:nbt_extractor_remote"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_black_opal"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "minecraft:elytra",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    },
+    "C": {
+      "item": "the_vault:phoenix_feather"
+    },
+    "D": {
+      "item": "rftoolsutility:moduleplus_template"
+    },
+    "E": {
+      "item": "the_vault:echo_pog"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:flight_module"
+  }
+}

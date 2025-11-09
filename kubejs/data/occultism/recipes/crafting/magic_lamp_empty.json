@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "BCB",
+    " BB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_pog"
+    },
+    "B": {
+      "item": "the_vault:wutodic_silver_ingot"
+    },
+    "C": {
+      "tag": "forge:ingots/iesnium"
+    }
+  },
+  "result": {
+    "item": "occultism:magic_lamp_empty"
+  }
+}

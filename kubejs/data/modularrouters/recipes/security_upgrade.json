@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "minecraft:gold_nugget"
+    },
+    "D": {
+      "item": "modularrouters:blank_upgrade"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "modularrouters:security_upgrade",
+    "count": 1
+  }
+}

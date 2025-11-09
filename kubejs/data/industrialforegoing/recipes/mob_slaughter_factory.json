@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:gears/diamond"
+    },
+    "C": {
+      "item": "minecraft:diamond_sword"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/simple"
+    },
+    "E": {
+      "item": "minecraft:diamond_axe"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:mob_slaughter_factory"
+  }
+}

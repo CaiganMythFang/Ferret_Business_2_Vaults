@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_echo"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:void_upgrade"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "F": {
+      "item": "the_vault:carbon"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_void_upgrade"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "B": {
+      "item": "create:sand_paper"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "create:copper_casing"
+    }
+  },
+  "result": {
+    "item": "create_enchantment_industry:disenchanter"
+  }
+}

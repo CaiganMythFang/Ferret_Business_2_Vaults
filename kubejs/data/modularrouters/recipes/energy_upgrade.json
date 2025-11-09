@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " D ",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:quartz"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "modularrouters:blank_upgrade"
+    },
+    "E": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "modularrouters:energy_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DED",
+    "AF "
+  ],
+  "key": {
+    "A": {
+      "item": "modularrouters:sender_module_2"
+    },
+    "B": {
+      "item": "the_vault:perfect_echo_gem"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    },
+    "E": {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    "F": {
+      "item": "modularrouters:blank_upgrade"
+    }
+  },
+  "result": {
+    "item": "modularrouters:sender_module_3",
+    "count": 1
+  }
+}

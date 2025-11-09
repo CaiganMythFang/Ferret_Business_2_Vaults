@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "compressium:obsidian_1"
+    },
+    "B": {
+      "item": "the_vault:gem_black_opal"
+    },
+    "C": {
+      "item": "megacells:bulk_cell_component"
+    },
+    "D": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "megacells:bulk_item_cell"
+  }
+}

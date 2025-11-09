@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+  }
+}

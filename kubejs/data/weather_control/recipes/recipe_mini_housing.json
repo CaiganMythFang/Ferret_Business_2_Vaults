@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_block"
+    },
+    "C": {
+      "item": "woldsvaults:extraordinary_pog_prism"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "weather_control:mini_housing"
+  }
+}

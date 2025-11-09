@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "C": {
+      "item": "minecraft:blast_furnace"
+    },
+    "D": {
+      "item": "immersive_aircraft:boiler"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:engine"
+  }
+}

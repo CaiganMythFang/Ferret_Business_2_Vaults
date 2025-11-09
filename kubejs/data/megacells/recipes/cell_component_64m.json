@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:echo_pog"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "megacells:cell_component_16m"
+    },
+    "D": {
+      "item": "the_vault:omega_pog"
+    }
+  },
+  "result": {
+    "item": "megacells:cell_component_64m"
+  }
+}

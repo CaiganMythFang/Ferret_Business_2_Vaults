@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "ae2:logic_processor"
+    },
+    "C": {
+      "item": "ae2:fluix_smart_cable"
+    },
+    "D": {
+      "item": "ae2:engineering_processor"
+    }
+  },
+  "result": {
+    "item": "megacells:mega_crafting_unit"
+  }
+}

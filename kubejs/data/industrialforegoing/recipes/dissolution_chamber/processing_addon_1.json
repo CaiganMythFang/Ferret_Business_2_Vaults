@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    {
+      "item": "the_vault:memory_powder"
+    },
+    {
+      "item": "the_vault:memory_powder"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:processing_addon_1",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Processing:2.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

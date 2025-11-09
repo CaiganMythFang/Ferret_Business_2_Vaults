@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "the_vault:echoing_ingot"
+    },
+    {
+      "item": "the_vault:echoing_ingot"
+    },
+    {
+      "item": "the_vault:memory_shard"
+    },
+    {
+      "item": "the_vault:memory_shard"
+    },
+    {
+      "item": "mifa:speed_addon_3"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:ether_gas\"}",
+  "processingTime": 200,
+  "output": {
+    "item": "mifa:speed_addon_4",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Speed:5.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

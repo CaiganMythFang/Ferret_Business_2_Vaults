@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ECE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "ae2:cell_component_1k"
+    },
+    "D": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "ae2:cell_component_4k",
+    "count": 1
+  }
+}

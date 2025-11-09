@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "minecraft:coal"
+    },
+    "C": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:common_ores_module"
+  }
+}

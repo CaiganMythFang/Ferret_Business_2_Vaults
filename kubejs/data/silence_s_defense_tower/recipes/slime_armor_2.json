@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:slime_block"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:tactical_chip_2"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:slime_armor_1"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:reinforcement_materials_2"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:slime_armor_2"
+  }
+}

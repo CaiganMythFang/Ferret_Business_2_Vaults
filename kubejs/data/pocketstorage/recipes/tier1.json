@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    },
+    "D": {
+      "tag": "forge:chests"
+    }
+  },
+  "result": {
+    "item": "pocketstorage:psu_1"
+  }
+}

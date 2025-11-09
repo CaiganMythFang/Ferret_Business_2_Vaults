@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "B": {
+      "item": "powah:capacitor_basic"
+    },
+    "C": {
+      "item": "powah:dielectric_casing"
+    },
+    "D": {
+      "item": "powah:furnator_starter"
+    }
+  },
+  "result": {
+	"item": "powah:furnator_basic"
+  }
+}

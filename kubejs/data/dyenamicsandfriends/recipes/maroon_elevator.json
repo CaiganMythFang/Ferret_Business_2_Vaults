@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "elevator",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:magic_silk"
+    },
+    "B": {
+      "item": "dyenamics:maroon_wool"
+    },
+    "C":{
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "dyenamicsandfriends:elevatorid_maroon_elevator"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "elevatorid"
+    }
+  ]
+}

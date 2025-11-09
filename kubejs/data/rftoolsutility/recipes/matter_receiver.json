@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_benitoite"
+    },
+    "C": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "D": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:matter_receiver"
+  }
+}

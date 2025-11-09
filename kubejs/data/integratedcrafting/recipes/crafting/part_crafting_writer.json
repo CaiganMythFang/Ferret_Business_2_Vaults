@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "the_vault:wooden_planks"
+    },
+    "D": {
+      "item": "integrateddynamics:variable_transformer_output"
+    }
+  },
+  "result": {
+    "item": "integratedcrafting:part_crafting_writer"
+  }
+}

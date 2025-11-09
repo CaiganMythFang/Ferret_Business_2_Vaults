@@ -1,0 +1,37 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:diamond_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:pog_prism"
+    },
+    "C": {
+      "item": "woldsvaults:chroma_core"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    },
+    "E": {
+      "item": "woldsvaults:prismatic_fiber"
+    },
+    "F": {
+      "item": "the_vault:magic_silk_block"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  }
+}

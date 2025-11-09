@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:clay_ball"
+    },
+    "B": {
+      "item": "the_vault:carbon"
+    },
+    "C": {
+      "tag": "forge:ingots/brick"
+    },
+    "D": {
+      "tag": "forge:sandstone"
+    }
+  },
+  "result": {
+    "count": 3,
+    "item": "immersiveengineering:cokebrick"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:tinted_glass"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "D": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "result": {
+    "item": "thermal:tinker_bench"
+  }
+}

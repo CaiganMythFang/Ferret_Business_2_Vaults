@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy_block"
+    },
+    "B": {
+      "item": "minecraft:fishing_rod"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "D": {
+      "item": "create:content_observer"
+    },
+    "E": {
+      "item": "the_vault:vault_meat_block"
+    }
+  },
+  "result": {
+    "item": "bobberdetector:bobber_detector"
+  }
+}

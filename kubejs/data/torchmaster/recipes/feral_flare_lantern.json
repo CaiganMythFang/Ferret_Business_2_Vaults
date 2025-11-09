@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "D": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "result": {
+    "item": "torchmaster:feral_flare_lantern"
+  }
+}

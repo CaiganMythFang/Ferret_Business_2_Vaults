@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:polished_vault_stone"
+    },
+    "B": {
+      "item": "waystones:warp_dust"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "waystones:warp_plate"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    {
+      "item": "the_vault:memory_shard"
+    },
+    {
+      "item": "the_vault:memory_shard"
+    },
+    {
+      "item": "industrialforegoing:speed_addon_2"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:pink_slime\"}",
+  "processingTime": 200,
+  "output": {
+    "item": "mifa:speed_addon_3",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Speed:4.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

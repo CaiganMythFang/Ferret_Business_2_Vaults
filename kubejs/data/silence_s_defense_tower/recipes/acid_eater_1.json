@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:driftwood"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:reinforcement_materials_1"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:acid_core_1"
+    },
+    "D": {
+      "tag": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:acid_eater_level1_p"
+  }
+}

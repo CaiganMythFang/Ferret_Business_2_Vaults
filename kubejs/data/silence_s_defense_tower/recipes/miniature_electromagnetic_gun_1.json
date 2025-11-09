@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:driftwood"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:driving_core_3"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "E": {
+      "tag": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:miniature_electromagnetic_gun_p"
+  }
+}

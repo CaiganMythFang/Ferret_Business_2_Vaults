@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "CD ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rods/copper"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+		"item": "createaddition:connector",
+		"count": 2
+  }
+}

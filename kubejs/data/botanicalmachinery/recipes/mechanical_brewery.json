@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "botania:flask"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "E": {
+      "item": "botania:brewery"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:mechanical_brewery"
+  }
+}

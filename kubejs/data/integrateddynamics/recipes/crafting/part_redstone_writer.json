@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "integrateddynamics:variable_transformer_output"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:part_redstone_writer"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "tag": "ae2:all_quartz_dust"
+    }
+  },
+  "result": {
+    "item": "ae2:quartz_fiber",
+    "count": 4
+  }
+}

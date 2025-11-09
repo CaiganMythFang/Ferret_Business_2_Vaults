@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "D": {
+      "item": "the_vault:perfect_wutodie"
+    }
+  },
+  "result": {
+    "item": "torchmaster:dreadlamp"
+  }
+}

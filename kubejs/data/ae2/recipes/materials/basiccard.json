@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "DEB",
+    "AB "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "ae2:calculation_processor"
+    }
+  },
+  "result": {
+    "item": "ae2:basic_card",
+    "count": 1
+  }
+}

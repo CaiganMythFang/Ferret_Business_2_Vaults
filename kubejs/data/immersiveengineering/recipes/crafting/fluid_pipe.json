@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " B ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:fluid_pipe",
+        "count": 8
+  }
+}

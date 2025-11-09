@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_paste"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "powah:capacitor_basic_large"
+    },
+    "D": {
+      "item": "minecraft:redstone_block"
+    },
+    "E": {
+      "item": "powah:battery_starter"
+    }
+  },
+  "result": {
+    "item": "powah:battery_basic"
+  }
+}

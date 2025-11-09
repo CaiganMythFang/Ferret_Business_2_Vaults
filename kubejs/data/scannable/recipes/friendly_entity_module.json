@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "tag": "the_vault:passiveegg"
+    },
+    "C": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:friendly_entity_module"
+  }
+}

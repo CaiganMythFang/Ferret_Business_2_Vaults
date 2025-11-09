@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "integrateddynamics:variable"
+    },
+    "C": {
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    },
+    "D": {
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:variable_transformer_input",
+    "count": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_nugget"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "rftoolsstorage:storage_module0"
+  }
+}

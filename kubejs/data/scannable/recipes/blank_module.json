@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence_1"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "D": {
+      "item": "the_vault:gem_pog"
+    }
+  },
+  "result": {
+    "item": "scannable:blank_module"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:terracotta"
+    },
+    "D": {
+      "item": "the_vault:infinite_water_bucket"
+    }
+  },
+  "result": {
+    "item": "cookingforblockheads:sink",
+    "count": 1
+  }
+}

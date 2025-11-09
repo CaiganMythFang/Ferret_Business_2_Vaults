@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "C": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "integrateddynamics:variable_transformer_input"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:part_redstone_reader"
+  }
+}

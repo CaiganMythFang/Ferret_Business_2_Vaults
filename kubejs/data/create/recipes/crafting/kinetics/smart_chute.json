@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:plates/gold"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "D": {
+      "item": "create:chute"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "create:smart_chute",
+    "count": 1
+  }
+}

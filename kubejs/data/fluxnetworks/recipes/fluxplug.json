@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " C ",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "fluxnetworks:flux_core"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "D": {
+      "item": "woldsvaults:chroma_core"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_plug"
+  }
+}

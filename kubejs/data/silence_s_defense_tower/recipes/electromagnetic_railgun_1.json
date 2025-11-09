@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:driving_core_4"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "E": {
+      "tag": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:electromagnetic_railgun_p"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "item": "integrateddynamics:variable_transformer_input"
+    },
+    "E": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:part_machine_reader"
+  }
+}

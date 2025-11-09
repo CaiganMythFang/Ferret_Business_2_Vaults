@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_paste"
+    },
+    "B": {
+      "item": "the_vault:gem_larimar"
+    },
+    "C": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "D": {
+      "item": "the_vault:vault_essence"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_basic"
+  }
+}

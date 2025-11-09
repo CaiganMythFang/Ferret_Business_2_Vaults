@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:chests"
+    },
+    "C": {
+      "item": "the_vault:gem_larimar"
+    },
+    "D": {
+      "item": "modularrouters:blank_module"
+    },
+    "E": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "modularrouters:sender_module_1",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "the_vault:vault_essence_2"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:compacting_upgrade"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "ae2:terminal"
+    },
+    "D": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "ae2:crafting_terminal",
+    "count": 1
+  }
+}

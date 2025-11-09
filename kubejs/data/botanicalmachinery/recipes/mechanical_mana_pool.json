@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "item": "botania:diluted_pool"
+    },
+    "C": {
+      "item": "botania:alchemy_catalyst"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "E": {
+      "item": "botania:conjuration_catalyst"
+    },
+    "F": {
+      "item": "botania:fabulous_pool"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:mechanical_mana_pool"
+  }
+}

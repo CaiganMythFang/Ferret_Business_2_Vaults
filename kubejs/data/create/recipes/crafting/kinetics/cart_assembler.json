@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "the_vault:echo_pog"
+    },
+    "E": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "create:cart_assembler",
+    "count": 1
+  }
+}

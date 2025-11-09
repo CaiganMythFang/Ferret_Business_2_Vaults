@@ -5,11 +5,8 @@ for Iskall85's Vaulthunters */
 
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.recipe.Brewing;
-import mods.initialinventory.InvHandler;
 import mods.mekanism.recipe.Combining;
 import mods.mekanism.api.ingredient.ItemStackIngredient;
-
-InvHandler.addStartingItem("one", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), 0);
 
 var dyes = {
   "white_dye": "white",
@@ -52,9 +49,9 @@ craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
 
 
 craftingTable.addShaped("cage_dust", <item:ispawner:cage_dust>, [
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
-    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
+    [<item:minecraft:air>, <item:the_vault:gem_painite>, <item:minecraft:air>],
+    [<item:the_vault:gem_painite>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_painite>],
+    [<item:minecraft:air>, <item:the_vault:gem_painite>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShapeless("suspicious_weaknes_red_stew", <item:minecraft:suspicious_stew>.withTag({Effects: [{EffectId: 18 as byte, EffectDuration: 180 as int}]}), [
@@ -187,6 +184,10 @@ brewing.addRecipe(<item:minecraft:lingering_potion>.withTag({Potion: "minecraft:
 
 craftingTable.addShapeless("vault_hunters_guide", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), [
     <item:minecraft:book>, <item:minecraft:cobblestone>
+]);
+
+craftingTable.addShapeless("vault_lexicon", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:vault_lexicon" as string}), [
+    <item:minecraft:book>, <item:minecraft:wooden_sword>
 ]);
 
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [

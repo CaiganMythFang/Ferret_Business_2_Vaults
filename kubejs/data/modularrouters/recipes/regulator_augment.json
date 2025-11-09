@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "D": {
+      "item": "modularrouters:augment_core"
+    }
+  },
+  "result": {
+    "item": "modularrouters:regulator_augment",
+    "count": 1
+  }
+}

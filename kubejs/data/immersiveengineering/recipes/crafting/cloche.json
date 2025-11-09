@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass"
+    },
+    "B": {
+      "item": "immersiveengineering:light_bulb"
+    },
+    "C": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "D": {
+      "tag": "forge:treated_wood"
+    },
+    "E": {
+      "item": "immersiveengineering:component_iron"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:cloche"
+  }
+}

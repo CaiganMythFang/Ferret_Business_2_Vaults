@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "D": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:variablestore"
+  }
+}

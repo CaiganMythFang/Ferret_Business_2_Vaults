@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DED",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:technology_heal"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:technology_damage"
+    },
+    "D": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "E": {
+      "item": "silence_s_defense_tower:molotov_cocktail_2"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:molotov_cocktail_3"
+  }
+}

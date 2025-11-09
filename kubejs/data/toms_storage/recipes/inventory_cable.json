@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:driftwood"
+    },
+    "B": {
+      "item": "the_vault:wooden_planks"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "D": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_cable",
+    "count": 6
+  }
+}

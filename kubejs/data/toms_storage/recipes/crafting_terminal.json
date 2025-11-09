@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    },
+    "D": {
+      "item": "toms_storage:ts.storage_terminal"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.crafting_terminal"
+  }
+}

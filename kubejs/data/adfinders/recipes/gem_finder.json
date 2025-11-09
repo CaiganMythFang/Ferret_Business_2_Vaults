@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A B",
+    " C ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "woldsvaults:pogominium_ingot"
+    },
+    "B": {
+      "item": "the_vault:echoing_ingot"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "D": {
+      "item": "the_vault:infused_eternal_soul"
+    }
+  },
+  "result": {
+    "item": "adfinders:gem_finder"
+  }
+}

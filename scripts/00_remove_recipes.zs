@@ -204,6 +204,9 @@ var materials = {
 // Alex's Mobs
 craftingTable.removeByModid("alexsmobs");
 
+// Framed Blocks
+craftingTable.removeByModid("framedblocks");
+
 // Snad
 craftingTable.remove(<item:snad:suol_snad>);
 craftingTable.remove(<item:snad:red_snad>);
@@ -216,66 +219,66 @@ craftingTable.remove(<item:snad:snad>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:printed_calculation_processor>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:engineering_processor>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:printed_engineering_processor>);
-craftingTable.remove(<item:ae2:io_port>);
-craftingTable.remove(<item:ae2:controller>);
-craftingTable.remove(<item:ae2:vibration_chamber>);
-craftingTable.remove(<item:ae2:crafting_card>);
-craftingTable.remove(<item:ae2:item_storage_cell_1k>);
-craftingTable.remove(<item:ae2:item_storage_cell_4k>);
-craftingTable.remove(<item:ae2:item_storage_cell_16k>);
-craftingTable.remove(<item:ae2:item_storage_cell_64k>);
-craftingTable.remove(<item:ae2:cell_component_256k>);
-craftingTable.remove(<item:ae2:item_storage_cell_256k>);
-craftingTable.remove(<item:ae2:item_cell_housing>);
-craftingTable.remove(<item:ae2:fluid_cell_housing>);
-craftingTable.remove(<item:ae2:drive>);
-craftingTable.remove(<item:ae2:formation_core>);
-craftingTable.remove(<item:ae2:annihilation_core>);
-craftingTable.remove(<item:ae2:molecular_assembler>);
-craftingTable.remove(<item:ae2:interface>);
-craftingTable.remove(<item:ae2:inscriber>);
-craftingTable.remove(<item:ae2:quartz_fiber>);
-craftingTable.remove(<item:ae2:terminal>);
-craftingTable.remove(<item:ae2:crafting_terminal>);
-craftingTable.remove(<item:ae2:pattern_encoding_terminal>);
-craftingTable.remove(<item:ae2:charger>);
-craftingTable.remove(<item:ae2:cable_anchor>);
-craftingTable.remove(<item:ae2:basic_card>);
-craftingTable.remove(<item:ae2:advanced_card>);
-craftingTable.remove(<item:ae2:speed_card>);
-craftingTable.remove(<item:ae2:energy_cell>);
-craftingTable.remove(<item:ae2:crafting_unit>);
-craftingTable.remove(<item:ae2:wireless_crafting_terminal>);
-craftingTable.remove(<item:ae2:energy_acceptor>);
-craftingTable.remove(<item:ae2:wireless_access_point>);
-craftingTable.remove(<item:ae2:wireless_receiver>);
-craftingTable.remove(<item:ae2:quartz_growth_accelerator>);
-craftingTable.remove(<item:ae2:wireless_booster>);
-craftingTable.remove(<item:ae2:pattern_provider>);
-craftingTable.remove(<item:ae2:blank_pattern>);
-craftingTable.remove(<item:ae2:spatial_anchor>);
-craftingTable.remove(<item:ae2things:disk_housing>);
-craftingTable.remove(<item:ae2things:disk_drive_1k>);
-craftingTable.remove(<item:ae2things:disk_drive_4k>);
-craftingTable.remove(<item:ae2things:disk_drive_16k>);
-craftingTable.remove(<item:ae2things:disk_drive_64k>);
-craftingTable.remove(<item:ae2things:disk_drive_256k>);
-craftingTable.remove(<item:ae2things:advanced_inscriber>);
-craftingTable.remove(<item:ae2:security_station>);
-craftingTable.remove(<item:ae2:quantum_ring>);
-craftingTable.remove(<item:ae2:portable_item_cell_1k>);
-craftingTable.remove(<item:ae2:portable_item_cell_4k>);
-craftingTable.remove(<item:ae2:portable_item_cell_16k>);
-craftingTable.remove(<item:ae2:portable_item_cell_64k>);
-craftingTable.remove(<item:ae2:portable_item_cell_256k>);
-craftingTable.remove(<item:ae2:portable_fluid_cell_1k>);
-craftingTable.remove(<item:ae2:portable_fluid_cell_4k>);
-craftingTable.remove(<item:ae2:portable_fluid_cell_16k>);
-craftingTable.remove(<item:ae2:portable_fluid_cell_64k>);
-craftingTable.remove(<item:ae2:portable_fluid_cell_256k>);
+// craftingTable.remove(<item:ae2:io_port>);
+// craftingTable.remove(<item:ae2:controller>);
+// craftingTable.remove(<item:ae2:vibration_chamber>);
+// craftingTable.remove(<item:ae2:crafting_card>);
+// craftingTable.remove(<item:ae2:item_storage_cell_1k>);
+// craftingTable.remove(<item:ae2:item_storage_cell_4k>);
+// craftingTable.remove(<item:ae2:item_storage_cell_16k>);
+// craftingTable.remove(<item:ae2:item_storage_cell_64k>);
+// craftingTable.remove(<item:ae2:cell_component_256k>);
+// craftingTable.remove(<item:ae2:item_storage_cell_256k>);
+// craftingTable.remove(<item:ae2:item_cell_housing>);
+// craftingTable.remove(<item:ae2:fluid_cell_housing>);
+// craftingTable.remove(<item:ae2:drive>);
+// craftingTable.remove(<item:ae2:formation_core>);
+// craftingTable.remove(<item:ae2:annihilation_core>);
+// craftingTable.remove(<item:ae2:molecular_assembler>);
+// craftingTable.remove(<item:ae2:interface>);
+// craftingTable.remove(<item:ae2:inscriber>);
+// craftingTable.remove(<item:ae2:quartz_fiber>);
+// craftingTable.remove(<item:ae2:terminal>);
+// craftingTable.remove(<item:ae2:crafting_terminal>);
+// craftingTable.remove(<item:ae2:pattern_encoding_terminal>);
+// craftingTable.remove(<item:ae2:charger>);
+// craftingTable.remove(<item:ae2:cable_anchor>);
+// craftingTable.remove(<item:ae2:basic_card>);
+// craftingTable.remove(<item:ae2:advanced_card>);
+// craftingTable.remove(<item:ae2:speed_card>);
+// craftingTable.remove(<item:ae2:energy_cell>);
+// craftingTable.remove(<item:ae2:crafting_unit>);
+// craftingTable.remove(<item:ae2:wireless_crafting_terminal>);
+// craftingTable.remove(<item:ae2:energy_acceptor>);
+// craftingTable.remove(<item:ae2:wireless_access_point>);
+// craftingTable.remove(<item:ae2:wireless_receiver>);
+// craftingTable.remove(<item:ae2:quartz_growth_accelerator>);
+// craftingTable.remove(<item:ae2:wireless_booster>);
+// craftingTable.remove(<item:ae2:pattern_provider>);
+// craftingTable.remove(<item:ae2:blank_pattern>);
+// craftingTable.remove(<item:ae2:spatial_anchor>);
+// craftingTable.remove(<item:ae2things:disk_housing>);
+// craftingTable.remove(<item:ae2things:disk_drive_1k>);
+// craftingTable.remove(<item:ae2things:disk_drive_4k>);
+// craftingTable.remove(<item:ae2things:disk_drive_16k>);
+// craftingTable.remove(<item:ae2things:disk_drive_64k>);
+// craftingTable.remove(<item:ae2things:disk_drive_256k>);
+// craftingTable.remove(<item:ae2things:advanced_inscriber>);
+// craftingTable.remove(<item:ae2:security_station>);
+// craftingTable.remove(<item:ae2:quantum_ring>);
+// craftingTable.remove(<item:ae2:portable_item_cell_1k>);
+// craftingTable.remove(<item:ae2:portable_item_cell_4k>);
+// craftingTable.remove(<item:ae2:portable_item_cell_16k>);
+// craftingTable.remove(<item:ae2:portable_item_cell_64k>);
+// craftingTable.remove(<item:ae2:portable_item_cell_256k>);
+// craftingTable.remove(<item:ae2:portable_fluid_cell_1k>);
+// craftingTable.remove(<item:ae2:portable_fluid_cell_4k>);
+// craftingTable.remove(<item:ae2:portable_fluid_cell_16k>);
+// craftingTable.remove(<item:ae2:portable_fluid_cell_64k>);
+// craftingTable.remove(<item:ae2:portable_fluid_cell_256k>);
 
 // Twigs
-craftingTable.remove(<item:twigs:stripped_bamboo_planks>);
+// craftingTable.remove(<item:twigs:stripped_bamboo_planks>);
 
 // Botania
 for ring in rings {
@@ -289,36 +292,36 @@ for ring in rings {
 <recipetype:botania:brew>.remove(<brew:botania:bloodthirst>);
 <recipetype:botania:brew>.remove(<brew:botania:absorption>);
 <recipetype:botania:brew>.remove(<brew:botania:feather_feet>);
-<recipetype:botania:brew>.remove(<brew:botania:healing>);
-<recipetype:botania:brew>.remove(<brew:botania:soul_cross>);
-<recipetype:botania:elven_trade>.remove(<item:botania:pixie_dust>);
-<recipetype:botania:elven_trade>.remove(<item:botania:elementium_ingot>);
-<recipetype:botania:elven_trade>.remove(<item:botania:elementium_block>);
-<recipetype:botania:elven_trade>.remove(<item:botania:dragonstone>);
-<recipetype:botania:elven_trade>.remove(<item:botania:dragonstone_block>);
-<recipetype:botania:elven_trade>.remove(<item:botania:dreamwood>);
-<recipetype:botania:petal_apothecary>.remove(<item:botania:pure_daisy>);
-<recipetype:botania:mana_infusion>.remove(<item:botania:mana_diamond>);
-<recipetype:botania:mana_infusion>.remove(<item:botania:mana_diamond_block>);
+// <recipetype:botania:brew>.remove(<brew:botania:healing>);
+// <recipetype:botania:brew>.remove(<brew:botania:soul_cross>);
+// <recipetype:botania:elven_trade>.remove(<item:botania:pixie_dust>);
+// <recipetype:botania:elven_trade>.remove(<item:botania:elementium_ingot>);
+// <recipetype:botania:elven_trade>.remove(<item:botania:elementium_block>);
+// <recipetype:botania:elven_trade>.remove(<item:botania:dragonstone>);
+// <recipetype:botania:elven_trade>.remove(<item:botania:dragonstone_block>);
+// <recipetype:botania:elven_trade>.remove(<item:botania:dreamwood>);
+// <recipetype:botania:petal_apothecary>.remove(<item:botania:pure_daisy>);
+// <recipetype:botania:mana_infusion>.remove(<item:botania:mana_diamond>);
+// <recipetype:botania:mana_infusion>.remove(<item:botania:mana_diamond_block>);
 <recipetype:botania:mana_infusion>.remove(<item:botania:mana_cookie>);
-<recipetype:botania:mana_infusion>.remove(<item:botania:manasteel_ingot>);
-<recipetype:botania:mana_infusion>.remove(<item:botania:manasteel_block>);
+// <recipetype:botania:mana_infusion>.remove(<item:botania:manasteel_ingot>);
+// <recipetype:botania:mana_infusion>.remove(<item:botania:manasteel_block>);
 <recipetype:botania:mana_infusion>.remove(<item:botania:mana_bottle>);
-<recipetype:botania:runic_altar>.remove(<item:botania:rune_water>);
-<recipetype:botania:runic_altar>.remove(<item:botania:rune_fire>);
-<recipetype:botania:runic_altar>.remove(<item:botania:rune_earth>);
-<recipetype:botania:runic_altar>.remove(<item:botania:rune_air>);
-<recipetype:botania:runic_altar>.remove(<item:botania:rune_mana>);
-<recipetype:botania:petal_apothecary>.remove(<item:botania:hopperhock>);
-craftingTable.remove(<item:botania:spark>);
+// <recipetype:botania:runic_altar>.remove(<item:botania:rune_water>);
+// <recipetype:botania:runic_altar>.remove(<item:botania:rune_fire>);
+// <recipetype:botania:runic_altar>.remove(<item:botania:rune_earth>);
+// <recipetype:botania:runic_altar>.remove(<item:botania:rune_air>);
+// <recipetype:botania:runic_altar>.remove(<item:botania:rune_mana>);
+// <recipetype:botania:petal_apothecary>.remove(<item:botania:hopperhock>);
+// craftingTable.remove(<item:botania:spark>);
 craftingTable.remove(<item:botania:keep_ivy>);
-craftingTable.remove(<item:botania:livingwood_twig>);
-craftingTable.remove(<item:botania:dreamwood_twig>);
+// craftingTable.remove(<item:botania:livingwood_twig>);
+// craftingTable.remove(<item:botania:dreamwood_twig>);
 craftingTable.remove(<item:botania:twig_wand>);
 craftingTable.remove(<item:botania:dreamwood_wand>);
 craftingTable.remove(<item:botania:crafty_crate>);
-craftingTable.remove(<item:botania:mana_pool>);
-craftingTable.remove(<item:botania:runic_altar>);
+// craftingTable.remove(<item:botania:mana_pool>);
+// craftingTable.remove(<item:botania:runic_altar>);
 craftingTable.remove(<item:botania:manasteel_helmet>);
 craftingTable.remove(<item:botania:manasteel_chestplate>);
 craftingTable.remove(<item:botania:manasteel_leggings>);
@@ -401,16 +404,16 @@ craftingTable.remove(<item:botania:tornado_rod>);
 craftingTable.remove(<item:botania:terra_pick>);
 craftingTable.remove(<item:botania:terra_axe>);
 craftingTable.remove(<item:botania:terra_sword>);
-craftingTable.remove(<item:botania:manasteel_block>);
-craftingTable.remove(<item:botania:terrasteel_block>);
-craftingTable.remove(<item:botania:elementium_block>);
-craftingTable.remove(<item:botania:mana_diamond_block>);
-craftingTable.remove(<item:botania:dragonstone_block>);
-craftingTable.remove(<item:botania:bifrost_perm>);
-craftingTable.remove(<item:botania:fabulous_pool>);
-craftingTable.remove(<item:botania:mana_spreader>);
-craftingTable.remove(<item:botania:alchemy_catalyst>);
-craftingTable.remove(<item:botania:mana_fluxfield>);
+// craftingTable.remove(<item:botania:manasteel_block>);
+// craftingTable.remove(<item:botania:terrasteel_block>);
+// craftingTable.remove(<item:botania:elementium_block>);
+// craftingTable.remove(<item:botania:mana_diamond_block>);
+// craftingTable.remove(<item:botania:dragonstone_block>);
+// craftingTable.remove(<item:botania:bifrost_perm>);
+// craftingTable.remove(<item:botania:fabulous_pool>);
+// craftingTable.remove(<item:botania:mana_spreader>);
+// craftingTable.remove(<item:botania:alchemy_catalyst>);
+// craftingTable.remove(<item:botania:mana_fluxfield>);
 
 
 //Drawers
@@ -422,12 +425,6 @@ for logId, logName in logs {
     craftingTable.remove(<item:storagedrawers:${logName}_half_drawers_2>);
     craftingTable.remove(<item:storagedrawers:${logName}_half_drawers_4>);
 }
-craftingTable.remove(<item:framedcompactdrawers:framed_full_one>);
-craftingTable.remove(<item:framedcompactdrawers:framed_full_two>);
-craftingTable.remove(<item:framedcompactdrawers:framed_full_four>);
-craftingTable.remove(<item:framedcompactdrawers:framed_half_one>);
-craftingTable.remove(<item:framedcompactdrawers:framed_half_two>);
-craftingTable.remove(<item:framedcompactdrawers:framed_half_four>);
 craftingTable.remove(<item:storagedrawers:drawer_key>);
 craftingTable.remove(<item:storagedrawers:controller>);
 craftingTable.remove(<item:storagedrawers:controller_slave>);
@@ -444,13 +441,14 @@ craftingTable.removeByName("storagedrawers:add_upgrade");
 // craftingTable.remove(<item:cagerium:capacity_upgrade>);
 
 //Pipez
-craftingTable.removeByModid("pipez");
+// craftingTable.removeByModid("pipez");
 
 // Mekanism
-<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/infused");
-<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/reinforced");
-<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/atomic");
-<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/basic");
+// <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/infused");
+// <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/reinforced");
+// <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/atomic");
+// <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/basic");
+// craftingTable.remove(<item:mekanism:upgrade_stone_generator>);
 craftingTable.remove(<item:mekanism:mekasuit_helmet>);
 craftingTable.remove(<item:mekanism:mekasuit_bodyarmor>);
 craftingTable.remove(<item:mekanism:mekasuit_pants>);
@@ -464,14 +462,13 @@ craftingTable.remove(<item:mekanism:meka_tool>);
 craftingTable.remove(<item:mekanism:jetpack_armored>);
 craftingTable.remove(<item:mekanism:portable_teleporter>);
 craftingTable.remove(<item:mekanism:cardboard_box>);
-craftingTable.remove(<item:mekanism:metallurgic_infuser>);
-craftingTable.remove(<item:mekanism:basic_pressurized_tube>);
+// craftingTable.remove(<item:mekanism:metallurgic_infuser>);
+// craftingTable.remove(<item:mekanism:basic_pressurized_tube>);
 
 
 
-craftingTable.remove(<item:mekanism:upgrade_stone_generator>);
 craftingTable.remove(<item:mekanism:upgrade_anchor>);
-craftingTable.remove(<item:mekanism:upgrade_filter>);
+// craftingTable.remove(<item:mekanism:upgrade_filter>);
 craftingTable.remove(<item:mekanism:module_base>);
 craftingTable.remove(<item:mekanism:module_energy_unit>);
 craftingTable.remove(<item:mekanism:module_laser_dissipation_unit>);
@@ -504,7 +501,7 @@ craftingTable.remove(<item:mekanism:module_electrolytic_breathing_unit>);
 craftingTable.remove(<item:mekanism:dimensional_stabilizer>);
 
 // Enercell
-craftingTable.remove(<item:enercell:enercell>);
+// craftingTable.remove(<item:enercell:enercell>);
 
 // Refined Storage
 furnace.remove(<item:refinedstorage:basic_processor>);
@@ -533,7 +530,6 @@ craftingTable.remove(<item:refinedstorage:raw_improved_processor>);
 craftingTable.remove(<item:refinedstorage:raw_advanced_processor>);
 craftingTable.remove(<item:refinedstorage:destruction_core>);
 craftingTable.remove(<item:refinedstorage:construction_core>);
-craftingTable.remove(<item:refinedstorage:quartz_enriched_iron>);
 craftingTable.remove(<item:refinedstorage:machine_casing>);
 craftingTable.remove(<item:refinedstorage:disk_drive>);
 craftingTable.remove(<tag:items:refinedstorage:grid>);
@@ -545,7 +541,6 @@ craftingTable.remove(<item:refinedstorage:speed_upgrade>);
 craftingTable.remove(<item:refinedstorage:crafting_upgrade>);
 craftingTable.remove(<item:refinedstorage:stack_upgrade>);
 craftingTable.remove(<item:refinedstorage:wireless_grid>);
-craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
 craftingTable.remove(<tag:items:refinedstorage:controller>);
 craftingTable.remove(<item:refinedstorage:crafter>);
 craftingTable.remove(<item:refinedstorage:crafter_manager>);
@@ -557,7 +552,30 @@ craftingTable.remove(<item:refinedstorage:portable_grid>);
 
 
 // Iron Generators/Furnaces
-craftingTable.removeByModid("irongenerators");
+craftingTable.remove(<item:irongenerators:obsidian_generator>);
+craftingTable.remove(<item:irongenerators:bronze_generator>);
+craftingTable.remove(<item:irongenerators:lead_generator>);
+craftingTable.remove(<item:irongenerators:osmium_generator>);
+craftingTable.remove(<item:irongenerators:refined_obsidian_generator>);
+craftingTable.remove(<item:irongenerators:steel_generator>);
+craftingTable.remove(<item:irongenerators:tin_generator>);
+craftingTable.remove(<item:irongenerators:skystone_generator>);
+craftingTable.remove(<item:irongenerators:certus_quartz_generator>);
+craftingTable.remove(<item:irongenerators:allthemodium_generator>);
+craftingTable.remove(<item:irongenerators:vibranium_generator>);
+craftingTable.remove(<item:irongenerators:unobtainium_generator>);
+craftingTable.remove(<item:irongenerators:quartz_enriched_iron_generator>);
+craftingTable.remove(<item:irongenerators:signalum_generator>);
+craftingTable.remove(<item:irongenerators:enderium_generator>);
+craftingTable.remove(<item:irongenerators:dirt_generator>);
+craftingTable.remove(<item:irongenerators:uranium_generator>);
+craftingTable.remove(<item:irongenerators:platin_generator>);
+craftingTable.remove(<item:irongenerators:infinity_generator>);
+craftingTable.remove(<item:irongenerators:netherrack_generator>);
+craftingTable.remove(<item:irongenerators:invar_generator>);
+craftingTable.remove(<item:irongenerators:copper_generator>);
+craftingTable.remove(<item:irongenerators:stone_generator>);
+
 craftingTable.remove(<item:ironfurnaces:heater>);
 craftingTable.remove(<item:ironfurnaces:item_heater>);
 craftingTable.remove(<item:ironfurnaces:item_copy>);
@@ -598,58 +616,73 @@ craftingTable.remove(<item:darkutils:tome_illager>);
 craftingTable.remove(<item:darkutils:tome_shadows>);
 craftingTable.remove(<item:darkutils:tome_runelic>);
 craftingTable.remove(<item:darkutils:tome_pigpen>);
-craftingTable.remove(<item:darkutils:vector_plate>);
-craftingTable.remove(<item:darkutils:vector_plate_fast>);
-craftingTable.remove(<item:darkutils:vector_plate_extreme>);
-craftingTable.remove(<item:darkutils:vector_plate_ultra>);
-craftingTable.remove(<item:darkutils:damage_plate>);
-craftingTable.remove(<item:darkutils:damage_plate_player>);
-stoneCutter.remove(<item:darkutils:blank_plate>);
+// craftingTable.remove(<item:darkutils:vector_plate>);
+// craftingTable.remove(<item:darkutils:vector_plate_fast>);
+// craftingTable.remove(<item:darkutils:vector_plate_extreme>);
+// craftingTable.remove(<item:darkutils:vector_plate_ultra>);
+// craftingTable.remove(<item:darkutils:damage_plate>);
+// craftingTable.remove(<item:darkutils:damage_plate_player>);
+// stoneCutter.remove(<item:darkutils:blank_plate>);
 // villagerTrades.removeWanderingTrade(2, <item:darkutils>);
 
 // Cooking For Blockheads
-craftingTable.remove(<item:cookingforblockheads:sink>);
+// craftingTable.remove(<item:cookingforblockheads:sink>);
 
 // Thermal
-craftingTable.remove(<item:thermal:device_potion_diffuser>);
-craftingTable.remove(<item:thermal:rf_coil>);
-craftingTable.remove(<item:thermal:redstone_servo>);
-craftingTable.remove(<item:thermal:machine_frame>);
-craftingTable.remove(<item:thermal:energy_cell_frame>);
-craftingTable.remove(<item:thermal:energy_cell>);
-craftingTable.remove(<item:thermal:fluid_cell_frame>);
-craftingTable.remove(<item:thermal:fluid_cell>);
-craftingTable.remove(<item:thermal:wrench>);
-craftingTable.remove(<item:thermal:redprint>);
+// craftingTable.remove(<item:thermal:device_potion_diffuser>);
+// craftingTable.remove(<item:thermal:rf_coil>);
+// craftingTable.remove(<item:thermal:redstone_servo>);
+// craftingTable.remove(<item:thermal:machine_frame>);
+// craftingTable.remove(<item:thermal:energy_cell_frame>);
+// craftingTable.remove(<item:thermal:energy_cell>);
+// craftingTable.remove(<item:thermal:fluid_cell_frame>);
+// craftingTable.remove(<item:thermal:fluid_cell>);
+// craftingTable.remove(<item:thermal:wrench>);
+// craftingTable.remove(<item:thermal:redprint>);
 craftingTable.remove(<item:thermal:xp_crystal>);
 craftingTable.remove(<item:thermal:rf_potato>);
-craftingTable.remove(<item:thermal:dynamo_magmatic>);
-craftingTable.remove(<item:thermal:dynamo_numismatic>);
-craftingTable.remove(<item:thermal:dynamo_lapidary>);
-craftingTable.remove(<item:thermal:dynamo_disenchantment>);
-craftingTable.remove(<item:thermal:dynamo_gourmand>);
-craftingTable.remove(<item:thermal:dynamo_stirling>);
-craftingTable.remove(<item:thermal:dynamo_compression>);
-craftingTable.remove(<item:thermal:machine_insolator>);
-craftingTable.remove(<item:thermal:machine_pulverizer>);
-craftingTable.remove(<item:thermal:device_collector>);
-craftingTable.remove(<item:thermal:device_rock_gen>);
-craftingTable.remove(<item:thermal:device_water_gen>);
-craftingTable.remove(<item:thermal:satchel>);
+// craftingTable.remove(<item:thermal:dynamo_magmatic>);
+// craftingTable.remove(<item:thermal:dynamo_numismatic>);
+// craftingTable.remove(<item:thermal:dynamo_lapidary>);
+// craftingTable.remove(<item:thermal:dynamo_disenchantment>);
+// craftingTable.remove(<item:thermal:dynamo_gourmand>);
+// craftingTable.remove(<item:thermal:dynamo_stirling>);
+// craftingTable.remove(<item:thermal:dynamo_compression>);
+// craftingTable.remove(<item:thermal:machine_insolator>);
+// craftingTable.remove(<item:thermal:machine_pulverizer>);
+// craftingTable.remove(<item:thermal:device_collector>);
+// craftingTable.remove(<item:thermal:device_rock_gen>);
+// craftingTable.remove(<item:thermal:device_water_gen>);
+// craftingTable.remove(<item:thermal:satchel>);
 <recipetype:thermal:press>.remove(<item:thermal:lead_gear>);
 <recipetype:thermal:press>.remove(<item:thermal:tin_gear>);
 <recipetype:thermal:press>.remove(<item:thermal:bronze_gear>);
-for ingot in ingots {
-  craftingTable.remove(<item:thermal:${ingot}_gear>);
-}
+// for ingot in ingots {
+//   craftingTable.remove(<item:thermal:${ingot}_gear>);
+// }
 
 // Torchmaster
-craftingTable.remove(<item:torchmaster:feral_flare_lantern>);
-craftingTable.remove(<item:torchmaster:dreadlamp>);
-craftingTable.remove(<item:torchmaster:megatorch>);
+// craftingTable.remove(<item:torchmaster:feral_flare_lantern>);
+// craftingTable.remove(<item:torchmaster:dreadlamp>);
+// craftingTable.remove(<item:torchmaster:megatorch>);
 
 // Elevators
-craftingTable.remove(<tag:items:elevatorid:elevators>);
+craftingTable.remove(<item:elevatorid:elevator_white>);
+craftingTable.remove(<item:elevatorid:elevator_orange>);
+craftingTable.remove(<item:elevatorid:elevator_magenta>);
+craftingTable.remove(<item:elevatorid:elevator_light_blue>);
+craftingTable.remove(<item:elevatorid:elevator_yellow>);
+craftingTable.remove(<item:elevatorid:elevator_lime>);
+craftingTable.remove(<item:elevatorid:elevator_pink>);
+craftingTable.remove(<item:elevatorid:elevator_gray>);
+craftingTable.remove(<item:elevatorid:elevator_light_gray>);
+craftingTable.remove(<item:elevatorid:elevator_cyan>);
+craftingTable.remove(<item:elevatorid:elevator_purple>);
+craftingTable.remove(<item:elevatorid:elevator_blue>);
+craftingTable.remove(<item:elevatorid:elevator_brown>);
+craftingTable.remove(<item:elevatorid:elevator_green>);
+craftingTable.remove(<item:elevatorid:elevator_red>);
+craftingTable.remove(<item:elevatorid:elevator_black>);
 
 // Architects pallete
 craftingTable.remove(<item:architects_palette:charcoal_block>);
@@ -657,11 +690,11 @@ furnace.remove(<item:architects_palette:charcoal_block>);
 smoker.remove(<item:architects_palette:charcoal_block>);
 
 // Traders
-craftingTable.remove(<item:easy_piglins:barterer>);
-craftingTable.remove(<item:easy_villagers:trader>);
-craftingTable.remove(<item:easy_villagers:auto_trader>);
-craftingTable.remove(<item:easy_villagers:farmer>);
-craftingTable.remove(<item:easy_villagers:iron_farm>);
+// craftingTable.remove(<item:easy_piglins:barterer>);
+// craftingTable.remove(<item:easy_villagers:trader>);
+// craftingTable.remove(<item:easy_villagers:auto_trader>);
+// craftingTable.remove(<item:easy_villagers:farmer>);
+// craftingTable.remove(<item:easy_villagers:iron_farm>);
 
 // Vanilla
 craftingTable.remove(<item:minecraft:golden_apple>);
@@ -677,29 +710,29 @@ brewing.removeRecipeByOutputPotion(<potion:minecraft:turtle_master>);
 craftingTable.removeByName("minecraft:suspicious_stew");
 
 // Mining Gadgets
-craftingTable.remove(<item:mininggadgets:mininggadget>);
-craftingTable.remove(<item:mininggadgets:mininggadget_simple>);
-craftingTable.remove(<item:mininggadgets:mininggadget_fancy>);
-craftingTable.remove(<item:mininggadgets:modificationtable>);
-craftingTable.remove(<item:mininggadgets:upgrade_empty>); 
-craftingTable.remove(<item:mininggadgets:upgrade_efficiency_1>);
-craftingTable.remove(<item:mininggadgets:upgrade_efficiency_2>);
-craftingTable.remove(<item:mininggadgets:upgrade_efficiency_3>);
-craftingTable.remove(<item:mininggadgets:upgrade_efficiency_4>);
-craftingTable.remove(<item:mininggadgets:upgrade_efficiency_5>);
-craftingTable.remove(<item:mininggadgets:upgrade_void_junk>);
-craftingTable.remove(<item:mininggadgets:upgrade_magnet>);
-craftingTable.remove(<item:mininggadgets:upgrade_three_by_three>);
-craftingTable.remove(<item:mininggadgets:upgrade_fortune_1>);
-craftingTable.remove(<item:mininggadgets:upgrade_fortune_2>);
-craftingTable.remove(<item:mininggadgets:upgrade_fortune_3>);
-craftingTable.remove(<item:mininggadgets:upgrade_range_1>);
-craftingTable.remove(<item:mininggadgets:upgrade_range_2>);
-craftingTable.remove(<item:mininggadgets:upgrade_range_3>);
-craftingTable.remove(<item:mininggadgets:upgrade_battery_1>);
-craftingTable.remove(<item:mininggadgets:upgrade_battery_2>);
-craftingTable.remove(<item:mininggadgets:upgrade_battery_3>);
-craftingTable.remove(<item:mininggadgets:upgrade_silk>);
+// craftingTable.remove(<item:mininggadgets:mininggadget>);
+// craftingTable.remove(<item:mininggadgets:mininggadget_simple>);
+// craftingTable.remove(<item:mininggadgets:mininggadget_fancy>);
+// craftingTable.remove(<item:mininggadgets:modificationtable>);
+// craftingTable.remove(<item:mininggadgets:upgrade_empty>); 
+// craftingTable.remove(<item:mininggadgets:upgrade_efficiency_1>);
+// craftingTable.remove(<item:mininggadgets:upgrade_efficiency_2>);
+// craftingTable.remove(<item:mininggadgets:upgrade_efficiency_3>);
+// craftingTable.remove(<item:mininggadgets:upgrade_efficiency_4>);
+// craftingTable.remove(<item:mininggadgets:upgrade_efficiency_5>);
+// craftingTable.remove(<item:mininggadgets:upgrade_void_junk>);
+// craftingTable.remove(<item:mininggadgets:upgrade_magnet>);
+// craftingTable.remove(<item:mininggadgets:upgrade_three_by_three>);
+// craftingTable.remove(<item:mininggadgets:upgrade_fortune_1>);
+// craftingTable.remove(<item:mininggadgets:upgrade_fortune_2>);
+// craftingTable.remove(<item:mininggadgets:upgrade_fortune_3>);
+// craftingTable.remove(<item:mininggadgets:upgrade_range_1>);
+// craftingTable.remove(<item:mininggadgets:upgrade_range_2>);
+// craftingTable.remove(<item:mininggadgets:upgrade_range_3>);
+// craftingTable.remove(<item:mininggadgets:upgrade_battery_1>);
+// craftingTable.remove(<item:mininggadgets:upgrade_battery_2>);
+// craftingTable.remove(<item:mininggadgets:upgrade_battery_3>);
+// craftingTable.remove(<item:mininggadgets:upgrade_silk>);
 
 // Building Gadgets
 craftingTable.remove(<item:buildinggadgets:gadget_destruction>);
@@ -711,208 +744,177 @@ craftingTable.remove(<item:buildinggadgets:gadget_exchanging>);
 craftingTable.remove(<item:rftoolsbase:crafting_card>);
 craftingTable.remove(<item:rftoolsbase:machine_frame>);
 
-
-// Xnet
-for cable in cables {
-  craftingTable.remove(<item:xnet:netcable_${cable}>);
-  craftingTable.remove(<item:xnet:connector_${cable}>);
-  craftingTable.remove(<item:xnet:advanced_connector_${cable}>);
-}
-craftingTable.remove(<item:xnet:controller>);
-craftingTable.remove(<item:xnet:router>);
-craftingTable.remove(<item:xnet:wireless_router>);
-craftingTable.remove(<item:xnet:antenna>);
-craftingTable.remove(<item:xnet:antenna_base>);
-craftingTable.remove(<item:xnet:antenna_dish>);
-craftingTable.remove(<item:xnet:connector_upgrade>);
-
 // Quark
-<recipetype:minecraft:smithing>.remove(<item:quark:flamerang>);
-craftingTable.remove(<item:quark:pickarang>);
-craftingTable.remove(<item:quark:ender_watcher>);
-
-// Collosal Chest
-for chest in chests {
-    craftingTable.remove(<item:colossalchests:chest_wall_${chest}>);
-    craftingTable.remove(<item:colossalchests:colossal_chest_${chest}>);
-    craftingTable.remove(<item:colossalchests:interface_${chest}>);
-}
-craftingTable.remove(<item:colossalchests:upgrade_tool>);
+// <recipetype:minecraft:smithing>.remove(<item:quark:flamerang>);
+// craftingTable.remove(<item:quark:pickarang>);
+// craftingTable.remove(<item:quark:ender_watcher>);
 
 // FluxNetworks
-craftingTable.remove(<item:fluxnetworks:flux_core>);
-craftingTable.remove(<item:fluxnetworks:flux_block>);
-craftingTable.remove(<item:fluxnetworks:flux_point>);
-craftingTable.remove(<item:fluxnetworks:flux_plug>);
+// craftingTable.remove(<item:fluxnetworks:flux_core>);
+// craftingTable.remove(<item:fluxnetworks:flux_block>);
+// craftingTable.remove(<item:fluxnetworks:flux_point>);
+// craftingTable.remove(<item:fluxnetworks:flux_plug>);
 
 // Botanypots
-for materialId, materialName in materials {
-    craftingTable.remove(<item:botanypots:${materialId}_hopper_botany_pot>);
-    craftingTable.remove(<item:botanypots:${materialId}_botany_pot>);
-}
+// for materialId, materialName in materials {
+//     craftingTable.remove(<item:botanypots:${materialId}_hopper_botany_pot>);
+//     craftingTable.remove(<item:botanypots:${materialId}_botany_pot>);
+// }
 
 // Macaw
 craftingTable.remove(<item:mcwbridges:iron_bridge>);
 
 // Create
-craftingTable.remove(<item:create:item_vault>);
-craftingTable.remove(<item:create:extendo_grip>);
+// craftingTable.remove(<item:create:item_vault>);
 craftingTable.remove(<item:create:potato_cannon>);
-craftingTable.remove(<item:create:andesite_alloy>);
-craftingTable.remove(<item:create:extendo_grip>);
-craftingTable.remove(<item:create:hand_crank>);
-craftingTable.remove(<item:create:cogwheel>);
-craftingTable.remove(<item:create:large_cogwheel>);
-craftingTable.remove(<item:create:shaft>);
-craftingTable.remove(<item:create:belt_connector>);
-craftingTable.remove(<item:create:crushing_wheel>);
-craftingTable.remove(<item:create:cart_assembler>);
-craftingTable.remove(<item:create:electron_tube>);
-craftingTable.remove(<item:create:chute>);
-craftingTable.remove(<item:create:smart_chute>);
-craftingTable.remove(<item:create:water_wheel>);
-craftingTable.remove(<item:create:basin>);
-craftingTable.remove(<item:create:linear_chassis>);
-craftingTable.remove(<item:create:radial_chassis>);
-craftingTable.remove(<item:create:mechanical_bearing>);
-craftingTable.remove(<item:create:piston_extension_pole>);
-craftingTable.remove(<item:create:mechanical_piston>);
-craftingTable.remove(<item:create:sticky_mechanical_piston>);
-craftingTable.remove(<item:create:empty_blaze_burner>);
-craftingTable.remove(<item:create:wrench>);
-craftingTable.remove(<item:create:gantry_shaft>);
-craftingTable.remove(<item:create:rotation_speed_controller>);
-craftingTable.remove(<item:create:windmill_bearing>);
-craftingTable.remove(<item:create:track_signal>);
-craftingTable.remove(<item:create:track_station>);
-craftingTable.remove(<item:create:crafting_blueprint>);
-craftingTable.remove(<item:create:gantry_carriage>);
-craftingTable.remove(<item:create:steam_engine>);
-craftingTable.remove(<item:create:schematicannon>);
-craftingTable.remove(<item:create:schematic_table>);
-craftingTable.remove(<item:create:empty_schematic>);
-craftingTable.remove(<item:create:copper_backtank>);
-craftingTable.remove(<item:create:large_water_wheel>);
-<recipetype:minecraft:smithing>.remove(<item:create:netherite_backtank>);
-<recipetype:minecraft:smithing>.remove(<item:create:netherite_diving_helmet>);
-<recipetype:minecraft:smithing>.remove(<item:create:netherite_diving_boots>);
-<recipetype:create:crushing>.removeByName("create:crushing/veridium_recycling");
-<recipetype:create:crushing>.removeByName("create:crushing/veridium");
-<recipetype:create:crushing>.removeByName("create:crushing/crimsite_recycling");
-<recipetype:create:crushing>.removeByName("create:crushing/crimsite");
-<recipetype:create:crushing>.removeByName("create:crushing/ochrum_recycling");
-<recipetype:create:crushing>.removeByName("create:crushing/ochrum");
-<recipetype:create:crushing>.removeByName("create:crushing/asurine_recycling");
-<recipetype:create:crushing>.removeByName("create:crushing/asurine");
-<recipetype:create:mechanical_crafting>.remove(<item:create:wand_of_symmetry>);
-<recipetype:create:mechanical_crafting>.remove(<item:create:extendo_grip>);
-<recipetype:create:mixing>.remove(<item:create:andesite_alloy>);
-<recipetype:create:deploying>.remove(<item:create:cogwheel>);
-<recipetype:create:deploying>.remove(<item:create:large_cogwheel>);
-<recipetype:create:cutting>.remove(<item:create:shaft>);
-<recipetype:create:item_application>.remove(<item:create:andesite_casing>);
-<recipetype:create:item_application>.remove(<item:create:brass_casing>);
-<recipetype:create:item_application>.remove(<item:create:copper_casing>);
-<recipetype:create:sequenced_assembly>.remove(<item:create:track>);
+// craftingTable.remove(<item:create:andesite_alloy>);
+// craftingTable.remove(<item:create:hand_crank>);
+// craftingTable.remove(<item:create:cogwheel>);
+// craftingTable.remove(<item:create:large_cogwheel>);
+// craftingTable.remove(<item:create:shaft>);
+// craftingTable.remove(<item:create:belt_connector>);
+// craftingTable.remove(<item:create:crushing_wheel>);
+// craftingTable.remove(<item:create:cart_assembler>);
+// craftingTable.remove(<item:create:electron_tube>);
+// craftingTable.remove(<item:create:chute>);
+// craftingTable.remove(<item:create:smart_chute>);
+// craftingTable.remove(<item:create:water_wheel>);
+// craftingTable.remove(<item:create:basin>);
+// craftingTable.remove(<item:create:linear_chassis>);
+// craftingTable.remove(<item:create:radial_chassis>);
+// craftingTable.remove(<item:create:mechanical_bearing>);
+// craftingTable.remove(<item:create:piston_extension_pole>);
+// craftingTable.remove(<item:create:mechanical_piston>);
+// craftingTable.remove(<item:create:sticky_mechanical_piston>);
+// craftingTable.remove(<item:create:empty_blaze_burner>);
+// craftingTable.remove(<item:create:wrench>);
+// craftingTable.remove(<item:create:gantry_shaft>);
+// craftingTable.remove(<item:create:rotation_speed_controller>);
+// craftingTable.remove(<item:create:windmill_bearing>);
+// craftingTable.remove(<item:create:track_signal>);
+// craftingTable.remove(<item:create:track_station>);
+// craftingTable.remove(<item:create:crafting_blueprint>);
+// craftingTable.remove(<item:create:gantry_carriage>);
+// craftingTable.remove(<item:create:steam_engine>);
+// craftingTable.remove(<item:create:schematicannon>);
+// craftingTable.remove(<item:create:schematic_table>);
+// craftingTable.remove(<item:create:empty_schematic>);
+// craftingTable.remove(<item:create:copper_backtank>);
+// craftingTable.remove(<item:create:large_water_wheel>);
+// <recipetype:minecraft:smithing>.remove(<item:create:netherite_backtank>);
+// <recipetype:minecraft:smithing>.remove(<item:create:netherite_diving_helmet>);
+// <recipetype:minecraft:smithing>.remove(<item:create:netherite_diving_boots>);
+// <recipetype:create:crushing>.removeByName("create:crushing/veridium_recycling");
+// <recipetype:create:crushing>.removeByName("create:crushing/veridium");
+// <recipetype:create:crushing>.removeByName("create:crushing/crimsite_recycling");
+// <recipetype:create:crushing>.removeByName("create:crushing/crimsite");
+// <recipetype:create:crushing>.removeByName("create:crushing/ochrum_recycling");
+// <recipetype:create:crushing>.removeByName("create:crushing/ochrum");
+// <recipetype:create:crushing>.removeByName("create:crushing/asurine_recycling");
+// <recipetype:create:crushing>.removeByName("create:crushing/asurine");
+// <recipetype:create:mixing>.remove(<item:create:andesite_alloy>);
+// <recipetype:create:deploying>.remove(<item:create:cogwheel>);
+// <recipetype:create:deploying>.remove(<item:create:large_cogwheel>);
+// <recipetype:create:cutting>.remove(<item:create:shaft>);
+// <recipetype:create:item_application>.remove(<item:create:andesite_casing>);
+// <recipetype:create:item_application>.remove(<item:create:brass_casing>);
+// <recipetype:create:item_application>.remove(<item:create:copper_casing>);
+// <recipetype:create:sequenced_assembly>.remove(<item:create:track>);
 
 // Backpacks
-craftingTable.remove(<item:sophisticatedbackpacks:advanced_refill_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:advanced_refill_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_magnet_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:magnet_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:backpack>);
-craftingTable.remove(<item:sophisticatedbackpacks:iron_backpack>);
-craftingTable.remove(<item:sophisticatedbackpacks:gold_backpack>);
-craftingTable.remove(<item:sophisticatedbackpacks:diamond_backpack>);
-craftingTable.remove(<item:sophisticatedbackpacks:netherite_backpack>);
+// craftingTable.remove(<item:sophisticatedbackpacks:backpack>);
+// craftingTable.remove(<item:sophisticatedbackpacks:iron_backpack>);
+// craftingTable.remove(<item:sophisticatedbackpacks:gold_backpack>);
+// craftingTable.remove(<item:sophisticatedbackpacks:diamond_backpack>);
+// craftingTable.remove(<item:sophisticatedbackpacks:netherite_backpack>);
 <recipetype:minecraft:smithing>.remove(<item:sophisticatedbackpacks:netherite_backpack>);
-craftingTable.remove(<item:sophisticatedbackpacks:upgrade_base>);
-craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_1>);
-craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_2>);
-craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_3>);
-craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_4>);
-craftingTable.remove(<item:sophisticatedbackpacks:refill_upgrade>);
-//craftingTable.remove(<item:sophisticatedbackpacks:void_upgrade>);
-//craftingTable.remove(<item:sophisticatedbackpacks:advanced_void_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:feeding_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:advanced_feeding_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:pickup_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:advanced_pickup_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:filter_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:advanced_filter_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:restock_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:advanced_restock_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:upgrade_base>);
+// craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_1>);
+// craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_2>);
+// craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_3>);
+// craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_tier_4>);
+// craftingTable.remove(<item:sophisticatedbackpacks:refill_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:feeding_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:advanced_feeding_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:pickup_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:advanced_pickup_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:filter_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:advanced_filter_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:restock_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:advanced_restock_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
+// craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
 
 // Waystones
-craftingTable.remove(<item:waystones:waystone>);
-craftingTable.remove(<item:waystones:mossy_waystone>);
-craftingTable.remove(<item:waystones:sandy_waystone>);
-//craftingTable.remove(<tag:items:waystones:sharestone>);
+// craftingTable.remove(<item:waystones:waystone>);
+// craftingTable.remove(<item:waystones:mossy_waystone>);
+// craftingTable.remove(<item:waystones:sandy_waystone>);
 craftingTable.remove(<item:waystones:portstone>);
 craftingTable.remove(<item:waystones:return_scroll>);
 craftingTable.remove(<item:waystones:bound_scroll>);
 craftingTable.remove(<item:waystones:warp_scroll>);
-craftingTable.remove(<item:waystones:warp_stone>);
-craftingTable.remove(<item:waystones:warp_dust>);
-craftingTable.remove(<item:waystones:warp_plate>);
+// craftingTable.remove(<item:waystones:warp_stone>);
+// craftingTable.remove(<item:waystones:warp_dust>);
+// craftingTable.remove(<item:waystones:warp_plate>);
 
 // Modular Routers
 craftingTable.remove(<item:modularrouters:player_module>);
-craftingTable.remove(<item:modularrouters:sender_module_1>);
-craftingTable.remove(<item:modularrouters:sender_module_2>);
-craftingTable.remove(<item:modularrouters:sender_module_3>);
-craftingTable.remove(<item:modularrouters:distributor_module>);
-craftingTable.remove(<item:modularrouters:vacuum_module>);
-craftingTable.remove(<item:modularrouters:modular_router>);
-craftingTable.remove(<item:modularrouters:blank_module>);
-craftingTable.remove(<item:modularrouters:blank_upgrade>);
-craftingTable.remove(<item:modularrouters:stack_upgrade>);
-craftingTable.remove(<item:modularrouters:stack_augment>);
-craftingTable.remove(<item:modularrouters:augment_core>);
-craftingTable.remove(<item:modularrouters:void_module>);
-craftingTable.remove(<item:modularrouters:puller_module_1>);
-craftingTable.remove(<item:modularrouters:puller_module_2>);
+// craftingTable.remove(<item:modularrouters:sender_module_1>);
+// craftingTable.remove(<item:modularrouters:sender_module_2>);
+// craftingTable.remove(<item:modularrouters:sender_module_3>);
+// craftingTable.remove(<item:modularrouters:distributor_module>);
+// craftingTable.remove(<item:modularrouters:vacuum_module>);
+// craftingTable.remove(<item:modularrouters:modular_router>);
+// craftingTable.remove(<item:modularrouters:blank_module>);
+// craftingTable.remove(<item:modularrouters:blank_upgrade>);
+// craftingTable.remove(<item:modularrouters:stack_upgrade>);
+// craftingTable.remove(<item:modularrouters:stack_augment>);
+// craftingTable.remove(<item:modularrouters:augment_core>);
+// craftingTable.remove(<item:modularrouters:void_module>);
+// craftingTable.remove(<item:modularrouters:puller_module_1>);
+// craftingTable.remove(<item:modularrouters:puller_module_2>);
 
 // Powah
-craftingTable.remove(<item:powah:capacitor_nitro>);
-craftingTable.remove(<item:powah:capacitor_spirited>);
-craftingTable.remove(<item:powah:capacitor_niotic>);
-craftingTable.remove(<item:powah:capacitor_blazing>);
-craftingTable.remove(<item:powah:capacitor_basic>);
-craftingTable.remove(<item:powah:capacitor_basic_large>);
-craftingTable.remove(<item:powah:dielectric_casing>);
-craftingTable.remove(<item:powah:energizing_orb>);
-craftingTable.remove(<item:powah:thermoelectric_plate>);
-craftingTable.remove(<item:powah:steel_energized>);
-craftingTable.remove(<item:powah:photoelectric_pane>);
-craftingTable.remove(<item:powah:aerial_pearl>);
-craftingTable.remove(<item:powah:solar_panel_starter>);
-craftingTable.remove(<item:powah:solar_panel_basic>);
-craftingTable.remove(<item:powah:solar_panel_hardened>);
-craftingTable.remove(<item:powah:solar_panel_blazing>);
-craftingTable.remove(<item:powah:solar_panel_niotic>);
-craftingTable.remove(<item:powah:solar_panel_spirited>);
-craftingTable.remove(<item:powah:solar_panel_nitro>);
-craftingTable.remove(<item:powah:binding_card_dim>);
-craftingTable.remove(<item:powah:energy_cell_starter>);
-craftingTable.remove(<item:powah:ender_cell_starter>);
-craftingTable.remove(<item:powah:energy_cable_starter>);
-craftingTable.remove(<item:powah:battery_basic>);
-craftingTable.remove(<item:powah:energy_cell_basic>);
-craftingTable.remove(<item:powah:energy_cable_basic>);
-craftingTable.remove(<item:powah:furnator_basic>);
-craftingTable.remove(<item:powah:magmator_basic>);
-craftingTable.remove(<item:powah:thermo_generator_basic>);
-craftingTable.remove(<item:powah:solar_panel_basic>);
-<recipetype:powah:energizing>.remove(<item:powah:crystal_nitro>);
-<recipetype:powah:energizing>.remove(<item:powah:crystal_spirited>);
-<recipetype:powah:energizing>.remove(<item:powah:crystal_niotic>);
-<recipetype:powah:energizing>.remove(<item:powah:crystal_blazing>);
-<recipetype:powah:energizing>.remove(<item:powah:steel_energized>);
-<recipetype:powah:energizing>.remove(<item:powah:ender_core>);
-<recipetype:powah:energizing>.remove(<item:powah:charged_snowball>);
-<recipetype:powah:energizing>.remove(<item:powah:dry_ice>);
+// craftingTable.remove(<item:powah:capacitor_spirited>);
+// craftingTable.remove(<item:powah:capacitor_niotic>);
+// craftingTable.remove(<item:powah:capacitor_blazing>);
+// craftingTable.remove(<item:powah:capacitor_basic>);
+// craftingTable.remove(<item:powah:capacitor_basic_large>);
+// craftingTable.remove(<item:powah:dielectric_casing>);
+// craftingTable.remove(<item:powah:energizing_orb>);
+// craftingTable.remove(<item:powah:thermoelectric_plate>);
+// craftingTable.remove(<item:powah:photoelectric_pane>);
+// craftingTable.remove(<item:powah:aerial_pearl>);
+// craftingTable.remove(<item:powah:solar_panel_starter>);
+// craftingTable.remove(<item:powah:solar_panel_basic>);
+// craftingTable.remove(<item:powah:solar_panel_hardened>);
+// craftingTable.remove(<item:powah:solar_panel_blazing>);
+// craftingTable.remove(<item:powah:solar_panel_niotic>);
+// craftingTable.remove(<item:powah:solar_panel_spirited>);
+// craftingTable.remove(<item:powah:capacitor_nitro>);
+// craftingTable.remove(<item:powah:solar_panel_nitro>);
+// craftingTable.remove(<item:powah:binding_card_dim>);
+// craftingTable.remove(<item:powah:energy_cell_starter>);
+// craftingTable.remove(<item:powah:ender_cell_starter>);
+// craftingTable.remove(<item:powah:energy_cable_starter>);
+// craftingTable.remove(<item:powah:battery_basic>);
+// craftingTable.remove(<item:powah:energy_cell_basic>);
+// craftingTable.remove(<item:powah:energy_cable_basic>);
+// craftingTable.remove(<item:powah:furnator_basic>);
+// craftingTable.remove(<item:powah:magmator_basic>);
+// craftingTable.remove(<item:powah:thermo_generator_basic>);
+// craftingTable.remove(<item:powah:solar_panel_basic>);
+// <recipetype:powah:energizing>.remove(<item:powah:crystal_nitro>);
+// <recipetype:powah:energizing>.remove(<item:powah:crystal_spirited>);
+// <recipetype:powah:energizing>.remove(<item:powah:crystal_niotic>);
+// <recipetype:powah:energizing>.remove(<item:powah:crystal_blazing>);
+// <recipetype:powah:energizing>.remove(<item:powah:steel_energized>);
+// <recipetype:powah:energizing>.remove(<item:powah:ender_core>);
+// <recipetype:powah:energizing>.remove(<item:powah:charged_snowball>);
+// <recipetype:powah:energizing>.remove(<item:powah:dry_ice>);
 
 
 // craftingTable.remove();   
@@ -929,6 +931,9 @@ JEI.addIngredient(<item:alexsmobs:vine_lasso>);
 JEI.addIngredient(<item:alexsmobs:squid_grapple>);
 JEI.addIngredient(<item:alexsmobs:hemolymph_blaster>);
 
+//Framed Blocks
+JEI.hideMod("framedblocks");
+
 // Backpacks
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_magnet_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:magnet_upgrade>);
@@ -939,6 +944,7 @@ JEI.hideIngredient(<item:refinedstorage:processor_binding>);
 JEI.hideIngredient(<item:refinedstorage:raw_improved_processor>);
 JEI.hideIngredient(<item:refinedstorage:raw_advanced_processor>);
 JEI.hideIngredient(<item:refinedstorage:portable_grid>);
+
 // Botania
 JEI.hideIngredient(<item:botania:manasteel_helmet>);
 JEI.hideIngredient(<item:botania:manasteel_chestplate>);
@@ -973,7 +979,6 @@ JEI.hideIngredient(<item:botania:smelt_rod>);
 JEI.hideIngredient(<item:botania:star_sword>);
 JEI.hideIngredient(<item:botania:mana_gun>);
 JEI.hideIngredient(<item:botania:diva_charm>);
-JEI.hideIngredient(<item:botania:pinkinator>);
 JEI.hideIngredient(<item:botania:thunder_sword>);
 JEI.hideIngredient(<item:botania:king_key>);
 JEI.hideIngredient(<item:botania:knockback_belt>);
@@ -993,8 +998,6 @@ JEI.hideIngredient(<item:botania:cloud_pendant>);
 JEI.hideIngredient(<item:botania:super_cloud_pendant>);
 JEI.hideIngredient(<item:botania:third_eye>);
 JEI.hideIngredient(<item:botania:goddess_charm>);
-JEI.hideIngredient(<item:botania:laputa_shard>);
-JEI.hideIngredient(<item:botania:infinite_fruit>);
 JEI.hideIngredient(<item:botania:ancient_will_ahrim>);
 JEI.hideIngredient(<item:botania:ancient_will_dharok>);
 JEI.hideIngredient(<item:botania:ancient_will_torag>);
@@ -1050,6 +1053,15 @@ for ring in rings {
   JEI.hideIngredient(<item:botania:${ring}_ring>);
 }
 
+// Botania addons - Added by Caigan
+JEI.hideIngredient(<item:incorporeal:potion_soul_core>);
+JEI.hideIngredient(<item:incorporeal:bound_ender_pearl>);
+JEI.hideIngredient(<item:incorporeal:enterbrilliance>);
+JEI.hideIngredient(<item:incorporeal:computational_lens_pattern>);
+JEI.hideIngredient(<item:incorporeal:data_monocle>);
+JEI.hideIngredient(<item:incorporeal:datastone_block>);
+JEI.hideIngredient(<item:incorporeal:pointed_datastone>);
+
 JEI.hideIngredient(<item:waystones:portstone>);
 JEI.hideIngredient(<item:waystones:return_scroll>);
 JEI.hideIngredient(<item:waystones:bound_scroll>);
@@ -1059,9 +1071,7 @@ JEI.hideIngredient(<item:mekanism:mekasuit_helmet>);
 JEI.hideIngredient(<item:mekanism:mekasuit_bodyarmor>);
 JEI.hideIngredient(<item:mekanism:mekasuit_pants>);
 JEI.hideIngredient(<item:mekanism:mekasuit_boots>);
-JEI.hideIngredient(<item:mekanism:flamethrower>);
 JEI.hideIngredient(<item:mekanism:jetpack>);
-JEI.hideIngredient(<item:mekanism:free_runners>);
 JEI.hideIngredient(<item:mekanism:free_runners_armored>);
 JEI.hideIngredient(<item:mekanism:jetpack_armored>);
 JEI.hideIngredient(<item:mekanism:portable_teleporter>);
@@ -1100,15 +1110,15 @@ JEI.hideIngredient(<item:mekanism:module_electrolytic_breathing_unit>);
 for coin in coins{
     JEI.hideIngredient(<item:thermal:${coin}_coin>);
 }
+
 // Dark Utilities
-JEI.hideIngredient(<item:darkutils:charm_portal>);
-JEI.hideIngredient(<item:darkutils:charm_warding>);
 JEI.hideIngredient(<item:darkutils:tome_enchanting>);
 JEI.hideIngredient(<item:darkutils:tome_sga>);
 JEI.hideIngredient(<item:darkutils:tome_illager>);
 JEI.hideIngredient(<item:darkutils:tome_shadows>);
 JEI.hideIngredient(<item:darkutils:tome_runelic>);
 JEI.hideIngredient(<item:darkutils:tome_pigpen>);
+
 // Iron Generators
 JEI.hideIngredient(<item:irongenerators:obsidian_generator>);
 JEI.hideIngredient(<item:irongenerators:bronze_generator>);
@@ -1131,18 +1141,18 @@ JEI.hideIngredient(<item:irongenerators:platin_generator>);
 JEI.hideIngredient(<item:irongenerators:infinity_generator>);
 JEI.hideIngredient(<item:irongenerators:netherrack_generator>);
 JEI.hideIngredient(<item:irongenerators:invar_generator>);
+JEI.hideIngredient(<item:irongenerators:copper_generator>);
+JEI.hideIngredient(<item:irongenerators:stone_generator>);
+
 // Powah
 JEI.hideIngredient(<item:powah:player_aerial_pearl>);
 JEI.hideIngredient(<item:powah:aerial_pearl>);
 JEI.hideIngredient(<item:powah:binding_card_dim>);
 JEI.hideIngredient(<item:powah:blank_card>);
 JEI.hideIngredient(<item:powah:binding_card>);
+
 // Thermal
-JEI.hideIngredient(<item:thermal:redprint>);
-JEI.hideIngredient(<item:thermal:xp_crystal>);
-JEI.hideIngredient(<item:thermal:rf_potato>);
 JEI.hideIngredient(<item:thermal:drill_head>);
-JEI.hideIngredient(<item:thermal:device_potion_diffuser>);
 JEI.hideIngredient(<item:thermal:chiller_rod_cast>);
 JEI.hideIngredient(<item:thermal:chiller_ingot_cast>);
 
@@ -1187,15 +1197,12 @@ for jewelId, jewelName in jewels {
 JEI.hideIngredient(<item:the_vault:sugar_plum_fairy_flower>);
 JEI.hideIngredient(<item:the_vault:pylon>);
 JEI.hideIngredient(<item:the_vault:tool_vise>);
-JEI.hideIngredient(<item:the_vault:rune>);
 JEI.hideIngredient(<item:the_vault:cube_block>);
 JEI.hideIngredient(<item:the_vault:vault_crate_champion>);
 // JEI.hideIngredient(<item:the_vault:legendary_treasure_*>);
 JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
 JEI.hideIngredient(<item:the_vault:wild_spawner>);
 JEI.hideIngredient(<item:the_vault:pandoras_box>);
-JEI.hideIngredient(<item:the_vault:etching>);
-JEI.hideIngredient(<item:the_vault:etching_fragment>);
 JEI.hideIngredient(<item:the_vault:monolith>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
 JEI.hideIngredient(<item:the_vault:vaulterite_pickaxe>);
@@ -1294,7 +1301,6 @@ JEI.hideIngredient(<item:the_vault:crystal_bud_large>);
 JEI.hideIngredient(<item:the_vault:gemmed_ingot>);
 JEI.hideIngredient(<item:the_vault:golden_tooth>);
 JEI.hideIngredient(<item:the_vault:unknown_egg>);
-JEI.hideIngredient(<item:the_vault:abyssal_ichor>); 
 JEI.hideIngredient(<item:the_vault:archetype_star>);
 JEI.hideIngredient(<item:the_vault:archetype_star_core>);
 JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
@@ -1345,6 +1351,8 @@ JEI.hideIngredient(<item:the_vault:deep_dark_silverfish_egg>);
 JEI.hideIngredient(<item:the_vault:deep_dark_horror_egg>);
 JEI.hideIngredient(<item:the_vault:chromatic_iron_tiny_dust>);
 JEI.hideIngredient(<item:the_vault:chromatic_iron_small_dust>);
+JEI.hideIngredient(<item:the_vault:crystal_seal_ordinator_run>);
+JEI.hideIngredient(<item:the_vault:crystal_seal_ordinator_build>);
 //JEI.addIngredient(<item:the_vault:bottle>.withTag({charges:6 as int,recharge:"time" as string,type:"brew" as string,vaultGearData:"[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]"}));
 // IronFurnaces
 JEI.hideIngredient(<item:ironfurnaces:upgrade_silver>);
@@ -1362,8 +1370,7 @@ JEI.hideIngredient(<item:ironfurnaces:upgrade_silver2>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_obsidian2>);
 JEI.hideIngredient(<item:ironfurnaces:item_linker>);
 JEI.hideIngredient(<item:ironfurnaces:augment_xp>);
-// Rf Tools
-JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
+
 // Titanium
 JEI.hideMod("titanium");
 // Rotten Creatures
@@ -1390,3 +1397,19 @@ JEI.hideIngredient(<item:ae2:portable_fluid_cell_4k>);
 JEI.hideIngredient(<item:ae2:portable_fluid_cell_16k>);
 JEI.hideIngredient(<item:ae2:portable_fluid_cell_64k>);
 JEI.hideIngredient(<item:ae2:portable_fluid_cell_256k>);
+
+// More Immersive Wires
+JEI.hideIngredient(<item:more_immersive_wires:rs_relay>);
+JEI.hideIngredient(<item:more_immersive_wires:rs_coil>);
+JEI.hideIngredient(<item:more_immersive_wires:rs_connector>);
+
+// Grappling Hook Mod
+JEI.hideIngredient(<item:grapplemod:longfallboots>);
+
+// silences turrets
+JEI.hideIngredient(<item:silence_s_defense_tower:biological_jamming_device_p>);
+JEI.hideIngredient(<item:silence_s_defense_tower:core_upgrade_table>);
+JEI.hideIngredient(<item:silence_s_defense_tower:vending_machine_0>);
+JEI.hideIngredient(<item:silence_s_defense_tower:variety_store>);
+JEI.hideIngredient(<item:silence_s_defense_tower:research_table>);
+JEI.hideIngredient(<item:silence_s_defense_tower:laborartory>);

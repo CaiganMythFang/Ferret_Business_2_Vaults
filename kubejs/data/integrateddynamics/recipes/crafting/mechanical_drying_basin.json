@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "item": "integrateddynamics:energy_battery"
+    },
+    "D": {
+      "item": "integrateddynamics:drying_basin"
+    },
+    "E": {
+      "item": "the_vault:perfect_black_opal"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:mechanical_drying_basin"
+  }
+}

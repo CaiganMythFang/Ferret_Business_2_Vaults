@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_block"
+    },
+    "B": {
+      "item": "the_vault:wold_star_chunk"
+    },
+    "C": {
+      "item": "the_vault:capstone_pylon_hunter"
+    },
+    "D": {
+      "item": "scannable:blank_module"
+    },
+    "E": {
+      "item": "the_vault:omega_pog"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_pylon_module"
+  }
+}

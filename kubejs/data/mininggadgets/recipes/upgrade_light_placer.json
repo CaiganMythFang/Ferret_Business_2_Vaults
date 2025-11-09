@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EBE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lantern"
+    },
+    "B": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "C": {
+      "item": "minecraft:glowstone"
+    },
+    "D": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "E": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_light_placer",
+    "count": 1
+  }
+}

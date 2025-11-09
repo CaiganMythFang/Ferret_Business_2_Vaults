@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence_1"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:smelting_upgrade"
+    },
+    "E": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:auto_smelting_upgrade"
+  }
+}

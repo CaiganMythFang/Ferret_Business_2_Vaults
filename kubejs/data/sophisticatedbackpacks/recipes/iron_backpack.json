@@ -1,0 +1,37 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "C": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "E": {
+      "item": "the_vault:magic_silk_block"
+    },
+    "F": {
+      "item": "the_vault:magic_silk"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:iron_backpack"
+  }
+}

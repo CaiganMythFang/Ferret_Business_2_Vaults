@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "viescraftmachines:xegonite_shard"
+    },
+    "B": {
+      "tag": "minecraft:coals",
+    },
+    "C": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "D": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "viescraftmachines:machine_parts_mold"
+  }
+}

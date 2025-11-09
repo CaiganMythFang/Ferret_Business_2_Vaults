@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:golden_carrot"
+    },
+    "C": {
+      "item": "minecraft:golden_apple"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "F": {
+      "item": "the_vault:packed_vault_meat_block"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:feeding_upgrade"
+  }
+}

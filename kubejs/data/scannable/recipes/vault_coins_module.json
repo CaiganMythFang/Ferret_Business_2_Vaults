@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "B": {
+      "item": "the_vault:pog_prism"
+    },
+    "C": {
+      "item": "the_vault:vault_palladium"
+    },
+    "D": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_coins_module"
+  }
+}

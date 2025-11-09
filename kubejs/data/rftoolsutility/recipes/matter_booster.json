@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "rftoolsbase:infused_diamond"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "rftoolsutility:charged_porter",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:matter_booster"
+  }
+}

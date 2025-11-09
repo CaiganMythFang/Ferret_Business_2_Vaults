@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "minecraft:water_bucket"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    "E": {
+      "item": "industrialforegoing:latex_bucket"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:latex_processing_unit"
+  }
+}

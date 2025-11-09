@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABB",
+    "CD ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rods/electrum"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "the_vault:vault_essence"
+    }
+  },
+  "result": {
+    "item": "createaddition:modular_accumulator"
+  }
+}

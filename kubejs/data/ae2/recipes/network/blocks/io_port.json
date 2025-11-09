@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "tag": "ae2:glass_cable"
+    },
+    "D": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "E": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "result": {
+    "item": "ae2:io_port",
+    "count": 1
+  }
+}

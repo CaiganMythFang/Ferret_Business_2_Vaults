@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "the_vault:vault_essence"
+    },
+    "D": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "create:gantry_shaft",
+    "count": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "C": {
+      "item": "minecraft:diamond_axe"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    "E": {
+      "tag": "forge:gears/gold"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:plant_gatherer"
+  }
+}

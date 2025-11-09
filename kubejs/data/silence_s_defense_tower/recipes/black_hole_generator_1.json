@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "the_vault:gem_echo"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:driving_core_4"
+    },
+    "D": {
+      "tag": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:black_hole_generator_p"
+  }
+}

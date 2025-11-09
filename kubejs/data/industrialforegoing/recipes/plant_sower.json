@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:flower_pot"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    "E": {
+      "tag": "forge:gears/iron"
+    },
+    "F": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:plant_sower"
+  }
+}

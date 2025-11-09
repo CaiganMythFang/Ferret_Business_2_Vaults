@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:perfect_echo_gem"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    },
+    "F": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_magnet",
+    "count": 1
+  }
+}

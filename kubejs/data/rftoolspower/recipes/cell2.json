@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "rftoolspower:power_core2"
+    },
+    "C": {
+      "item": "rftoolspower:cell1"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:cell2"
+  }
+}

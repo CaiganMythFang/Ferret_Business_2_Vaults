@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:packed_vault_meat_block"
+    },
+    "C": {
+      "item": "the_vault:gem_pog"
+    },
+    "D": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "E": {
+      "item": "quark:blaze_lantern"
+    },
+    "F": {
+      "item": "the_vault:eternal_soul"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:spawner"
+  }
+}

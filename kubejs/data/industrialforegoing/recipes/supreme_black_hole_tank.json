@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_black_opal"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "the_vault:echo_pog"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "E": {
+      "item": "the_vault:echoing_ingot"
+    },
+    "F": {
+      "tag": "industrialforegoing:machine_frame/supreme"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:supreme_black_hole_tank"
+  }
+}

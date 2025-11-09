@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DED",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:technology_damage"
+    },
+    "B": {
+      "item": "the_vault:extraordinary_alexandrite"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:technology_heal"
+    },
+    "D": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "E": {
+      "item": "silence_s_defense_tower:strong_acidity_1"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:strong_acidity_2"
+  }
+}

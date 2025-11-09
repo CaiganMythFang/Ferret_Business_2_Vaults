@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "rftoolsbase:infused_diamond"
+    },
+    "C": {
+      "item": "rftoolspower:dimensionalcell"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:dimensionalcell_advanced"
+  }
+}

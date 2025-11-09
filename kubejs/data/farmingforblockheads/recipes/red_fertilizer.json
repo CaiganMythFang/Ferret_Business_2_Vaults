@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dyes/red"
+    },
+    "B": {
+      "item": "the_vault:chromatic_iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "D": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "farmingforblockheads:red_fertilizer"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DED",
+    "ABC"
+  ],
+  "key": {
+    "A": {
+      "item": "pipez:item_pipe"
+    },
+    "B": {
+      "item": "pipez:energy_pipe"
+    },
+    "C": {
+      "item": "pipez:fluid_pipe"
+    },
+    "D": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "pipez:universal_pipe",
+    "count": 6
+  }
+}

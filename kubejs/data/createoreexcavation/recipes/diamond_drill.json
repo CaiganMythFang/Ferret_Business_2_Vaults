@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "BCB",
+    " BB"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond"
+    },
+    "C": {
+      "item": "createoreexcavation:drill"
+    }
+  },
+  "result": {
+    "item": "createoreexcavation:diamond_drill"
+  }
+}

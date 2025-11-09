@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    "C D"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:tactical_chip_1"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:fury_chip_1"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:power_chip_1"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:quick_loading_1"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:fury_chip_2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:pog_prism"
+    },
+    "B": {
+      "tag": "forge:gears/dragonsteel"
+    },
+    "C": {
+      "item": "thermal_extra:rf_coil_augment_4"
+    }
+  },
+  "result": {
+    "item": "thermal_extra:rf_coil_augment_5"
+  }
+}

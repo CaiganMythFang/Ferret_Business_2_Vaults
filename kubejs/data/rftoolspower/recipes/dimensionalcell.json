@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence_1"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    },
+    "D": {
+      "item": "rftoolspower:dimensionalcell_simple"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:dimensionalcell"
+  }
+}

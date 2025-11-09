@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "ecologics:azalea_button"
+    },
+    "B": {
+      "item": "the_vault:vault_essence"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "rftoolsstorage:dump_module"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "the_vault:packed_vault_meat_block"
+    },
+    "C": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "D": {
+      "tag": "industrialforegoing:machine_frame/simple"
+    },
+    "E": {
+      "tag": "forge:gears/diamond"
+    },
+    "F": {
+      "item": "industrialforegoing:fertilizer"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:hydroponic_bed"
+  }
+}

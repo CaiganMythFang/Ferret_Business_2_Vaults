@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "the_vault:pog_prism"
+    },
+    "C": {
+      "item": "the_vault:enigma_chest_scroll"
+    },
+    "D": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_chests_module_raw"
+  }
+}

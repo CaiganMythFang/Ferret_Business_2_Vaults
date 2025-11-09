@@ -2,7 +2,7 @@
 for Iskall85's Vaulthunters */
 
 // adding recipes
-
+/*
 craftingTable.addShaped("modularrouters_sender_module_1", <item:modularrouters:sender_module_1>, [
     [<item:minecraft:air>, <tag:items:forge:chests>, <item:minecraft:air>],
     [<item:the_vault:gem_larimar>, <item:modularrouters:blank_module>, <item:the_vault:gem_larimar>],
@@ -17,7 +17,7 @@ craftingTable.addShaped("modularrouters_sender_module_2", <item:modularrouters:s
 
 craftingTable.addShapeless("modularrouters_sender_module_3", <item:modularrouters:sender_module_3>, [
     <item:modularrouters:sender_module_2>, <item:the_vault:perfect_echo_gem>, <item:minecraft:ender_chest>,
-    <item:the_vault:gem_pog>, <item:the_vault:echo_pog>, <item:the_vault:gem_pog>,
+    <item:the_vault:gem_pog>, <item:woldsvaults:pogominium_ingot>, <item:the_vault:gem_pog>,
     <item:modularrouters:sender_module_2>, <item:modularrouters:blank_upgrade>
 ]);
 
@@ -80,3 +80,4 @@ craftingTable.addShaped("modularrouters_puller_module_2", <item:modularrouters:p
     [<item:the_vault:vault_diamond>, <item:modularrouters:blank_module>, <item:the_vault:vault_diamond>],
     [<item:the_vault:vault_essence>, <item:the_vault:perfect_larimar>, <item:the_vault:vault_essence>]
 ]);
+*/

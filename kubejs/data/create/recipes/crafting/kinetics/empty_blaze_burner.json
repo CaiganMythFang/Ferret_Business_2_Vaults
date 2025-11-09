@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "item": "the_vault:polished_vault_stone"
+    }
+  },
+  "result": {
+    "item": "create:empty_blaze_burner",
+    "count": 1
+  }
+}

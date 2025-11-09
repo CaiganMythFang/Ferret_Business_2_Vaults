@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "C": {
+      "item": "immersive_aircraft:engine"
+    },
+    "D": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "immersive_aircraft:eco_engine"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:driftwood"
+    },
+    "B": {
+      "item": "powah:dielectric_paste"
+    },
+    "C": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "item": "powah:photoelectric_pane"
+  }
+}

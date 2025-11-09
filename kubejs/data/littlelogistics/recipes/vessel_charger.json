@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DCD"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_gold_ingot"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:vessel_charger"
+  }
+}

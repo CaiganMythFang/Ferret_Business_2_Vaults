@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_larimar"
+    },
+    "B": {
+      "tag": "botania:petals"
+    },
+    "C": {
+      "item": "quark:blaze_lantern"
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "botania:spark",
+    "count": 1
+  }
+}

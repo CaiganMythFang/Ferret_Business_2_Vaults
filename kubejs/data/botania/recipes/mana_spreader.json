@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BC ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "botania:livingwood_logs"
+    },
+    "B": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "C": {
+      "tag": "botania:petals"
+    }
+  },
+  "result": {
+    "item": "botania:mana_spreader",
+    "count": 1
+  }
+}

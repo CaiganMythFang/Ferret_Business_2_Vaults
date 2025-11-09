@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:gold_nugget"
+    },
+    "D": {
+      "item": "modularrouters:blank_upgrade"
+    },
+    "E": {
+      "item": "minecraft:gunpowder"
+    },
+    "F": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "modularrouters:speed_upgrade",
+    "count": 3
+  }
+}

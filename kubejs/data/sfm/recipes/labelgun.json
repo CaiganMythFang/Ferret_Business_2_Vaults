@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    " CD",
+    "C  "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dyes/blue"
+    },
+    "B": {
+      "item": "minecraft:oak_sign"
+    },
+    "C": {
+      "item": "the_vault:driftwood"
+    },
+    "D": {
+      "tag": "forge:dyes/black"
+    }
+  },
+  "result": {
+    "item": "sfm:labelgun"
+  }
+}

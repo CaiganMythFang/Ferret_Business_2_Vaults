@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " D ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:metamorphic_mesa_cobblestone"
+    },
+    "B": {
+      "tag": "botania:petals"
+    },
+    "D": {
+      "item": "the_vault:perfect_larimar"
+    }
+  },
+  "result": {
+    "item": "botania:apothecary_mesa",
+    "count": 1
+  }
+}

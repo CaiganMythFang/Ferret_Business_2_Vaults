@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:lever"
+    },
+    "C": {
+      "item": "minecraft:dispenser"
+    },
+    "D": {
+      "item": "modularrouters:blank_module"
+    },
+    "E": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "modularrouters:activator_module",
+    "count": 1
+  }
+}

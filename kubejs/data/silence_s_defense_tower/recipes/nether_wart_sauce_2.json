@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "minecraft:nether_wart"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:glass_jar"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:nether_wart_sauce"
+  }
+}

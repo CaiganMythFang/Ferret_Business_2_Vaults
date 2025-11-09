@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:magic_silk"
+    },
+    "B": {
+      "item": "viescraftmachines:machine_parts"
+    },
+    "C": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "viescraftmachines:tool_dismounter_player"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "item": "supplementaries:flint_block"
+    },
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "D": {
+      "item": "thermal:copper_gear"
+    },
+    "E": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_pulverizer"
+  }
+}

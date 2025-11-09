@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DED",
+    "FGH"
+  ],
+  "key": {
+    "A": {
+      "item": "scannable:vault_chests_module_gilded"
+    },
+    "B": {
+      "item": "scannable:vault_chests_module_living"
+    },
+    "C": {
+      "item": "scannable:vault_chests_module_ornate"
+    },
+    "D": {
+      "item": "the_vault:omega_pog"
+    },
+    "E": {
+      "item": "scannable:blank_module"
+    },
+    "F": {
+      "item": "scannable:vault_chests_module_wooden"
+    },
+    "G": {
+      "item": "scannable:vault_chests_module_raw"
+    },
+    "H": {
+      "item": "scannable:vault_chests_module_treasure"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_chests_module"
+  }
+}

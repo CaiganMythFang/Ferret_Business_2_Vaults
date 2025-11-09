@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:extraordinary_larimar"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "C": {
+      "item": "mininggadgets:upgrade_efficiency_4"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_efficiency_5",
+    "count": 1
+  }
+}

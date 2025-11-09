@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "D D"
+  ],
+  "key": {
+    "A": {
+      "item": "silence_s_defense_tower:precision_components_1"
+    },
+    "B": {
+      "item": "silence_s_defense_tower:power_chip_1"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:battery_1"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:reinforcement_materials_2"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:battery_2"
+  }
+}

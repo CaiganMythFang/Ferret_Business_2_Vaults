@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "D": {
+      "item": "modularrouters:blank_module"
+    },
+    "E": {
+      "item": "the_vault:extraordinary_larimar"
+    }
+  },
+  "result": {
+    "item": "modularrouters:distributor_module",
+    "count": 1
+  }
+}

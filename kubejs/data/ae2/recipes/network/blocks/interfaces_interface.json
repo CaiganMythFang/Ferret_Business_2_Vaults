@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "c:glass_blocks"
+    },
+    "C": {
+      "item": "ae2:formation_core"
+    },
+    "D": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "E": {
+      "item": "ae2:annihilation_core"
+    }
+  },
+  "result": {
+    "item": "ae2:interface",
+    "count": 1
+  }
+}

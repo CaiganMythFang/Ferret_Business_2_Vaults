@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "darkutils:dark_stones"
+    },
+    "B": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "silence_s_defense_tower:hell_core_4"
+    },
+    "D": {
+      "item": "silence_s_defense_tower:reinforcement_materials_2"
+    }
+  },
+  "result": {
+    "item": "silence_s_defense_tower:amethyst_cannon_p"
+  }
+}

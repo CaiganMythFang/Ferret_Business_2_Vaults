@@ -1,0 +1,30 @@
+{
+    "type": "immersiveengineering:blueprint",
+    "inputs": [
+        {
+            "tag": "forge:glass"
+        },
+        {
+            "count": 3,
+            "base_ingredient": [
+                {
+                    "item": "minecraft:paper"
+                },
+                {
+                    "item": "minecraft:bamboo"
+                }
+            ]
+        },
+        {
+            "tag": "forge:ingots/copper"
+        },
+        {
+            "item": "the_vault:perfect_larimar"
+        }
+    ],
+    "category": "components",
+    "result": {
+        "item": "immersiveengineering:light_bulb",
+        "count": 3
+    }
+}

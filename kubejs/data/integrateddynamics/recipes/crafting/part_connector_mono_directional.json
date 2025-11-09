@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "item": "integrateddynamics:variable_transformer_output"
+    },
+    "C": {
+      "item": "integrateddynamics:cable"
+    },
+    "D": {
+      "item": "integrateddynamics:variable_transformer_input"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:part_connector_mono_directional"
+  }
+}

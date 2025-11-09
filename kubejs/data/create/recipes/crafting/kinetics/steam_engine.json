@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "B": {
+      "tag": "forge:plates/gold"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "D": {
+      "item": "create:brass_casing"
+    },
+    "E": {
+      "item": "the_vault:pog_prism"
+    }
+  },
+  "result": {
+    "item": "create:steam_engine",
+    "count": 1
+  }
+}

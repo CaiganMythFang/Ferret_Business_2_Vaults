@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    " CA",
+    "D  "
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:gem_pog"
+    },
+    "B": {
+      "item": "hexcasting:charged_amethyst"
+    },
+    "C": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "D": {
+      "item": "the_vault:driftwood"
+    }
+  },
+  "result": {
+    "item": "hexcasting:wand_dark_oak"
+  }
+}

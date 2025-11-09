@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:infused_enderpearl"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:charged_porter"
+  }
+}

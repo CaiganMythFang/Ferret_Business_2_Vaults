@@ -2,7 +2,7 @@
 for Iskall85's Vaulthunters */
 
 // adding recipes
-
+/*
 var mobs = [
     "red",
     "red"
@@ -21,8 +21,8 @@ craftingTable.addShaped("survival_spawner", <item:ispawner:survival_spawner>, [
 ]);
 
 craftingTable.addShaped("cagerium_cage", <item:cagerium:cage>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:cagerium:ominous_skull>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:wutodic_silver_ingot>, <item:the_vault:wutodic_silver_ingot>, <item:the_vault:wutodic_silver_ingot>],
+    [<item:the_vault:wutodic_silver_ingot>, <item:cagerium:ominous_skull>, <item:the_vault:wutodic_silver_ingot>],
     [<item:the_vault:chromatic_steel_block>, <item:the_vault:chromatic_steel_block>, <item:the_vault:chromatic_steel_block>]
 ]);
 
@@ -71,3 +71,4 @@ craftingTable.addShaped("cagerium_skeleton_key", <item:cagerium:skeleton_key>, [
 // <item:cagerium:capacity_upgrade>
 // <item:cagerium:capacity_upgrade>.withTag({EntityType: "minecraft:cod" as string})
 // <item:minecraft:cod_spawn_egg>
+*/

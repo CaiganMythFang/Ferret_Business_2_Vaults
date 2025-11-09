@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  A",
+    " BC",
+    "B  "
+  ],
+  "key": {
+    "A": {
+      "item": "littlelogistics:spring"
+    },
+    "B": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "littlelogistics:conductors_wrench"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:magic_silk"
+    },
+    "B": {
+      "item": "minecraft:golden_apple"
+    },
+    "C": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "D": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "E": {
+      "item": "the_vault:magic_silk_block"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_silk",
+    "count": 1
+  }
+}

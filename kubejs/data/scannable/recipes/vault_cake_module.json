@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_sweets_block"
+    },
+    "B": {
+      "item": "the_vault:omega_pog"
+    },
+    "C": {
+      "item": "the_vault:wold_star"
+    },
+    "D": {
+      "item": "scannable:blank_module"
+    }
+  },
+  "result": {
+    "item": "scannable:vault_cake_module"
+  }
+}

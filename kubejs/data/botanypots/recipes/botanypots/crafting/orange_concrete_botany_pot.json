@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:orange_concrete"
+    },
+    "B": {
+      "item": "woldsvaults:chroma_core"
+    },
+    "C": {
+      "item": "the_vault:packed_vault_meat_block"
+    },
+    "D": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "botanypots:orange_concrete_botany_pot"
+  }
+}

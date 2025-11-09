@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "the_vault:gem_pog"
+    },
+    "C": {
+      "item": "minecraft:experience_bottle"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:pump_upgrade"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:xp_pump_upgrade"
+  }
+}

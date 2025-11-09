@@ -4,7 +4,7 @@ for Iskall85's Vaulthunters */
 import crafttweaker.api.ingredient.IIngredient;
 
 // adding recipes
-
+/*
 var ingots as IIngredient[string] = {
   "bronze": <tag:items:forge:ingots/bronze>.asIIngredient(),
   "iron": <item:minecraft:iron_ingot> as IIngredient,
@@ -63,9 +63,9 @@ for gemId, gemName in gems {
 <recipetype:thermal:pulverizer>.addRecipe("ore_to_dust", [<item:the_vault:chromatic_iron_dust> *4 % -100], <item:the_vault:chromatic_iron_ore>, 3, 4000);
 <recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2 % -100], <item:the_vault:raw_chromatic_iron>, 3, 4000);
 <recipetype:thermal:pulverizer>.addRecipe("ingot_to_dust", [<item:the_vault:chromatic_iron_dust> *1 % -100], <item:the_vault:chromatic_iron_ingot>, 3, 2000);
-
+*/
 <recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:vault_rock> % 12], <item:the_vault:vault_stone>, 3, 2000);
-
+/*
 craftingTable.addShaped("thermal_rf_coil", <item:thermal:rf_coil>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:perfect_larimar>],
     [<item:minecraft:air>, <tag:items:forge:storage_blocks/redstone>, <item:minecraft:air>],
@@ -157,9 +157,9 @@ craftingTable.addShaped("thermal_compression_dynamo", <item:thermal:dynamo_compr
 ]);
 
 craftingTable.addShaped("thermal_phyto_insolator", <item:thermal:machine_insolator>, [
-    [<item:minecraft:air>, <item:the_vault:echo_pog>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:thermal:rf_coil>, <item:minecraft:air>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:thermal:machine_frame>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:thermal:lumium_gear>, <item:thermal:rf_coil>, <item:thermal:lumium_gear>]
+    [<item:thermal:lumium_gear>, <item:the_vault:echo_pog>, <item:thermal:lumium_gear>]
 ]);
 
 craftingTable.addShaped("thermal_pulverizor", <item:thermal:machine_pulverizer>, [
@@ -214,3 +214,20 @@ craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
 <recipetype:thermal:insolator>.addRecipe("insolator_smalldrip", [<item:minecraft:small_dripleaf> % 200], <item:minecraft:small_dripleaf>, 1000, 10000);
 
 <recipetype:thermal:pulverizer>.addRecipe("buildinggadgets_block_to_paste_thermal", [<item:buildinggadgets:construction_paste> % 411], <item:buildinggadgets:construction_block_dense>, 3, 2000);
+
+var clusters = {
+  "cluster_bomignite": "bomignite",
+  "cluster_tubium": "tubium",
+  "cluster_ashium": "ashium",
+  "cluster_upaline": "upaline",
+  "cluster_xenium": "xenium",
+  "cluster_gorginite": "gorginite",
+  "cluster_petzanite": "petzanite",
+  "cluster_iskallium": "iskallium",
+  "cluster_sparkletine": "sparkletine"
+};
+
+for clusterId, clusterName in clusters {
+    <recipetype:thermal:press>.addRecipe("press_" + clusterName +"_key", [<item:the_vault:key_${clusterName}>], <fluid:minecraft:empty>, [<item:the_vault:cluster_${clusterName}>, <item:the_vault:blank_key>], 500);
+}
+*/

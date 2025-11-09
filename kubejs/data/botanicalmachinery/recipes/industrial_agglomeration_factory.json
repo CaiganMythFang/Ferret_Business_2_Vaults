@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "item": "botania:manasteel_ingot"
+    },
+    "C": {
+      "item": "botania:mana_diamond"
+    },
+    "D": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "E": {
+      "item": "botania:mana_pearl"
+    },
+    "F": {
+      "item": "botania:terra_plate"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:industrial_agglomeration_factory"
+  }
+}

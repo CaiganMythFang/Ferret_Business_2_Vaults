@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABC",
+    "BAC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:sandstone"
+    },
+    "B": {
+      "tag": "forge:ingots/brick"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond"
+    }
+  },
+  "result": {
+        "item": "immersiveengineering:alloybrick",
+        "count": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "B": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "C": {
+      "item": "the_vault:magic_silk"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "F": {
+      "item": "the_vault:gem_echo"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:deposit_upgrade"
+  }
+}

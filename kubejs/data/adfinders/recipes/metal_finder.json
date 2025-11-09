@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " C ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "tag": "the_vault:chest_scrolls"
+    },
+    "B": {
+      "item": "the_vault:pog_prism"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "D": {
+      "item": "the_vault:black_chromatic_steel_block"
+    }
+  },
+  "result": {
+    "item": "adfinders:metal_finder"
+  }
+}
