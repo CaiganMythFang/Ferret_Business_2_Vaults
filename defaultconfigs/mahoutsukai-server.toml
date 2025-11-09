@@ -270,7 +270,7 @@
 		#Strengthening Item Spawn Blacklist
 		STRENGTHENING_ITEM_SPAWN_BLACKLIST = []
 		#Items that Strengthening won't work on
-		STRENGTHENING_ITEM_BLACKLIST = []
+		STRENGTHENING_ITEM_BLACKLIST = ["the_vault:sword", "the_vault:axe", "the_vault:helmet", "the_vault:chestplate", "the_vault:leggings", "the_vault:boots", "the_vault:shield", "the_vault:idol_benevolent", "the_vault:idol_omniscient", "the_vault:idol_timekeeper", "the_vault:idol_malevolence", "the_vault:vault_god_charm", "the_vault:battlestaff", "the_vault:trident", "the_vault:plushie", "the_vault:loot_sack", "the_vault:rang", "the_vault:map", "the_vault:tool"]
 		#Max Strengthening Cap
 		#Range: 0 ~ 100000000
 		STRENGTHENING_CAP = 50
@@ -309,7 +309,7 @@
 		#Range: 0 ~ 100000000
 		PROJECTION_MANA_COST = 100
 		#A list of item names which cannot be projected. Such as minecraft:diamond_sword , for example.
-		PROJECTION_BLACKLIST = []
+		PROJECTION_BLACKLIST = ["the_vault:sword", "the_vault:axe", "the_vault:helmet", "the_vault:chestplate", "the_vault:leggings", "the_vault:boots", "the_vault:shield", "the_vault:idol_benevolent", "the_vault:idol_omniscient", "the_vault:idol_timekeeper", "the_vault:idol_malevolence", "the_vault:vault_god_charm", "the_vault:battlestaff", "the_vault:trident", "the_vault:plushie", "the_vault:loot_sack", "the_vault:rang", "the_vault:map", "the_vault:tool"]
 		#If False, PROJECTION_BLACKLIST will be considered a whitelist
 		PROJECTION_IS_BLACKLIST = true
 		#Projection Enchantment Blacklist
@@ -834,7 +834,7 @@
 	[eyes."death collection"]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		DEATH_COLLECTION_MANA_COST = 400
+		DEATH_COLLECTION_MANA_COST = 5000
 		#This is how long the buff lasts
 		#Range: 0 ~ 100000000
 		DEATH_COLLECTION_TIME = 600
