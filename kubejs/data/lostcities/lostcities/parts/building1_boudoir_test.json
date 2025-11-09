@@ -1,0 +1,369 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "chipped:pink_wool_17",
+				"Description": "Pink Flooring",
+				"Color": "f6a7f1ff"
+			},
+			{
+				"char": "3",
+				"block": "chipped:pink_terracotta_33",
+				"Color": "ce79c9ff",
+				"Description": "Pink Roof"
+			},
+			{
+				"char": "8",
+				"block": "chipped:pink_wool_11",
+				"Description": "Alternating pink wallpaper",
+				"Color": "9c5597ff"
+			},
+			{
+				"char": "9",
+				"block": "chipped:pink_wool_4",
+				"Color": "b054a9ff",
+				"Description": "Alternating pink wallpaper"
+			},
+			{
+				"char": "4",
+				"block": "chipped:pink_wool_8",
+				"Description": "Top Wall Edging",
+				"Color": "a1679dff"
+			},
+			{
+				"char": "5",
+				"block": "chipped:pink_glazed_terracotta_6",
+				"Description": "Middle Trim Marker",
+				"Color": "b054a9ff"
+			},
+			{
+				"char": "6",
+				"block": "chipped:pink_concrete_7",
+				"Description": "Ceiling Edge",
+				"Color": "e370daff"
+			},
+			{
+				"char": "7",
+				"block": "chipped:pink_terracotta_33",
+				"Description": "Ceiling Center",
+				"Color": "974791ff"
+			},
+			{
+				"char": "S",
+				"Description": "Safes",
+				"blocks": [
+					{
+						"block": "decocraft:safe[facing=east]",
+						"random": 64
+					},
+					{
+						"block": "supplementaries:safe[facing=east,waterlogged=false]",
+						"random": 64
+					}
+				],
+				"loot": "chestloot",
+				"Color": "444444ff"
+			},
+			{
+				"char": "⚸",
+				"block": "minecraft:crimson_door[facing=west,half=lower,hinge=left]",
+				"Description": "West Door, Bottom",
+				"Color": "a42d6aff"
+			},
+			{
+				"char": "ʏ",
+				"block": "minecraft:crimson_door[facing=west,half=upper,hinge=left]",
+				"Description": "West Door, Top",
+				"Color": "a42d6aff"
+			},
+			{
+				"char": "'",
+				"block": "minecraft:crimson_door[facing=south,half=lower,hinge=right]",
+				"Description": "South Door, Bottom",
+				"Color": "a42d6aff"
+			},
+			{
+				"char": "E",
+				"block": "minecraft:crimson_door[facing=south,half=upper,hinge=right]",
+				"Description": "South Door, Top",
+				"Color": "a42d6aff"
+			},
+			{
+				"char": "ƨ",
+				"block": "decocraft:vanity_left_white[facing=north]",
+				"Description": "Vanity Bottom Left"
+			},
+			{
+				"char": "⚴",
+				"block": "decocraft:vanity_center_white[facing=north]",
+				"Description": "Vanity Bottom Center"
+			},
+			{
+				"char": "?",
+				"block": "decocraft:vanity_right_white[facing=north]",
+				"Description": "Vanity Bottom Right"
+			},
+			{
+				"char": "⛖",
+				"block": "everycomp:mcfur/architects_palette/stripped_twisted_chair[facing=north]",
+				"Description": "Side Chair",
+				"Color": "6a5934ff"
+			},
+			{
+				"char": "☮",
+				"block": "decocraft:couch_left_pink[facing=east]",
+				"Description": "East couch - Left",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "ɬ",
+				"block": "decocraft:couch_middle_pink[facing=east]",
+				"Description": "East couch - Center",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "Ć",
+				"block": "decocraft:couch_right_pink[facing=east]",
+				"Description": "East couch - Right",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "[",
+				"block": "moa_decor_art:maniqui[facing=south]",
+				"Description": "Mannequin",
+				"Color": "c6be9eff"
+			},
+			{
+				"char": "☧",
+				"block": "luphieclutteredmod:luphie_cardboard_box_closed[facing=south]",
+				"Description": "Cardboard Box",
+				"Color": "83714fff"
+			},
+			{
+				"char": "Ȍ",
+				"block": "everycomp:mcfur/architects_palette/stripped_twisted_chair[facing=south]",
+				"Description": "Side Chair",
+				"Color": "6a5934ff"
+			},
+			{
+				"char": "⛼",
+				"block": "everycomp:mcfur/the_vault/stripped_driftwood_coffee_table",
+				"Description": "Coffee Table",
+				"Color": "574a2cff"
+			},
+			{
+				"char": "Ŧ",
+				"block": "decocraft:couch_right_pink[facing=west]",
+				"Description": "East Couch Right",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "⚣",
+				"block": "decocraft:couch_middle_pink[facing=west]",
+				"Description": "East Couch Center",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "♾",
+				"block": "decocraft:couch_left_pink[facing=west]",
+				"Description": "East couch Left",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "Ţ",
+				"block": "decocraft:closet_3_spruce[facing=west]",
+				"Description": "Cabinet",
+				"Color": "8a6633ff"
+			},
+			{
+				"char": "ɋ",
+				"block": "create:white_seat[waterlogged=false]",
+				"Description": "Vanity seat"
+			},
+			{
+				"char": "♸",
+				"block": "decocraft:couch_right_pink[facing=south]",
+				"Description": "South Facing Couch Right",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "¼",
+				"block": "decocraft:couch_middle_pink[facing=south]",
+				"Description": "South Facing couch Center",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": ",",
+				"block": "decocraft:couch_left_pink[facing=south]",
+				"Description": "South Facing couch Left",
+				"Color": "e9a9e7ff"
+			},
+			{
+				"char": "Ǝ",
+				"block": "everycomp:mcfur/the_vault/stripped_driftwood_end_table",
+				"Description": "End Table",
+				"Color": "695a48ff"
+			},
+			{
+				"char": "İ",
+				"block": "moa_decor_science:biombomblanco[facing=north]",
+				"Description": "Medical Screen (covers 3 wide 2 high)"
+			},
+			{
+				"char": "ƻ",
+				"block": "moa_decor_art:caballetelienzo[facing=south]",
+				"Description": "Easel",
+				"Color": "83725cff"
+			},
+			{
+				"char": "⛫",
+				"block": "decocraft:makeup[facing=north]",
+				"Description": "Makeup",
+				"Color": "b73039ff"
+			},
+			{
+				"char": "ɫ",
+				"block": "decocraft:table_lamp_white[facing=east]",
+				"Description": "Lamp"
+			},
+			{
+				"char": "V",
+				"block": "moa_decor_art:fonografo[facing=east]",
+				"Description": "Grammaphone",
+				"Color": "c7ce3cff"
+			},
+			{
+				"char": "☩",
+				"block": "tanukidecor:classic_vase[waterlogged=false]",
+				"Description": "Vase",
+				"Color": "713eb8ff"
+			},
+			{
+				"char": "ř",
+				"block": "decocraft:table_lamp_tall_pink[facing=west]",
+				"Description": "Pink Table Lamp",
+				"Color": "fbbbffff"
+			},
+			{
+				"char": "☚",
+				"block": "decocraft:hanging_lamp_3_gold",
+				"Description": "Chandelier",
+				"Color": "eef35fff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"################",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222l22222#",
+			"################"
+		],
+		[
+			"################",
+			"#98898989898893#",
+			"#8       ☧Ȍ⛼ 83#",
+			"#S          Ŧ83#",
+			"#8   İ      ⚣93#",
+			"#9 ƻ ♸¼,Ǝ   ⚣83#",
+			"#8[ ⛼       ♾93#",
+			"#⚸          Ţ83#",
+			"#8          Ŧ93#",
+			"#9☮         ⚣83#",
+			"#8ɬ         ⚣93#",
+			"#9Ć       ɋ ♾83#",
+			"#8  ⛖    ?⚴ƨ 83#",
+			"#989898'8989893#",
+			"#333333  l33333#",
+			"################"
+		],
+		[
+			"################",
+			"#98898989898893#",
+			"#8         ☩ 83#",
+			"#S           83#",
+			"#8           93#",
+			"#9      V    83#",
+			"#8  ɫ        93#",
+			"#ʏ          ř83#",
+			"#8           93#",
+			"#9           83#",
+			"#8           93#",
+			"#9           83#",
+			"#8        ⛫  83#",
+			"#989898E8989893#",
+			"#333333  l33333#",
+			"################"
+		],
+		[
+			"#######9########",
+			"#98898989898893#",
+			"#8           83#",
+			"#9           83#",
+			"#8           93#",
+			"#9           83#",
+			"98           939",
+			"#8           83#",
+			"#8           93#",
+			"#9           83#",
+			"#8           93#",
+			"#9           83#",
+			"#8           83#",
+			"#98989888989893#",
+			"#33333333l33333#",
+			"#######9########"
+		],
+		[
+			"################",
+			"#44444454444443#",
+			"#4           43#",
+			"#4           43#",
+			"#4           43#",
+			"#4           43#",
+			"#4           43#",
+			"#5     ☚     53#",
+			"#4           43#",
+			"#4           43#",
+			"#4           43#",
+			"#4           43#",
+			"#4           43#",
+			"#44444454444443#",
+			"#33333333l33333#",
+			"################"
+		],
+		[
+			"################",
+			"#33333333333333#",
+			"#36666666666633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36777777777633#",
+			"#36666666666633#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"################"
+		]
+	]
+}
