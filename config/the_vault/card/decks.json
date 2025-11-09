@@ -2,7 +2,7 @@
   "values": {
     "starter": {
       "model": "the_vault:deck/starter_deck#inventory",
-      "name": "Starter",
+      "name": "Starter Deck",
       "essence": {
         "min": 0,
         "max": 0
@@ -75,7 +75,7 @@
       ]
     },
     "expanded": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/expanded#inventory",
       "name": "Expanded Deck",
       "essence": {
         "min": 2,
@@ -94,7 +94,7 @@
       ]
     },
     "gdungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/edge#inventory",
       "name": "The Edge Deck",
       "essence": {
         "min": 3,
@@ -113,7 +113,7 @@
       ]
     },
     "ldungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/mushroom#inventory",
       "name": "The Shroom Deck",
       "essence": {
         "min": 3,
@@ -132,7 +132,7 @@
       ]
     },
     "odungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/anvil#inventory",
       "name": "The Anvil Deck",
       "essence": {
         "min": 3,
@@ -164,6 +164,109 @@
             "OOOOOOO",
             "OOOOOOO",
             "OOXXXOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "wold": {
+      "model": "the_vault:deck/wold#inventory",
+      "name": "The Wold Deck",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OXOOOXO",
+            "OXOOOXO",
+            "OXOOOXO",
+            "OXOOOXO",
+            "OOOOOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "snake": {
+      "model": "the_vault:deck/snake#inventory",
+      "name": "The Snake Deck",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "XXXXXXXXO",
+            "OOOOOOOOO",
+            "OXXXXXXXX",
+            "OOOOOOOOO",
+            "XXXXXXXXO",
+            "OOOOOOOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "fairy": {
+      "model": "the_vault:deck/fairy#inventory",
+      "name": "The Fairy Deck",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OXXOXOXXO",
+            "XOXXOXXOX",
+            "XXOOXOOXX",
+            "XXOXXXOXX",
+            "XOXOXOXOX",
+            "OXXXOXXXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "wall": {
+      "model": "the_vault:deck/wall#inventory",
+      "name": "The Wall Deck",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OXOXOXOXO",
+            "OXOXOXOXO",
+            "OXOXOXOXO",
+            "OXOXOXOXO",
+            "OXOXOXOXO",
+            "OXOXOXOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+     "crate": {
+      "model": "the_vault:deck/crate#inventory",
+      "name": "The Crate Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOOO",
+            "OXOXXOXO",
+            "OOOOOOOO",
+            "OXOXXOXO",
+            "OOOOOOOO"
           ],
           "weight": 1.0
         }
@@ -246,7 +349,7 @@
       ]
     },
     "runic": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/runic#inventory",
       "name": "The Runic Deck",
       "essence": {
         "min": 3,
@@ -267,7 +370,7 @@
       ]
     },
     "bishop": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/bishop#inventory",
       "name": "The Bishop Deck",
       "essence": {
         "min": 3,
@@ -287,7 +390,7 @@
       ]
     },
     "belt": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/belt#inventory",
       "name": "The Belt Deck",
       "essence": {
         "min": 3,
@@ -308,7 +411,7 @@
       ]
     },
     "scam": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/mystery#inventory",
       "name": "The ?",
       "essence": {
         "min": 5,

@@ -45,6 +45,29 @@
       ],
       "maxTier": 5
     },
+    "deluxe_attack_damage": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Attack Damage Card"
+      },
+      "model": "the_vault:card/icon/attack_damage#inventory",
+      "groups": [
+        "Offensive",
+        "Physical",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:attack_damage",
+      "pool": [
+        {
+          "min": 10.0,
+          "max": 10.0,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "health": {
       "type": "gear",
       "name": {
@@ -53,6 +76,7 @@
       "model": "the_vault:card/icon/health#inventory",
       "groups": [
         "Defensive",
+        "Physical",
         "Stat"
       ],
       "attribute": "the_vault:health",
@@ -86,6 +110,29 @@
           "max": 5.0,
           "step": 1.0,
           "tier": 5
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_health": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Health Card"
+      },
+      "model": "the_vault:card/icon/health#inventory",
+      "groups": [
+        "Defensive",
+        "Physical",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:health",
+      "pool": [
+        {
+          "min": 10.0,
+          "max": 10.0,
+          "step": 0.0,
+          "tier": 1
         }
       ],
       "maxTier": 1
@@ -136,6 +183,29 @@
       ],
       "maxTier": 5
     },
+     "deluxe_apflat": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Ability Power Card"
+      },
+      "model": "the_vault:card/icon/ability_power#inventory",
+      "groups": [
+        "Offensive",
+        "Stat",
+        "Magical",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:ability_power",
+      "pool": [
+        {
+          "min": 12.5,
+          "max": 12.5,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "attack_speed": {
       "type": "gear",
       "name": {
@@ -180,6 +250,28 @@
         }
       ],
       "maxTier": 5
+    },
+    "deluxe_attack_speed": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Attack Speed Card"
+      },
+      "model": "the_vault:card/icon/attack_speed#inventory",
+      "groups": [
+        "Offensive",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:attack_speed_percent",
+      "pool": [
+        {
+          "min": 0.075,
+          "max": 0.075,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "cooldown_reduction": {
       "type": "gear",
@@ -226,6 +318,28 @@
       ],
       "maxTier": 5
     },
+     "deluxe_cooldown_reduction": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Cooldown Reduction Card"
+      },
+      "model": "the_vault:card/icon/cooldown_reduction#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:cooldown_reduction",
+      "pool": [
+        {
+          "min": 0.04,
+          "max": 0.04,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "crit_hit_resistance": {
       "type": "gear",
       "name": {
@@ -270,6 +384,28 @@
         }
       ],
       "maxTier": 5
+    },
+    "deluxe_crit_hit_resistance": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Crit Hit Resistance Card"
+      },
+      "model": "the_vault:card/icon/crit_hit_resistance#inventory",
+      "groups": [
+        "Defensive",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:critical_hit_mitigation",
+      "pool": [
+        {
+          "min": 0.05,
+          "max": 0.05,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "healing_effectiveness": {
       "type": "gear",
@@ -318,6 +454,30 @@
       ],
       "maxTier": 5
     },
+    "deluxe_healing_effectiveness": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Healing Efficiency Card"
+      },
+      "model": "the_vault:card/icon/healing_efficiency#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Essence",
+        "Defensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:healing_effectiveness",
+      "pool": [
+        {
+          "min": 0.035,
+          "max": 0.035,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "item_quantity": {
       "type": "gear",
       "name": {
@@ -362,6 +522,28 @@
         }
       ],
       "maxTier": 5
+    },
+     "deluxe_item_quantity": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Item Quantity Card"
+      },
+      "model": "the_vault:card/icon/item_quantity#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:item_quantity",
+      "pool": [
+        {
+          "min": 0.03,
+          "max": 0.03,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "item_rarity": {
       "type": "gear",
@@ -408,6 +590,28 @@
       ],
       "maxTier": 5
     },
+    "deluxe_item_rarity": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Item Rarity Card"
+      },
+      "model": "the_vault:card/icon/item_rarity#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:item_rarity",
+      "pool": [
+        {
+          "min": 0.05,
+          "max": 0.05,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "knockback_resistance": {
       "type": "gear",
       "name": {
@@ -416,7 +620,8 @@
       "model": "the_vault:card/icon/knockback_resistance#inventory",
       "groups": [
         "Defensive",
-        "Stat"
+        "Stat",
+        "Physical"
       ],
       "attribute": "the_vault:knockback_resistance",
       "pool": [
@@ -452,6 +657,29 @@
         }
       ],
       "maxTier": 5
+    },
+     "deluxe_knockback_resistance": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Knockback Resistance Card"
+      },
+      "model": "the_vault:card/icon/knockback_resistance#inventory",
+      "groups": [
+        "Defensive",
+        "Stat",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:knockback_resistance",
+      "pool": [
+        {
+          "min": 0.075,
+          "max": 0.075,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "lucky_hit_chance": {
       "type": "gear",
@@ -500,6 +728,30 @@
       ],
       "maxTier": 5
     },
+     "deluxe_lucky_hit_chance": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Lucky Hit Chance Card"
+      },
+      "model": "the_vault:card/icon/lucky_hit#inventory",
+      "groups": [
+        "Defensive",
+        "Offensive",
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:lucky_hit_chance",
+      "pool": [
+        {
+          "min": 0.015,
+          "max": 0.015,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "mana_flat": {
       "type": "gear",
       "name": {
@@ -545,6 +797,29 @@
         }
       ],
       "maxTier": 5
+    },
+    "deluxe_mana_flat": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Mana Card"
+      },
+      "model": "the_vault:card/icon/mana#inventory",
+      "groups": [
+        "Utility",
+        "Essence",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:mana_additive",
+      "pool": [
+        {
+          "min": 15.0,
+          "max": 15.0,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "mana_regeneration": {
       "type": "gear",
@@ -592,6 +867,29 @@
       ],
       "maxTier": 5
     },
+      "deluxe_mana_regeneration": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Mana Regeneration Card"
+      },
+      "model": "the_vault:card/icon/mana_regeneration#inventory",
+      "groups": [
+        "Utility",
+        "Essence",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:mana_regen",
+      "pool": [
+        {
+          "min": 0.15,
+          "max": 0.15,
+          "step": 0.01,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "mining_speed_flat": {
       "type": "gear",
       "name": {
@@ -637,6 +935,28 @@
       ],
       "maxTier": 5
     },
+      "deluxe_mining_speed_flat": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Mining Speed Card"
+      },
+      "model": "the_vault:card/icon/mining_speed#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:mining_speed",
+      "pool": [
+        {
+          "min": 12.5,
+          "max": 12.5,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "resistance": {
       "type": "gear",
       "name": {
@@ -645,7 +965,8 @@
       "model": "the_vault:card/icon/resistance#inventory",
       "groups": [
         "Defensive",
-        "Stat"
+        "Stat",
+        "Physical"
       ],
       "attribute": "the_vault:resistance",
       "pool": [
@@ -681,6 +1002,29 @@
         }
       ],
       "maxTier": 5
+    },
+     "deluxe_resistance": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Resistance Card"
+      },
+      "model": "the_vault:card/icon/resistance#inventory",
+      "groups": [
+        "Defensive",
+        "Stat",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:resistance",
+      "pool": [
+        {
+          "min": 0.025,
+          "max": 0.025,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "soul_chance": {
       "type": "gear",
@@ -728,6 +1072,29 @@
       ],
       "maxTier": 5
     },
+      "deluxe_soul_chance": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Soul Quantity Card"
+      },
+      "model": "the_vault:card/icon/soul_chance#inventory",
+      "groups": [
+        "Utility",
+        "Magical",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:soul_chance",
+      "pool": [
+        {
+          "min": 0.2,
+          "max": 0.2,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "thorns_flat": {
       "type": "gear",
       "name": {
@@ -774,6 +1141,29 @@
       ],
       "maxTier": 5
     },
+      "deluxe_thorns_flat": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Thorns Card"
+      },
+      "model": "the_vault:card/icon/thorns#inventory",
+      "groups": [
+        "Offensive",
+        "Defensive",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:thorns_damage_flat",
+      "pool": [
+        {
+          "min": 10.0,
+          "max": 10.0,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "trap_disarm": {
       "type": "gear",
       "name": {
@@ -818,6 +1208,28 @@
         }
       ],
       "maxTier": 5
+    },
+     "deluxe_trap_disarm": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Trap Disarm Card"
+      },
+      "model": "the_vault:card/icon/trap_disarm#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:trap_disarming",
+      "pool": [
+        {
+          "min": 0.075,
+          "max": 0.075,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "mana_additive_percentile": {
       "type": "gear",
@@ -865,6 +1277,29 @@
       ],
       "maxTier": 5
     },
+    "deluxe_mana_additive_percentile": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Scaling Mana Card"
+      },
+      "model": "the_vault:card/icon/mana_percentile#inventory",
+      "groups": [
+        "Utility",
+        "Essence",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:mana_additive_percentile",
+      "pool": [
+        {
+          "min": 0.05,
+          "max": 0.05,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "damage_increase": {
       "type": "gear",
       "name": {
@@ -873,7 +1308,8 @@
       "model": "the_vault:card/icon/attack_damage_percentile#inventory",
       "groups": [
         "Offensive",
-        "Stat"
+        "Stat",
+        "Physical"
       ],
       "attribute": "the_vault:damage_increase",
       "pool": [
@@ -909,6 +1345,29 @@
         }
       ],
       "maxTier": 5
+    },
+     "deluxe_damage_increase": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Scaling Attack Damage Card"
+      },
+      "model": "the_vault:card/icon/attack_damage_percentile#inventory",
+      "groups": [
+        "Offensive",
+        "Stat",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:damage_increase",
+      "pool": [
+        {
+          "min": 0.05,
+          "max": 0.05,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "ability_power_percent": {
       "type": "gear",
@@ -956,6 +1415,29 @@
       ],
       "maxTier": 5
     },
+    "deluxe_ability_power_percent": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Scaling Ability Power Card"
+      },
+      "model": "the_vault:card/icon/ability_power_percentile#inventory",
+      "groups": [
+        "Offensive",
+        "Magical",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:ability_power_percent",
+      "pool": [
+        {
+          "min": 0.03,
+          "max": 0.03,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "armor_percent": {
       "type": "gear",
       "name": {
@@ -1001,6 +1483,28 @@
       ],
       "maxTier": 5
     },
+    "deluxe_armor_percent": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Scaling Armor Card"
+      },
+      "model": "the_vault:card/icon/armor#inventory",
+      "groups": [
+        "Defensive",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:armor_percentile",
+      "pool": [
+        {
+          "min": 0.075,
+          "max": 0.075,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "health_percentile": {
       "type": "gear",
       "name": {
@@ -1010,7 +1514,8 @@
       "groups": [
         "Utility",
         "Defensive",
-        "Stat"
+        "Stat",
+        "Physical"
       ],
       "attribute": "the_vault:health_percentile",
       "pool": [
@@ -1047,6 +1552,30 @@
       ],
       "maxTier": 5
     },
+    "deluxe_health_percentile": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Scaling Health Card"
+      },
+      "model": "the_vault:card/icon/health#inventory",
+      "groups": [
+        "Utility",
+        "Defensive",
+        "Stat",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:health_percentile",
+      "pool": [
+        {
+          "min": 0.075,
+          "max": 0.075,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "area_of_effect": {
       "type": "gear",
       "name": {
@@ -1055,7 +1584,8 @@
       "model": "the_vault:card/icon/area_of_effect#inventory",
       "groups": [
         "Utility",
-        "Stat"
+        "Stat",
+        "Magical"
       ],
       "attribute": "the_vault:area_of_effect",
       "pool": [
@@ -1092,6 +1622,29 @@
       ],
       "maxTier": 5
     },
+     "deluxe_area_of_effect": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Area of Effect Card"
+      },
+      "model": "the_vault:card/icon/area_of_effect#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe",
+        "Magical"
+      ],
+      "attribute": "the_vault:area_of_effect",
+      "pool": [
+        {
+          "min": 0.03,
+          "max": 0.03,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "movement_speed": {
       "type": "gear",
       "name": {
@@ -1100,7 +1653,8 @@
       "model": "the_vault:card/icon/movement_speed#inventory",
       "groups": [
         "Utility",
-        "Stat"
+        "Stat",
+        "Physical"
       ],
       "attribute": "the_vault:movement_speed",
       "pool": [
@@ -1136,6 +1690,29 @@
         }
       ],
       "maxTier": 5
+    },
+    "deluxe_movement_speed": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Movement Speed Card"
+      },
+      "model": "the_vault:card/icon/movement_speed#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:movement_speed",
+      "pool": [
+        {
+          "min": 0.02,
+          "max": 0.02,
+          "step": 0.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
     },
     "copiously": {
       "type": "gear",
@@ -1182,6 +1759,29 @@
       ],
       "maxTier": 5
     },
+    "deluxe_copiously": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Copiously Card"
+      },
+      "model": "the_vault:card/icon/copiously#inventory",
+      "groups": [
+        "Utility",
+        "Stat",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:copiously",
+      "pool": [
+        {
+          "min": 0.035,
+          "max": 0.035,
+          "step": 1.0,
+          "tier": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
     "amp_attack_damage": {
       "type": "gear",
       "name": {
@@ -1190,37 +1790,38 @@
       "model": "the_vault:card/icon/attack_damage#inventory",
       "groups": [
         "Evolution",
-        "Offensive"
+        "Offensive",
+        "Physical"
       ],
       "attribute": "the_vault:attack_damage",
       "pool": [
         {
-          "min": 0.3,
-          "max": 0.3,
+          "min": 1.0,
+          "max": 1.0,
           "step": 0.5,
           "tier": 1
         },
         {
-          "min": 0.6,
-          "max": 0.6,
+          "min": 1.5,
+          "max": 1.5,
           "step": 0.5,
           "tier": 2
         },
         {
-          "min": 0.9,
-          "max": 0.9,
+          "min": 2.0,
+          "max": 2.0,
           "step": 0.5,
           "tier": 3
         },
         {
-          "min": 1.2,
-          "max": 1.2,
+          "min": 2.5,
+          "max": 2.5,
           "step": 0.5,
           "tier": 4
         },
         {
-          "min": 1.5,
-          "max": 1.5,
+          "min": 3.0,
+          "max": 3.0,
           "step": 0.5,
           "tier": 5
         }
@@ -1235,37 +1836,38 @@
       "model": "the_vault:card/icon/health#inventory",
       "groups": [
         "Defensive",
-        "Evolution"
+        "Evolution",
+        "Physical"
       ],
       "attribute": "the_vault:health",
       "pool": [
         {
-          "min": 1.0,
-          "max": 1.0,
-          "step": 1.0,
-          "tier": 1
-        },
-        {
           "min": 2.0,
           "max": 2.0,
           "step": 1.0,
-          "tier": 2
+          "tier": 1
         },
         {
           "min": 3.0,
           "max": 3.0,
           "step": 1.0,
-          "tier": 3
+          "tier": 2
         },
         {
           "min": 4.0,
           "max": 4.0,
           "step": 1.0,
-          "tier": 4
+          "tier": 3
         },
         {
           "min": 5.0,
           "max": 5.0,
+          "step": 1.0,
+          "tier": 4
+        },
+        {
+          "min": 6.0,
+          "max": 6.0,
           "step": 1.0,
           "tier": 5
         }
@@ -1280,37 +1882,38 @@
       "model": "the_vault:card/icon/ability_power#inventory",
       "groups": [
         "Evolution",
-        "Offensive"
+        "Offensive",
+        "Magical"
       ],
       "attribute": "the_vault:ability_power",
       "pool": [
         {
-          "min": 0.3,
-          "max": 0.3,
+          "min": 1.0,
+          "max": 1.0,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.6,
-          "max": 0.6,
+          "min": 1.5,
+          "max": 1.5,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.9,
-          "max": 0.9,
+          "min": 2.0,
+          "max": 2.0,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 1.2,
-          "max": 1.2,
+          "min": 2.5,
+          "max": 2.5,
           "step": 1.0,
           "tier": 4
         },
         {
-          "min": 1.5,
-          "max": 1.5,
+          "min": 3.0,
+          "max": 3.0,
           "step": 1.0,
           "tier": 5
         }
@@ -1325,37 +1928,38 @@
       "model": "the_vault:card/icon/attack_speed#inventory",
       "groups": [
         "Evolution",
-        "Offensive"
+        "Offensive",
+        "Physical"
       ],
       "attribute": "the_vault:attack_speed_percent",
       "pool": [
         {
-          "min": 0.002,
-          "max": 0.002,
-          "step": 1.0,
-          "tier": 1
-        },
-        {
           "min": 0.004,
           "max": 0.004,
           "step": 1.0,
-          "tier": 2
+          "tier": 1
         },
         {
           "min": 0.006,
           "max": 0.006,
           "step": 1.0,
-          "tier": 3
+          "tier": 2
         },
         {
           "min": 0.008,
           "max": 0.008,
           "step": 1.0,
-          "tier": 4
+          "tier": 3
         },
         {
           "min": 0.01,
           "max": 0.01,
+          "step": 1.0,
+          "tier": 4
+        },
+        {
+          "min": 0.012,
+          "max": 0.012,
           "step": 1.0,
           "tier": 5
         }
@@ -1370,7 +1974,8 @@
       "model": "the_vault:card/icon/cooldown_reduction#inventory",
       "groups": [
         "Evolution",
-        "Utility"
+        "Utility",
+        "Magical"
       ],
       "attribute": "the_vault:cooldown_reduction",
       "pool": [
@@ -1455,11 +2060,11 @@
     "amp_healing_effectiveness": {
       "type": "gear",
       "name": {
-        "text": "Scaling Healing Efficiency Card"
+        "text": "Evolving Healing Efficiency Card"
       },
       "model": "the_vault:card/icon/healing_efficiency#inventory",
       "groups": [
-        "Scaling",
+        "Evolution",
         "Utility"
       ],
       "attribute": "the_vault:healing_effectiveness",
@@ -1555,32 +2160,32 @@
       "attribute": "the_vault:item_rarity",
       "pool": [
         {
-          "min": 0.002,
-          "max": 0.002,
+          "min": 0.005,
+          "max": 0.005,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.004,
-          "max": 0.004,
+          "min": 0.01,
+          "max": 0.01,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.006,
-          "max": 0.006,
+          "min": 0.015,
+          "max": 0.015,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 0.008,
-          "max": 0.008,
+          "min": 0.02,
+          "max": 0.02,
           "step": 1.0,
           "tier": 4
         },
         {
-          "min": 0.01,
-          "max": 0.01,
+          "min": 0.025,
+          "max": 0.025,
           "step": 1.0,
           "tier": 5
         }
@@ -1595,7 +2200,8 @@
       "model": "the_vault:card/icon/knockback_resistance#inventory",
       "groups": [
         "Defensive",
-        "Evolution"
+        "Evolution",
+        "Physical"
       ],
       "attribute": "the_vault:knockback_resistance",
       "pool": [
@@ -1645,32 +2251,32 @@
       "attribute": "the_vault:lucky_hit_chance",
       "pool": [
         {
-          "min": 0.001,
-          "max": 0.001,
+          "min": 0.002,
+          "max": 0.002,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.002,
-          "max": 0.002,
+          "min": 0.005,
+          "max": 0.005,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.003,
-          "max": 0.003,
+          "min": 0.007,
+          "max": 0.007,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 0.004,
-          "max": 0.004,
+          "min": 0.009,
+          "max": 0.009,
           "step": 1.0,
           "tier": 4
         },
         {
-          "min": 0.005,
-          "max": 0.005,
+          "min": 0.01,
+          "max": 0.01,
           "step": 1.0,
           "tier": 5
         }
@@ -1690,32 +2296,32 @@
       "attribute": "the_vault:mana_additive",
       "pool": [
         {
-          "min": 1.0,
-          "max": 1.0,
-          "step": 1.0,
-          "tier": 1
-        },
-        {
           "min": 2.0,
           "max": 2.0,
           "step": 1.0,
-          "tier": 2
-        },
-        {
-          "min": 3.0,
-          "max": 3.0,
-          "step": 1.0,
-          "tier": 3
+          "tier": 1
         },
         {
           "min": 4.0,
           "max": 4.0,
           "step": 1.0,
+          "tier": 2
+        },
+        {
+          "min": 6.0,
+          "max": 6.0,
+          "step": 1.0,
+          "tier": 3
+        },
+        {
+          "min": 8.0,
+          "max": 8.0,
+          "step": 1.0,
           "tier": 4
         },
         {
-          "min": 5.0,
-          "max": 5.0,
+          "min": 10.0,
+          "max": 10.0,
           "step": 1.0,
           "tier": 5
         }
@@ -1735,32 +2341,32 @@
       "attribute": "the_vault:mana_regen",
       "pool": [
         {
-          "min": 0.01,
-          "max": 0.01,
+          "min": 0.02,
+          "max": 0.02,
           "step": 0.01,
           "tier": 1
         },
         {
-          "min": 0.02,
-          "max": 0.02,
+          "min": 0.035,
+          "max": 0.035,
           "step": 0.01,
           "tier": 2
         },
         {
-          "min": 0.03,
-          "max": 0.03,
+          "min": 0.05,
+          "max": 0.05,
           "step": 0.01,
           "tier": 3
         },
         {
-          "min": 0.04,
-          "max": 0.04,
+          "min": 0.065,
+          "max": 0.065,
           "step": 0.01,
           "tier": 4
         },
         {
-          "min": 0.05,
-          "max": 0.05,
+          "min": 0.08,
+          "max": 0.08,
           "step": 0.01,
           "tier": 5
         }
@@ -1780,32 +2386,32 @@
       "attribute": "the_vault:mining_speed",
       "pool": [
         {
-          "min": 1.0,
-          "max": 1.0,
+          "min": 1.5,
+          "max": 1.5,
           "step": 1.0,
           "tier": 1
-        },
-        {
-          "min": 2.0,
-          "max": 2.0,
-          "step": 1.0,
-          "tier": 2
         },
         {
           "min": 3.0,
           "max": 3.0,
           "step": 1.0,
+          "tier": 2
+        },
+        {
+          "min": 4.5,
+          "max": 4.5,
+          "step": 1.0,
           "tier": 3
         },
         {
-          "min": 4.0,
+          "min": 6.0,
           "max": 4.0,
           "step": 1.0,
           "tier": 4
         },
         {
-          "min": 5.0,
-          "max": 5.0,
+          "min": 7.5,
+          "max": 7.5,
           "step": 1.0,
           "tier": 5
         }
@@ -1865,37 +2471,38 @@
       "model": "the_vault:card/icon/soul_chance#inventory",
       "groups": [
         "Utility",
-        "Evolution"
+        "Evolution",
+        "Magical"
       ],
       "attribute": "the_vault:soul_chance",
       "pool": [
         {
-          "min": 0.01,
-          "max": 0.01,
+          "min": 0.015,
+          "max": 0.015,
           "step": 0.001,
           "tier": 1
         },
         {
-          "min": 0.02,
-          "max": 0.02,
+          "min": 0.025,
+          "max": 0.025,
           "step": 0.001,
           "tier": 2
         },
         {
-          "min": 0.03,
-          "max": 0.03,
+          "min": 0.035,
+          "max": 0.035,
           "step": 0.001,
           "tier": 3
         },
         {
-          "min": 0.04,
-          "max": 0.04,
+          "min": 0.045,
+          "max": 0.045,
           "step": 0.001,
           "tier": 4
         },
         {
-          "min": 0.05,
-          "max": 0.05,
+          "min": 0.055,
+          "max": 0.055,
           "step": 0.001,
           "tier": 5
         }
@@ -1915,32 +2522,32 @@
       "attribute": "the_vault:thorns_damage_flat",
       "pool": [
         {
-          "min": 0.3,
-          "max": 0.3,
+          "min": 0.5,
+          "max": 0.5,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.6,
-          "max": 0.6,
+          "min": 1.0,
+          "max": 1.0,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.9,
-          "max": 0.9,
+          "min": 1.25,
+          "max": 1.25,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 1.2,
-          "max": 1.2,
+          "min": 1.75,
+          "max": 1.75,
           "step": 1.0,
           "tier": 4
         },
         {
-          "min": 1.5,
-          "max": 1.5,
+          "min": 2.5,
+          "max": 2.5,
           "step": 1.0,
           "tier": 5
         }
@@ -1960,20 +2567,20 @@
       "attribute": "the_vault:trap_disarming",
       "pool": [
         {
-          "min": 0.0025,
-          "max": 0.0025,
+          "min": 0.003,
+          "max": 0.003,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.005,
-          "max": 0.005,
+          "min": 0.006,
+          "max": 0.006,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.0075,
-          "max": 0.0075,
+          "min": 0.008,
+          "max": 0.008,
           "step": 1.0,
           "tier": 3
         },
@@ -2000,31 +2607,32 @@
       "model": "the_vault:card/icon/mana_percentile#inventory",
       "groups": [
         "Utility",
-        "Evolution"
+        "Evolution",
+        "Magical"
       ],
       "attribute": "the_vault:mana_additive_percentile",
       "pool": [
         {
-          "min": 0.002,
-          "max": 0.002,
+          "min": 0.003,
+          "max": 0.003,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.004,
-          "max": 0.004,
+          "min": 0.005,
+          "max": 0.005,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.006,
-          "max": 0.006,
+          "min": 0.007,
+          "max": 0.007,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 0.008,
-          "max": 0.008,
+          "min": 0.01,
+          "max": 0.01,
           "step": 1.0,
           "tier": 4
         },
@@ -2045,31 +2653,32 @@
       "model": "the_vault:card/icon/attack_damage_percentile#inventory",
       "groups": [
         "Offensive",
-        "Evolution"
+        "Evolution",
+        "Physical"
       ],
       "attribute": "the_vault:damage_increase",
       "pool": [
         {
-          "min": 0.002,
-          "max": 0.002,
+          "min": 0.003,
+          "max": 0.003,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.004,
-          "max": 0.004,
+          "min": 0.005,
+          "max": 0.005,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.006,
-          "max": 0.006,
+          "min": 0.007,
+          "max": 0.007,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 0.008,
-          "max": 0.008,
+          "min": 0.01,
+          "max": 0.01,
           "step": 1.0,
           "tier": 4
         },
@@ -2090,37 +2699,38 @@
       "model": "the_vault:card/icon/ability_power_percentile#inventory",
       "groups": [
         "Offensive",
-        "Evolution"
+        "Evolution",
+        "Magical"
       ],
       "attribute": "the_vault:ability_power_percent",
       "pool": [
         {
-          "min": 0.002,
-          "max": 0.002,
+          "min": 0.003,
+          "max": 0.003,
           "step": 1.0,
           "tier": 1
         },
         {
-          "min": 0.004,
-          "max": 0.004,
+          "min": 0.005,
+          "max": 0.005,
           "step": 1.0,
           "tier": 2
         },
         {
-          "min": 0.006,
-          "max": 0.006,
+          "min": 0.007,
+          "max": 0.007,
           "step": 1.0,
           "tier": 3
         },
         {
-          "min": 0.008,
-          "max": 0.008,
+          "min": 0.01,
+          "max": 0.01,
           "step": 1.0,
           "tier": 4
         },
         {
-          "min": 0.01,
-          "max": 0.01,
+          "min": 0.0125,
+          "max": 0.0125,
           "step": 1.0,
           "tier": 5
         }
@@ -2140,32 +2750,32 @@
       "attribute": "the_vault:armor_percentile",
       "pool": [
         {
-          "min": 0.0025,
-          "max": 0.0025,
+          "min": 0.004,
+          "max": 0.004,
           "step": 1.0,
           "tier": 1
-        },
-        {
-          "min": 0.005,
-          "max": 0.005,
-          "step": 1.0,
-          "tier": 2
         },
         {
           "min": 0.0075,
           "max": 0.0075,
           "step": 1.0,
-          "tier": 3
+          "tier": 2
         },
         {
           "min": 0.01,
           "max": 0.01,
           "step": 1.0,
-          "tier": 4
+          "tier": 3
         },
         {
           "min": 0.0125,
           "max": 0.0125,
+          "step": 1.0,
+          "tier": 4
+        },
+        {
+          "min": 0.015,
+          "max": 0.015,
           "step": 1.0,
           "tier": 5
         }
@@ -2180,31 +2790,32 @@
       "model": "the_vault:card/icon/health#inventory",
       "groups": [
         "Utility",
-        "Evolution"
+        "Evolution",
+        "Physical"
       ],
       "attribute": "the_vault:health_percentile",
       "pool": [
         {
-          "min": 0.0025,
-          "max": 0.0025,
-          "step": 1.0,
-          "tier": 1
-        },
-        {
           "min": 0.005,
           "max": 0.005,
           "step": 1.0,
-          "tier": 2
+          "tier": 1
         },
         {
           "min": 0.0075,
           "max": 0.0075,
           "step": 1.0,
-          "tier": 3
+          "tier": 2
         },
         {
           "min": 0.01,
           "max": 0.01,
+          "step": 1.0,
+          "tier": 3
+        },
+        {
+          "min": 0.0125,
+          "max": 0.0125,
           "step": 1.0,
           "tier": 4
         },
@@ -2225,7 +2836,8 @@
       "model": "the_vault:card/icon/area_of_effect#inventory",
       "groups": [
         "Utility",
-        "Evolution"
+        "Evolution",
+        "Magical"
       ],
       "attribute": "the_vault:area_of_effect",
       "pool": [
@@ -2270,7 +2882,8 @@
       "model": "the_vault:card/icon/movement_speed#inventory",
       "groups": [
         "Utility",
-        "Evolution"
+        "Evolution",
+        "Physical"
       ],
       "attribute": "the_vault:movement_speed",
       "pool": [
@@ -2352,6 +2965,1176 @@
       ],
       "maxTier": 5
     },
+    "intelligence": {
+      "type": "gear",
+      "name": {
+        "text": "Intelligence Card"
+      },
+      "model": "the_vault:skills/intelligence#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Magical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Intelligence",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_intelligence": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Intelligence Card"
+      },
+      "model": "the_vault:skills/intelligence#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe",
+        "Magical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Intelligence",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "haste": {
+      "type": "gear",
+      "name": {
+        "text": "Haste Card"
+      },
+      "model": "the_vault:skills/haste#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Haste",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "strength": {
+      "type": "gear",
+      "name": {
+        "text": "Strength Card"
+      },
+      "model": "the_vault:skills/strength#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Physical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Strength",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_strength": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Strength Card"
+      },
+      "model": "the_vault:skills/strength#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Strength",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "speed_talent": {
+      "type": "gear",
+      "name": {
+        "text": "Speed Card"
+      },
+      "model": "the_vault:skills/speed#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe",
+        "Physical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Speed",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "purist": {
+      "type": "gear",
+      "name": {
+        "text": "Purist Card"
+      },
+      "model": "the_vault:skills/purist#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Purist",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_purist": {
+      "type": "gear",
+      "name": {
+        "text": "Purist Card"
+      },
+      "model": "the_vault:skills/purist#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Purist",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "stone_skin": {
+      "type": "gear",
+      "name": {
+        "text": "Stone Skin Card"
+      },
+      "model": "the_vault:skills/stone_skin#inventory",
+      "groups": [
+        "Knack",
+        "Defensive",
+        "Physical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Stoneskin",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "dungeon_mastery": {
+      "type": "gear",
+      "name": {
+        "text": "Dungeon Mastery Card"
+      },
+      "model": "the_vault:skills/dungeon_mastery#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Nether_Mastery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "horde_mastery": {
+      "type": "gear",
+      "name": {
+        "text": "Horde Mastery Card"
+      },
+      "model": "the_vault:skills/horde_mastery#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Undead_Mastery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "assassin_mastery": {
+      "type": "gear",
+      "name": {
+        "text": "Assassin Mastery Card"
+      },
+      "model": "the_vault:skills/assassin_mastery#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Arthropod_Mastery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "dweller_mastery": {
+      "type": "gear",
+      "name": {
+        "text": "Dweller Mastery Card"
+      },
+      "model": "the_vault:skills/champion_mastery#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Illager_Mastery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "champion_mastery": {
+      "type": "gear",
+      "name": {
+        "text": "Champion Mastery Card"
+      },
+      "model": "the_vault:skills/champion_mastery#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Champion_Mastery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "tank_mastery": {
+      "type": "gear",
+      "name": {
+        "text": "Tank Mastery Card"
+      },
+      "model": "the_vault:skills/illager_mastery#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Tank_Mastery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "last_stand": {
+      "type": "gear",
+      "name": {
+        "text": "Last Stand Card"
+      },
+      "model": "the_vault:skills/last_stand#inventory",
+      "groups": [
+        "Knack",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Last_Stand",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_last_stand": {
+      "type": "gear",
+      "name": {
+        "text": "Last Stand Card"
+      },
+      "model": "the_vault:skills/last_stand#inventory",
+      "groups": [
+        "Knack",
+        "Defensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Last_Stand",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+      "berserking": {
+      "type": "gear",
+      "name": {
+        "text": "Berserking Card"
+      },
+      "model": "the_vault:skills/berserking#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Berserking",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_berserking": {
+      "type": "gear",
+      "name": {
+        "text": "Berserking Card"
+      },
+      "model": "the_vault:skills/berserking#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Berserking",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+      "sorcery": {
+      "type": "gear",
+      "name": {
+        "text": "Sorcery Card"
+      },
+      "model": "the_vault:skills/sorcery#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Magical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Sorcery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_sorcery": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Sorcery Card"
+      },
+      "model": "the_vault:skills/sorcery#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe",
+        "Magical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Sorcery",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+      "prime_amplification": {
+      "type": "gear",
+      "name": {
+        "text": "Prime Amplification Card"
+      },
+      "model": "the_vault:skills/prime_amplification#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Magical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Prime_Amplification",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+      "bountiful_harvest": {
+      "type": "gear",
+      "name": {
+        "text": "Bountiful Harvest Card"
+      },
+      "model": "the_vault:skills/bountiful_harvest#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Bountiful_Harvest",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_bountiful_harvest": {
+      "type": "gear",
+      "name": {
+        "text": "Bountiful Harvest Card"
+      },
+      "model": "the_vault:skills/bountiful_harvest#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Bountiful_Harvest",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+     "lightning_damage": {
+      "type": "gear",
+      "name": {
+        "text": "Lightning Damage Card"
+      },
+      "model": "the_vault:skills/lightning_damage#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Lightning_Damage",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "lightning_stun": {
+      "type": "gear",
+      "name": {
+        "text": "Lightning Stun Card"
+      },
+      "model": "the_vault:skills/lightning_stun#inventory",
+      "groups": [
+        "Knack",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Lightning_Stun",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "treasure_seeker": {
+      "type": "gear",
+      "name": {
+        "text": "Treasure Seeker Card"
+      },
+      "model": "the_vault:skills/treasure_seeker#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Treasure_Seeker",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_treasure_seeker": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Treasure Seeker Card"
+      },
+      "model": "the_vault:skills/treasure_seeker#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Treasure_Seeker",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "witchery": {
+      "type": "gear",
+      "name": {
+        "text": "Witchery Card"
+      },
+      "model": "the_vault:skills/witchery#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Magical"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Witchery",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "methodical": {
+      "type": "gear",
+      "name": {
+        "text": "Methodical Card"
+      },
+      "model": "the_vault:skills/methodical#inventory",
+      "groups": [
+        "Knack",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Methodical",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "depleted": {
+      "type": "gear",
+      "name": {
+        "text": "Depleted Card"
+      },
+      "model": "the_vault:skills/depleted#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Depleted",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "lucky_hit_fatal": {
+      "type": "gear",
+      "name": {
+        "text": "Fatal Strike Card"
+      },
+      "model": "the_vault:skills/fatal_strike#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Fatal_Strike",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+      "lucky_hit_mana": {
+      "type": "gear",
+      "name": {
+        "text": "Mana Steal Card"
+      },
+      "model": "the_vault:skills/mana_steal#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Mana_Steal",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "life_leech": {
+      "type": "gear",
+      "name": {
+        "text": "Life Leech Card"
+      },
+      "model": "the_vault:skills/life_steal#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Life_Steal",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "cleave_talent": {
+      "type": "gear",
+      "name": {
+        "text": "Cleave Card"
+      },
+      "model": "the_vault:skills/cleave#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Cleave",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "prudent": {
+      "type": "gear",
+      "name": {
+        "text": "Prudent Card"
+      },
+      "model": "the_vault:skills/potion_amount#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Prudent",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "alchemist": {
+      "type": "gear",
+      "name": {
+        "text": "Prudent Card"
+      },
+      "model": "the_vault:skills/potion_time#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Alchemist",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "frozen_impact": {
+      "type": "gear",
+      "name": {
+        "text": "Frozen Impact Card"
+      },
+      "model": "the_vault:skills/blizzard#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Blizzard",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "frostbite": {
+      "type": "gear",
+      "name": {
+        "text": "Frostbite Card"
+      },
+      "model": "the_vault:skills/frostbite#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Frostbite",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "daze": {
+      "type": "gear",
+      "name": {
+        "text": "Daze Card"
+      },
+      "model": "the_vault:skills/daze#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Daze",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_daze": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Daze Card"
+      },
+      "model": "the_vault:skills/daze#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Daze",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+     "nucleus": {
+      "type": "gear",
+      "name": {
+        "text": "Nucleus Card"
+      },
+      "model": "the_vault:skills/nucleus#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Nucleus",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_nucleus": {
+      "type": "gear",
+      "name": {
+        "text": "Nucleus Card"
+      },
+      "model": "the_vault:skills/nucleus#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Nucleus",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "blight": {
+      "type": "gear",
+      "name": {
+        "text": "Blight Card"
+      },
+      "model": "the_vault:skills/blight#inventory",
+      "groups": [
+        "Knack",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Blight",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "hunters_instinct": {
+      "type": "gear",
+      "name": {
+        "text": "Hunter's Instinct Card"
+      },
+      "model": "the_vault:skills/hunters_instinct#inventory",
+      "groups": [
+        "Knack",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Hunters_Instinct",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_hunters_instinct": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Hunter's Instinct Card"
+      },
+      "model": "the_vault:skills/hunters_instinct#inventory",
+      "groups": [
+        "Knack",
+        "Defensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Hunters_Instinct",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "arcana": {
+      "type": "gear",
+      "name": {
+        "text": "Arcana Card"
+      },
+      "model": "the_vault:skills/arcana#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Arcana",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "blazing": {
+      "type": "gear",
+      "name": {
+        "text": "Blazing Card"
+      },
+      "model": "the_vault:skills/blazing#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Blazing",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "lucky_momentum": {
+      "type": "gear",
+      "name": {
+        "text": "Lucky Momentum Card"
+      },
+      "model": "the_vault:skills/luck_momentum#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Lucky_Momentum",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "frenzy": {
+      "type": "gear",
+      "name": {
+        "text": "Frenzy Card"
+      },
+      "model": "the_vault:skills/frenzy#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Frenzy",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "toxic_reaction": {
+      "type": "gear",
+      "name": {
+        "text": "Toxic Reaction Card"
+      },
+      "model": "the_vault:skills/toxic_reaction#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Toxic_Reaction",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "javelin_throw_power": {
+      "type": "gear",
+      "name": {
+        "text": "Javelin Throw Power Card"
+      },
+      "model": "the_vault:skills/javelin_throw_power#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Javelin_Throw_Power",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_javelin_throw_power": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Javelin Throw Power Card"
+      },
+      "model": "the_vault:skills/javelin_throw_power#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Javelin_Throw_Power",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+     "javelin_damage": {
+      "type": "gear",
+      "name": {
+        "text": "Javelin Damage Card"
+      },
+      "model": "the_vault:skills/javelin_damage#inventory",
+      "groups": [
+        "Knack",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Javelin_Damage",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_javelin_damage": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Javelin Damage Card"
+      },
+      "model": "the_vault:skills/javelin_damage#inventory",
+      "groups": [
+        "Knack",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Javelin_Damage",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
+    "javelin_frugal": {
+      "type": "gear",
+      "name": {
+        "text": "Ethereal Javelin Card"
+      },
+      "model": "the_vault:skills/javelin_ethereal#inventory",
+      "groups": [
+        "Knack",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Javelin_Frugal",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_javelin_frugal": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Ethereal Javelin Card"
+      },
+      "model": "the_vault:skills/javelin_ethereal#inventory",
+      "groups": [
+        "Knack",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:added_talent_level",
+      "pool": [
+        {
+          "tier": 1,
+          "talentKey": "Javelin_Frugal",
+          "levelChange": 2
+        }
+      ],
+      "maxTier": 1
+    },
     "heal": {
       "type": "gear",
       "name": {
@@ -2366,7 +4149,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Heal_Base",
+          "abilityKey": "Heal",
           "levelChange": 1
         }
       ],
@@ -2415,7 +4198,7 @@
     "dash": {
       "type": "gear",
       "name": {
-        "text": "Warp Card"
+        "text": "Dash Card"
       },
       "model": "the_vault:card/icon/dash#inventory",
       "groups": [
@@ -2426,7 +4209,47 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Dash_Warp",
+          "abilityKey": "Dash",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "ghost_walk": {
+      "type": "gear",
+      "name": {
+        "text": "Ghost Walk Card"
+      },
+      "model": "the_vault:skills/ghost_walk#inventory",
+      "groups": [
+        "Arcane",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Ghost_Walk",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+     "ghost_walk_spirit": {
+      "type": "gear",
+      "name": {
+        "text": "Spirit Walk Card"
+      },
+      "model": "the_vault:skills/ghost_walk_spirit_walk#inventory",
+      "groups": [
+        "Arcane",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Ghost_Walk_Spirit",
           "levelChange": 1
         }
       ],
@@ -2455,7 +4278,7 @@
     "dash_warp": {
       "type": "gear",
       "name": {
-        "text": "Dash Card"
+        "text": "Warp Card"
       },
       "model": "the_vault:card/icon/dash_warp#inventory",
       "groups": [
@@ -2466,7 +4289,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Dash_Base",
+          "abilityKey": "Dash_Warp",
           "levelChange": 1
         }
       ],
@@ -2486,7 +4309,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Nova_Base",
+          "abilityKey": "Nova",
           "levelChange": 1
         }
       ],
@@ -2546,7 +4369,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Mega_Jump_Base",
+          "abilityKey": "Mega_Jump",
           "levelChange": 1
         }
       ],
@@ -2572,66 +4395,6 @@
       ],
       "maxTier": 1
     },
-    "levitate": {
-      "type": "gear",
-      "name": {
-        "text": "Levitate Card"
-      },
-      "model": "vhapi:card/icon/levitate#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Levitate",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "colossus": {
-      "type": "gear",
-      "name": {
-        "text": "Colossus Card"
-      },
-      "model": "vhapi:card/icon/colossus#inventory",
-      "groups": [
-        "Arcane",
-        "Defensive"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Colossus",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
-    "sneaky_getaway": {
-      "type": "gear",
-      "name": {
-        "text": "Sneaky Getaway Card"
-      },
-      "model": "vhapi:card/icon/sneaky_getaway#inventory",
-      "groups": [
-        "Arcane",
-        "Utility"
-      ],
-      "attribute": "the_vault:added_ability_level",
-      "pool": [
-        {
-          "tier": 1,
-          "abilityKey": "Sneaky_Getaway",
-          "levelChange": 1
-        }
-      ],
-      "maxTier": 1
-    },
     "rampage": {
       "type": "gear",
       "name": {
@@ -2640,13 +4403,14 @@
       "model": "the_vault:card/icon/rampage#inventory",
       "groups": [
         "Arcane",
-        "Offensive"
+        "Offensive",
+        "Physical"
       ],
       "attribute": "the_vault:added_ability_level",
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Rampage_Base",
+          "abilityKey": "Rampage",
           "levelChange": 1
         }
       ],
@@ -2680,7 +4444,8 @@
       "model": "the_vault:card/icon/rampage_chain#inventory",
       "groups": [
         "Arcane",
-        "Offensive"
+        "Offensive",
+        "Physical"
       ],
       "attribute": "the_vault:added_ability_level",
       "pool": [
@@ -2706,7 +4471,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Smite_Base",
+          "abilityKey": "Smite",
           "levelChange": 1
         }
       ],
@@ -2746,7 +4511,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Empower_Base",
+          "abilityKey": "Empower",
           "levelChange": 1
         }
       ],
@@ -2806,7 +4571,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Hunter_Base",
+          "abilityKey": "Hunter",
           "levelChange": 1
         }
       ],
@@ -2832,6 +4597,26 @@
       ],
       "maxTier": 1
     },
+    "expunge": {
+      "type": "gear",
+      "name": {
+        "text": "Expunge Card"
+      },
+      "model": "the_vault:card/icon/expunge#inventory",
+      "groups": [
+        "Arcane",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Expunge",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
     "taunt": {
       "type": "gear",
       "name": {
@@ -2846,7 +4631,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Taunt_Base",
+          "abilityKey": "Taunt",
           "levelChange": 1
         }
       ],
@@ -2906,7 +4691,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Stonefall_Base",
+          "abilityKey": "Stonefall",
           "levelChange": 1
         }
       ],
@@ -2966,7 +4751,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Totem_Base",
+          "abilityKey": "Totem",
           "levelChange": 1
         }
       ],
@@ -3046,7 +4831,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Javelin_Base",
+          "abilityKey": "Javelin",
           "levelChange": 1
         }
       ],
@@ -3126,7 +4911,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Fireball_Base",
+          "abilityKey": "Fireball",
           "levelChange": 1
         }
       ],
@@ -3206,7 +4991,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Storm_Arrow_Base",
+          "abilityKey": "Storm_Arrow",
           "levelChange": 1
         }
       ],
@@ -3226,7 +5011,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Battle_Cry_Base",
+          "abilityKey": "Battle_Cry",
           "levelChange": 1
         }
       ],
@@ -3312,6 +5097,269 @@
       ],
       "maxTier": 1
     },
+    "shell": {
+      "type": "gear",
+      "name": {
+        "text": "Shell Card"
+      },
+      "model": "the_vault:card/icon/shell#inventory",
+      "groups": [
+        "Arcane",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shell",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "shell_porcupine": {
+      "type": "gear",
+      "name": {
+        "text": "Porcupine Card"
+      },
+      "model": "the_vault:card/icon/shell_porcupine#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shell_Porcupine",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "shell_quill": {
+      "type": "gear",
+      "name": {
+        "text": "Quill Card"
+      },
+      "model": "the_vault:card/icon/shell_quill#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shell_Quill",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+    "life_tap": {
+      "type": "gear",
+      "name": {
+        "text": "Life Tap Card"
+      },
+      "model": "the_vault:card/icon/life_tap#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Implode_Life_Tap",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "arcane": {
+      "type": "gear",
+      "name": {
+        "text": "Arcane Card"
+      },
+      "model": "the_vault:card/icon/arcane#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Arcane",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "arcane_rail": {
+      "type": "gear",
+      "name": {
+        "text": "Arcane Rail Card"
+      },
+      "model": "the_vault:card/icon/arcane_rail#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Arcane_Rail",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "earthquake": {
+      "type": "gear",
+      "name": {
+        "text": "Earthquake Card"
+      },
+      "model": "the_vault:card/icon/earthquake#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Earthquake",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "landmine": {
+      "type": "gear",
+      "name": {
+        "text": "Landmine Card"
+      },
+      "model": "the_vault:card/icon/landmine#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Earthquake_Landmine",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "chain_lightning": {
+      "type": "gear",
+      "name": {
+        "text": "Lightning Strike Card"
+      },
+      "model": "the_vault:card/icon/chain_lightning#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Chain_Lightning",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "ball_lightning": {
+      "type": "gear",
+      "name": {
+        "text": "Ball Lightning Card"
+      },
+      "model": "the_vault:card/icon/ball_lightning#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Chain_Lightning_Orbs",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "chaos_cube": {
+      "type": "gear",
+      "name": {
+        "text": "Chaos Cube Card"
+      },
+      "model": "the_vault:card/icon/chaos_cube#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Grenade",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "toxic_grenade": {
+      "type": "gear",
+      "name": {
+        "text": "Toxic Vial Card"
+      },
+      "model": "the_vault:card/icon/toxic_grenade#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Toxic_Grenade",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "mana_barrier": {
+      "type": "gear",
+      "name": {
+        "text": "Mana Barrier Card"
+      },
+      "model": "the_vault:card/icon/mana_barrier#inventory",
+      "groups": [
+        "Arcane",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Mana_Barrier",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+
     "temporal_charm": {
       "type": "gear",
       "name": {
@@ -3338,6 +5386,33 @@
       ],
       "maxTier": 1
     },
+    "deluxe_temporal_charm": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Charming Card"
+      },
+      "model": "the_vault:card/icon/kill_charm#inventory",
+      "groups": [
+        "Temporal",
+        "Defensive",
+        "Magical",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:kill_charm",
+          "count": 1,
+          "time": {
+            "min": 300,
+            "max": 800,
+            "step": 20
+          }
+        }
+      ],
+      "maxTier": 1
+    },
     "temporal_coin": {
       "type": "gear",
       "name": {
@@ -3356,10 +5431,37 @@
           "modifier": "the_vault:bronze_nuke",
           "count": 1,
           "time": {
-            "min": 100,
-            "max": 400,
-            "step": 20
-          }
+  "min": 100,
+  "max": 400,
+  "step": 20
+}
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_temporal_coin": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Coin Explosion Card"
+      },
+      "model": "the_vault:card/icon/kill_coin#inventory",
+      "groups": [
+        "Temporal",
+        "Offensive",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:bronze_nuke",
+          "count": 1,
+          "time": {
+  "min": 300,
+  "max": 800,
+  "step": 20
+}
         }
       ],
       "maxTier": 1
@@ -3381,10 +5483,36 @@
           "modifier": "the_vault:kill_hunter",
           "count": 1,
           "time": {
-            "min": 100,
-            "max": 400,
-            "step": 20
-          }
+  "min": 100,
+  "max": 400,
+  "step": 20
+}
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_temporal_hunter": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Hunterino Card"
+      },
+      "model": "the_vault:card/icon/kill_hunter#inventory",
+      "groups": [
+        "Temporal",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:kill_hunter",
+          "count": 1,
+          "time": {
+  "min": 300,
+  "max": 800,
+  "step": 20
+}
         }
       ],
       "maxTier": 1
@@ -3407,10 +5535,37 @@
           "modifier": "the_vault:kill_nuke",
           "count": 1,
           "time": {
-            "min": 100,
-            "max": 400,
-            "step": 20
-          }
+  "min": 100,
+  "max": 400,
+  "step": 20
+}
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_temporal_nuke": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Death Explosion Card"
+      },
+      "model": "the_vault:card/icon/kill_nuke#inventory",
+      "groups": [
+        "Temporal",
+        "Offensive",
+        "Magical",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:kill_nuke",
+          "count": 1,
+          "time": {
+  "min": 300,
+  "max": 800,
+  "step": 20
+}
         }
       ],
       "maxTier": 1
@@ -3433,10 +5588,37 @@
           "modifier": "the_vault:kill_totem",
           "count": 1,
           "time": {
-            "min": 100,
-            "max": 400,
-            "step": 20
-          }
+  "min": 100,
+  "max": 400,
+  "step": 20
+}
+        }
+      ],
+      "maxTier": 1
+    },
+    "deluxe_temporal_totem": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Totemic Card"
+      },
+      "model": "the_vault:card/icon/kill_totem#inventory",
+      "groups": [
+        "Temporal",
+        "Offensive",
+        "Magical",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:kill_totem",
+          "count": 1,
+          "time": {
+  "min": 300,
+  "max": 800,
+  "step": 20
+}
         }
       ],
       "maxTier": 1
@@ -3458,10 +5640,36 @@
           "modifier": "the_vault:loot_goblin",
           "count": 1,
           "time": {
-            "min": 100,
-            "max": 400,
-            "step": 20
-          }
+  "min": 100,
+  "max": 400,
+  "step": 20
+}
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_temporal_lootgoblin": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Loot Goblin Card"
+      },
+      "model": "the_vault:card/icon/loot_goblin#inventory",
+      "groups": [
+        "Temporal",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:loot_goblin",
+          "count": 1,
+          "time": {
+  "min": 300,
+  "max": 800,
+  "step": 20
+}
         }
       ],
       "maxTier": 1
@@ -3483,10 +5691,36 @@
           "modifier": "the_vault:door_hunter",
           "count": 1,
           "time": {
-            "min": 100,
-            "max": 400,
-            "step": 20
-          }
+  "min": 100,
+  "max": 400,
+  "step": 20
+}
+        }
+      ],
+      "maxTier": 1
+    },
+     "deluxe_temporal_door": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Door Hunter Card"
+      },
+      "model": "the_vault:card/icon/door_hunter#inventory",
+      "groups": [
+        "Temporal",
+        "Utility",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:door_hunter",
+          "count": 1,
+          "time": {
+  "min": 300,
+  "max": 800,
+  "step": 20
+}
         }
       ],
       "maxTier": 1
@@ -3516,14 +5750,43 @@
       ],
       "maxTier": 1
     },
+    "deluxe_temporal_overpower": {
+      "type": "gear",
+      "name": {
+        "text": "Deluxe Overpower Card"
+      },
+      "model": "the_vault:card/icon/overpower#inventory",
+      "groups": [
+        "Temporal",
+        "Offensive",
+        "Deluxe"
+      ],
+      "attribute": "the_vault:random_vault_modifier",
+      "pool": [
+        {
+          "tier": 1,
+          "modifier": "the_vault:overpower",
+          "count": 1,
+          "time": {
+            "min": 300,
+            "max": 800,
+            "step": 20
+          }
+        }
+      ],
+      "maxTier": 1
+    },
+
+
     "resource_blackopal": {
       "type": "task_loot",
       "name": {
-        "text": "Ma Balls"
+        "text": "Black Opal Resource Card"
       },
       "model": "the_vault:gem_black_opal#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -3533,7 +5796,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@default",
       "count": [
         {
           "tier": 1,
@@ -3593,7 +5856,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Larimar ",
+          "text":  " Larimar ",
           "color": "yellow"
         },
         {
@@ -3620,7 +5883,7 @@
           }
         }
       ],
-      "task": "@medium",
+      "task": "@easy",
       "count": [
         {
           "tier": 1,
@@ -3641,7 +5904,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Benitoite ",
+          "text":  " Benitoite ",
           "color": "yellow"
         },
         {
@@ -3668,54 +5931,6 @@
           }
         }
       ],
-      "task": "@medium",
-      "count": [
-        {
-          "tier": 1,
-          "roll": {
-            "type": "uniform",
-            "min": 1,
-            "max": 1
-          }
-        }
-      ],
-      "tooltip": [
-        {
-          "text": "+",
-          "color": "gold"
-        },
-        {
-          "text": "${count}",
-          "color": "#FFFFFF"
-        },
-        {
-          "text": " Alexandrite ",
-          "color": "yellow"
-        },
-        {
-          "text": "${task}"
-        }
-      ],
-      "highlightColor": "0x00FF00",
-      "maxTier": 1
-    },
-    "resource_gem_wutodie": {
-      "type": "task_loot",
-      "name": {
-        "text": "Wutodie Card"
-      },
-      "model": "the_vault:gem_wutodie#inventory",
-      "groups": [
-        "Resource"
-      ],
-      "loot": [
-        {
-          "weight": 1,
-          "item": {
-            "id": "the_vault:gem_wutodie"
-          }
-        }
-      ],
       "task": "@easy",
       "count": [
         {
@@ -3737,7 +5952,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Wutodie ",
+          "text":  " Alexandrite ",
           "color": "yellow"
         },
         {
@@ -3754,7 +5969,8 @@
       },
       "model": "the_vault:gem_black_opal#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -3764,7 +5980,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@medium",
       "count": [
         {
           "tier": 1,
@@ -3785,7 +6001,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Black Opal ",
+          "text":  " Black Opal ",
           "color": "yellow"
         },
         {
@@ -3802,7 +6018,8 @@
       },
       "model": "the_vault:gem_echo#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -3833,7 +6050,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Echo Gem ",
+          "text":  " Echo Gem ",
           "color": "yellow"
         },
         {
@@ -3860,7 +6077,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@medium",
       "count": [
         {
           "tier": 1,
@@ -3881,7 +6098,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Painite ",
+          "text":  " Painite ",
           "color": "yellow"
         },
         {
@@ -3929,7 +6146,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Woldium ",
+          "text":  " Woldium ",
           "color": "yellow"
         },
         {
@@ -3977,7 +6194,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Gorginite ",
+          "text":  " Gorginite ",
           "color": "yellow"
         },
         {
@@ -4025,7 +6242,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Sparkletine ",
+          "text":  " Sparkletine ",
           "color": "yellow"
         },
         {
@@ -4073,7 +6290,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Ashium ",
+          "text":  " Ashium ",
           "color": "yellow"
         },
         {
@@ -4121,7 +6338,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Bomignite ",
+          "text":  " Bomignite ",
           "color": "yellow"
         },
         {
@@ -4169,7 +6386,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Tubium ",
+          "text":  " Tubium ",
           "color": "yellow"
         },
         {
@@ -4217,7 +6434,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Upaline ",
+          "text":  " Upaline ",
           "color": "yellow"
         },
         {
@@ -4230,7 +6447,7 @@
     "resource_gem_petzanite": {
       "type": "task_loot",
       "name": {
-        "text": "Petzanite Card"
+        "text": "Petezanite Card"
       },
       "model": "the_vault:gem_petzanite#inventory",
       "groups": [
@@ -4265,7 +6482,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Petzanite ",
+          "text":  " Petezanite ",
           "color": "yellow"
         },
         {
@@ -4313,7 +6530,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Xeenium ",
+          "text":  " Xeenium ",
           "color": "yellow"
         },
         {
@@ -4323,6 +6540,7 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
+
     "resource_bronze": {
       "type": "task_loot",
       "name": {
@@ -4361,7 +6579,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Vault Bronze ",
+          "text":  " Vault Bronze ",
           "color": "yellow"
         },
         {
@@ -4409,7 +6627,56 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Vault Silver ",
+          "text":  " Vault Silver ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_gold": {
+      "type": "task_loot",
+      "name": {
+        "text": "Vault Gold Card"
+      },
+      "model": "the_vault:vault_gold#inventory",
+      "groups": [
+        "Resource",
+        "Deluxe"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:vault_silver"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Vault Gold ",
           "color": "yellow"
         },
         {
@@ -4426,7 +6693,8 @@
       },
       "model": "the_vault:waning_focus#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -4436,7 +6704,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@extreme",
       "count": [
         {
           "tier": 1,
@@ -4457,7 +6725,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Waning Focus ",
+          "text":  " Waning Focus ",
           "color": "yellow"
         },
         {
@@ -4474,7 +6742,8 @@
       },
       "model": "the_vault:waxing_focus#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -4484,7 +6753,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@extreme",
       "count": [
         {
           "tier": 1,
@@ -4505,7 +6774,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Waxing Focus ",
+          "text":  " Waxing Focus ",
           "color": "yellow"
         },
         {
@@ -4522,7 +6791,8 @@
       },
       "model": "the_vault:fundamental_focus#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -4553,7 +6823,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Fundamental Focus ",
+          "text":  " Fundamental Focus ",
           "color": "yellow"
         },
         {
@@ -4601,7 +6871,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Chaotic Focus ",
+          "text":  " Chaotic Focus ",
           "color": "yellow"
         },
         {
@@ -4628,7 +6898,7 @@
           }
         }
       ],
-      "task": "@medium",
+      "task": "@easy",
       "count": [
         {
           "tier": 1,
@@ -4649,7 +6919,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Vault Diamond ",
+          "text":  " Vault Diamond ",
           "color": "yellow"
         },
         {
@@ -4666,7 +6936,8 @@
       },
       "model": "the_vault:mod_box#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -4697,7 +6968,154 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Mod Box ",
+          "text":  " Mod Box ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_gem_box": {
+      "type": "task_loot",
+      "name": {
+        "text": "Gem Box Card"
+      },
+      "model": "the_vault:gem_box#inventory",
+      "groups": [
+        "Resource",
+        "Deluxe"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:gem_box"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Gem Box ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_supply_box": {
+      "type": "task_loot",
+      "name": {
+        "text": "Supply Box Card"
+      },
+      "model": "the_vault:supply_box#inventory",
+      "groups": [
+        "Resource",
+        "Deluxe"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:supply_box"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Supply Box ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_soul_ichor": {
+      "type": "task_loot",
+      "name": {
+        "text": "Soul Ichor Card"
+      },
+      "model": "woldsvaults:soul_ichor#inventory",
+      "groups": [
+        "Resource",
+        "Deluxe"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "woldsvaults:soul_ichor"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Soul Ichor ",
           "color": "yellow"
         },
         {
@@ -4745,7 +7163,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Raw Chromatic Iron ",
+          "text":  " Raw Chromatic Iron ",
           "color": "yellow"
         },
         {
@@ -4793,7 +7211,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Carbon ",
+          "text":  " Carbon ",
           "color": "yellow"
         },
         {
@@ -4841,7 +7259,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Mystery Egg ",
+          "text":  " Mystery Egg ",
           "color": "yellow"
         },
         {
@@ -4868,7 +7286,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@easy",
       "count": [
         {
           "tier": 1,
@@ -4889,7 +7307,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Vault Plating ",
+          "text":  " Vault Plating ",
           "color": "yellow"
         },
         {
@@ -4906,7 +7324,8 @@
       },
       "model": "the_vault:vault_catalyst_fragment#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -4916,7 +7335,7 @@
           }
         }
       ],
-      "task": "@medium",
+      "task": "@hard",
       "count": [
         {
           "tier": 1,
@@ -4937,7 +7356,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Catalyst Fragment ",
+          "text":  " Catalyst Fragment ",
           "color": "yellow"
         },
         {
@@ -4985,7 +7404,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Juicy Grapes ",
+          "text":  " Juicy Grapes ",
           "color": "yellow"
         },
         {
@@ -5033,7 +7452,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Bitter Lemon ",
+          "text":  " Bitter Lemon ",
           "color": "yellow"
         },
         {
@@ -5050,7 +7469,8 @@
       },
       "model": "the_vault:mango#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -5060,7 +7480,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@extreme",
       "count": [
         {
           "tier": 1,
@@ -5081,7 +7501,56 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Ripe Mango ",
+          "text":  " Ripe Mango ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_orange": {
+      "type": "task_loot",
+      "name": {
+        "text": "Sour Orange Card"
+      },
+      "model": "the_vault:sour_orange#inventory",
+      "groups": [
+        "Resource",
+        "Deluxe"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:sour_orange"
+          }
+        }
+      ],
+      "task": "@extreme",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Sour Orange ",
           "color": "yellow"
         },
         {
@@ -5098,7 +7567,8 @@
       },
       "model": "the_vault:inscription_piece#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -5129,7 +7599,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Inscription Piece ",
+          "text":  " Inscription Piece ",
           "color": "yellow"
         },
         {
@@ -5146,7 +7616,8 @@
       },
       "model": "woldsvaults:augment_piece#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -5177,7 +7648,55 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Augment Piece ",
+          "text":  " Augment Piece ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_chromatic_iron_ingot": {
+      "type": "task_loot",
+      "name": {
+        "text": "Chromatic Iron Ingot Card"
+      },
+      "model": "the_vault:chromatic_iron_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:chromatic_iron_ingot"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 4
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Chromatic Iron Ingot ",
           "color": "yellow"
         },
         {
@@ -5194,7 +7713,8 @@
       },
       "model": "the_vault:faceted_focus#inventory",
       "groups": [
-        "Resource"
+        "Resource",
+        "Deluxe"
       ],
       "loot": [
         {
@@ -5204,7 +7724,7 @@
           }
         }
       ],
-      "task": "@hard",
+      "task": "@extreme",
       "count": [
         {
           "tier": 1,
@@ -5225,7 +7745,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " Faceted Focus ",
+          "text":  " Faceted Focus ",
           "color": "yellow"
         },
         {
@@ -5235,198 +7755,7 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
-    "resource_smashed_gem": {
-      "type": "task_loot",
-      "name": {
-        "text": "Smashed Vault Gem Card"
-      },
-      "model": "the_vault:smashed_vault_gem#inventory",
-      "groups": [
-        "Resource"
-      ],
-      "loot": [
-        {
-          "weight": 1,
-          "item": {
-            "id": "the_vault:smashed_vault_gem"
-          }
-        }
-      ],
-      "task": "@easy",
-      "count": [
-        {
-          "tier": 1,
-          "roll": {
-            "type": "uniform",
-            "min": 1,
-            "max": 1
-          }
-        }
-      ],
-      "tooltip": [
-        {
-          "text": "+",
-          "color": "gold"
-        },
-        {
-          "text": "${count}",
-          "color": "#FFFFFF"
-        },
-        {
-          "text": " Smashed Vault Gem ",
-          "color": "yellow"
-        },
-        {
-          "text": "${task}"
-        }
-      ],
-      "highlightColor": "0x00FF00",
-      "maxTier": 1
-    },
-    "resource_gem_box": {
-      "type": "task_loot",
-      "name": {
-        "text": "Gem Box Card"
-      },
-      "model": "the_vault:gem_box#inventory",
-      "groups": [
-        "Resource"
-      ],
-      "loot": [
-        {
-          "weight": 1,
-          "item": {
-            "id": "the_vault:gem_box"
-          }
-        }
-      ],
-      "task": "@hard",
-      "count": [
-        {
-          "tier": 1,
-          "roll": {
-            "type": "uniform",
-            "min": 1,
-            "max": 1
-          }
-        }
-      ],
-      "tooltip": [
-        {
-          "text": "+",
-          "color": "gold"
-        },
-        {
-          "text": "${count}",
-          "color": "#FFFFFF"
-        },
-        {
-          "text": " Gem Box ",
-          "color": "yellow"
-        },
-        {
-          "text": "${task}"
-        }
-      ],
-      "highlightColor": "0x00FF00",
-      "maxTier": 1
-    },
-    "resource_eternal_soul": {
-      "type": "task_loot",
-      "name": {
-        "text": "Eternal Soul Card"
-      },
-      "model": "the_vault:eternal_soul#inventory",
-      "groups": [
-        "Resource"
-      ],
-      "loot": [
-        {
-          "weight": 1,
-          "item": {
-            "id": "the_vault:eternal_soul"
-          }
-        }
-      ],
-      "task": "@hard",
-      "count": [
-        {
-          "tier": 1,
-          "roll": {
-            "type": "uniform",
-            "min": 1,
-            "max": 1
-          }
-        }
-      ],
-      "tooltip": [
-        {
-          "text": "+",
-          "color": "gold"
-        },
-        {
-          "text": "${count}",
-          "color": "#FFFFFF"
-        },
-        {
-          "text": " Eternal Soul ",
-          "color": "yellow"
-        },
-        {
-          "text": "${task}"
-        }
-      ],
-      "highlightColor": "0x00FF00",
-      "maxTier": 1
-    },
-    "resource_knowledge_essence": {
-      "type": "task_loot",
-      "name": {
-        "text": "Knowledge Essence Card"
-      },
-      "model": "the_vault:knowledge_star_essence#inventory",
-      "groups": [
-        "Resource"
-      ],
-      "loot": [
-        {
-          "weight": 1,
-          "item": {
-            "id": "the_vault:knowledge_star_essence"
-          }
-        }
-      ],
-      "task": "@hard",
-      "count": [
-        {
-          "tier": 1,
-          "roll": {
-            "type": "uniform",
-            "min": 1,
-            "max": 1
-          }
-        }
-      ],
-      "tooltip": [
-        {
-          "text": "+",
-          "color": "gold"
-        },
-        {
-          "text": "${count}",
-          "color": "#FFFFFF"
-        },
-        {
-          "text": " Knowledge Essence ",
-          "color": "yellow"
-        },
-        {
-          "text": "${task}"
-        }
-      ],
-      "highlightColor": "0x00FF00",
-      "maxTier": 1
-    },
+
     "wild_base": {
       "type": "dummy",
       "name": {
@@ -5442,9 +7771,13 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
@@ -5460,9 +7793,13 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
@@ -5478,29 +7815,37 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_green": {
-      "type": "dummy",
-      "name": {
-        "text": "Green Wild Card"
-      },
-      "colors": [
-        "GREEN"
-      ],
-      "groups": [
-        "Wild",
-        "Stat",
-        "Arcane",
-        "Temporal",
-        "Resource",
-        "Evolution"
-      ],
-      "maxTier": 1
+    "type": "dummy",
+    "name": {
+      "text": "Green Wild Card"
+    },
+    "colors": [
+      "GREEN"
+    ],
+    "groups": [
+      "Wild",
+      "Stat",
+      "Arcane",
+      "Resource",
+      "Evolution",
+      "Knack",
+      "Physical",
+      "Magical",
+      "Defensive",
+      "Utility"
+    ],
+    "maxTier": 1
     },
     "wild_blue": {
       "type": "dummy",
@@ -5514,16 +7859,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_blue_red": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Blue/Red Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5533,16 +7882,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_blue_green": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Blue/Green Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5552,16 +7905,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_blue_yellow": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Blue/Yellow Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5571,16 +7928,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_blue_yellow_red": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Blue/Yellow/Red Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5591,16 +7952,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_blue_yellow_green": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Blue/Yellow/Green Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5611,16 +7976,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_red_yellow_green": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Red/Yellow/Green Wild Card"
       },
       "colors": [
         "RED",
@@ -5631,16 +8000,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_blue_green_red": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Red/Blue/Green Wild Card"
       },
       "colors": [
         "RED",
@@ -5651,16 +8024,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_green_yellow": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Green/Yellow Wild Card"
       },
       "colors": [
         "YELLOW",
@@ -5670,9 +8047,13 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
@@ -5689,16 +8070,20 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     },
     "wild_red_yellow": {
       "type": "dummy",
       "name": {
-        "text": "Blue Wild Card"
+        "text": "Red/Yellow Wild Card"
       },
       "colors": [
         "RED",
@@ -5708,9 +8093,13 @@
         "Wild",
         "Stat",
         "Arcane",
-        "Temporal",
         "Resource",
-        "Evolution"
+        "Evolution",
+        "Knack",
+        "Physical",
+        "Magical",
+        "Defensive",
+        "Utility"
       ],
       "maxTier": 1
     }
@@ -5818,17 +8207,343 @@
         "weight": 1.0
       }
     ],
+     "deluxe_stat": [
+      {
+        "value": "deluxe_attack_damage",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_health_percentile",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_apflat",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_attack_speed",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_cooldown_reduction",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_crit_hit_resistance",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_healing_effectiveness",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_item_quantity",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_item_rarity",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_knockback_resistance",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_lucky_hit_chance",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_mana_flat",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_mana_regeneration",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_mining_speed_flat",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_resistance",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_soul_chance",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_thorns_flat",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_trap_disarm",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_mana_additive_percentile",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_damage_increase",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_ability_power_percent",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_armor_percent",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_area_of_effect",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_movement_speed",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_copiously",
+        "weight": 1.0
+      }
+    ],
+    "deluxe_knack": [
+      {    
+        "value": "haste",
+        "weight": 3.0
+      },
+      {    
+        "value": "speed_talent",
+        "weight": 1.0
+      },
+      {    
+        "value": "deluxe_strength",
+        "weight": 4.0
+      },
+       {    
+        "value": "deluxe_purist",
+        "weight": 6.0
+      },
+      {    
+        "value": "lucky_hit_fatal",
+        "weight": 4.0
+      },
+      {    
+        "value": "lucky_hit_mana",
+        "weight": 4.0
+      },
+      {    
+        "value": "life_leech",
+        "weight": 4.0
+      },
+      {    
+        "value": "cleave_talent",
+        "weight": 4.0
+      },
+      {    
+        "value": "deluxe_bountiful_harvest",
+        "weight": 6.0
+      },
+      {    
+        "value": "deluxe_treasure_seeker",
+        "weight": 6.0
+      },
+      {    
+        "value": "deluxe_daze",
+        "weight": 6.0
+      },
+      {    
+        "value": "deluxe_nucleus",
+        "weight": 6.0
+      },
+      {    
+        "value": "deluxe_hunters_instinct",
+        "weight": 6.0
+      },
+      {    
+        "value": "deluxe_javelin_throw_power",
+        "weight": 3.0
+      },
+      {    
+        "value": "deluxe_javelin_damage",
+        "weight": 3.0
+      },
+      {    
+        "value": "deluxe_javelin_frugal",
+        "weight": 3.0
+      },
+      {    
+        "value": "deluxe_last_stand",
+        "weight": 6.0
+      },
+       {    
+        "value": "deluxe_berserking",
+        "weight": 6.0
+      },
+      {    
+        "value": "deluxe_sorcery",
+        "weight": 6.0
+      }
+    ],
+    "knack": [
+      {
+        "value": "intelligence",
+        "weight": 6.0
+      },
+      {
+        "value": "strength",
+        "weight": 6.0
+      },
+      {
+        "value": "purist",
+        "weight": 3.0
+      },
+      {
+        "value": "stone_skin",
+        "weight": 6.0
+      },
+      {
+        "value": "dungeon_mastery",
+        "weight": 4.0
+      },
+      {
+        "value": "horde_mastery",
+        "weight": 4.0
+      },
+      {
+        "value": "assassin_mastery",
+        "weight": 4.0
+      },
+      {
+        "value": "dweller_mastery",
+        "weight": 3.0
+      },
+      {
+        "value": "champion_mastery",
+        "weight": 2.0
+      },
+      {
+        "value": "tank_mastery",
+        "weight": 4.0
+      },
+      {
+        "value": "last_stand",
+        "weight": 6.0
+      },
+      {
+        "value": "berserking",
+        "weight": 6.0
+      },
+      {
+        "value": "sorcery",
+        "weight": 6.0
+      },
+      {
+        "value": "prime_amplification",
+        "weight": 6.0
+      },
+      {
+        "value": "bountiful_harvest",
+        "weight": 6.0
+      },
+      {
+        "value": "lightning_damage",
+        "weight": 4.0
+      },
+      {
+        "value": "lightning_stun",
+        "weight": 4.0
+      },
+      {
+        "value": "treasure_seeker",
+        "weight": 6.0
+      },
+      {
+        "value": "witchery",
+        "weight": 5.0
+      },
+      {
+        "value": "methodical",
+        "weight": 4.0
+      },
+      {
+        "value": "depleted",
+        "weight": 4.0
+      },
+      {
+        "value": "prudent",
+        "weight": 4.0
+      },
+      {
+        "value": "alchemist",
+        "weight": 4.0
+      },
+      {
+        "value": "frozen_impact",
+        "weight": 4.0
+      },
+      {
+        "value": "frostbite",
+        "weight": 4.0
+      },
+      {
+        "value": "daze",
+        "weight": 6.0
+      },
+       {
+        "value": "nucleus",
+        "weight": 4.0
+      },
+       {
+        "value": "blight",
+        "weight": 4.0
+      },
+       {
+        "value": "hunters_instinct",
+        "weight": 3.0
+      },
+       {
+        "value": "arcana",
+        "weight": 3.0
+      },
+       {
+        "value": "blazing",
+        "weight": 3.0
+      },
+       {
+        "value": "lucky_momentum",
+        "weight": 3.0
+      },
+      {
+        "value": "frenzy",
+        "weight": 3.0
+      },
+       {
+        "value": "toxic_reaction",
+        "weight": 3.0
+      },
+       {
+        "value": "javelin_throw_power",
+        "weight": 6.0
+      },
+       {
+        "value": "javelin_damage",
+        "weight": 4.0
+      },
+      {
+        "value": "javelin_frugal",
+        "weight": 4.0
+      }
+    ],
     "arcane": [
       {
+        "value": "ghost_walk",
+        "weight": 1.0
+      },
+      {
         "value": "heal",
-        "weight": 1.0
-      },
-      {
-        "value": "heal_group",
-        "weight": 1.0
-      },
-      {
-        "value": "cleanse",
         "weight": 1.0
       },
       {
@@ -5836,23 +8551,7 @@
         "weight": 1.0
       },
       {
-        "value": "dash_damage",
-        "weight": 1.0
-      },
-      {
-        "value": "dash_warp",
-        "weight": 1.0
-      },
-      {
         "value": "nova",
-        "weight": 1.0
-      },
-      {
-        "value": "nova_dot",
-        "weight": 1.0
-      },
-      {
-        "value": "nova_slow",
         "weight": 1.0
       },
       {
@@ -5860,19 +8559,7 @@
         "weight": 1.0
       },
       {
-        "value": "mega_jump_break_down",
-        "weight": 1.0
-      },
-      {
         "value": "rampage",
-        "weight": 1.0
-      },
-      {
-        "value": "rampage_leech",
-        "weight": 1.0
-      },
-      {
-        "value": "rampage_chain",
         "weight": 1.0
       },
       {
@@ -5880,19 +8567,7 @@
         "weight": 1.0
       },
       {
-        "value": "smite_archon",
-        "weight": 1.0
-      },
-      {
         "value": "empower",
-        "weight": 1.0
-      },
-      {
-        "value": "empower_ice",
-        "weight": 1.0
-      },
-      {
-        "value": "empower_entropy",
         "weight": 1.0
       },
       {
@@ -5908,23 +8583,7 @@
         "weight": 1.0
       },
       {
-        "value": "taunt_repel",
-        "weight": 1.0
-      },
-      {
-        "value": "taunt_charm",
-        "weight": 1.0
-      },
-      {
         "value": "stonefall",
-        "weight": 1.0
-      },
-      {
-        "value": "stonefall_snow",
-        "weight": 1.0
-      },
-      {
-        "value": "stonefall_cold",
         "weight": 1.0
       },
       {
@@ -5932,43 +8591,11 @@
         "weight": 1.0
       },
       {
-        "value": "totem_player_damage",
-        "weight": 1.0
-      },
-      {
-        "value": "totem_mana_regen",
-        "weight": 1.0
-      },
-      {
-        "value": "totem_mob_damage",
-        "weight": 1.0
-      },
-      {
         "value": "javelin",
         "weight": 1.0
       },
       {
-        "value": "javelin_piercing",
-        "weight": 1.0
-      },
-      {
-        "value": "javelin_scatter",
-        "weight": 1.0
-      },
-      {
-        "value": "javelin_sight",
-        "weight": 1.0
-      },
-      {
         "value": "fireball",
-        "weight": 1.0
-      },
-      {
-        "value": "fireball_volley",
-        "weight": 1.0
-      },
-      {
-        "value": "fireball_fireshot",
         "weight": 1.0
       },
       {
@@ -5984,19 +8611,35 @@
         "weight": 1.0
       },
       {
-        "value": "battle_cry_spectral_strike",
-        "weight": 1.0
-      },
-      {
-        "value": "battle_cry_lucky_strike",
-        "weight": 1.0
-      },
-      {
         "value": "ice_bolt",
         "weight": 1.0
       },
       {
-        "value": "ice_blast",
+        "value": "shell",
+        "weight": 1.0
+      },
+      {
+        "value": "arcane",
+        "weight": 1.0
+      },
+      {
+        "value": "earthquake",
+        "weight": 1.0
+      },
+      {
+        "value": "chain_lightning",
+        "weight": 1.0
+      },
+      {
+        "value": "chaos_cube",
+        "weight": 1.0
+      },
+      {
+        "value": "mana_barrier",
+      "weight": 1.0
+      },
+      {
+        "value": "expunge",
         "weight": 1.0
       }
     ],
@@ -6034,118 +8677,182 @@
         "weight": 1.0
       }
     ],
-    "resource": [
+    "deluxe_temporal": [
       {
-        "value": "resource_gem_larimar",
-        "weight": 20.0
+        "value": "deluxe_temporal_charm",
+        "weight": 1.0
       },
       {
-        "value": "resource_gem_benitoite",
-        "weight": 20.0
+        "value": "deluxe_temporal_coin",
+        "weight": 1.0
       },
       {
-        "value": "resource_gem_alexandrite",
-        "weight": 15.0
+        "value": "deluxe_temporal_hunter",
+        "weight": 1.0
       },
       {
-        "value": "resource_gem_wutodie",
-        "weight": 15.0
+        "value": "deluxe_temporal_nuke",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_temporal_totem",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_temporal_lootgoblin",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_temporal_door",
+        "weight": 1.0
+      },
+      {
+        "value": "deluxe_temporal_overpower",
+        "weight": 1.0
+      }
+    ],
+    "deluxe_resource": [
+      {
+        "value": "resource_inscription_piece",
+        "weight": 6.0
+      },
+       {
+        "value": "resource_augment_piece",
+        "weight": 8.0
       },
       {
         "value": "resource_gem_echo",
         "weight": 1.0
       },
       {
-        "value": "resource_gem_painite",
-        "weight": 10.0
-      },
-      {
-        "value": "resource_gem_iskallium",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_gorginite",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_sparkletine",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_ashium",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_upaline",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_tubium",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_bomignite",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_petzanite",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_gem_xeenium",
-        "weight": 3.0
-      },
-      {
-        "value": "resource_bronze",
-        "weight": 28.0
-      },
-      {
-        "value": "resource_silver",
-        "weight": 16.0
-      },
-      {
-        "value": "resource_focus_waning",
-        "weight": 4.0
-      },
-      {
-        "value": "resource_focus_waxing",
-        "weight": 4.0
+        "value": "resource_gold",
+        "weight": 24.0
       },
       {
         "value": "resource_focus_fundamental",
         "weight": 3.0
       },
       {
-        "value": "resource_focus_chaotic",
-        "weight": 8.0
-      },
-      {
-        "value": "resource_vault_diamond",
-        "weight": 14.0
-      },
-      {
-        "value": "resource_chromatic_iron",
-        "weight": 25.0
-      },
-      {
         "value": "resource_mod_box",
-        "weight": 4.0
+        "weight": 12.0
       },
       {
-        "value": "resource_carbon",
-        "weight": 32.0
+        "value": "resource_gem_box",
+        "weight": 12.0
       },
       {
-        "value": "resource_mystery_egg",
-        "weight": 10.0
+        "value": "resource_supply_box",
+        "weight": 12.0
       },
       {
-        "value": "resource_plating",
-        "weight": 44.0
+        "value": "resource_soul_ichor",
+        "weight": 6.0
       },
       {
         "value": "resource_catalyst_fragment",
         "weight": 12.0
+      },
+      {
+        "value": "resource_faceted_focus",
+        "weight": 8.0
+      },
+      {
+        "value": "resource_focus_waning",
+        "weight": 6.0
+      },
+      {
+        "value": "resource_focus_waxing",
+        "weight": 6.0
+      },
+            {
+        "value": "resource_mango",
+        "weight": 4.0
+      },
+      {
+        "value": "resource_orange",
+        "weight": 3.0
+      }
+    ],
+    "resource": [
+      {
+        "value": "resource_gem_larimar",
+        "weight": 60.0
+      },
+      {
+        "value": "resource_gem_benitoite",
+        "weight": 60.0
+      },
+      {
+        "value": "resource_gem_alexandrite",
+        "weight": 45.0
+      },
+      {
+        "value": "resource_gem_painite",
+        "weight": 30.0
+      },
+      {
+        "value": "resource_gem_iskallium",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_gorginite",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_sparkletine",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_ashium",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_upaline",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_tubium",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_bomignite",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_petzanite",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_gem_xeenium",
+        "weight": 9.0
+      },
+      {
+        "value": "resource_bronze",
+        "weight": 64.0
+      },
+      {
+        "value": "resource_focus_chaotic",
+        "weight": 18.0
+      },
+      {
+        "value": "resource_vault_diamond",
+        "weight": 42.0
+      },
+      {
+        "value": "resource_chromatic_iron_ingot",
+        "weight": 66.0
+      },
+      {
+        "value": "resource_carbon",
+        "weight": 66.0
+      },
+      {
+        "value": "resource_mystery_egg",
+        "weight": 12.0
+      },
+      {
+        "value": "resource_plating",
+        "weight": 66.0
       },
       {
         "value": "resource_grapes",
@@ -6153,38 +8860,6 @@
       },
       {
         "value": "resource_lemon",
-        "weight": 5.0
-      },
-      {
-        "value": "resource_mango",
-        "weight": 4.0
-      },
-      {
-        "value": "resource_inscription_piece",
-        "weight": 10.0
-      },
-      {
-        "value": "resource_augment_piece",
-        "weight": 10.0
-      },
-      {
-        "value": "resource_faceted_focus",
-        "weight": 8.0
-      },
-      {
-        "value": "resource_smashed_gem",
-        "weight": 12.0
-      },
-      {
-        "value": "resource_gem_box",
-        "weight": 8.0
-      },
-      {
-        "value": "resource_eternal_soul",
-        "weight": 6.0
-      },
-      {
-        "value": "resource_knowledge_essence",
         "weight": 5.0
       }
     ],
@@ -6293,35 +8968,7 @@
     "wild": [
       {
         "value": "wild_base",
-        "weight": 1.0
-      },
-      {
-        "value": "wild_red",
-        "weight": 10.0
-      },
-      {
-        "value": "wild_yellow",
-        "weight": 10.0
-      },
-      {
-        "value": "wild_green",
-        "weight": 10.0
-      },
-      {
-        "value": "wild_blue",
-        "weight": 10.0
-      },
-      {
-        "value": "wild_blue_red",
-        "weight": 8.0
-      },
-      {
-        "value": "wild_blue_yellow",
-        "weight": 8.0
-      },
-      {
-        "value": "wild_blue_green",
-        "weight": 8.0
+        "weight": 5.0
       },
       {
         "value": "wild_blue_yellow_red",
@@ -6338,18 +8985,6 @@
       {
         "value": "wild_blue_green_red",
         "weight": 5.0
-      },
-      {
-        "value": "wild_green_yellow",
-        "weight": 8.0
-      },
-      {
-        "value": "wild_green_red",
-        "weight": 8.0
-      },
-      {
-        "value": "wild_red_yellow",
-        "weight": 8.0
       }
     ]
   }
