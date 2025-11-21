@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "tfb2:dripstone_block"
+    },
+    "B": {
+      "item": "tfb2:factory_crate_empty"
+    }
+  },
+  "result": {
+    "item": "tfb2:factory_crate_dripstone_block"
+  }
+}

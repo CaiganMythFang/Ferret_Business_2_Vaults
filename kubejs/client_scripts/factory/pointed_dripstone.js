@@ -1,0 +1,25 @@
+
+let pointed_dripstone = [
+    'minecraft:pointed_dripstone', 
+    'chipped:pointed_dripstone_1', 
+    'chipped:pointed_dripstone_2', 
+    'chipped:pointed_dripstone_3', 
+    'chipped:pointed_dripstone_4', 
+    'chipped:pointed_dripstone_5', 
+    'chipped:pointed_dripstone_6', 
+    'chipped:pointed_dripstone_7', 
+    'chipped:pointed_dripstone_8', 
+    'chipped:pointed_dripstone_9', 
+    'chipped:pointed_dripstone_10', 
+    'chipped:pointed_dripstone_11', 
+    'chipped:pointed_dripstone_12', 
+    'chipped:pointed_dripstone_13'
+]
+
+onEvent('item.tooltip', tooltip => {
+    pointed_dripstone.forEach(id => {
+      tooltip.addAdvanced(`${id}`, (item, advanced, text) => {
+          text.add(1, Text.yellow('Factory Catagory : Pointed Dripstone'))
+    })
+  })
+})

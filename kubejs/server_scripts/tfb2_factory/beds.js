@@ -1,0 +1,58 @@
+
+let beds = [
+    'ars_nouveau:blue_sbed',
+    'ars_nouveau:green_sbed',
+    'ars_nouveau:orange_sbed',
+    'ars_nouveau:purple_sbed',
+    'ars_nouveau:red_sbed',
+    'ars_nouveau:yellow_sbed',
+    'dyenamics:aquamarine_bed',
+    'dyenamics:bubblegum_bed',
+    'dyenamics:cherenkov_bed',
+    'dyenamics:fluorescent_bed',
+    'dyenamics:lavender_bed',
+    'dyenamics:maroon_bed',
+    'dyenamics:mint_bed',
+    'dyenamics:peach_bed',
+    'dyenamics:persimmon_bed',
+    'luphieclutteredmod:luphie_darkwood_geometric_bed',
+    'luphieclutteredmod:luphie_darkwood_quilted_bed',
+    'luphieclutteredmod:luphie_darkwood_souther_flair_bed',
+    'luphieclutteredmod:luphie_mushroom_bed',
+    'minecraft:bedrock',
+    'minecraft:black_bed',
+    'minecraft:blue_bed',
+    'minecraft:brown_bed',
+    'minecraft:cyan_bed',
+    'minecraft:gray_bed',
+    'minecraft:green_bed',
+    'minecraft:light_blue_bed',
+    'minecraft:light_gray_bed',
+    'minecraft:lime_bed',
+    'minecraft:magenta_bed',
+    'minecraft:orange_bed',
+    'minecraft:pink_bed',
+    'minecraft:purple_bed',
+    'minecraft:red_bed',
+    'minecraft:white_bed',
+    'minecraft:yellow_bed',
+    'tanukidecor:antique_bed',
+    'tanukidecor:blue_bed',
+    'tanukidecor:brown_mushroom_bed',
+    'tanukidecor:cabana_bed',
+    'tanukidecor:egyptian_bed',
+    'tanukidecor:gorgeous_bed',
+    'tanukidecor:green_bed',
+    'tanukidecor:minimalist_bed',
+    'tanukidecor:red_mushroom_bed',
+    'tanukidecor:regal_bed',
+    'tanukidecor:sweets_bed',
+    'tanukidecor:wooden_block_bed',
+    'the_vault:velvet_bed'
+]
+
+onEvent("item.tags", event => {
+    beds.forEach(id => {
+        event.add('tfb2:beds', `${id}`)
+    })
+})

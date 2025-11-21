@@ -1,0 +1,56 @@
+
+let cheap_armor = [
+    'minecraft:chainmail_helmet', 
+    'minecraft:chainmail_chestplate', 
+    'minecraft:chainmail_leggings', 
+    'minecraft:chainmail_boots', 
+    'minecraft:iron_helmet', 
+    'minecraft:iron_chestplate', 
+    'minecraft:iron_leggings', 
+    'minecraft:iron_boots', 
+    'minecraft:leather_helmet', 
+    'minecraft:leather_chestplate', 
+    'minecraft:leather_leggings', 
+    'minecraft:leather_boots', 
+    'pneumaticcraft:compressed_iron_helmet', 
+    'pneumaticcraft:compressed_iron_chestplate', 
+    'pneumaticcraft:compressed_iron_leggings', 
+    'pneumaticcraft:compressed_iron_boots', 
+    'tropicraft:scale_boots', 
+    'tropicraft:scale_leggings', 
+    'tropicraft:scale_chestplate', 
+    'tropicraft:scale_helmet', 
+    'ars_nouveau:novice_boots', 
+    'ars_nouveau:novice_leggings', 
+    'ars_nouveau:novice_robes', 
+    'ars_nouveau:novice_hood', 
+    'ars_nouveau:apprentice_boots', 
+    'ars_nouveau:apprentice_leggings', 
+    'ars_nouveau:apprentice_robes', 
+    'ars_nouveau:apprentice_hood', 
+    'ars_nouveau:archmage_boots', 
+    'ars_nouveau:archmage_leggings', 
+    'ars_nouveau:archmage_robes', 
+    'ars_nouveau:archmage_hood', 
+    'the_vault:helmet', 
+    'the_vault:chestplate', 
+    'the_vault:leggings', 
+    'the_vault:boots',
+    'minecraft:iron_horse_armor',
+    'minecraft:golden_horse_armor',
+    'minecraft:leather_horse_armor',
+    'immersiveengineering:armor_steel_feet', 
+    'immersiveengineering:armor_steel_legs', 
+    'immersiveengineering:armor_steel_chest', 
+    'immersiveengineering:armor_steel_head', 
+    'immersiveengineering:armor_faraday_feet', 
+    'immersiveengineering:armor_faraday_legs', 
+    'immersiveengineering:armor_faraday_chest', 
+    'immersiveengineering:armor_faraday_head'
+]
+
+onEvent("item.tags", event => {
+    cheap_armor.forEach(id => {
+        event.add('tfb2:cheap_armor', `${id}`)
+    })
+})

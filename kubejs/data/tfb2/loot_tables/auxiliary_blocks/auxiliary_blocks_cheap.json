@@ -1,0 +1,2502 @@
+{
+  "pools": [
+    {
+      "name": "blindbox_auxiliary_blocks",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:asphalt",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:asphalt_caution",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:asphalt_line_center",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:asphalt_line_edge",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:black_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:black_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:black_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:blue_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:blue_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:blue_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:blue_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:blue_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:blue_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:brown_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:brown_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:candy_cane_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:candy_cane_trapdoor",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:cobbled_sandstone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:concrete",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:concrete_vent",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:cookie_pile",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:critter_bat",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:critter_spider",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:critter_spider_2",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:cyan_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:cyan_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:cyan_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:cyan_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dark_asphalt",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dark_asphalt_caution",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dark_asphalt_line_center",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dark_asphalt_line_edge",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dark_gray_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dark_purple_diorite",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:dirty_sand",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:drippy_icing_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:festive_cake",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gingerbread_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gingerbread_candied_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gingerbread_house",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gingerbread_icing_block",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_andesite",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_andesite_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_andesite_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_bricks",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_bricks_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_bricks_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_bright_dust",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_cobblestone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_cobblestone_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_cobblestone_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_cracked_bricks",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_cracked_bricks_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_cracked_bricks_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_crushed_rocks",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_crushed_rocks_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_crushed_rocks_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_andesite",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_andesite_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_andesite_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_cobblestone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_cobblestone_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_cobblestone_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_stone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_stone_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dark_stone_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dirt",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dirt_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dirt_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_dust",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_fence",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_fence_gate",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_gravel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_gravel_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_gravel_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_jack_o_lantern",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_log",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_planks",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_stone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_stone_slab",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_stone_stairs",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_trapdoor",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_web",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_web_dark",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gloomy_weeping_vines_plant",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gray_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gray_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gray_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:green_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:green_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:green_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:green_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:green_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gumdrop_green",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gumdrop_purple",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:gumdrop_red",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:indigo_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_blue",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_chrome",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_cyan",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_dark_gray",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_dark_metallic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_gray",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_green",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_light_gray",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_light_metallic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_metallic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_red",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lab_yellow",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:light_blue_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:light_blue_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:light_gray_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:light_gray_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:light_gray_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lime_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lime_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lime_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lollipop_blue",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lollipop_green",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lollipop_pink",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:lollipop_stick",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:magenta_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:magenta_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:magenta_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:medium_pumpkin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:mossy_dirt",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:mossy_stone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:nailed_reinforced_concrete",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:orange_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:orange_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:orange_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:orange_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:orange_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:orange_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_blue",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_cyan",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_green",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_light_blue",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_lime",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_magenta",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_orange",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_pink",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_purple",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:ornament_red",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:pink_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:pink_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:pink_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:plated_concrete",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:purple_diorite",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:purple_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:purple_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:purple_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:purple_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:purple_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:red_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:red_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:red_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:red_plastic",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:red_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:reinforced_concrete",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:rocky_dirt",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:rocky_sand",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:rocky_stone",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:rusty_sheet_metal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:rusty_sheet_metal_section",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:rusty_trapdoor",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:sheet_metal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:sheet_metal_section",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_blue_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_gray_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_green_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_orange_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_pink_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_purple_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:smooth_yellow_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:tiny_pumpkin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:violet_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:white_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:white_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:white_water_bucket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:yellow_crystal",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:yellow_frameless_glass",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:yellow_gelatin",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:yellow_pastel",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "auxiliaryblocks:yellow_water_bucket",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}

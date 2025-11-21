@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "the_vault:vault_bronze"
+    }
+  },
+  "result": {
+    "item": "tfb2:factory_crate_empty",
+    "count": 4
+  }
+}
