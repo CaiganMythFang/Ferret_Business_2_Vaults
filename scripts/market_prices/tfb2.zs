@@ -11,7 +11,9 @@ var release_mode = false;
 
 //SPECIAL CASE - Ferret currency should be learnable and considered fuel
 val special as int[IItemStack] = {
-    <item:tfb2:ferret_dollar> : 1000
+    <item:tfb2:ferret_dollar> : 1000,
+    <item:tfb2:factory_crate_empty> : 0,
+    <item:tfb2:factory_crate_chairs> : 2
 };
 
 for item, value in special {
