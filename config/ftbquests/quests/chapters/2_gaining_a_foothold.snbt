@@ -39,11 +39,27 @@
 			]
 			id: "69C663CDD23190A9"
 			tasks: [{
-				id: "30D523C2C4340605"
+				id: "1D5961F65455B2B7"
 				type: "item"
-				item: "tfb2:shipping_crate_pouch"
-				consume_items: true
-				weak_nbt_match: true
+				title: "Any Factory Crate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfb2:factory_crates"
+					}
+				}
+			}]
+			rewards: [{
+				id: "16397A2DB65F2B3C"
+				type: "item"
+				item: {
+					id: "the_vault:card_deck"
+					Count: 1b
+					tag: {
+						id: "vhapi:hacked_backpack_01"
+					}
+				}
 			}]
 		}
 		{
@@ -104,6 +120,108 @@
 				type: "checkmark"
 				title: "Staying Out of the Kitchen"
 			}]
+			rewards: [
+				{
+					id: "77F589423CF041A4"
+					type: "item"
+					item: {
+						id: "the_vault:card"
+						Count: 1b
+						tag: {
+							data: {
+								tier: 1b
+								entries: [{
+									name: "{\"text\":\"Glitched Resource : Iron\"}"
+									groups: ["Resource"]
+									model: "minecraft:iron_ingot#inventory"
+									colors: ["WHITE"]
+									modifier: {
+										task: {
+											renderer: {
+												tooltip: "{\"text\":\"per ${target} Wooden Chests looted\"}"
+												type: "card"
+											}
+											operating: 0b
+											counter: {
+												baseTarget: 11b
+												current: 0b
+												type: "target"
+												config: {
+													predicate: "GREATER_OR_EQUAL_TO"
+													variables: {
+														targetTierContribution: 1b
+													}
+													target: {
+														type: "uniform"
+														max: 14b
+														min: 10b
+													}
+												}
+												target: 11b
+											}
+											type: "loot_chest"
+											children: [ ]
+											config: {
+												filter: "@the_vault:wooden"
+											}
+										}
+										type: "task_loot"
+										config: {
+											count: [{
+												tier: 1b
+												roll: {
+													type: "uniform"
+													max: 12b
+													min: 3b
+												}
+											}]
+											tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Iron/Glitched Ingot \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
+											highlightColor: 65280
+											loot: [
+												{
+													weight: 90.0d
+													item: "iron_ingot"
+												}
+												{
+													weight: 10.0d
+													item: "tfb2:glitched_ingot"
+												}
+											]
+											task: "@easy"
+											maxTier: 1b
+										}
+										uuid: [I;
+											1259908846
+											-1216655666
+											-2108620403
+											910539794
+										]
+										counts: [{
+											tier: 1b
+											count: 5b
+										}]
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "147D4F3F677A2EFD"
+					type: "item"
+					item: {
+						id: "the_vault:booster_pack"
+						Count: 1b
+						tag: {
+							Count: 1b
+							id: "vhapi:hacked_pack"
+							tag: {
+								id: "the_vault:default"
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Glitched Out"
