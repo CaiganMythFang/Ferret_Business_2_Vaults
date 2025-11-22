@@ -346,11 +346,11 @@
 			description: [
 				"&7Usually by now, Bandit, you would have connected to the full SBurb Server, and teleported yourself to the Medium: another world specially designed to your Color and Title you chose."
 				""
-				"&7Unfortunately, the Medium doesn't really exist in the FOPGame Server anymore. Well, no, it does...but it also doesn't. It's in a limbo state that isn't really useful to us, a lot of the FOPGame Server systems don't work right in it."
+				"&7Unfortunately, the Medium doesn't really exist in the FOPGame Server anymore. Well, no, it does...but it also doesn't. It's in a limbo state that isn't really useful to us, a lot of the FOPGame Server systems don't work correctly in it."
 				""
 				"&7I guess the 'power' of the SBurb and Minestuck system is messing with everything. Which is great...but also not great, because the Alchemy system needs a lot of items you could only find in the Medium..."
 				""
-				"&7Though, you probably already noticed the solution : the Shop Tablet has a section specifically for SBurb items we can 'fix', though they'll cost Tokens, which will start appearing after Vault Level 20."
+				"&7Though, you probably already noticed the solution : the Shop Tablet has a section specifically for SBurb items we can 'fix', though they'll cost Tokens, which you may have already started to find."
 			]
 			hide_dependency_lines: true
 			dependencies: ["55A4B37D7392342A"]
@@ -359,6 +359,16 @@
 				id: "7491809FAFDDE7AB"
 				type: "checkmark"
 				title: "The Gates"
+			}]
+			rewards: [{
+				id: "418ACAABF3612BD2"
+				type: "advancement"
+				title: "Unlock the Grist Cache GUI"
+				icon: "tfb2:grist_build"
+				auto: "enabled"
+				exclude_from_claim_all: true
+				advancement: "minestuck:minestuck/entry"
+				criterion: "use_artifact"
 			}]
 		}
 		{
