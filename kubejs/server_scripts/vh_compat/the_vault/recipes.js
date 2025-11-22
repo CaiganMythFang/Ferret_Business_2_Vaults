@@ -16,8 +16,8 @@ onEvent("recipes", event => {
             'ECE',
             'AEA'
         ], {
-        C: 'the_vault:living_rock_block_cobble',
-        E: 'the_vault:gem_larimar',
+        C: '#forge:raw_materials/uranium',
+        E: 'minecraft:gold_ingot',
         A: 'minecraft:amethyst_block'
     }).id('the_vault:crystal_budding')
 

@@ -312,7 +312,7 @@ val priceTable as int[IItemStack] = {
     <item:the_vault:chromatic_steel_nugget> : 25,
     <item:the_vault:compressed_soot_block> : 25,
     <item:the_vault:cooked_vault_steak> : 500,
-    <item:the_vault:crystal_budding> : 500,
+    <item:the_vault:crystal_budding> : 3500,
     <item:the_vault:debagnetizer> : 1725,
     <item:the_vault:dehammerizer> : 1350,
     <item:the_vault:demagnetizer> : 1475,
