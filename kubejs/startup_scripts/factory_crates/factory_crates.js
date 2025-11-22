@@ -6,7 +6,6 @@ onEvent('block.registry', event => {
   	   .material('wood')
        .hardness(0.5)
        .displayName('Factory Crate - Empty') 
-       .tagItem('tfb2:factory_crates')
        .notSolid()
   })
   
