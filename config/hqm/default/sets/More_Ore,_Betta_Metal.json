@@ -23,6 +23,56 @@
       "commandrewards": []
     },
     {
+      "uuid": "3df3cf46-0170-4958-bb9a-911dc676cc0f",
+      "name": {
+        "text": " Bauxite Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 257,
+      "y": 19,
+      "icon": {
+        "id": "immersiveengineering:ore_aluminum",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 28 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 28
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:ore_aluminum",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "69db5707-40f6-4dca-b9bd-b2fd30c6a7e2",
       "name": {
         "text": " Coal Ore",
@@ -122,26 +172,29 @@
       "commandrewards": []
     },
     {
-      "uuid": "8b1ec873-7194-443f-bb74-68340cd99f64",
+      "uuid": "bf9e464f-394e-4763-8aad-5aef5ecbbb31",
       "name": {
-        "text": " Gold Ore",
+        "text": " Lead Ore",
         "isTranslationKey": false
       },
       "description": {
         "text": " ",
         "isTranslationKey": false
       },
-      "x": 151,
-      "y": 18,
+      "x": 115,
+      "y": 54,
       "icon": {
-        "id": "minecraft:gold_ore",
+        "id": "mekanism:lead_ore",
         "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 54 Ferret Dollars",
+            "text": "Cost : 24 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
@@ -150,7 +203,7 @@
                 "id": "tfb2:ferret_dollar",
                 "Count": 1
               },
-              "required": 54
+              "required": 24
             }
           ]
         }
@@ -161,8 +214,108 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:gold_ore",
+          "id": "mekanism:lead_ore",
           "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "996172d5-bdbd-43bd-a149-19017930ac28",
+      "name": {
+        "text": " Nickel Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 186,
+      "y": 54,
+      "icon": {
+        "id": "thermal:nickel_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 28 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 28
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:nickel_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c362f464-4fd6-42e5-a26f-d6096b55e36f",
+      "name": {
+        "text": " Manganese Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 115,
+      "y": 90,
+      "icon": {
+        "id": "tropicraft:manganese_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 40 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tropicraft:manganese_ore",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -183,6 +336,9 @@
       "icon": {
         "id": "minecraft:redstone_ore",
         "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -208,30 +364,6 @@
           "Count": 8
         }
       ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "a366eba7-27fa-4115-9a31-61de52256478",
-      "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 218,
-      "y": 18,
-      "icon": {
-        "id": "minecraft:diamond_ore",
-        "Count": 1
-      },
-      "prerequisites": [
-        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
-      ],
-      "optionlinks": [],
-      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -288,20 +420,400 @@
     {
       "uuid": "67edf933-8c06-4819-80e8-df7003525325",
       "name": {
-        "text": "Unnamed",
+        "text": " Uraninite Ore",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": " ",
         "isTranslationKey": false
       },
-      "x": 296,
-      "y": 18,
+      "x": 79,
+      "y": 91,
+      "icon": {
+        "id": "powah:uraninite_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 26 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 26
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "powah:uraninite_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7551d28b-faaa-495a-9bc8-08d03ab28652",
+      "name": {
+        "text": " Silver Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 151,
+      "y": 54,
+      "icon": {
+        "id": "thermal:silver_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 28 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 28
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:silver_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "19da7380-e981-477c-bea4-aaca5645309f",
+      "name": {
+        "text": " Tin Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 79,
+      "y": 54,
+      "icon": {
+        "id": "mekanism:tin_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 16 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:tin_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36c09a7a-639f-48a7-8f21-5365795fb66d",
+      "name": {
+        "text": " Shaka Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 151,
+      "y": 90,
+      "icon": {
+        "id": "tropicraft:shaka_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 40 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tropicraft:shaka_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1e172c75-90ec-42ed-85ec-e0ff0bac9204",
+      "name": {
+        "text": " Uranium Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 47,
+      "y": 90,
+      "icon": {
+        "id": "mekanism:uranium_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 24 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 24
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:uranium_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a5a7acea-34e7-4cf0-b4f2-509a2660b008",
+      "name": {
+        "text": " Zinc Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 47,
+      "y": 54,
+      "icon": {
+        "id": "create:zinc_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 20 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:zinc_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8b1ec873-7194-443f-bb74-68340cd99f64",
+      "name": {
+        "text": " Gold Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 151,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:gold_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 54 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 54
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a366eba7-27fa-4115-9a31-61de52256478",
+      "name": {
+        "text": " Osmium Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 18,
+      "icon": {
+        "id": "mekanism:osmium_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 16 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:osmium_ore",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }
