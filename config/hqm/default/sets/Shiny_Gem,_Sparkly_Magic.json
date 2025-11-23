@@ -2,6 +2,56 @@
   "name": "Shiny Gem, Sparkly Magic",
   "quests": [
     {
+      "uuid": "dc7204e9-b737-4390-9ca5-9409b5fd518d",
+      "name": {
+        "text": " Niter Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 149,
+      "y": 54,
+      "icon": {
+        "id": "thermal:niter_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 52 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 52
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:niter_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "594419d5-a958-43f1-ac1d-0f98c4327d2d",
       "name": {
         "text": " Lapis Lazuli Ore",
@@ -102,6 +152,56 @@
       "commandrewards": []
     },
     {
+      "uuid": "64eff7a2-f1ad-4fb3-ac1d-703ad1a65417",
+      "name": {
+        "text": " Dimensional Shard Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 61,
+      "y": 54,
+      "icon": {
+        "id": "rftoolsbase:dimensionalshard_overworld",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 30 Ferret Dollars",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 30
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "rftoolsbase:dimensionalshard_overworld",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d9e021a9-5945-46ba-82fe-a6634b785235",
       "name": {
         "text": " Shop Open",
@@ -173,6 +273,106 @@
       "commandrewards": []
     },
     {
+      "uuid": "8cf72e33-3f18-41d3-898c-c0902c198602",
+      "name": {
+        "text": " Fluorite Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 276,
+      "y": 13,
+      "icon": {
+        "id": "mekanism:fluorite_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 16 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:fluorite_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d912ce3-7ade-4b92-ab46-edef192ff8d1",
+      "name": {
+        "text": " Azurite Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 61,
+      "y": 96,
+      "icon": {
+        "id": "tropicraft:azurite_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 40 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tropicraft:azurite_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "b366f7a3-d19d-4a87-9cff-532d1a714636",
       "name": {
         "text": " Diamond Ore",
@@ -223,22 +423,252 @@
       "commandrewards": []
     },
     {
-      "uuid": "37b35e0a-e7b7-41ad-ba25-78fcf877ed61",
+      "uuid": "2873a678-1965-43ef-becd-00bd65a73f25",
       "name": {
-        "text": "Unnamed",
+        "text": " Zircon Ore",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": " ",
         "isTranslationKey": false
       },
-      "x": 299,
-      "y": 13,
+      "x": 149,
+      "y": 96,
+      "icon": {
+        "id": "tropicraft:zircon_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 40 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "d9e021a9-5945-46ba-82fe-a6634b785235"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "tropicraft:zircon_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dcd92008-b2e6-4666-b5f6-b89324ca53aa",
+      "name": {
+        "text": " Cinnabar Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 104,
+      "y": 54,
+      "icon": {
+        "id": "thermal:cinnabar_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 60 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 60
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:cinnabar_ore",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c15f5b0b-8fa2-47ba-be64-12c13019528a",
+      "name": {
+        "text": " Certus Quartz Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 235,
+      "y": 13,
+      "icon": {
+        "id": "ae2:quartz_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 16 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:quartz_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "673bb0e5-2c5e-41ec-b72d-0dc5d46c2bd5",
+      "name": {
+        "text": " Eudialyte Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 104,
+      "y": 96,
+      "icon": {
+        "id": "tropicraft:eudialyte_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 40 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tropicraft:eudialyte_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a955ab2e-4f09-410a-af87-78a75c2bd68d",
+      "name": {
+        "text": " Sulfur Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 194,
+      "y": 54,
+      "icon": {
+        "id": "thermal:sulfur_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 16 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:sulfur_ore",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }
