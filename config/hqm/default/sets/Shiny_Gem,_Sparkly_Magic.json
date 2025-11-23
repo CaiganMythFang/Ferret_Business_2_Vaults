@@ -1,5 +1,251 @@
 {
   "name": "Shiny Gem, Sparkly Magic",
-  "quests": [],
-  "reputationBar": []
+  "quests": [
+    {
+      "uuid": "594419d5-a958-43f1-ac1d-0f98c4327d2d",
+      "name": {
+        "text": " Lapis Lazuli Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 104,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:lapis_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 8 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:lapis_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4e05e131-fe53-4f8c-a75a-34028ac23f53",
+      "name": {
+        "text": " Nether Quartz Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 194,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:nether_quartz_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 20 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:nether_quartz_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d9e021a9-5945-46ba-82fe-a6634b785235",
+      "name": {
+        "text": " Shop Open",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 17,
+      "y": 13,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8794d87c-d99c-4f18-890e-9a0ca9cd7fc4",
+      "name": {
+        "text": " Emerald Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 61,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:emerald_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 76 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 76
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:emerald_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b366f7a3-d19d-4a87-9cff-532d1a714636",
+      "name": {
+        "text": " Diamond Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 149,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:diamond_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 72 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 72
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond_ore",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "37b35e0a-e7b7-41ad-ba25-78fcf877ed61",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 299,
+      "y": 13,
+      "prerequisites": [
+        "d9e021a9-5945-46ba-82fe-a6634b785235"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    This section is for purchasing various gemstone ores and magical resources.",
+    "isTranslationKey": false
+  }
 }
