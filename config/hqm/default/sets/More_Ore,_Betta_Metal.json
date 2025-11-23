@@ -1,9 +1,103 @@
 {
   "name": "More Ore, Betta Metal",
-  "quests": [],
+  "quests": [
+    {
+      "uuid": "5af9d09c-d028-4e2a-9a28-1f2ad4028a85",
+      "name": {
+        "text": "Shop Open",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 15,
+      "y": 18,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "69db5707-40f6-4dca-b9bd-b2fd30c6a7e2",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 53,
+      "y": 18,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "34106ce2-4dc8-4979-9b18-1cdfc386e426",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 123,
+      "y": 17,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd69616a-9c8f-4adf-aa6b-8b660f55cb46",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 91,
+      "y": 18,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "67edf933-8c06-4819-80e8-df7003525325",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 157,
+      "y": 17,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
   "reputationBar": [],
   "description": {
-    "text": "    This section is for re-purchasing World DLC, and also where to learn about unlocking DLC in the Shop Tablet.",
+    "text": "    This section is for purchasing various ores: metal, gem, or otherwise.",
     "isTranslationKey": false
   }
 }
