@@ -12,14 +12,17 @@ var release_mode = false;
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
     <item:rftoolsbase:tablet> : 39300,
-    <item:rftoolsbase:dimensionalshard> : 3800,
+    <item:rftoolsbase:dimensionalshard> : 300,
+    <item:rftoolsbase:dimensionalshard_overworld> : 1500,
+    <item:rftoolsbase:dimensionalshard_nether> : 1500,
     <item:rftoolsbase:filter_module> : 1375,
     <item:rftoolsbase:information_screen> : 250,
-    <item:rftoolsbase:infused_diamond> : 15425,
-    <item:rftoolsbase:infused_enderpearl> : 15400,
+    <item:rftoolsbase:infused_diamond> : 1725,
+    <item:rftoolsbase:infused_enderpearl> : 1400,
+    <item:rftoolsbase:module_template> : 3125,
     <item:rftoolsbase:machine_base> : 225,
     <item:rftoolsbase:machine_frame> : 3125,
-    <item:rftoolsbase:machine_infuser> : 20725,
+    <item:rftoolsbase:machine_infuser> : 6725,
     <item:rftoolsbase:manual> : 75,
     <item:rftoolsbase:smartwrench> : 225
 };
