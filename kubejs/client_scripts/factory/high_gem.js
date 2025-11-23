@@ -7,7 +7,7 @@ let high_gem = [
 ]
 
 onEvent('item.tooltip', tooltip => {
-    low_gem.forEach(id => {
+    high_gem.forEach(id => {
       tooltip.addAdvanced(`${id}`, (item, advanced, text) => {
           text.add(1, Text.yellow('Factory Catagory : High Gem'))
     })
