@@ -25,23 +25,194 @@
     {
       "uuid": "69db5707-40f6-4dca-b9bd-b2fd30c6a7e2",
       "name": {
-        "text": "Unnamed",
+        "text": " Coal Ore",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": " ",
         "isTranslationKey": false
       },
-      "x": 53,
+      "x": 48,
       "y": 18,
-      "prerequisites": [],
+      "icon": {
+        "id": "minecraft:coal_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 1 Ferret Dollar",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:coal_ore",
+          "Count": 20
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "34106ce2-4dc8-4979-9b18-1cdfc386e426",
+      "name": {
+        "text": " Copper Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 115,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:copper_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 16 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:copper_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8b1ec873-7194-443f-bb74-68340cd99f64",
+      "name": {
+        "text": " Gold Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 151,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:gold_ore",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 54 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 54
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eda40e74-1373-4450-b941-d332c33f1834",
+      "name": {
+        "text": " Redstone Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 186,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:redstone_ore",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a366eba7-27fa-4115-9a31-61de52256478",
       "name": {
         "text": "Unnamed",
         "isTranslationKey": false
@@ -50,9 +221,15 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 123,
-      "y": 17,
-      "prerequisites": [],
+      "x": 218,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:diamond_ore",
+        "Count": 1
+      },
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
@@ -61,18 +238,50 @@
     {
       "uuid": "dd69616a-9c8f-4adf-aa6b-8b660f55cb46",
       "name": {
-        "text": "Unnamed",
+        "text": " Iron Ore",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": " ",
         "isTranslationKey": false
       },
-      "x": 91,
+      "x": 80,
       "y": 18,
-      "prerequisites": [],
+      "icon": {
+        "id": "minecraft:iron_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 36 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 36
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -86,9 +295,11 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 157,
-      "y": 17,
-      "prerequisites": [],
+      "x": 296,
+      "y": 18,
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
@@ -97,7 +308,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "    This section is for purchasing various ores: metal, gem, or otherwise.",
+    "text": "    This section is for purchasing various metallic ores, dusts, or ingots.",
     "isTranslationKey": false
   }
 }
