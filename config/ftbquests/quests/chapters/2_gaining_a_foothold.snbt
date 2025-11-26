@@ -384,9 +384,13 @@
 			dependencies: ["10F607F18CE03D39"]
 			id: "3E2831A2D27654C0"
 			tasks: [{
-				id: "29A99E23734A15F1"
-				type: "item"
-				item: "the_vault:crystal_budding"
+				id: "758524279B807786"
+				type: "observation"
+				title: "Place and Look At a Budding Crystal"
+				icon: "the_vault:crystal_budding"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:crystal_budding"
 			}]
 			rewards: [{
 				id: "001A41EB98B1D2AA"
@@ -1531,7 +1535,7 @@
 				id: "6FBD06DA0B620205"
 				type: "choice"
 				exclude_from_claim_all: true
-				table_id: 2640422954496342337L
+				table_id: 5632731352558517809L
 			}]
 		}
 		{
@@ -2875,7 +2879,7 @@
 				icon: "the_vault:unique_crate"
 				timer: 0L
 				observe_type: 0
-				to_observe: "minecraft:dirt"
+				to_observe: "the_vault:unique_crate"
 			}]
 			rewards: [{
 				id: "015E558ED94503F3"
