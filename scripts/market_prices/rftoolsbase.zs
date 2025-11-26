@@ -19,7 +19,6 @@ val priceTable as int[IItemStack] = {
     <item:rftoolsbase:information_screen> : 250,
     <item:rftoolsbase:infused_diamond> : 1725,
     <item:rftoolsbase:infused_enderpearl> : 1400,
-    <item:rftoolsbase:module_template> : 3125,
     <item:rftoolsbase:machine_base> : 225,
     <item:rftoolsbase:machine_frame> : 3125,
     <item:rftoolsbase:machine_infuser> : 6725,

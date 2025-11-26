@@ -46,7 +46,7 @@ val priceTable as int[IItemStack] = {
     <item:rftoolsutility:matter_booster> : 125025,
     <item:rftoolsutility:matter_receiver> : 4425,
     <item:rftoolsutility:matter_transmitter> : 4425,
-    <item:rftoolsutility:module_template> : 31100,
+    <item:rftoolsutility:module_template> : 3125,
     <item:rftoolsutility:moduleplus_template> : 31900,
     <item:rftoolsutility:nightvision_module> : 32225,
     <item:rftoolsutility:noteleport_module> : 38200,
