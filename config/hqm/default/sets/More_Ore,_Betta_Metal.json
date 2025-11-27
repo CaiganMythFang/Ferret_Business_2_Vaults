@@ -2,6 +2,56 @@
   "name": "More Ore, Betta Metal",
   "quests": [
     {
+      "uuid": "4a8c00bb-d052-447a-a752-7f85f62506ac",
+      "name": {
+        "text": "Cast Iron Ingot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 115,
+      "y": 126,
+      "icon": {
+        "id": "createdeco:cast_iron_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 18 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 18
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "createdeco:cast_iron_ingot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "5af9d09c-d028-4e2a-9a28-1f2ad4028a85",
       "name": {
         "text": "Shop Open",
@@ -272,6 +322,56 @@
       "commandrewards": []
     },
     {
+      "uuid": "caaafd62-fd4c-43b2-9f4a-cfcfaff8a54c",
+      "name": {
+        "text": " Manasteel Ingot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 47,
+      "y": 126,
+      "icon": {
+        "id": "botania:manasteel_ingot",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 12 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:manasteel_ingot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c362f464-4fd6-42e5-a26f-d6096b55e36f",
       "name": {
         "text": " Manganese Ore",
@@ -468,6 +568,56 @@
       "commandrewards": []
     },
     {
+      "uuid": "c452c645-4935-4ae3-bf4b-a081d6b87963",
+      "name": {
+        "text": " HOP Graphite Ingot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 151,
+      "y": 126,
+      "icon": {
+        "id": "immersiveengineering:ingot_hop_graphite",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 6 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:ingot_hop_graphite",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7551d28b-faaa-495a-9bc8-08d03ab28652",
       "name": {
         "text": " Silver Ore",
@@ -611,6 +761,56 @@
       "reward": [
         {
           "id": "tropicraft:shaka_ore",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bf8e51d4-d3bb-40a1-8035-ecb3e5dbc048",
+      "name": {
+        "text": " Refined Glowstone Ingot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 79,
+      "y": 126,
+      "icon": {
+        "id": "mekanism:ingot_refined_glowstone",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 18 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 18
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:ingot_refined_glowstone",
           "Count": 8
         }
       ],
