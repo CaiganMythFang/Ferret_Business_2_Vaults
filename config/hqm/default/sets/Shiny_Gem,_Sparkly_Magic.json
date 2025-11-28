@@ -213,7 +213,25 @@
       },
       "x": 17,
       "y": 13,
+      "icon": {
+        "id": "tfb2:ferret_dollar",
+        "Count": 1
+      },
       "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
       ],
