@@ -3775,7 +3775,7 @@
       "name": {
         "text": "Daze Card"
       },
-      "model": "the_vault:skills/daze#inventory",
+      "model": "the_vault:skills/dazed#inventory",
       "groups": [
         "Knack",
         "Offensive"
@@ -3795,7 +3795,7 @@
       "name": {
         "text": "Deluxe Daze Card"
       },
-      "model": "the_vault:skills/daze#inventory",
+      "model": "the_vault:skills/dazed#inventory",
       "groups": [
         "Knack",
         "Offensive"
@@ -4600,7 +4600,7 @@
     "expunge": {
       "type": "gear",
       "name": {
-        "text": "Expunge Card"
+        "text": "Diffuse Card"
       },
       "model": "the_vault:card/icon/expunge#inventory",
       "groups": [
@@ -4612,6 +4612,26 @@
         {
           "tier": 1,
           "abilityKey": "Expunge",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "retribution": {
+      "type": "gear",
+      "name": {
+        "text": "Retribution Card"
+      },
+      "model": "the_vault:card/icon/retribution#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Retribution",
           "levelChange": 1
         }
       ],
@@ -6983,7 +7003,7 @@
       "name": {
         "text": "Gem Box Card"
       },
-      "model": "the_vault:gem_box#inventory",
+      "model": "woldsvaults:gem_box#inventory",
       "groups": [
         "Resource",
         "Deluxe"
@@ -6992,7 +7012,7 @@
         {
           "weight": 1,
           "item": {
-            "id": "the_vault:gem_box"
+            "id": "woldsvaults:gem_box"
           }
         }
       ],
@@ -7032,7 +7052,7 @@
       "name": {
         "text": "Supply Box Card"
       },
-      "model": "the_vault:supply_box#inventory",
+      "model": "woldsvaults:supply_box#inventory",
       "groups": [
         "Resource",
         "Deluxe"
@@ -7041,7 +7061,7 @@
         {
           "weight": 1,
           "item": {
-            "id": "the_vault:supply_box"
+            "id": "woldsvaults:supply_box"
           }
         }
       ],
@@ -8620,6 +8640,10 @@
       },
       {
         "value": "arcane",
+        "weight": 1.0
+      },
+      {
+        "value": "retribution",
         "weight": 1.0
       },
       {

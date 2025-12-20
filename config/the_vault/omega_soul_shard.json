@@ -662,18 +662,6 @@
                 {
                     "value": {
                         "item": {
-                            "ITEM": "the_vault:axe",
-                            "AMOUNT": 1,
-                            "NBT": "{\"the_vault:gear_unique_pool\":\"woldsvaults:zombie_horse_axe\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                        },
-                        "minPrice": 12500,
-                        "maxPrice": 22500
-                    },
-                    "weight": 4
-                },
-                {
-                    "value": {
-                        "item": {
                             "ITEM": "the_vault:jewel",
                             "AMOUNT": 1,
                             "NBT": "{\"the_vault:gear_unique_pool\":\"woldsvaults:eternal_stella\",\"the_vault:gear_roll_type\":\"Unique\"}"
@@ -1093,18 +1081,6 @@
                 {
                     "value": {
                         "item": {
-                            "ITEM": "the_vault:card_deck",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"black\"}"
-                        },
-                        "minPrice": 7000,
-                        "maxPrice": 14000
-                    },
-                    "weight": 3
-                },
-                {
-                    "value": {
-                        "item": {
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
                             "NBT": "{\"id\": \"the_vault:stat_pack\"}"
@@ -1144,18 +1120,6 @@
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
                             "NBT": "{\"id\": \"the_vault:arcane_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 12
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:wild_pack\"}"
                         },
                         "minPrice": 2000,
                         "maxPrice": 2400
@@ -1254,18 +1218,6 @@
                 {
                     "value": {
                         "item": {
-                            "ITEM": "the_vault:axe",
-                            "AMOUNT": 1,
-                            "NBT": "{\"the_vault:gear_unique_pool\":\"woldsvaults:zombie_horse_axe\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                        },
-                        "minPrice": 12500,
-                        "maxPrice": 22500
-                    },
-                    "weight": 4
-                },
-                {
-                    "value": {
-                        "item": {
                             "ITEM": "the_vault:jewel",
                             "AMOUNT": 1,
                             "NBT": "{\"the_vault:gear_unique_pool\":\"woldsvaults:eternal_stella\",\"the_vault:gear_roll_type\":\"Unique\"}"
@@ -1339,18 +1291,6 @@
                     "value": {
                         "item": {
                             "ITEM": "the_vault:sour_orange",
-                            "AMOUNT": 1,
-                            "NBT": "{}"
-                        },
-                        "minPrice": 3000,
-                        "maxPrice": 6000
-                    },
-                    "weight": 2
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:modifier_scroll",
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
@@ -1721,18 +1661,6 @@
                 {
                     "value": {
                         "item": {
-                            "ITEM": "the_vault:card_deck",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"black\"}"
-                        },
-                        "minPrice": 7000,
-                        "maxPrice": 14000
-                    },
-                    "weight": 3
-                },
-                {
-                    "value": {
-                        "item": {
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
                             "NBT": "{\"id\": \"the_vault:stat_pack\"}"
@@ -1772,18 +1700,6 @@
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
                             "NBT": "{\"id\": \"the_vault:arcane_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 12
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:wild_pack\"}"
                         },
                         "minPrice": 2000,
                         "maxPrice": 2400
@@ -2109,18 +2025,6 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:modifier_scroll",
-                        "AMOUNT": 1,
-                        "NBT": "{}"
-                    },
-                    "minPrice": 8000,
-                    "maxPrice": 16000
-                },
-                "weight": 5
-            },
-            {
-                "value": {
-                    "item": {
                         "ITEM": "the_vault:temporal_shard",
                         "AMOUNT": 1,
                         "NBT": "{}"
@@ -2190,6 +2094,18 @@
                 },
                 "weight": 5
             },
+            {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:capstone_companion_hunt",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 16384,
+                        "maxPrice": 20480
+                    },
+                    "weight": 5
+                },
             {
                 "value": {
                     "item": {
@@ -2265,54 +2181,6 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:card_deck",
-                        "AMOUNT": 1,
-                        "NBT": "{\"id\": \"black\",\"deckModifierPool\": \"@random\"}"
-                    },
-                    "minPrice": 8000,
-                    "maxPrice": 12000
-                },
-                "weight": 2
-            },
-            {
-                "value": {
-                    "item": {
-                        "ITEM": "the_vault:card_deck",
-                        "AMOUNT": 1,
-                        "NBT": "{\"id\": \"runic\",\"deckModifierPool\": \"@random\"}"
-                    },
-                    "minPrice": 8000,
-                    "maxPrice": 12000
-                },
-                "weight": 2
-            },
-            {
-                "value": {
-                    "item": {
-                        "ITEM": "the_vault:card_deck",
-                        "AMOUNT": 1,
-                        "NBT": "{\"id\": \"belt\",\"deckModifierPool\": \"@random\"}"
-                    },
-                    "minPrice": 8000,
-                    "maxPrice": 12000
-                },
-                "weight": 2
-            },
-            {
-                "value": {
-                    "item": {
-                        "ITEM": "the_vault:card_deck",
-                        "AMOUNT": 1,
-                        "NBT": "{\"id\": \"lost\",\"deckModifierPool\": \"@random\"}"
-                    },
-                    "minPrice": 8000,
-                    "maxPrice": 12000
-                },
-                "weight": 2
-            },
-            {
-                "value": {
-                    "item": {
                         "ITEM": "the_vault:unique_crate_scroll",
                         "AMOUNT": 1,
                         "NBT": "{}"
@@ -2355,18 +2223,6 @@
                         },
                         "minPrice": 10000,
                         "maxPrice": 20000
-                    },
-                    "weight": 4
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:axe",
-                            "AMOUNT": 1,
-                            "NBT": "{\"the_vault:gear_unique_pool\":\"woldsvaults:zombie_horse_axe\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                        },
-                        "minPrice": 12500,
-                        "maxPrice": 22500
                     },
                     "weight": 4
                 }

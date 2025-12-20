@@ -635,7 +635,7 @@
                 },
                 {
                     "AMOUNT": 4,
-                    "ITEM": "the_vault:pog_prism",
+                    "ITEM": "woldsvaults:pog_prism",
                     "NBT": "{}"
                 },
                 {
@@ -665,7 +665,7 @@
                 },
                 {
                     "AMOUNT": 4,
-                    "ITEM": "the_vault:pog_prism",
+                    "ITEM": "woldsvaults:pog_prism",
                     "NBT": "{}"
                 },
                 {
@@ -695,7 +695,7 @@
                 },
                 {
                     "AMOUNT": 4,
-                    "ITEM": "the_vault:pog_prism",
+                    "ITEM": "woldsvaults:pog_prism",
                     "NBT": "{}"
                 },
                 {
@@ -730,7 +730,7 @@
                 },
                 {
                     "AMOUNT": 4,
-                    "ITEM": "the_vault:pog_prism",
+                    "ITEM": "woldsvaults:pog_prism",
                     "NBT": "{}"
                 },
                 {
@@ -1461,6 +1461,81 @@
                 {
                     "AMOUNT": 4,
                     "ITEM": "the_vault:memory_powder",
+                    "NBT": "{}"
+                }
+            ]
+        },
+        {
+            "id": "the_vault:classic_vault_gloom",
+            "output": {
+                "AMOUNT": 1,
+                "ITEM": "the_vault:augment",
+                "NBT": "{theme:\"the_vault:classic_vault_gloom\"}"
+            },
+            "inputs": [
+                {
+                    "AMOUNT": 4,
+                    "ITEM": "woldsvaults:augment_piece",
+                    "NBT": "{}"
+                },
+                {
+                    "AMOUNT": 1,
+                    "ITEM": "minecraft:jack_o_lantern",
+                    "NBT": "{}"
+                },
+                {
+                    "AMOUNT": 1,
+                    "ITEM": "the_vault:memory_powder",
+                    "NBT": "{}"
+                }
+            ]
+        },
+         {
+            "id": "the_vault:classic_vault_thanksgiving",
+            "output": {
+                "AMOUNT": 1,
+                "ITEM": "the_vault:augment",
+                "NBT": "{theme:\"the_vault:classic_vault_thanksgiving\"}"
+            },
+            "inputs": [
+                {
+                    "AMOUNT": 4,
+                    "ITEM": "woldsvaults:augment_piece",
+                    "NBT": "{}"
+                },
+                {
+                    "AMOUNT": 8,
+                    "ITEM": "minecraft:porkchop",
+                    "NBT": "{}"
+                },
+                {
+                    "AMOUNT": 1,
+                    "ITEM": "the_vault:memory_powder",
+                    "NBT": "{}"
+                }
+            ]
+        },
+         {
+            "id": "the_vault:classic_vault_barnyard",
+            "output": {
+                "AMOUNT": 1,
+                "ITEM": "the_vault:augment",
+                "NBT": "{theme:\"the_vault:classic_vault_barnyard\"}"
+            },
+            "inputs": [
+                {
+                    "AMOUNT": 16,
+                    "ITEM": "woldsvaults:augment_piece",
+                    "NBT": "{}"
+                },
+                {
+                    "AMOUNT": 32,
+                    "ITEM": "minecraft:porkchop",
+                    "NBT": "{}"
+                },
+                {
+                    "AMOUNT": 6,
+                    "ITEM": "the_vault:memory_shard",
                     "NBT": "{}"
                 }
             ]

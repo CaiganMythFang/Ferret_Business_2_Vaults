@@ -39,7 +39,7 @@ onEvent("recipes", event => {
         ], {
         C: 'sophisticatedbackpacks:upgrade_base',
         O: 'minecraft:nether_star',
-        X: 'the_vault:pog_prism'
+        X: 'woldsvaults:pog_prism'
     }).id('sophisticatedbackpacks:everlasting_upgrade')
 
     event.shaped(Item.of('sophisticatedbackpacks:xp_pump_upgrade'),
@@ -62,7 +62,7 @@ onEvent("recipes", event => {
         ], {
         C: 'sophisticatedbackpacks:upgrade_base',
         O: '#forge:glass',
-        X: 'the_vault:chromatic_gold_ingot'
+        X: 'woldsvaults:chromatic_gold_ingot'
     }).id('sophisticatedbackpacks:tank_upgrade')
 
     event.shaped(Item.of('sophisticatedbackpacks:pump_upgrade'),
@@ -86,7 +86,7 @@ onEvent("recipes", event => {
         ], {
         C: 'sophisticatedbackpacks:pump_upgrade',
         A: 'the_vault:vault_diamond',
-        G: 'the_vault:chromatic_gold_ingot',
+        G: 'woldsvaults:chromatic_gold_ingot',
         R: 'the_vault:vault_essence',
         D: 'minecraft:dispenser'
     }).id('sophisticatedbackpacks:advanced_pump_upgrade')
@@ -98,8 +98,8 @@ onEvent("recipes", event => {
             'XOX'
         ], {
         C: 'sophisticatedbackpacks:upgrade_base',
-        O: 'the_vault:vault_essence_1',
-        X: 'the_vault:chromatic_gold_block'
+        O: 'woldsvaults:vault_essence_block',
+        X: 'woldsvaults:chromatic_gold_block'
     }).id('sophisticatedbackpacks:battery_upgrade')
 
     event.shaped(Item.of('sophisticatedbackpacks:tool_swapper_upgrade'),
@@ -126,7 +126,7 @@ onEvent("recipes", event => {
         C: 'sophisticatedbackpacks:tool_swapper_upgrade',
         I: 'the_vault:vault_diamond_block',
         T: 'the_vault:gem_pog',
-        X: 'the_vault:chromatic_gold_block'
+        X: 'woldsvaults:chromatic_gold_block'
     }).id('sophisticatedbackpacks:advanced_tool_swapper_upgrade')
 
     event.shaped(Item.of('sophisticatedbackpacks:compacting_upgrade'),
@@ -138,8 +138,8 @@ onEvent("recipes", event => {
         C: 'sophisticatedbackpacks:upgrade_base',
         I: 'the_vault:vault_diamond_block',
         T: 'minecraft:piston',
-        G: 'the_vault:pog_prism',
-        X: 'the_vault:vault_essence_2'
+        G: 'woldsvaults:pog_prism',
+        X: 'compressium:vault_essence_block_1'
     })
 
     event.shaped(Item.of('sophisticatedbackpacks:advanced_compacting_upgrade'),
@@ -152,7 +152,7 @@ onEvent("recipes", event => {
         I: 'minecraft:piston',
         T: 'the_vault:omega_pog',
         G: 'the_vault:black_chromatic_steel_block',
-        X: 'the_vault:vault_essence_2'
+        X: 'compressium:vault_essence_block_1'
     })
 
     event.shaped(Item.of('sophisticatedbackpacks:smelting_upgrade'),
@@ -175,9 +175,9 @@ onEvent("recipes", event => {
             'IGI'
         ], {
         C: 'sophisticatedbackpacks:smelting_upgrade',
-        I: 'the_vault:vault_essence_1',
+        I: 'woldsvaults:vault_essence_block',
         T: 'minecraft:hopper',
-        G: 'the_vault:pog_prism',
+        G: 'woldsvaults:pog_prism',
         X: 'the_vault:chromatic_steel_block'
     })
 
@@ -201,9 +201,9 @@ onEvent("recipes", event => {
             'IGI'
         ], {
         C: 'sophisticatedbackpacks:smoking_upgrade',
-        I: 'the_vault:vault_essence_1',
+        I: 'woldsvaults:vault_essence_block',
         T: 'minecraft:hopper',
-        G: 'the_vault:pog_prism',
+        G: 'woldsvaults:pog_prism',
         X: 'the_vault:chromatic_steel_block'
     })
 
@@ -227,9 +227,9 @@ onEvent("recipes", event => {
             'IGI'
         ], {
         C: 'sophisticatedbackpacks:blasting_upgrade',
-        I: 'the_vault:vault_essence_1',
+        I: 'woldsvaults:vault_essence_block',
         T: 'minecraft:hopper',
-        G: 'the_vault:pog_prism',
+        G: 'woldsvaults:pog_prism',
         X: 'the_vault:chromatic_steel_block'
     })
 
@@ -240,9 +240,9 @@ onEvent("recipes", event => {
             'IGI'
         ], {
         C: 'sophisticatedbackpacks:stack_upgrade_tier_4',
-        I: 'the_vault:echo_pog_1',
-        G: 'the_vault:wold_star',
-        X: 'the_vault:omega_pog_1'
+        I: 'woldsvaults:echo_pog_block',
+        G: 'woldsvaults:wold_star',
+        X: 'woldsvaults:omega_pog_block'
     }).id('sophisticatedbackpacks:inception_upgrade')
 
     event.shaped(Item.of('sophisticatedbackpacks:void_upgrade'),

@@ -9,10 +9,10 @@ showUnobtainableCrafted = false
 #width of the gear screen
 #Range: > 250
 screenWidth = 370
-#width of the gear screen
+#height of the gear screen
 #Range: 0.0 ~ 1.0
 screenHeight = 0.95
-#width of the card screen
+#height of the card screen
 #Range: 0.0 ~ 1.0
 cardScreenHeight = 0.95
 #width of the card screen
@@ -22,6 +22,8 @@ cardScreenWidth = 450
 showCardWeight = false
 #show card roll chance
 showCardChance = true
+#show hold [key] to view rolls tooltip
+showHoverTooltip = true
 
 [DEBUG]
 	#QOL Hunters conflict resolution (shouldn't be disabled unless it causes issues)

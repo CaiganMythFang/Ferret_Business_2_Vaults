@@ -203,7 +203,7 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:gem_pog_1"
+              "item": "woldsvaults:pog_block"
             },
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 20,
@@ -221,17 +221,6 @@
             "MAX_COST": 30
           },
           "weight": 12
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:modifier_scroll"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 30,
-            "MAX_COST": 60
-          },
-          "weight": 6
         },
         {
           "value": {
@@ -282,18 +271,6 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:card_deck",
-              "nbt": "{id:\"merchant\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 24,
-            "MAX_COST": 48
-          },
-          "weight": 16
-        },
-        {
-          "value": {
-            "OFFER": {
               "item": "the_vault:capstone_pylon_hunter"
             },
             "CURRENCY": "the_vault:vault_gold",
@@ -316,7 +293,7 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:wold_star_chunk"
+              "item": "woldsvaults:wold_star_chunk"
             },
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 80,

@@ -30,14 +30,16 @@
 	"Broken Curio Alert" = true
 	#Show unlocked research requirements in green color
 	"Green Unlocked Researches" = true
-	#Fixes lines breaks in descriptions in the 'Statistics' Tab.
-	"Multiline Stat Labels" = true
 	#Adds toggles to prestige selection screen
 	"Prestige Toggles" = true
 	#Adds roll ranges to resource cards when holding shift
 	"Resource Card Roll Range" = true
 	#Show raw chests and speed up vault history screen
 	"Better Loot Stats" = true
+	#Enable item overlay showing VOID/PICKUP/OFF state on magnets.
+	"Magnet State Overlay" = true
+	#Zoom out further in zoomable vault screens (abilities, talents, researches, vault map).
+	"Zoom Out Further" = true
 
 	["Client-Only Extensions"."Scavenger Vaults"]
 		#Shows the number of scavenger items you have in your inventory
@@ -46,13 +48,17 @@
 		"Scavenger Highlighter" = true
 
 	["Client-Only Extensions"."Brazier Vaults"]
-		#Changes the mode of the Brazier Hologram
-		#DEFAULT = Always show all icons and text
-		#MODE1 = Always show icons, text renders when close to the brazier
-		#MODE2 = Always show icons, hold SHIFT to show text
-		#MODE3 = Always show icons and labels, hold SHIFT to show descriptions
-		#Allowed Values: DEFAULT, MODE1, MODE2, MODE3
-		"Brazier Hologram Mode" = "DEFAULT"
+		#When should brazier hologram display modifier names.
+		#Allowed Values: ALWAYS, NEAR, SHIFT, SHIFT_OR_NEAR
+		"Show Modifier Name on Brazier Hologram" = "ALWAYS"
+		#When should brazier hologram display modifier descriptions.
+		#Allowed Values: ALWAYS, NEAR, SHIFT, SHIFT_OR_NEAR
+		"Show Modifier Description on Brazier Hologram" = "ALWAYS"
+		#How far should modifier info render when the mode is NEAR.
+		#Range: 0 ~ 64
+		"Near distance" = 12
+		#Make Brazier Hologram larger when you're further away to make it readable
+		"Dynamic Hologram Scale" = true
 
 	["Client-Only Extensions"."Cake Vaults"]
 		#Changes the color of the Vault Cake overlay
@@ -87,11 +93,6 @@
 			#Defined as % of screen height
 			#Range: 0 ~ 100
 			"God Objective Y Offset" = 45
-
-	["Client-Only Extensions"."Paradox Vaults"]
-		#Hold <SHIFT> to enlarge the paradox vault gate unlock text.
-		#Note: Designed for BUILD mode, but currently also takes effect when running the vault too.
-		"Paradox Gate Zoom" = false
 
 	["Client-Only Extensions"."Shopping Pedestals"]
 		#Includes your bartering discount on shopping pedestals
@@ -160,17 +161,6 @@
 		"Use Shorthand" = true
 		#Use soul shards instead of soul value 
 		"Use Soul Shards" = false
-
-	["Client-Only Extensions"."Elixir Vaults"]
-		#Removes shadows from Elixir orbs. Significantly improves performance.
-		#Requires Restart
-		"Shadowless Elixir Orbs" = true
-		#Culls Elixir orbs when there are more than this many on screen
-		#LOW=100
-		#MED=50
-		#HIGH=25
-		#Allowed Values: NONE, LOW, MED, HIGH
-		"Elixir Orb Culling" = "MED"
 
 	["Client-Only Extensions"."Ascension Vaults"]
 		#Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Ascension Crystals

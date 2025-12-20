@@ -146,7 +146,6 @@ val priceTable as int[IItemStack] = {
     <item:botania:terrasteel_ingot> : 17500,
     <item:botania:terrasteel_nugget> : 1950,
     <item:botania:toggle_light_relay> : 1150,
-    <item:botania:uninfused_terrasteel_ingot> : 2150,
     <item:botania:virus_necrodermal> : 1250,
     <item:botania:virus_nullodermal> : 1250,
     <item:botania:world_seed> : 175,

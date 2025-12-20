@@ -41,8 +41,8 @@
                 "id": "the_vault:eternal_soul",
                 "count": {
                   "type": "uniform",
-                  "min": 3,
-                  "max": 6
+                  "min": 6,
+                  "max": 12
                 }
               }
             }
@@ -66,8 +66,8 @@
                 "id": "woldsvaults:arcane_essence",
                 "count": {
                   "type": "uniform",
-                  "min": 3,
-                  "max": 6
+                  "min": 6,
+                  "max": 12
                 }
               }
             }
@@ -78,8 +78,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 0,
-        "max": 2
+        "min": 3,
+        "max": 3
       },
       "pool": [
         {
@@ -91,8 +91,8 @@
                 "id": "the_vault:jewel_pouch",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 2
+                  "min": 2,
+                  "max": 3
                 }
               }
             }
@@ -103,8 +103,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 0,
-        "max": 2
+        "min": 3,
+        "max": 5
       },
       "pool": [
         {
@@ -299,8 +299,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 5
       },
       "pool": [
         {
@@ -346,8 +346,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 3
       },
       "pool": [
         {
@@ -371,8 +371,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 4
       },
       "pool": [
         {
@@ -396,8 +396,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 4
       },
       "pool": [
         {
@@ -443,8 +443,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 3
       },
       "pool": [
         {
@@ -468,8 +468,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 5
       },
       "pool": [
         {
@@ -509,6 +509,34 @@
                 "id": "the_vault:booster_pack",
                 "nbt": {
                   "id": "the_vault:mega_arcane_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+             {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:knack_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:mega_knack_pack"
                 },
                 "count": {
                   "type": "uniform",
@@ -600,20 +628,6 @@
                   "max": 1
                 }
               }
-            },
-            {
-              "weight": 6,
-              "item": {
-                "id": "the_vault:booster_pack",
-                "nbt": {
-                  "id": "the_vault:wild_pack"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
             }
           ]
         }
@@ -622,8 +636,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 0,
-        "max": 2
+        "min": 3,
+        "max": 3
       },
       "pool": [
         {
@@ -654,7 +668,7 @@
             {
               "weight": 16,
               "item": {
-                "id": "the_vault:gem_box",
+                "id": "woldsvaults:gem_box",
                 "count": {
                   "type": "uniform",
                   "min": 4,
@@ -681,6 +695,20 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:deluxe_stat_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
               }
             }
@@ -750,6 +778,17 @@
               }
             },
             {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:capstone_vendoor_hunter",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
               "weight": 1,
               "item": {
                 "id": "the_vault:capstone_treasure_hunter",
@@ -764,39 +803,6 @@
               "weight": 12,
               "item": {
                 "id": "the_vault:eye_of_avarice",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "weight": 2,
-          "pool": [
-            {
-              "weight": 8,
-              "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "double"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 6,
-              "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "large"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -826,6 +832,20 @@
                 "id": "the_vault:inscription",
                 "nbt": {
                   "pool": "the_vault:random"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+             {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:temporal_pack"
                 },
                 "count": {
                   "type": "uniform",

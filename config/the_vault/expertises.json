@@ -44,6 +44,41 @@
           }
         ]
       },
+       {
+        "type": "tiered",
+        "id": "Grave_Insurance",
+        "name": "Grave Insurance",
+        "tiers": [
+          {
+            "type": "grave_insurance",
+            "costReduction": 0.25,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 20
+          },
+          {
+            "type": "grave_insurance",
+            "costReduction": 0.5,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 20
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Augmentation_Luck",
+        "name": "Augmentation Luck",
+        "tiers": [
+          {
+            "type": "augmentation_luck",
+            "increasedChance": 0.01,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 20
+          }
+        ]
+      },
       {
         "type": "tiered",
         "id": "Blessed",
@@ -163,21 +198,21 @@
         "tiers": [
           {
             "type": "crafting_potential",
-            "chanceToNotConsumePotential": 0.2,
+            "reducePotentialAmount": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "crafting_potential",
-            "chanceToNotConsumePotential": 0.4,
+            "reducePotentialAmount": 0.4,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "crafting_potential",
-            "chanceToNotConsumePotential": 0.6,
+            "reducePotentialAmount": 0.6,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -616,7 +651,7 @@
         "tiers": [
           {
             "type": "jeweler",
-            "additionalIdentifiedJewels": 0,
+            "additionalIdentifiedJewels": 1,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0

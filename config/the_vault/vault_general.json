@@ -5,6 +5,7 @@
 	"NO_EXIT_CHANCE": 10,
 	"OBELISK_DROP_CHANCE": 2,
 	"ITEM_BLACKLIST": [
+		"!immersiveengineering:*ore*",
 		"!powah:*ore*",
 		"quark:glass_item_frame",
 		"botania:laputa_shard",
@@ -112,7 +113,8 @@
 		"waystones:*",
 		"rftoolsutility:matter_transmitter",
 		"rftoolsutility:matter_receiver",
-		"appliedenergistics2:wireless_terminal",
+		"ae2:wireless_terminal",
+		"ae2:wireless_crafting_terminal",
 		"rftoolsstorage:tablet_scanner",
 		"minecraft:wither_skeleton_skull",
 		"rftoolsutility:*",
@@ -263,6 +265,7 @@
         "mahoutsukai:*"
 	],
 	"BLOCK_BLACKLIST": [
+		"!immersiveengineering:*ore*",
 		"!powah:*ore*",
 		"ars_nouveau:*",
                 "the_vault:animatrix_block",

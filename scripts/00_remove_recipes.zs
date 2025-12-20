@@ -552,30 +552,7 @@ craftingTable.remove(<item:refinedstorage:portable_grid>);
 
 
 // Iron Generators/Furnaces
-craftingTable.remove(<item:irongenerators:obsidian_generator>);
-craftingTable.remove(<item:irongenerators:bronze_generator>);
-craftingTable.remove(<item:irongenerators:lead_generator>);
-craftingTable.remove(<item:irongenerators:osmium_generator>);
-craftingTable.remove(<item:irongenerators:refined_obsidian_generator>);
-craftingTable.remove(<item:irongenerators:steel_generator>);
-craftingTable.remove(<item:irongenerators:tin_generator>);
-craftingTable.remove(<item:irongenerators:skystone_generator>);
-craftingTable.remove(<item:irongenerators:certus_quartz_generator>);
-craftingTable.remove(<item:irongenerators:allthemodium_generator>);
-craftingTable.remove(<item:irongenerators:vibranium_generator>);
-craftingTable.remove(<item:irongenerators:unobtainium_generator>);
-craftingTable.remove(<item:irongenerators:quartz_enriched_iron_generator>);
-craftingTable.remove(<item:irongenerators:signalum_generator>);
-craftingTable.remove(<item:irongenerators:enderium_generator>);
-craftingTable.remove(<item:irongenerators:dirt_generator>);
-craftingTable.remove(<item:irongenerators:uranium_generator>);
-craftingTable.remove(<item:irongenerators:platin_generator>);
-craftingTable.remove(<item:irongenerators:infinity_generator>);
-craftingTable.remove(<item:irongenerators:netherrack_generator>);
-craftingTable.remove(<item:irongenerators:invar_generator>);
-craftingTable.remove(<item:irongenerators:copper_generator>);
-craftingTable.remove(<item:irongenerators:stone_generator>);
-
+craftingTable.removeByModid("irongenerators");
 craftingTable.remove(<item:ironfurnaces:heater>);
 craftingTable.remove(<item:ironfurnaces:item_heater>);
 craftingTable.remove(<item:ironfurnaces:item_copy>);
@@ -667,22 +644,7 @@ craftingTable.remove(<item:thermal:rf_potato>);
 // craftingTable.remove(<item:torchmaster:megatorch>);
 
 // Elevators
-craftingTable.remove(<item:elevatorid:elevator_white>);
-craftingTable.remove(<item:elevatorid:elevator_orange>);
-craftingTable.remove(<item:elevatorid:elevator_magenta>);
-craftingTable.remove(<item:elevatorid:elevator_light_blue>);
-craftingTable.remove(<item:elevatorid:elevator_yellow>);
-craftingTable.remove(<item:elevatorid:elevator_lime>);
-craftingTable.remove(<item:elevatorid:elevator_pink>);
-craftingTable.remove(<item:elevatorid:elevator_gray>);
-craftingTable.remove(<item:elevatorid:elevator_light_gray>);
-craftingTable.remove(<item:elevatorid:elevator_cyan>);
-craftingTable.remove(<item:elevatorid:elevator_purple>);
-craftingTable.remove(<item:elevatorid:elevator_blue>);
-craftingTable.remove(<item:elevatorid:elevator_brown>);
-craftingTable.remove(<item:elevatorid:elevator_green>);
-craftingTable.remove(<item:elevatorid:elevator_red>);
-craftingTable.remove(<item:elevatorid:elevator_black>);
+craftingTable.remove(<tag:items:elevatorid:elevators>);
 
 // Architects pallete
 craftingTable.remove(<item:architects_palette:charcoal_block>);
@@ -1141,8 +1103,6 @@ JEI.hideIngredient(<item:irongenerators:platin_generator>);
 JEI.hideIngredient(<item:irongenerators:infinity_generator>);
 JEI.hideIngredient(<item:irongenerators:netherrack_generator>);
 JEI.hideIngredient(<item:irongenerators:invar_generator>);
-JEI.hideIngredient(<item:irongenerators:copper_generator>);
-JEI.hideIngredient(<item:irongenerators:stone_generator>);
 
 // Powah
 JEI.hideIngredient(<item:powah:player_aerial_pearl>);

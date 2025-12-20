@@ -76,8 +76,8 @@
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 3
+                  "min": 3,
+                  "max": 5
                 }
               }
             }
@@ -98,24 +98,35 @@
               }
             },
             {
-              "weight": 12,
+              "weight": 8,
               "item": {
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 2,
-                  "max": 4
+                  "min": 3,
+                  "max": 6
                 }
               }
             },
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:vault_alloy",
+                "id": "the_vault:carbon",
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:vault_scrap",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
                 }
               }
             }
@@ -160,7 +171,7 @@
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:supply_box",
+                "id": "woldsvaults:supply_box",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -174,7 +185,7 @@
           "weight": 2,
           "pool": [
             {
-              "weight": 15,
+              "weight": 12,
               "item": {
                 "id": "the_vault:waning_focus",
                 "count": {
@@ -185,7 +196,7 @@
               }
             },
             {
-              "weight": 15,
+              "weight": 12,
               "item": {
                 "id": "the_vault:waxing_focus",
                 "count": {
@@ -196,20 +207,9 @@
               }
             },
             {
-              "weight": 21,
+              "weight": 9,
               "item": {
                 "id": "the_vault:fundamental_focus",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:trinket",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -383,17 +383,14 @@
               }
             },
             {
-              "weight": 24,
+              "weight": 1,
               "item": {
-                "id": "the_vault:magnet",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "ornate0"
-                },
+                "id": "the_vault:vault_necklace",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                }
+                  }
               }
             }
           ]
