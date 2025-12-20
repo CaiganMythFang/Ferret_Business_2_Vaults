@@ -93,6 +93,10 @@
       },
       "x": 14,
       "y": 17,
+      "icon": {
+        "id": "tfb2:ferret_dollar",
+        "Count": 1
+      },
       "trigger": "QUEST_TRIGGER",
       "tasks": [
         {
@@ -100,7 +104,7 @@
           "items": [
             {
               "item": {
-                "id": "ftbquests:book",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
               }
             }
@@ -125,8 +129,8 @@
         "text": "    Byte\u0027s got a good idea in making a Colony to work together to free you all.\n    But sometimes you need to put up a new camp somewhere safer, or start over again, yeah? You\u0027ll need one of these two Caravans to get it going.\n    The Camp can only be deployed on land, while the Ship can be deployed in water. ",
         "isTranslationKey": false
       },
-      "x": 33,
-      "y": 22,
+      "x": 24,
+      "y": 72,
       "repeat": {
         "type": "INSTANT"
       },
