@@ -195,13 +195,17 @@
 			shape: "hexagon"
 			subtitle: "Your Guide to Greed"
 			description: [
-				"&5Once you've defeated the Herald, you should get a brand new piece of Vault Gear : a Vault Map. Vault Maps are the key to a new post-Herald challenge called Mapped Vaults."
+				"&5Excellent work, Bandit! Ye've defeated the CEO and thrown a big wrench in the FOP Game Server."
 				""
-				"&5When you identify a Vault Map, it will roll a set Objective, Theme, as well as set Modifiers like bonus Item Quantity and similar. There are multiple tiers of Maps to keep a look out for as well!"
+				"&dThe CEO isn't really gone, just sort of... locked out of his accounts, in a way. But that means the FOP will be scrambling to try getting rid of you."
 				""
-				"&5Also, there's some neat things you can do with Vault Maps, since they are considered Vault Gear..."
+				"&5Aye, too bad Pandora's Box has been opened. Well, supply line, I guess."
 				""
-				"&5To get more Vault Maps, you can find them in Mapped Vaults, or craft them in the Vault Forge."
+				"&dClose enough. On that note, I've finished coding up the latest piece of Vault Gear, Bandit. It's called a Vault Map. You can make them in the Vault Forge, or find them in Mapped Vaults."
+				""
+				"&5Think of it like a Treasure Map, except it'll be showing ye what the objective will be, and what Modifiers ye'll be adding."
+				""
+				"&dThere's multiple tiers, each one has a number of modifiers on it. You'll want to make sure all are full before you use the map."
 			]
 			dependencies: ["1E1457C794B6792E"]
 			hide: true
@@ -211,12 +215,20 @@
 				type: "item"
 				item: "the_vault:map"
 			}]
-			rewards: [{
-				id: "6D70E8A224867A71"
-				type: "item"
-				item: "the_vault:altar_recatalyzer"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "6D70E8A224867A71"
+					type: "item"
+					item: "woldsvaults:altar_recatalyzer"
+					count: 2
+				}
+				{
+					id: "58957C4E24621159"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 818089594093312426L
+				}
+			]
 		}
 		{
 			title: "Rocking The Greed"
@@ -225,15 +237,15 @@
 			shape: "pentagon"
 			subtitle: "A Best Laid Plan"
 			description: [
-				"&5To run a Mapped Vault, you will need a Vault Crystal with the Greedy modifier, obtainable by using a Greedy Vault Rock on a Vault Altar and filling out the ingredients. "
+				"&dSo Mapped Vaults are a way for us to target very specific, weakened systems inside the FOP Game Server. These systems will be highly guarded, represented by unique mobs you'll only fight in Mapped Vaults."
 				""
-				"&5BE WARNED, these ingredients will be items found inside Vaults instead of outside!"
+				"&5To start, ye'll need to make a Greedy Vault Rock. Put it on the Altar and pay for the materials. Note, Bandit, it'll cost ye actual Vault Materials from normal Vaults! When completed, ye'll get a Vault Crystal with the Greedy modifier on it."
 				""
-				"&5An Altar Recatalyzer will cancel a Greedy Rock Vault completely instead of rerolling it, in case you don't have the Vault materials needed."
+				"&dIf you don't have the materials, you can cancel a Greedy Rock Vault by using an Altar Recatalyzer."
 				""
-				"&5Take a Vault Map and a Vault Crystal with Greedy on it, combine them in an Anvil and you are ready to Greed!"
+				"&5Now, make sure ye have ALL the modifiers filled on the Vault Map (Throw it in the Artisan Station if ye don't!), then use an Anvil to combine the Vault Map and Vault Crystal to get yerself a Mapped Vault."
 				""
-				"&5Mapped Vaults will be more difficult than your standard Vaults. New themes, new mobs, new loot you can ONLY find in Mapped Vaults!"
+				"&dBandit, these'll be much more difficult, but in return you'll get loot you can't find in Mapped Vaults, and we'll need that to finally get you out of there."
 			]
 			dependencies: ["64E050541DAAF09C"]
 			hide: true
@@ -251,37 +263,6 @@
 			}]
 		}
 		{
-			title: "Etched in Power"
-			x: -3.25d
-			y: 0.25d
-			shape: "rsquare"
-			subtitle: "What's That Rune Mean?"
-			description: [
-				"&5Etchings are a special type of Vault Gear Modification that provides extremely powerful benefits."
-				""
-				"&5Etchings can only be found in Mapped Vaults, usually from special Vendoor rooms, but they can be found rarely in other ways."
-				""
-				"&5To take advantage of an Etching bonus, ALL FOUR pieces of your Vault Armor (Head, Chest, Legs, Boots) must have the same Etching applied."
-				""
-				"&5To Apply an Etching to your Vault Gear, combine them in an Anvil."
-			]
-			hide_dependency_lines: true
-			dependencies: ["1BB69DE20D9F42F7"]
-			hide: true
-			id: "6556C010EE88A783"
-			tasks: [{
-				id: "54747EB88762EB56"
-				type: "item"
-				item: "the_vault:etching"
-				count: 2L
-			}]
-			rewards: [{
-				id: "0AAF471D9BB8475B"
-				type: "item"
-				item: "the_vault:etching"
-			}]
-		}
-		{
 			title: "Task Corrupted Succesfully "
 			x: -1.75d
 			y: -2.25d
@@ -290,15 +271,15 @@
 			description: [
 				"&5There is a special type of Objective, quite difficult to tackle but the only way to obtain certain materials."
 				""
-				"&5They are called Corrupted objectives, and are obtained with a special seal you apply to your Crystal."
+				"&dThey are called Corrupted objectives, and are obtained with a special seal you apply to your Crystal."
 				""
-				"&5When you Corrupt a Crystal, the objective will be set to Corrupted, and the Theme will be set to Lost Void."
+				"&5When ye Corrupt a Crystal, the objective will be set to Corrupted, and the Theme will be set to Lost Void."
 				""
-				"&5When you enter this corrupted Vault, your view will be heavily altered. This special view can be disabled by hitting F4 if it is causing you visual or performance problems."
+				"&dWhen you enter this corrupted Vault, your view will be heavily altered. &r&l(This special view can be disabled by hitting F4 if it is causing you visual or performance problems.)"
 				""
-				"&5Corrupted Objective is a very difficult objective, be warned as the longer you are in the Vault, the more difficult it will become. I shall not say more than to warn you of this, it must be experienced first hand."
+				"&5Corrupted Objective is a very difficult objective, be warned as the longer ye are in the Vault, the more difficult it will become. I shall not say more than to warn ye of this, it must be experienced first hand."
 				""
-				"&5This seal ONLY obtained in Mapped Vaults, but its not the only way to Corrupt your crystal...."
+				"&dThis seal ONLY obtained in Mapped Vaults, but its not the only way to Corrupt your crystal...."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1BB69DE20D9F42F7"]
@@ -309,11 +290,19 @@
 				type: "item"
 				item: "woldsvaults:crystal_seal_corrupt"
 			}]
-			rewards: [{
-				id: "1D75BC9D36CDA2D5"
-				type: "item"
-				item: "woldsvaults:crystal_seal_corrupt"
-			}]
+			rewards: [
+				{
+					id: "1D75BC9D36CDA2D5"
+					type: "item"
+					item: "woldsvaults:crystal_seal_corrupt"
+				}
+				{
+					id: "4E3DC16DC09F3505"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2245246540467579945L
+				}
+			]
 		}
 		{
 			title: "Null in the Void"
@@ -322,11 +311,11 @@
 			shape: "rsquare"
 			subtitle: "From Corruption to Control"
 			description: [
-				"&5Nullite is a rare resource that can only be found from Corrupted objective Vaults."
+				"&dNullite is a rare resource that can only be found from Corrupted objective Vaults."
 				""
-				"&5You get Nullite from two sources : Ore POIs and the Completion Crate."
+				"&5Ye get Nullite from two sources : Ore POIs and the Completion Crate."
 				""
-				"&5Nullite crafts into a new tier of tools with higher capacity and repairs."
+				"&dNullite crafts into a new tier of tools with higher capacity and repairs."
 			]
 			hide_dependency_lines: true
 			dependencies: ["041C09029AA797E9"]
@@ -338,10 +327,10 @@
 				item: "woldsvaults:nullite_fragment"
 			}]
 			rewards: [{
-				id: "2FDF95244EAE49B6"
-				type: "item"
-				item: "woldsvaults:nullite_fragment"
-				count: 2
+				id: "5B49C30F713CC997"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 818089594093312426L
 			}]
 		}
 		{
@@ -351,13 +340,13 @@
 			shape: "rsquare"
 			subtitle: "Challenging and Rewarding"
 			description: [
-				"&5Gateway Pearls are a special piece of loot that are only obtainable in Mapped Vaults."
+				"&dGateway Pearls are a special piece of loot that are only obtainable in Mapped Vaults. Don't confuse them with the Gateways Research, though. FOP reused the code between them, which isn't unusual."
 				""
-				"&5Using an Unidentified Gateway Pearl will get you a random Gateway Pearl. These Pearls can be used to summmon a wave-based challenge."
+				"&5Using an Unidentified Gateway Pearl will get ye a random Gateway Pearl. These Pearls can be used to summmon a wave-based challenge."
 				""
-				"&5Monsters will spawn in waves, and to win you must kill every monster within a time limit."
+				"&dMonsters will spawn in waves, and to win you must kill every monster within a time limit."
 				""
-				"&5If you succeed you will get some special rewards, some you can only find from a Gateway Pearl."
+				"&5If ye succeed ye will get some special rewards, some ye can only find from a Gateway Pearl."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1BB69DE20D9F42F7"]
@@ -369,9 +358,10 @@
 				item: "woldsvaults:unidentified_gateway_pearl"
 			}]
 			rewards: [{
-				id: "75B157153633CFEE"
-				type: "item"
-				item: "woldsvaults:unidentified_gateway_pearl"
+				id: "292186C15BD6293A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 818089594093312426L
 			}]
 		}
 		{
@@ -381,13 +371,13 @@
 			shape: "rsquare"
 			subtitle: "...Wait, Are We God Now?"
 			description: [
-				"&5Defeating the Herald will give you a recipe in the Vault Forge for a Zephyr Charm."
+				"&dDefeating the Herald will give you a recipe in the Vault Forge for a Zephyr Charm."
 				""
-				"&5The Zephyr Charm is a powerful charm that boosts your ground speed a bit, but also boosts your air speed by much, much more! "
+				"&5The Zephyr Charm is a powerful charm that boosts yer ground speed a bit, but also boosts yer air speed by much, much more! "
 				""
-				"&5This means you can nearly fly through Vaults by bunny hopping!"
+				"&dThis means you can nearly fly through Vaults by bunny hopping!"
 				""
-				"&5Just be careful! It's very easy to throw yourself into a dangerous situation. Like Lava. "
+				"&5Just be careful! It's very easy to throw yerself into a dangerous situation. Like Lava. "
 			]
 			hide_dependency_lines: true
 			dependencies: ["1E1457C794B6792E"]
@@ -399,9 +389,72 @@
 				item: "woldsvaults:zephyr_charm"
 			}]
 			rewards: [{
-				id: "382E96D6654F74CC"
+				id: "56D813FC65897E58"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 818089594093312426L
+			}]
+		}
+		{
+			title: "More Expertly"
+			x: -3.25d
+			y: 0.25d
+			shape: "rsquare"
+			subtitle: "Think Smarter"
+			description: [
+				"&5Bandit, when ye hit Level 100, ye can start finding Arcane Essence in completion crates."
+				""
+				"&dArcane Essence is used to craft Expertise Orbs, which let you increase your Expertise points beyond level 100."
+				""
+				"&5With enough time and work, ye can unlock ALL of the Expertises!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["64E050541DAAF09C"]
+			id: "6F19C35910CD674E"
+			tasks: [{
+				id: "458FA5EC29106DD1"
 				type: "item"
-				item: "woldsvaults:omega_box"
+				item: "woldsvaults:arcane_essence"
+			}]
+			rewards: [
+				{
+					id: "5592C9EEE42F6301"
+					type: "item"
+					item: "woldsvaults:arcane_essence"
+				}
+				{
+					id: "3E0308CC5233DD2F"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 818089594093312426L
+				}
+			]
+		}
+		{
+			title: "Prestigous Ascent"
+			icon: "woldsvaults:chromatic_gold_angel_ring"
+			x: -5.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Grinding to Godhood"
+			description: [
+				"&5Upon defeating the Herald, you unlock one of the major end-game systems : Prestige."
+				""
+				"&5Prestige enables you to continue running Vaults, earning XP and loot. When you gain a level above 100, you earn a Prestige Point."
+				""
+				"&5Prestige Points can be used in the new Prestige Power tab in your VH GUI. They are set into tiers, and each power in a tier you unlock requires a power unlocked in a previous tier (Example : to unlock a 3rd Tier3 Power, you must have 3 Tier2 powers and 3 Tier1 Powers unlocked!)"
+				""
+				"&5Note that Prestige Powers not only require Prestige Points, but also Knowledge Points to unlock!"
+			]
+			id: "7276F94CA856A021"
+			tasks: [{
+				id: "7D27066268DE2AED"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "68F08D07D58E2A31"
+				type: "item"
+				item: "the_vault:knowledge_star"
 			}]
 		}
 	]

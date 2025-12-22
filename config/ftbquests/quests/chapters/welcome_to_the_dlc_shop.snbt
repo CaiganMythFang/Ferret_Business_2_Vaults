@@ -21,7 +21,7 @@
 	quests: [
 		{
 			x: -3.5d
-			y: -1.75d
+			y: -2.25d
 			shape: "pentagon"
 			subtitle: "EXPLANATION OF PURCHASE BENEFITS"
 			description: [
@@ -29,9 +29,9 @@
 				""
 				"&2We at the FOP believe that to obtain the highest sense of Pride and Accomplishment, as well as protect users new to the Game Server, that everything beyond basic components and systems are not available to new users. Instead, users must earn access!"
 				""
-				"&2As you can see, the Store DLC is organized into Ranks. As you progress in levels in Vault Hunters, you unlock higher ranks, and with them more items will become available to purchase in the Shop!"
+				"&2As you can see, the Store DLC is organized into catagories, to help aid you in perusal of our fine DLC offerings!"
 				""
-				"&2Infra Red, or Rank 0, has some very basic items available for you to purchase. As a reward for unlocking the DLC Shop, please accept this Iron Pickaxe! May you harvest much with it!"
+				"&2At first, you'll have only a few items available to purchase. As a reward for unlocking the DLC Shop, please accept this Iron Pickaxe! May you harvest much with it!"
 			]
 			dependencies: ["1B6761988ABBBC4A"]
 			hide: true
@@ -55,7 +55,7 @@
 		}
 		{
 			x: -3.5d
-			y: -0.75d
+			y: -1.25d
 			shape: "pentagon"
 			subtitle: "Earned and Spent"
 			description: [
@@ -100,7 +100,7 @@
 		}
 		{
 			x: -3.5d
-			y: 0.25d
+			y: -0.25d
 			shape: "pentagon"
 			subtitle: "Fight For Fun!"
 			description: [
@@ -126,7 +126,7 @@
 		{
 			title: "Digitalization"
 			x: -3.5d
-			y: 1.25d
+			y: 1.75d
 			shape: "pentagon"
 			subtitle: "Sell Almost Anything!"
 			description: [
@@ -142,7 +142,7 @@
 				""
 				"&2PLEASE INSERT 1,000 &dWrong. One sec... &4ERROR &21 VAULT BRONZE PAYMENT."
 			]
-			dependencies: ["22810A844797AC73"]
+			dependencies: ["27CEECCDD982B0F4"]
 			hide: true
 			id: "1363CB79C9B54E49"
 			tasks: [{
@@ -159,7 +159,7 @@
 		}
 		{
 			x: -3.5d
-			y: 2.25d
+			y: 2.75d
 			shape: "pentagon"
 			subtitle: "Don't forget your DLC!"
 			description: [
@@ -182,6 +182,36 @@
 				id: "1233B8FDC9ACC956"
 				type: "checkmark"
 				title: "Please Enter!"
+			}]
+		}
+		{
+			title: "Swing With Style"
+			icon: {
+				id: "ae2:fluix_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: 0.75d
+			shape: "pentagon"
+			subtitle: "Combat Improved"
+			description: [
+				"&2Unlike our previous server offerings for combat, the primary combat in the FOP Game Server is handled by Better Combat. Smoother animations, combos, and more, which have a much different feel to vanilla Minecraft combat!"
+				""
+				"&2The combat animations and combos change depending on what weapons you are using. A sword, for exmaple, will feeld ifferent than a Battlestaff or an Axe!"
+				""
+				"&2If you are very used to Vanilla combat, our combat system may feel jarring and out of place. Our apologies, but we would highly recommend giving it a chance through a couple Vaults first!"
+				""
+				"&2If you still prefer Vanilla Minecraft combat, you can enable and disable Better Combat by pressing the appropriate keybind. By default, this is Period."
+			]
+			dependencies: ["22810A844797AC73"]
+			hide: true
+			id: "27CEECCDD982B0F4"
+			tasks: [{
+				id: "2321F8CD8E8BD4A4"
+				type: "checkmark"
 			}]
 		}
 	]

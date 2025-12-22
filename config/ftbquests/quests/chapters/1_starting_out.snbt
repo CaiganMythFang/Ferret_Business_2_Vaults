@@ -258,8 +258,8 @@
 					}
 				}
 			}
-			x: 0.0d
-			y: -3.25d
+			x: 0.25d
+			y: -1.75d
 			shape: "rsquare"
 			subtitle: "Entrance Fee"
 			description: [
@@ -274,9 +274,9 @@
 				"You can set the scaling of resources for Crystals with the following command : "
 				"&6/gamerule vaultCrystalMode mode :&r Replace mode with one of the following :"
 				"     Infinity (no cost)"
-				"     Normal"
-				"     Grindy"
-				"     Extreme"
+				"     Normal (1x)"
+				"     Grindy (2x)"
+				"     Extreme (3x)"
 			]
 			dependencies: ["4CA0844372B19F19"]
 			hide: true
@@ -296,8 +296,8 @@
 		{
 			title: "Group Survival"
 			icon: "luphieclutteredmod:luphie_bunny_garland"
-			x: 1.25d
-			y: -1.0d
+			x: 1.5d
+			y: 0.25d
 			shape: "rsquare"
 			subtitle: "More the Merrier"
 			description: [
@@ -375,8 +375,8 @@
 					Damage: 0
 				}
 			}
-			x: 1.25d
-			y: -2.25d
+			x: 1.5d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "A Personal Challenge"
 			description: [
@@ -395,6 +395,8 @@
 				"&6/gamerule VaultMode Casual :&r You get your items back if you die, but they take some durability damage."
 				""
 				"&6/gamerule VaultMode Hardcore :&r You lose everything on you if you die in a Vault. "
+				""
+				"&6/gamerule VaultMode Royale :&r All Vault Crystals that come from basic Vault Rocks become Royale Vaults, a roguelike/battle royale style of Vault. (You will still need to be level 50 to enter these vaults)"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6DEFECFABD4DCB59"]
@@ -530,13 +532,13 @@
 				""
 				"&5Well, I don't think its too hard to understand, sis. It's like that movie, uh... the one with The One and the computer program government agents..."
 				""
-				"&dThe Matrix"
+				"&dThe Matrix."
 				""
-				"&5Yeah that one. Except the fake world the FOP created to control all the Power Users were real, they were just... digitized and rearranged into a game. So each Vault is actually small parts of an actual world they captured."
+				"&5Aye, that one. Except the fake world the FOP created to control all the Power Users were real, they were just... digitized and rearranged into a game. So each Vault is actually small parts of an actual world they captured."
 				""
 				"&dSo you are saying all the loot..."
 				""
-				"&5Yeah, everything 'important' is made to look like a some kind of game loot. Precious metals and gems become Carbon and Vault Gems. Real Weapons become Vault Weapons. Money become Vault Coins."
+				"&5Aye, everything 'important' is made to look like a some kind of game loot. Precious metals and gems become Carbon and Vault Gems. Real Weapons become Vault Weapons. Money become Vault Coins."
 				""
 				"&dI don't know if thats a brilliant or wonky way to explain it..."
 			]
@@ -718,9 +720,9 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "12ED88887188DAC6"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "06E098223A904086"
+				type: "item"
+				item: "the_vault:crystal_seal_sage"
 			}]
 		}
 		{
@@ -783,7 +785,7 @@
 			shape: "hexagon"
 			subtitle: "Abilities, Talents, and Expertise"
 			description: [
-				"&5Bad news, Bandit. Ye won't have the same kind of Veinmining skill you had in yer previous world."
+				"&5Bad news, Bandit. Ye won't have the same kind of Veinmining skill ye had in yer previous world."
 				""
 				"&dThe FOP entwined  it and other useful skills into the Vault Hunters skill system, which is split into three types : "
 				""
@@ -842,7 +844,7 @@
 			title: "Ornately Equipped"
 			icon: "the_vault:ornate_chest"
 			x: 7.25d
-			y: 4.75d
+			y: 5.25d
 			shape: "rsquare"
 			subtitle: "Get Power"
 			description: [
@@ -908,6 +910,8 @@
 				"&5So you can't just fast run the entire Vault."
 				""
 				"&dHere, you take the book I found, Bandit. It should help. I wonder if we can find a Researcher to better explain how to use it..."
+				""
+				"If a Parcool move is getting in the way, or you want to disable Parcool, you can simply either rebind or unbind all Parcool hotkeys in the in-game config. Search for catagory : Parcool."
 			]
 			hide_dependency_lines: true
 			dependencies: ["14E05D152CF5C051"]
@@ -965,7 +969,7 @@
 		{
 			title: "A Touch of Gilding"
 			x: 9.25d
-			y: 4.75d
+			y: 5.25d
 			shape: "rsquare"
 			subtitle: "Sparkling Loot"
 			description: [
@@ -1023,7 +1027,7 @@
 			title: "Pieces of the Soul"
 			icon: "the_vault:soul_shard"
 			x: 5.5d
-			y: 4.75d
+			y: 5.75d
 			shape: "rsquare"
 			subtitle: "Fighting Spirit"
 			description: [
@@ -1048,7 +1052,7 @@
 			title: "A Live Chest"
 			icon: "the_vault:living_chest"
 			x: 3.75d
-			y: 4.75d
+			y: 5.25d
 			shape: "rsquare"
 			subtitle: "Alive? Live? Life? Squishy!"
 			description: [
@@ -1074,7 +1078,7 @@
 		{
 			title: "Common As Wood"
 			x: 1.75d
-			y: 4.75d
+			y: 5.25d
 			shape: "rsquare"
 			subtitle: "Knock On"
 			description: [
@@ -1100,7 +1104,7 @@
 		{
 			title: "Curios and Baubles"
 			icon: "minestuck:black_queens_ring"
-			x: 11.25d
+			x: 11.0d
 			y: -2.75d
 			shape: "rsquare"
 			subtitle: "MOD : Curios"
@@ -1185,8 +1189,8 @@
 		{
 			title: "Vault Difficulty"
 			icon: "the_vault:soul_flame"
-			x: 1.25d
-			y: -3.5d
+			x: 1.5d
+			y: -2.25d
 			shape: "rsquare"
 			subtitle: "A Difficulty Tweak"
 			description: [
@@ -1205,7 +1209,7 @@
 				"    Piece of Cake"
 				"    Easy"
 				"    Normal (Default)"
-				"    Hard (Dwellers can throw bricks now)"
+				"    Hard (Champions are able to teleport to you starting at this difficulty)"
 				"    Impossible"
 				"    Fragged"
 			]
@@ -1330,7 +1334,7 @@
 				"If you are worried about the timer being a factor in how you enjoy running Vaults, you can change how much base time you have in a vault!"
 				""
 				"If you do : "
-				"/gamerule vaultTimer X"
+				"&6/gamerule vaultTimer X"
 				"You can replace the X with the number of minutes you would like the base timer to be! This changes the base time for EVERYONE on the server, keep in mind!"
 				""
 				"The default amount of time is 25. If you set it to 30, for example, it would be 30 minutes instead."
@@ -1349,15 +1353,9 @@
 		}
 		{
 			title: "Loot! Experience! Rewards!"
-			icon: {
-				id: "inventorypets:pet_loot"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 0.0d
-			y: -1.5d
+			icon: "supplementaries:sack"
+			x: 0.25d
+			y: -0.25d
 			shape: "rsquare"
 			subtitle: "How Much or Little Would You Like?"
 			description: [
@@ -1386,6 +1384,292 @@
 			tasks: [{
 				id: "567CEA37E19B68AD"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "An Easy Menu"
+			icon: "quarryplus:status_checker"
+			x: 0.7678571428571388d
+			y: -1.017857142857146d
+			shape: "gear"
+			subtitle: "All In One Spot"
+			description: [
+				"All the Vault and Gamerule commands listed in this quest and the ones below can all be accessed from a new menu in the Options Menu!"
+				""
+				"It is called Vault Settings. It gives you easy access to changing any of these settings."
+				""
+				"Many of them require you to be OPerator or admin on the server to set though!"
+			]
+			dependencies: ["4CA0844372B19F19"]
+			hide: true
+			size: 0.75d
+			id: "5480E27291C3072D"
+			tasks: [{
+				id: "6EB0C278DEC941FE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Huge Crystal Energy"
+			icon: "luphieclutteredmod:luphie_analog_kitchen_scale"
+			x: 2.75d
+			y: -0.25d
+			shape: "rsquare"
+			subtitle: "It Wants HOW Many Apples?!"
+			description: [
+				"&5Bandit, as ye level up and craft more Vault Crystals, the amount of ingredients ye are required to gather will increase."
+				""
+				"&dYep, and the FOP have added a gamerule to change how fast these scale up in amount."
+				""
+				"&5Aye, if ye get overwhelmed with how much ye have to gather, ye'll stop running Vaults altogether. No shame in lowering this, Bandit, cause ye'll need resources from inside the Vaults to escape as well."
+				""
+				"If you want the scaling to go faster or slower : "
+				""
+				"&6 /gamerule vaultCrystalRecipeScaling scale:&r Replace scale with one of the following :"
+				"    SLOW (0.5x)"
+				"    NORMAL (1x)"
+				"    FAST (2x)"
+				"    EXTREME (3x)"
+			]
+			hide: true
+			id: "764F54B79B1BF398"
+			tasks: [{
+				id: "4712A06D6C99C112"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sharing the Experience"
+			icon: "minecraft:experience_bottle"
+			x: 2.75d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "Your XP? No, Comrade, OUR XP!"
+			description: [
+				"&dIf you've arrived in the FOP Game Server with other Assistants, Bandit, you'll probably notice that the XP you each earn in a Vault Party is fairly different between each other."
+				""
+				"&5That's cause ye all get XP based on yer own actions : lootin, killin, etc. Yer own skills and builds can go faster or slower."
+				""
+				"&dThe FOP have a gamerule to change how XP is handled in Vault Parties. You can combine and split the XP evenly, or set it to match the highest or lowest player's earned XP."
+				""
+				"&6/gamerule vaultPartyExpSharing amount :&r Replace amount with one of the following :"
+				"    AVERAGE (Average of combined XP)"
+				"    HIGHEST (match highest XP gained)"
+				"    LOWEST (Match lowest XP gained)"
+				"    DISABLED (No share. Default)"
+			]
+			hide: true
+			id: "3F712FB40BA886FA"
+			tasks: [{
+				id: "6CD94742C42FBBA4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Locking Your Level"
+			icon: "thermal:lock"
+			x: 4.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Go No Further!"
+			description: [
+				"&dEarlier in the FOP Game Server, you had to do some file editing to set a level cap for your 'server', which was a great way to limit how fast some players could level so a friend group could stay at a similar level."
+				""
+				"&5Aye, and the FOP didn't want folks to muck around in the files, so they added a new gamerule recently."
+				""
+				"&6 /gamerule vaultLevelLock ##:&r Replace ## with the max level you want."
+			]
+			hide: true
+			id: "7BC6D74577BF0A53"
+			tasks: [{
+				id: "01DCBD05B7AE7989"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Common As Wood"
+			x: 1.75d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "Knock On"
+			description: [
+				"&5Wooden Chests will be the most common chest you find in the Vaults."
+				""
+				"&5They'll also contain some of your most common crafting resources."
+			]
+			hide_dependency_lines: true
+			hide: true
+			id: "6BE2AA86ACF05BE5"
+			tasks: [{
+				id: "57742EDFE89EE458"
+				type: "observation"
+				title: "Find a Wooden Chest"
+				icon: "the_vault:wooden_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:wooden_chest"
+			}]
+			rewards: [{
+				id: "2C067AC5D11820B5"
+				type: "item"
+				item: "the_vault:bounty_pearl"
+				count: 8
+			}]
+		}
+		{
+			title: "A Live Chest"
+			icon: "the_vault:living_chest"
+			x: 3.75d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "Alive? Live? Life? Squishy!"
+			description: [
+				"&5Living Chests tend to contain a variety of things related to knowledge and research. "
+				""
+				"&5Oh, and food!"
+			]
+			hide_dependency_lines: true
+			hide: true
+			id: "2467EC9E7914643D"
+			tasks: [{
+				id: "5AF05FE9F8C79D03"
+				type: "observation"
+				title: "Find a Living Chest"
+				icon: "sophisticatedstorage:living_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:living_chest"
+			}]
+			rewards: [{
+				id: "4573B91CCF0CA13B"
+				type: "item"
+				item: "the_vault:burger_patty"
+				count: 4
+			}]
+		}
+		{
+			title: "Cash Only"
+			x: 5.5d
+			y: 4.75d
+			shape: "rsquare"
+			subtitle: "Toss a Coin to Your Vaulter"
+			description: [
+				"&dCoin piles contain, well, what it says on the tin : coins!"
+				""
+				"&5Vault coins are needed for a lot of things : rerolling gear, crafting items, buying back equipment, etc. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["5E574242513BE343"]
+			id: "6FA6591AECD82843"
+			tasks: [{
+				id: "40C22A0E6D9FA5D0"
+				type: "observation"
+				title: "Find a Coin Pile"
+				icon: "the_vault:coin_pile"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:coin_pile"
+			}]
+			rewards: [{
+				id: "249981EB6C1BD2F9"
+				type: "item"
+				item: "the_vault:vault_silver"
+			}]
+		}
+		{
+			title: "Pieces of the Soul"
+			icon: "the_vault:soul_shard"
+			x: 5.5d
+			y: 10.75d
+			shape: "rsquare"
+			subtitle: "Fighting Spirit"
+			description: [
+				"&5See that purple crystal looking thing you just got? Not the Elixir orb, that other thing. That's a Soul Shard."
+				""
+				"&5You get them from defeating enemies in the Vault. It's sort of... a piece of their fighting spirit. A reward for defeating them, basically."
+				""
+				"&5You'll want to collect as many of these as you can, they are very useful. You'll get a way to store them later, but for now treat it like any other piece of loot."
+				""
+				"&5Consider it Yet Another Form of Currency."
+			]
+			hide_dependency_lines: true
+			hide: true
+			id: "0CF5C0BE2773283D"
+			tasks: [{
+				id: "79D641D8F8517A16"
+				type: "item"
+				item: "the_vault:soul_shard"
+			}]
+			rewards: [{
+				id: "0C65E38FC45A77FE"
+				type: "item"
+				item: "the_vault:soul_shard"
+				count: 16
+			}]
+		}
+		{
+			title: "Ornately Equipped"
+			icon: "the_vault:ornate_chest"
+			x: 7.25d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "Get Power"
+			description: [
+				"&5Ornate Chests usually contain things related to Vault Gear."
+				""
+				"&5Vault Weapons, Vault Armor... But not ALL Vault Gear..."
+				""
+				"&5Also lots of your Focuses and things related to re-rolling and customizing your Vault Gear."
+			]
+			hide_dependency_lines: true
+			hide: true
+			id: "4BB8FF8F2C8D607A"
+			tasks: [{
+				id: "7B6D076133B48161"
+				type: "observation"
+				title: "Find an Ornate Chest"
+				icon: "sophisticatedstorage:ornate_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:ornate_chest"
+			}]
+			rewards: [{
+				id: "56ECDFD6247DEF7D"
+				type: "item"
+				item: "the_vault:wild_focus"
+				count: 4
+			}]
+		}
+		{
+			title: "A Touch of Gilding"
+			x: 9.25d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "Sparkling Loot"
+			description: [
+				"&5Gilded Chests contain sparkling and luxurious loot."
+				""
+				"&5It used to just be Vault Diamonds and Jewels, but luxury loot now includes Vault Plushies and Vault Sacks, but only after level 50."
+				""
+				"&5These will be your main source of Jewels for Vault Tools, and many non-low level crafts require Vault Diamonds."
+			]
+			hide_dependency_lines: true
+			hide: true
+			id: "787D1991716F0A38"
+			tasks: [{
+				id: "6CCDB8CC65B18408"
+				type: "observation"
+				title: "Find a Gilded Chest"
+				icon: "the_vault:gilded_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:gilded_chest"
+			}]
+			rewards: [{
+				id: "6A7FD693910038A3"
+				type: "item"
+				item: "the_vault:vault_diamond"
+				count: 2
 			}]
 		}
 	]
