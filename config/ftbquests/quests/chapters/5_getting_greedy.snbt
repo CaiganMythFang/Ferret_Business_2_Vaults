@@ -4,7 +4,7 @@
 	order_index: 5
 	filename: "5_getting_greedy"
 	title: "[5] Let's Get Greedy"
-	icon: "the_vault:wold_star"
+	icon: "woldsvaults:wold_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -438,14 +438,15 @@
 			shape: "hexagon"
 			subtitle: "Grinding to Godhood"
 			description: [
-				"&5Upon defeating the Herald, you unlock one of the major end-game systems : Prestige."
+				"&dUpon defeating the Herald, you unlock one of the major end-game systems : Prestige."
 				""
-				"&5Prestige enables you to continue running Vaults, earning XP and loot. When you gain a level above 100, you earn a Prestige Point."
+				"&5Prestige enables ye to continue running Vaults, earning XP and loot. When ye gain a level above 100, ye earn a Prestige Point."
 				""
-				"&5Prestige Points can be used in the new Prestige Power tab in your VH GUI. They are set into tiers, and each power in a tier you unlock requires a power unlocked in a previous tier (Example : to unlock a 3rd Tier3 Power, you must have 3 Tier2 powers and 3 Tier1 Powers unlocked!)"
+				"&dPrestige Points can be used in the new Prestige Power tab in your VH GUI. They are set into tiers, and each power in a tier you unlock requires a power unlocked in a previous tier (Example : to unlock a 3rd Tier3 Power, you must have 3 Tier2 powers and 3 Tier1 Powers unlocked!)"
 				""
-				"&5Note that Prestige Powers not only require Prestige Points, but also Knowledge Points to unlock!"
+				"&5Note that Prestige Powers not only require Prestige Points, but also Knowledge Points to unlock, Bandit. Keep collecting that Knowledge."
 			]
+			dependencies: ["64E050541DAAF09C"]
 			id: "7276F94CA856A021"
 			tasks: [{
 				id: "7D27066268DE2AED"
