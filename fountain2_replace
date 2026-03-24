@@ -1,0 +1,53 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "e",
+        "block": "simplylight:illuminant_panel[facing=up,waterlogged=true]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "       ##       ",
+        "      #WW#      ",
+        "     #WeeW#     ",
+        "     #WeeW#     ",
+        "      #WW#      ",
+        "       ##       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+}

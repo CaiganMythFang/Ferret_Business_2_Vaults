@@ -1,0 +1,101 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "f",
+        "block": "decocraft:diner_chair_magenta[facing=south]"
+      },
+      {
+        "char": "k",
+        "block": "decocraft:ice_cream_cart[facing=east]"
+      },
+      {
+        "char": "j",
+        "block": "decocraft:diner_chair_magenta[facing=north]"
+      },
+      {
+        "char": "i",
+        "block": "decocraft:diner_table_magenta[facing=east]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        "  f             ",
+        "                ",
+        "  i             ",
+        "  j             ",
+        "                ",
+        "  f             ",
+        "          k     ",
+        "  i       e     ",
+        "  j             ",
+        "                ",
+        "  f             ",
+        "                ",
+        "  i             ",
+        "  j             ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+}

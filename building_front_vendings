@@ -1,0 +1,153 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "i",
+        "block": "vm:vending_machine[bottom=true,facing=west]"
+      },
+      {
+        "char": "e",
+        "block": "vm:vending_machine[bottom=true,facing=south]"
+      },
+      {
+        "char": "m",
+        "block": "vm:vending_machine[bottom=false,facing=east]"
+      },
+      {
+        "char": "k",
+        "block": "vm:vending_machine[bottom=false,facing=south]"
+      },
+      {
+        "char": "n",
+        "block": "vm:vending_machine[bottom=false,facing=west]"
+      },
+      {
+        "char": "f",
+        "block": "vm:vending_machine[bottom=true,facing=east]"
+      },
+      {
+        "char": "o",
+        "block": "vm:vending_machine[bottom=false,facing=north]"
+      },
+      {
+        "char": "j",
+        "block": "vm:vending_machine[bottom=true,facing=north]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        " eee        eee ",
+        "f              i",
+        "f              i",
+        "f              i",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "f              i",
+        "f              i",
+        "f              i",
+        " jjj        jjj "
+      ],
+      [
+        " kkk        kkk ",
+        "m              n",
+        "m              n",
+        "m              n",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "m              n",
+        "m              n",
+        "m              n",
+        " ooo        ooo "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+}

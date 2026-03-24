@@ -1,0 +1,157 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "i",
+        "block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=false]"
+      },
+      {
+        "char": "m",
+        "block": "simplylight:edge_light_top[east=true,north=false,south=false,waterlogged=false,west=false]"
+      },
+      {
+        "char": "k",
+        "block": "simplylight:edge_light_top[east=false,north=false,south=false,waterlogged=false,west=true]"
+      },
+      {
+        "char": "j",
+        "block": "simplylight:edge_light_top[east=true,north=true,south=false,waterlogged=false,west=false]"
+      },
+      {
+        "char": "e",
+        "block": "elevatorid:elevator_white[directional=false,facing=south,show_arrow=true]"
+      },
+      {
+        "char": "o",
+        "block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=false]"
+      },
+      {
+        "char": "n",
+        "block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=true]"
+      },
+      {
+        "char": "f",
+        "block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=true]"
+      },
+      {
+        "char": "q",
+        "block": "simplylight:edge_light_top[east=true,north=false,south=true,waterlogged=false,west=false]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "#$$#$$#$$#$$#$$#",
+        "$e#############$",
+        "$##############$",
+        "################",
+        "$##############$",
+        "$##############$",
+        "################",
+        "$##############$",
+        "$##############$",
+        "################",
+        "$##############$",
+        "$##############$",
+        "################",
+        "$##############$",
+        "$##############$",
+        "#$$#$$#$$#$$#$$#"
+      ],
+      [
+        "######    ######",
+        "#              #",
+        "#              #",
+        "#              #",
+        "#              #",
+        "#              #",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "#              #",
+        "#              #",
+        "#              #",
+        "#              #",
+        "#              #",
+        "######    ######"
+      ],
+      [
+        "##444#    #444##",
+        "#              #",
+        "4              4",
+        "4              4",
+        "4              4",
+        "#              #",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "#              #",
+        "4              4",
+        "4              4",
+        "4              4",
+        "#              #",
+        "##444#    #444##"
+      ],
+      [
+        "##444#    #444##",
+        "#              #",
+        "4              4",
+        "4              4",
+        "4              4",
+        "#              #",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "#              #",
+        "4              4",
+        "4              4",
+        "4              4",
+        "#              #",
+        "##444#    #444##"
+      ],
+      [
+        "################",
+        "#fiiiiiiiiiiiij#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#k            m#",
+        "#nooooooooooooq#",
+        "################"
+      ],
+      [
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################"
+      ]
+    ]
+  }
+}

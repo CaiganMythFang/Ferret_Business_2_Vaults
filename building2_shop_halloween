@@ -1,0 +1,225 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "'",
+        "block": "magic_vibe_decorations:ghost_wallpaint[facing=east,waterlogged=false]"
+      },
+      {
+        "char": ">",
+        "block": "decocraft:happy_halloween[facing=north]"
+      },
+      {
+        "char": ",",
+        "block": "decocraft:paper_lantern_ghost[facing=south]"
+      },
+      {
+        "char": "|",
+        "block": "moa_decor_holidays:papelpicado_a[facing=south]"
+      },
+      {
+        "char": "8",
+        "block": "decocraft:candy_bag_pumpkin[facing=west]"
+      },
+      {
+        "char": "{",
+        "block": "decocraft:jack_o_lantern_trio[facing=east]"
+      },
+      {
+        "char": "N",
+        "block": "moa_decor_holidays:lapida[facing=east]"
+      },
+      {
+        "char": "e",
+        "block": "elevatorid:elevator_white[directional=false,facing=south,show_arrow=true]"
+      },
+      {
+        "char": "s",
+        "block": "luphieclutteredmod:luphie_purple_black_cat_bookshelf"
+      },
+      {
+        "char": "P",
+        "block": "decocraft:closet_2_white[facing=south]"
+      },
+      {
+        "char": "V",
+        "block": "moa_decor_holidays:mariachiguitarra[facing=east]"
+      },
+      {
+        "char": "<",
+        "block": "decocraft:happy_halloween[facing=west]"
+      },
+      {
+        "char": "]",
+        "block": "decocraft:jack_o_lantern_trio[facing=west]"
+      },
+      {
+        "char": "^",
+        "block": "moa_decor_art:maniqui[facing=east]"
+      },
+      {
+        "char": "O",
+        "block": "decocraft:closet_2_white[facing=north]"
+      },
+      {
+        "char": "[",
+        "block": "decocraft:cash_register[facing=north]"
+      },
+      {
+        "char": "7",
+        "block": "decocraft:balloons_halloween[facing=east]"
+      },
+      {
+        "char": "r",
+        "block": "decocraft:jack_o_lantern_trio[facing=south]"
+      },
+      {
+        "char": "U",
+        "block": "moa_decor_holidays:mariachiguitarra[facing=west]"
+      },
+      {
+        "char": "6",
+        "block": "tfb2:costume_shop_mannequin_placeholder"
+      },
+      {
+        "char": "E",
+        "block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_glow_counter[facing=east]"
+      },
+      {
+        "char": "3",
+        "block": "decocraft:clothes_rack_4[facing=south]"
+      },
+      {
+        "char": "&",
+        "block": "buildersdelight:glass_5"
+      },
+      {
+        "char": "H",
+        "block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_glow_counter[facing=north]"
+      },
+      {
+        "char": "5",
+        "block": "decocraft:balloons_halloween[facing=north]"
+      },
+      {
+        "char": "0",
+        "block": "decocraft:balloons_halloween[facing=south]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "#$$#$$#$$#$$#$$#",
+        "$e#############$",
+        "$##############$",
+        "################",
+        "$##############$",
+        "$##############$",
+        "###############$",
+        "$##############$",
+        "$##############$",
+        "###############$",
+        "$##############$",
+        "$##############$",
+        "################",
+        "$##############$",
+        "$##############$",
+        "#$$#$$$$$$$$#$$#"
+      ],
+      [
+        "################",
+        "#      rrrrrs#$#",
+        "#    E      s#$#",
+        "#HHHHH      s#$#",
+        "#N       O  s#$#",
+        "#N      P   s###",
+        "#N   UV        0",
+        "#N   UV 3       ",
+        "#N   UV         ",
+        "#N   UV 3      5",
+        "##6          6##",
+        "#$#6        6#$#",
+        "#$$#6      6#$$#",
+        "#$$$#6    6#$$$#",
+        "#$$$$#    #$$$$#",
+        "######7  5######"
+      ],
+      [
+        "################",
+        "#           8# #",
+        "#           8#^&",
+        "# [ [       8# &",
+        "#           8#^&",
+        "#           8###",
+        "#               ",
+        "#               ",
+        "#               ",
+        "#               ",
+        "##            ##",
+        "# #          # &",
+        "&]6#        #6{&",
+        "&] 6#      #6 {&",
+        "# rr #    # rr #",
+        "##&&&#    #&&&##"
+      ],
+      [
+        "################",
+        "#||||||||||||# #",
+        "#            # &",
+        "#'           # &",
+        "#            # &",
+        "#            ###",
+        "#              <",
+        "#               ",
+        "#              <",
+        "#               ",
+        "##            ##",
+        "# #          # &",
+        "&  #        #  &",
+        "&   #      #   &",
+        "#    #    #    #",
+        "##&&&# > >#&&&##"
+      ],
+      [
+        "################",
+        "#fiiiiiiiiiij#j#",
+        "#k          m#m#",
+        "#k          m#m#",
+        "#k  ,  ,  , m#q#",
+        "#k          m###",
+        "#k           ij#",
+        "#k            m#",
+        "#k  ,  ,  ,   m#",
+        "#n            q#",
+        "##n          q##",
+        "#f#n        q#j#",
+        "#k #n      q# m#",
+        "#k  #n    q#  m#",
+        "#nooq#nooq#nooq#",
+        "################"
+      ],
+      [
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################"
+      ]
+    ]
+  }
+}

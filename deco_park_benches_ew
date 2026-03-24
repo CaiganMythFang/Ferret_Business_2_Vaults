@@ -1,0 +1,117 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "k",
+        "block": "everycomp:cfm/auxiliaryblocks/gloomy_park_bench[facing=west,type=middle,waterlogged=false]"
+      },
+      {
+        "char": "j",
+        "block": "everycomp:cfm/auxiliaryblocks/gloomy_park_bench[facing=east,type=left,waterlogged=false]"
+      },
+      {
+        "char": "m",
+        "block": "everycomp:cfm/auxiliaryblocks/gloomy_park_bench[facing=east,type=middle,waterlogged=false]"
+      },
+      {
+        "char": "e",
+        "block": "luphieclutteredmod:blue_tarrey_town_planter[facing=east]"
+      },
+      {
+        "char": "f",
+        "block": "luphieclutteredmod:blue_tarrey_town_planter[facing=west]"
+      },
+      {
+        "char": "i",
+        "block": "everycomp:cfm/auxiliaryblocks/gloomy_park_bench[facing=west,type=right,waterlogged=false]"
+      },
+      {
+        "char": "n",
+        "block": "everycomp:cfm/auxiliaryblocks/gloomy_park_bench[facing=west,type=left,waterlogged=false]"
+      },
+      {
+        "char": "o",
+        "block": "everycomp:cfm/auxiliaryblocks/gloomy_park_bench[facing=east,type=right,waterlogged=false]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    ee    ff    ",
+        "    ei    jf    ",
+        "    ek    mf    ",
+        "    ek    mf    ",
+        "    en    of    ",
+        "    ee    ff    ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+}

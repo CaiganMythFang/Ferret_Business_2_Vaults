@@ -1,0 +1,141 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "f",
+        "block": "pneumaticcraft:smooth_plastic_brick_orange[x_part=none,z_part=right]"
+      },
+      {
+        "char": "k",
+        "block": "rechiseled:lapis_block_glossy_connecting"
+      },
+      {
+        "char": "i",
+        "block": "pneumaticcraft:smooth_plastic_brick_orange[x_part=none,z_part=left]"
+      },
+      {
+        "char": "j",
+        "block": "rechiseled:lapis_block_polished_connecting"
+      },
+      {
+        "char": "e",
+        "block": "chipped:spruce_planks_2"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "X$#####$$#####$X",
+        "$333333e3333333$",
+        "#3eeeeeeeeeeee3#",
+        "f3eeeeeeeeeeee3#",
+        "i3eeeeeeeeeeee3#",
+        "f3eeeeeeeeeeee3#",
+        "i3eeeeeeeeeeee3#",
+        "$eeeeeeeeeeeeee$",
+        "$3eeeeeeeeeeee3$",
+        "f3eeeeeeeeeeee3#",
+        "i3eeeeeeeeeeee3#",
+        "f3eeeeeeeeeeee3#",
+        "i3eeeeeeeeeeee3#",
+        "#333333e3e33333#",
+        "$333333eel33333$",
+        "X$#####$$#####$X"
+      ],
+      [
+        "X#$##########$#X",
+        "#333333 3333333#",
+        "$3            3$",
+        "#3            3#",
+        "f3            3#",
+        "i3            3#",
+        "f3            3#",
+        "i              #",
+        "f3            3#",
+        "ij            3#",
+        "fj            3#",
+        "i3            3#",
+        "#3            3#",
+        "$333333 3333333$",
+        "#333333  l33333#",
+        "X#$##########$#X"
+      ],
+      [
+        "X##$########$##X",
+        "#333333 3333333#",
+        "#3            3#",
+        "$3            3$",
+        "#3            3#",
+        "f3            3#",
+        "i3            3#",
+        "f              #",
+        "i3            3#",
+        "fk            3#",
+        "ik            3#",
+        "#3            3#",
+        "$3            3$",
+        "#333333 3333333#",
+        "#333333  l33333#",
+        "X##$########$##X"
+      ],
+      [
+        "X###$######$###X",
+        "#33333333333333#",
+        "#3            3#",
+        "#3            3#",
+        "$3            3$",
+        "#3            3#",
+        "f3            3#",
+        "i3            3#",
+        "f3            3#",
+        "i3            3#",
+        "#3            3#",
+        "$3            3$",
+        "#3            3#",
+        "#33333333333333#",
+        "#33333333l33333#",
+        "X###$######$###X"
+      ],
+      [
+        "X####$####$####X",
+        "#33333333333333#",
+        "#3            3#",
+        "#3            3#",
+        "#3            3#",
+        "$3            3$",
+        "#3            3#",
+        "f3            3#",
+        "i3            3#",
+        "#3            3#",
+        "$3            3$",
+        "#3            3#",
+        "#3            3#",
+        "#33333333333333#",
+        "#33333333l33333#",
+        "X####$####$####X"
+      ],
+      [
+        "X#####$##$#####X",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33333333333333#",
+        "$33333333333333$",
+        "#33333333333333#",
+        "#33333333333333#",
+        "$33333333333333$",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33333333l33333#",
+        "X##############X"
+      ]
+    ]
+  }
+}

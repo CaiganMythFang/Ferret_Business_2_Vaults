@@ -1,0 +1,221 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "f",
+        "block": "pneumaticcraft:smooth_plastic_brick_orange[x_part=right,z_part=none]"
+      },
+      {
+        "char": "8",
+        "block": "pneumaticcraft:wall_lamp_inverted_white[facing=north,lit=true,waterlogged=false]"
+      },
+      {
+        "char": "k",
+        "block": "minecraft:grass_block[snowy=false]"
+      },
+      {
+        "char": "&",
+        "block": "literalskyblock:sky_block"
+      },
+      {
+        "char": "U",
+        "block": "chipped:light_gray_concrete_5"
+      },
+      {
+        "char": "o",
+        "block": "create:cut_tuff_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]"
+      },
+      {
+        "char": "E",
+        "block": "create:cut_tuff_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]"
+      },
+      {
+        "char": "O",
+        "block": "create:cut_tuff_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]"
+      },
+      {
+        "char": "e",
+        "block": "pneumaticcraft:smooth_plastic_brick_orange[x_part=left,z_part=none]"
+      },
+      {
+        "char": "j",
+        "block": "pneumaticcraft:smooth_plastic_brick_orange[x_part=none,z_part=left]"
+      },
+      {
+        "char": "^",
+        "block": "chipped:light_gray_concrete_11"
+      },
+      {
+        "char": "i",
+        "block": "pneumaticcraft:smooth_plastic_brick_orange[x_part=none,z_part=right]"
+      },
+      {
+        "char": "N",
+        "block": "chipped:lodestone_39"
+      },
+      {
+        "char": "6",
+        "block": "pneumaticcraft:wall_lamp_inverted_white[facing=east,lit=true,waterlogged=false]"
+      },
+      {
+        "char": "r",
+        "block": "create:cut_tuff_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=low]"
+      },
+      {
+        "char": "s",
+        "block": "create:cut_tuff_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=low]"
+      },
+      {
+        "char": "V",
+        "block": "create:cut_tuff_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+      },
+      {
+        "char": "0",
+        "block": "moa_decor_art:esculturavenusdemilo[facing=south]"
+      },
+      {
+        "char": "5",
+        "block": "pneumaticcraft:wall_lamp_inverted_white[facing=south,lit=true,waterlogged=false]"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:dirt"
+      },
+      {
+        "char": "n",
+        "block": "chipped:gray_concrete_7"
+      },
+      {
+        "char": "P",
+        "block": "create:cut_tuff_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]"
+      },
+      {
+        "char": "7",
+        "block": "pneumaticcraft:wall_lamp_inverted_white[facing=west,lit=true,waterlogged=false]"
+      },
+      {
+        "char": "H",
+        "block": "create:cut_tuff_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]"
+      },
+      {
+        "char": "q",
+        "block": "create:cut_tuff_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "X$efef#$$#efef$X",
+        "$33333333333333$",
+        "#33333333333333#",
+        "i33333333333333i",
+        "j33333333333333j",
+        "i3333kkkkk33333i",
+        "j3333kkkkk33333j",
+        "$3333kkmkk33333$",
+        "$3333kkkkk33333$",
+        "i3333kkkkk33333i",
+        "j33333333333333j",
+        "i33333333333333i",
+        "j33333333333333j",
+        "#33333333333333#",
+        "$33333333l33333$",
+        "X$efef#$$#efef$X"
+      ],
+      [
+        "X#$efefefefef$#X",
+        "#nnnnnn nnnnnnn#",
+        "$n           nn$",
+        "#n           nn#",
+        "in  oqrqrqs  nni",
+        "jn  E     E  nnj",
+        "in  H     H  nni",
+        "j   E  N  E    j",
+        "in  H     H  nni",
+        "jn  E     E  nnj",
+        "in  OqrqrqP  nni",
+        "jn           nnj",
+        "#n           nn#",
+        "$nnnnnn nnnnnnn$",
+        "#3nnnnn  lnnnnn#",
+        "X#$efefefefef$#X"
+      ],
+      [
+        "X##$efefefef$##X",
+        "iUUUUUU UUUUUUUi",
+        "jU           UUj",
+        "$U           UU$",
+        "#U  V V V V  UU#",
+        "iU           UUi",
+        "jU  V     V  UUj",
+        "i      0       i",
+        "jU  V     V  UUj",
+        "iU           UUi",
+        "jU  V V V V  UUj",
+        "#U           UU#",
+        "$U           UU$",
+        "iUUUUUU UUUUUUUi",
+        "jUUUUUU  lUUUUUj",
+        "X##$efefefef$##X"
+      ],
+      [
+        "Xef#$efefef$#efX",
+        "#UUUUUUUUUUUUUU#",
+        "iU     5     UUi",
+        "jU           UUj",
+        "$U  V V V V  UU$",
+        "#U           UU#",
+        "iU  V     V  UUi",
+        "jU6         7UUj",
+        "iU  V     V  UUi",
+        "jU           UUj",
+        "#U  V V V V  UU#",
+        "$U           UU$",
+        "iU     8     UUi",
+        "j3UUUUUUUUUUUUUj",
+        "#3UUUUUUUlUUUUU#",
+        "Xef#$efefef$#efX"
+      ],
+      [
+        "X#ef#$efef$#ef#X",
+        "iUUUUUUUUUUUUUUi",
+        "jU^^^^^^^^^^^^Uj",
+        "iU^^^^^^^^^^^^Ui",
+        "jU^^^^^^^^^^^^Uj",
+        "$U^^^     ^^^^U$",
+        "#U^^^     ^^^^U#",
+        "iU^^^     ^^^^Ui",
+        "jU^^^     ^^^^Uj",
+        "#U^^^     ^^^^U#",
+        "$U^^^^^^^^^^^^U$",
+        "iU^^^^^^^^^^^^Ui",
+        "jU^^^^^^^^^^^^Uj",
+        "i3UUUUUUUUUUUUUi",
+        "j3UUUUUUUlUUUUUj",
+        "X#ef#$efef$#ef#X"
+      ],
+      [
+        "Xefef#$ef$#efefX",
+        "#33333333333333#",
+        "i3^^^^^^^^^^^^3i",
+        "j3^^^^^^^^^^^^3j",
+        "i3^^^^^^^^^^^^3i",
+        "j3^^^&&&&&^^^^3j",
+        "$3^^^&&&&&^^^^3$",
+        "#3^^^&&&&&^^^^3#",
+        "#3^^^&&&&&^^^^3#",
+        "$3^^^&&&&&^^^^3$",
+        "i3^^^^^^^^^^^^3i",
+        "j3^^^^^^^^^^^^3j",
+        "i3^^^^^^^^^^^^3i",
+        "j3UUUUUUUUUUUUUj",
+        "#3UUUUUUUlUUUUU#",
+        "XefefefefefefefX"
+      ]
+    ]
+  }
+}
