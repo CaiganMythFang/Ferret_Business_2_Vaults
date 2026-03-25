@@ -2,7 +2,7 @@
 [Delivery]
 	#Time in ticks that deliveries take. Agreement can override this value. Default: 200 ticks (10 seconds)
 	#Range: > 1
-	DefaultDeliveryTime = 288000
+	DefaultDeliveryTime = 1200
 	#Each delivery requires (and consumes) a packaging. ('wares:delivery_boxes' tag)
 	#A slot for Delivery Packages will be added to delivery table. Default: true
 	DeliveriesRequirePackaging = true
