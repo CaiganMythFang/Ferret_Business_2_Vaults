@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "dyenamicsandfriends_decent",
+      "name": "compressedcreativity_cheap",
       "rolls": {
         "min": 1,
         "max": 1
@@ -10,8 +10,8 @@
       "entries": [
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_aquamarine_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:black_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -24,8 +24,8 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_bubblegum_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:blue_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -38,8 +38,8 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_cherenkov_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:brown_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -52,8 +52,22 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_fluorescent_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:compressed_iron_casing",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "compressedcreativity:cyan_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -66,8 +80,8 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_lavender_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:gray_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -80,8 +94,8 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_maroon_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:green_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -94,8 +108,22 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_mint_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:industrial_air_blower",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "compressedcreativity:light_blue_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -108,8 +136,8 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_peach_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:light_gray_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -122,8 +150,8 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:elevatorid_persimmon_elevator",
-          "weight": 150,
+          "name": "compressedcreativity:lime_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
@@ -136,126 +164,98 @@
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_aquamarine_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:magenta_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_bubblegum_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:orange_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_cherenkov_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:pink_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_fluorescent_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:purple_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_lavender_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:red_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_maroon_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:white_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_mint_trapped_present",
-          "weight": 150,
+          "name": "compressedcreativity:yellow_plastic_bracket",
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 32,
-                "max": 64
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_peach_trapped_present",
-          "weight": 150,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 32,
-                "max": 64
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "dyenamicsandfriends:supplementaries_persimmon_trapped_present",
-          "weight": 150,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 32,
-                "max": 64
+                "min": 1,
+                "max": 8
               }
             }
           ]
