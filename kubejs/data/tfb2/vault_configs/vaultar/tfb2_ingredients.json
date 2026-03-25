@@ -1,0 +1,5406 @@
+{
+  "LEVELS": {
+    "0": {
+      "resource": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_walls"
+              }
+
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_glass"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.5
+          },
+          "weight": 32
+        }
+      ],
+      "mob": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:stick"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        }
+      ],
+      "farmable": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:wheat_seeds"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.2
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_leaves"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        }
+      ],
+      "misc": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_base_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fuel"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        }
+      ]
+    },
+    "10": {
+      "resource": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_walls"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 48
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_concrete"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fences"
+              }
+
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:moss_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fabric"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.6
+          },
+          "weight": 118
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_glass"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:bricks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_sand"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_terracotta"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        }
+      ],
+      "mob": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basicmob"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basiccreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_arrows"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_meat"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dyes"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seafood"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        }
+      ],
+      "farmable": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_vegetables"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fruit"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seeds"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.1
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_grains"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_leaves"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sea_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:snowball"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:azalea"
+              },
+              {
+                "item": "minecraft:flowering_azalea"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_flowers"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        }
+      ],
+      "misc": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_pointed_dripstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_precious_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_special_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_base_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magic_dusts"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.9
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_high_gem"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_low_gem"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fuel"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:spore_blossom"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_chairs"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    "20": {
+      "resource": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_walls"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 48
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_concrete"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fences"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:moss_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fabric"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_glass"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.5
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:bricks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_sand"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_terracotta"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_obsidian"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.6
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_frozen"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_blackstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.9
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dripstone_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_prismarine"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        }
+      ],
+      "mob": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basicmob"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_arrows"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basiccreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_meat"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dyes"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seafood"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_honeyed_goods"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.5
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advcreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        }
+      ],
+      "farmable": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_plants"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_vegetables"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seeds"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "scale": 1.1
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_grains"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_leaves"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sea_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:snowball"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:azalea"
+              },
+              {
+                "item": "minecraft:flowering_azalea"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_flowers"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fruit"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.9
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_mushrooms"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:glow_lichen"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:nether_wart"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 6
+        }
+      ],
+      "misc": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_pointed_dripstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_precious_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_special_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_base_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magic_dusts"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.9
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_high_gem"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_low_gem"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fuel"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:spore_blossom"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:name_tag"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.0
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_chairs"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    "50": {
+      "resource": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_stone_furniture"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 48
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fences"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fancy_kitchen_furniture"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:moss_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fabric"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beds"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_glass"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.5
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:bricks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_walls"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_sand"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_soil"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_terracotta"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basicmob"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botania:livingrock"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_obsidian"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.6
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_frozen"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_concrete"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_blackstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.9
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dripstone_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_prismarine"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:menril_log"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botania:livingwood_log"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.65
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_end_blocks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.5
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:mycelium"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magma"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_warts"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:shroomlight"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:podzol"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.5
+          },
+          "weight": 1
+        }
+      ],
+      "mob": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basicmob"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_arrows"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 6
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advmob"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basiccreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_meat"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dyes"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seafood"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_honeyed_goods"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.5
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advcreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        }
+      ],
+      "farmable": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_plants"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_vegetables"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seeds"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 4
+            },
+            "scale": 1.1
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "create:sweet_roll"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "mysticalagriculture:inferium_essence"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:menril_berries"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_grains"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_leaves"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sea_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_savory_meal"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:snowball"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fruit"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sweet_treat"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:azalea"
+              },
+              {
+                "item": "minecraft:flowering_azalea"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_flowers"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_mushrooms"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:glow_lichen"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_nether_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_platform_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:chorus_fruit"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        }
+      ],
+      "misc": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_pointed_dripstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_expensive_armor"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_precious_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_special_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_cheap_armor"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_cheap_weapons"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_base_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:crystalized_menril_chunk"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magic_dusts"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "fluxnetworks:flux_dust"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_high_gem"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botanicalmachinery:mana_emerald"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.6
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_music"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_low_gem"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fuel"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_expensive_weapons"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.7
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:spore_blossom"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:name_tag"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.0
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:chorus_flower"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 32
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dead_coral"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_living_coral"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:totem_of_undying"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:saddle"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.3
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_windows"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_chairs"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    "75": {
+      "resource": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_walls"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 48
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fences"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_stone_furniture"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fancy_kitchen_furniture"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:moss_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fabric"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beds"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_windows"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:bricks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_sand"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_soil"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_terracotta"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botania:livingrock"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_obsidian"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.6
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_frozen"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_concrete"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_blackstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dripstone_block"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_prismarine"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:menril_log"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botania:livingwood_log"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.65
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_end_blocks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:mycelium"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magma"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_warts"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:shroomlight"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:podzol"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.5
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_crying_obsidian"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.4
+          },
+          "weight": 1
+        }
+      ],
+      "mob": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basicmob"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 7
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_arrows"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_meat"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basiccreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dyes"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seafood"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_honeyed_goods"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.5
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advcreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advmob"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:nautilus_shell"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        }
+      ],
+      "farmable": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_plants"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_vegetables"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seeds"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 1.1
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "industrialforegoing:tinydryrubber"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:menril_berries"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "create:sweet_roll"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "mysticalagriculture:inferium_essence"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_grains"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_leaves"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sea_plants"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_savory_meal"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:snowball"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fruit"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sweet_treat"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:azalea"
+              },
+              {
+                "item": "minecraft:flowering_azalea"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_flowers"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_mushrooms"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:glow_lichen"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_nether_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.5
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_platform_plants"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:chorus_fruit"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:wither_rose"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 1
+        }
+      ],
+      "misc": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_pointed_dripstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_precious_metals"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_music"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_special_metals"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_expensive_armor"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_cheap_armor"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_base_metals"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:crystalized_menril_chunk"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magic_dusts"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 0.9
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_low_gem"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botanicalmachinery:mana_emerald"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.6
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_high_gem"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "fluxnetworks:flux_dust"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fuel"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_expensive_weapons"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:spore_blossom"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_cheap_weapons"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:name_tag"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 16
+            },
+            "scale": 0.0
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:chorus_flower"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 64
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dead_coral"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_living_coral"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:totem_of_undying"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:saddle"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.3
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:sponge"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 32
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:nether_star"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_chairs"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 10
+        }
+      ]
+    },
+    "90": {
+      "resource": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_walls"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 48
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fences"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_stone_furniture"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fancy_kitchen_furniture"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 7
+            },
+            "scale": 0.8
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:moss_block"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 32
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beds"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_glass"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.5
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:bricks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_sand"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:soul_soil"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_terracotta"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_terracotta"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:mossy_cobblestone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botania:livingrock"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_obsidian"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.6
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_frozen"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_concrete"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_blackstone"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dripstone_block"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_prismarine"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:menril_log"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botania:livingwood_log"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.65
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_end_blocks"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.5
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:mycelium"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magma"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_warts"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:shroomlight"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:podzol"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.5
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_crying_obsidian"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.4
+          },
+          "weight": 1
+        }
+      ],
+      "mob": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fabric"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 5
+            },
+            "scale": 0.6
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basicmob"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 7
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_arrows"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 7
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_basiccreature"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_meat"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dyes"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 7
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seafood"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_beans"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_honeyed_goods"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 0.5
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advmob"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.3
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_advcreature"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:nautilus_shell"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        }
+      ],
+      "farmable": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_plants"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_vegetables"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 7
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_seeds"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 6
+            },
+            "scale": 1.1
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "mysticalagriculture:inferium_essence"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_grains"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "create:sweet_roll"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:menril_berries"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_leaves"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sea_plants"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:snowball"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fruit"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.9
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:azalea"
+              },
+              {
+                "item": "minecraft:flowering_azalea"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_flowers"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_mushrooms"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:glow_lichen"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.4
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_nether_plants"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 0.5
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_platform_plants"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:chorus_fruit"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:wither_rose"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 1
+        }
+      ],
+      "misc": [
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_pointed_dripstone"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_precious_metals"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.7
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_sweet_treat"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 6
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_savory_meal"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_meat"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.9
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_special_metals"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_base_metals"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_cheap_weapons"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_cheap_armor"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "scale": 0.8
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_expensive_armor"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "scale": 0.8
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "integrateddynamics:crystalized_menril_chunk"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 5
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_expensive_weapons"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_magic_dusts"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 8
+            },
+            "scale": 0.9
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "fluxnetworks:flux_dust"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.7
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_low_gem"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 7
+            },
+            "scale": 1.0
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "botanicalmachinery:mana_emerald"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 4
+            },
+            "scale": 0.8
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_high_gem"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 6
+            },
+            "scale": 0.8
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_fuel"
+              }
+            ],
+            "amount": {
+              "min": 3,
+              "max": 8
+            },
+            "scale": 1.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:spore_blossom"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.6
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:name_tag"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 16
+            },
+            "scale": 0.0
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:chorus_flower"
+              }
+            ],
+            "amount": {
+              "min": 8,
+              "max": 64
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_dead_coral"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_living_coral"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:totem_of_undying"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:saddle"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "scale": 0.3
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:sponge"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 64
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:nether_star"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 8
+            },
+            "scale": 0.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_music"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_windows"
+              }
+            ],
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "scale": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "tfb2:factory_crate_chairs"
+              }
+            ],
+            "amount": {
+              "min": 4,
+              "max": 6
+            },
+            "scale": 1.0
+          },
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

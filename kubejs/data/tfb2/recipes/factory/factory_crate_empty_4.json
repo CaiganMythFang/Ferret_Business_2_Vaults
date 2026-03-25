@@ -1,19 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "AAA",
     "ABA",
+    "AAA",
     "AAA"
   ],
   "key": {
     "A": {
-      "tag": "tfb2:cooked_meat"
+      "tag": "minecraft:planks"
     },
     "B": {
-      "item": "tfb2:factory_crate_empty"
+      "item": "minecraft:gold_nugget"
     }
   },
   "result": {
-    "item": "tfb2:factory_crate_meat"
+    "item": "tfb2:factory_crate_empty",
+    "count": 64
   }
 }

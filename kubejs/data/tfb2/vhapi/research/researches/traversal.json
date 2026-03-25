@@ -1,0 +1,26 @@
+{
+  "MOD_RESEARCHES": [
+    {
+        "modIds": [
+            "car",
+            "smallships",
+            "immersive_aircraft",
+            "viescraftmachines",
+            "grapplemod"
+        ],
+        "restrictions": {
+            "restricts": {
+                "HITTABILITY": false,
+                "BLOCK_INTERACTABILITY": true,
+                "USABILITY": false,
+                "CRAFTABILITY": true,
+                "ENTITY_INTERACTABILITY": false
+            }
+        },
+        "name": "Traversal",
+        "cost": 1,
+        "usesKnowledge": true
+    }
+  ],
+  "CUSTOM_RESEARCHES": []
+}
