@@ -4,275 +4,408 @@
 	order_index: 2
 	filename: "resource_dlc"
 	title: "Species DLC"
+	icon: "tfb2:origins_icon_wolf"
 	subtitle: ["Want a Challenge?"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "ORE ACCESS - ORANGE RANK"
-			icon: "kubejs:unlock_ore_orange"
-			x: -1.5d
-			y: -1.75d
-			description: ["&2Looking to start expanding the ores you can harvest and utilize? Look no further than the line of Ore DLC!"]
+			title: "SPECIES CHANGE - WOLF"
+			icon: "tfb2:origins_icon_wolf"
+			x: -2.25d
+			y: -3.75d
+			description: [
+				"&l&2Wolf Species DLC"
+				""
+				"&2Become the Pack Hunter!"
+				""
+				"&2Howl to speed up your allies and heal them. Stick with a pack to fight better."
+				""
+				"&2You get boosts when other Users are close, but are unlucky if you are alone."
+				""
+				"&2Diet : Hyper Carnivore (Primarily Meat)"
+			]
 			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "41EC73BB9B4372E7"
 			tasks: [{
-				id: "0236B08589B5E796"
+				id: "1A94D6321FCEDDCA"
 				type: "item"
-				item: "aoa3:copper_coin"
-				count: 500L
+				item: "the_vault:vault_gold"
+				count: 5L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "2AF43BE122A3A97A"
-					type: "item"
-					item: "kubejs:unlock_ore_orange"
-				}
-				{
-					id: "3B1F2C9A1A9C234B"
-					type: "command"
-					title: "Unlock"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 411FBC9CED60D0AE"
-				}
-			]
+			rewards: [{
+				id: "3B1F2C9A1A9C234B"
+				type: "command"
+				title: "Species Change - Wolf"
+				icon: "tfb2:origins_icon_wolf"
+				team_reward: false
+				auto: "no_toast"
+				command: "/origin set @p origins:origin tfb2:wolf"
+				player_command: true
+			}]
 		}
 		{
-			title: "ORE ACCESS - YELLOW RANK"
-			icon: "kubejs:unlock_ore_yellow"
-			x: -0.5d
-			y: -1.75d
-			description: ["&2Looking to start expanding the ores you can harvest and utilize? Look no further than the line of Ore DLC!"]
-			dependencies: ["41EC73BB9B4372E7"]
+			title: "SPECIES CHANGE - FOX"
+			icon: "tfb2:origins_icon_fox"
+			x: -1.25d
+			y: -3.75d
+			description: [
+				"&2&lFox Species DLC"
+				""
+				"&2Small Canine"
+				""
+				"&2Use your agility to Pounce and negate fall damage for a moment!"
+				""
+				"&2You are smaller and weaker, but can slip by Berry Bushes with no damage."
+				""
+				"&2Diet Omnivore (All Food), Bonuses from Chicken and Berries."
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "28E2A6CB0AAA5449"
 			tasks: [{
-				id: "4621036D59D7D8BC"
+				id: "0BE9EE58EA6F6DB5"
 				type: "item"
-				item: "aoa3:silver_coin"
-				count: 50L
+				item: "the_vault:vault_gold"
+				count: 5L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "784282C3C1A0884B"
-					type: "item"
-					item: "kubejs:unlock_ore_yellow"
-				}
-				{
-					id: "1528E39F1F6D6B7A"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 212569F81C82DEAE"
-				}
-			]
+			rewards: [{
+				id: "1528E39F1F6D6B7A"
+				type: "command"
+				title: "Become Fox"
+				icon: "tfb2:origins_icon_fox"
+				team_reward: false
+				auto: "no_toast"
+				command: "/origin set @p origins:origin tfb2:fox"
+				player_command: true
+			}]
 		}
 		{
-			title: "ORE ACCESS - GREEN RANK"
-			icon: "kubejs:unlock_ore_green"
-			x: 0.5d
-			y: -1.75d
-			description: ["&2Looking to start expanding the ores you can harvest and utilize? Look no further than the line of Ore DLC!"]
-			dependencies: ["28E2A6CB0AAA5449"]
+			title: "SPECIES CHANGE - MANED WOLF"
+			icon: "tfb2:origins_icon_maned_wolf"
+			x: -0.25d
+			y: -3.75d
+			description: [
+				"&2&lManed Wolf Species DLC"
+				""
+				"&2Tall Canine"
+				""
+				"&2Tamp the ground to bounce creatures up!"
+				""
+				"&2You are taller and have more reach, but are easier to hit! You are also nervous around other Users, and mine slightly slower but move slightly faster."
+				""
+				"&2Diet Omnivore (All Food), Bonuses from Apples"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "2D5FCDE55F51F584"
 			tasks: [{
-				id: "3233221A820E52AB"
+				id: "01CD0FC32ACEB408"
 				type: "item"
-				item: "aoa3:silver_coin"
-				count: 100L
+				item: "the_vault:vault_gold"
+				count: 5L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "01BBE1D44F428ACC"
-					type: "item"
-					item: "kubejs:unlock_ore_green"
-				}
-				{
-					id: "1A2B3594636FE751"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 608CE3FFA20BC1B9"
-				}
-			]
+			rewards: [{
+				id: "1A2B3594636FE751"
+				type: "command"
+				title: "Become Maned Wolf"
+				icon: "tfb2:origins_icon_maned_wolf"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:maned_wolf"
+				player_command: true
+			}]
 		}
 		{
-			title: "ORE ACCESS - BLUE RANK"
-			icon: "kubejs:unlock_ore_blue"
-			x: 1.5d
-			y: -1.75d
-			description: ["&2Looking to start expanding the ores you can harvest and utilize? Look no further than the line of Ore DLC!"]
-			dependencies: ["2D5FCDE55F51F584"]
+			title: "SPECIES CHANGE - JACKAL"
+			icon: "tfb2:origins_icon_jackal"
+			x: -1.75d
+			y: -2.75d
+			description: [
+				"&2&lJackal Species DLC"
+				""
+				"&2Small, adept canine."
+				""
+				"&2Get a short boost to your run, mining, and attack speeds!"
+				""
+				"&2You are smaller and weaker, but you ignore damage from Cactus thorns. You slow down slightly in cold biomes."
+				""
+				"&2Diet Omnivore (All Foods)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "7FC75F3FB2C362B8"
 			tasks: [{
-				id: "2B29C689FB63155A"
+				id: "07D3E8D4D373841B"
 				type: "item"
-				item: "aoa3:gold_coin"
-				count: 10L
+				item: "the_vault:vault_gold"
+				count: 5L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "2FAA3C8DA39B13F3"
-					type: "item"
-					item: "kubejs:unlock_ore_blue"
-				}
-				{
-					id: "3F14CF93883155B1"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 6BF857AA87B25FDD"
-				}
-			]
+			rewards: [{
+				id: "3F14CF93883155B1"
+				type: "command"
+				title: "Become Jackal"
+				icon: "tfb2:origins_icon_jackal"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:jackal"
+				player_command: true
+			}]
 		}
 		{
-			title: "ORE ACCESS - INDIGO RANK"
-			icon: "kubejs:unlock_ore_indigo"
-			x: 2.5d
-			y: -1.75d
-			description: ["&2Looking to start expanding the ores you can harvest and utilize? Look no further than the line of Ore DLC!"]
-			dependencies: ["7FC75F3FB2C362B8"]
+			title: "SPECIES CHANGE - COYOTE"
+			icon: "tfb2:origins_icon_coyote"
+			x: -0.75d
+			y: -2.75d
+			description: [
+				"&2&lCoyote Species DLC"
+				""
+				"&2Trickster Canine"
+				""
+				"&2Howl to freeze all nearby creatures for a few moments!"
+				""
+				"&2You are slightly smaller and weaker, but moves somewhat faster in Plains biomes."
+				""
+				"&2Diet Omnivore (All Food)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "360274CFF521F80B"
 			tasks: [{
-				id: "0AD090B567166A8F"
+				id: "54867ADC333EC758"
 				type: "item"
-				item: "aoa3:gold_coin"
-				count: 20L
+				item: "the_vault:vault_gold"
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [
-				{
-					id: "79D7783827C1858E"
-					type: "item"
-					item: "kubejs:unlock_ore_indigo"
-				}
 				{
 					id: "53130F2A52413661"
 					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 318648FDF816BA13"
-				}
-			]
-		}
-		{
-			title: "ORE ACCESS - VIOLET RANK"
-			icon: "kubejs:unlock_ore_violet"
-			x: 3.5d
-			y: -1.75d
-			description: ["&2Looking to start expanding the ores you can harvest and utilize? Look no further than the line of Ore DLC!"]
-			dependencies: ["360274CFF521F80B"]
-			id: "0A8A2B046EF70307"
-			tasks: [{
-				id: "26598B6B104CBC49"
-				type: "item"
-				item: "aoa3:lunaver_coin"
-				count: 2L
-			}]
-			rewards: [
-				{
-					id: "06B24E9614D0817E"
-					type: "item"
-					item: "kubejs:unlock_ore_violet"
+					title: "Become Coyote"
+					icon: "tfb2:origins_icon_coyote"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:coyote"
+					player_command: true
 				}
 				{
-					id: "6D6E83C9EF6C564D"
+					id: "29C31C9F037DF6F7"
 					type: "command"
+					team_reward: false
 					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 1A78750275813BEF"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 360274CFF521F80B"
+					player_command: true
+					silent: true
 				}
 			]
 		}
 		{
-			title: "BUILDER DLC - RED RANK"
-			icon: "kubejs:unlock_builder_red"
-			x: -1.5d
-			y: -0.25d
+			title: "SPECIES CHANGE - SNOW LEOPARD"
+			icon: "tfb2:origins_icon_snow_leopard"
+			x: 2.5d
+			y: -3.75d
 			description: [
-				"&2Plagued by plain looking constructions and bases? Is the same palette of woods, bricks, and stones wearing you down?"
+				"&2&lSnow Leopard Species DLC"
 				""
-				"&2This is the right spot for you! The Builder DLC open up a whole new world of building materials you can utilize! New, amazing shapes, designs, textures, and more to make your base and factories look as fantastic as they function!"
+				"&2Snow bound feline"
+				""
+				"&2Reach higher ground easily by boosting your jump for a short time!"
+				""
+				"&2You are a slightly smaller and weaker, but move faster in snowy biomes and don't freeze in the snow."
+				""
+				"&2Diet Hyper Carnivore (Primarily Meat)"
 			]
 			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "0A8A2B046EF70307"
+			tasks: [{
+				id: "3CB0D12BAF2E6B65"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D6E83C9EF6C564D"
+				type: "command"
+				title: "Become Snow Leopard"
+				icon: "tfb2:origins_icon_snow_leopard"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:snow_leopard"
+				player_command: true
+			}]
+		}
+		{
+			title: "Return to Human"
+			icon: "origins:orb_of_origin"
+			x: 1.0d
+			y: -2.75d
+			description: [
+				"&2&lHuman Species DLC"
+				""
+				"&2Return to the default."
+				""
+				"&2Diet : Omnivore"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			size: 1.1d
 			id: "2B0655AC7FED5493"
 			tasks: [{
-				id: "51411F2C38D4F1F5"
+				id: "556D76CD8AC87CD4"
 				type: "item"
-				item: "aoa3:copper_coin"
-				count: 250L
-				consume_items: true
+				item: "the_vault:vault_silver"
 			}]
 			rewards: [
 				{
-					id: "4055217A9A21308B"
-					type: "item"
-					item: "kubejs:unlock_builder_red"
+					id: "07034AC5D2D59B1C"
+					type: "command"
+					title: "Become Human"
+					icon: "origins:orb_of_origin"
+					team_reward: false
+					auto: "no_toast"
+					command: "/origin set @p origins:origin origins:human"
+					player_command: true
 				}
 				{
-					id: "57B269852D03FD3F"
+					id: "06CF9497E094503D"
 					type: "command"
-					command: "/ftbquests change_progress @p complete 5ADE32C589939DB6"
+					title: "Reset Immediately"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2B0655AC7FED5493"
+					player_command: true
+					silent: true
 				}
 			]
 		}
 		{
-			title: "BUILDER DLC - ORANGE RANK"
-			icon: "kubejs:unlock_builder_orange"
-			x: -0.5d
-			y: -0.25d
-			dependencies: ["2B0655AC7FED5493"]
+			title: "SPECIES CHANGE - SERVAL"
+			icon: "tfb2:origins_icon_serval"
+			x: 3.5d
+			y: -3.75d
+			description: [
+				"&2&lServal Species DLC"
+				""
+				"&2Small, agile feline"
+				""
+				"&2Leap forward and strike with boosted attacks for a few moments!"
+				""
+				"&2You are much smaller and weaker, but are faster in Savannah biomes."
+				""
+				"&2Diet Hyper Carnivore (Primarily Meat)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "1F7E11CF3510615E"
 			tasks: [{
-				id: "40D354F05E034892"
+				id: "6A9412AE71C07C69"
 				type: "item"
-				item: "aoa3:copper_coin"
-				count: 500L
+				item: "the_vault:vault_gold"
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [
-				{
-					id: "79D105A1AD5D070F"
-					type: "item"
-					item: "kubejs:unlock_builder_orange"
-				}
 				{
 					id: "059BF9C5E37A78A6"
 					type: "command"
-					command: "/ftbquests change_progress @p complete 3B20DE4A0EF3DF4A"
+					title: "Become Serval"
+					icon: "tfb2:origins_icon_serval"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:serval"
+					player_command: true
+				}
+				{
+					id: "0F608E053CCFA991"
+					type: "command"
+					title: "RESET IMMEDIATELY"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 1F7E11CF3510615E"
+					player_command: true
+					silent: true
 				}
 			]
 		}
 		{
-			title: "FARM AND FOOD - RED RANK"
-			icon: "kubejs:unlock_food_red"
-			x: -1.5d
-			y: 1.25d
+			title: "SPECIES CHANGE - TIGER"
+			icon: "tfb2:origins_icon_tiger"
+			x: 2.5d
+			y: -2.75d
+			description: [
+				"&2&lTiger Species DLC"
+				""
+				"&2Large, powerful feline"
+				""
+				"&2Become stealthy and see targets nearby"
+				""
+				"&2You are much larger and stronger, but you require a lot more food."
+				""
+				"&2Diet Carnivore (Primarily Meat)"
+			]
 			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
 			id: "63C1804E5DAA840A"
 			tasks: [{
-				id: "5FE3531C9536E782"
+				id: "6B8E67499C1F5489"
 				type: "item"
-				item: "aoa3:copper_coin"
-				count: 25L
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
 			}]
 			rewards: [
 				{
-					id: "5DADD6067C395FD7"
-					type: "item"
-					item: "kubejs:unlock_food_red"
-				}
-				{
 					id: "56EB97B5124E2F94"
 					type: "command"
-					command: "/ftbquests change_progress @p complete 1F12FEE22AD8E992"
+					title: "Become Tiger"
+					icon: "tfb2:origins_icon_tiger"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:tiger"
+					player_command: true
+				}
+				{
+					id: "628F813C1ED09C5E"
+					type: "command"
+					title: "RESET IMMEDIATELY"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 63C1804E5DAA840A"
+					player_command: true
+					silent: true
 				}
 			]
 		}
 		{
-			title: "FARM AND FOOD - ORANGE RANK"
-			icon: "kubejs:unlock_food_orange"
-			x: -0.5d
-			y: 1.25d
-			dependencies: ["63C1804E5DAA840A"]
+			title: "ORIGINS - SPECIES DLC INFORMATION"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 1.0d
+			y: -3.75d
+			shape: "gear"
+			subtitle: "Become The Beast!"
+			description: [
+				"&2Origins allow you to change your base species for a new, unique challenge when running Vaults!"
+				""
+				"&2These species come with positive and negative bonuses, many of which can augment your skills and abilities!"
+				""
+				"&2Each species also has a specific diet, and non-matching food can cause issues! But that just adds to the challenge, Power User!"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
 			id: "5E7F06957E99F158"
 			tasks: [{
 				id: "3EB2C4112F7355D0"
@@ -293,6 +426,701 @@
 					command: "/ftbquests change_progress @p complete 03C6DFAD60CB38C4"
 				}
 			]
+		}
+		{
+			title: "SPECIES CHANGE - LION"
+			icon: "tfb2:origins_icon_lion"
+			x: 3.5d
+			y: -2.75d
+			description: [
+				"&2&lLion Species DLC"
+				""
+				"&2Large, prideful feline"
+				""
+				"&2Roar to stun nearby creatures, slowing their attacks for a moment!"
+				""
+				"&2You are much larger and stronger, but you require more food. You move faster in Savanna biomes."
+				""
+				"&2Diet Large Carnivore (Primarily Meat)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "1172CBF165215CA7"
+			tasks: [{
+				id: "28F2AA765672AA98"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3B6C5DA4C0FC8E30"
+					type: "command"
+					title: "Become Lion"
+					icon: "tfb2:origins_icon_lion"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:lion"
+					player_command: true
+				}
+				{
+					id: "6C62A957C9D64B57"
+					type: "command"
+					title: "RESET IMMEDIATELY"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 1172CBF165215CA7"
+					player_command: true
+					silent: true
+				}
+			]
+		}
+		{
+			title: "SPECIES CHANGE - LYNX"
+			icon: "tfb2:origins_icon_lynx"
+			x: 4.5d
+			y: -3.75d
+			description: [
+				"&2&lLynx Species DLC"
+				""
+				"&2Small, large pawed feline."
+				""
+				"&2Boost your jump and become invisible for a few moments to scout the area!"
+				""
+				"&2You are smaller and weaker, but move faster in Taiga biomes and don't take freezing damage from snow."
+				""
+				"&2Diet Hyper Carnivore (Primarily Meat)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "441C209F59E6049C"
+			tasks: [{
+				id: "0541D362EA76010C"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "454B3A671DC12E28"
+					type: "command"
+					title: "Become Lynx"
+					icon: "tfb2:origins_icon_lynx"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:lynx"
+					player_command: true
+				}
+				{
+					id: "1C058A809A92042B"
+					type: "command"
+					title: "IMMEDIATE RESET"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 441C209F59E6049C"
+					player_command: true
+					silent: true
+				}
+			]
+		}
+		{
+			title: "SPECIES CHANGE - RAT"
+			icon: "tfb2:origins_icon_rat"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"&2&lRat Species DLC"
+				""
+				"&2Small, adept rodent"
+				""
+				"&2Boost your run, swim, and jump abilities for a rapid escape!"
+				""
+				"&2You are much smaller and weaker, but you can climb walls!"
+				""
+				"&2Diet Omnivore (All Food)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "17F36FB5005BCA09"
+			tasks: [{
+				id: "4A9B8D2F83D1BBE3"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "304AF42256520755"
+					type: "command"
+					title: "Become Rat"
+					icon: "tfb2:origins_icon_rat"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:rat"
+					player_command: true
+				}
+				{
+					id: "1D28C74CCCB28A4F"
+					type: "command"
+					title: "RESET IMMEDIATELY"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 17F36FB5005BCA09"
+					player_command: true
+					silent: true
+				}
+			]
+		}
+		{
+			title: "CHANGE SPECIES - MOUSE"
+			icon: "tfb2:origins_icon_mouse"
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"&2&lMouse Species DLC"
+				""
+				"&2Very small, secretive rodent"
+				""
+				"&2Heavily boost your health, speed, regeneration, and damage for a short bit, but become poisoned afterwards."
+				""
+				"&2You are extremely small and weak, but can climb walls and see better in the dark."
+				""
+				"&2Diet Omnivore (All Food)"
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "6F985FE8D590BE8B"
+			tasks: [{
+				id: "1500676CE9B43D3F"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "057C380E4F2873FB"
+					type: "command"
+					title: "Become Mouse"
+					icon: "tfb2:origins_icon_mouse"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:mouse"
+					player_command: true
+				}
+				{
+					id: "1EAEF0E6BB4F22AA"
+					type: "command"
+					title: "RESET IMMEDIATELY"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 6F985FE8D590BE8B"
+					player_command: true
+					silent: true
+				}
+			]
+		}
+		{
+			title: "CHANGE SPECIES - OCELOT"
+			icon: "tfb2:origins_icon_ocelot"
+			x: 4.5d
+			y: -2.75d
+			description: [
+				"&2&lOcelot Species DLC"
+				""
+				"&2Very small, nocturnal feline"
+				""
+				"&2Become invisible and boost your vision to see all creatures nearby."
+				""
+				"&2You are fairly small and weak, but can see well in the dark."
+				""
+				"&2Diet Hyper Carnivore (Primarily Meat). Bonuses from Fish."
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "24015BB7DB1022D5"
+			tasks: [{
+				id: "149178BEE80D5829"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "66FFDFEDDB7F46DC"
+					type: "command"
+					title: "Become Ocelot"
+					icon: "tfb2:origins_icon_ocelot"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:ocelot"
+					player_command: true
+				}
+				{
+					id: "46B3A16C2D4F5F35"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 24015BB7DB1022D5"
+					player_command: true
+					silent: true
+				}
+			]
+		}
+		{
+			title: "SPECIES CHANGE - JERBOA"
+			icon: "tfb2:origins_icon_jerboa"
+			x: 2.0d
+			y: -1.5d
+			description: [
+				"&2&lJerboa Species DLC"
+				""
+				"&2Small, strong legged rodent"
+				""
+				"&2Get a big burst to your speed and jumping for a short bit."
+				""
+				"&2You are small and weak, but can jump higher and see better in the dark."
+				""
+				"&2Diet Herbivore (Primarily Plants and Seeds)."
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "0911140E07AA9572"
+			tasks: [{
+				id: "6C0820DCA4041D69"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0EE2719E89B68CD5"
+					type: "command"
+					title: "BECOME JERBOA"
+					icon: "tfb2:origins_icon_jerboa"
+					team_reward: false
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					command: "/origin set @p origins:origin tfb2:jerboa"
+					player_command: true
+				}
+				{
+					id: "7203D99A767FCAD5"
+					type: "command"
+					title: "RESET IMMEDIATELY"
+					team_reward: false
+					auto: "invisible"
+					exclude_from_claim_all: true
+					command: "/ftbquests change_progress @p reset 0911140E07AA9572"
+					player_command: true
+					silent: true
+				}
+			]
+		}
+		{
+			title: "SPECIES CHANGE - RED PANDA"
+			icon: "tfb2:origins_icon_red_panda"
+			x: -1.75d
+			y: -0.25d
+			description: [
+				"&2&lRed Panda Species DLC"
+				""
+				"&2The only member of the Aluridae family."
+				""
+				"&2Become more threatening, weakening non Users around you and boosting your damage!"
+				""
+				"&2You are smaller and weaker, but can see better in the dark."
+				""
+				"&2Diet Omnivore (All Food)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "51FAF1F1E1515A6E"
+			tasks: [{
+				id: "3E2052F8CA5E3198"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1CD2471CF2D10429"
+				type: "command"
+				title: "Become Red Panda"
+				icon: "tfb2:origins_icon_red_panda"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:red_panda"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - MEGABAT"
+			icon: "tfb2:origins_icon_megabat"
+			x: 0.25d
+			y: 0.75d
+			description: [
+				"&2&lMegabat Species DLC"
+				""
+				"&2A medium sized member of the Chiroptera family. "
+				""
+				"&2Slowly take flight! Be warned, you still take fall damage, and the Vaults may not like you flying!"
+				""
+				"&2You are smaller and weaker, but you can see in the dark, and use Echolocation when sneaking!"
+				""
+				"&2Diet Frugivore (Fruits, Seeds, Nuts)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "69542FD6FCBF90F9"
+			tasks: [{
+				id: "60B818A225E240E4"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "66A0BE6EE85B5972"
+				type: "command"
+				title: "Become Megabat"
+				icon: "tfb2:origins_icon_megabat"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:megabat"
+				player_command: true
+			}]
+		}
+		{
+			title: "CHANGE SPECIES - RABBIT"
+			icon: "tfb2:origins_icon_rabbit"
+			x: 1.75d
+			y: 0.75d
+			description: [
+				"&2&lRabbit Species DLC"
+				""
+				"&2Smaller, social Leporidae."
+				""
+				"&2Become invisible and get a short burst of speed to escape!"
+				""
+				"&2You are much smaller and weaker, but stronger and more protected underground, and work faster close to other Users."
+				""
+				"&2Diet Herbivore (Plants and Seeds)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "033764897F48BC31"
+			tasks: [{
+				id: "00F037CAB850BA02"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5207F0EF8DDB6C0D"
+				type: "command"
+				title: "Become Rabbit"
+				icon: "tfb2:origins_icon_rabbit"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:rabbit"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - SYNTH"
+			icon: "tfb2:origins_icon_synth"
+			x: 0.5d
+			y: -5.0d
+			description: [
+				"&2&lSynth Species DLC"
+				""
+				"&2A synthetic creature (created by Vader-San)"
+				""
+				"&2You can consume some metals and materials to buff or repair yourself."
+				""
+				"&2You are average size and strength, but potions and magic can really harm you."
+				""
+				"&2Diet Synthetic (Organic food minimally useful)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "7FCF5D653BC0C5D5"
+			tasks: [{
+				id: "7F004F6B59E9F6D1"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "68D61D5631C44451"
+				type: "command"
+				title: "Become Synth"
+				icon: "tfb2:origins_icon_synth"
+				team_reward: true
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:synth"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - HARE"
+			icon: "tfb2:origins_icon_hare"
+			x: 2.5d
+			y: 1.25d
+			description: [
+				"&2&lHare Species DLC"
+				""
+				"&2A small, solitary Leporidae."
+				""
+				"&2Boost your run and jump, and become impervious to fire and falling damge for a short bit!"
+				""
+				"&2You are smaller and weaker, but will move and work faster under an open sky. Snow cold will slow you down, but not damage you."
+				""
+				"&2Diet Herbivore (Mostly Plants)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "4FFDCFFC14B7A196"
+			tasks: [{
+				id: "5D4813A24EB85B03"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+			}]
+			rewards: [{
+				id: "5170E92323128602"
+				type: "command"
+				title: "Become Hare"
+				icon: "tfb2:origins_icon_hare"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:hare"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - FERRET"
+			icon: "tfb2:origins_icon_ferret"
+			x: 4.0d
+			y: -0.25d
+			description: [
+				"&2&lFerret Species DLC"
+				""
+				"&2[REDACTED]"
+				""
+				"&2[REDACTED]"
+				""
+				"&2You are smaller and weaker, but you can see items on the ground, and [REDACTED]."
+				""
+				"&2Diet Hyper-Carnivore (Mostly Meat)."
+				""
+				"&d(Wow, Bandit. They REALLY don't like us at The Ferret Business, do they?)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "7BDAE61FAEDC1C9E"
+			tasks: [{
+				id: "79B10AFE51BE8704"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DF43B88FE212AF1"
+				type: "command"
+				title: "Become [REDACTED]"
+				icon: "tfb2:origins_icon_ferret"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:ferret"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - GOAT"
+			icon: "tfb2:origins_icon_goat"
+			x: -0.75d
+			y: -0.25d
+			description: [
+				"&2&lGoat Species DLC"
+				""
+				"&2A smaller Bovidae, excellent mountaineers."
+				""
+				"&2Escape quickly by boosting your run, jump, and damage for a short bit!"
+				""
+				"&2You are smaller and weaker, but you can jump higher in Mountain biomes."
+				""
+				"&2Diet Herbivore (Mostly Plants)."
+			]
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "0F7A490DDEDF78C7"
+			tasks: [{
+				id: "5E88F028DB9976AB"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "685DA7B909F6DE19"
+				type: "command"
+				title: "Become Goat"
+				icon: "tfb2:origins_icon_goat"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:goat"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - ELEPHANT"
+			icon: "tfb2:origins_icon_elephant"
+			x: 1.5d
+			y: -5.0d
+			description: [
+				"&2&lElephant Species DLC"
+				""
+				"&2The largest species, and the only member of the Elephantidae family."
+				""
+				"&2Stomp the ground and damage creatures around you, sending them up into the air."
+				""
+				"&2You are the largest creature, much stronger, and exhaust much slower around other Users. You, however, cannot jump, nor can you fit in normal doorways. Fall damage is much more deadly."
+				""
+				"&2Diet Herbivore (Mostly Plants)."
+				""
+				"&4(WARNING: ELEPHANT IS VERY DIFFICULT DUE TO SIZE)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "3FC67455ED15FF92"
+			tasks: [{
+				id: "33F743A082FFA6C7"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57DE9B410BB25A2D"
+				type: "command"
+				title: "Become Elephant"
+				icon: "tfb2:origins_icon_elephant"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:elephant"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - PARROT"
+			icon: "tfb2:origins_icon_parrot"
+			x: -0.5d
+			y: 1.25d
+			description: [
+				"&2&lParrot Species DLC"
+				""
+				"&2Small Avian that loves music."
+				""
+				"&2Sing a song that boosts the run and work speed of all Users nearby!"
+				""
+				"&2You are much smaller and weaker, but you are able to glide like you have an Elytra! You also work faster when close to a Jukebox."
+				""
+				"&2Diet Herbivore (Mostly Plants)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "0D6CCF1C823DFEA7"
+			tasks: [{
+				id: "0FBDCA511FA140B0"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "34465E4BE324B29D"
+				type: "command"
+				title: "Become Parrot"
+				icon: "tfb2:origins_icon_parrot"
+				team_reward: false
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:parrot"
+				player_command: true
+			}]
+		}
+		{
+			title: "SPECIES CHANGE - BADGER"
+			icon: "tfb2:origins_icon_badger"
+			x: 3.0d
+			y: -0.25d
+			description: [
+				"&2&lBadger Species DLC"
+				""
+				"&2Medium sized Mustelidae, territorial diggers that are quite social."
+				""
+				"&2Protect your territory by boosting your strength and weakening Creatures nearby for a bit!"
+				""
+				"&2You are smaller and weaker, but can dig natural dirt and stone materials really fast. You also exhaust slower when around other Users."
+				""
+				"&2Diet Omnivore (All Food)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B8CCC44B66134C8"]
+			can_repeat: true
+			id: "56BC4C0B3295812F"
+			tasks: [{
+				id: "5DCAC356923EE707"
+				type: "item"
+				item: "the_vault:vault_gold"
+				count: 5L
+			}]
+			rewards: [{
+				id: "7454DD5EA5672C7C"
+				type: "command"
+				title: "Become Badger"
+				icon: "tfb2:origins_icon_badger"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/origin set @p origins:origin tfb2:badger"
+				player_command: true
+			}]
 		}
 	]
 	quest_links: [ ]
