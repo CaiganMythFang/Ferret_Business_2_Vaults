@@ -1,7 +1,7 @@
 {
 	id: "63CB81CDA189AA62"
 	group: "1A78C6EA3A0ABFDA"
-	order_index: 2
+	order_index: 1
 	filename: "2_gaining_a_foothold"
 	title: "[2] Gaining a Foothold"
 	icon: "tfb2:glitched_ingot"
@@ -144,7 +144,6 @@
 												tooltip: "{\"text\":\"per ${target} Wooden Chests looted\"}"
 												type: "card"
 											}
-											operating: 0b
 											counter: {
 												baseTarget: 11b
 												current: 0b
@@ -162,6 +161,7 @@
 												}
 												target: 11b
 											}
+											operating: 0b
 											type: "loot_chest"
 											children: [ ]
 											config: {
@@ -178,7 +178,7 @@
 													min: 3b
 												}
 											}]
-											tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Iron/Glitched Ingot \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
+											tooltip: "{\"color\":\"red\",\"extra\":[{\"text\":\"${count}\"},{\"color\":\"yellow\",\"text\":\" Iron Ingot \"},{\"text\":\"${task}\"}],\"text\":\"+ \"}"
 											highlightColor: 65280
 											loot: [
 												{
@@ -3256,6 +3256,7 @@
 				"&5To that, you can get yourself a Vault Lexicon! It contains entries on most affixes available on Vault Gear, and a description of what they do."
 			]
 			hide_dependency_lines: true
+			dependencies: ["76B7D44E338DC9B7"]
 			hide: true
 			id: "4D137B677AC4309D"
 			tasks: [{
@@ -3291,6 +3292,7 @@
 				"&5You can set the target of the Compass outside the Vault for free, but changing it in the middle of a Vault will cost 10% of your Health. (You'll get this back after the Vault, of course)"
 			]
 			hide_dependency_lines: true
+			dependencies: ["76B7D44E338DC9B7"]
 			id: "028DF61EF05F2577"
 			tasks: [{
 				id: "75AA79635B71B73B"
