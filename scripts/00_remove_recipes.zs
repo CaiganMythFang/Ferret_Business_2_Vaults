@@ -208,9 +208,9 @@ craftingTable.removeByModid("alexsmobs");
 craftingTable.removeByModid("framedblocks");
 
 // Snad
-craftingTable.remove(<item:snad:suol_snad>);
-craftingTable.remove(<item:snad:red_snad>);
-craftingTable.remove(<item:snad:snad>);
+// craftingTable.remove(<item:snad:suol_snad>);
+// craftingTable.remove(<item:snad:red_snad>);
+// craftingTable.remove(<item:snad:snad>);
 
 // AE2
 <recipetype:ae2:inscriber>.remove(<item:ae2:logic_processor>);
