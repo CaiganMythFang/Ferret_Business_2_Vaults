@@ -389,11 +389,19 @@
 				type: "checkmark"
 				title: "Rewards?!"
 			}]
-			rewards: [{
-				id: "5C2094D1940BA267"
-				type: "item"
-				item: "tfb2:blindboxblindbox"
-			}]
+			rewards: [
+				{
+					id: "5C2094D1940BA267"
+					type: "item"
+					item: "tfb2:blindboxblindbox"
+				}
+				{
+					id: "6559B05A9523EF8C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2640422954496342337L
+				}
+			]
 		}
 	]
 	quest_links: [ ]
