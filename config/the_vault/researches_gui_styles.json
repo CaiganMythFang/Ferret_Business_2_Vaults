@@ -1,5 +1,29 @@
 {
   "styles": {
+    "Companion Workstation": {
+      "x": -70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/companion_workstation"
+    },
+    "Mod Box Tinkering": {
+      "x": -120,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/mod_box_tinkering"
+    },
+    "Augment Crafting": {
+      "x": -170,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/augment_crafting"
+    },
+    "Angel": {
+      "x": 490,
+      "y": 120,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/angel"
+    },
     "Ars Nouveau": {
       "x": 200,
       "y": 200,
@@ -96,33 +120,21 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/multistorage"
     },
-    "Grappling Hooks": {
+    "Traversal": {
       "x": -170,
       "y": -40,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/grappling_hooks"
-    },
-    "Vehicles": {
-      "x": -70,
-      "y": -40,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/vehicles"
+      "icon": "the_vault:gui/researches/traversal"
     },
     "Turrets": {
       "x": -120,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/turrets"
     },
-    "Inventory Pets": {
-      "x": -170,
-      "y": 40,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/inventory_pets"
-    },
     "Animalistic": {
       "x": -70,
-      "y": 40,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/animalistic"
     },
@@ -175,56 +187,56 @@
       "icon": "the_vault:gui/researches/create_crafts_and_additions"
     },
     "Backpack Upgrades 1": {
-      "x": 200,
-      "y": -40,
+      "x": 250,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/stackupgrading"
     },
     "Advanced Finders": {
-      "x": 250,
-      "y": -40,
+      "x": 200,
+      "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/advanced_finders"
     },
     "Scanner": {
-      "x": 300,
-      "y": -40,
+      "x": 250,
+      "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/scannable"
     },
     "Double Pouches": {
       "x": 200,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/double_pouches"
     },
     "Belts": {
       "x": 250,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/belts"
     },
     "Backpacks": {
       "x": 300,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/backpacks"
     },
     "Big Backpacks": {
       "x": 200,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/big_backpacks"
     },
     "Pocket Storage": {
-      "x": 250,
+      "x": 300,
       "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/pocket_storage"
     },
     "Junk Management": {
       "x": 300,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_looter"
     },
@@ -289,26 +301,26 @@
       "icon": "the_vault:gui/researches/waystones"
     },
     "Torch Master": {
-      "x": 440,
-      "y": 120,
+      "x": 390,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/torch_master"
     },
-    "Trashcans": {
-      "x": 490,
-      "y": 120,
+    "Vault Compass": {
+      "x": 390,
+      "y": 200,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/trashcans"
+      "icon": "the_vault:gui/researches/vault_compass"
     },
     "Elevators": {
-      "x": 390,
-      "y": 160,
+      "x": 440,
+      "y": 120,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/elevators"
     },
     "Time in a Bottle": {
       "x": 490,
-      "y": 200,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/tiab"
     },
@@ -319,7 +331,7 @@
       "icon": "the_vault:gui/researches/lightmans_currency"
     },
     "Create Ore Excavation": {
-      "x": 110,
+      "x": 85,
       "y": 350,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/create_ore_excavation"
@@ -331,19 +343,19 @@
       "icon": "the_vault:gui/researches/create_diesel_generators"
     },
     "RFTools Utility": {
-      "x": 390,
-      "y": 200,
+      "x": 440,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/rftoolsutility"
     },
     "Altar Automation": {
       "x": 490,
-      "y": 160,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/conduit"
     },
     "Building Gadgets": {
-      "x": 10,
+      "x": 35,
       "y": 270,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/building_gadgets"
@@ -361,49 +373,43 @@
       "icon": "the_vault:gui/researches/psi"
     },
     "Mahou Tsukai": {
-      "x": 60,
+      "x": 110,
       "y": 310,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mahou_tsukai"
     },
-    "Hexerei": {
-      "x": 110,
-      "y": 310,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/hexerei"
-    },
     "Mining Gadgets": {
-      "x": 110,
+      "x": 85,
       "y": 270,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mining_gadgets"
     },
     "Digital Miner": {
-      "x": 10,
+      "x": 35,
       "y": 350,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/digital_miner"
     },
     "Hexcasting": {
       "x": 60,
-      "y": 270,
+      "y": 310,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/hexcasting"
     },
     "Easy Villagers": {
       "x": 200,
-      "y": 270,
+      "y": 310,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/easy_villagers"
     },
     "Botany Pots": {
-      "x": 200,
+      "x": 225,
       "y": 350,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/botany_pots"
     },
     "Bonsai Pots": {
-      "x": 250,
+      "x": 275,
       "y": 350,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/bonsai_pots"
@@ -420,27 +426,21 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/cagerium"
     },
-    "Hostile Neural Networks": {
-      "x": 250,
-      "y": 270,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/hostile_neural_networks"
-    },
     "Mob Gates": {
       "x": 200,
-      "y": 310,
+      "y": 270,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mob_gates"
     },
     "Mob Spawners": {
       "x": 250,
-      "y": 310,
+      "y": 270,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mob_spawners"
     },
     "Phytogenic Insulator": {
-      "x": 300,
-      "y": 350,
+      "x": 250,
+      "y": 310,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/phytogenic_insulator"
     },
@@ -527,6 +527,12 @@
       "y": 270,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/brew"
+    },
+     "Vault Decks": {
+      "x": -120,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/vault_decks"
     }
   }
 }

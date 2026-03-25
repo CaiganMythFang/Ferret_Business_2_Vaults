@@ -78,18 +78,6 @@
         "text": " mod!\n\nMahou Tsukai is an anime themed magic mod, focusing on unique and sometimes very destructive spells and tools."
       }
     ],
-    "Hexerei": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Hexerei",
-        "color": "yellow"
-      },
-      {
-        "text": " mod!\n\nHexerei is a Witch themed magic mod, centered around mixing up various creations in your Cauldron. There is also a flying broom and a very neat instruction book."
-      }
-    ],
     "Weirding Gadgets": [{"text":""},{"text":"\u26a0 ","color":"red"},{"text":"Disabled In Vaults!\n","color":"dark_red"},{"text":"Unlocks the "},{"text":"Chunky mc chunkface","color":"yellow"},{"text":" mod!\n\nThis mod allows you to "},{"text":"load","color":"aqua"},{"text":" a chunk, allowing your farms to run when you are not nearby or even offline. Chunkloading will however turn itself off when you have been offline for longer than 5 hours. If you are playing on a server, use the mod with caution as it can very quick lag the server out for your server members if over-used. By default it will "},{"text":"load","color":"aqua"},{"text":" the chunk it is in, if you build a 3x3 below it using the blocks in its description, you can make it an area of 9 (3x3) chunks.\nRight clicking resets your timer, sand on the bottom means it's off, sand at the top means it's on."}],
     "Dave's Potioneering": [
       {
@@ -140,21 +128,6 @@
       },
       {
         "text": " mod!\n\nCagerium is a \"one block solution\" for mob farming. It comes with three different tiers of cages, the first one handling passive animals, the second one aggressive mobs and the third one boss mobs! It will output the loot of the mobs in an inventory underneath the cages."
-      }
-    ],
-    "Hostile Neural Networks": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Hostile Neural Networks",
-        "color": "yellow"
-      },
-      {
-        "text": " mod!\n\nHostile Neural Networks is a server-friendly mob looting system. Use a Data Model on a mob to make it's Model, then evolve your Data Model using Spawn Eggs of the corresponding type. Very powerful mod!"
-      },
-      {
-        "text": "\n\nNote, HNN works differently in this pack! Your models won't upgrade in Simulation Chambers or gain data from kills, you need to evolve them using spawn eggs! Also needs power to work."
       }
     ],
     "Ghost Walk": [
@@ -496,7 +469,7 @@
         "text": " Mod!\n\nEnables you to craft and upgrade Grappling Hooks, an alternate way of getting around both inside and outside of Vaults!"
       }
     ],
-    "Vehicles": [
+    "Traversal": [
       {
         "text": "\n"
       },
@@ -504,7 +477,7 @@
         "text": "Unlocks "
       },
       {
-        "text": "Ultimate Car Mod, Small Ships, Immersive Aircraft,",
+        "text": "Grappling Hooks, Ultimate Car Mod, Small Ships, Immersive Aircraft,",
         "color": "yellow"
       },
       {
@@ -515,7 +488,7 @@
         "color": "yellow"
       },
       {
-        "text": "mods!\n\nUnlocks a variety of transportation methods for land, sea, AND air! Don't be stuck using only an Elytra!"
+        "text": "mods!\n\nUnlocks a variety of traversal methods for land, sea, AND air! Don't be stuck using only an Elytra!"
       }
     ],
     "Turrets": [
@@ -531,21 +504,6 @@
       },
       {
         "text": "mod!\n\nSilence's Turrets provide base defense and an alternate way to grind mobs from Mob Spawners or Gateways."
-      }
-    ],
-    "Inventory Pets": [
-      {
-        "text": "\n"
-      },
-      {
-        "text": "Unlocks "
-      },
-      {
-        "text": "Inventory Pets",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nWant to bring pets into the Vaults? Grab an Inventory Pet! Hangs out in your inventory and gives some minor buff, bonus, or other function!"
       }
     ],
     "Animalistic": [
@@ -632,24 +590,6 @@
       },
       {
         "text": "\n\nIn this pack, you will also be able to upgrade the Botany Pots to enhanced tiers that have a greater output and speed."
-      }
-    ],
-    "Vault Compass": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Vault Compass",
-        "color": "yellow"
-      },
-      {
-        "text": "!\n\nThis is the ideal tool for anyone getting lost inside the vault. While in your inventory the compass will always point to the start portal of any vault.\n\nYou can hold right mouse button while crouching to bind the compass to a custom location instead of the exit."
-      },
-      {
-        "text": "!\n\nAdditionally unlocks a Map of the Vault that will appear on your screen and update as you traverse rooms!"
-      },
-      {
-        "text": "!\n\nAlso unlocks a Player Tracking Compass for finding your friend in the vault!"
       }
     ],
     "Archers Paradox": [
@@ -1374,7 +1314,7 @@
         "text": "Unlocks the "
       },
       {
-        "text": "Junk Controller, Junk Identifier, Soul Harvester, ",
+        "text": "Void Crucible, Filter Necklace, Soul Harvester, ",
         "color": "yellow"
       },
       {
@@ -1385,34 +1325,27 @@
         "color": "yellow"
       },
       {
-        "text": "!\n\nThe Junk Controller allows you to specify 9 items by default that will be automatically deleted on pickup inside a vault. The Junk Controller can also be upgraded, although expensively, to handle up to a stunning 2052 items!"
+        "text": "!\n\nThe Void Crucible lists out most blocks used in Vault themes that will be Voided when your Magnet is set to Void mode. You can use the Void Crucible to specify which blocks to keep."
       },
       {
-        "text": " Must carry "
+        "text": "The Filter Necklace is a more advanced way of voiding blocks. Put Create filters into it, wear it, and it will control what items get Voided instead!\n\n The"
       },
       {
-        "text": "junk identifier",
-        "color": "aqua"
-      },
-      {
-        "text": " on you to make it work.\n\nThe "
-      },
-      {
-        "text": "Soul Harvester",
+        "text": "Soul Harvester and Vault Salvager",
         "color": "yellow"
       },
       {
-        "text": " is a much faster way of breaking down items to "
+        "text": " are faster versions of the Soul Diffuser and Vault Recycler. You can use these to harvest "
       },
       {
         "text": "Soul Essence",
         "color": "light_purple"
       },
       {
-        "text": ".\n\nThe Soul Harvester automatically pulls from an inventory above it, and automatically pushes to an inventory below it, and it is, very fast."
+        "text": "and recycle gear faster.\n\nThe Soul Harvester automatically pulls from an inventory above it, and automatically pushes to an inventory below it, and it is, very fast."
       },
       {
-        "text": "\n\nAlso comes with the Vault Salvager! A new block that works like the Vault Recycler but stores an unlimited number of vault scrap and netherite scrap, and has more room for faceted focuses. It's also much faster, and purple!"
+        "text": "\n\nThe Vault Salvager works like the Vault Recycler but stores an unlimited number of vault scrap and netherite scrap, and has more room for faceted focuses. It's also much faster, and purple!"
       }
     ],
     "Pouches": [
@@ -2083,7 +2016,7 @@
         "text": "mod!\n\nA very small but useful mod that allows you to craft torches and lamps that can block both hostile and passive mob spawning in an area of 64 blocks around it. This can not be used in the vaults to prevent mobs from spawning however."
       }
     ],
-    "Trashcans": [
+    "Vault Compass": [
       {
         "text": ""
       },
@@ -2095,15 +2028,28 @@
         "text": "\n"
       },
       {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Trashcans ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nThis mod provides you with easy to use trashcans, where you can void not just items, but excess fluids and energy (FE) as well."
-      }
+            "text": "Unlocks the "
+        },
+        {
+            "text": "Vault Compass",
+            "color": "yellow"
+        },
+        {
+            "text": "!\n\nThe Vault Compass is a powerful navigation tool designed to assist players throughout the vault. Upon unlock, players gain access to a progression system that allows the compass to attune itself to various targets, making exploration more strategic and rewarding."
+        },
+        {
+            "text": "\n\nBy default, the compass still points to the vault's starting portal, but as you progress, you can unlock new targets such as the nearest undiscovered Challenge Room, an uncompleted God Altar, or other special points of interest within the vault."
+        },
+        {
+            "text": "\n\nWhile inside a vault, players can change the compass's target at any time, though doing so comes at a cost of "
+        },
+        {
+            "text": "10% of their maximum health ",
+            "color": "#FFFFFF"
+        },
+        {
+            "text": "(similar to the effect of consuming Vault Fruit).\n\nThrough this system, the Vault Compass transforms from a simple navigation tool into a powerful, customizable guide that adapts to each player's goals and exploration style."
+        }
     ],
     "Elevators": [
       {
@@ -15997,6 +15943,18 @@
       {
         "text": "\n\nVault Brews are upgraded Mixtures, and the effect of its modifier is even further increased"
       }
+    ],
+    "Vault Decks": [
+        {
+            "text": "Unlocks the "
+        },
+        {
+            "text": "Deck Station",
+            "color": "yellow"
+        },
+        {
+            "text": "\n\nThis research gives you access to the Advanced Decks tab within the Deck Station."
+        }
     ],
     "Prudent": [
       {

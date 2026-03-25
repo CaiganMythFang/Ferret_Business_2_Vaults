@@ -30,7 +30,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Addons": 1
+        "Addons": 4
       }
     },
     "Storage Solutions": {
@@ -52,15 +52,17 @@
     "Pirate Broadcast": {
       "title": "Pirate Broadcast",
       "research": [
-        "Grappling Hooks",
-        "Vehicles",
+        "Traversal",
         "Turrets",
-        "Inventory Pets",
-        "Animalistic"
+        "Animalistic",
+        "Augment Crafting",
+        "Mod Box Tinkering",
+        "Vault Decks",
+        "Companion Workstation"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Pirate Broadcast": 0
+        "Pirate Broadcast": 3
       }
     },
     "BigToys": {
@@ -72,12 +74,11 @@
         "Create Ore Excavation",
         "Hexcasting",
         "Psi",
-        "Mahou Tsukai",
-        "Hexerei"
+        "Mahou Tsukai"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "BigToys": 5.0
+        "BigToys": 7
       }
     },
     "Production": {
@@ -90,12 +91,11 @@
         "Phytogenic Insulator",
         "Botany Pots",
         "Bonsai Pots",
-        "Hostile Neural Networks",
         "Mob Gates"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Production": 12.0
+        "Production": 14
       }
     },
     "BigMods": {
@@ -113,7 +113,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "BigMods": 10.0
+        "BigMods": 13
       }
     },
     "Power": {
@@ -129,20 +129,21 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Power": 6.0
+        "Power": 8
       }
     },
     "QoL": {
       "title": "QoL",
       "research": [
         "Torch Master",
-        "Trashcans",
+        "Vault Compass",
         "Elevators",
         "Waystones",
         "Altar Automation",
         "RFTools Utility",
         "Time in a Bottle",
-        "Better Wallets"
+        "Better Wallets",
+        "Angel"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {}
@@ -162,7 +163,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Looting": 2.0
+        "Looting": 3
       }
     },
     "Handling": {
@@ -179,7 +180,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Handling": 4.0
+        "Handling": 5
       }
     },
     "Alchemy": {
@@ -192,7 +193,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Alchemy": 5.0
+        "Alchemy": 6
       }
     }
   }
