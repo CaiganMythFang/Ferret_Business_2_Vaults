@@ -4,14 +4,8 @@
 	order_index: 1
 	filename: "building_a_haven"
 	title: "Building a Haven"
-	subtitle: [
-		"MOD : Architecture's Palette"
-		"MODS : Block Diversity, Quark"
-		"MODS : Fairy Lights, Torchmaster"
-		"MODS : Chisel, Chisels and Bits"
-		"MODS : Joy of Painting, FramedBlocks"
-		"MODS : Modern Online Picture Frame, Structurize"
-	]
+	icon: "decocraft:dog_house"
+	subtitle: ["Building, Decoration, and Planning Mods"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -36,10 +30,11 @@
 		}
 		{
 			title: "A Palette of Choices"
-			x: 0.25d
-			y: -3.0d
+			icon: "architects_palette:entwine_block"
+			x: -0.25d
+			y: 4.25d
 			shape: "square"
-			subtitle: "MOD : Architecture's Palette"
+			subtitle: "MOD : Architecture's Palette (@architects_palette)"
 			description: [
 				"&eBuilding with classic materials is great, and what you can usually find around the most it feels like."
 				""
@@ -84,8 +79,9 @@
 		}
 		{
 			title: "Storing Pretty"
-			x: 1.25d
-			y: -3.0d
+			icon: "architects_palette:ender_pearl_block"
+			x: 0.75d
+			y: 4.25d
 			shape: "rsquare"
 			description: [
 				"&eThe blocks of metal you can make? Those can look really pretty I have to say. Or nice and rugged. They can fit into a lot of different build designs."
@@ -124,14 +120,15 @@
 		}
 		{
 			title: "Broader Colors"
-			x: 0.25d
-			y: -1.5d
+			icon: "dyenamics:lavender_dye"
+			x: -0.25d
+			y: 5.75d
 			shape: "square"
-			subtitle: "MOD : Block Diversity"
+			subtitle: "MOD : Dyenamics (@dyenamics)"
 			description: [
 				"&eEver feel that the sixteen colors of the base FOP Game Server gives you just isn't enough? Sure there are items here and there outside those colors, but it never seems enough."
 				""
-				"&eThere's a 'brand' the FOP introduced recently (and suspiciously similar to an older brand  we were looking at....but I digress!). It's called Block Diversity."
+				"&eThere's a 'brand' the FOP introduced recently (and suspiciously similar to an older brand  we were looking at....but I digress!). It's called Dyenamics."
 				""
 				"&eIt adds a variety of extra colors to the set, and some very lovely options for building with them!"
 			]
@@ -142,67 +139,61 @@
 				{
 					id: "1D5AEC844C7D8B91"
 					type: "item"
-					item: "buildersplus:sienna_wool"
+					item: "dyenamics:lavender_dye"
 				}
 				{
 					id: "6A897C94C260853A"
 					type: "item"
-					item: "buildersplus:lavender_quartzstairs"
+					item: "dyenamics:mint_dye"
 				}
 			]
 			rewards: [{
-				id: "72185173084130CC"
+				id: "0C03F61754DD52CC"
 				type: "choice"
-				table_id: 5632731352558517809L
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
 			}]
 		}
 		{
 			title: "Special Shapes"
-			x: 1.25d
-			y: -1.5d
+			icon: "dyenamics:bubblegum_bed"
+			x: 0.75d
+			y: 5.75d
 			shape: "rsquare"
-			description: [
-				"&eBlock Diversity also adds a lot of neat alternate block styles. This includes flat plates, which are like... octonal slabs? Octal slabs? No wait, whats a sixteenth of a block..."
-				""
-				"&eAnyways! It also adds some nice and fancy fences, quarter stairs, and more!"
-			]
+			description: ["&eDyenamics also adds a lot of neat colored furniture, like beds and candles."]
 			dependencies: ["206C87FF5D40B722"]
 			id: "34BC7A86D8E21601"
 			tasks: [
 				{
 					id: "197653B9C711106F"
 					type: "item"
-					item: "buildersplus:oak_switch"
+					item: "dyenamics:bubblegum_bed"
 				}
 				{
 					id: "15EE7F7474F36AA1"
 					type: "item"
-					item: "buildersplus:oak_pink_glass_fence"
-				}
-				{
-					id: "0875CF58387A893F"
-					type: "item"
-					item: "buildersplus:plum_banner"
+					item: "dyenamics:cherenkov_candle"
 				}
 			]
 			rewards: [{
-				id: "719E252ADCEF7613"
+				id: "148876906DDE0CED"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 		{
 			title: "A Few Lines Difference"
-			x: -3.5d
-			y: -1.5d
+			x: -0.25d
+			y: 2.75d
 			shape: "square"
-			subtitle: "MOD : Chisel"
+			subtitle: "MOD : Rechiseled (@rechiseled)"
 			description: [
 				"&eIt's quite amazing the difference a few lines can make in a design. As simple as an extra line here, a removed line there, and it feels brand new."
 				""
-				"&eYou can take Chisel for example. Just some simple line changes and you have a good variety with a single block."
+				"&eYou can take Rechiseled for example. Just some simple line changes and you have a good variety with a single block."
 				""
-				"&eJust make an Iron Chisel, and Right Click with it. You can then put in stone, wool, wood, etc and many of them will have Chiseled varieties of designs."
+				"&eJust make a Chisel, and Right Click with it. You can then put in stone, wool, wood, etc and many of them will have Rechiseled varieties of designs."
 			]
 			hide_dependency_lines: true
 			dependencies: ["06FED1C3C1EA8361"]
@@ -211,11 +202,9 @@
 				id: "76AB6EE95D39E420"
 				type: "item"
 				item: {
-					id: "chisel:iron_chisel"
+					id: "rechiseled:chisel"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
+					tag: { }
 				}
 			}]
 			rewards: [{
@@ -226,24 +215,25 @@
 		}
 		{
 			title: "Never Enough Blocks"
-			x: -4.5d
-			y: -1.5d
+			x: 0.75d
+			y: 2.75d
 			shape: "rsquare"
+			subtitle: "Mod : ReChiseled Create"
 			description: [
 				"&eGot a large build that needs a lot of Chiseled blocks? Look no further, Bandit."
 				""
-				"&eThe Auto Chisel will automatically convert stacks of Chiselable materials into the design of your choice."
+				"&eThe Mechanical Chisel will automatically convert the appropriate materials to the set Rechiseled block."
 				""
-				"&eSimply put in one of the Chisels in the top center, and the Chiseled block you want in the bottom center. Then put blocks that can be Chiseled to your chosen design in the left, and they'll pop over to the right after being Chiseled!"
+				"&eSimply Right Click the target block on the white square on the Mechanical Chisel, then run Create or other Conveyor Belts to it."
 				""
-				"&eOh, right, the AutoChisel requires power. Kind of important."
+				"&eNote that the Mechanical Chisel itself will require Rotational Power from Create to operate."
 			]
 			dependencies: ["749B56B34708C3D7"]
 			id: "0FBFAC82CDA27370"
 			tasks: [{
 				id: "1550B79BDB6536A4"
 				type: "item"
-				item: "chisel:auto_chisel"
+				item: "rechiseledcreate:mechanical_chisel"
 			}]
 			rewards: [{
 				id: "04CD9B407233B195"
@@ -253,10 +243,10 @@
 		}
 		{
 			title: "Sparkling Lights Strung High"
-			x: 0.25d
-			y: 0.25d
+			x: -0.25d
+			y: 1.25d
 			shape: "square"
-			subtitle: "MOD : Fairy Lights"
+			subtitle: "MOD : Fairy Lights (@fairylights)"
 			description: [
 				"&eThere's something lovely about light strings. You see them during Christmas, but they are an everyday thing as they are a cheap and fantastic way to light paths and large areas."
 				""
@@ -298,8 +288,8 @@
 		}
 		{
 			title: "Pennant Banners"
-			x: 2.25d
-			y: 0.25d
+			x: 1.75d
+			y: 1.25d
 			shape: "rsquare"
 			description: [
 				"&eA great way to show your spirit, be it for a team, a group, or just your favorite colors, but without lighting an entire area, you can use Pennants!"
@@ -339,8 +329,17 @@
 		}
 		{
 			title: "Other Stringed Designs"
-			x: 1.25d
-			y: -0.25d
+			icon: {
+				id: "fairylights:letter_bunting"
+				Count: 1b
+				tag: {
+					text: {
+						value: "{\"text\":\"\"}"
+					}
+				}
+			}
+			x: 0.75d
+			y: 0.75d
 			shape: "rsquare"
 			description: [
 				"&eOther than Lights, you can hang a few other things!"
@@ -376,8 +375,9 @@
 		}
 		{
 			title: "Your Lights, Your Style"
-			x: 1.25d
-			y: 0.75d
+			icon: "minecraft:glowstone_dust"
+			x: 0.75d
+			y: 1.75d
 			shape: "rsquare"
 			description: [
 				"&eAs you can already see, Fairy Lights are fairly customizable to your design needs. But there's a few things you may like to know!"
@@ -412,10 +412,11 @@
 		}
 		{
 			title: "A Little Bit of Everything"
-			x: 0.25d
-			y: 2.75d
+			icon: "quark:glass_item_frame"
+			x: -3.25d
+			y: -3.25d
 			shape: "square"
-			subtitle: "MOD : Quark"
+			subtitle: "MOD : Quark (@quark)"
 			description: [
 				"&eBandit, a bunch of us researchers were debating on where to cover this FOPGame Server brand. It kind of covers a little bit of everything, but we agreed to put it into my section. "
 				""
@@ -449,18 +450,6 @@
 					}
 				}
 				{
-					id: "3CB0A872EFF9A6C8"
-					type: "item"
-					title: "Any Color Item Frame"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tfb2:quark_coloritemframe"
-						}
-					}
-				}
-				{
 					id: "053EACDC034580BE"
 					type: "item"
 					item: "quark:glass_item_frame"
@@ -474,37 +463,21 @@
 		}
 		{
 			title: "Little Lights"
-			x: 1.25d
-			y: 2.75d
+			x: -4.25d
+			y: -2.75d
 			shape: "rsquare"
 			description: [
 				"&eQuark adds a few nice decorative lights, that give a certain ambience to your builds."
-				""
-				"&eCandles can be made from Tallow collected after killing various creatures. "
 				""
 				"&ePaper Lanterns come in two varieties: plain, and then if you add any sapling to it, turns it into a very pretty Decorated Paper Lantern."
 			]
 			dependencies: ["4DC50AC316891B1D"]
 			id: "38716C8764CC702F"
-			tasks: [
-				{
-					id: "75F92D319660D9A0"
-					type: "item"
-					title: "Any Quark Candle"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "quark:candles"
-						}
-					}
-				}
-				{
-					id: "255326786E2EAA45"
-					type: "item"
-					item: "quark:paper_lantern_sakura"
-				}
-			]
+			tasks: [{
+				id: "255326786E2EAA45"
+				type: "item"
+				item: "quark:paper_lantern_sakura"
+			}]
 			rewards: [{
 				id: "68EFD3304C4ADEDE"
 				type: "choice"
@@ -513,15 +486,14 @@
 		}
 		{
 			title: "Bit o' Magic"
-			x: 1.25d
-			y: 3.75d
+			icon: "quark:blank_rune"
+			x: -5.25d
+			y: -2.75d
 			shape: "rsquare"
 			description: [
 				"&eQuark adds a variety of little magical things that are quite nice, I must say. Even if they fall outside of the 'base construction' thing, they each have a decorative or similar purpose."
 				""
-				"&eDeep underground, you may find a Stoneling. You can sneak up to it while holding a Glowshroom. Killing it gets you a Heart of Diamond, which makes a Pickarang, a useful magical throwing mining tool."
-				""
-				"&eIn the Nether, Wraiths haunt certain Soul Sand biomes, and drop a Soul Bead. Much like an Eye of Ender, when Right Clicked with a Soul Bead, it will float out towards the nearest Nether Fortress."
+				"&eThe Pickarang is a useful magical throwing mining tool, which are what the FOP based the Vault Rangs on."
 				""
 				"&eRunes can be found as loot and crafted. When combined with an enchanted item, the glow on the item will change colors to the Rune's color."
 			]
@@ -538,11 +510,6 @@
 							Damage: 0
 						}
 					}
-				}
-				{
-					id: "1B4F0002995B320A"
-					type: "item"
-					item: "quark:soul_bead"
 				}
 				{
 					id: "414AF697F270A93D"
@@ -565,8 +532,9 @@
 		}
 		{
 			title: "Quarky Tools"
-			x: 1.25d
-			y: 1.75d
+			icon: "quark:slime_in_a_bucket"
+			x: -4.25d
+			y: -3.75d
 			shape: "rsquare"
 			description: [
 				"&eThere's a bunch of tools that Quark gives you for your builds, or for finding certain things."
@@ -617,8 +585,9 @@
 		}
 		{
 			title: "More Quarky Tools"
-			x: 2.25d
-			y: 2.75d
+			icon: "quark:abacus"
+			x: -5.25d
+			y: -3.75d
 			shape: "rsquare"
 			description: [
 				"&eIf you take a Glass Bottle up high in the air, in the Cloud layer, and Right Click, you'll bottle some of the Clouds. You can then Right Click the Bottled Cloud anywhere to release it right in front of you, making a solid cloud that lasts for a few seconds. You can then Right Click another block onto it to replace it."
@@ -627,7 +596,7 @@
 				""
 				"&eThe Abacus can be Right Clicked on a block to mark it as the 'start'. Then you can aim towards another block. The Abacus will count how many blocks it takes to go to the block you are aiming at, using ONLY right angles. "
 			]
-			dependencies: ["4DC50AC316891B1D"]
+			dependencies: ["5670599B6CB4A3A2"]
 			id: "6E9CCBB737547EAB"
 			tasks: [
 				{
@@ -661,27 +630,17 @@
 			}]
 		}
 		{
-			title: "Dream Designs"
-			x: 3.75d
-			y: 1.25d
+			x: 1.25d
+			y: -1.75d
 			shape: "square"
-			subtitle: "MOD : Structurize"
-			description: [
-				"&eOne of the benefits of starting your own branch of The Ferret Business is you can have your colonists help build new buildings you design!"
-				""
-				"&eIf you haven't started your own branch yet...go check out the \"You and What Army\" research section!"
-				""
-				"&eAnyways, the brand is called Structurize. You can see it offers a HUGE variety of blocks for your building designs! But the big things are the three tools it provides."
-				""
-				"&eThe Scan Tool can be used to select an area. Left Click to select the first corner of a cube, and Right Click to select the opposite corner. Then Right Click the Scan tool in the air to see the selection area. You can then set a name for it, see what resources it takes to build, etc. Hitting the Checkmark saves the selection to a 'blueprint' in your system."
-			]
+			subtitle: "MOD : Auxiliary Blocks (@auxiliaryblocks)"
 			hide_dependency_lines: true
 			dependencies: ["06FED1C3C1EA8361"]
 			id: "5E13074E1C1E6445"
 			tasks: [{
 				id: "6FA92FD5028EBAC9"
 				type: "item"
-				item: "structurize:sceptersteel"
+				item: "auxiliaryblocks:candy_cane_block"
 			}]
 			rewards: [{
 				id: "2AAB8455E9A444E9"
@@ -690,44 +649,14 @@
 			}]
 		}
 		{
-			title: "Construction Crew"
-			x: 4.75d
-			y: 1.25d
-			shape: "rsquare"
-			description: [
-				"&eNow that you have a saved design, you can go over to your Minecolony and Right Click the ground with the Build Tool. Here you can choose from a few premade designs, as well as any design you've saved with the Scan tool."
-				""
-				"&eSelect and position it, then when you confirm your Colonists will come over and build the structure (as long as you have the materials in storage!)."
-				""
-				"&eThe Shape Tool is another helpful tool Structurize provides. You need to select an area like the Scan tool, but when you Right Click it up in the air, you can choose what blocks and shape will be built there."
-			]
-			dependencies: ["5E13074E1C1E6445"]
-			id: "6B119B205F3D03F3"
-			tasks: [
-				{
-					id: "102DA67F9064588D"
-					type: "item"
-					item: "structurize:sceptergold"
-				}
-				{
-					id: "2E0F15244204F97B"
-					type: "item"
-					item: "structurize:shapetool"
-				}
-			]
-			rewards: [{
-				id: "16D767FFCC1F4818"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
 			title: "Mob Protection Racket"
-			x: -3.5d
-			y: 2.75d
+			x: -3.25d
+			y: 1.25d
 			shape: "square"
-			subtitle: "MOD : Torchmaster"
+			subtitle: "MOD : Torchmaster (@torchmaster)"
 			description: [
+				"&4&lRESEARCH : &r&4TORCH MASTER"
+				""
 				"&eAh, an old favorite was put into the FOPGame Server I see! Torchmaster is quite a popular brand in The Ferret Business' own exploration endeavours. Not surprised to see the FOP has copied it into their own place too."
 				""
 				"&eIn hostile, dangerous places, you need some kind of magic or technology that will prevent the creepy crawlies from appearing close to your camp. The Mega Torch is one such device."
@@ -751,8 +680,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.25d
+			x: -5.25d
+			y: 1.25d
 			shape: "rsquare"
 			description: [
 				"&eThe Dread Lamp is sort of like the Mega Torch, except it stops passive creatures from spawning. "
@@ -774,8 +703,9 @@
 		}
 		{
 			title: "Light in the Darkness"
-			x: -4.5d
-			y: 2.25d
+			icon: "torchmaster:feral_flare_lantern"
+			x: -4.25d
+			y: 1.25d
 			shape: "rsquare"
 			description: [
 				"&eIf you are wanting to light up an area to stop dangerous creatures from appearing, and so you can also see, deploy a Feral Flare Lantern."
@@ -806,10 +736,11 @@
 		}
 		{
 			title: "Serene Panoramas"
-			x: -3.5d
-			y: -3.0d
+			icon: "xercapaint:item_palette"
+			x: -4.75d
+			y: -0.25d
 			shape: "square"
-			subtitle: "MOD : Joy of Painting"
+			subtitle: "MOD : Joy of Painting (@xercapaint)"
 			description: [
 				"&eWhile the FOPGame Server has many paintings you can use for decorating your house or base, sometimes you want to try your own hand at painting."
 				""
@@ -849,11 +780,13 @@
 		}
 		{
 			title: "Going Up"
-			x: -3.5d
-			y: 0.25d
+			x: -3.25d
+			y: 2.75d
 			shape: "square"
-			subtitle: "MOD : Elevator Mod"
+			subtitle: "MOD : Elevator Mod (@elevatorid)"
 			description: [
+				"&4&lRESEARCH : &r&4ELEVATORS"
+				""
 				"&eBeing able to make large bases without worrying about architectual concerns like support pillars, etc can make for some fantastic designs...."
 				""
 				"&eBut it also can make it quite difficult to design staircases that go to all the floors that also look nice... or that don't take lots of room themselves."
@@ -885,18 +818,19 @@
 		}
 		{
 			title: "Framed in Style"
-			x: -6.25d
-			y: 1.25d
+			icon: "blockcarpentry:frameblock"
+			x: -0.25d
+			y: -0.25d
 			shape: "square"
-			subtitle: "MOD : FramedBlocks"
+			subtitle: "MOD : BlockCarpentry (@blockcarpentry)"
 			description: [
 				"&eNow, most blocks in the FOPGame Server only have a couple of shapes (if you are lucky). Block, stairs, slab. If its wood, it probably has a Door, Trap Door, and maybe Fences and Fence Gates. But not all the time, right?"
 				""
-				"&eSo instead of bothering with making versions for each Block material, a brand was introduced to cover missing shapes, and add new shapes to build with : Framed Blocks."
+				"&eSo instead of bothering with making versions for each Block material, a brand was introduced to cover missing shapes, and add new shapes to build with : Block Carpentry"
 				""
-				"&eStarting with the Framed Block, you can use it to build a quick structure. Then, you take a solid block, like say Bricks, and Right Click it onto a bare Framed Block to 'camo' it as that block. Want it to make light? Right Click some Glowstone Dust onto it too."
+				"&eStarting with the Frame Block, you can use it to build a quick structure. Then, you take a solid block, like say Bricks, and Right Click it onto a bare Frame Block to 'camo' it as that block. Want it to make light? Right Click some Coal, Charcoal, or Glowstone Dust onto it too."
 				""
-				"&eYou can take a Framed Hammer and Right Click the Framed Block to remove the Camo."
+				"&eYou can take a Hammer from BlockCarpentry and Right Click the Frame Block to remove the Camo."
 			]
 			hide_dependency_lines: true
 			dependencies: ["06FED1C3C1EA8361"]
@@ -905,12 +839,12 @@
 				{
 					id: "626AAEB10DF61FC1"
 					type: "item"
-					item: "framedblocks:framed_cube"
+					item: "blockcarpentry:frameblock"
 				}
 				{
 					id: "5F48BF8DB0451E4B"
 					type: "item"
-					item: "framedblocks:framed_hammer"
+					item: "blockcarpentry:hammer"
 				}
 			]
 			rewards: [{
@@ -920,16 +854,17 @@
 			}]
 		}
 		{
-			title: "Framing Better"
-			x: -7.25d
-			y: 0.75d
+			title: "Framing Accurately"
+			icon: "blockcarpentry:illusion_block"
+			x: 0.75d
+			y: -0.25d
 			shape: "rsquare"
 			description: [
-				"&eFramed Blocks come in many shapes, and many of them can be rotated all around to fit into your builds."
+				"&eFrame Blocks come in many shapes, but each shape has two versions : normal and Illusion."
 				""
-				"&eYou can use a Framed Wrench (or most any useable Wrench) to cycle through the styles and directions a Framed Block has. "
+				"&eIllusion blocks are different than normal Frame Blocks, primarily in that they 'copy' the model of the block, not just the textures. For example, a Furnace has a different top and sides, and that'll match up in an Illusion Block."
 				""
-				"&eAnother useful tool is the Framed Blueprint. You can Sneak + Right Click it onto a customized Frame Block to copy it. Then, as long as you have the parts in your inventory (the Framed Block, the Block using as Camo, etc), you can use the Blueprint to instantly place down more copies of it!"
+				"&eYou can see it best if you use a Texture Wrench. You can use it to change the texture on each side of a normal Frame Block, but if you use it on an Illusion Block, you rotate the whole block instead."
 			]
 			dependencies: ["5BA547287C13B0F1"]
 			id: "1EBB7D36D3AE7C34"
@@ -937,18 +872,12 @@
 				{
 					id: "54AEFF1FF6E68CAC"
 					type: "item"
-					item: "framedblocks:framed_wrench"
+					item: "blockcarpentry:texture_wrench"
 				}
 				{
-					id: "5EBB7B238FF62967"
+					id: "4C4E06F588812423"
 					type: "item"
-					item: {
-						id: "framedblocks:framed_blueprint"
-						Count: 1b
-						tag: {
-							blueprint_data: { }
-						}
-					}
+					item: "blockcarpentry:illusion_block"
 				}
 			]
 			rewards: [{
@@ -958,36 +887,37 @@
 			}]
 		}
 		{
-			title: "Special Blocks"
-			x: -7.25d
-			y: 1.75d
+			title: "More Frame Tools"
+			icon: "blockcarpentry:paintbrush"
+			x: 1.75d
+			y: -0.25d
 			shape: "rsquare"
 			description: [
-				"&eAlong with a wide variety of slopes, stairs, and other shaped Framed Blocks, you can also make a few interesting ones!"
+				"&eAlong with the Wrench, you have two other tools to customize your Frame Blocks."
 				""
-				"&eThe Collapsable Framed Block lets you adjust the height of each corner with a Framed Hammer. Left Click a corner to lower it, and Sneak + Left Click to raise it."
+				"&eThe Chisel lets you cycle through certain Frame Block designs. Not all Frame Blocks have alternate designs though!"
 				""
-				"&eThe Framed Secret Storage is a good way to hide some useful stuff, or turn whole walls into hidden storage to keep your deco nice and tidy."
+				"&eThe Paintbrush lets you color special parts of some Frame Blocks. Things like the glass on windows, or the fabric on Beds."
 				""
-				"&eThe Framed Bouncy Cube acts sort of like a Slime Block. Jumping on it makes you bounce up!"
+				"&eYou can also increase the Blast Resistance of Frame Blocks a little by Right Clicking a Flint onto them, or increase a LOT by using an Obsidian Compound Chunk!"
 			]
-			dependencies: ["1EBB7D36D3AE7C34"]
+			dependencies: ["5BA547287C13B0F1"]
 			id: "22109511478BB0A6"
 			tasks: [
 				{
-					id: "525F85BD3507A577"
+					id: "51EBB3344F8E65C6"
 					type: "item"
-					item: "framedblocks:framed_collapsible_block"
+					item: "blockcarpentry:chisel"
 				}
 				{
-					id: "7861FC552B52046E"
+					id: "2F815A8206E26B0C"
 					type: "item"
-					item: "framedblocks:framed_secret_storage"
+					item: "blockcarpentry:paintbrush"
 				}
 				{
-					id: "35DC67EEC49DB8AE"
+					id: "2A8E2472C91F5350"
 					type: "item"
-					item: "framedblocks:framed_bouncy_cube"
+					item: "blockcarpentry:explosion_resistance_ball"
 				}
 			]
 			rewards: [{
@@ -997,54 +927,18 @@
 			}]
 		}
 		{
-			title: "By Bit and Piece"
-			x: 3.75d
-			y: -0.75d
+			x: 3.0d
+			y: -1.75d
 			shape: "square"
-			subtitle: "MOD : Chisels and Bits"
-			description: [
-				"&eEver look at some stairs, or a slab, and wish you could make a bit more of a...unique shape? The standard blocks in the FOPGame Server feel pretty limited, as they do in many games."
-				""
-				"&eOne of the things the FOP took from our own games is a system called Chisels and Bits. It lets you break down a block into a 16x16x16 pile of Bits."
-				""
-				"&eTo do so, you'll need a Chisel. Chisels and Bits offers a variety of Chisels, which you can use to Chisel bits out of placed Blocks by Left Clicking. These bits can be placed back themselves, or used to create whole new Blocks, with the shapes you want!"
-				""
-				"&eHolding a Chisel and holding R will bring up a menu for how you carve out Bits. If you want to see if a block can be Chiseled, hold a Magnifying Glass and look at it. "
-				""
-				"&eTo keep your inventory tidy(16x16x16 is a LOT), make a Chiseled Bit Bag."
-			]
+			subtitle: "MOD : Builder's Delight (@buildersdelight)"
 			hide_dependency_lines: true
 			dependencies: ["06FED1C3C1EA8361"]
 			id: "310FC85A5C9BA1B7"
-			tasks: [
-				{
-					id: "67EAC9E37BC8AF48"
-					type: "item"
-					item: {
-						id: "chiselsandbits:chisel_stone"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "697C6ED5107EC4AD"
-					type: "item"
-					item: "chiselsandbits:magnifying_glass"
-				}
-				{
-					id: "7869C7EBC3610D32"
-					type: "item"
-					item: {
-						id: "chiselsandbits:bit_bag"
-						Count: 1b
-						tag: {
-							Inventory: { }
-						}
-					}
-				}
-			]
+			tasks: [{
+				id: "5EF65462F6072F45"
+				type: "item"
+				item: "buildersdelight:acacia_furniture_kit"
+			}]
 			rewards: [{
 				id: "06A1C7ED36C3DA17"
 				type: "choice"
@@ -1052,167 +946,579 @@
 			}]
 		}
 		{
-			title: "Extra Tools and Bits"
-			x: 4.75d
-			y: -0.25d
-			shape: "rsquare"
-			description: [
-				"&eNow, you can make Bits out of any solid block...did you know you can do the same with Fluids? Just put some Fluid into a Chiseled Bit Storage and Right Click it to remove some Bits. They will be animated with the liquid!"
-				""
-				"&eThe Wrench is used to rotate your placed Chisels and Bits blocks around."
-				""
-				"&eThe Tape measure is good for measing out how many Bits you'll need for larger areas. Right Click the first Bit on a block, then Right Click the other corner, and you'll get a visual showing you the size of the area."
-			]
-			dependencies: ["310FC85A5C9BA1B7"]
-			id: "6F078DF7D44AF0EE"
-			tasks: [
-				{
-					id: "00A011358A819F97"
-					type: "item"
-					item: "chiselsandbits:bit_storage"
-				}
-				{
-					id: "76EFBA47BEADA21F"
-					type: "item"
-					item: "chiselsandbits:wrench"
-				}
-				{
-					id: "24F314BE99153664"
-					type: "item"
-					item: {
-						id: "chiselsandbits:measuring_tape"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-			rewards: [{
-				id: "7715F409266E98C4"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "A Good Design Forever"
-			x: 4.75d
-			y: -1.25d
-			shape: "rsquare"
-			description: [
-				"&eSo, you've made yourself a killer designed block with Chisels and Bits... but how do you make MORE of it? That's where Patterns come in!"
-				""
-				"&ePut some Paper in your Offhand, and hold a Quill. Then look at the Chisels and Bits block, and hold Right Click to start copying the pattern to get a Simple Pattern."
-				""
-				"&eThis pattern can be used to place out a copy of the block one time. You can change how it places the new block by holding R to get the options menu."
-				""
-				"&eWant to keep that Pattern for multiple uses? Then get some Sealant. Hold the Pattern in your Offhand, then hold Right Click with the Sealant to seal the Pattern."
-				""
-				"&eIf you want to remove Sealant on a Pattern, use Sealant Remover the same way as adding Sealant."
-			]
-			dependencies: ["310FC85A5C9BA1B7"]
-			id: "4245C58C1F608F89"
-			tasks: [
-				{
-					id: "048BA78B09D37959"
-					type: "item"
-					item: {
-						id: "chiselsandbits:quill"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "0E9AC013B2E5F5E5"
-					type: "item"
-					item: "chiselsandbits:pattern_single_use"
-				}
-				{
-					id: "6263ECFEED2B0831"
-					type: "item"
-					item: {
-						id: "chiselsandbits:sealant"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "71F8EC15B2579370"
-					type: "item"
-					item: {
-						id: "chiselsandbits:unseal"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-			rewards: [{
-				id: "29EAC54C5769A1D5"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Pattern Perfect"
-			x: 5.75d
-			y: -0.75d
-			shape: "rsquare"
-			description: [
-				"&eNow that you know how to make Patterns, now you can learn how to modify them! At least a bit."
-				""
-				"&eThe Modification Table lets you Flip or Mirror the design on the different axis."
-				""
-				"&eThe Chisel Station is a super useful tool for big builds that use primarily ONE material of Bit. If you aren't mixing the Bits together, you can use the Chisel Station to produce multiple of the block from the Pattern, as long as you provide the Bits as well."
-			]
-			dependencies: ["4245C58C1F608F89"]
-			id: "2FF971FDE0391021"
-			tasks: [
-				{
-					id: "283CED18AC9042F3"
-					type: "item"
-					item: "chiselsandbits:modification_table"
-				}
-				{
-					id: "18120CBA82009380"
-					type: "item"
-					item: "chiselsandbits:chiseled_printer"
-				}
-			]
-			rewards: [{
-				id: "6CBAEBB47AB4E827"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
 			title: "Internet Famous"
-			x: -6.25d
-			y: -0.75d
+			icon: "immersive_paintings:painting"
+			x: 3.0d
+			y: 5.75d
 			shape: "square"
-			subtitle: "MOD : Modern Online Picture Frame"
+			subtitle: "MOD : Immersive Paintings (@immersive_paintings)"
 			description: [
-				"&eWow, why is this locked behind the Orange rank? It's a single item and...oh, of course. Enticement..."
+				"&eWant to put up some nice art on your base walls, Bandit? Or some silly meme or something? Then Immersive Paintings will help!"
 				""
-				"&eWhat is it, you ask? Well, Bandit, this is called Modern Online Picture Frame. It enables you to load an image from the internet into the game. "
+				"&eYou can select images on your system, or on the internet with a URL."
 				""
-				"&eWell, as long as the image link ends in .jpg, .png, or .gif (yep, animated gifs are supported!)."
+				"&eFor normal images, you can just use a Painting. But if your image has transparency to it, you'll want to use Graffiti instead!"
 				""
-				"&eWhen you first place it, it will be sticking out from the wall (it acts like a full block behind it). You can Right Click it to change options. If you want it flush with the wall like a Painting, click Stitch."
-				""
-				"&eYou can also place the picture frame on a wall or ceiling by Sneak + Right Clicking when placing it."
-				""
-				"&eYou can change how big the image is as well as a few other options."
+				"&eIf you want bright/glowing versions of the art, combine the Painting or Graffiti item with a Glow Ink Sac!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["06FED1C3C1EA8361"]
 			id: "436D800FA8D9B4DF"
-			tasks: [{
-				id: "7ED3CBF85B9717A3"
-				type: "item"
-				item: "opf:opf"
-			}]
+			tasks: [
+				{
+					id: "7ED3CBF85B9717A3"
+					type: "item"
+					item: "immersive_paintings:painting"
+				}
+				{
+					id: "2E0BD09759756E4A"
+					type: "item"
+					item: "immersive_paintings:graffiti"
+				}
+			]
 			rewards: [{
 				id: "058F12BEA8B0842D"
 				type: "choice"
 				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "An Anchored Landing"
+			icon: "travel_anchors:travel_anchor"
+			x: -4.25d
+			y: 2.75d
+			shape: "rsquare"
+			subtitle: "MOD : Travel Anchors (@travel_anchors)"
+			description: [
+				"&eNow, I know many bases aren't vertical. Heck, here at the Business our buildings are all over the place!"
+				""
+				"&eThe Elevators research includes a... well, I guess you could say its an upgraded elevator!"
+				""
+				"&eIt's called a Travel Anchor! You can set a couple of these down, Right Click them to name them, and then you can stand on one, and see the others to jump to when you look at them!"
+				""
+				"&eThey can't be TOO far away, but a couple chunks should be no problem!"
+				""
+				"&eYou can also hold a Travel Staff and jump to nearby Travel Anchors in the same way!"
+			]
+			dependencies: ["346A39F3E5E0AA7D"]
+			id: "374B6A9B8D955861"
+			tasks: [
+				{
+					id: "5F80108B5AC46C47"
+					type: "item"
+					item: "travel_anchors:travel_anchor"
+				}
+				{
+					id: "0653308308F4C9EA"
+					type: "item"
+					item: "travel_anchors:travel_staff"
+				}
+			]
+			rewards: [{
+				id: "7B3BCC3FB6E8DDC3"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: -1.75d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "MODS : Building Gadgets (@buildinggadgets)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "645CB8535FC9F3CB"
+			tasks: [{
+				id: "0354407287ED0E16"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+						energy: 500000.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: -1.75d
+			shape: "diamond"
+			subtitle: "Mods : Cards n Boards (@cardsnboards)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "645978020B37B106"
+			tasks: [{
+				id: "06FBDFACA2FA86CA"
+				type: "item"
+				item: "cardsnboards:spadeace"
+			}]
+		}
+		{
+			x: -3.25d
+			y: -1.75d
+			shape: "diamond"
+			subtitle: "MOD : Casino Craft (@casinocraft)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "6600C9CDFC5D16D5"
+			tasks: [{
+				id: "7C84E5C95261362B"
+				type: "item"
+				item: "casinocraft:cardtable_wide_green"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.25d
+			shape: "diamond"
+			subtitle: "MOD : Chipped (@chipped)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "2F90408BE4B975B4"
+			tasks: [{
+				id: "46E0DD5FE81E6F67"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 2.75d
+			shape: "diamond"
+			subtitle: "MOD : Cluttered (@luphieclutteredmod)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "64E66663A1ACDD77"
+			tasks: [{
+				id: "376250C0934E96B7"
+				type: "item"
+				item: "luphieclutteredmod:luphie_purple_armchair"
+			}]
+		}
+		{
+			x: -3.25d
+			y: -0.25d
+			shape: "diamond"
+			subtitle: "MOD : Crafting Station (@craftingstation)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "4A2B681DD7FA7808"
+			tasks: [{
+				id: "1914CE3D8F3ABA12"
+				type: "item"
+				item: "craftingstation:crafting_station"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 5.0d
+			shape: "diamond"
+			subtitle: "MOD : Create: Copycats+ (@copycats)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "2D8FAF1364FD4A30"
+			tasks: [{
+				id: "36D55FCD557CA4FB"
+				type: "item"
+				item: "copycats:copycat_block"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -1.75d
+			shape: "diamond"
+			subtitle: "MOD : Dave's Building Extended (@davebuildingmod)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "10A5B366CD4607CA"
+			tasks: [{
+				id: "1F992D3777ACE0B6"
+				type: "item"
+				item: "davebuildingmod:create_boiler"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -1.75d
+			shape: "diamond"
+			subtitle: "MOD : Decorative Blocks (@decorative_blocks)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5CAFA9FA201AC624"
+			tasks: [{
+				id: "1C0F2ADB27AD6F9B"
+				type: "item"
+				item: "decorative_blocks:brazier"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "MOD : Display Case Mod (@display_case)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5CA471E1FD3EB442"
+			tasks: [{
+				id: "01C438D3F8DBEE4E"
+				type: "item"
+				item: {
+					id: "display_case:display_case"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "MOD : Effortless Building (@effortlessbuilding)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "3DD4986752C1688F"
+			tasks: [{
+				id: "521485B715B7E08C"
+				type: "item"
+				item: "effortlessbuilding:reach_upgrade1"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 5.75d
+			shape: "diamond"
+			subtitle: "MOD : Every Compat (@everycomp)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5C0A08B1CE4BA3E4"
+			tasks: [{
+				id: "121550179687B6C6"
+				type: "item"
+				item: "everycomp:cfm/the_vault/chromatic_table"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 5.75d
+			shape: "diamond"
+			subtitle: "MOD : Laser Bridges and Doors (@laserbridges)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "7D0E6A443DC14DC8"
+			tasks: [{
+				id: "07A73F5592FBBD44"
+				type: "item"
+				item: "laserbridges:laser_source_block"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -3.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Bridges (@mcwbridges)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "09300785003D2CCA"
+			tasks: [{
+				id: "2B772BC9FDDD6D99"
+				type: "item"
+				item: "mcwbridges:oak_log_bridge_middle"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -3.25d
+			shape: "diamond"
+			subtitle: "MODS : Macaw's Mods"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "308E7028A92075F5"
+			tasks: [{
+				id: "3F49DB272A5E099B"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -3.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Doors (@mcwdoors)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "65D96771F8231684"
+			tasks: [{
+				id: "3C67DB94F7C075B2"
+				type: "item"
+				item: "mcwdoors:oak_japanese_door"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -3.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Fences and Walls (@mcwfences)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "41F3FBE57E3C7860"
+			tasks: [{
+				id: "31FCF4ACFF169C27"
+				type: "item"
+				item: "mcwfences:oak_picket_fence"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -3.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Furniture (@mcwfurnitures)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "47BBE67BE8A0CD9D"
+			tasks: [{
+				id: "2BB065EA56BE5A38"
+				type: "item"
+				item: "mcwfurnitures:oak_wardrobe"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -2.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Lights and Lamps (@mcwlights)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "735B5E23F436C11A"
+			tasks: [{
+				id: "13E4C1A0F2558912"
+				type: "item"
+				item: "mcwlights:white_lamp"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -3.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Paintings"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "44D81E7CA1416FF5"
+			tasks: [{
+				id: "7A2A34226BCAAFBD"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -2.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Paths and Pavings (@mcwpaths)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "333A69227ED3F9BF"
+			tasks: [{
+				id: "463C73249C7DA1EB"
+				type: "item"
+				item: "mcwpaths:oak_planks_path"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -2.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Roofs (@mcwroofs)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "6BC37A64F4DA0D0A"
+			tasks: [{
+				id: "24AFA704BF3251BD"
+				type: "item"
+				item: "mcwroofs:oak_roof"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -2.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Trapdoors (@mcwtrpdoors)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "329A83888BB9E728"
+			tasks: [{
+				id: "4B34010F953489FA"
+				type: "item"
+				item: "mcwtrpdoors:oak_barn_trapdoor"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -2.75d
+			shape: "diamond"
+			subtitle: "MOD : Macaw's Windows (@mcwwindows)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			dependencies: ["308E7028A92075F5"]
+			id: "554FBC3DE086EB84"
+			tasks: [{
+				id: "34357E922B58F67D"
+				type: "item"
+				item: "mcwwindows:window_base"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 4.25d
+			shape: "diamond"
+			subtitle: "MOD : Magic Vibe Decorations (@magic_vibe_decorations)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "29D2745B7388A12A"
+			tasks: [{
+				id: "4BAA6D722EE808DC"
+				type: "item"
+				item: "magic_vibe_decorations:hibernating_crystal_ball"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "MOD : Measurements (@measurements)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "3F343E750CF509C0"
+			tasks: [{
+				id: "6CCD46CE2414D7DB"
+				type: "item"
+				item: "measurements:tape_measure"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.75d
+			shape: "diamond"
+			subtitle: "MrCrayfish's Furniture Mod (@cfm)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "019723A30A58908C"
+			tasks: [{
+				id: "0393353C25BBA365"
+				type: "item"
+				item: "cfm:oak_chair"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -0.25d
+			shape: "diamond"
+			subtitle: "Neon Craft 2 (@neoncraft2)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5FB3EE1E253A7B46"
+			tasks: [{
+				id: "6AC91E27387CF7BD"
+				type: "item"
+				item: "neoncraft2:neon_tube"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 4.25d
+			shape: "diamond"
+			subtitle: "Secret Rooms 6 (@secretrooms)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "4ABC47385AB4D95D"
+			tasks: [{
+				id: "2A359CB3995BFA37"
+				type: "item"
+				item: "secretroomsmod:camouflage_paste"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.25d
+			shape: "diamond"
+			subtitle: "Simply Lights (@simplylight)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "09CCB4521FF3FC5D"
+			tasks: [{
+				id: "268B310C94CC0F26"
+				type: "item"
+				item: "simplylight:lightbulb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 4.25d
+			shape: "diamond"
+			subtitle: "MOD : Supplementaries (@supplementaries)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "53EEEE6D888CA9A9"
+			tasks: [{
+				id: "42173C80C90C23C7"
+				type: "item"
+				item: "supplementaries:turn_table"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.25d
+			shape: "diamond"
+			subtitle: "Tanuki Decor (@tanukidecor)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "5F81CFD9004D9DC7"
+			tasks: [{
+				id: "71C52669428C347E"
+				type: "item"
+				item: "tanukidecor:ship_in_a_bottle"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Technoblade Plushies (@technoblade_plushies)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["06FED1C3C1EA8361"]
+			id: "18CE69AA5094C10A"
+			tasks: [{
+				id: "442ADB0ACEEEFAAA"
+				type: "item"
+				item: "technoblade_plushies:technoblade_sitting_plush"
 			}]
 		}
 	]
