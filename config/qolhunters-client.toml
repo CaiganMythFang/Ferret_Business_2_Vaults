@@ -26,8 +26,8 @@
 	"Ability Duration Overlay" = true
 	#Add search box to vault stations
 	"Searchable Vault Stations" = true
-	#Show alert when equipped vault curio is broken
-	"Broken Curio Alert" = true
+	#Show alert when equipped vault curio has zero uses
+	"Zero Uses Alert" = true
 	#Show unlocked research requirements in green color
 	"Green Unlocked Researches" = true
 	#Adds toggles to prestige selection screen
@@ -40,6 +40,10 @@
 	"Magnet State Overlay" = true
 	#Zoom out further in zoomable vault screens (abilities, talents, researches, vault map).
 	"Zoom Out Further" = true
+	#Show ⌄ above jewel that would be chosen by identification stand.
+	"Autochosen Jewel" = false
+	#Show jewel weights that determine which jewel gets chosen by identification stand.
+	"Autochosen Weight" = false
 
 	["Client-Only Extensions"."Scavenger Vaults"]
 		#Shows the number of scavenger items you have in your inventory
@@ -72,9 +76,6 @@
 		#Changes the opacity (%) of the Bingo Grid background
 		#Range: 0 ~ 100
 		"Grid Background Opacity" = 50
-		#Improves the descriptions of bingo objectives in Bingo Vaults
-		#Might not work on servers?
-		"Better Bingo Descriptions" = false
 		#Changes the color of the Bingo Grid completion overlay
 		#Allowed Values: RED, BLUE, YELLOW, GREEN, GLORP
 		"Grid Completion Color" = "GREEN"
