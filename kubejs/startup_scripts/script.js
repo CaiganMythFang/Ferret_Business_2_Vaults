@@ -30,4 +30,6 @@ onEvent('item.registry', event => {
 	event.create('tfb2:grist_chroma').group('tfb2').displayName('Grist - Chroma')
 	event.create('tfb2:grist_morkite').group('tfb2').displayName('Grist - Morkite')
     event.create('tfb2:ferret_dollar').group('tfb2').displayName('Ferret Dollar')
+    event.create('tfb2:ferret_fifty_dollar').group('tfb2').displayName('Ferret Fifty Dollars')
+    event.create('tfb2:ferret_hundred_dollar').group('tfb2').displayName('Ferret Hundred Dollars')
     })
