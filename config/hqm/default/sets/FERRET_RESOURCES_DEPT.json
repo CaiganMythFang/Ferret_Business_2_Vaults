@@ -2,6 +2,52 @@
   "name": "FERRET RESOURCES DEPT",
   "quests": [
     {
+      "uuid": "bbe79b9e-756d-4970-b11f-a05afdc9d8e9",
+      "name": {
+        "text": " Ferret Hundred Dollars",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Since we\u0027re going to be dealing with larger amounts of currency, and we don\u0027t have Trade Vouchers anymore, we\u0027ll be using higher denominations of Ferret Dollars for larger purchases.\n\n    All denominations of Ferret Dollars can be put into the Shipping System to register them, and you can freely insert and take out any denomination you can afford.",
+        "isTranslationKey": false
+      },
+      "x": 82,
+      "y": 88,
+      "icon": {
+        "id": "tfb2:ferret_hundred_dollar",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tfb2:ferret_hundred_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "00a7182b-14bd-498d-9e7e-f469e464188c",
       "name": {
         "text": " Glitched Card Deck",
@@ -11,7 +57,7 @@
         "text": "    Lost your Glitched Card Deck, or want to have multiple to swap between? ",
         "isTranslationKey": false
       },
-      "x": 168,
+      "x": 190,
       "y": 118,
       "icon": {
         "id": "the_vault:card_deck",
@@ -31,10 +77,10 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
               },
-              "required": 250
+              "required": 5
             },
             {
               "item": {
@@ -56,6 +102,59 @@
           "id": "the_vault:card_deck",
           "Count": 1,
           "tag": "{clientCache:{color:[B;],colors:[B;],gearName:[B;],hasModifierCORRUPTED:0b,hasModifierETCHING:0b,hasModifierGREATER:0b,hasModifierLEGENDARY:0b,hasModifierUNUSUAL:0b,jcolors:[B;],model:[B;],rarity:[B;],rollType:[B;],state:[B;]},data:{cards:[{pos:[B;0B,0B]},{pos:[B;2B,0B]},{pos:[B;2B,1B]},{pos:[B;4B,2B]},{pos:[B;1B,3B]},{pos:[B;2B,3B]},{pos:[B;4B,4B]}],isModifiersPopulated:1b,modifiers:[{type:\"dummy\"}]},id:\"vhapi:hacked_backpack_01\",vaultGearData:[L;6140201552769773662L,-3838668311518222632L,2057L]}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d355bd9e-b791-471a-8dbc-505d8ae6e3e2",
+      "name": {
+        "text": " Cheap Trade Order",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Cheap tier Trade Orders generally request 2,500 FMC worth of items, and reward 3,750 FMC worth of items.",
+        "isTranslationKey": false
+      },
+      "x": 65,
+      "y": 138,
+      "icon": {
+        "id": "tfb2:trade_order_cheap",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 5,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    To provide a new Trade Order, we will need some Glitched Items.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 5,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9eafb49b-a9f2-4a47-9860-d0c04e437e4a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tfb2:trade_order_cheap",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -94,6 +193,31 @@
       ],
       "prerequisites": [
         "9b991f2a-7a6d-4995-b74e-ce4f72478dd1"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9eafb49b-a9f2-4a47-9860-d0c04e437e4a",
+      "name": {
+        "text": " Trade Order Quick Info",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Trade Orders are covered in more depth in the main Q.U.E.S.T. Tablet.\n\n    Much like Blind Bags, there are four tiers of Trade Orders : Cheap, Decent, Good, and Amazing.\n\n    Every couple Minecraft days, you can request a new Cheap and Decent Trade Order.\n\n    To find rarer Trade Orders, and more Trade Orders in general, you will need to search Flesh Chests in Raw Vaults, and Coin Piles in Regular Vaults.",
+        "isTranslationKey": false
+      },
+      "x": 38,
+      "y": 154,
+      "icon": {
+        "id": "wares:sealed_delivery_agreement",
+        "Count": 1,
+        "tag": "{buyerAddress:\u0027{\"text\":\"Almia Server\"}\u0027,buyerName:\u0027{\"text\":\"Green Pony\"}\u0027,message:\u0027{\"text\":\"I`m just missing these from my collection.\"}\u0027,ordered:7,payment:[{Count:10,id:\"sophisticatedstorage:iron_chest\"}],requested:[{Count:1,id:\"the_vault:spicy_hearty_burger\"}]}"
+      },
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
       ],
       "optionlinks": [],
       "reward": [],
@@ -147,17 +271,67 @@
       "commandrewards": []
     },
     {
+      "uuid": "202671f1-5852-4aa7-83af-d45fec062a1d",
+      "name": {
+        "text": " Ferret Fifty Dollars",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Since we\u0027re going to be dealing with larger amounts of currency, and we don\u0027t have Trade Vouchers anymore, we\u0027ll be using higher denominations of Ferret Dollars for larger purchases.\n\n    All denominations of Ferret Dollars can be put into the Shipping System to register them, and you can freely insert and take out any denomination you can afford.",
+        "isTranslationKey": false
+      },
+      "x": 82,
+      "y": 55,
+      "icon": {
+        "id": "tfb2:ferret_fifty_dollar",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 50 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tfb2:ferret_fifty_dollar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "677c3b5e-b498-4eee-bbc1-ebbf0254cd54",
       "name": {
         "text": " Hacked Booster Pack",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    Wanting more Hacked cards for Glitched Items? Look no further!",
+        "text": "    Looking for some Vault Resources, but also need more Glitched items?\n    Hacked cards give you a higher chance at Glitches and Token - Cards.\n    Note that White and Purple Cards have minimal synergy with other boosting cards or cores!",
         "isTranslationKey": false
       },
-      "x": 197,
-      "y": 118,
+      "x": 203,
+      "y": 145,
       "icon": {
         "id": "the_vault:booster_pack",
         "Count": 1,
@@ -170,16 +344,20 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 125 Ferret Dollars",
+            "text": "Cost : 150 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Bandit, almost all resource cards have a chance of generating glitches and tokens. Glitched and Hacked resource cards, however, have a higher chance!",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
               },
-              "required": 125
+              "required": 3
             },
             {
               "item": {
@@ -216,8 +394,8 @@
         "text": "    If you want to take your Shipping System on the go, then you\u0027ll want the Portable version.\n    This version is fairly expensive, but it allows you to open up the Shipping interface anywhere you want.",
         "isTranslationKey": false
       },
-      "x": 66,
-      "y": 88,
+      "x": 37,
+      "y": 87,
       "icon": {
         "id": "projecte:transmutation_tablet",
         "Count": 1
@@ -231,10 +409,10 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
-              "required": 100000
+              "required": 10
             }
           ]
         }
@@ -259,11 +437,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "    The TFB Shipping System can only hold a certain amount of FMC.\n    To expand the capacity of the System, as well as better transfer FMC to other assistants, use of a TFB Debit Card is suggested.\n    Multiple Debit cards can be slotted into the Left side of the Shipping System.",
+        "text": "    The TFB Shipping System can bank a lot of FMC for you, but sharing lots of FMC with other assistants can be unwieldy.\n    The TFB Debit Card can be slotted into the left side of the Shipping System to store FMC that can be easily traded with others.",
         "isTranslationKey": false
       },
-      "x": 99,
-      "y": 56,
+      "x": 115,
+      "y": 55,
       "icon": {
         "id": "projecte:klein_star_ein",
         "Count": 1
@@ -281,10 +459,9 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
-              },
-              "required": 50
+              }
             }
           ]
         }
@@ -324,13 +501,17 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 500 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
-              "required": 500
+              "required": 5
             }
           ]
         }
@@ -370,13 +551,16 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
-              },
-              "required": 100
+              }
             }
           ]
         }
@@ -416,13 +600,23 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
-              "required": 250
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
             }
           ]
         }
@@ -539,7 +733,19 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "description": {
+            "text": "Cost : 2500 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              },
+              "required": 25
+            }
+          ]
         }
       ],
       "prerequisites": [
@@ -556,13 +762,76 @@
       "commandrewards": []
     },
     {
+      "uuid": "8b7431e2-74b4-462b-a23b-495523af97dd",
+      "name": {
+        "text": " Glitched Booster Pack",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Want more basic resource Glitched Cards? They have a higher chance of getting Glitches and Token - Cards than normal Resource Cards.\n    Note that White and Purple Cards have minimal synergy with other boosting cards or cores!",
+        "isTranslationKey": false
+      },
+      "x": 179,
+      "y": 145,
+      "icon": {
+        "id": "the_vault:booster_pack",
+        "Count": 1,
+        "tag": "{id:\"vhapi:glitched_pack\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Bandit, almost all resource cards have a chance of generating glitches and tokens. Glitched and Hacked resource cards, however, have a higher chance!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 5,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:booster_pack",
+          "Count": 1,
+          "tag": "{id:\"vhapi:glitched_pack\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7231760f-0437-4ea4-8879-6c47b7993bbc",
       "name": {
         "text": " TFB Market Chest",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    The TFB Market Chest is a way for you to automate the selling of items to earn Silver Ferret Coins.\n    There are two sections of the TFB Market Chest : The \u0027Coin\u0027 Slot in the upper left, where only Silver Ferret Coins, Shop Vouchers, and Bags/Chests of Coins can be placed; then the inventory. Any items that have an FMC value and aren\u0027t the item placed in the Coin Slot, will be sold and converted to that item when it enters the inventory.",
+        "text": "    The TFB Market Chest is a way for you to automate the selling of items to earn Ferret Dollars.\n    There are two sections of the TFB Market Chest : The Slot in the upper left, where only Ferret Dollars can be placed; then the inventory. Any items that have an FMC value and inserted into the chest will automatically be sold and converted into the denomination of the Ferret Dollar in the upper slot.",
         "isTranslationKey": false
       },
       "x": 183,
@@ -577,11 +846,29 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": true
+          },
           "longDescription": {
             "text": "    TFB Debit Cards cannot be placed in the Market Chest inventory. To use stored FMC, you need to pull it out of your Shipping System itself.",
             "isTranslationKey": true
           },
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            }
+          ]
         }
       ],
       "prerequisites": [
@@ -598,13 +885,76 @@
       "commandrewards": []
     },
     {
+      "uuid": "ad4144c8-1af0-4f81-a312-060b71074950",
+      "name": {
+        "text": " Blind Box of Blind Boxes",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    As always, we provide the ability to purchase Blind Boxes outright, but they will be quite costly.\n    We\u0027d prefer if you earned them via questing, as that helps both sides, but if you have the extra Ferret Dollars and Glitches, you could always take a gamble.",
+        "isTranslationKey": false
+      },
+      "x": 293,
+      "y": 12,
+      "bigicon": true,
+      "icon": {
+        "id": "tfb2:blindboxblindbox",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched_item",
+                "Count": 1
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tfb2:blindboxblindbox",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "417affdd-3858-4335-a33e-c64d04cd0d8f",
       "name": {
         "text": " Extra Shipping Systems",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    The TFB Shipping System is a pricey device, especially since we have to mask it\u0027s functions from the FOPServer.\n    In the event that you have lost your TFB Shipping System, you can purchase a new one.\n    If you don\u0027t have enough Ferret Dollars to purchase a new one, you can use the second to last section of this Shop Tablet to sell some specific items.",
+        "text": "    The TFB Shipping System is a pricey device, especially since we have to mask it\u0027s functions from the FOPServer.\n    In the event that you have lost your TFB Shipping System, you can purchase a new one.\n    If you don\u0027t have enough Ferret Dollars to purchase a new one, we\u0027ve snuck in a few quick-sell crafting recipes for them.",
         "isTranslationKey": false
       },
       "x": 37,
@@ -628,10 +978,16 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
-              "required": 256
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
             }
           ]
         }
@@ -693,6 +1049,59 @@
       ],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "30b31d25-ccb7-477d-af45-43565cbfa94d",
+      "name": {
+        "text": " Decent Trade Order",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Decent tier Trade Orders generally request 10,00 FMC worth of items, and reward 15,000 FMC worth of items.",
+        "isTranslationKey": false
+      },
+      "x": 65,
+      "y": 168,
+      "icon": {
+        "id": "tfb2:trade_order_decent",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 5,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": {
+            "text": "    To provide a new Trade Order, we will need some Glitched Items.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 5,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9eafb49b-a9f2-4a47-9860-d0c04e437e4a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tfb2:trade_order_decent",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }
