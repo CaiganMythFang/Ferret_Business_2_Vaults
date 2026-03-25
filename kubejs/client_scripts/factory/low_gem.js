@@ -12,7 +12,8 @@ let low_gem = [
     'thermal:sulfur', 
     'tropicraft:azurite_gem', 
     'tropicraft:eudialyte_gem', 
-    'tropicraft:zircon_gem'
+    'tropicraft:zircon_gem',
+    'viescraftmachines:xegonite_shard'
 ]
 
 onEvent('item.tooltip', tooltip => {

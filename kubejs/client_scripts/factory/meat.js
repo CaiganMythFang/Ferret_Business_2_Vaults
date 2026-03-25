@@ -19,7 +19,8 @@ let meat = [
     'farmersdelight:cooked_cod_slice',
     'farmersdelight:cooked_salmon_slice',
     'farmersdelight:cooked_mutton_chops',
-    'delightful:chunk_nugget'
+    'delightful:chunk_nugget',
+    'minecraft:cooked_beef'
 ]
 
 onEvent('item.tooltip', tooltip => {

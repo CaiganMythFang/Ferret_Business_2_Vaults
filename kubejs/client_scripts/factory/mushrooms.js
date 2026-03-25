@@ -141,7 +141,8 @@ let mushrooms = [
     'magic_vibe_decorations:wall_mushrooms_warped_fungus',
     'minestuck:glowing_mushroom',
     'minestuck:morel_mushroom',
-    'tropicraft:magic_mushroom'
+    'tropicraft:magic_mushroom',
+    'quark:glow_shroom'
 ]
 
 onEvent('item.tooltip', tooltip => {

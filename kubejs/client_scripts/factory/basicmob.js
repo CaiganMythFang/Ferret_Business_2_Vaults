@@ -4,7 +4,8 @@ let basicmob = [
     'minecraft:gunpowder', 
     'minecraft:bone', 
     'minecraft:rotten_flesh', 
-    'minecraft:shulker_shell'
+    'minecraft:shulker_shell',
+    'minecraft:slime_ball'
 ]
 
 onEvent('item.tooltip', tooltip => {
