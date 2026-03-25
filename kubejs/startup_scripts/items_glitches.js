@@ -5,6 +5,7 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
+        .tagItem('tfb2:glitched_item')
 });
 
 onEvent('item.tooltip', tooltip => {
@@ -21,6 +22,7 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
+        .tagItem('tfb2:glitched_item')
 });
 
 onEvent('item.tooltip', tooltip => {
@@ -37,6 +39,7 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
+        .tagItem('tfb2:glitched_item')
 });
 
 onEvent('item.tooltip', tooltip => {
@@ -53,6 +56,7 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
+        .tagItem('tfb2:glitched_item')
 });
 
 onEvent('item.tooltip', tooltip => {
@@ -69,6 +73,7 @@ onEvent('item.registry', event => {
         .maxStackSize(64)
         .rarity(RARITY_UNCOMMON)
         .group('tfb2')
+        .tagItem('tfb2:glitched_item')
 });
 
 onEvent('item.tooltip', tooltip => {

@@ -37,7 +37,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Maned Wolf
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_maned_wolf')
@@ -53,7 +53,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Jackal
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_jackal')
@@ -69,7 +69,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Coyote
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_coyote')
@@ -85,7 +85,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Snow Leopard
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_snow_leopard')
@@ -101,7 +101,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Serval
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_serval')
@@ -117,7 +117,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Tiger
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_tiger')
@@ -133,7 +133,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Lion
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_lion')
@@ -149,7 +149,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Lynx
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_lynx')
@@ -165,7 +165,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Ocelot
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_ocelot')
@@ -181,7 +181,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Rat
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_rat')
@@ -197,7 +197,7 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Mouse
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_mouse')
@@ -213,11 +213,179 @@ onEvent('item.registry', event => {
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
-})
+});
 // Origins Book - Jerboa
 onEvent('item.registry', event => {
     event.create('tfb2:origins_book_jerboa')
         .displayName('Origins Book - Jerboa')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Ferret
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_ferret')
+        .displayName('Origins Icon - Ferret')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Ferret
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_ferret')
+        .displayName('Origins Book - Ferret')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Goat
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_goat')
+        .displayName('Origins Icon - Goat')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Goat
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_goat')
+        .displayName('Origins Book - Goat')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Elephant
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_elephant')
+        .displayName('Origins Icon - Elephant')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Elephant
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_elephant')
+        .displayName('Origins Book - Elephant')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Parrot
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_parrot')
+        .displayName('Origins Icon - Parrot')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Parrot
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_parrot')
+        .displayName('Origins Book - Parrot')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Red Panda
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_red_panda')
+        .displayName('Origins Icon - Red Panda')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Red Panda
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_red_panda')
+        .displayName('Origins Book - Red Panda')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Megabat
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_megabat')
+        .displayName('Origins Icon - Megabat')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Megabat
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_megabat')
+        .displayName('Origins Book - Megabat')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Rabbit
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_rabbit')
+        .displayName('Origins Icon - Rabbit')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Rabbit
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_rabbit')
+        .displayName('Origins Book - Rabbit')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Synth
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_synth')
+        .displayName('Origins Icon - Synth')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Synth
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_synth')
+        .displayName('Origins Book - Synth')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Hare
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_hare')
+        .displayName('Origins Icon - Hare')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Hare
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_hare')
+        .displayName('Origins Book - Hare')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Icon - Badger
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_icon_badger')
+        .displayName('Origins Icon - Badger')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Badger
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_badger')
+        .displayName('Origins Book - Badger')
+        .maxStackSize(1)
+        .rarity(RARITY_EPIC)
+        .group('tfb2')
+});
+// Origins Book - Human
+onEvent('item.registry', event => {
+    event.create('tfb2:origins_book_human')
+        .displayName('Origins Book - Human')
         .maxStackSize(1)
         .rarity(RARITY_EPIC)
         .group('tfb2')
