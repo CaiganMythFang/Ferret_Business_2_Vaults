@@ -11,6 +11,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 2
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
@@ -282,6 +292,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 4
+            },
             {
               "value": {
                 "stack": {
@@ -566,6 +586,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
             {
               "value": {
                 "stack": {
@@ -893,6 +923,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 8
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 2,
@@ -1205,6 +1245,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
             {
               "value": {
                 "stack": {
@@ -1530,6 +1580,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
             {
               "value": {
                 "stack": {
@@ -1895,6 +1955,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
             {
               "value": {
                 "stack": {
@@ -2295,6 +2365,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 2,
@@ -2549,6 +2629,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 2,
@@ -2770,6 +2860,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 4
+            },
             {
               "value": {
                 "stack": {
@@ -3074,6 +3174,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 8
+            },
             {
               "value": {
                 "stack": {
@@ -3389,6 +3499,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
             {
               "value": {
                 "stack": {
@@ -3787,6 +3907,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 2,
@@ -4169,6 +4299,16 @@
         },
         "itemPool": {
           "pool": [
+            {
+              "value": {
+                "stack": {
+                  "item": "tfb2:token_bounty"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 6
+            },
             {
               "value": {
                 "stack": {
@@ -4658,6 +4798,17 @@
               },
               "weight": 1
             },
+             {
+              "value": {
+                "stack": {
+                  "item": "the_vault:trident",
+                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:ocean_current\",\"the_vault:gear_roll_type\":\"Unique\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 1
+            },
             {
               "value": {
                 "stack": {
@@ -4954,6 +5105,17 @@
               },
               "weight": 2
             },
+             {
+              "value": {
+                "stack": {
+                  "item": "the_vault:trident",
+                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:ocean_current\",\"the_vault:gear_roll_type\":\"Unique\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 1
+            },
             {
               "value": {
                 "stack": {
@@ -5039,18 +5201,15 @@
         "itemPool": {
           "pool": [
             {
-              "weight": 10,
-              "item": {
-                "id": "the_vault:deck_socket",
-                "nbt": {
-                  "Modifier": "@completion_crate"
+              "value": {
+                "stack": {
+                  "item": "the_vault:deck_socket",
+                  "nbt": "{\"Modifier\": \"@completion_crate\"}"
                 },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 4
             },
             {
               "value": {
@@ -5199,6 +5358,17 @@
                 "stack": {
                   "item": "the_vault:magnet",
                   "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:chonknet\",\"the_vault:gear_roll_type\":\"Unique\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 3
+            },
+             {
+              "value": {
+                "stack": {
+                  "item": "the_vault:trident",
+                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:ocean_current\",\"the_vault:gear_roll_type\":\"Unique\"}"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -5474,16 +5644,6 @@
                 "maxCount": 1
               },
               "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 6,
-                "maxCount": 12
-              },
-              "weight": 4
             }
           ],
           "minTotalStacks": 6,
@@ -5498,19 +5658,16 @@
         },
         "itemPool": {
           "pool": [
-             {
-              "weight": 12,
-              "item": {
-                "id": "the_vault:deck_socket",
-                "nbt": {
-                  "Modifier": "@completion_crate"
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:deck_socket",
+                  "nbt": "{\"Modifier\": \"@completion_crate\"}"
                 },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 4
             },
             {
               "value": {
@@ -5616,6 +5773,17 @@
                 "stack": {
                   "item": "the_vault:axe",
                   "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 3
+            },
+             {
+              "value": {
+                "stack": {
+                  "item": "the_vault:trident",
+                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:ocean_current\",\"the_vault:gear_roll_type\":\"Unique\"}"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -5915,16 +6083,6 @@
                 "maxCount": 2
               },
               "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 8,
-                "maxCount": 16
-              },
-              "weight": 4
             }
           ],
           "minTotalStacks": 6,
@@ -5939,19 +6097,16 @@
         },
         "itemPool": {
           "pool": [
-             {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:deck_socket",
-                "nbt": {
-                  "Modifier": "@completion_crate"
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:deck_socket",
+                  "nbt": "{\"Modifier\": \"@completion_crate\"}"
                 },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 4
             },
             {
               "value": {
@@ -6088,6 +6243,17 @@
                 "stack": {
                   "item": "the_vault:axe",
                   "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 3
+            },
+             {
+              "value": {
+                "stack": {
+                  "item": "the_vault:trident",
+                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:ocean_current\",\"the_vault:gear_roll_type\":\"Unique\"}"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -6353,16 +6519,6 @@
                 },
                 "minCount": 1,
                 "maxCount": 3
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 8,
-                "maxCount": 16
               },
               "weight": 4
             }
