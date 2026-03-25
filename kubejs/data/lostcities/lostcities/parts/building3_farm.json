@@ -1,0 +1,256 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "^",
+				"Description": "",
+				"Color": "a6de4aff",
+				"blocks": [
+					{
+						"block": "minecraft:sugar_cane[age=0]",
+						"random": 15
+					},
+					{
+						"block": "minecraft:air",
+						"random": 150
+					}
+				]
+			},
+			{
+				"char": "N",
+				"Description": "",
+				"Color": "0bc500ff",
+				"blocks": [
+					{
+						"block": "farmersrespite:small_tea_bush",
+						"random": 5
+					},
+					{
+						"block": "occultism:datura[age=0]",
+						"random": 5
+					},
+					{
+						"random": 5,
+						"block": "immersiveengineering:hemp[growth=bottom0]"
+					},
+					{
+						"random": 5,
+						"block": "supplementaries:flax[age=0,half=lower]"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:beetroots[age=0]"
+					},
+					{
+						"random": 5,
+						"block": "farmersdelight:cabbages[age=1]"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:melon_stem[age=1]"
+					},
+					{
+						"random": 5,
+						"block": "car:canola[age=0]"
+					},
+					{
+						"random": 5,
+						"block": "farmersdelight:budding_tomatoes[age=0]"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:wheat[age=0]"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:pumpkin_stem[age=1]"
+					},
+					{
+						"random": 111,
+						"block": "minecraft:air"
+					}
+				]
+			},
+			{
+				"char": "n",
+				"Description": "",
+				"Color": "e4db14ff",
+				"blocks": [
+					{
+						"block": "minecraft:dandelion",
+						"random": 5
+					},
+					{
+						"block": "minecraft:poppy",
+						"random": 5
+					},
+					{
+						"random": 5,
+						"block": "minecraft:allium"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:pink_tulip"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:white_tulip"
+					},
+					{
+						"random": 5,
+						"block": "minecraft:sweet_berries"
+					},
+					{
+						"random": 5,
+						"block": "ecologics:azalea_flower"
+					},
+					{
+						"random": 566,
+						"block": "minecraft:air"
+					}
+				]
+			},
+			{
+				"char": "f",
+				"block": "minecraft:grass_block[snowy=false]",
+				"Description": ""
+			},
+			{
+				"char": "[",
+				"block": "minecraft:lantern[hanging=true,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "minecraft:farmland[moisture=7]",
+				"Description": "",
+				"Color": "836d32ff"
+			},
+			{
+				"char": "m",
+				"block": "mcwpaths:andesite_windmill_weave_path",
+				"Description": "",
+				"Color": "9e9e9eff"
+			},
+			{
+				"char": "e",
+				"block": "minecraft:dirt",
+				"Description": "",
+				"Color": "6f6542ff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$############$#",
+			"$eeefffffffffee$",
+			"#e2ffeeeeeffe2f#",
+			"#fffWWWeeWWWeff#",
+			"#ffWeeeeeeeeWff#",
+			"#ffWeWWeeWWeWff#",
+			"#feWeWkkkkWeWef#",
+			"#feeeekkkkeeeef#",
+			"#feeeekkkkeeeef#",
+			"#feWeWkkkkWeWef#",
+			"#feWeWWeeWWeWef#",
+			"#feWeeeeeeeeWef#",
+			"#fefWWWeeWWWeff#",
+			"#f2ffeeeeeefe2e#",
+			"$effffffffffeee$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$mmmnnnnnnnnmmm$",
+			"#m mmmmmmmmmm m#",
+			"#mmm   mm   mmm#",
+			"#nm ^^^mm^^^ mn#",
+			"#nm ^  mm  ^ mn#",
+			"#nm ^ NNNN ^ mn#",
+			"#nmmmmNNNNmmmmn#",
+			"#nmmmmNNNNmmmmn#",
+			"#nm ^ NNNN ^ mn#",
+			"#nm ^  mm  ^ mn#",
+			"#nm ^^^mm^^^ mn#",
+			"#mmm   mm   mmm#",
+			"#m mmmmmmmmmm m#",
+			"$mmmnnnn nnnmmm$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$              $",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"$              $",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$              $",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"#              #",
+			"$              $",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$              $",
+			"# [          [ #",
+			"#              #",
+			"#              #",
+			"#    [    [    #",
+			"#              #",
+			"#      [[      #",
+			"#      [[      #",
+			"#              #",
+			"#    [    [    #",
+			"#              #",
+			"#              #",
+			"# [          [ #",
+			"$              $",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$##############$",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"$##############$",
+			"#$############$#"
+		]
+	]
+}

@@ -3,20 +3,33 @@
   "rubble": "}",
   "parts": [
     {
-      "top": false,
-      "part": "building3_1"
+      "part": "building3_template_open_pillars"
     },
     {
-      "top": false,
-      "part": "building3_2"
+      "part": "building3_template_room"
     },
     {
-      "top": false,
-      "part": "building3_3"
+      "part": "building3_ore_room_nether"
     },
     {
-      "top": false,
-      "part": "building3_4"
+      "part": "building3_ore_room_overworld"
+    },
+    {
+      "part": "building3_ore_room_underworld"
+    },
+    {
+      "part": "building3_open_lit"
+    },
+    {
+      "part": "building3_farm"
+    },
+    {
+      "ground": true,
+      "part": "building3_bathroom_ew"
+    },
+    {
+      "ground": true,
+      "part": "building3_bathroom_ns"
     },
     {
       "top": true,
@@ -29,14 +42,6 @@
     {
       "top": true,
       "part": "top1x1_3"
-    },
-    {
-      "top": true,
-      "part": "top1x1_4"
-    },
-    {
-      "top": true,
-      "part": "top1x1_5"
     }
   ]
 }

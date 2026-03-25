@@ -8,7 +8,7 @@
 				"char": "2",
 				"block": "minestuck:white_chess_dirt",
 				"Description": "Floor",
-				"Color": "e5e5e5ff"
+				"Color": "c3a24dff"
 			},
 			{
 				"char": "3",
@@ -46,11 +46,11 @@
 				"blocks": [
 					{
 						"block": "luphieclutteredmod:luphie_wall_bookshelf[facing=west,waterlogged=false]",
-						"random": 66
+						"random": 66.0
 					},
 					{
 						"block": "luphieclutteredmod:luphie_pastel_wall_bookshelf[facing=west,waterlogged=false]",
-						"random": 66
+						"random": 66.0
 					}
 				],
 				"Color": "d6c2e9ff"
@@ -89,22 +89,23 @@
 				"Color": "604022ff",
 				"blocks": [
 					{
-						"block": "mcwfurnitures:dark_oak_bookshelf[connection=base,facing=north]",
-						"random": 33
+						"block": "mcwfurnitures:dark_oak_bookshelf[facing=north]",
+						"random": 33.0
 					},
 					{
-						"block": "mcwfurnitures:dark_oak_bookshelf_cupboard[connection=base,facing=north]",
-						"random": 33
+						"block": "mcwfurnitures:dark_oak_bookshelf_cupboard[facing=north]",
+						"random": 33.0
 					},
 					{
-						"random": 33,
-						"block": "mcwfurnitures:dark_oak_bookshelf_drawer[connection=base,facing=north]"
+						"random": 33.0,
+						"block": "mcwfurnitures:dark_oak_bookshelf_drawer[facing=north]"
 					},
 					{
-						"random": 33,
-						"block": "mcwfurnitures:dark_oak_lower_bookshelf_drawer[connection=base,facing=north]"
+						"random": 33.0,
+						"block": "mcwfurnitures:dark_oak_lower_bookshelf_drawer[facing=north]"
 					}
-				]
+				],
+				"loot": "liminal_mall_default"
 			},
 			{
 				"char": "8",
@@ -146,7 +147,8 @@
 				"char": "o",
 				"block": "mcwfurnitures:dark_oak_bookshelf[connection=bottom,facing=south]",
 				"Description": "East Bookshelf - Bottom",
-				"Color": "5f4e2bff"
+				"Color": "5f4e2bff",
+				"loot": "liminal_mall_default"
 			},
 			{
 				"char": "7",
@@ -181,7 +183,8 @@
 				"char": "U",
 				"block": "mcwfurnitures:dark_oak_bookshelf[connection=top,facing=south]",
 				"Description": "East Bookshelf - Top",
-				"Color": "5f4e2bff"
+				"Color": "5f4e2bff",
+				"loot": "liminal_mall_default"
 			},
 			{
 				"char": "^",
@@ -265,6 +268,12 @@
 				"block": "neoncraft2:wallneon_number_1_orange[facing=south,waterlogged=false]",
 				"Description": "Number 1 - South",
 				"Color": "f99e1fff"
+			},
+			{
+				"char": "♹",
+				"block": "minecraft:chest",
+				"Description": "",
+				"loot": "liminal_mall_default"
 			}
 		]
 	},
@@ -293,12 +302,12 @@
 			"$33333333333333$",
 			"#3jkm        33#",
 			"#3  n       o33#",
-			"#3q r r r r o33#",
-			"#3q E E E E  33#",
-			"#3H r r r r    #",
-			"#3q E E E E  33#",
-			"#3q r r r r o33#",
-			"#3  E E E E o33#",
+			"#3q ᨉ ᨉ ᨉ ᨉ o33#",
+			"#3q ᨀ ᨀ ᨀ ᨀ  33#",
+			"#3H ᨉ ᨉ ᨉ ᨉ    #",
+			"#3q ᨀ ᨀ ᨀ ᨀ  33#",
+			"#3q ᨉ ᨉ ᨉ ᨉ o33#",
+			"#3  ᨀ ᨀ ᨀ ᨀ o33#",
 			"#3           33#",
 			"#333333 3333333#",
 			"$333333 3333333$",
@@ -373,7 +382,7 @@
 			"#3>,>,>,>,>,>>3#",
 			"#3>>>>>>>>>>>>3#",
 			"#3>>>>>>>>>>>>3#",
-			"#33333333f33333#",
+			"#33333333333333#",
 			"#3333333>l>3333#",
 			"X##############X"
 		]

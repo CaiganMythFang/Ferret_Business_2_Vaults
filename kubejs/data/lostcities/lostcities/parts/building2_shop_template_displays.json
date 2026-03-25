@@ -1,0 +1,175 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "4",
+				"block": "buildersdelight:glass_5",
+				"Description": "",
+				"Color": "211fa9ff"
+			},
+			{
+				"char": "9",
+				"block": "simplylight:edge_light_top",
+				"Description": ""
+			},
+			{
+				"char": "i",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "m",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "j",
+				"block": "simplylight:edge_light_top[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "o",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "n",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "f",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "q",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "e",
+				"block": "elevatorid:elevator_white[directional=false,facing=south,show_arrow=true]",
+				"Description": ""
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$$#$$#$$#$$#$$#",
+			"$e#############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"#$$#$$#$$#$$#$$#"
+		],
+		[
+			"################",
+			"#            #$#",
+			"#            #$#",
+			"#            #$#",
+			"#            #$#",
+			"#            ###",
+			"#               ",
+			"#               ",
+			"#               ",
+			"#               ",
+			"##            ##",
+			"#$#          #$#",
+			"#$$#        #$$#",
+			"#$$$#      #$$$#",
+			"#$$$$#    #$$$$#",
+			"######    ######"
+		],
+		[
+			"################",
+			"#            # #",
+			"#            # 4",
+			"#            # 4",
+			"#            # 4",
+			"#            ###",
+			"#               ",
+			"#               ",
+			"#               ",
+			"#               ",
+			"##            ##",
+			"# #          # 4",
+			"#  #        #  4",
+			"#   #      #   4",
+			"#    #    #    #",
+			"##444#    #444##"
+		],
+		[
+			"################",
+			"#            # #",
+			"#            # 4",
+			"#            # 4",
+			"#            # 4",
+			"#            ###",
+			"#               ",
+			"#               ",
+			"#               ",
+			"#               ",
+			"##            ##",
+			"# #          # 4",
+			"#  #        #  4",
+			"#   #      #   4",
+			"#    #    #    #",
+			"##444#    #444##"
+		],
+		[
+			"################",
+			"#fiiiiiiiiiij#j#",
+			"#k          m#m#",
+			"#k          m#m#",
+			"#k          m#n#",
+			"#k          m###",
+			"#k           ij#",
+			"#k            m#",
+			"#k            m#",
+			"#o            n#",
+			"##o          n##",
+			"#f#o        n#j#",
+			"#k #o      n# m#",
+			"#k  #o    n#  m#",
+			"#oqqn#oqqn#oqqn#",
+			"################"
+		],
+		[
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################"
+		]
+	]
+}

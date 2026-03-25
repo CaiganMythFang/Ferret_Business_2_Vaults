@@ -1,0 +1,306 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "Shop - Ice Cream",
+	"palette": {
+		"palette": [
+			{
+				"char": "4",
+				"block": "buildersdelight:glass_5",
+				"Description": "Glass",
+				"Color": "2422aaff"
+			},
+			{
+				"char": "i",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "m",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "j",
+				"block": "simplylight:edge_light_top[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "o",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "n",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "f",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "q",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "e",
+				"block": "decocraft:fridge_small_silver[facing=south]",
+				"Description": "Fridge - Style 1",
+				"Color": "a5a5a5ff"
+			},
+			{
+				"char": "V",
+				"block": "decocraft:diner_table_round_cyan[facing=north]",
+				"Description": "Cyan Table",
+				"Color": "6fa9baff"
+			},
+			{
+				"char": "3",
+				"block": "cfm:fridge_light[facing=north,open=false]",
+				"Description": "Fridge - Style 2 Top"
+			},
+			{
+				"char": "^",
+				"block": "decocraft:neon_lamp_ice_pop[facing=west]",
+				"Description": "Neon ice Cream Sign - West Facing",
+				"Color": "dcdba6ff"
+			},
+			{
+				"char": "O",
+				"block": "decocraft:diner_counter_light_gray[facing=south]",
+				"Description": "Counter Top - South Facing",
+				"Color": "adadadff"
+			},
+			{
+				"char": "8",
+				"Description": "Banana Split",
+				"blocks": [
+					{
+						"block": "decocraft:banana_split[facing=north]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_cookery:tazadecafe",
+						"random": 5.0
+					},
+					{
+						"random": 5.0,
+						"block": "moa_decor_cookery:taza"
+					},
+					{
+						"random": 150.0,
+						"block": "minecraft:air"
+					}
+				]
+			},
+			{
+				"char": "s",
+				"block": "decocraft:diner_counter_light_gray[facing=east]",
+				"Description": "Diner Counter - East Facing",
+				"Color": "adadadff"
+			},
+			{
+				"char": "]",
+				"block": "decocraft:neon_lamp_ice_pop[facing=east]",
+				"Description": "Neon Ice Cream Sign - East Facing",
+				"Color": "dcdba6ff"
+			},
+			{
+				"char": "U",
+				"block": "decocraft:chair_borje_bw_cyan[facing=east]",
+				"Description": "Cyan Chair - Facing East",
+				"Color": "6fa9baff"
+			},
+			{
+				"char": "H",
+				"block": "decocraft:arcade_machine_snake[facing=south]",
+				"Description": "Arcade Machine",
+				"Color": "363636ff"
+			},
+			{
+				"char": "[",
+				"block": "decocraft:neon_lamp_open[facing=west]",
+				"Description": "Neon Open Sign - West Facing",
+				"Color": "3f4e76ff"
+			},
+			{
+				"char": "E",
+				"block": "vm:vending_machine[bottom=true,facing=south]",
+				"Description": "Vending Machine - South Facing - Bottom"
+			},
+			{
+				"char": "0",
+				"block": "decocraft:chair_borje_bw_cyan[facing=west]",
+				"Description": "Cyan Chair - West Facing",
+				"Color": "6fa9baff"
+			},
+			{
+				"char": "N",
+				"block": "decocraft:display_counter_bottom_white[facing=south]",
+				"Description": "Display Counter - White - Bottom"
+			},
+			{
+				"char": "&",
+				"block": "decocraft:neon_lamp_open[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "r",
+				"block": "cfm:freezer_light[facing=north,open=false]",
+				"Description": ""
+			},
+			{
+				"char": "5",
+				"block": "vm:vending_machine[bottom=false,facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "6",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "decocraft:display_counter_top_icecream_2[facing=south]",
+						"random": 42.0
+					},
+					{
+						"block": "decocraft:display_counter_top_icecream_3[facing=south]",
+						"random": 42.0
+					},
+					{
+						"random": 100.0,
+						"block": "decocraft:display_counter_top_icecream_1[facing=south]"
+					}
+				]
+			},
+			{
+				"char": "P",
+				"block": "decocraft:diner_counter_corner_light_gray[facing=south]",
+				"Description": "Counter Top Corner - South Facing",
+				"Color": "adadadff"
+			},
+			{
+				"char": "7",
+				"block": "lightmanscurrency:cash_register[facing=south]",
+				"Description": ""
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$$#$######$#$$#",
+			"$2#############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$###############",
+			"$###############",
+			"################",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"#$$#$$####$$#$$#"
+		],
+		[
+			"################",
+			"#    erers♴⃕⃕⃕♴#",
+			"#        s     #",
+			"#              #",
+			"#NNNNOOOOP     #",
+			"$              $",
+			"                ",
+			"                ",
+			"                ",
+			"  ⑮⑰⑫⑪⑰⑫⑪⑰⑫⑪⑰⑫  ",
+			"$              $",
+			"#              #",
+			"# ⑮⑰⑫⑪⑰⑫⑪⑰⑫⑪⑰⑫ #",
+			"#              #",
+			"#              #",
+			"#####$####$#####"
+		],
+		[
+			"##444######444##",
+			"#     3 3 ʢ   ʢ#",
+			"4              4",
+			"4              4",
+			"46666 ₫ ₫      4",
+			"$              $",
+			"                ",
+			"                ",
+			"                ",
+			"   8  8  8  8   ",
+			"$              $",
+			"4              4",
+			"4  8  8  8  8  4",
+			"4              4",
+			"#              #",
+			"##444$4444$444##"
+		],
+		[
+			"##444######444##",
+			"#              #",
+			"4              4",
+			"4              4",
+			"4              4",
+			"$              $",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"$              $",
+			"4              4",
+			"4              4",
+			"4              4",
+			"#              #",
+			"##444$4444$444##"
+		],
+		[
+			"##444######444##",
+			"#fiiiiiiiiiiiij#",
+			"4k            m4",
+			"4k            m4",
+			"4n            q4",
+			"$#k          m#$",
+			" #k          m# ",
+			"^#k          m#&",
+			"[#k          m#]",
+			" #k          m# ",
+			"$#k          m#$",
+			"4f            j4",
+			"4k            m4",
+			"4k            m4",
+			"#nooooooooooooq#",
+			"##444$4444$444##"
+		],
+		[
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################"
+		]
+	]
+}

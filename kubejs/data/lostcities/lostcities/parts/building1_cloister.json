@@ -1,0 +1,197 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "auxiliaryblocks:concrete",
+				"Description": "Floor"
+			},
+			{
+				"char": "3",
+				"block": "auxiliaryblocks:concrete",
+				"Description": "Ceiling"
+			},
+			{
+				"char": "8",
+				"block": "pneumaticcraft:wall_lamp_inverted_white[facing=north,lit=true,waterlogged=false]",
+				"Description": "Wall Lamp - North"
+			},
+			{
+				"char": "k",
+				"block": "minecraft:grass_block",
+				"Description": "Grass Block",
+				"Color": "68c535ff"
+			},
+			{
+				"char": "&",
+				"block": "literalskyblock:sky_block",
+				"Description": "Sky Block",
+				"Color": "a2e5ebff"
+			},
+			{
+				"char": "U",
+				"block": "chipped:light_gray_concrete_5",
+				"Description": "Light Gray Wall",
+				"Color": "a4a4a4ff"
+			},
+			{
+				"char": "o",
+				"block": "create:cut_tuff_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]",
+				"Description": "Garden Wall",
+				"Color": "7a7a7aff"
+			},
+			{
+				"char": "^",
+				"block": "chipped:light_gray_concrete_11",
+				"Description": "Ceiling concrete",
+				"Color": "636363ff"
+			},
+			{
+				"char": "N",
+				"block": "chipped:lodestone_39",
+				"Description": "Statue Plinth",
+				"Color": "333333ff"
+			},
+			{
+				"char": "6",
+				"block": "pneumaticcraft:wall_lamp_inverted_white[facing=east,lit=true,waterlogged=false]",
+				"Description": "Wall Lamp - West"
+			},
+			{
+				"char": "0",
+				"block": "moa_decor_art:esculturavenusdemilo[facing=south]",
+				"Description": "Statue",
+				"Color": "b6b6b6ff"
+			},
+			{
+				"char": "5",
+				"block": "pneumaticcraft:wall_lamp_inverted_white[facing=south,lit=true,waterlogged=false]",
+				"Description": "Wall Lamp - North"
+			},
+			{
+				"char": "n",
+				"block": "chipped:gray_concrete_7",
+				"Description": "Wall - Dark Concrete",
+				"Color": "303030ff"
+			},
+			{
+				"char": "7",
+				"block": "pneumaticcraft:wall_lamp_inverted_white[facing=west,lit=true,waterlogged=false]",
+				"Description": "Wall Lamp - east"
+			}
+		]
+	},
+	"slices": [
+		[
+			"X$#####$$#####$X",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#3333kkkkk33333#",
+			"#3333kkkkk33333#",
+			"$3333kkkkk33333$",
+			"$3333kkkkk33333$",
+			"#3333kkkkk33333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333l33333$",
+			"X$#####$$#####$X"
+		],
+		[
+			"X#$##########$#X",
+			"#nnnnnn nnnnnnn#",
+			"$n           nn$",
+			"#n           nn#",
+			"#n  ooooooo  nn#",
+			"#n  o     o  nn#",
+			"#n  o     o  nn#",
+			"#   o  N  o    #",
+			"#n  o     o  nn#",
+			"#n  o     o  nn#",
+			"#n  ooooooo  nn#",
+			"#n           nn#",
+			"#n           nn#",
+			"$nnnnnn nnnnnnn$",
+			"#3nnnnn  lnnnnn#",
+			"X#$##########$#X"
+		],
+		[
+			"X##$########$##X",
+			"#UUUUUU UUUUUUU#",
+			"#U           UU#",
+			"$U           UU$",
+			"#U  o o o o  UU#",
+			"#U           UU#",
+			"#U  o     o  UU#",
+			"#      ᙴ       #",
+			"#U  o     o  UU#",
+			"#U           UU#",
+			"#U  o o o o  UU#",
+			"#U           UU#",
+			"$U           UU$",
+			"#UUUUUU UUUUUUU#",
+			"#UUUUUU  lUUUUU#",
+			"X##$########$##X"
+		],
+		[
+			"X###$######$###X",
+			"#UUUUUUUUUUUUUU#",
+			"#U     5     UU#",
+			"#U           UU#",
+			"$U  o o o o  UU$",
+			"#U           UU#",
+			"#U  o     o  UU#",
+			"#U6         7UU#",
+			"#U  o     o  UU#",
+			"#U           UU#",
+			"#U  o o o o  UU#",
+			"$U           UU$",
+			"#U     8     UU#",
+			"#3UUUUUUUUUUUUU#",
+			"#3UUUUUUUlUUUUU#",
+			"X###$######$###X"
+		],
+		[
+			"X####$####$####X",
+			"#UUUUUUUUUUUUUU#",
+			"#U^^^^^^^^^^^^U#",
+			"#U^^^^^^^^^^^^U#",
+			"#U^^^^^^^^^^^^U#",
+			"$U^^^     ^^^^U$",
+			"#U^^^     ^^^^U#",
+			"#U^^^     ^^^^U#",
+			"#U^^^     ^^^^U#",
+			"#U^^^     ^^^^U#",
+			"$U^^^^^^^^^^^^U$",
+			"#U^^^^^^^^^^^^U#",
+			"#U^^^^^^^^^^^^U#",
+			"#3UUUUUUUUUUUUU#",
+			"#3UUUUUUUlUUUUU#",
+			"X####$####$####X"
+		],
+		[
+			"X#####$##$#####X",
+			"#33333333333333#",
+			"#3^^^^^^^^^^^^3#",
+			"#3^^^^^^^^^^^^3#",
+			"#3^^^^^^^^^^^^3#",
+			"#3^^^&&&&&^^^^3#",
+			"$3^^^&&&&&^^^^3$",
+			"#3^^^&&&&&^^^^3#",
+			"#3^^^&&&&&^^^^3#",
+			"$3^^^&&&&&^^^^3$",
+			"#3^^^^^^^^^^^^3#",
+			"#3^^^^^^^^^^^^3#",
+			"#3^^^^^^^^^^^^3#",
+			"#3UUUUUUUUUUUUU#",
+			"#3UUUUUUUlUUUUU#",
+			"X#####$##$#####X"
+		]
+	]
+}

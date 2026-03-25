@@ -109,9 +109,22 @@
 			},
 			{
 				"char": "ɗ",
-				"block": "luphieclutteredmod:luphie_cluttered_seltzer_cans[facing=east]",
 				"Description": "Bar Top Clutter",
-				"Color": "b0aeaeff"
+				"Color": "b0aeaeff",
+				"blocks": [
+					{
+						"block": "luphieclutteredmod:luphie_cluttered_seltzer_cans[facing=east]",
+						"random": 50
+					},
+					{
+						"block": "luphieclutteredmod:luphie_cluttered_cat_mugs",
+						"random": 50
+					},
+					{
+						"random": 50,
+						"block": "moa_decor_cookery:taza"
+					}
+				]
 			},
 			{
 				"char": "♞",
@@ -185,7 +198,7 @@
 		[
 			"################",
 			"#33333333333333#",
-			"#33 00       33#",
+			"#33 ✚✚       33#",
 			"#33          33#",
 			"#33          33#",
 			"#33          33#",
@@ -194,7 +207,7 @@
 			"#33          33#",
 			"#33          33#",
 			"#33⚞         33#",
-			"#33       00 33#",
+			"#33       ✚✚ 33#",
 			"#333333ȓ3366 33#",
 			"#333333 33   33#",
 			"#333333  l98733#",

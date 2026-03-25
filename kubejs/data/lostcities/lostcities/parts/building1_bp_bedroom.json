@@ -1,369 +1,403 @@
 {
-  "xsize": 16,
-  "zsize": 16,
-  "palette": {
-    "palette": [
-      {
-          "char": "2",
-          "block": "chipped:light_blue_wool_20"
-      },
-      {
-          "char": "3",
-          "block": "minecraft:light_blue_terracotta"
-      },
-      {
-          "char": "5",
-          "block": "chipped:light_blue_terracotta_61"
-      },
-      {
-          "char": "6",
-          "block": "chipped:light_blue_terracotta_31"
-      },
-      {
-          "char": "9",
-          "block": "simplylight:wall_lamp[facing=down,waterlogged=true]"
-      },
-      {
-          "char": "E",
-          "block": "chipped:blue_concrete_15"
-      },
-      {
-          "char": "H",
-          "block": "everycomp:cfm/ecologics/walnut_crate"
-      },
-      {
-        "char": "I",
-        "loot": "lost_city_vanity",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_oak_drawer[facing=west]"
-          },
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_oak_double_drawer[facing=west]"
-          },
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_oak_lower_triple_drawer[facing=west]"
-          },
-          {
-            "random": 1000,
-            "block": "decocraft:vanity_left_oak[facing=north]"
-          }
-        ]
-      },
-      {
-        "char": "J",
-        "loot": "lost_city_vanity",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_oak_drawer[facing=west]"
-          },
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_oak_double_drawer[facing=west]"
-          },
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_oak_lower_triple_drawer[facing=west]"
-          },
-          {
-            "random": 1000,
-            "block": "decocraft:vanity_right_oak[facing=north]"
-          }
-        ]
-      },
-      {
-        "char": "O",
-        "loot": "lost_city_dresser",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "cfm:stripped_oak_bedside_cabinet[facing=east]"
-          },
-          {
-            "random": 25,
-            "block": "cfm:oak_bedside_cabinet[facing=east]"
-          },
-          {
-            "random": 1000,
-            "block": "decocraft:closet_3_oak[facing=west]"
-          }
-        ]
-      },
-      {
-        "char": "P",
-        "block": "minestuck:mini_frog_statue[facing=west]"
-      },
-      {
-        "char": "M",
-        "block": "decocraft:vanity_center_oak[facing=north]"
-      },
-      {
-        "char": "U",
-        "loot": "lost_city_general_cabinet",
-        "block": "luphieclutteredmod:luphie_black_glass_cabinet[facing=west,waterlogged=false]"
-      },
-      {
-        "char": "V",
-        "loot": "lost_city_general_cabinet",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "mcwfurnitures:stripped_dark_oak_bookshelf[facing=east]"
-          },
-          {
-            "random": 25,
-            "block": "mcwfurnitures:dark_oak_bookshelf[facing=east]"
-          },
-          {
-            "random": 1000,
-            "block": "mcwfurnitures:spruce_bookshelf[facing=east]"
-          }
-        ]
-      },
-      {
-        "char": "o",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "decocraft:chair_2_oak[facing=south]"
-          },
-          {
-            "random": 1000,
-            "block": "decocraft:chair_2_spruce[facing=south]"
-          }
-        ]
-      },
-      {
-        "char": "e",
-        "block": "mcwwindows:white_curtain[facing=east,tied=half_left]"
-      },
-      {
-        "char": "f",
-        "block": "mcwwindows:white_curtain[facing=east,tied=half_left_tie]"
-      },
-      {
-        "char": "j",
-        "block": "mcwwindows:white_curtain[facing=east,tied=half_right]"
-      },
-      {
-        "char": "k",
-        "block": "mcwwindows:white_curtain[facing=east,tied=half_right_tie]"
-      },
-      {
-        "char": "i",
-        "block": "create:horizontal_framed_glass"
-      },
-      {
-        "char": "R",
-        "block": "decocraft:double_bed_spruce_black[bed=0,facing=east]"
-      },
-      {
-        "char": "S",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "cfm:oak_bedside_cabinet[facing=west,waterlogged=false]"
-          },
-          {
-            "random": 25,
-            "block": "cfm:stripped_oak_bedside_cabinet[facing=west,waterlogged=false]"
-          },
-          {
-            "random": 1000,
-            "block": "decocraft:bedside_table_white[facing=east]"
-          }
-        ]
-      },
-      {
-        "char": "T",
-        "block": "decocraft:closet_7_oak[facing=east]"
-      },
-      {
-        "char": "W",
-        "blocks": [
-          {
-            "random": 25,
-            "block": "decocraft:chair_2_oak[facing=east]"
-          },
-          {
-            "random": 1000,
-            "block": "decocraft:chair_2_spruce[facing=east]"
-          }
-        ]
-      },
-      {
-        "char": "X",
-        "block": "tanukidecor:fancy_vase[waterlogged=false]"
-      },
-      {
-        "char": "Y",
-        "block": "decocraft:table_lamp_white"
-      },
-      {
-        "char": "Z",
-        "block": "decocraft:sconce_2_black[facing=north]"
-      },
-      {
-        "char": "c",
-        "block": "decocraft:sconce_2_black[facing=south]"
-      },
-      {
-        "char": "d",
-        "blocks": [
-          {
-            "random": 44,
-            "block": "luphieclutteredmod:luphie_wall_bookshelf[facing=east,waterlogged=false]"
-          },
-          {
-            "random": 44,
-            "block": "luphieclutteredmod:luphie_pastel_wall_bookshelf[facing=east,waterlogged=false]"
-          },
-          {
-            "random": 1000,
-            "block": "magic_vibe_decorations:bksoak[facing=east]"
-          }
-        ]
-      },
-      {
-        "char": "g",
-        "block": "decocraft:globe_antique[facing=east]"
-      },
-      {
-        "char": "m",
-        "block": "tanukidecor:minimalist_stool[facing=east,waterlogged=false]"
-      },
-      {
-        "char": "h",
-        "loot": "lost_city_blue_prince_trunk",
-        "blocks": [
-          {
-            "random": 44,
-            "block": "everycomp:q/the_vault/velara_chest[facing=east,waterlogged=false]"
-          },
-          {
-            "random": 1000,
-            "block": "minecraft:air"
-          }
-        ]
-      },
-      {
-        "char": "n",
-        "block": "minecraft:purple_terracotta"
-      }
-    ]
-  },
-  "slices": [
-    [
-      "################",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222222222#",
-      "#22222222l22222#",
-      "################"
-    ],
-    [
-      "################",
-      "#33333336363333#",
-      "#33333o VoV  33#",
-      "#3   m       33#",
-      "#6 R m      U33#",
-      "#3S         O33#",
-      "#3           33#",
-      "#6             #",
-      "#3T          33#",
-      "#3          P33#",
-      "#6W         U33#",
-      "#3           33#",
-      "#3 X     JMI 33#",
-      "#333333 3333333#",
-      "#333333  l33333#",
-      "################"
-    ],
-    [
-      "######ii########",
-      "#33333ii6363333#",
-      "#33553ej  g  33#",
-      "#3   h       33#",
-      "#6   h      U33#",
-      "#3Y          33#",
-      "#3           33#",
-      "#6             #",
-      "#3           33#",
-      "#3           33#",
-      "#6          U33#",
-      "#3           33#",
-      "#3           33#",
-      "#333333 3333333#",
-      "#333333  l33333#",
-      "################"
-    ],
-    [
-      "######ii########",
-      "#33333ii6363333#",
-      "#33553fk c   33#",
-      "#3           33#",
-      "#6d          33#",
-      "#3           33#",
-      "#3           33#",
-      "#6           66#",
-      "#3           33#",
-      "#3           33#",
-      "#6           33#",
-      "#3           33#",
-      "#3   Z   Z   33#",
-      "#33333363333333#",
-      "#33333333l33333#",
-      "################"
-    ],
-    [
-      "################",
-      "#33333336363333#",
-      "#33333       33#",
-      "#3d          33#",
-      "#6d          33#",
-      "#3           33#",
-      "#3           33#",
-      "#6           66#",
-      "#3           33#",
-      "#3           33#",
-      "#6           33#",
-      "#3           33#",
-      "#3           33#",
-      "#33333363333333#",
-      "#33333333l33333#",
-      "################"
-    ],
-    [
-      "################",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnnnnnnn#",
-      "#nnnnnnnnlnnnnn#",
-      "################"
-    ]
-  ]
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "chipped:light_blue_wool_20",
+				"Description": ""
+			},
+			{
+				"char": "3",
+				"block": "minecraft:light_blue_terracotta",
+				"Description": ""
+			},
+			{
+				"char": "5",
+				"block": "chipped:light_blue_terracotta_61",
+				"Description": ""
+			},
+			{
+				"char": "6",
+				"block": "chipped:light_blue_terracotta_31",
+				"Description": ""
+			},
+			{
+				"char": "9",
+				"block": "simplylight:wall_lamp[facing=down,waterlogged=true]",
+				"Description": ""
+			},
+			{
+				"char": "E",
+				"block": "chipped:blue_concrete_15",
+				"Description": ""
+			},
+			{
+				"char": "H",
+				"block": "everycomp:cfm/ecologics/walnut_crate",
+				"Description": ""
+			},
+			{
+				"char": "I",
+				"loot": "lost_city_vanity",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_oak_drawer[facing=west]"
+					},
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_oak_double_drawer[facing=west]"
+					},
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_oak_lower_triple_drawer[facing=west]"
+					},
+					{
+						"random": 1000.0,
+						"block": "decocraft:vanity_left_oak[facing=north]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "J",
+				"loot": "lost_city_vanity",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_oak_drawer[facing=west]"
+					},
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_oak_double_drawer[facing=west]"
+					},
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_oak_lower_triple_drawer[facing=west]"
+					},
+					{
+						"random": 1000.0,
+						"block": "decocraft:vanity_right_oak[facing=north]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "O",
+				"loot": "lost_city_dresser",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "cfm:stripped_oak_bedside_cabinet[facing=east]"
+					},
+					{
+						"random": 25.0,
+						"block": "cfm:oak_bedside_cabinet[facing=east]"
+					},
+					{
+						"random": 1000.0,
+						"block": "decocraft:closet_3_oak[facing=west]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "P",
+				"block": "minestuck:mini_frog_statue[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "M",
+				"block": "decocraft:vanity_center_oak[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "U",
+				"loot": "lost_city_general_cabinet",
+				"block": "luphieclutteredmod:luphie_black_glass_cabinet[facing=west,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "V",
+				"loot": "lost_city_general_cabinet",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:stripped_dark_oak_bookshelf[facing=east]"
+					},
+					{
+						"random": 25.0,
+						"block": "mcwfurnitures:dark_oak_bookshelf[facing=east]"
+					},
+					{
+						"random": 1000.0,
+						"block": "mcwfurnitures:spruce_bookshelf[facing=east]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "o",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "decocraft:chair_2_oak[facing=south]"
+					},
+					{
+						"random": 1000.0,
+						"block": "decocraft:chair_2_spruce[facing=south]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "e",
+				"block": "mcwwindows:white_curtain[facing=east,tied=half_left]",
+				"Description": ""
+			},
+			{
+				"char": "f",
+				"block": "mcwwindows:white_curtain[facing=east,tied=half_left_tie]",
+				"Description": ""
+			},
+			{
+				"char": "j",
+				"block": "mcwwindows:white_curtain[facing=east,tied=half_right]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "mcwwindows:white_curtain[facing=east,tied=half_right_tie]",
+				"Description": ""
+			},
+			{
+				"char": "i",
+				"block": "create:horizontal_framed_glass",
+				"Description": ""
+			},
+			{
+				"char": "R",
+				"block": "decocraft:double_bed_spruce_black[bed=0,facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "S",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "cfm:oak_bedside_cabinet[facing=west,waterlogged=false]"
+					},
+					{
+						"random": 25.0,
+						"block": "cfm:stripped_oak_bedside_cabinet[facing=west,waterlogged=false]"
+					},
+					{
+						"random": 1000.0,
+						"block": "decocraft:bedside_table_white[facing=east]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "T",
+				"block": "decocraft:closet_7_oak[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "W",
+				"blocks": [
+					{
+						"random": 25.0,
+						"block": "decocraft:chair_2_oak[facing=east]"
+					},
+					{
+						"random": 1000.0,
+						"block": "decocraft:chair_2_spruce[facing=east]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "X",
+				"block": "tanukidecor:fancy_vase[waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "Y",
+				"block": "decocraft:table_lamp_white",
+				"Description": ""
+			},
+			{
+				"char": "Z",
+				"block": "decocraft:sconce_2_black[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "c",
+				"block": "decocraft:sconce_2_black[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "d",
+				"blocks": [
+					{
+						"random": 44.0,
+						"block": "luphieclutteredmod:luphie_wall_bookshelf[facing=east,waterlogged=false]"
+					},
+					{
+						"random": 44.0,
+						"block": "luphieclutteredmod:luphie_pastel_wall_bookshelf[facing=east,waterlogged=false]"
+					},
+					{
+						"random": 1000.0,
+						"block": "magic_vibe_decorations:bksoak[facing=east]"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "g",
+				"block": "decocraft:globe_antique[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "m",
+				"block": "tanukidecor:minimalist_stool[facing=east,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "h",
+				"loot": "lost_city_blue_prince_trunk",
+				"blocks": [
+					{
+						"random": 44.0,
+						"block": "everycomp:q/the_vault/velara_chest[facing=east,waterlogged=false]"
+					},
+					{
+						"random": 1000.0,
+						"block": "minecraft:air"
+					}
+				],
+				"Description": ""
+			},
+			{
+				"char": "n",
+				"block": "minecraft:purple_terracotta",
+				"Description": ""
+			}
+		]
+	},
+	"slices": [
+		[
+			"################",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222l22222#",
+			"################"
+		],
+		[
+			"################",
+			"#33333336363333#",
+			"#33333✣ V✣V  33#",
+			"#3   m       33#",
+			"#6 ƒ m      U33#",
+			"#3S         O33#",
+			"#3           33#",
+			"#6             #",
+			"#3T          33#",
+			"#3          P33#",
+			"#6✤         U33#",
+			"#3           33#",
+			"#3 X     JMI 33#",
+			"#333333 3333333#",
+			"#333333  l33333#",
+			"################"
+		],
+		[
+			"######ii########",
+			"#33333ii6363333#",
+			"#33553ej  g  33#",
+			"#3   h       33#",
+			"#6   h      U33#",
+			"#3Y          33#",
+			"#3           33#",
+			"#6             #",
+			"#3           33#",
+			"#3           33#",
+			"#6          U33#",
+			"#3           33#",
+			"#3           33#",
+			"#333333 3333333#",
+			"#333333  l33333#",
+			"################"
+		],
+		[
+			"######ii########",
+			"#33333ii6363333#",
+			"#33553fk c   33#",
+			"#3           33#",
+			"#6d          33#",
+			"#3           33#",
+			"#3           33#",
+			"#6           66#",
+			"#3           33#",
+			"#3           33#",
+			"#6           33#",
+			"#3           33#",
+			"#3   Z   Z   33#",
+			"#33333363333333#",
+			"#33333333l33333#",
+			"################"
+		],
+		[
+			"################",
+			"#33333336363333#",
+			"#33333       33#",
+			"#3d          33#",
+			"#6d          33#",
+			"#3           33#",
+			"#3           33#",
+			"#6           66#",
+			"#3           33#",
+			"#3           33#",
+			"#6           33#",
+			"#3           33#",
+			"#3           33#",
+			"#33333363333333#",
+			"#33333333l33333#",
+			"################"
+		],
+		[
+			"################",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnnnnnnn#",
+			"#nnnnnnnnlnnnnn#",
+			"################"
+		]
+	]
 }

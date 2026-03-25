@@ -8,7 +8,7 @@
 				"char": "2",
 				"block": "architects_palette:twisted_boards",
 				"Description": "Floor",
-				"Color": "4c4a4fff"
+				"Color": "6b5839ff"
 			},
 			{
 				"char": "3",
@@ -179,7 +179,7 @@
 			},
 			{
 				"char": "☇",
-				"block": "tanukidecor:antique_cabinet[facing=north,height=1,width=2]",
+				"block": "luphieclutteredmod:luphie_havana_cabinet[facing=north]",
 				"Description": "Large Cabinet - Lower Right Corner",
 				"Color": "7b7760ff"
 			},
@@ -206,22 +206,22 @@
 				"blocks": [
 					{
 						"block": "moa_decor_art:caballetegoticoestadounidense[facing=north]",
-						"random": 30
+						"random": 30.0
 					},
 					{
 						"block": "moa_decor_art:caballetelajovendelaperla[facing=north]",
-						"random": 30
+						"random": 30.0
 					},
 					{
-						"random": 30,
+						"random": 30.0,
 						"block": "moa_decor_art:caballetelanocheestrellada[facing=north]"
 					},
 					{
-						"random": 30,
+						"random": 30.0,
 						"block": "moa_decor_art:caballeteconlamonalisa[facing=north]"
 					},
 					{
-						"random": 30,
+						"random": 30.0,
 						"block": "moa_decor_art:caballeteserenatamexicana[facing=north]"
 					}
 				]
@@ -232,22 +232,22 @@
 				"blocks": [
 					{
 						"block": "moa_decor_art:caballetegoticoestadounidense[facing=west]",
-						"random": 30
+						"random": 30.0
 					},
 					{
 						"block": "moa_decor_art:caballetelajovendelaperla[facing=west]",
-						"random": 30
+						"random": 30.0
 					},
 					{
-						"random": 30,
+						"random": 30.0,
 						"block": "moa_decor_art:caballetelanocheestrellada[facing=west]"
 					},
 					{
-						"random": 30,
+						"random": 30.0,
 						"block": "moa_decor_art:caballeteconlamonalisa[facing=west]"
 					},
 					{
-						"random": 30,
+						"random": 30.0,
 						"block": "moa_decor_art:caballeteserenatamexicana[facing=west]"
 					}
 				]
@@ -258,11 +258,11 @@
 				"blocks": [
 					{
 						"block": "luphieclutteredmod:luphie_rovers_briefcase[facing=south]",
-						"random": 50
+						"random": 50.0
 					},
 					{
 						"block": "luphieclutteredmod:luphie_briefcase[facing=south]",
-						"random": 88
+						"random": 88.0
 					}
 				],
 				"Color": "d92424ff"
@@ -273,11 +273,11 @@
 				"blocks": [
 					{
 						"block": "luphieclutteredmod:luphie_rovers_briefcase[facing=west]",
-						"random": 50
+						"random": 64
 					},
 					{
 						"block": "luphieclutteredmod:luphie_briefcase[facing=west]",
-						"random": 88
+						"random": 64
 					}
 				],
 				"Color": "d92424ff"
@@ -344,18 +344,18 @@
 		[
 			"X##$########$##X",
 			"#77777777777777#",
-			"#7  ¹    ö ʢ¹77#",
-			"$7   ǚ⚔  Ȉ ⚔⚔77$",
+			"#7  ¹    ņ ʢ¹77#",
+			"$7   ✣⚔  Ȉ ⚔⚔77$",
 			"#7 ☼     ☹☼Ȇ 77#",
-			"#7ö       ⚔ş 77#",
+			"#7ņ       ⚔ş 77#",
 			"#7Ą☼      ☼☫☫77#",
-			"#7¬Ǵ     ƽ> ⚗77#",
-			"#7¬☼  n n⛭⛧ʢ⚴77#",
+			"#7¬Ǵ     ƽ> ✥77#",
+			"#7¬☼  n n⛭⛧ʢ♔77#",
 			"#7 ⚔♖⚔> >⛭>  77#",
 			"#7⚔☼ ⚔> > ɹȆ 77#",
-			"#7< ☮⛊⛪ǧ⛞ ȝ  77#",
-			"$7   ☇ʮ öö   77$",
-			"#777777 7777777#",
+			"#7< ✢☋⛪ǧ⛞ ȝ  77#",
+			"$7   ☇  ņņ   77$",
+			"#77777777777777#",
 			"#777777  l77777#",
 			"X##$########$##X"
 		],
@@ -372,7 +372,7 @@
 			"#3           33#",
 			"#3 ☼      ☼  33#",
 			"$3        ʉ  33$",
-			"#3   Ǝ⛑  <   33#",
+			"#3       <   33#",
 			"#33333333333333#",
 			"#33333333l33333#",
 			"X###$######$###X"

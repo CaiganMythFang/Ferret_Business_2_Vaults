@@ -35,26 +35,6 @@
       {
         "factor": 0.2,
         "value": "building3"
-      },
-      {
-        "factor": 0.2,
-        "value": "building4"
-      },
-      {
-        "factor": 0.3,
-        "value": "building5"
-      },
-      {
-        "factor": 0.2,
-        "value": "building6"
-      },
-      {
-        "factor": 0.2,
-        "value": "building7"
-      },
-      {
-        "factor": 0.4,
-        "value": "building8"
       }
     ],
     "multibuildings": [
@@ -111,16 +91,48 @@
     ],
     "fronts": [
       {
+        "factor": 0.0,
+        "value": "building_front_template"
+      },
+      {
         "factor": 1.0,
         "value": "building_front1"
       },
       {
         "factor": 1.0,
-        "value": "building_front2"
+        "value": "building_front3"
+      },
+      {
+        "factor": 0.075,
+        "value": "building_front_vending_ne"
+      },
+      {
+        "factor": 0.075,
+        "value": "building_front_vending_nw"
+      },
+      {
+        "factor": 0.075,
+        "value": "building_front_vending_se"
+      },
+      {
+        "factor": 0.075,
+        "value": "building_front_vending_sw"
+      },
+      {
+        "factor": 0.8,
+        "value": "building_front_bench_planter"
       },
       {
         "factor": 1.0,
-        "value": "building_front3"
+        "value": "building_front_gumball_machines"
+      },
+      {
+        "factor": 3.0,
+        "value": "ceiling_template"
+      },
+      {
+        "factor": 1.0,
+        "value": "ceiling_skylight"
       }
     ],
     "stairs": [
@@ -144,15 +156,51 @@
     "fountains": [
       {
         "factor": 1.0,
-        "value": "fountain1"
-      },
-      {
-        "factor": 1.0,
         "value": "fountain2"
       },
       {
         "factor": 1.0,
         "value": "fountain3"
+      },
+      {
+        "factor": 10.0,
+        "value": "fountain_template"
+      },
+      {
+        "factor": 1.0,
+        "value": "kiosk_ice_cream_ew"
+      },
+      {
+        "factor": 1.0,
+        "value": "kiosk_ice_cream_ns"
+      },
+      {
+        "factor": 1.0,
+        "value": "kiosk_popcorn_pretzel_ns"
+      },
+      {
+        "factor": 1.0,
+        "value": "kiosk_popcorn_pretzel_ew"
+      },
+      {
+        "factor": 0.3,
+        "value": "deco_four_planters"
+      },
+      {
+        "factor": 0.5,
+        "value": "deco_tables_ew"
+      },
+      {
+        "factor": 0.5,
+        "value": "deco_tables_ns"
+      },
+      {
+        "factor": 0.8,
+        "value": "deco_park_benches_ns"
+      },
+      {
+        "factor": 0.8,
+        "value": "deco_park_benches_ew"
       }
     ],
     "parks": [

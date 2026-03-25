@@ -1,0 +1,143 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "e",
+				"block": "minecraft:gray_concrete",
+				"Description": "Concrete Floor",
+				"Color": "585858ff"
+			},
+			{
+				"char": "f",
+				"block": "simplylight:lamp_post[position=bottom]",
+				"Description": "Street Lamp - Bottom",
+				"Color": "a5a5a5ff"
+			},
+			{
+				"char": "g",
+				"block": "simplylight:lamp_post[position=middle]",
+				"Description": "Street Lamp - Middle",
+				"Color": "a5a5a5ff"
+			},
+			{
+				"char": "i",
+				"block": "simplylight:lamp_post[position=top]",
+				"Description": "Street Lamp - Top",
+				"Color": "a5a5a5ff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$############$#",
+			"$eeeeeeeeeeeeee$",
+			"#e2eeeeeeeeee2e#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#e2eeeeeeeeee2e#",
+			"$eeeeeeeeeeeeee$",
+			"#$############$#"
+		],
+		[
+			"#$#          #$#",
+			"$#$f        f$#$",
+			"#$            $#",
+			" f            f ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			" f            f ",
+			"#$            $#",
+			"$#$f        f$#$",
+			"#$#          #$#"
+		],
+		[
+			"#$#          #$#",
+			"$#$g        g$#$",
+			"#$            $#",
+			" g            g ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			" g            g ",
+			"#$            $#",
+			"$#$g        g$#$",
+			"#$#          #$#"
+		],
+		[
+			"#$#          #$#",
+			"$#$i        i$#$",
+			"#$#          #$#",
+			" i            i ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			" i            i ",
+			"#$#          #$#",
+			"$#$i        i$#$",
+			"#$#          #$#"
+		],
+		[
+			"#$#          #$#",
+			"$#$          $#$",
+			"#$#          #$#",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"#$#          #$#",
+			"$#$          $#$",
+			"#$#          #$#"
+		],
+		[
+			"#$############$#",
+			"$##############$",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"$##############$",
+			"#$############$#"
+		]
+	]
+}

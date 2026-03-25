@@ -1,0 +1,206 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "e",
+				"block": "minecraft:gray_concrete",
+				"Description": "Concrete Floor",
+				"Color": "728b89ff"
+			},
+			{
+				"char": "P",
+				"block": "everycomp:cfm/the_vault/velara_kitchen_sink_dark[facing=south]",
+				"Description": "Sink - North Facing",
+				"Color": "adadadff"
+			},
+			{
+				"char": "s",
+				"block": "decocraft:toilet_white[facing=south]",
+				"Description": "Toilet - South Facing"
+			},
+			{
+				"char": "3",
+				"block": "everycomp:mct/the_vault/chromatic_cottage_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]",
+				"Description": "Changing Table - North Facing",
+				"Color": "dfdadaff"
+			},
+			{
+				"char": "7",
+				"block": "simplylight:wall_lamp[facing=down,waterlogged=false]",
+				"Description": "Outside Lights"
+			},
+			{
+				"char": "n",
+				"block": "everycomp:cfm/luphieclutteredmod/luphie_purple_upgraded_gate[double=false,facing=south,hinge=left,open=false,powered=false,waterlogged=false]",
+				"Description": "Stall Door - South Facing",
+				"Color": "604578ff"
+			},
+			{
+				"char": "<",
+				"block": "simplylight:illuminant_panel[facing=down,waterlogged=false]",
+				"Description": "Ceiling Lights"
+			},
+			{
+				"char": "f",
+				"block": "trashcans:item_trash_can[waterlogged=false]",
+				"Description": "Trash Can",
+				"Color": "878787ff"
+			},
+			{
+				"char": "0",
+				"block": "decocraft:toilet_paper_black[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "H",
+				"block": "everycomp:cfm/luphieclutteredmod/luphie_purple_upgraded_gate[double=false,facing=north,hinge=left,open=false,powered=false,waterlogged=false]",
+				"Description": "Stall Door - North Facing",
+				"Color": "604578ff"
+			},
+			{
+				"char": "r",
+				"block": "decocraft:toilet_white[facing=north]",
+				"Description": "Toilet north facing"
+			},
+			{
+				"char": "5",
+				"block": "decocraft:bathroom_unisex[facing=west]",
+				"Description": "Unisex Bathroom Sign - West Facing"
+			},
+			{
+				"char": "V",
+				"block": "decocraft:toilet_paper_black[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "6",
+				"block": "decocraft:bathroom_unisex[facing=east]",
+				"Description": "Unisex Bathroom Sign - East Facing"
+			},
+			{
+				"char": "U",
+				"block": "everycomp:mct/the_vault/chromatic_cottage_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]",
+				"Description": "Changing Table - South Facing"
+			},
+			{
+				"char": "⛬",
+				"block": "davebuildingmod:light_blue_steel_wall",
+				"Description": "",
+				"Color": "4336c7ff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"################",
+			"#eeeeeeeeeeeeee#",
+			"#e2eeeeeeeeee2e#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#e2eeeeeeeeee2e#",
+			"#eeeeeeeeeeeeee#",
+			"################"
+		],
+		[
+			"#$############$#",
+			"$#$f ⌷⌻⌷⌻⌷⌻⌷f$#$",
+			"#$            $#",
+			"                ",
+			" #⛬⛬⛬n⛬⛬n⛬⛬n⛬⛬# ",
+			" # ⛬  ⛬  ⛬  ⛬ # ",
+			" # ⛬ r⛬ r⛬ r⛬ # ",
+			"f##############f",
+			"f##############f",
+			" # ⛬s ⛬s ⛬s ⛬ # ",
+			" # ⛬  ⛬  ⛬  ⛬ # ",
+			" #⛬⛬H⛬⛬H⛬⛬H⛬⛬⛬# ",
+			"                ",
+			"#$            $#",
+			"$#$f⌶⌺⌶⌺⌶⌺⌶ f$#$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$#$UU        $#$",
+			"#$            $#",
+			"                ",
+			" #⛬⛬⛬n⛬⛬n⛬⛬n⛬⛬# ",
+			" # ⛬  ⛬  ⛬  ⛬ # ",
+			" # ⛬V ⛬V ⛬V ⛬ # ",
+			" ############## ",
+			" ############## ",
+			" # ⛬ 0⛬ 0⛬ 0⛬ # ",
+			" # ⛬  ⛬  ⛬  ⛬ # ",
+			" #⛬⛬H⛬⛬H⛬⛬H⛬⛬⛬# ",
+			"                ",
+			"#$            $#",
+			"$#$        33$#$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$#$          $#$",
+			"#$            $#",
+			"5#            #6",
+			"7#⛬⛬⛬n⛬⛬n⛬⛬n⛬⛬#7",
+			"7# ⛬  ⛬  ⛬  ⛬ #7",
+			" # ⛬  ⛬  ⛬  ⛬ # ",
+			"7##############7",
+			"7##############7",
+			" # ⛬  ⛬  ⛬  ⛬ # ",
+			"7# ⛬  ⛬  ⛬  ⛬ #7",
+			"7#⛬⛬H⛬⛬H⛬⛬H⛬⛬⛬#7",
+			"5#            #6",
+			"#$            $#",
+			"$#$          $#$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$#$          $#$",
+			"#$ <  <  <  < $#",
+			"##            ##",
+			"##            ##",
+			"## <  <  <  < ##",
+			"##            ##",
+			"################",
+			"################",
+			"##            ##",
+			"## <  <  <  < ##",
+			"##            ##",
+			"##            ##",
+			"#$ <  <  <  < $#",
+			"$#$          $#$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$##############$",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"$##############$",
+			"#$############$#"
+		]
+	]
+}

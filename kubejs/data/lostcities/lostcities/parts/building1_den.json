@@ -1,0 +1,432 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "Template For Buildnig 1",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "thermal:light_gray_rockwool",
+				"Description": "Floor Outer",
+				"Color": "6c4e2dff"
+			},
+			{
+				"char": "3",
+				"block": "rechiseled:dark_oak_planks_beams_connecting",
+				"Description": "Ceiling",
+				"Color": "4a3737ff"
+			},
+			{
+				"char": "4",
+				"block": "rechiseled:stone_path_connecting",
+				"Description": "Floor Inner",
+				"Color": "aaaaaaff"
+			},
+			{
+				"char": "5",
+				"block": "chipped:tuff_26",
+				"Description": "East Wall",
+				"Color": "616161ff"
+			},
+			{
+				"char": "6",
+				"block": "rechiseled:stone_big_tiles_connecting",
+				"Description": "Wall - Main",
+				"Color": "d3d3d3ff"
+			},
+			{
+				"char": "7",
+				"block": "rechiseled:cobblestone_pillar_connecting[axis=z]",
+				"Description": "Wall - inlay NorthSouth",
+				"Color": "a0a0a0ff"
+			},
+			{
+				"char": "8",
+				"block": "rechiseled:cobblestone_pillar_connecting[axis=x]",
+				"Description": "Wall - Inlay West",
+				"Color": "a0a0a0ff"
+			},
+			{
+				"char": "9",
+				"block": "minecraft:bricks",
+				"Description": "FIreplace - Brick",
+				"Color": "86291dff"
+			},
+			{
+				"char": "Č",
+				"block": "tanukidecor:firewood[facing=south]",
+				"Description": "FIreplace - Lower Midd",
+				"Color": "86291dff"
+			},
+			{
+				"char": "⛀",
+				"block": "tanukidecor:large_fireplace[facing=south,height=1,width=2]",
+				"Description": "FIreplace - Lower Right",
+				"Color": "86291dff"
+			},
+			{
+				"char": "♡",
+				"block": "tanukidecor:large_fireplace[facing=south,height=2,width=0]",
+				"Description": "FIreplace - Upper Left",
+				"Color": "9a9a9aff"
+			},
+			{
+				"char": "♂",
+				"block": "tanukidecor:large_fireplace[facing=south,height=2,width=1]",
+				"Description": "FIreplace - Upper Middle",
+				"Color": "86291dff"
+			},
+			{
+				"char": "Ȁ",
+				"block": "tanukidecor:large_fireplace[facing=south,height=2,width=2]",
+				"Description": "FIreplace - Upper Right",
+				"Color": "86291dff"
+			},
+			{
+				"char": "ǵ",
+				"block": "decocraft:grandfather_clock[facing=south]",
+				"Description": "Grandfather Clock",
+				"Color": "b2a555ff"
+			},
+			{
+				"char": "ɐ",
+				"block": "luphieclutteredmod:luphie_black_inner_corner_cabinet[facing=east]",
+				"Description": "Corner Cabinet - West Wall",
+				"Color": "262443ff"
+			},
+			{
+				"char": "ƣ",
+				"block": "luphieclutteredmod:luphie_black_inner_corner_cabinet[facing=south]",
+				"Description": "Corner Cabinet - East Wall",
+				"Color": "262443ff"
+			},
+			{
+				"char": "Í",
+				"block": "tanukidecor:minimalist_clock[facing=south]",
+				"Description": "Small Wall Clock",
+				"Color": "c9cca5ff"
+			},
+			{
+				"char": "♌",
+				"block": "a_man_with_plushies:goose_plush[facing=east]",
+				"Description": "Goose Plush - Facing East"
+			},
+			{
+				"char": "♇",
+				"block": "a_man_with_plushies:goose_plush[facing=west]",
+				"Description": "Goose Plush - Facing West"
+			},
+			{
+				"char": "⚥",
+				"block": "tanukidecor:mantle_clock[facing=south]",
+				"Description": "Mantle Clock",
+				"Color": "b09e83ff"
+			},
+			{
+				"char": "ʫ",
+				"block": "decocraft:floor_lamp_black",
+				"Description": "Black Floor Lamp"
+			},
+			{
+				"char": "o",
+				"block": "decocraft:wooden_table_spruce",
+				"Description": "Side Table",
+				"Color": "654f2aff"
+			},
+			{
+				"char": "♍",
+				"block": "cardsnboards:pawn",
+				"Description": "White Pawn"
+			},
+			{
+				"char": "Ƌ",
+				"block": "supplementaries:clock_block[facing=east]",
+				"Description": "Wall Clock",
+				"Color": "c04545ff"
+			},
+			{
+				"char": "⚛",
+				"block": "tanukidecor:station_clock[facing=east,height=1,width=2]",
+				"Description": "Big Wall Clock - Lower Right",
+				"Color": "c04545ff"
+			},
+			{
+				"char": "Ǐ",
+				"block": "tanukidecor:station_clock[facing=east,height=2,width=1]",
+				"Description": "Big Wall Clock - Upper Left",
+				"Color": "c04545ff"
+			},
+			{
+				"char": "☧",
+				"block": "tanukidecor:station_clock[facing=east,height=2,width=2]",
+				"Description": "Big Wall Clock - Upper Right",
+				"Color": "c04545ff"
+			},
+			{
+				"char": "☷",
+				"block": "decocraft:top_cabinet_3_spruce[facing=north]",
+				"Description": "Cabinet - North",
+				"Color": "9f8c6aff"
+			},
+			{
+				"char": "«",
+				"block": "luphieclutteredmod:luphie_row_of_small_books[facing=north]",
+				"Description": "Row of Books",
+				"Color": "918ec5ff"
+			},
+			{
+				"char": "♭",
+				"block": "moa_decor_art:lienzo[facing=north]",
+				"Description": "Painting - North"
+			},
+			{
+				"char": "r",
+				"block": "everycomp:mcfur/the_vault/stripped_driftwood_bookshelf[facing=south]",
+				"Description": "Bookshelf",
+				"Color": "b0ac9cff"
+			},
+			{
+				"char": "⚅",
+				"block": "tanukidecor:carriage_clock[facing=west]",
+				"Description": "Carriage Clock",
+				"Color": "c8ce63ff"
+			},
+			{
+				"char": "E",
+				"block": "luphieclutteredmod:luphie_short_book_stack[facing=west]",
+				"Description": "Stack of Books",
+				"Color": "3154ddff"
+			},
+			{
+				"char": "★",
+				"block": "decocraft:couch_right_red[facing=north]",
+				"Description": "Red Couch - Left",
+				"Color": "e70909ff"
+			},
+			{
+				"char": "ʟ",
+				"block": "decocraft:couch_middle_red[facing=north]",
+				"Description": "Red Couch - middle",
+				"Color": "e70909ff"
+			},
+			{
+				"char": "⛶",
+				"block": "decocraft:couch_left_red[facing=north]",
+				"Description": "Red Couch - right",
+				"Color": "e70909ff"
+			},
+			{
+				"char": "ŭ",
+				"block": "decocraft:couch_left_dark_gray[facing=east]",
+				"Description": "Dark Gray Couch - Left",
+				"Color": "404040ff"
+			},
+			{
+				"char": "ɀ",
+				"block": "decocraft:couch_middle_dark_gray[facing=east]",
+				"Description": "Dark Gray Couch - Middle",
+				"Color": "404040ff"
+			},
+			{
+				"char": "ƺ",
+				"block": "decocraft:couch_right_dark_gray[facing=east]",
+				"Description": "Dark Gray Couch - Right",
+				"Color": "404040ff"
+			},
+			{
+				"char": "Ĉ",
+				"block": "decocraft:rattan_armchair_orange[facing=west]",
+				"Description": "Rattan Chair",
+				"Color": "a4a38eff"
+			},
+			{
+				"char": "☯",
+				"block": "decocraft:table_1_cherry",
+				"Description": "Cherry Side Table",
+				"Color": "c58ec9ff"
+			},
+			{
+				"char": "☏",
+				"block": "everycomp:mcfur/architects_palette/stripped_twisted_glass_table",
+				"Description": "Coffee Table",
+				"Color": "756382ff"
+			},
+			{
+				"char": "⚄",
+				"block": "moa_decor_science:libro[facing=south]",
+				"Description": "Table Book",
+				"Color": "62534cff"
+			},
+			{
+				"char": "☸",
+				"block": "decocraft:candle_holder_1_gold_flipbook.00",
+				"Description": "Candelabra",
+				"Color": "d2d737ff"
+			},
+			{
+				"char": "⛬",
+				"block": "tanukidecor:small_fancy_vase",
+				"Description": "Small Vase",
+				"Color": "837692ff"
+			},
+			{
+				"char": "⛔",
+				"block": "decocraft:book_stack_4[facing=north]",
+				"Description": "Stack of Books",
+				"Color": "9c73bbff"
+			},
+			{
+				"char": ",",
+				"block": "decocraft:table_lamp_stained_glass_flamingo",
+				"Description": "Table Lamp",
+				"Color": "a462beff"
+			},
+			{
+				"char": "☗",
+				"block": "chipped:dark_oak_door_5[facing=east,half=lower]",
+				"Description": "Door - East - Lower",
+				"Color": "4e4633ff"
+			},
+			{
+				"char": "m",
+				"block": "chipped:dark_oak_door_5[facing=east,half=upper]",
+				"Description": "Door - East - Upper",
+				"Color": "4e4633ff"
+			},
+			{
+				"char": "^",
+				"block": "chipped:dark_oak_door_5[facing=south,half=lower]",
+				"Description": "Door - South - Lower",
+				"Color": "4e4633ff"
+			},
+			{
+				"char": "?",
+				"block": "chipped:dark_oak_door_5[facing=south,half=upper]",
+				"Description": "Door - South - Upper",
+				"Color": "4e4633ff"
+			},
+			{
+				"char": "S",
+				"block": "chipped:dark_oak_door_5[facing=west,half=lower]",
+				"Description": "Door - West - Lower",
+				"Color": "4e4633ff"
+			},
+			{
+				"char": "Ǌ",
+				"block": "chipped:dark_oak_door_5[facing=west,half=upper]",
+				"Description": "Door - West - Upper",
+				"Color": "4e4633ff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"X$#####$$#####$X",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222♡♡♡222222#",
+			"#22222222222222#",
+			"#22224444422222#",
+			"#22224444422222#",
+			"$22224444422222$",
+			"$22224444422222$",
+			"#22224444422222#",
+			"#22224444422222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"$22222222l22222$",
+			"X$#####$$#####$X"
+		],
+		[
+			"X#$##########$#X",
+			"#66666777666555#",
+			"$66666777666555$",
+			"#66ɐ ǵ9Č9  ƣ555#",
+			"#66         555#",
+			"#66✭ ឡ ☘ ឫ  555#",
+			"#66o ឝ ☘ ✰  555#",
+			"# S  ភ   ឫ  ☗  #",
+			"#66   ⛶ʟ★   555#",
+			"#66   ooo  r555#",
+			"#66        r555#",
+			"#66        ✮555#",
+			"#66 ☷☷   ☷☷ 555#",
+			"$666666^6666666$",
+			"#666666  l66666#",
+			"X#$##########$#X"
+		],
+		[
+			"X##$########$##X",
+			"#66666777666555#",
+			"#66666777666555#",
+			"$66ɐ  999 Íƣ555$",
+			"#66         555#",
+			"#66    ⚄    555#",
+			"#66♙   ☸ ⛔  555#",
+			"# Ǌ         m  #",
+			"#66         555#",
+			"#66   ⛬⛔   E555#",
+			"#6Ƌ        ⚅555#",
+			"#66         555#",
+			"$66 ««   «« 555$",
+			"#666666?6666555#",
+			"#666666  l66555#",
+			"X##$########$##X"
+		],
+		[
+			"X###$######$###X",
+			"#77777777777555#",
+			"#77777777777555#",
+			"#88ɐ  ♌⚥♇Í ƣ555#",
+			"$88         555$",
+			"#88         555#",
+			"#88         555#",
+			"#88         555#",
+			"#88         555#",
+			"#88         555#",
+			"#88         555#",
+			"$88         555$",
+			"#88  ♭   ♭  555#",
+			"#77777777777555#",
+			"#77777777l77555#",
+			"X###$######$###X"
+		],
+		[
+			"X####$####$####X",
+			"#66666777666555#",
+			"#66666777666555#",
+			"#66         555#",
+			"#66         555#",
+			"$66         555$",
+			"#66         555#",
+			"#66         555#",
+			"#66         555#",
+			"#66         555#",
+			"$66         555$",
+			"#66         555#",
+			"#66         555#",
+			"#66666666666555#",
+			"#66666666l66555#",
+			"X####$####$####X"
+		],
+		[
+			"X#####$##$#####X",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X##############X"
+		]
+	]
+}

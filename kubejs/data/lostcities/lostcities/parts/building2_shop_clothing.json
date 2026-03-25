@@ -1,0 +1,302 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "4",
+				"block": "buildersdelight:glass_5",
+				"Description": "",
+				"Color": "646262ff"
+			},
+			{
+				"char": "9",
+				"block": "simplylight:edge_light_top",
+				"Description": ""
+			},
+			{
+				"char": "i",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "m",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "j",
+				"block": "simplylight:edge_light_top[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "o",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "n",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "f",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "q",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "e",
+				"block": "elevatorid:elevator_white[directional=false,facing=south,show_arrow=true]",
+				"Description": ""
+			},
+			{
+				"char": "2",
+				"block": "minecraft:air",
+				"Description": ""
+			},
+			{
+				"char": "s",
+				"block": "cfm:white_kitchen_counter[facing=east,type=default]",
+				"Description": ""
+			},
+			{
+				"char": "&",
+				"block": "decocraft:cash_register[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "7",
+				"block": "mcwwindows:white_curtain[facing=south,tied=top]",
+				"Description": ""
+			},
+			{
+				"char": "5",
+				"block": "decocraft:clothes_rack_3[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "{",
+				"block": "decocraft:jack_o_lantern_trio[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "]",
+				"block": "decocraft:jack_o_lantern_trio[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "6",
+				"block": "tfb2:costume_shop_mannequin_placeholder",
+				"Description": ""
+			},
+			{
+				"char": "r",
+				"block": "decorative_blocks:birch_seat[attached=true,facing=south,occupied=false,post=false,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "U",
+				"block": "decocraft:closet_2_white[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "3",
+				"block": "decocraft:clothes_rack_3[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "E",
+				"block": "mcwwindows:white_curtain[facing=south,tied=none]",
+				"Description": ""
+			},
+			{
+				"char": "0",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "decocraft:clothes_rack_5[facing=north]",
+						"random": 30
+					},
+					{
+						"block": "decocraft:clothes_rack_1[facing=north]",
+						"random": 30
+					},
+					{
+						"random": 35,
+						"block": "decocraft:clothes_rack_4[facing=north]"
+					},
+					{
+						"random": 35,
+						"block": "decocraft:clothes_rack_2[facing=north]"
+					}
+				]
+			},
+			{
+				"char": "^",
+				"block": "buildersdelight:glass_5",
+				"Description": ""
+			},
+			{
+				"char": "N",
+				"block": "cfm:white_kitchen_counter[facing=north,type=default]",
+				"Description": ""
+			},
+			{
+				"char": "|",
+				"block": "decocraft:closet_1_white[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "P",
+				"block": "decocraft:table_1_birch[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "[",
+				"block": "decocraft:jack_o_lantern_trio[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "V",
+				"block": "decocraft:closet_4_white[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "8",
+				"block": "moa_decor_art:maniqui[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "H",
+				"block": "decocraft:standing_mirror_black[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "O",
+				"block": "farmersdelight:basket[enabled=true,facing=up,waterlogged=false]",
+				"Description": ""
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$$#$$#$$#$$#$$#",
+			"$e#############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"###############$",
+			"$##############$",
+			"$##############$",
+			"###############$",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"#$$#$$$$$$$$#$$#"
+		],
+		[
+			"################",
+			"#      #r#rrr#$#",
+			"#    s E E  H#$#",
+			"#NNNNN #O#PP #$#",
+			"#      #######$#",
+			"#      U VVU ###",
+			"# 0             ",
+			"#               ",
+			"# 0             ",
+			"#     3  5      ",
+			"##➕          ➛##",
+			"#$#➕        ➛#$#",
+			"#$$#➕      ➛#$$#",
+			"#$$$#➕    ➛#$$$#",
+			"#$$$$#    #$$$$#",
+			"######    ######"
+		],
+		[
+			"################",
+			"#      # #   # #",
+			"#      7 7   #8^",
+			"# ₫ ₫  # #   # ^",
+			"#      #######8^",
+			"#            ###",
+			"#               ",
+			"#               ",
+			"#               ",
+			"#               ",
+			"##            ##",
+			"# #          # ^",
+			"^ ➙#        #➗ ^",
+			"^  ➙#      #➗  ^",
+			"#    #    #    #",
+			"##^^^#    #^^^##"
+		],
+		[
+			"################",
+			"#      # #   # #",
+			"#      $ $   # ^",
+			"#      # #   # ^",
+			"#      ####### ^",
+			"#      ||||||###",
+			"#               ",
+			"#               ",
+			"#               ",
+			"#               ",
+			"##            ##",
+			"# #          # ^",
+			"^  #        #  ^",
+			"^   #      #   ^",
+			"#    #    #    #",
+			"##^^^#    #^^^##"
+		],
+		[
+			"################",
+			"#fiiiii#i#iij#j#",
+			"#k     # #  m#m#",
+			"#k     # #  m#m#",
+			"#k     #######q#",
+			"#k          m###",
+			"#k           ij#",
+			"#k            m#",
+			"#k            m#",
+			"#n            q#",
+			"##n          q##",
+			"#f#n        q#j#",
+			"#k #n      q# m#",
+			"#k  #n    q#  m#",
+			"#nooq#nooq#nooq#",
+			"################"
+		],
+		[
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################"
+		]
+	]
+}

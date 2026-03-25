@@ -1,0 +1,330 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "4",
+				"block": "buildersdelight:glass_5",
+				"Description": "",
+				"Color": "6790abff"
+			},
+			{
+				"char": "9",
+				"block": "simplylight:edge_light_top",
+				"Description": ""
+			},
+			{
+				"char": "i",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "m",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "j",
+				"block": "simplylight:edge_light_top[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "o",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "n",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "f",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "q",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "N",
+				"block": "decocraft:diner_counter_corner_black[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "V",
+				"block": "decocraft:diner_chair_gray[facing=north]",
+				"Description": "Diner Chair - North Facing"
+			},
+			{
+				"char": "7",
+				"block": "cfm:black_cooler[facing=east,open=false,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "<",
+				"block": "moa_decor_cookery:tabladecortar[facing=east]",
+				"Description": "Cutting Board"
+			},
+			{
+				"char": "U",
+				"block": "decocraft:restaurant_table_1_black[facing=east]",
+				"Description": "Restaurant Table"
+			},
+			{
+				"char": "&",
+				"block": "decocraft:restaurant_table_1_black[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "6",
+				"block": "decocraft:bottom_cabinet_corner_outer_1_black[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": ",",
+				"block": "immersiveengineering:conveyor_basic[facing=east,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "[",
+				"block": "immersiveengineering:conveyor_basic[facing=south,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "5",
+				"block": "decocraft:diner_counter_black[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "3",
+				"block": "decocraft:diner_counter_black[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "]",
+				"block": "immersiveengineering:conveyor_basic[facing=west,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": "P",
+				"block": "decocraft:diner_counter_corner_black[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "|",
+				"block": "immersiveengineering:conveyor_basic[facing=north,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": ">",
+				"Description": "Sushi",
+				"blocks": [
+					{
+						"block": "decocraft:nigiri[facing=north]",
+						"random": 5
+					},
+					{
+						"block": "decocraft:tempura_shrimp",
+						"random": 5
+					},
+					{
+						"random": 5,
+						"block": "decocraft:nori_roll"
+					},
+					{
+						"random": 5,
+						"block": "decocraft:sushi_mix"
+					},
+					{
+						"random": 5,
+						"block": "decocraft:rice_roll"
+					},
+					{
+						"random": 5,
+						"block": "moa_decor_cookery:sushi"
+					},
+					{
+						"random": 111,
+						"block": "minecraft:air"
+					}
+				],
+				"Color": "45784aff"
+			},
+			{
+				"char": "e",
+				"block": "decocraft:diner_chair_gray[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "E",
+				"block": "decocraft:diner_chair_gray[facing=south]",
+				"Description": "Diner Chair - South Facing"
+			},
+			{
+				"char": "0",
+				"block": "decocraft:diner_counter_black[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "r",
+				"block": "decocraft:restaurant_table_1_black[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "'",
+				"block": "quark:bamboo_mat_carpet[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "^",
+				"block": "decocraft:diner_counter_corner_black[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "s",
+				"block": "decocraft:diner_chair_gray[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "{",
+				"block": "moa_decor_cookery:sushi[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "8",
+				"block": "decocraft:diner_counter_corner_black[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "O",
+				"block": "decocraft:diner_counter_black[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "H",
+				"block": "decocraft:restaurant_table_1_black[facing=west]",
+				"Description": ""
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$$$$$$$$$$$$$$#",
+			"$2#############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"$##############$",
+			"#$$$$$$$$$$$#$$#"
+		],
+		[
+			"###          ###",
+			"#              #",
+			"#   ⑪⒂⑫  ⑪⒂⑫   #",
+			"                ",
+			"  ⑩  ⑪⒂⑫⑪⒂⑫  ⑩  ",
+			"  ⒂ ⑩NOOOOP⑩ ⒂  ",
+			"  ⑨ ⒂033335⒂ ⑨  ",
+			"    ⑨06  75⑨    ",
+			"    ⑩06  75⑩    ",
+			"  ⑩ ⒂0OOOO5⒂ ⑩  ",
+			"  ⒂ ⑨83333^⑨ ⒂  ",
+			"  ⑨  ⑪⒂⑫⑪⒂⑫  ⑨  ",
+			"                ",
+			"#   ⑪⒂⑫  ⑪⒂⑫   #",
+			"#              #",
+			"###         ####"
+		],
+		[
+			"###          ###",
+			"#              #",
+			"#    >    >    #",
+			"                ",
+			"      >  >      ",
+			"  >  []]]]]  >  ",
+			"    >[>>>>|>    ",
+			"     ['   |     ",
+			"     [<   |     ",
+			"    >[>>>>|>    ",
+			"  >  ,,,,,|  >  ",
+			"      >  >      ",
+			"                ",
+			"#    >    >    #",
+			"#              #",
+			"###         ####"
+		],
+		[
+			"###          ###",
+			"#              #",
+			"#              #",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"                ",
+			"#              #",
+			"#              #",
+			"###         ####"
+		],
+		[
+			"###$$$$$$$$$$###",
+			"#fiiiiiiiiiiiij#",
+			"#k            m#",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"$k            m$",
+			"#k            m#",
+			"#nooooooooooooq#",
+			"###$$$$$$$$$####"
+		],
+		[
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################"
+		]
+	]
+}

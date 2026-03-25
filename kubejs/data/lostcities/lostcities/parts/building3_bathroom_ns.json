@@ -1,0 +1,244 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "e",
+				"block": "minecraft:gray_concrete",
+				"Description": "Concrete Floor",
+				"Color": "585858ff"
+			},
+			{
+				"char": "q",
+				"block": "decocraft:toilet_white[facing=west]",
+				"Description": "Toilet - West Facing"
+			},
+			{
+				"char": "N",
+				"block": "everycomp:cfm/the_vault/velara_kitchen_sink_dark[facing=east]",
+				"Description": "Sink - East",
+				"Color": "ac7c7cff"
+			},
+			{
+				"char": "3",
+				"block": "everycomp:mct/the_vault/chromatic_cottage_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+				"Description": "Changing Station"
+			},
+			{
+				"char": "o",
+				"block": "everycomp:cfm/luphieclutteredmod/luphie_purple_upgraded_gate[double=false,facing=east,hinge=left,open=false,powered=false,waterlogged=false]",
+				"Description": "Stall Door - East Facing",
+				"Color": "916bd2ff"
+			},
+			{
+				"char": "6",
+				"block": "simplylight:wall_lamp[facing=down,waterlogged=false]",
+				"Description": "Outside Light"
+			},
+			{
+				"char": "n",
+				"block": "everycomp:cfm/the_vault/velara_kitchen_sink_dark[facing=west]",
+				"Description": "Sink - West Facing",
+				"Color": "ac7c7cff"
+			},
+			{
+				"char": "V",
+				"Description": "Toilet Paper - East Facing",
+				"blocks": [
+					{
+						"block": "decocraft:toilet_paper_black[facing=east]",
+						"random": 33.0
+					},
+					{
+						"block": "decocraft:toilet_paper_silver[facing=east]",
+						"random": 33.0
+					},
+					{
+						"random": 33.0,
+						"block": "decocraft:toilet_paper_gold[facing=east]"
+					},
+					{
+						"random": 33.0,
+						"block": "decocraft:toilet_paper_rosegold[facing=east]"
+					}
+				]
+			},
+			{
+				"char": "E",
+				"block": "decocraft:toilet_white[facing=east]",
+				"Description": "Toilet - East Facing"
+			},
+			{
+				"char": "U",
+				"block": "everycomp:mct/the_vault/chromatic_cottage_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]",
+				"Description": "Changing Station"
+			},
+			{
+				"char": "0",
+				"Description": "Toilet Paper - West Facing",
+				"blocks": [
+					{
+						"block": "decocraft:toilet_paper_black[facing=west]",
+						"random": 33.0
+					},
+					{
+						"block": "decocraft:toilet_paper_silver[facing=west]",
+						"random": 33.0
+					},
+					{
+						"random": 33.0,
+						"block": "decocraft:toilet_paper_gold[facing=west]"
+					},
+					{
+						"random": 33.0,
+						"block": "decocraft:toilet_paper_rosegold[facing=west]"
+					}
+				]
+			},
+			{
+				"char": "<",
+				"block": "simplylight:illuminant_panel[facing=down,waterlogged=false]",
+				"Description": "Ceiling Light"
+			},
+			{
+				"char": "f",
+				"block": "trashcans:item_trash_can[waterlogged=false]",
+				"Description": "Trash Can"
+			},
+			{
+				"char": "5",
+				"block": "decocraft:bathroom_unisex[facing=north]",
+				"Description": "Bathroom Sign - North Facing"
+			},
+			{
+				"char": "'",
+				"block": "decocraft:bathroom_unisex[facing=south]",
+				"Description": "Bathroom Sign - South Facing"
+			},
+			{
+				"char": "H",
+				"block": "everycomp:cfm/luphieclutteredmod/luphie_purple_upgraded_gate[double=false,facing=west,hinge=left,open=false,powered=false,waterlogged=false]",
+				"Description": "Stall Door - West Facing",
+				"Color": "6e58abff"
+			},
+			{
+				"char": "♯",
+				"block": "davebuildingmod:light_blue_steel_wall",
+				"Description": "Stall Wall",
+				"Color": "2a3c8dff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$############$#",
+			"$eeeeeeeeeeeeee$",
+			"#e2eeeeeeeeee2e#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#eeeeeeeeeeeeee#",
+			"#e2eeeeeeeeee2e#",
+			"$eeeeeeeeeeeeee$",
+			"#$############$#"
+		],
+		[
+			"#$#    ff    #$#",
+			"$#$ ######## $#$",
+			"#$  ♯  ##  ♯  $#",
+			"#f  ♯♯♯##♯♯♯  f#",
+			"#⌸  o q##  ♯   #",
+			"#⌼  ♯  ##E H  ⌹#",
+			"#⌸  ♯♯♯##♯♯♯  ⌽#",
+			"#⌼  o q##  ♯  ⌹#",
+			"#⌸  ♯  ##E H  ⌽#",
+			"#⌼  ♯♯♯##♯♯♯  ⌹#",
+			"#⌸  o q##  ♯  ⌽#",
+			"#   ♯  ##E H  ⌹#",
+			"#f  ♯♯♯##♯♯♯  f#",
+			"#$  ♯  ##  ♯  $#",
+			"$#$ ######## $#$",
+			"#$#    ff    #$#"
+		],
+		[
+			"#$#          #$#",
+			"$#$ ######## $#$",
+			"#$  ♯  ##  ♯  $#",
+			"#   ♯♯♯##♯♯♯  U#",
+			"#   o  ##V ♯  U#",
+			"#   ♯ 0##  H   #",
+			"#   ♯♯♯##♯♯♯   #",
+			"#   o  ##V ♯   #",
+			"#   ♯ 0##  H   #",
+			"#   ♯♯♯##♯♯♯   #",
+			"#   o  ##V ♯   #",
+			"#3  ♯ 0##  H   #",
+			"#3  ♯♯♯##♯♯♯   #",
+			"#$  ♯  ##  ♯  $#",
+			"$#$ ######## $#$",
+			"#$#          #$#"
+		],
+		[
+			"#$#566 66 665#$#",
+			"$#$##########$#$",
+			"#$  ♯  ##  ♯  $#",
+			"#   ♯♯♯##♯♯♯   #",
+			"#   o  ##  ♯   #",
+			"#   ♯  ##  H   #",
+			"#   ♯♯♯##♯♯♯   #",
+			"#   o  ##  ♯   #",
+			"#   ♯  ##  H   #",
+			"#   ♯♯♯##♯♯♯   #",
+			"#   o  ##  ♯   #",
+			"#   ♯  ##  H   #",
+			"#   ♯♯♯##♯♯♯   #",
+			"#$  ♯  ##  ♯  $#",
+			"$#$##########$#$",
+			"#$#'66 66 66'#$#"
+		],
+		[
+			"#$############$#",
+			"$#$##########$#$",
+			"#$     ##     $#",
+			"# <  < ## <  < #",
+			"#      ##      #",
+			"#      ##      #",
+			"# <  < ## <  < #",
+			"#      ##      #",
+			"#      ##      #",
+			"# <  < ## <  < #",
+			"#      ##      #",
+			"#      ##      #",
+			"# <  < ## <  < #",
+			"#$     ##     $#",
+			"$#$##########$#$",
+			"#$############$#"
+		],
+		[
+			"#$############$#",
+			"$##############$",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"$##############$",
+			"#$############$#"
+		]
+	]
+}

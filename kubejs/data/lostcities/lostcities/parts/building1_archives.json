@@ -84,9 +84,34 @@
 			},
 			{
 				"char": "V",
-				"block": "decocraft:book_stack_4[facing=west]",
 				"Description": "Book Stack",
-				"Color": "667e87ff"
+				"Color": "667e87ff",
+				"blocks": [
+					{
+						"block": "decocraft:book_stack_1[facing=west]",
+						"random": 20
+					},
+					{
+						"block": "decocraft:book_stack_2[facing=west]",
+						"random": 20
+					},
+					{
+						"random": 20,
+						"block": "decocraft:book_stack_3[facing=west]"
+					},
+					{
+						"random": 20,
+						"block": "decocraft:book_stack_4[facing=west]"
+					},
+					{
+						"random": 20,
+						"block": "magic_vibe_decorations:booksstacksmall"
+					},
+					{
+						"random": 30,
+						"block": "luphieclutteredmod:luphie_stack_of_small_books"
+					}
+				]
 			},
 			{
 				"char": "8",

@@ -1,0 +1,352 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "Blue Prince - Closed Exhibit",
+	"palette": {
+		"palette": [
+			{
+				"char": "2",
+				"block": "auxiliaryblocks:concrete",
+				"Description": "Floor",
+				"Color": "9c9c9cff"
+			},
+			{
+				"char": "3",
+				"block": "chipped:basalt_59",
+				"Description": "Ceiling",
+				"Color": "4b4b4bff"
+			},
+			{
+				"char": "e",
+				"block": "chipped:red_nether_bricks_60",
+				"Description": "Red Brick Inlay",
+				"Color": "621919ff"
+			},
+			{
+				"char": "5",
+				"block": "supplementaries:pedestal[axis=z,down=false,has_item=true,up=false,waterlogged=false]",
+				"Description": "",
+				"tag": {
+					"Items": [
+                      {
+                        "Slot": 0,
+                        "id": "the_vault:boost_modification_stone",
+                        "Count": 1
+                      }
+                    ]
+				}
+			},
+			{
+				"char": "k",
+				"block": "immersiveengineering:concrete",
+				"Description": "Raised Platform Base",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": "^",
+				"block": "mcwdoors:metal_door[facing=south,half=upper,hinge=left,open=false,powered=false]",
+				"Description": "Metal Door - South - Upper",
+				"Color": "272727ff"
+			},
+			{
+				"char": "|",
+				"block": "everycomp:ap/the_vault/driftwood_railing[east=true,north=false,south=true,waterlogged=false,west=false]",
+				"Description": "Ceiling Railing",
+				"Color": "655a5aff"
+			},
+			{
+				"char": "V",
+				"block": "mcwdoors:metal_door[facing=south,half=lower,hinge=left,open=false,powered=false]",
+				"Description": "Metal Door - South - Lower",
+				"Color": "272727ff"
+			},
+			{
+				"char": "f",
+				"block": "chipped:andesite_56",
+				"Description": "Columns"
+			},
+			{
+				"char": "q",
+				"block": "immersiveengineering:stairs_concrete[facing=north,half=bottom,shape=outer_left,waterlogged=false]",
+				"Description": "Raised Platform Stairs",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": "'",
+				"block": "everycomp:ap/the_vault/driftwood_railing[east=true,north=false,south=false,waterlogged=false,west=true]",
+				"Description": "Ceiling Railing",
+				"Color": "655a5aff"
+			},
+			{
+				"char": "[",
+				"block": "simplylight:lightbulb[facing=down,waterlogged=false]",
+				"Description": "Rail Light"
+			},
+			{
+				"char": "P",
+				"block": "everycomp:db/the_vault/chromatic_seat[attached=true,facing=west,occupied=false,post=false,waterlogged=false]",
+				"Description": "Chromatic Seat",
+				"Color": "cececeff"
+			},
+			{
+				"char": ",",
+				"block": "everycomp:ap/the_vault/driftwood_railing[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": "Ceiling Railing",
+				"Color": "655a5aff"
+			},
+			{
+				"char": "?",
+				"block": "everycomp:ap/the_vault/driftwood_railing[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": "Ceiling Railing",
+				"Color": "655a5aff"
+			},
+			{
+				"char": "n",
+				"block": "immersiveengineering:stairs_concrete[facing=north,half=bottom,shape=outer_right,waterlogged=false]",
+				"Description": "Raised Platform Stairs",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": "m",
+				"block": "immersiveengineering:stairs_concrete[facing=west,half=bottom,shape=straight,waterlogged=false]",
+				"Description": "Raised Platform Stairs",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": ">",
+				"block": "everycomp:ap/the_vault/driftwood_railing[east=false,north=true,south=true,waterlogged=false,west=false]",
+				"Description": "Ceiling Railing",
+				"Color": "655a5aff"
+			},
+			{
+				"char": "]",
+				"block": "chipped:andesite_22",
+				"Description": "Top Border - Side",
+				"Color": "a3a3a3ff"
+			},
+			{
+				"char": "i",
+				"block": "botania:livingwood_fence[east=false,north=true,south=true,waterlogged=false,west=false]",
+				"Description": "Exhibit Fence",
+				"Color": "722626ff"
+			},
+			{
+				"char": "O",
+				"block": "everycomp:db/the_vault/chromatic_seat[attached=true,facing=east,occupied=false,post=false,waterlogged=false]",
+				"Description": "Chromatic Seat",
+				"Color": "cececeff"
+			},
+			{
+				"char": "E",
+				"block": "botania:livingwood_fence[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": "Exhibit Fence",
+				"Color": "722626ff"
+			},
+			{
+				"char": "{",
+				"block": "chipped:andesite_39",
+				"Description": "Top Border - Center",
+				"Color": "7b7b7bff"
+			},
+			{
+				"char": "U",
+				"block": "everycomp:db/the_vault/chromatic_seat[attached=true,facing=north,occupied=false,post=false,waterlogged=false]",
+				"Description": "Chromatic Seat",
+				"Color": "cececeff"
+			},
+			{
+				"char": "H",
+				"block": "mcwdoors:metal_door[facing=west,half=lower,hinge=left,open=false,powered=false]",
+				"Description": "Metal Door - West - Lower",
+				"Color": "272727ff"
+			},
+			{
+				"char": "7",
+				"block": "mcwdoors:metal_door[facing=east,half=upper,hinge=left,open=false,powered=false]",
+				"Description": "Metal Door - East - Upper",
+				"Color": "272727ff"
+			},
+			{
+				"char": "<",
+				"block": "everycomp:ap/the_vault/driftwood_railing[east=false,north=false,south=true,waterlogged=false,west=true]",
+				"Description": "Ceiling Railing",
+				"Color": "655a5aff"
+			},
+			{
+				"char": "6",
+				"block": "mcwdoors:metal_door[facing=west,half=upper,hinge=left,open=false,powered=false]",
+				"Description": "Metal Door - West - Upper",
+				"Color": "272727ff"
+			},
+			{
+				"char": "r",
+				"block": "botania:livingwood_fence[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": "Exhibit Fence",
+				"Color": "722626ff"
+			},
+			{
+				"char": "8",
+				"block": "moa_decor_art:lienzo[facing=north]",
+				"Description": "Painting"
+			},
+			{
+				"char": "o",
+				"block": "immersiveengineering:stairs_concrete[facing=north,half=bottom,shape=straight,waterlogged=false]",
+				"Description": "Raised Platform Stairs",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": "s",
+				"block": "botania:livingwood_fence[east=true,north=false,south=false,waterlogged=false,west=true]",
+				"Description": "Exhibit Fence",
+				"Color": "722626ff"
+			},
+			{
+				"char": "0",
+				"block": "create:contraption_controls[facing=north,open=false,virtual=false,waterlogged=false]",
+				"Description": "Hidden Control Panel",
+				"Color": "bfbfbfff"
+			},
+			{
+				"char": "&",
+				"block": "chipped:andesite_9",
+				"Description": "Wall Pattern Divider",
+				"Color": "808080ff"
+			},
+			{
+				"char": "N",
+				"block": "mcwdoors:metal_door[facing=east,half=lower,hinge=left,open=false,powered=false]",
+				"Description": "Metal Door - East - Lower",
+				"Color": "272727ff"
+			},
+			{
+				"char": "j",
+				"block": "immersiveengineering:stairs_concrete[facing=east,half=bottom,shape=straight,waterlogged=false]",
+				"Description": "Raised Platform Stairs",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": "v",
+				"block": "a_man_with_plushies:henry_stickmin_plush[facing=east]",
+				"Description": "Fake Guard - Facing East",
+				"Color": "7f7e72ff"
+			},
+			{
+				"char": "w",
+				"block": "a_man_with_plushies:henry_stickmin_plush[facing=east]",
+				"Description": "Fake Guard - Facing West",
+				"Color": "7f7e72ff"
+			}
+		]
+	},
+	"slices": [
+		[
+			"X$#####$$#####$X",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"$22222222222222$",
+			"$22222222222222$",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"#22222222222222#",
+			"$22222222l22222$",
+			"X$#####$$#####$X"
+		],
+		[
+			"X#$##########$#X",
+			"#eefefefefefeee#",
+			"$eefefefefefeee$",
+			"#ee ijkkkmi eee#",
+			"#ff ijkkkmi fff#",
+			"#ee inoooqi eee#",
+			"#ff rsssssE fff#",
+			"# H         N  #",
+			"#ff         fff#",
+			"#eeOv     wPeee#",
+			"#ff         fff#",
+			"#ee  U   U  eee#",
+			"#ffefefVfefefee#",
+			"$ffefef fefefee$",
+			"#ffefef  lfefee#",
+			"X#$##########$#X"
+		],
+		[
+			"X##$########$##X",
+			"#eefefe0efefeee#",
+			"#eefefefefefeee#",
+			"$ee         eee$",
+			"#ff    5    fff#",
+			"#ee         eee#",
+			"#ff         fff#",
+			"# 6         7  #",
+			"#ff         fff#",
+			"#ee         eee#",
+			"#ff         fff#",
+			"#ee  8   8  eee#",
+			"$ffefef^fefefff$",
+			"#ffefef fefefff#",
+			"#ffefef  lfefff#",
+			"X##$########$##X"
+		],
+		[
+			"X###$######$###X",
+			"#33333333333333#",
+			"#3&&&&&&&&&&&&3#",
+			"#3&         &&3#",
+			"$3& [  [  [ &&3$",
+			"#3&         &&3#",
+			"#3&         &&3#",
+			"#3& [     [ &&3#",
+			"#3&         &&3#",
+			"#3&         &&3#",
+			"#3& [  [  [ &&3#",
+			"$3&         &&3$",
+			"#3&&&&&&&&&&&&3#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X###$######$###X"
+		],
+		[
+			"X####$####$####X",
+			"#]]]]]]{]]]]]]]#",
+			"#]]]]]]{]]]]]]]#",
+			"#]]         ]]]#",
+			"#]] |'''''< ]]]#",
+			"$]] >     > ]]]$",
+			"#]] >     > ]]]#",
+			"#{{ >     > {{{#",
+			"#]] >     > ]]]#",
+			"#]] >     > ]]]#",
+			"$]] ,'''''? ]]]$",
+			"#]]         ]]]#",
+			"#]]]]]]{]]]]]]]#",
+			"#]]]]]]{]]]]]]]#",
+			"#]]]]]]{]l]]]]]#",
+			"X####$####$####X"
+		],
+		[
+			"X#####$##$#####X",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"$33333333333333$",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333333333#",
+			"#33333333l33333#",
+			"X##############X"
+		]
+	]
+}

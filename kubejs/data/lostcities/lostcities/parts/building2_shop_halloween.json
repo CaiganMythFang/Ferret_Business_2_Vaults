@@ -1,0 +1,941 @@
+{
+	"xsize": 16,
+	"zsize": 16,
+	"Description": "",
+	"palette": {
+		"palette": [
+			{
+				"char": "4",
+				"block": "buildersdelight:glass_5",
+				"Description": "",
+				"Color": "211fa9ff"
+			},
+			{
+				"char": "9",
+				"block": "simplylight:edge_light_top",
+				"Description": ""
+			},
+			{
+				"char": "i",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "m",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "k",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "j",
+				"block": "simplylight:edge_light_top[east=true,north=true,south=false,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "o",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "n",
+				"block": "simplylight:edge_light_top[east=true,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "f",
+				"block": "simplylight:edge_light_top[east=false,north=true,south=false,waterlogged=false,west=true]",
+				"Description": ""
+			},
+			{
+				"char": "q",
+				"block": "simplylight:edge_light_top[east=false,north=false,south=true,waterlogged=false,west=false]",
+				"Description": ""
+			},
+			{
+				"char": "e",
+				"block": "elevatorid:elevator_white[directional=false,facing=south,show_arrow=true]",
+				"Description": ""
+			},
+			{
+				"char": "'",
+				"block": "magic_vibe_decorations:ghost_wallpaint[facing=east,waterlogged=false]",
+				"Description": ""
+			},
+			{
+				"char": ">",
+				"block": "decocraft:happy_halloween[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": ",",
+				"block": "decocraft:paper_lantern_ghost[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "|",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "moa_decor_holidays:papelpicado_a[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_holidays:papelpicado_cian[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_holidays:papelpicado_morado[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_holidays:papelpicado_rojo[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_holidays:papelpicado_rosa[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_holidays:papelpicado_lima[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_red[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_white[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_light_gray[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_cyan[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_green[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_blue[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_lime[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_black[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_orange[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_light_blue[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_gray[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_yellow[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_pink[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_brown[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_magenta[facing=south]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:papel_picado_purple[facing=south]",
+						"random": 55.0
+					}
+				]
+			},
+			{
+				"char": "8",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "decocraft:candy_bag_pumpkin[facing=west]",
+						"random": 25.0
+					},
+					{
+						"block": "decocraft:candy_bag_ghost[facing=west]",
+						"random": 25.0
+					},
+					{
+						"block": "decocraft:candy_bag_spider[facing=west]",
+						"random": 25.0
+					},
+					{
+						"block": "decocraft:candy_bag_purple[facing=west]",
+						"random": 25.0
+					},
+					{
+						"block": "decocraft:candy_bag_witch[facing=west]",
+						"random": 125.0
+					}
+				]
+			},
+			{
+				"char": "{",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "decocraft:jack_o_lantern_trio[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_2[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_1[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_4[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_3[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:yellowpumpkin[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:bluepumpkin[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:redpumpkin[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:pinkpumpkin[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:pumpkindecor[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_cookery:calabaza[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_zomvie_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_esqueleto[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_esqueleto_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_enderman[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_enderman_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_slime[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_slime_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_pillager[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_pillager_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_warden[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_warden_l[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_dulces[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_zombie[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:clabaza_creeper_nav[facing=east]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper_nav_l[facing=east]",
+						"random": 114.0
+					}
+				]
+			},
+			{
+				"char": "N",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "moa_decor_holidays:lapida[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "moa_decor_holidays:lapida_cruz[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:coffin_1[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_2_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_7_dark[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_4_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_1_dark[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_6_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_1_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_2_dark[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_6_dark[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_3_dark[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_7_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_5_dark[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_1[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_6[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_7[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_2[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_3[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_4[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_5[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_5_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_3_mossy[facing=east]",
+						"random": 5.0
+					},
+					{
+						"block": "decocraft:headstone_4_dark[facing=east]",
+						"random": 115.0
+					}
+				]
+			},
+			{
+				"char": "s",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "luphieclutteredmod:luphie_purple_jar_bookshelf",
+						"random": 25.0
+					},
+					{
+						"block": "luphieclutteredmod:luphie_purple_black_cat_bookshelf",
+						"random": 25.0
+					},
+					{
+						"block": "luphieclutteredmod:luphie_cobweb_purple_bookshelf",
+						"random": 25.0
+					},
+					{
+						"block": "luphieclutteredmod:luphie_calico_cat_purple_bookshelf",
+						"random": 25.0
+					},
+					{
+						"block": "luphieclutteredmod:luphie_vase_purple_bookshelf",
+						"random": 125.0
+					}
+				]
+			},
+			{
+				"char": "P",
+				"block": "decocraft:closet_2_white[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "V",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "moa_decor_holidays:fantasma[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:zombiesaliendotierra[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:mariachiguitarra[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:mariachitrompeta[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:mariachiviolin[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:catrinaroja[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:catrinamorada[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:catrinacian[facing=east]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:esqueletosentado[facing=east]",
+						"random": 114
+					}
+				]
+			},
+			{
+				"char": "<",
+				"block": "decocraft:happy_halloween[facing=west]",
+				"Description": ""
+			},
+			{
+				"char": "]",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "decocraft:jack_o_lantern_trio[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_2[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_1[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_4[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_3[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:yellowpumpkin[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:bluepumpkin[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:redpumpkin[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:pinkpumpkin[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:pumpkindecor[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_cookery:calabaza[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_zomvie_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_esqueleto[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_esqueleto_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_enderman[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_enderman_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_slime[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_slime_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_pillager[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_pillager_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_warden[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_warden_l[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_dulces[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_zombie[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:clabaza_creeper_nav[facing=west]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper_nav_l[facing=west]",
+						"random": 114.0
+					}
+				]
+			},
+			{
+				"char": "^",
+				"block": "moa_decor_art:maniqui[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "O",
+				"block": "decocraft:closet_2_white[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "[",
+				"block": "decocraft:cash_register[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "7",
+				"block": "decocraft:balloons_halloween[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "r",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "decocraft:jack_o_lantern_trio[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_2[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_1[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_4[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "decocraft:jack_o_lantern_3[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:yellowpumpkin[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:bluepumpkin[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:redpumpkin[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:pinkpumpkin[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "magic_vibe_decorations:pumpkindecor[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_cookery:calabaza[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_zomvie_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_esqueleto[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_esqueleto_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_enderman[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_enderman_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_slime[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_slime_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_pillager[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_pillager_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_warden[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_warden_l[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_dulces[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_zombie[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:clabaza_creeper_nav[facing=south]",
+						"random": 4.0
+					},
+					{
+						"block": "moa_decor_holidays:calabaza_creeper_nav_l[facing=south]",
+						"random": 114.0
+					}
+				]
+			},
+			{
+				"char": "U",
+				"Description": "",
+				"blocks": [
+					{
+						"block": "moa_decor_holidays:fantasma[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:zombiesaliendotierra[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:mariachiguitarra[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:mariachitrompeta[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:mariachiviolin[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:catrinaroja[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:catrinamorada[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:catrinacian[facing=west]",
+						"random": 14
+					},
+					{
+						"block": "moa_decor_holidays:esqueletosentado[facing=west]",
+						"random": 114
+					}
+				]
+			},
+			{
+				"char": "6",
+				"block": "tfb2:costume_shop_mannequin_placeholder",
+				"Description": ""
+			},
+			{
+				"char": "E",
+				"block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_glow_counter[facing=east]",
+				"Description": ""
+			},
+			{
+				"char": "3",
+				"block": "decocraft:clothes_rack_4[facing=south]",
+				"Description": ""
+			},
+			{
+				"char": "&",
+				"block": "buildersdelight:glass_5",
+				"Description": ""
+			},
+			{
+				"char": "H",
+				"block": "everycomp:mcfur/luphieclutteredmod/stripped_luphie_glow_counter[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "5",
+				"block": "decocraft:balloons_halloween[facing=north]",
+				"Description": ""
+			},
+			{
+				"char": "0",
+				"block": "decocraft:balloons_halloween[facing=south]",
+				"Description": ""
+			}
+		]
+	},
+	"slices": [
+		[
+			"#$$#$$#$$#$$#$$#",
+			"$2#############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"###############$",
+			"$##############$",
+			"$##############$",
+			"###############$",
+			"$##############$",
+			"$##############$",
+			"################",
+			"$##############$",
+			"$##############$",
+			"#$$#$$$$$$$$#$$#"
+		],
+		[
+			"################",
+			"#      rrrrrs#$#",
+			"#    E      s#$#",
+			"#HHHHH      s#$#",
+			"#N       O  s#$#",
+			"#N      P   s###",
+			"#N   UV        0",
+			"#N   UV 3       ",
+			"#N   UV         ",
+			"#N   UV 3      5",
+			"##➝          ➣##",
+			"#$#➝        ➣#$#",
+			"#$$#➝      ➣#$$#",
+			"#$$$#➝    ➣#$$$#",
+			"#$$$$#    #$$$$#",
+			"######7  5######"
+		],
+		[
+			"################",
+			"#           8# #",
+			"#           8#➞&",
+			"# ₫ ₫       8# &",
+			"#           8#➞&",
+			"#           8###",
+			"#               ",
+			"#               ",
+			"#               ",
+			"#               ",
+			"##            ##",
+			"# #          # &",
+			"&]➡#        #➟{&",
+			"&] ➡#      #➟ {&",
+			"# rr #    # rr #",
+			"##&&&#    #&&&##"
+		],
+		[
+			"################",
+			"#||||||||||||# #",
+			"#            # &",
+			"#'           # &",
+			"#            # &",
+			"#            ###",
+			"#              <",
+			"#               ",
+			"#              <",
+			"#               ",
+			"##            ##",
+			"# #          # &",
+			"&  #        #  &",
+			"&   #      #   &",
+			"#    #    #    #",
+			"##&&&# > >#&&&##"
+		],
+		[
+			"################",
+			"#fiiiiiiiiiij#j#",
+			"#k          m#m#",
+			"#k          m#m#",
+			"#k  ,  ,  , m#q#",
+			"#k          m###",
+			"#k           ij#",
+			"#k            m#",
+			"#k  ,  ,  ,   m#",
+			"#n            q#",
+			"##n          q##",
+			"#f#n        q#j#",
+			"#k #n      q# m#",
+			"#k  #n    q#  m#",
+			"#nooq#nooq#nooq#",
+			"################"
+		],
+		[
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################",
+			"################"
+		]
+	]
+}
