@@ -1,0 +1,674 @@
+{
+  "name": "Vault Mats In a Pinch",
+  "quests": [
+    {
+      "uuid": "4a5387dd-40ce-460d-8d2d-3eab68ccd96c",
+      "name": {
+        "text": " Mod Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Mod Boxes contain random items from any mod you\u0027ve obtained the Research DLC for.\n    If you don\u0027t have any researched, you will get Knowledge Shards instead.",
+        "isTranslationKey": false
+      },
+      "x": 92,
+      "y": 64,
+      "icon": {
+        "id": "the_vault:mod_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:mod_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "44bdb49a-22fe-4945-9767-ec18f65def93",
+      "name": {
+        "text": " Augment Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Augment boxes contain a random Augment, which you can apply to your Vault Crystal to change the theme.",
+        "isTranslationKey": false
+      },
+      "x": 113,
+      "y": 39,
+      "icon": {
+        "id": "woldsvaults:augment_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:augment_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "174c9ff4-1a8b-4936-a743-2bc8dc2c5233",
+      "name": {
+        "text": " Omega Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The Omega Box contains many high value Vault materials and items.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 64,
+      "icon": {
+        "id": "woldsvaults:omega_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 1000 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_vendor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_bounty",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_card",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_chest",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:omega_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "89f065ea-882b-4293-8c0a-cb175e04deee",
+      "name": {
+        "text": " Catalyst Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Catalyst Boxes contain a random Catalyst you can apply to your Vault Crystal.",
+        "isTranslationKey": false
+      },
+      "x": 92,
+      "y": 39,
+      "icon": {
+        "id": "woldsvaults:catalyst_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_bounty",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:catalyst_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd23b61d-cf11-4a35-ab3a-8e473a6a9158",
+      "name": {
+        "text": " Gem Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The Gem Box contains most every Vault Gem, including Bird/Player Gems and Echo Gems.",
+        "isTranslationKey": false
+      },
+      "x": 113,
+      "y": 64,
+      "icon": {
+        "id": "woldsvaults:gem_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 75 Ferret Dollars",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 75
+            },
+            {
+              "item": {
+                "id": "tfb2:token_card",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:gem_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2dd55773-23fe-4275-9671-1f1168837b58",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 13,
+      "icon": {
+        "id": "tfb2:ferret_dollar",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0a4094a0-2af7-43e5-94f9-3199b2eb5f51"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1dc00859-7669-4ad6-bc09-ed9e6e446f62",
+      "name": {
+        "text": " Budding Crystal",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Budding Crystals can be used to create Raw Vaults, which contain basic materials and components for creating normal Vault Crystals.\n    This is expensive as a last resort, you have a chance of finding these underground in the Overworld.",
+        "isTranslationKey": false
+      },
+      "x": 45,
+      "y": 65,
+      "icon": {
+        "id": "the_vault:crystal_budding",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 7,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:crystal_budding",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bee89d5d-2d3e-4aa3-a751-adb8f7d25f0b",
+      "name": {
+        "text": " Supply Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    An evolved version of the Vaultar Box, this provides both basic Vaultar Factory Crate materials, as well as basic Vault Materials such as Chromatic Iron, Steel, and Black Steel, Vault Essence and Diamonds, and more.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 14,
+      "icon": {
+        "id": "woldsvaults:supply_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 75 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 75
+            },
+            {
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:supply_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d0e8325a-4a77-4997-a035-2b07e17886e1",
+      "name": {
+        "text": " Inscription Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Contains a random Inscription, which can be applied to Vault Crystals to guarantee certain special rooms.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 39,
+      "icon": {
+        "id": "woldsvaults:inscription_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 150 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "tfb2:token_vendor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:inscription_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dba459d5-6a05-4e9d-b931-2301d45c3918",
+      "name": {
+        "text": " Chromatic Iron Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    ",
+        "isTranslationKey": false
+      },
+      "x": 45,
+      "y": 13,
+      "icon": {
+        "id": "the_vault:chromatic_iron_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "    This is fairly expensive for various reasons, but you\u0027re best bet to get some is find either a vein around Y -30 OR an abandoned Vault Portal in the Overworld (Much like abandoned Nether Portals)",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:chromatic_iron_ore",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f9a1a2ca-4871-4b4d-8660-25e56adc34d0",
+      "name": {
+        "text": " Vaultar Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Contains materials used to make Factory Crates for paying for Vault Crystals.\n\n    More easily obtained by running Raw Vaults and searching Hardened Chests.",
+        "isTranslationKey": false
+      },
+      "x": 92,
+      "y": 14,
+      "icon": {
+        "id": "woldsvaults:vaultar_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 25 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:vaultar_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39754f54-919c-4d7d-af5b-b13636cdc27f",
+      "name": {
+        "text": " Altar Recatalyzer",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Altar Recatalyzers can be used on an Altar to re-roll the ingredients. \n\n    You can do this by Sneak + Right Clicking the Recatalyzer on the Altar. ",
+        "isTranslationKey": false
+      },
+      "x": 188,
+      "y": 40,
+      "icon": {
+        "id": "woldsvaults:altar_recatalyzer",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 50 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:altar_recatalyzer",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "    Needing some Vault only materials? \n    We can\u0027t provide most materials outright, but we can grab the various Boxes the FOP have created. (Wonder where they got that idea....)",
+    "isTranslationKey": false
+  }
+}
