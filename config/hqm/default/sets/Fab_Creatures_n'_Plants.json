@@ -4,22 +4,50 @@
     {
       "uuid": "3650c8f5-ccd8-48ee-ad11-a6a7cdf24f97",
       "name": {
-        "text": "Buddycard Enderling",
+        "text": " SPECIES BOOKS - CANINES 1",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    Looking for an enthusiastic youngling willing to trade Buddycards with you? Look no further!\n    This Enderling Trade Beacon will call for an Enderling to show up that is ready to trade. ",
+        "text": "Choose One : \n    Wolf\n    Fox\n    Maned Wolf",
         "isTranslationKey": false
       },
-      "x": 16,
-      "y": 53,
+      "x": 262,
+      "y": 12,
+      "icon": {
+        "id": "tfb2:origins_book_wolf",
+        "Count": 1
+      },
       "repeat": {
         "type": "INSTANT"
       },
       "tasks": [
         {
           "type": "CONSUME",
-          "items": []
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
         }
       ],
       "prerequisites": [
@@ -27,7 +55,348 @@
       ],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_wolf",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_fox",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_maned_wolf",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c24547e-365e-4912-b776-f1ac72e46cc8",
+      "name": {
+        "text": "SPECIES BOOKS - OTHER 1",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Choose One : \n    Red Panda\n    Goat",
+        "isTranslationKey": false
+      },
+      "x": 288,
+      "y": 71,
+      "icon": {
+        "id": "tfb2:origins_book_red_panda",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_red_panda",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_goat",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "052485a5-4f6c-4585-aea8-f8a03937b2f3",
+      "name": {
+        "text": "SPECIES BOOKS - LEPORIDAE",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Choose One : \n    Rabbit\n    Hare",
+        "isTranslationKey": false
+      },
+      "x": 262,
+      "y": 71,
+      "icon": {
+        "id": "tfb2:origins_book_hare",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_rabbit",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_hare",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1518477b-4019-4b79-b99b-1f150d03c986",
+      "name": {
+        "text": "SPECIES BOOKS - FELINES 1",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Choose One : \n    Serval\n    Lynx\n    Ocelot",
+        "isTranslationKey": false
+      },
+      "x": 235,
+      "y": 41,
+      "icon": {
+        "id": "tfb2:origins_book_serval",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_serval",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_lynx",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_ocelot",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27443c32-c0bc-46ae-9059-de10d80e6e49",
+      "name": {
+        "text": " SPECIES BOOK - HUMAN",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Use this book to reset back to default Human / User species.",
+        "isTranslationKey": false
+      },
+      "x": 207,
+      "y": 41,
+      "icon": {
+        "id": "tfb2:origins_book_human",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 1 Ferret Dollar",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tfb2:origins_book_human",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "53cfc2cf-dcee-4022-bc52-fc575bb10234",
+      "name": {
+        "text": "SPECIES BOOKS - DIFFICULT",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "THESE ORIGINS ARE VERY DIFFICULT\n\nChoose One : \n    Synth\n    Elephant",
+        "isTranslationKey": false
+      },
+      "x": 262,
+      "y": 101,
+      "icon": {
+        "id": "tfb2:origins_book_synth",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": " ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_synth",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_elephant",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -42,6 +411,10 @@
       },
       "x": 15,
       "y": 14,
+      "icon": {
+        "id": "tfb2:ferret_dollar",
+        "Count": 1
+      },
       "trigger": "QUEST_TRIGGER",
       "tasks": [
         {
@@ -49,7 +422,7 @@
           "items": [
             {
               "item": {
-                "id": "ftbquests:book",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
               }
             }
@@ -67,81 +440,17 @@
     {
       "uuid": "8fd7bda1-0850-4ac3-9905-6d75f88d530a",
       "name": {
-        "text": " Nethengenic Beast",
+        "text": " SPECIES BOOKS - CANINE 2",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    With the weird Hex layer that the FOP have overlayed on worlds, it\u0027s harder to find certain things, like the Nethengenic Pits these creatures appear in.\n    You\u0027ll need them, though, to progress, so we\u0027ve coded up a spawn egg you can purchase if you have trouble finding the Pits.",
+        "text": "Choose One : \n    Coyote\n    Jackal",
         "isTranslationKey": false
       },
-      "x": 38,
-      "y": 20,
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": []
-        }
-      ],
-      "prerequisites": [
-        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "45e96550-830f-4078-b357-c4268b7c6736",
-      "name": {
-        "text": " Corrupted Traveller",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "    So, you didn\u0027t find a Corrupted Traveller at the ruins of an Ancient Portal. Or, maybe he met an unfortunate accident?\n    Either way, for a small price, Kowa can generate a single spawn Egg containing a Corrupted Traveller. ",
-        "isTranslationKey": false
-      },
-      "x": 15,
-      "y": 20,
-      "repeat": {
-        "type": "TIME",
-        "days": 2,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "longDescription": {
-            "text": "    There is a short cooldown period after purchase. We have to be careful how many we let spawn, lest it alert the FOP Game Security.",
-            "isTranslationKey": true
-          },
-          "items": []
-        }
-      ],
-      "prerequisites": [
-        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "27443c32-c0bc-46ae-9059-de10d80e6e49",
-      "name": {
-        "text": " Husks",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "    To get to Barathos world, you\u0027ll need to find a Husk and defeat it while holding a Blank Realmstone.\n    But with all the creatures that the FOP have added, thats way easier said than done... The deserts are harder to come by, and they are full of all manner of NON HUSK creatures.\n    So, we can code up a spawn egg for one real quick, but....",
-        "isTranslationKey": false
-      },
-      "x": 60,
-      "y": 20,
+      "x": 289,
+      "y": 12,
       "icon": {
-        "id": "minecraft:husk_spawn_egg",
+        "id": "tfb2:origins_book_jackal",
         "Count": 1
       },
       "repeat": {
@@ -149,29 +458,32 @@
       },
       "tasks": [
         {
-          "type": "KILL",
-          "longDescription": {
-            "text": "    You\u0027ll need to kill a few zombies first so I can alter the data a bit...Husks are just special versions of Zombies after all.",
-            "isTranslationKey": true
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
           },
-          "mobs": [
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
             {
-              "name": {
-                "text": "Zombies",
-                "isTranslationKey": false
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
               },
-              "mob": "minecraft:zombie",
-              "kills": 5
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
             }
           ]
-        },
-        {
-          "type": "CONSUME",
-          "longDescription": {
-            "text": "    Then the payment so we can get some more of the Audubon Worm integrated into the system.",
-            "isTranslationKey": true
-          },
-          "items": []
         }
       ],
       "prerequisites": [
@@ -179,9 +491,294 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_jackal",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_coyote",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "45e96550-830f-4078-b357-c4268b7c6736",
+      "name": {
+        "text": " SPECIES BOOKS - MUSTELIDS",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "CHOOSE ONE : \n    Ferret\n    Badger",
+        "isTranslationKey": false
+      },
+      "x": 235,
+      "y": 12,
+      "icon": {
+        "id": "tfb2:origins_book_ferret",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_ferret",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_badger",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f01ff2e9-840a-4f6b-84d2-8a5bcf07e8ef",
+      "name": {
+        "text": "SPECIES BOOKS - FLIGHT",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Choose One : \n    Megabat\n    Parrot",
+        "isTranslationKey": false
+      },
+      "x": 289,
+      "y": 41,
+      "icon": {
+        "id": "tfb2:origins_book_megabat",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_megabat",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_parrot",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "11ff3034-2889-449c-ae72-68d85b7c5271",
+      "name": {
+        "text": "SPECIES BOOKS - RODENTS",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Choose One : \n    Mouse\n    Rat\n    Jerboa",
+        "isTranslationKey": false
+      },
+      "x": 235,
+      "y": 71,
+      "icon": {
+        "id": "tfb2:origins_book_mouse",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_mouse",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_rat",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_jerboa",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9deed03c-aac5-4886-bc9d-f41da3b275fd",
+      "name": {
+        "text": " SPECIES BOOKS - FELINE 2",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Choose One : \n    Tiger\n    Lion\n    Snow Leopard",
+        "isTranslationKey": false
+      },
+      "x": 262,
+      "y": 41,
+      "icon": {
+        "id": "tfb2:origins_book_tiger",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "     Since this is bypassing a single-use DLC, we\u0027ll need some Glitched Blocks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 15,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "925e8064-e2d1-4f7c-894b-4333f32e72f0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "tfb2:origins_book_tiger",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_lion",
+          "Count": 1
+        },
+        {
+          "id": "tfb2:origins_book_snow_leopard",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     }
   ],
-  "reputationBar": []
+  "reputationBar": [],
+  "description": {
+    "text": "    This section is for purchasing all creature and plant related offerings, including Origin species changes.",
+    "isTranslationKey": false
+  }
 }
