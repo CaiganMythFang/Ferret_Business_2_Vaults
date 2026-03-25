@@ -115,11 +115,11 @@
 			description: [
 				"&7Huh, I'm vaguely remembering one of the first systems they had for the FOPGame Server...remember that?"
 				""
-				"&dOh right, the one they got when they 'acquired' the old SBURB active worlds. It probably got wiped ages ago when they got the Vault Hunters system online. You and I played it some and tried to crack it. How come, squeaks?"
+				"&dOh right, back when they had that infinite mall thing, right? The systems they got when they 'acquired' the old SBURB active worlds. It probably got wiped ages ago when they got the Vault Hunters system online. You and I played it some and tried to crack it. How come, squeaks?"
 				""
-				"&7Well, I used one of those old tools we coded up and well... I think I found a glitched item from a hole I poked. See, this data card?"
+				"&7Well, I used one of those old tools we coded up and well... I think I found a glitched item from a hole I poked. See?"
 				""
-				"&dWait. Wait a minute, you mean they just... left in that old code? That's... really important. Bandit, I'll split this off into its own section. Come check out the \"Stuck in the SBURB\" section. Squeaks, yer up."
+				"&dWait. Wait a minute, you mean they just... left in that old code? That's... really important. Bandit, I'll split this off into its own section. Come check out the \"BREAKING IN\" quest section. Squeaks, yer up."
 				""
 				"&7I'll take it from here, boss. Let's go Bandit, time to break some things."
 			]
@@ -1431,6 +1431,7 @@
 				"    FAST (2x)"
 				"    EXTREME (3x)"
 			]
+			dependencies: ["4CA0844372B19F19"]
 			hide: true
 			id: "764F54B79B1BF398"
 			tasks: [{
@@ -1458,6 +1459,7 @@
 				"    LOWEST (Match lowest XP gained)"
 				"    DISABLED (No share. Default)"
 			]
+			dependencies: ["4CA0844372B19F19"]
 			hide: true
 			id: "3F712FB40BA886FA"
 			tasks: [{
@@ -1479,72 +1481,12 @@
 				""
 				"&6 /gamerule vaultLevelLock ##:&r Replace ## with the max level you want."
 			]
+			dependencies: ["4CA0844372B19F19"]
 			hide: true
 			id: "7BC6D74577BF0A53"
 			tasks: [{
 				id: "01DCBD05B7AE7989"
 				type: "checkmark"
-			}]
-		}
-		{
-			title: "Common As Wood"
-			x: 1.75d
-			y: 10.0d
-			shape: "rsquare"
-			subtitle: "Knock On"
-			description: [
-				"&5Wooden Chests will be the most common chest you find in the Vaults."
-				""
-				"&5They'll also contain some of your most common crafting resources."
-			]
-			hide_dependency_lines: true
-			hide: true
-			id: "6BE2AA86ACF05BE5"
-			tasks: [{
-				id: "57742EDFE89EE458"
-				type: "observation"
-				title: "Find a Wooden Chest"
-				icon: "the_vault:wooden_chest"
-				timer: 0L
-				observe_type: 0
-				to_observe: "the_vault:wooden_chest"
-			}]
-			rewards: [{
-				id: "2C067AC5D11820B5"
-				type: "item"
-				item: "the_vault:bounty_pearl"
-				count: 8
-			}]
-		}
-		{
-			title: "A Live Chest"
-			icon: "the_vault:living_chest"
-			x: 3.75d
-			y: 10.0d
-			shape: "rsquare"
-			subtitle: "Alive? Live? Life? Squishy!"
-			description: [
-				"&5Living Chests tend to contain a variety of things related to knowledge and research. "
-				""
-				"&5Oh, and food!"
-			]
-			hide_dependency_lines: true
-			hide: true
-			id: "2467EC9E7914643D"
-			tasks: [{
-				id: "5AF05FE9F8C79D03"
-				type: "observation"
-				title: "Find a Living Chest"
-				icon: "sophisticatedstorage:living_chest"
-				timer: 0L
-				observe_type: 0
-				to_observe: "the_vault:living_chest"
-			}]
-			rewards: [{
-				id: "4573B91CCF0CA13B"
-				type: "item"
-				item: "the_vault:burger_patty"
-				count: 4
 			}]
 		}
 		{
@@ -1574,102 +1516,6 @@
 				id: "249981EB6C1BD2F9"
 				type: "item"
 				item: "the_vault:vault_silver"
-			}]
-		}
-		{
-			title: "Pieces of the Soul"
-			icon: "the_vault:soul_shard"
-			x: 5.5d
-			y: 10.75d
-			shape: "rsquare"
-			subtitle: "Fighting Spirit"
-			description: [
-				"&5See that purple crystal looking thing you just got? Not the Elixir orb, that other thing. That's a Soul Shard."
-				""
-				"&5You get them from defeating enemies in the Vault. It's sort of... a piece of their fighting spirit. A reward for defeating them, basically."
-				""
-				"&5You'll want to collect as many of these as you can, they are very useful. You'll get a way to store them later, but for now treat it like any other piece of loot."
-				""
-				"&5Consider it Yet Another Form of Currency."
-			]
-			hide_dependency_lines: true
-			hide: true
-			id: "0CF5C0BE2773283D"
-			tasks: [{
-				id: "79D641D8F8517A16"
-				type: "item"
-				item: "the_vault:soul_shard"
-			}]
-			rewards: [{
-				id: "0C65E38FC45A77FE"
-				type: "item"
-				item: "the_vault:soul_shard"
-				count: 16
-			}]
-		}
-		{
-			title: "Ornately Equipped"
-			icon: "the_vault:ornate_chest"
-			x: 7.25d
-			y: 10.0d
-			shape: "rsquare"
-			subtitle: "Get Power"
-			description: [
-				"&5Ornate Chests usually contain things related to Vault Gear."
-				""
-				"&5Vault Weapons, Vault Armor... But not ALL Vault Gear..."
-				""
-				"&5Also lots of your Focuses and things related to re-rolling and customizing your Vault Gear."
-			]
-			hide_dependency_lines: true
-			hide: true
-			id: "4BB8FF8F2C8D607A"
-			tasks: [{
-				id: "7B6D076133B48161"
-				type: "observation"
-				title: "Find an Ornate Chest"
-				icon: "sophisticatedstorage:ornate_chest"
-				timer: 0L
-				observe_type: 0
-				to_observe: "the_vault:ornate_chest"
-			}]
-			rewards: [{
-				id: "56ECDFD6247DEF7D"
-				type: "item"
-				item: "the_vault:wild_focus"
-				count: 4
-			}]
-		}
-		{
-			title: "A Touch of Gilding"
-			x: 9.25d
-			y: 10.0d
-			shape: "rsquare"
-			subtitle: "Sparkling Loot"
-			description: [
-				"&5Gilded Chests contain sparkling and luxurious loot."
-				""
-				"&5It used to just be Vault Diamonds and Jewels, but luxury loot now includes Vault Plushies and Vault Sacks, but only after level 50."
-				""
-				"&5These will be your main source of Jewels for Vault Tools, and many non-low level crafts require Vault Diamonds."
-			]
-			hide_dependency_lines: true
-			hide: true
-			id: "787D1991716F0A38"
-			tasks: [{
-				id: "6CCDB8CC65B18408"
-				type: "observation"
-				title: "Find a Gilded Chest"
-				icon: "the_vault:gilded_chest"
-				timer: 0L
-				observe_type: 0
-				to_observe: "the_vault:gilded_chest"
-			}]
-			rewards: [{
-				id: "6A7FD693910038A3"
-				type: "item"
-				item: "the_vault:vault_diamond"
-				count: 2
 			}]
 		}
 	]
