@@ -390,6 +390,59 @@
       "commandrewards": []
     },
     {
+      "uuid": "d5a567b9-ce9b-481a-aa85-9fd1c72d178c",
+      "name": {
+        "text": " Cruxite Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 228,
+      "y": 127,
+      "icon": {
+        "id": "minestuck:stone_cruxite_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "    This seems a bit much for a single ore, but it\u0027s something the FOP have tried to remove from their system completely, so its just a bit hard to safely obtain on our side.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minestuck:stone_cruxite_ore",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c362f464-4fd6-42e5-a26f-d6096b55e36f",
       "name": {
         "text": " Manganese Ore",
@@ -461,6 +514,10 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 4 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1030,6 +1087,59 @@
         {
           "id": "mekanism:osmium_ore",
           "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "77c9dca0-c079-44b0-a47a-1382032c79a8",
+      "name": {
+        "text": "Uranium Ore",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 255,
+      "y": 127,
+      "icon": {
+        "id": "minestuck:stone_uranium_ore",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "    This seems a bit much for a single ore, but it\u0027s something the FOP have tried to remove from their system completely, so its just a bit hard to safely obtain on our side.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5af9d09c-d028-4e2a-9a28-1f2ad4028a85"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minestuck:stone_uranium_ore",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
