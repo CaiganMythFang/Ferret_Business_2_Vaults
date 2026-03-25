@@ -8,8 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Buddycards Access"
-			icon: "kubejs:unlock_buddycards"
+			title: "Cosmetic DLC"
 			x: -0.75d
 			y: -1.0d
 			description: [
@@ -24,56 +23,56 @@
 			dependencies: ["0B8CCC44B66134C8"]
 			id: "436BF4CF645FB5F5"
 			tasks: [{
-				id: "40483F7FD08DD830"
-				type: "item"
-				item: "aoa3:copper_coin"
-				count: 100L
-				consume_items: true
+				id: "0AFB12170BD65625"
+				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "6A89AEFEE6882633"
-					type: "item"
-					item: "kubejs:unlock_buddycards"
-				}
-				{
-					id: "3BCCD5B2F584D9A6"
-					type: "item"
-					item: "buddycards:pack.1"
-				}
-				{
-					id: "243399294B5E9ED7"
-					type: "command"
-					command: "/ftbquests change_progress @p complete 7A2ECEB50D45D1B7"
-				}
-			]
 		}
 		{
-			icon: "buddycards:mystery_pack"
-			x: -0.75d
-			y: 0.0d
-			description: [
-				"&2A special offer for new Buddycard trainees!"
-				""
-				"&2For a single Lunaver Scrypto, you can boost your collection with a box of Mystery Boosters! These can contain cards from ANY set, and can be any Grade, including the mystical S grade!"
-				""
-				"&2Keep in mind, normally you can only find boosters in the various dungeons, keeps, and other such eventful structures scattered around the Game Server!"
-				""
-				"&2Don't hesitate, this offer will not last forever!"
-				""
-				"&2(NOTE: Only one Mystery Box per User or Power User. Restrictions apply. No refunds)"
-			]
+			x: -3.0d
+			y: 0.75d
+			subtitle: "Cosmetic Armors"
 			dependencies: ["436BF4CF645FB5F5"]
-			id: "5AE3E589372C5FDA"
+			id: "311AC64B736CEE6F"
 			tasks: [{
-				id: "74DA6FDB7E600C3F"
+				id: "0C225E4C0AA0F6DF"
 				type: "item"
-				item: "aoa3:lunaver_coin"
+				item: {
+					id: "cosmeticarmoursmod:crown_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
-			rewards: [{
-				id: "0C6F8F43AF8550EF"
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Kacy's Cosmetics"
+			dependencies: ["436BF4CF645FB5F5"]
+			id: "4255F7C6AF9F2221"
+			tasks: [{
+				id: "0ACFF5EECABFECD1"
 				type: "item"
-				item: "buddycards:booster_box_mystery"
+				item: "kacys_cosmetics:orange_butterfly_helmet"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -2.0d
+			subtitle: "Weaver's Cosmetics (@weavers_cosmetics)"
+			dependencies: ["436BF4CF645FB5F5"]
+			id: "545E7DECBE2B0812"
+			tasks: [{
+				id: "2AB591C266B0E0AC"
+				type: "item"
+				item: {
+					id: "weavers_cosmetics:wolf_armour_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
