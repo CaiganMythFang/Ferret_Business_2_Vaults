@@ -1,0 +1,162 @@
+{
+	id: "59567E1A967590E7"
+	group: "3D9833D074B7B745"
+	order_index: 1
+	filename: "liminal_shopping"
+	title: "[?] Mall Rats"
+	subtitle: ["A Liminal Excursion For Lost Deco"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Catch a Ride to the Mall"
+			x: -0.75d
+			y: -0.25d
+			shape: "hexagon"
+			subtitle: "Lost Cities"
+			dependencies: ["45D2E30FD73E062E"]
+			id: "16A325B14A4EBB16"
+			tasks: [{
+				id: "170CF9897ABB0633"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -0.25d
+			shape: "rsquare"
+			subtitle: "A Man With Plushies"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "6CA2C4DAAEE5FC00"
+			tasks: [{
+				id: "092FF0D2DD8D491D"
+				type: "item"
+				item: "a_man_with_plushies:peashooter_plush"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 2.5d
+			subtitle: "Decocraft"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "7D1367BDA36C4915"
+			tasks: [{
+				id: "76B543ECE2B049F0"
+				type: "item"
+				item: "decocraft:dpop_benlikessharks_124"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 2.25d
+			subtitle: "Gaming Deco"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "44B03FC808C80884"
+			tasks: [{
+				id: "4F5420AAFE7FA077"
+				type: "item"
+				item: "gamingdeco:gaming_pc_1_off"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -0.25d
+			subtitle: "Literal Sky Block"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "02D393961ED5F35D"
+			tasks: [{
+				id: "2334714FCA1A5C5D"
+				type: "item"
+				item: "literalskyblock:sky_block"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -2.5d
+			subtitle: "MOA Decor"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "2D7F3E141490284F"
+			tasks: [{
+				id: "61DE0FF5B4296164"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -4.25d
+			subtitle: "MOA Decor: Holidays"
+			dependencies: ["2D7F3E141490284F"]
+			id: "5729104C71BFDDEA"
+			tasks: [{
+				id: "55869747AC4E0319"
+				type: "item"
+				item: "moa_decor_holidays:clabaza_creeper_nav"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -3.75d
+			subtitle: "MOA Decor: Science"
+			dependencies: ["2D7F3E141490284F"]
+			id: "710AFFDB501D74EF"
+			tasks: [{
+				id: "67EE417349EFCF13"
+				type: "item"
+				item: "moa_decor_science:tuboensayoverdelima"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -2.5d
+			subtitle: "MOA Decor : Art"
+			dependencies: ["2D7F3E141490284F"]
+			id: "0CDB32B3C2EF4C3C"
+			tasks: [{
+				id: "1A156B02CA9B056B"
+				type: "item"
+				item: "moa_decor_art:planocheestrellada"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -3.75d
+			subtitle: "MOA Decor: Cookery"
+			dependencies: ["2D7F3E141490284F"]
+			id: "33D2B13FD7D10C8C"
+			tasks: [{
+				id: "490816897193704D"
+				type: "item"
+				item: "moa_decor_cookery:cafetera"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -2.25d
+			subtitle: "Mannequins"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "3C45BDE9A39CC61C"
+			tasks: [{
+				id: "73D65756B3317C34"
+				type: "item"
+				item: "mannequins:mannequin"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 1.25d
+			subtitle: "Vending Machine (@vm)"
+			dependencies: ["16A325B14A4EBB16"]
+			id: "486D2B22E6123050"
+			tasks: [{
+				id: "348F63CFADAAFE9F"
+				type: "observation"
+				title: "Find a Vending Machine"
+				icon: "vm:vending_machine"
+				timer: 0L
+				observe_type: 0
+				to_observe: "vm:vending_machine"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
