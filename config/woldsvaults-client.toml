@@ -4,4 +4,11 @@ showVanillaVaultMap = false
 playVaultMusic = false
 #Whether to enable Better Combat or not (default: false)
 weaponsShouldntBeBetter = false
+#Whether to hide Xaero's Minimap while in Vaults.
+hideXaerosMinimapInVaults = false
+
+["Mining Speedometer"]
+	#The Output Format for the speedometer jade tooltip
+	#Allowed Values: TOTAL_MINING_SPEED_WITHBASE, TOTAL_MINING_SPEED_WITHOUTBASE, ADDITIONAL_MINING_SPEED, NEXT_MINING_SPEED_BREAKPOINT
+	"Jade Output Format" = "NEXT_MINING_SPEED_BREAKPOINT"
 
