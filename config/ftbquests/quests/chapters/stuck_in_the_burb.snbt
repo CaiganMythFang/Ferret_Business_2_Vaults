@@ -1,11 +1,11 @@
 {
 	id: "69D15C436DD334DC"
-	group: "1A78C6EA3A0ABFDA"
-	order_index: 1
+	group: "3D9833D074B7B745"
+	order_index: 0
 	filename: "stuck_in_the_burb"
 	title: "[?] Stuck in the BURB"
 	icon: "minestuck:scalemate_applescab"
-	subtitle: ["MOD : Minestuck"]
+	subtitle: ["Byte's Daunting Quests of Alchemical Frivolity and Game Breaking Japery"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -24,6 +24,7 @@
 				""
 				"&7You may or may not have found some of this blue... material, out when searching for Chromatic Iron. It's called Cruxite, and it's where we'll start."
 			]
+			dependencies: ["45D2E30FD73E062E"]
 			id: "2019F6F56C5A7D4B"
 			tasks: [{
 				id: "387B7D9AC801F060"
@@ -627,8 +628,8 @@
 		}
 		{
 			title: "The Grist of the Matter"
-			x: -7.678571428571416d
-			y: -3.3035714285714377d
+			x: -8.285714285714285d
+			y: -3.3035714285714306d
 			shape: "rsquare"
 			description: [
 				"&7So, originally in Minestuck your main way of obtaining Grist was by fighting creatures called Imps and Glicops. They'd match a type of Grist, and killing them would get you that Grist. "
@@ -5089,6 +5090,31 @@
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Death of the Sylladex"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -6.964285714285715d
+			y: -3.232142857142854d
+			shape: "gear"
+			description: [
+				"&4&lAN IMPORTANT NOTE, BANDIT"
+				""
+				"&4&lBe careful what you put into your Sylladex!"
+				""
+				"&4&lWhen you die, anything stored in your Sylladex will instantly drop. The current FOP Game Server doesn't register it as part of your inventory."
+				""
+				"&4&lThis isn't a problem when in the Overworld, but when you are in a Vault, those items become unrecoverable! Even if you purchase your body back!"
+				""
+				"&4&lSo you COULD use your Sylladex as extra storage during a Vault run, but you risk losing it when you die!"
+			]
+			dependencies: ["55A4B37D7392342A"]
+			size: 1.25d
+			id: "512EE666941165EA"
+			tasks: [{
+				id: "187BDE841B646B9D"
+				type: "checkmark"
 			}]
 		}
 	]
