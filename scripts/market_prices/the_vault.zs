@@ -6,9 +6,6 @@ import stdlib.List;
 import mods.projecte.CustomEMC;
 import mods.projecte.NSSResolver;
 
-// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
-var release_mode = false;
-
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
     <item:the_vault:god_token> : 5500,
@@ -43,7 +40,9 @@ val priceTable as int[IItemStack] = {
     <item:the_vault:burger_sauce> : 500,
     <item:the_vault:capstone_peaceful> : 5750,
     <item:the_vault:capstone_treasure_hunter> : 10400,
+    <item:the_vault:capstone_companion_hunt> : 10400,
     <item:the_vault:card_essence_extractor> : 6300,
+    <item:the_vault:card_essence_extractor> : 40750,
     <item:the_vault:crispy_deluxe_cheese_burger> : 825,
     <item:the_vault:cryonic_focus> : 8750,
     <item:the_vault:crystal_seal_architect> : 10825,
@@ -95,7 +94,7 @@ val priceTable as int[IItemStack] = {
     <item:the_vault:antique_collector_book> : 7025,
     <item:the_vault:black_chromatic_steel_ingot> : 4550,
     <item:the_vault:black_chromatic_steel_nugget> : 500,
-    <item:the_vault:block_gem_echo> : 56000,
+    <item:the_vault:block_gem_echo> : 450,
     <item:the_vault:burger_cheese> : 125,
     <item:the_vault:burger_lettuce> : 350,
     <item:the_vault:burger_tomato> : 250,
@@ -183,7 +182,7 @@ val priceTable as int[IItemStack] = {
     <item:the_vault:trinket_forge> : 6075,
     <item:the_vault:trinket_scrap> : 2000,
     <item:the_vault:unique_crate> : 9575,
-    <item:the_vault:unique_crate_scroll> : 7000,
+    <item:the_vault:unique_crate_scroll> : 2000,
     <item:the_vault:vault_alloy> : 5550,
     <item:the_vault:vault_anvil> : 25525,
     <item:the_vault:vault_artisan_station> : 14275,
@@ -232,21 +231,23 @@ val priceTable as int[IItemStack] = {
     <item:the_vault:banished_soul> : 875,
     <item:the_vault:battlestaff> : 2000,
     <item:the_vault:black_market> : 1525,
-    <item:the_vault:block_gem_alexandrite> : 1440,
-    <item:the_vault:block_gem_ashium> : 8000,
-    <item:the_vault:block_gem_benitoite> : 400,
-    <item:the_vault:block_gem_black_opal> : 4800,
-    <item:the_vault:block_gem_bomignite> : 8000,
-    <item:the_vault:block_gem_gorginite> : 8000,
-    <item:the_vault:block_gem_iskallium> : 8000,
-    <item:the_vault:block_gem_larimar> : 150,
-    <item:the_vault:block_gem_painite> : 3600,
-    <item:the_vault:block_gem_petzanite> : 8000,
-    <item:the_vault:block_gem_sparkletine> : 8000,
-    <item:the_vault:block_gem_tubium> : 8000,
-    <item:the_vault:block_gem_upaline> : 8000,
+    <item:the_vault:block_gem_alexandrite> : 10,
+    <item:the_vault:block_gem_ashium> : 75,
+    <item:the_vault:block_gem_benitoite> : 10,
+    <item:the_vault:block_gem_black_opal> : 50,
+    <item:the_vault:block_gem_bomignite> : 75,
+    <item:the_vault:block_gem_gorginite> : 75,
+    <item:the_vault:block_gem_iskallium> : 75,
+    <item:the_vault:block_gem_larimar> : 5,
+    <item:the_vault:block_gem_painite> : 25,
+    <item:the_vault:block_gem_petzanite> : 75,
+    <item:the_vault:block_gem_pog> : 575,
+    <item:the_vault:block_gem_puffium> : 75,
+    <item:the_vault:block_gem_sparkletine> : 75,
+    <item:the_vault:block_gem_tubium> : 75,
+    <item:the_vault:block_gem_upaline> : 75,
     <item:the_vault:block_gem_wutodie> : 2875,
-    <item:the_vault:block_gem_xenium> : 8000,
+    <item:the_vault:block_gem_xenium> : 75,
     <item:the_vault:blue_puzzle_concrete> : 250,
     <item:the_vault:boots> : 2000,
     <item:the_vault:bounty_block> : 1975,
@@ -591,7 +592,7 @@ val priceTable as int[IItemStack] = {
 
 // For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
 for item, value in priceTable {
-    if (release_mode == true){
+    if (ReleaseMode.releaseMode == true){
         if (value < 26 ) {
             CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
             <tag:items:projectextended:blacklist_condenser>.add(item);

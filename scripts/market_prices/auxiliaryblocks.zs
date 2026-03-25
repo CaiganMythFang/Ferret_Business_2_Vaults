@@ -6,9 +6,6 @@ import stdlib.List;
 import mods.projecte.CustomEMC;
 import mods.projecte.NSSResolver;
 
-// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
-var release_mode = false;
-
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
     <item:auxiliaryblocks:asphalt> : 1,

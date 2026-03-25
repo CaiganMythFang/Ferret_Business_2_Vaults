@@ -6,23 +6,21 @@ import stdlib.List;
 import mods.projecte.CustomEMC;
 import mods.projecte.NSSResolver;
 
-// This variable controls whether we are in the pack dev mode or release mode. In Pack Dev mode, all EMC/FMC values are enabled to help calculate EMC/FMC for other mods.
-var release_mode = false;
-
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
     <item:sophisticatedstorage:diffuser_upgrade_advanced> : 332150,
     <item:sophisticatedstorage:recycler_upgrade_advanced> : 196850,
     <item:sophisticatedstorage:diffuser_upgrade> : 139300,
     <item:sophisticatedstorage:recycler_upgrade> : 166750,
-    <item:sophisticatedstorage:treasure_chest> : 139050,
+    <item:sophisticatedstorage:treasure_chest> : 26520,
     <item:sophisticatedstorage:advanced_compacting_upgrade> : 11900,
-    <item:sophisticatedstorage:altar_chest> : 23150,
+    <item:sophisticatedstorage:altar_chest> : 21525,
+    <item:sophisticatedstorage:unique_crate> : 31750,
     <item:sophisticatedstorage:basic_to_netherite_tier_upgrade> : 22875,
     <item:sophisticatedstorage:controller> : 43000,
     <item:sophisticatedstorage:diamond_to_netherite_tier_upgrade> : 18700,
-    <item:sophisticatedstorage:gilded_chest> : 39900,
-    <item:sophisticatedstorage:gilded_strongbox> : 77800,
+    <item:sophisticatedstorage:gilded_chest> : 19725,
+    <item:sophisticatedstorage:gilded_strongbox> : 21825,
     <item:sophisticatedstorage:gold_to_netherite_tier_upgrade> : 19500,
     <item:sophisticatedstorage:iron_to_netherite_tier_upgrade> : 22450,
     <item:sophisticatedstorage:limited_netherite_barrel_1> : 22850,
@@ -32,7 +30,7 @@ val priceTable as int[IItemStack] = {
     <item:sophisticatedstorage:limited_netherite_barrel_4> : 22850,
     <item:sophisticatedstorage:netherite_chest> : 22850,
     <item:sophisticatedstorage:netherite_shulker_box> : 22900,
-    <item:sophisticatedstorage:ornate_strongbox> : 18000,
+    <item:sophisticatedstorage:ornate_strongbox> : 21825,
     <item:sophisticatedstorage:advanced_feeding_upgrade> : 10950,
     <item:sophisticatedstorage:advanced_filter_upgrade> : 1950,
     <item:sophisticatedstorage:advanced_hopper_upgrade> : 4125,
@@ -58,7 +56,7 @@ val priceTable as int[IItemStack] = {
     <item:sophisticatedstorage:diamond_shulker_box> : 4200,
     <item:sophisticatedstorage:drop_upgrade> : 875,
     <item:sophisticatedstorage:drop_upgrade_advanced> : 2100,
-    <item:sophisticatedstorage:enigma_chest> : 28575,
+    <item:sophisticatedstorage:enigma_chest> : 21450,
     <item:sophisticatedstorage:feeding_upgrade> : 8275,
     <item:sophisticatedstorage:filter_upgrade> : 1175,
     <item:sophisticatedstorage:flesh_chest> : 9050,
@@ -66,7 +64,7 @@ val priceTable as int[IItemStack] = {
     <item:sophisticatedstorage:gold_chest> : 3350,
     <item:sophisticatedstorage:gold_shulker_box> : 3400,
     <item:sophisticatedstorage:gold_to_diamond_tier_upgrade> : 800,
-    <item:sophisticatedstorage:hardened_chest> : 2900,
+    <item:sophisticatedstorage:hardened_chest> : 2450,
     <item:sophisticatedstorage:hopper_upgrade> : 3600,
     <item:sophisticatedstorage:identification_upgrade> : 6875,
     <item:sophisticatedstorage:iron_barrel> : 400,
@@ -87,10 +85,10 @@ val priceTable as int[IItemStack] = {
     <item:sophisticatedstorage:limited_iron_barrel_2> : 400,
     <item:sophisticatedstorage:limited_iron_barrel_3> : 400,
     <item:sophisticatedstorage:limited_iron_barrel_4> : 400,
-    <item:sophisticatedstorage:living_chest> : 5600,
-    <item:sophisticatedstorage:living_strongbox> : 9200,
+    <item:sophisticatedstorage:living_chest> : 19725,
+    <item:sophisticatedstorage:living_strongbox> : 21825,
     <item:sophisticatedstorage:magnet_upgrade> : 2350,
-    <item:sophisticatedstorage:ornate_chest> : 10000,
+    <item:sophisticatedstorage:ornate_chest> : 19725,
     <item:sophisticatedstorage:pickup_upgrade> : 1100,
     <item:sophisticatedstorage:smelting_upgrade> : 1250,
     <item:sophisticatedstorage:smoking_upgrade> : 1250,
@@ -120,7 +118,7 @@ val priceTable as int[IItemStack] = {
 
 // For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
 for item, value in priceTable {
-    if (release_mode == true){
+    if (ReleaseMode.releaseMode == true){
         if (value < 26 ) {
             CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
             <tag:items:projectextended:blacklist_condenser>.add(item);
