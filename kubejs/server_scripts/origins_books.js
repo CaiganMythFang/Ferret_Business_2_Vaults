@@ -137,3 +137,113 @@ onEvent('item.right_click', event => {
 	event.player.tell(Text.lightPurple("You have set your species to : Jerboa!"));
   }
 });
+
+// Ferret
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_ferret') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:ferret');
+	event.player.tell(Text.lightPurple("You have set your species to : Ferret!"));
+  }
+});
+
+// Goat
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_goat') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:goat');
+	event.player.tell(Text.lightPurple("You have set your species to : Goat!"));
+  }
+});
+
+// Elephant
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_elephant') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:elephant');
+	event.player.tell(Text.lightPurple("You have set your species to : Elephant!"));
+  }
+});
+
+// Parrot
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_parrot') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:parrot');
+	event.player.tell(Text.lightPurple("You have set your species to : Elephant!"));
+  }
+});
+
+// Red Panda
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_red_panda') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:red_panda');
+	event.player.tell(Text.lightPurple("You have set your species to : Red Panda!"));
+  }
+});
+
+// Red Panda
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_megabat') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:megabat');
+	event.player.tell(Text.lightPurple("You have set your species to : Megabat!"));
+  }
+});
+
+// Rabbit
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_rabbit') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:rabbit');
+	event.player.tell(Text.lightPurple("You have set your species to : Rabbit!"));
+  }
+});
+
+// Synth
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_synth') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:synth');
+	event.player.tell(Text.lightPurple("You have set your species to : Synth!"));
+  }
+});
+
+// Synth
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_hare') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:hare');
+	event.player.tell(Text.lightPurple("You have set your species to : Hare!"));
+  }
+});
+
+// Badger
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_badger') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:badger');
+	event.player.tell(Text.lightPurple("You have set your species to : Badger!"));
+  }
+});
+
+// Human
+onEvent('item.right_click', event => {
+	
+  if (event.item.id == 'tfb2:origins_book_human') {
+	  
+	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin tfb2:human');
+	event.player.tell(Text.lightPurple("You have set your species to : Human!"));
+  }
+});
