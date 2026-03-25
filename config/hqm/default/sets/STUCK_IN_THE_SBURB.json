@@ -2,6 +2,63 @@
   "name": "STUCK IN THE SBURB",
   "quests": [
     {
+      "uuid": "71027d54-e042-4bc2-b0cd-86e60d0171dc",
+      "name": {
+        "text": " Miniature Alchemiter",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    A miniaturized version of the Alchemiter.\n\n    These miniature versions of SBURB machines act a little oddly. The Alchemiter will only let you Alchemize items one at a time!",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 15,
+      "icon": {
+        "id": "minestuck:mini_alchemiter",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:token_card",
+                "Count": 1
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minestuck:mini_alchemiter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "605b6b27-f951-48f7-a153-604199c81b42",
       "name": {
         "text": " Good Base Weaponry",
@@ -63,6 +120,63 @@
       "commandrewards": []
     },
     {
+      "uuid": "7489c833-d909-4e09-b648-29b74e81bbe0",
+      "name": {
+        "text": " Miniature Cruxtruder",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    A miniaturized version of the Cruxtruder.\n\n    These miniature versions of SBURB machines act a little oddly. The Cruxtruder will generate endless Cruxite Dowels from a single piece of Cruxite, but they won\u0027t be in your chosen color.",
+        "isTranslationKey": false
+      },
+      "x": 66,
+      "y": 15,
+      "icon": {
+        "id": "minestuck:mini_cruxtruder",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minestuck:mini_cruxtruder",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "5fb2e3e1-d854-4b68-b37f-66dcb7ea33e0",
       "name": {
         "text": " Strange Texts Vol 1",
@@ -117,6 +231,63 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ced3728c-36f2-4501-8cbe-db4355d9ab8f",
+      "name": {
+        "text": " Miniature Totem Lathe",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    A miniaturized version of the Totem Lathe.\n\n    These miniature versions of SBURB machines act a little oddly.",
+        "isTranslationKey": false
+      },
+      "x": 86,
+      "y": 15,
+      "icon": {
+        "id": "minestuck:mini_totem_lathe",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 250 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "Count": 1
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ed2df82-ba27-42d9-b75b-16f9a68381ff"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minestuck:mini_totem_lathe",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -341,8 +512,8 @@
         "text": "    There were a lot of interestingly designed things to look at in SBurb. \n    Or hang on your wall. \n    Or flip through.",
         "isTranslationKey": false
       },
-      "x": 77,
-      "y": 12,
+      "x": 151,
+      "y": 13,
       "icon": {
         "id": "minestuck:sbahj_poster",
         "Count": 1
@@ -460,7 +631,7 @@
         "text": "    I\u0027m not sure which weapons were actually released in SBurb before it was shut down. Here\u0027s a few more I\u0027ve found in the files.",
         "isTranslationKey": false
       },
-      "x": 240,
+      "x": 218,
       "y": 169,
       "icon": {
         "id": "minestuck:horse_hitcher",
@@ -522,7 +693,7 @@
         "text": "    SBurb had special computers you could use to access it and the Medium. They required Cruxite and special computer parts.\n    While you can\u0027t access the Medium anymore, you may still be able to Alchemize using these computer components.",
         "isTranslationKey": false
       },
-      "x": 134,
+      "x": 274,
       "y": 12,
       "icon": {
         "id": "minestuck:computer_parts",
@@ -1044,8 +1215,8 @@
         "text": "    There were some music tracks from SBurb that people remember fondly, and would search high and low for the rare Music Disc of them.",
         "isTranslationKey": false
       },
-      "x": 273,
-      "y": 12,
+      "x": 272,
+      "y": 168,
       "icon": {
         "id": "minestuck:music_disc_retro_battle",
         "Count": 1
