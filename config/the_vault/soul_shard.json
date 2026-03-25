@@ -7,6 +7,18 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "tfb2:token_market",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 500,
+                        "maxPrice": 1500
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "the_vault:knowledge_star",
                             "AMOUNT": 1,
                             "NBT": "{}"
@@ -309,6 +321,18 @@
             "minLevel": 20,
             "shardTradePrice": 3600,
             "shardTrades": [
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "tfb2:token_market",
+                            "AMOUNT": 2,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 500,
+                        "maxPrice": 1500
+                    },
+                    "weight": 10
+                },
                 {
                     "value": {
                         "item": {
@@ -857,9 +881,21 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "tfb2:token_market",
+                            "AMOUNT": 3,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 500,
+                        "maxPrice": 1500
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "woldsvaults:layout_manipulator",
                             "AMOUNT": 1,
-                            "NBT": "{level: 150}"
+                            "NBT": "{pool: \"default\"}"
                         },
                         "minPrice": 2000,
                         "maxPrice": 6000
@@ -1642,9 +1678,21 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "tfb2:token_market",
+                            "AMOUNT": 4,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 500,
+                        "maxPrice": 1500
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "woldsvaults:layout_manipulator",
                             "AMOUNT": 1,
-                            "NBT": "{level: 150}"
+                            "NBT": "{pool: \"default\"}"
                         },
                         "minPrice": 2000,
                         "maxPrice": 6000
