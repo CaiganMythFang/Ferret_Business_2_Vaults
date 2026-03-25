@@ -1,24 +1,18 @@
 {
 	id: "40C4DD153463C6BC"
 	group: "499A93482811AC21"
-	order_index: 3
+	order_index: 4
 	filename: "from_farm_to_table"
 	title: "From Dirt to Delish"
-	subtitle: [
-		"MOD: Spice of Life - Carrot Edition"
-		"MODS: Cooking/Farming for Blockheads"
-		"MODS: Farmers Delight, Raven Coffee"
-		"MOD: Pam's Harvestcraft, Culinary Construct"
-		"MOD: Pumpkin Spice Everything"
-		"MODS: Botany Pots + Trees + Tiers"
-	]
+	icon: "farmersdelight:honey_glazed_ham"
+	subtitle: ["Cooking and Farming Mods"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "The Path of the Meal"
-			x: -0.25d
-			y: 1.25d
+			x: -5.5d
+			y: 1.5d
 			shape: "octagon"
 			description: [
 				"&2Ah, greetings again, Bandit! [Master Gardener Gray] here. I know in the whirlwind you've been in you may not remember us, but we helped guide you through growing and cooking your own sustenance in that strange dimension."
@@ -74,7 +68,7 @@
 			x: -9.25d
 			y: 2.75d
 			shape: "square"
-			subtitle: "MOD : Farming for Blockheads"
+			subtitle: "MOD : Farming for Blockheads (@farmingforblockheads)"
 			description: [
 				"&2&l[Master Gardener Gray] : &r&2Bandit, there's a lot to farming and gardening. What seeds you use, when you water it, how hot or cold it needs to be. But a lot of those don't matter in the FOPGame Server. "
 				""
@@ -103,7 +97,7 @@
 			x: -8.0d
 			y: 2.75d
 			shape: "square"
-			subtitle: "MOD : Farmer's Delight"
+			subtitle: "MOD : Farmer's Delight (@farmersdelight)"
 			description: [
 				"&2&l[Master Gardener Gray] : &r&2Ah, Bandit, have you gotten yourself a farm going yet? I highly suggest it, if nothing else the FOPGame Server has some decent options."
 				""
@@ -153,179 +147,10 @@
 			}]
 		}
 		{
-			title: "The Harvests of Pam"
-			x: -10.5d
-			y: 4.0d
-			shape: "square"
-			subtitle: "MODS : Pam's Harvestcraft(Crops, Food, Extended, Trees)"
-			description: [
-				"&2&l[Master Gardener Gray] : &r&2Ah, I'm glad that the FOPGame Server has at least incorporated Pam's excellence."
-				""
-				"&3&l[Head Chef Charlie] : &r&3It's an excellent staple for sure."
-				""
-				"&4&l[Barista Bae] : &r&4Wow, I didn't realize it covered so much. "
-				""
-				"&2&l[Master Gardener Gray] : &r&2Mhmm, Pam has a wealth of food knowledge and recipes to satisfy any palate."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Bandit, how about making a these? You can break naturally growing Gardens to find crops. But these dishes are one of the Ferret Business owners' favorites."
-				""
-				"&4&l[Barista Bae] : &r&4Wait, which one?"
-				""
-				"&2&l[Master Gardener Gray] : &r&2Yes."
-				"&3&l[Head Chef Charlie] : &r&3Yes."
-			]
-			hide_dependency_lines: true
-			dependencies: ["4AFBF3206D6A0A5E"]
-			id: "1F53EC04ACF0B812"
-			tasks: [
-				{
-					id: "78B948CEE8B726A3"
-					type: "item"
-					item: "pamhc2foodcore:saucepanitem"
-				}
-				{
-					id: "051C89AFA89AE7AD"
-					type: "item"
-					item: "pamhc2foodcore:cuttingboarditem"
-				}
-				{
-					id: "72D25C810734C79D"
-					type: "item"
-					item: "pamhc2foodextended:musubiitem"
-				}
-				{
-					id: "7DCE60E37584EC59"
-					type: "item"
-					item: "pamhc2foodextended:bentoboxitem"
-				}
-				{
-					id: "3C648F954959C544"
-					type: "item"
-					item: "pamhc2foodcore:gummybearsitem"
-				}
-			]
-			rewards: [{
-				id: "4639C741C2850767"
-				type: "choice"
-				table_id: 2245246540467579945L
-			}]
-		}
-		{
-			title: "THE Spice For EVERYTHING"
-			x: -4.25d
-			y: 2.75d
-			shape: "square"
-			subtitle: "Mod : Pumpkin Spice Everything"
-			description: [
-				"&4&l[Barista Bae] : &r&4Ooo, you know what season it is?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Oh no..."
-				""
-				"&2&l[Master Gardener Gray] : &r&2What?"
-				""
-				"&4&l[Barista Bae] : &r&4Pumpkin Spice!"
-				""
-				"&2&l[Master Gardener Gray] : &r&2I...is it? I best make sure the farms are ready..."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Still can't believe it's that popular..."
-				""
-				"&4&l[Barista Bae] : &r&4It works on so many things! Lattes and Cakes..."
-				""
-				"&3&l[Head Chef Charlie] : &r&3So many Lattes....how can..."
-				""
-				"&4&l[Barista Bae] : &r&4...and the fancy Pumpkin Spice Pufferfish, and..."
-				""
-				"&3&l[Head Chef Charlie] : &r&3THE WHAT?"
-			]
-			hide_dependency_lines: true
-			dependencies: ["4AFBF3206D6A0A5E"]
-			id: "6CD3A30B3F25B3F5"
-			tasks: [
-				{
-					id: "1EB0E323D7809BCA"
-					type: "item"
-					item: "pumpkin_spice_everything:pumpkin_spice"
-				}
-				{
-					id: "231BF63B0572E053"
-					type: "item"
-					item: "pumpkin_spice_everything:pumpkin_spice_cake"
-				}
-				{
-					id: "073DD3DA4790E6ED"
-					type: "item"
-					item: "pumpkin_spice_everything:pumpkin_spice_latte"
-				}
-				{
-					id: "1C75150DF982B0C2"
-					type: "item"
-					item: "pumpkin_spice_everything:pumpkin_spice_pufferfish"
-				}
-			]
-			rewards: [{
-				id: "2DF2EEBFECC7B9C2"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "A Cup of Life"
-			x: -3.0d
-			y: 2.75d
-			shape: "square"
-			subtitle: "Mod : Raven Coffee"
-			description: [
-				"&3&l[Head Chef Charlie] : &r&3Nothing like a good cuppa to start the day..."
-				""
-				"&4&l[Barista Bae] : &r&4Ooo, is that the new blend from Stoats?"
-				""
-				"&2&l[Master Gardener Gray] : &r&2Definitely! We cultivated a new type of bean for them. Super proud."
-				""
-				"&4&l[Barista Bae] : &r&4That reminds me! Is there coffee in the FOPGame Server?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Sure does, though the FOPGame Server has their own 'brand' of coffee called Raven. "
-				""
-				"&2&l[Master Gardener Gray] : &r&2Bird named, of course. But you can find Coffee plants around, and harvest the Coffee Cherries to plant more."
-				""
-				"&4&l[Barista Bae] : &r&4Or you can pop the bean out and roast em! Then grind them so they are ready for brewing!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["4AFBF3206D6A0A5E"]
-			id: "437DC230732FC2D5"
-			tasks: [
-				{
-					id: "3AB884D13B310D03"
-					type: "item"
-					item: "ravencoffee:coffee_cherries"
-				}
-				{
-					id: "37DB77A430438300"
-					type: "item"
-					item: "ravencoffee:coffee_beans"
-				}
-				{
-					id: "2BABEA76558EB52E"
-					type: "item"
-					item: "ravencoffee:coffee_beans_roasted"
-				}
-				{
-					id: "6A33182A504B4431"
-					type: "item"
-					item: "ravencoffee:coffee_beans_roasted_ground"
-				}
-			]
-			rewards: [{
-				id: "5B9C7C59A9CED205"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Kaleidoscope of Flavors"
 			x: -10.5d
 			y: 2.75d
-			shape: "square"
-			subtitle: "Mod : Spice of Life - Carrot Edition"
+			shape: "diamond"
+			subtitle: "MOD : Bobber Detector (@bobberdetector)"
 			description: [
 				"&3&l[Head Chef Charlie] : &r&3Bandit, you may be interested in this interesting little system that the FOPGame Server implemented."
 				""
@@ -345,7 +170,7 @@
 			tasks: [{
 				id: "277CE8249E40B25A"
 				type: "item"
-				item: "solcarrot:food_book"
+				item: "bobberdetector:bobber_detector"
 			}]
 			rewards: [{
 				id: "405F50516979AEB6"
@@ -355,10 +180,10 @@
 		}
 		{
 			title: "A Garden Anywhere"
-			x: 1.25d
+			x: -3.0d
 			y: 2.75d
 			shape: "square"
-			subtitle: "Mod : Botany Pots and Botany Trees"
+			subtitle: "Botany Pots"
 			description: [
 				"&4&l[Barista Bae] : &r&4Oh Gray, question! Sometimes you talk about gardens, sometimes farms, also fields. What exactly do we use for growing?"
 				""
@@ -376,14 +201,14 @@
 			dependencies: ["4AFBF3206D6A0A5E"]
 			id: "3D2D76F0362BB9F3"
 			tasks: [{
-				id: "493677B46737959F"
+				id: "4FDD1EDB2CC99EFD"
 				type: "item"
-				title: "Any basic Botany Pot"
+				title: "Any Basic Botany Pot"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "tfb2:basic_botany_pots"
+						value: "botanypots:basic_botany_pots"
 					}
 				}
 			}]
@@ -394,11 +219,10 @@
 			}]
 		}
 		{
-			title: "The Dream Sandwich"
-			x: 2.5d
+			x: -1.75d
 			y: 2.75d
-			shape: "square"
-			subtitle: "Mod : Culinary Construct"
+			shape: "diamond"
+			subtitle: "Bonsai Pots"
 			description: [
 				"&2&l[Master Gardener Gray] : &r&2Ah, looking over all the strange farming choices the FOP have made for their Game Server has built up an appetite."
 				""
@@ -418,50 +242,12 @@
 			dependencies: ["4AFBF3206D6A0A5E"]
 			id: "63DC6ABABC7DD1D6"
 			tasks: [{
-				id: "4072650AA7BD5144"
+				id: "73C6BC2E897508FD"
 				type: "item"
-				item: "culinaryconstruct:culinary_station"
+				item: "bonsaitrees3:bonsaipot"
 			}]
 			rewards: [{
 				id: "769F9E57C653B029"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Divine Food"
-			x: 3.75d
-			y: 2.75d
-			shape: "square"
-			subtitle: "Mod : Sushi Go Crafting"
-			description: [
-				"&3&l[Head Chef Charlie] : &r&3Ah, I see they FOPGame Server has it's own version of the TFB leaders' favorite products... or well one of them."
-				""
-				"&4&l[Barista Bae] : &r&4Sushi."
-				"&2&l[Master Gardener Gray] : &r&2Sushi."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Of course. Just a quick glance over, they've... pretty much copied it fairly accurately. Not even hiding it I guess. "
-				""
-				"&2&l[Master Gardener Gray] : &r&2Can't really copyright recipes and stuff. Thankfully, otherwise it would be a very cutthroat business then. Farming and cooking business that is."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Too true. Well, Bandit, if you want to get started on this journey, get yourself a \"Becoming an Itamae\" manual."
-			]
-			hide_dependency_lines: true
-			dependencies: ["4AFBF3206D6A0A5E"]
-			id: "44B837D49943BAE8"
-			tasks: [{
-				id: "78118D1B050C2333"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "sushigocrafting:sushigocrafting"
-					}
-				}
-			}]
-			rewards: [{
-				id: "4A1E62ED3F277684"
 				type: "choice"
 				table_id: 2640422954496342337L
 			}]
@@ -1024,305 +810,8 @@
 			}]
 		}
 		{
-			title: "The Grind and Pour"
-			x: -1.75d
-			y: 2.75d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4Oh, make sure you have a good variety of cup sizes, Bandit! Never know when you want a good, small shot of espresso, or a big mug of something sweet. "
-				""
-				"&3&l[Head Chef Charlie] : &r&3Some coffees are best in certain sizes, and depending on the meal as well. A large cup of espresso might be a bit too much, even for a mustelid..."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Ah yes, please utilize the proper tools too, so that you aren't wasting precious beans!"
-				""
-				"&4&l[Barista Bae] : &r&4A good grinder is what he means. You waste less beans per cup of coffee, and get the best flavor that way!"
-			]
-			dependencies: ["437DC230732FC2D5"]
-			id: "2683CFA3BBC45C95"
-			tasks: [
-				{
-					id: "5A37862F4512377F"
-					type: "item"
-					item: "ravencoffee:cup_small"
-				}
-				{
-					id: "31C7736B2F8A2DF7"
-					type: "item"
-					item: "ravencoffee:cup_medium"
-				}
-				{
-					id: "46194EC8BFF99785"
-					type: "item"
-					item: "ravencoffee:cup_large"
-				}
-				{
-					id: "5D5F226CE1B0D405"
-					type: "item"
-					item: "ravencoffee:coffee_mug"
-				}
-				{
-					id: "60D058BB0CC4FE04"
-					type: "item"
-					item: "ravencoffee:coffee_grinder_block"
-				}
-			]
-			rewards: [{
-				id: "42EF656325E81F59"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "And a Good Snack"
-			x: -3.0d
-			y: 4.0d
-			shape: "rsquare"
-			description: [
-				"&3&l[Head Chef Charlie] : &r&3A good coffee break just isn't complete without a light, but filling snack."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Usually only got time to grab a muffin in the morning myself. Fill the thermos, grab a carby breakfast to go, get off to the gardens."
-				""
-				"&4&l[Barista Bae] : &r&4Oh! You might do better if you have a croissant, especially if you add in some roast chicken. More filling and very tasty!"
-				""
-				"&2&l[Master Gardener Gray] : &r&2Hmmm, a good idea."
-				""
-				"&3&l[Head Chef Charlie] : &r&3A bagel is a bit more filling, especially if you find the croissant too light. If you want some sweetness how about....ham?"
-			]
-			dependencies: ["437DC230732FC2D5"]
-			id: "142D70C0266EE508"
-			tasks: [
-				{
-					id: "5CE831BAD7C65811"
-					type: "item"
-					item: "ravencoffee:muffin"
-				}
-				{
-					id: "244F85B2241E68F4"
-					type: "item"
-					item: "ravencoffee:croissant"
-				}
-				{
-					id: "142DCBD679702D73"
-					type: "item"
-					item: "ravencoffee:croissant_chicken"
-				}
-				{
-					id: "3EE0BDDC4FDD36E0"
-					type: "item"
-					item: "ravencoffee:bagel"
-				}
-				{
-					id: "02811AE9490814F4"
-					type: "item"
-					item: "ravencoffee:bagel_ham"
-				}
-			]
-			rewards: [{
-				id: "649F8988A9A05D82"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Really Hot Coffee"
-			x: -3.0d
-			y: 5.25d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4Hey Charlie, what is THAT?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Well, I was looking into what else the FOPGame Server lets you do with coffee, and found some, well... interesting things."
-				""
-				"&2&l[Master Gardener Gray] : &r&2That looks a bit like a Magma Block. Is that what happens when you over roast their coffee?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Kind of? It's done on purpose it seems. Called a Magma Coffee Block. "
-				""
-				"&4&l[Barista Bae] : &r&4What do you do with THAT though?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3First thing I can find is as... road material? Apparently if you walk on it, you run faster. But it also burns you so..."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Not all that useful without strong boots..."
-			]
-			dependencies: ["437DC230732FC2D5"]
-			id: "5DFCB0167F23F36D"
-			tasks: [{
-				id: "713866AFEF591893"
-				type: "item"
-				item: "ravencoffee:coffee_beans_roasted_magma_block"
-			}]
-			rewards: [{
-				id: "61E74C00B9FE4432"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Caffeinated Tools"
-			x: -3.0d
-			y: 6.5d
-			shape: "rsquare"
-			description: [
-				"&3&l[Head Chef Charlie] : &r&3Ah here we go. Looks like those Magma Coffee Blocks can be used to make... Coffee Tools?"
-				""
-				"&4&l[Barista Bae] : &r&4Wait, really? Are they any good?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Well, judging by the information, they seem to be somewhere between Iron and Diamond tools. They kind of remind me of Netherite tools."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Hah, made quite similarly it seems. Plates, ingots, then wrapping the base tool in the new material. "
-				""
-				"&4&l[Barista Bae] : &r&4Well hey, if they are useful, always good to have multiple ways to use coffee! Wonder if you can nibble on the tool like chocolate covered espresso beans..."
-				""
-				"&2&l[Master Gardener Gray] : &r&2I'm not sure eating your tools is very good..."
-			]
-			dependencies: ["5DFCB0167F23F36D"]
-			id: "1350A70B4623AAEE"
-			tasks: [
-				{
-					id: "4FBA5BC8249ED8A3"
-					type: "item"
-					item: "ravencoffee:coffee_plates"
-				}
-				{
-					id: "60A34219198E4AB3"
-					type: "item"
-					item: "ravencoffee:coffee_ingot"
-				}
-				{
-					id: "2D93AF26022B2E15"
-					type: "item"
-					item: {
-						id: "ravencoffee:coffee_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "78646705AF1691C3"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Coffee Basics"
-			x: -1.75d
-			y: 4.0d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4Okay, so in the cafe, we have three 'normal' brews we do. From these we can make a lot of different blends and types!"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Much like a fairly basic but versatile soup base. A wide open palette with a lot of possibilities."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Oh an espresso is a good jump of energy... wait, that's a good question. Since its a game, does Raven Coffee give you more energy or anything?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Looking at the stats, looks like each brew gives various buffs."
-				""
-				"&4&l[Barista Bae] : &r&4Great! Oh, I guess they don't have any mixes using the espresso...but the Americano and Latte are very good starts for some really tasty drinks!"
-			]
-			dependencies: ["2683CFA3BBC45C95"]
-			id: "123564ED3460EB97"
-			tasks: [
-				{
-					id: "5CA20AF99F73D138"
-					type: "item"
-					item: "ravencoffee:cup_small_brew_espresso"
-				}
-				{
-					id: "0C1D7D18001B0C93"
-					type: "item"
-					item: "ravencoffee:cup_medium_brew_american"
-				}
-				{
-					id: "63DD20E6FD29C718"
-					type: "item"
-					item: "ravencoffee:cup_medium_brew_milk"
-				}
-			]
-			rewards: [{
-				id: "18F7BDD843106254"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Smooth and Dreamy"
-			x: -1.75d
-			y: 6.5d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4There's a lot of things you can add to Americanos and Lattes to make them even more delicious. "
-				""
-				"&2&l[Master Gardener Gray] : &r&2While it isn't coffee, I could go for a nice cup of Hot Chocolate."
-				""
-				"&3&l[Head Chef Charlie] : &r&3How about a Cookies and Cream coffee? Bit of chocolate, bit of coffee, nice baked cookie taste as well."
-				""
-				"&4&l[Barista Bae] : &r&4That's a favorite at the cafe for sure. So are Pumpkin Spice Lattes!"
-			]
-			dependencies: ["123564ED3460EB97"]
-			id: "27DA1A9B621FB854"
-			tasks: [
-				{
-					id: "3BC9A2C56EA0A2F3"
-					type: "item"
-					item: "ravencoffee:coffee_mug_brew_chocolate"
-				}
-				{
-					id: "76487EDA28261E70"
-					type: "item"
-					item: "ravencoffee:cup_medium_brew_cookiesandcream"
-				}
-				{
-					id: "73C03F0FFCC95823"
-					type: "item"
-					item: "ravencoffee:cup_medium_brew_pumpkinspicelatte"
-				}
-			]
-			rewards: [{
-				id: "6995C8EB775439B4"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Enigmatic Treats"
-			x: -1.75d
-			y: 5.25d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4Huh these are some weird things the FOPGame Server has."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Popchorus... is this supposed to be like popcorn? Not really as light as popcorn, cause you know....its fruit. But interesting at least."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Oh dear, I don't know if I'd try that End Brew without a safety net around... I get the feeling it'd be a favorite drink of Endermen and thus be... dangerous to Bandit and assistants."
-			]
-			dependencies: [
-				"27DA1A9B621FB854"
-				"142D70C0266EE508"
-			]
-			id: "48D8E9CB68124E19"
-			tasks: [
-				{
-					id: "633EED5C1ABF9A07"
-					type: "item"
-					item: "ravencoffee:cup_medium_brew_end"
-				}
-				{
-					id: "76F1DD72FDEA3C5B"
-					type: "item"
-					item: "ravencoffee:popchorus"
-				}
-			]
-			rewards: [{
-				id: "37925EC804DAA612"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
 			title: "Scheduled Harvest"
-			x: 1.25d
+			x: -3.0d
 			y: 4.0d
 			shape: "rsquare"
 			description: [
@@ -1341,14 +830,14 @@
 			dependencies: ["3D2D76F0362BB9F3"]
 			id: "0C96DD8966CB02DC"
 			tasks: [{
-				id: "051364640F418624"
+				id: "47CF87EEFFD891F7"
 				type: "item"
-				title: "Any basic Hopper Botany Pot"
+				title: "Any Hopper Botany Pot"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "tfb2:basic_hopper_botany_pots"
+						value: "botanypots:hopper_botany_pots"
 					}
 				}
 			}]
@@ -1360,7 +849,7 @@
 		}
 		{
 			title: "Better Botany"
-			x: 1.25d
+			x: -3.0d
 			y: 5.25d
 			shape: "rsquare"
 			subtitle: "Mod : Botany Pots Tiers"
@@ -1396,357 +885,48 @@
 			}]
 		}
 		{
-			title: "Choice Vegetables"
-			x: 6.25d
-			y: 2.75d
-			shape: "rsquare"
-			description: ["&2&l[Master Gardener Gray] : &r&2You'll want to be breaking some grass to start with, Bandit. You'll find most of the seeds you'll want for Sushi making this way."]
-			dependencies: ["44B837D49943BAE8"]
-			id: "23B0EBA1252C959A"
-			tasks: [
-				{
-					id: "7CAE3D1630FCBE16"
-					type: "item"
-					item: "sushigocrafting:cucumber_seeds"
-				}
-				{
-					id: "51F60B9E7607F6B6"
-					type: "item"
-					item: "sushigocrafting:soy_seeds"
-				}
-				{
-					id: "43849A3C65DDBDFF"
-					type: "item"
-					item: "sushigocrafting:wasabi_seeds"
-				}
-				{
-					id: "7B3A919D047EB03A"
-					type: "item"
-					item: "sushigocrafting:sesame_seeds"
-				}
-			]
-			rewards: [{
-				id: "28A83AA4361F4208"
-				type: "choice"
-				table_id: 2640422954496342337L
+			x: -6.75d
+			y: 6.5d
+			shape: "diamond"
+			subtitle: "MOD : Coffee Delight (@coffee_delight)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "5BE316B779B47462"
+			tasks: [{
+				id: "6F6341360031DE2C"
+				type: "item"
+				item: "coffee_delight:coffee_berries"
 			}]
 		}
 		{
-			title: "Good Greens"
-			x: 6.25d
-			y: 4.0d
-			shape: "rsquare"
-			description: [
-				"&2&l[Master Gardener Gray] : &r&2Ah, some other vegetation you'll need, Bandit. The second most important ingredient : Seaweed, found in deeper waters."
-				""
-				"&3&l[Head Chef Charlie] : &r&3More specifically, Nori. You can grow more seaweed by planting it under deep water. You can then smelt it to get Dried Seaweed, then combine nine into a Dried Seaweed Block."
-				""
-				"&4&l[Barista Bae] : &r&4Ooo, do you slice that into sheets?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Nah, you press them by crushing the block between a Piston and an Iron Block."
-				""
-				"&4&l[Barista Bae] : &r&4Oh, neat!"
-				""
-				"&2&l[Master Gardener Gray] : &r&2Also keep an eye out for Avocado trees, Bandit. They are used in multiple rolls. The trees are usually in Plains."
-			]
-			dependencies: ["296A71F314DA3336"]
-			id: "6C9CEB518367AC2C"
-			tasks: [
-				{
-					id: "273B0FEFBB123F11"
-					type: "item"
-					item: "sushigocrafting:avocado_sapling"
-				}
-				{
-					id: "40814C70BF9B1432"
-					type: "item"
-					item: "sushigocrafting:seaweed"
-				}
-				{
-					id: "2964BB8D0E5C7B9E"
-					type: "item"
-					item: "sushigocrafting:dried_seaweed"
-				}
-				{
-					id: "6414240870EE4362"
-					type: "item"
-					item: "sushigocrafting:dried_seaweed_block"
-				}
-				{
-					id: "77DAE28A4CBF53AF"
-					type: "item"
-					item: "sushigocrafting:nori_sheets"
-				}
-			]
-			rewards: [{
-				id: "3CBF0C93E6EAFB07"
-				type: "choice"
-				table_id: 2640422954496342337L
+			x: -6.75d
+			y: 7.75d
+			shape: "diamond"
+			subtitle: "MOD : Delightful (@delightful)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "7B6D55F646F287F4"
+			tasks: [{
+				id: "3F0BA34B35C22505"
+				type: "item"
+				item: "delightful:cheeseburger"
 			}]
 		}
 		{
-			title: "The Most Important Ingredient"
-			x: 5.0d
-			y: 2.75d
-			shape: "rsquare"
-			description: [
-				"&2&l[Master Gardener Gray] : &r&2So the most important ingredient you'll need to find and grow, Bandit, is Rice. You'll find Rice Seeds scattered about if you break enough tall grass."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Good stuff, you'll use it in most sushi dishes."
-				""
-				"&2&l[Master Gardener Gray] : &r&2It grows differently than other crops. You plant it underwater, on Dirt. "
-			]
-			dependencies: ["44B837D49943BAE8"]
-			id: "1A4DCD22DE9469CE"
-			tasks: [
-				{
-					id: "112A3FAC54707CFE"
-					type: "item"
-					item: "sushigocrafting:rice_seeds"
-				}
-				{
-					id: "14EEE3AA38698A11"
-					type: "item"
-					item: "sushigocrafting:rice"
-				}
-			]
-			rewards: [{
-				id: "53CEE18E5F3C8DF8"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "A Good Catch"
-			x: 5.0d
-			y: 4.0d
-			shape: "rsquare"
-			description: [
-				"&2&l[Master Gardener Gray] : &r&2Hm, I had a thought. Does the FOPGame Server have fish farms? Sustainable ponds that you can raise fish in?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Hm, I don't think so, but there's so much stuff with weird names I wouldn't be surprised..."
-				""
-				"&4&l[Barista Bae] : &r&4Oh, what fish DOES the game server have for Sushi? I always like yellow tail..."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Specifically for Sushi, there are Tuna and Shrimp swimming around. As in... not just randomly hooked with a fishing pole."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Though...why does the Itamae book mention bringing a saddle?"
-				""
-				"&4&l[Barista Bae] : &r&4What?"
-				"&3&l[Head Chef Charlie] : &r&3What?"
-			]
-			dependencies: ["44B837D49943BAE8"]
-			id: "296A71F314DA3336"
-			tasks: [
-				{
-					id: "3C406483E69623FA"
-					type: "item"
-					item: "sushigocrafting:raw_tuna"
-				}
-				{
-					id: "3AB92AB03CA1A193"
-					type: "item"
-					item: "sushigocrafting:shrimp"
-				}
-			]
-			rewards: [{
-				id: "0B2DAC7FBDA32DC0"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Chef's Equipment"
-			x: 3.75d
-			y: 4.0d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4Ooh, what's that thing there?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3Oh, the Rice Cooker? It's for cooking up the rice for Sushi. Add Water, Rice grains, and something to burn like coal, and it'll cook up the Rice."
-				""
-				"&4&l[Barista Bae] : &r&4No no, that barrel there I mean!"
-				""
-				"&2&l[Master Gardener Gray] : &r&2Ah a Fermentation Barrel. A few of the Sushi ingredients takes a bit of fermenting. Specifically, Soy Sauce from Soybeans, and a certain type of Cheese from Milk."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Oh, Bandit, I noticed Sushi Go Crafting ingredients are... a bit different. They have their own volume, and you can't easily combine two 'stacks' together. The FOPGame Server added a Cooler Box that will automatically combine them."
-			]
-			dependencies: [
-				"44B837D49943BAE8"
-				"6C9CEB518367AC2C"
-			]
-			id: "6FDEC4AA02941656"
-			tasks: [
-				{
-					id: "5F88D9AE4400649D"
-					type: "item"
-					item: "sushigocrafting:rice_cooker"
-				}
-				{
-					id: "63F79CFBDB276D06"
-					type: "item"
-					item: "sushigocrafting:cooked_rice"
-				}
-				{
-					id: "2B484A8FA6083ECF"
-					type: "item"
-					item: "sushigocrafting:fermentation_barrel"
-				}
-				{
-					id: "59D645C191C63379"
-					type: "item"
-					item: "sushigocrafting:soy_sauce"
-				}
-				{
-					id: "31C770CD101701BA"
-					type: "item"
-					item: "sushigocrafting:cheese"
-				}
-				{
-					id: "5570043E420D041A"
-					type: "item"
-					item: "sushigocrafting:cooler_box"
-				}
-			]
-			rewards: [{
-				id: "23D2413371A3CB1D"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Chef's Tools"
-			x: 3.75d
-			y: 5.25d
-			shape: "rsquare"
-			description: [
-				"&3&l[Head Chef Charlie] : &r&3Okay Bandit, now that you got a good amount of ingredients grown and gathered, it's time to prep some of them. First you'll want a Cutting Board and a Cleaver Knife."
-				""
-				"&4&l[Barista Bae] : &r&4Ooh a cleaver? That's a pretty big knife."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Good size, nice weight, very sharp. To chop an ingredient, like say Cod into Imitation Crab, Right Click the ingredient onto the Cutting Board, then Right Click the Cleaver Knife onto the Cutting Board until its done. Then you can get your Roller."
-				""
-				"&2&l[Master Gardener Gray] : &r&2Such a simple looking tool."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Yes, but its where the heart of putting together Sushi is done."
-			]
-			dependencies: [
-				"6FDEC4AA02941656"
-				"23B0EBA1252C959A"
-			]
-			id: "65F5B056E34DADE0"
-			tasks: [
-				{
-					id: "661752467DC81463"
-					type: "item"
-					item: "sushigocrafting:cutting_board"
-				}
-				{
-					id: "7C6286DD7A83D4CF"
-					type: "item"
-					item: "sushigocrafting:cleaver_knife"
-				}
-				{
-					id: "2C75E76258CE8C82"
-					type: "item"
-					item: "sushigocrafting:roller"
-				}
-			]
-			rewards: [{
-				id: "6B91031586F6A8D0"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Classic and Simple"
-			x: 5.0d
-			y: 5.25d
-			shape: "rsquare"
-			description: [
-				"&2&l[Master Gardener Gray] : &r&2Hm, the Roller works very differently than most things in the FOPGame Server that I remember."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Looks like they are matching it closer to real life for... some reason? It's a bit different, true. So, with the Roller, you can select the type of Sushi on the left, and it'll show you the different ingredients. Blank spots are either optional, or for fish or similar."
-				""
-				"&4&l[Barista Bae] : &r&4What's that little slider next to each spot?"
-				""
-				"&3&l[Head Chef Charlie] : &r&3That determines how 'much' of an ingredient you use. Each type of Sushi has a specific 'perfect' weight for each ingredient. If you find the perfect weight of an ingredient, the Roller will mark it for you."
-			]
-			dependencies: ["65F5B056E34DADE0"]
-			id: "1B73FA3CD138D8ED"
-			tasks: [
-				{
-					id: "2918DB1A7487334E"
-					type: "item"
-					item: "sushigocrafting:onigiri"
-				}
-				{
-					id: "01A741A2481477D4"
-					type: "item"
-					item: "sushigocrafting:salmon_maki"
-				}
-				{
-					id: "4A5B21F2316B6974"
-					type: "item"
-					item: "sushigocrafting:tuna_nigiri"
-				}
-				{
-					id: "64A83CA9D18128EA"
-					type: "item"
-					item: "sushigocrafting:crab_california"
-				}
-			]
-			rewards: [{
-				id: "568D27A5501F33CB"
-				type: "choice"
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Classic-ish and Fancy-ish"
-			x: 6.25d
-			y: 5.25d
-			shape: "rsquare"
-			description: [
-				"&4&l[Barista Bae] : &r&4Wow there are a lot of styles  of Sushi."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Very much so, and each one can have lots of different ingredients. The FOPGame Server seems to have a lot of good ones too."
-				""
-				"&2&l[Master Gardener Gray] : &r&2I see a problem though."
-				""
-				"&4&l[Barista Bae] : &r&4Wait, a problem?"
-				""
-				"&2&l[Master Gardener Gray] : &r&2Yep. It's missing the Owner's three favorite types."
-				""
-				"&3&l[Head Chef Charlie] : &r&3Of course, no surprise there. Subtle snub or just lack of care?"
-				""
-				"&4&l[Barista Bae] : &r&4No Inari? No Tamago Nigiri?"
-				""
-				"&2&l[Master Gardener Gray] : &r&2And no Spam Musubi. Yeesh."
-			]
-			dependencies: ["1B73FA3CD138D8ED"]
-			id: "56C306922C9B2A61"
-			tasks: [
-				{
-					id: "67709B2D3C9BE0E8"
-					type: "item"
-					item: "sushigocrafting:salmon_gunkan"
-				}
-				{
-					id: "24D7D9569E433F59"
-					type: "item"
-					item: "sushigocrafting:tobiko_salmon_cheese_california"
-				}
-				{
-					id: "70C71B16647449FD"
-					type: "item"
-					item: "sushigocrafting:tuna_temaki"
-				}
-			]
-			rewards: [{
-				id: "2824A5C914322162"
-				type: "choice"
-				table_id: 5632731352558517809L
+			x: -8.0d
+			y: 7.75d
+			shape: "diamond"
+			subtitle: "MOD : Farmer's Respite (@farmersrespite)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["4AFBF3206D6A0A5E"]
+			id: "32BC3DA97F62130D"
+			tasks: [{
+				id: "6B5554C055CF00CD"
+				type: "item"
+				item: "farmersrespite:kettle"
 			}]
 		}
 	]

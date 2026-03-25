@@ -4,12 +4,8 @@
 	order_index: 0
 	filename: "exploring_the_universe"
 	title: "Exploring the Universe"
-	subtitle: [
-		"MOD : Advanced Finders"
-		"MOD : Advanced Hook Launchers"
-		"MOD : Grappling Hook Mod"
-		"MODS : Comforts, Backpacked"
-	]
+	icon: "decocraft:globe"
+	subtitle: ["Travel and Exploration Mods"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -33,49 +29,38 @@
 			}]
 		}
 		{
-			title: "Finding the Goods"
-			x: -3.75d
-			y: -0.25d
+			title: "Finding the Ores"
+			x: -3.25d
+			y: 0.25d
 			shape: "square"
-			subtitle: "Mod : Advanced Finders"
+			subtitle: "MOD : Advanced Finders (@adfinders)"
 			description: [
+				"&l&4RESEARCH : &r&4ADVANCED FINDERS"
+				""
 				"&bNow, when exploring around, as we learned before, you want to be on the lookout for important resources!"
 				""
 				"&bAbove ground that tends to mean plants to eat, animals to hunt, waters to drink, other waters NOT to drink and to avoid, animals to not disturb, and plants to never touch."
 				""
 				"&bBut you come across lots of caves and ravines. And especially with the Hex grid world the FOP has, its easier to get lost underground. At least I think so."
 				""
-				"&bSo, you can use one of these Advanced Finders! There's three types: The Mineral one the bosses probably gave you already, or will shortly."
+				"&bSo, you can use one of these Advanced Finders! There's three types: The Ore Finder is the cheapest...relatively at least! And it looks for ANY Ores nearby, both Normal Ores and Vault Ores!"
 				""
-				"&bThe other two are Metal and Gem Finders. Both really useful. They point you towards clumps of Ore. They show an arrow if the closest Ore, Gem, or Mineral is above or below you."
+				"&bWhen you hold it, the Ore Finder will have lines and arrows pointing towards the nearest Ores, color coded...You just got to figure out what color is what, see?"
 			]
 			hide_dependency_lines: true
 			dependencies: ["45A4E38A1E2BA965"]
 			id: "4645334A0EDD87AA"
-			tasks: [
-				{
-					id: "4CC1A2321023B818"
-					type: "item"
-					item: {
-						id: "adfinders:metal_finder"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "5961842C7D6F7916"
+				type: "item"
+				item: {
+					id: "adfinders:mineral_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "079379AD58DC751A"
-					type: "item"
-					item: {
-						id: "adfinders:gem_finder"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "3716413FCD35A6B7"
 				type: "choice"
@@ -83,35 +68,18 @@
 			}]
 		}
 		{
-			title: "Reel Em In"
-			x: -2.25d
-			y: -0.25d
-			shape: "square"
-			subtitle: "Mod : Advanced Hook Launchers"
-			description: [
-				"&bTraversing the terrain, especially this crazy Hex world the FOP came up with, can be quite daunting if you don't have wings!"
-				""
-				"&bThankfully, though, you can use some grappling hooks to travel up and down cliff walls safely! "
-				""
-				"&bThe FOP Game Server has two uh... 'brands', so to speak. One is Advanced Hook Launchers. The classic Spear Launcher is an all around good one, Bandit."
-				""
-				"&bLaunch the spear out by Left Clicking, then Left Click again to reel it in. To release the hook, Sneak + Right Click to detatch the hook and reel it back in. You can hook items too, as well as creatures, but note that the Spear will damage them and could make them mad."
-				""
-				"&bThere's more instructions printed on the hook launchers though. "
-			]
+			x: 1.25d
+			y: 3.25d
+			shape: "diamond"
+			subtitle: "MOD : Immersive Aircraft (@immersiveaircraft)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
 			hide_dependency_lines: true
 			dependencies: ["45A4E38A1E2BA965"]
 			id: "217F4DD8B93E021B"
 			tasks: [{
-				id: "6F4A66121558A725"
+				id: "4BEFBB4AB3632CE4"
 				type: "item"
-				item: {
-					id: "adhooks:spear_launcher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "immersive_aircraft:biplane"
 			}]
 			rewards: [{
 				id: "6D3C0D5B5ACEB2FE"
@@ -120,78 +88,18 @@
 			}]
 		}
 		{
-			title: "Get Over Here!"
-			x: -2.25d
-			y: -1.25d
-			shape: "rsquare"
-			description: [
-				"&bThe Pudge Hook Launcher works a bit differently than the Spear Hook Launcher. "
-				""
-				"&bWhen you successfully hook a block, the Pudge Hook Launcher will immediately reel you in and launch you towards it, disconnecting the hook in the process."
-				""
-				"&bIf you hook a creature, you'll reel that creature in towards you instead! It still unhooks immediately, but it won't damage the creature in the process like the Spear Hook Launcher."
-			]
-			dependencies: ["217F4DD8B93E021B"]
-			id: "676D38C4018B1CC1"
-			tasks: [{
-				id: "18CB5798FA305F56"
-				type: "item"
-				item: {
-					id: "adhooks:pudge_launcher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6AF1BB0B37DCD15F"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Webbed Up"
-			x: -2.25d
-			y: -2.25d
-			shape: "rsquare"
-			description: [
-				"&bThe Webhook Launcher works similarly to both the Spear Hook and Pudge Hook Launchers."
-				""
-				"&bThe Web Hook can latch onto blocks, items, and creatures, but will not damage them."
-				""
-				"&bYou can then reel in like with the Spear Hook, either pulling yourself towards the block, or the item or creature towards you."
-			]
-			dependencies: ["217F4DD8B93E021B"]
-			id: "702EFD4A0C131D61"
-			tasks: [{
-				id: "2DEDDFFED2028F22"
-				type: "item"
-				item: {
-					id: "adhooks:web_launcher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "30DE10786772E211"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			x: -0.75d
-			y: -0.25d
+			x: -0.25d
+			y: 0.25d
 			shape: "square"
-			subtitle: "Mod : Grappling Hook Mod"
+			subtitle: "MOD : Grappling Hook Mod (@grapplemod)"
 			description: [
-				"&bTraversing the terrain, especially this crazy Hex world the FOP came up with, can be quite daunting if you don't have wings!"
+				"&l&4RESEARCH : &r&4TRAVERSAL"
+				""
+				"&bTraversing the terrain, especially whatever crazy lands the FOP digitized, can be quite daunting if you don't have wings!"
 				""
 				"&bThankfully, though, you can use some grappling hooks to travel up and down cliff walls safely! "
 				""
-				"&bThe FOP Game Server has two uh... 'brands', so to speak. One is Grappling Hook Mod. A standard Grappling Hook is a good one to start with."
+				"&bThe FOP Game Server has Grappling Hooks to get around by hand...or by rope I guess?"
 				""
 				"&bYou can launch a hook by Right Clicking. It will attach to a block, but if you hit a creature it will yank the creature towards you and disconnect."
 				""
@@ -256,8 +164,9 @@
 		}
 		{
 			title: "A Leap Up High"
+			icon: "grapplemod:staffupgradeitem"
 			x: 0.25d
-			y: -1.25d
+			y: -3.75d
 			shape: "rsquare"
 			description: [
 				"&bThe Ender Staff is a useful tool for traversing uneven terrain. "
@@ -288,13 +197,15 @@
 			rewards: [{
 				id: "70B1B6145A50958A"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 		{
 			title: "Hook Modification System"
-			x: -0.75d
-			y: -2.25d
+			icon: "grapplemod:block_grapple_modifier"
+			x: -0.25d
+			y: -0.75d
 			shape: "rsquare"
 			description: [
 				"&bYour Grappling Hooks can be upgraded and modified in a variety of ways, to help you tackle all sorts of terrain."
@@ -326,42 +237,10 @@
 			}]
 		}
 		{
-			title: "Safely Falling"
-			x: 0.25d
-			y: -0.25d
-			shape: "rsquare"
-			description: [
-				"&bUsing Grappling Hooks and similar tools always comes with an inherent risk : that of biffing a hook launch and, as they say, eating dirt. And if you are pretty high up, thats a lot of dirt in your face."
-				""
-				"&bYou could carry a lot of Slow Fall potions, but that's a lot to keep drinking just to be safe. Lot more things to worry about while adventuring about, right?"
-				""
-				"&bWell, if you find yourself a pair of Diamond Boots, and get a Slow Fall IV enchant on them, you can bring them over to the Grappling Hook Modifier to transform them into a pair of Long Fall Boots."
-				""
-				"&bThese will prevent all fall damage as long as you wear them."
-			]
-			dependencies: ["196E6348EEEB900B"]
-			id: "6F9A7BF3D0F5AF2D"
-			tasks: [{
-				id: "2CF96C310E9FFB8F"
-				type: "item"
-				item: {
-					id: "grapplemod:longfallboots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "246F80B06AFD1001"
-				type: "choice"
-				table_id: 2245246540467579945L
-			}]
-		}
-		{
 			title: "Attract and Repel"
+			icon: "grapplemod:magnetupgradeitem"
 			x: 0.25d
-			y: -2.25d
+			y: -1.75d
 			shape: "rsquare"
 			description: [
 				"&bThis pair of upgrades is quite useful if you aren't getting the hang of aiming the Grappling Hook or swinging without smacking into stuff."
@@ -392,8 +271,9 @@
 		}
 		{
 			title: "Hooking Better"
+			icon: "grapplemod:doubleupgradeitem"
 			x: -0.75d
-			y: -1.25d
+			y: -1.75d
 			shape: "rsquare"
 			description: [
 				"&bThe Double Grappling Hook Upgrade lets you fire out two grappling hooks at once. This is great for traversing down ravines, city streets, and more. It also gives you double the chance of hooking a block, since you only need one of them to hook!"
@@ -422,8 +302,9 @@
 		}
 		{
 			title: "Rope Business"
+			icon: "grapplemod:swingupgradeitem"
 			x: -0.75d
-			y: -3.25d
+			y: -2.75d
 			shape: "rsquare"
 			description: [
 				"&bThe Rope Grappling Hook upgrade lets you change the length of the rope. "
@@ -452,8 +333,9 @@
 		}
 		{
 			title: "Speeeeed!"
+			icon: "grapplemod:rocketupgradeitem"
 			x: 0.25d
-			y: -3.25d
+			y: -2.75d
 			shape: "rsquare"
 			description: [
 				"&bThe Motor upgrade attatches a motor to your Hook reel, making it automatically reel in you when it hooks a block. You can modify it in the Modifier to change when it reels in."
@@ -484,8 +366,8 @@
 		}
 		{
 			title: "(Mostly) Unlimited Grapples!"
-			x: -0.25d
-			y: -4.25d
+			x: -0.75d
+			y: -3.75d
 			shape: "rsquare"
 			description: [
 				"&bThe Limits Upgrade will unlock the potential of your Modifier block. Most every upgrade you can install has control limits in place..."
@@ -509,10 +391,10 @@
 		}
 		{
 			title: "Sleeping Under the Stars"
-			x: 1.75d
-			y: 3.75d
-			shape: "square"
-			subtitle: "Mod : Comforts"
+			x: -4.75d
+			y: -2.25d
+			shape: "diamond"
+			subtitle: "MOD : Comforts (@comforts)"
 			description: [
 				"&bIf you're travelling around far from home, it's not always a great idea to sleep in a temporary bed, yeah?"
 				""
@@ -527,33 +409,14 @@
 			id: "4C1D2328FC2ABE81"
 			tasks: [
 				{
-					id: "4FEC23882A9CFC4F"
-					type: "item"
-					title: "Any Sleeping Bag"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tfb2:comfort_sleepingbag"
-						}
-					}
-				}
-				{
-					id: "762BAFE29C396412"
-					type: "item"
-					title: "Any Hammock"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tfb2:comfort_hammock"
-						}
-					}
-				}
-				{
 					id: "2D4B07B5C9FDD6AC"
 					type: "item"
 					item: "comforts:rope_and_nail"
+				}
+				{
+					id: "19524385EFAA3280"
+					type: "checkmark"
+					title: "ADD SLEEPING BAGS TAG"
 				}
 			]
 			rewards: [{
@@ -564,29 +427,62 @@
 		}
 		{
 			title: "Take it With You"
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 27
+					upgradeSlots: 2
+					renderInfo: {
+						upgradeItems: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+							}
+						]
+					}
+					contentsUuid: [I;
+						-304349604
+						499729053
+						-1367077136
+						1539587766
+					]
+				}
+			}
 			x: -2.25d
-			y: 3.75d
+			y: 3.25d
 			shape: "square"
-			subtitle: "MOD : Backpacked"
+			subtitle: "MOD : Sophisticated Backpacks (@sophisticatedbackpacks)"
 			description: [
-				"&bEver been adventuring around, find yourself a good set of ruins, and all kind of goodies... and just not had the inventory space for all the goodies? Happens to the best of us!"
+				"&bEver been adventuring around, find yourself a good set of ruins, and all kind of goodies... and just not had the inventory space for all the treasure? Happens to the best of us!"
 				""
-				"&bBut what adventurer isn't without a Backpack at least? The FOPGame Server has a single option, but it's quite customizable. It's called Backpacked."
+				"&bBut what adventurer isn't without a Backpack at least? The FOPGame Server has a single option, but it's quite customizable. It's called Sophisticated Backpacks!"
 				""
-				"&bThe Backpacked backpack gives you three additional rows of inventory space, and it fits conveniently in your Curios slot for a backpack! Once equipped, you can open it by pressing the B key."
+				"&bThe Sophisticated Backpacks come in multiple tiers, and the first tier (the Pouch) gives you 3 extra rows of inventory space!"
 				""
-				"&bWhen you have your backpack open, you can customize the look with the upper right Customize button. Many of the designs are locked behind achievements and tasks, though..."
+				"&bWith your Backpack open, you'll see there's slots on the left side for Upgrades. The bigger the Backpack, the more Upgrades you can use!"
 				""
-				"&bThe Backpack can also be enchanted with a variety of unique enchants."
+				"&bWhen you add an Upgrade, like say the Pickup Upgrade, new tabs will appear at the right side to customize those Upgrades."
 			]
 			hide_dependency_lines: true
 			dependencies: ["45A4E38A1E2BA965"]
 			id: "14C1EE7794D7D6FC"
-			tasks: [{
-				id: "3F24267A506836AD"
-				type: "item"
-				item: "backpacked:backpack"
-			}]
+			tasks: [
+				{
+					id: "3F24267A506836AD"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "57A3E85857C45C53"
+					type: "item"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+				}
+			]
 			rewards: [{
 				id: "3E27CBA85412E682"
 				type: "choice"
@@ -594,47 +490,53 @@
 			}]
 		}
 		{
-			title: "Show It Off"
+			title: "Two Pouches, Four Pouches!"
+			icon: "sophisticatedbackpacks:iron_backpack"
 			x: -2.25d
-			y: 4.75d
+			y: 4.25d
 			shape: "rsquare"
+			subtitle: "Ah Ah Ah!"
 			description: [
-				"&bMany of the Backpack designs you can unlock look really good, and what adventurer doesn't like showing off their collections?"
+				"&4&lRESEARCH : &r&4DOUBLE POUCHES"
+				"&4&lRESEARCH : &r&4BELTS"
 				""
-				"&bBy putting up a Backpack Shelf, you can put your Backpack on it to show off the design."
+				"&bAs you explore more, and run more Vaults, you'll no doubt be wanting more space for treasure!"
 				""
-				"&bEven better, you can use things like Hoppers to interact with the displayed Backpack!"
+				"&bSure, you could just fill your inventory with Pouches, but then you'd need to make Upgrades for, and set up, every pouch. That's so much work!"
+				""
+				"&bThink smarter AND harder, thats the exploration motto. Each tier of the Sophisticated Backpacks not only adds more inventory space, they also add more Upgrade slots!"
 			]
 			dependencies: ["14C1EE7794D7D6FC"]
 			id: "702F6166212848CD"
-			tasks: [{
-				id: "1BE333698051E8E3"
-				type: "item"
-				title: "Any Backpack Shelf"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "tfb2:backpackeds"
-					}
+			tasks: [
+				{
+					id: "2A9664742ACB97D8"
+					type: "item"
+					item: "sophisticatedbackpacks:iron_backpack"
 				}
-			}]
+				{
+					id: "0F7CB99B765A3D28"
+					type: "item"
+					item: "sophisticatedbackpacks:gold_backpack"
+				}
+			]
 			rewards: [{
-				id: "435F760DBDF11C8F"
+				id: "253DB51BD1B18871"
 				type: "choice"
-				table_id: 2640422954496342337L
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 		{
-			title: "Exploring with Purpose"
-			x: 1.75d
-			y: -0.25d
+			title: "Exploring Nature"
+			x: -2.5d
+			y: 1.75d
 			shape: "square"
-			subtitle: "MOD : Nature's Compass"
+			subtitle: "MOD : Nature's Compass (@naturescompass)"
 			description: [
 				"&bMany times, you aren't exploring just to explore, sometimes you got a purpose. You need a specific material, or a certain animal, or a new place to build."
 				""
-				"&bAnd the FOPGame Server's Hex Land layout and large number of biomes makes it tricky to find what you want sometimes."
+				"&bAnd the FOPGame Server's somewhat erratic world generation layout and large number of biomes makes it tricky to find what you want sometimes."
 				""
 				"&bSo, the FOP added in a little tool for Users called the Nature's Compass."
 				""
@@ -662,36 +564,27 @@
 		}
 		{
 			title: "Stones Show the Way"
-			x: -0.75d
-			y: 3.75d
+			x: -0.25d
+			y: 3.25d
 			shape: "square"
-			subtitle: "MOD : Waystones"
+			subtitle: "MOD : Waystones (@waystones)"
 			description: [
-				"&bYou've no doubt encountered by now, as I'm pretty sure the FOPGame Server starts you off with one, is Waystones. It's their version of a fast travel system."
+				"&4&lRESEARCH: &r&4WAYSTONES"
+				""
+				"&bYou've no doubt encountered by now, if you've been visiting Villages, is Waystones. It's the FOP Game Server's basic version of a fast travel system."
 				""
 				"&bYou can find Waystones in Villages and scattered around the wilderness. Right Clicking one will bind the location in your memory, and as long as the Waystone isn't removed, you can teleport to it via a few different means."
 				""
-				"&bThe cheapest 'early game' way, aside from using a Waystone to teleport to another Waystone, is the use of Return and Bound Scrolls."
-				""
-				"&bReturn Scrolls simply teleport you back to the last Waystone you touched."
-				""
-				"&bBound Scrolls, however, can be Right Clicked onto a Waystone to save that Waypoint's location. Then using the Bound Scroll will teleport you to that saved Waystone."
+				"&bUnlocking the Research enables you to craft your own Waystones, and other Waystone adjacent tools."
 			]
 			hide_dependency_lines: true
 			dependencies: ["45A4E38A1E2BA965"]
 			id: "49705D26D234B0EB"
-			tasks: [
-				{
-					id: "32AFB9F6FD5CF614"
-					type: "item"
-					item: "waystones:return_scroll"
-				}
-				{
-					id: "0276D2E5804E3610"
-					type: "item"
-					item: "waystones:bound_scroll"
-				}
-			]
+			tasks: [{
+				id: "5E53C2EB5BCF9C17"
+				type: "item"
+				item: "waystones:waystone"
+			}]
 			rewards: [{
 				id: "7D8BA8C83E1FDF85"
 				type: "choice"
@@ -700,34 +593,27 @@
 		}
 		{
 			title: "Back to Hearth, Back to Stone"
-			x: -0.75d
-			y: 4.75d
+			x: -0.25d
+			y: 4.25d
 			shape: "rsquare"
 			description: [
-				"&bIf you want more control over where your teleports take you, create a Warp Scroll. These let you choose any Waystone in your list."
+				"&bIf you want more control over where your teleports take you, create a Warp Stone. This lets you choose any Waystone in your list."
 				""
-				"&bThe Warp Stone is a more permant version of the Warp Scroll. The downside is there is a 5 minute cooldown between uses."
+				"&bThere will be a cooldown after you use it, however."
 			]
 			dependencies: ["49705D26D234B0EB"]
 			id: "3C533A41BD14F645"
-			tasks: [
-				{
-					id: "2DDC2C5A5A3EBD4D"
-					type: "item"
-					item: "waystones:warp_scroll"
-				}
-				{
-					id: "3E788348096D3500"
-					type: "item"
-					item: {
-						id: "waystones:warp_stone"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "3E788348096D3500"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 			rewards: [{
 				id: "706A163FB6BBC6E3"
 				type: "choice"
@@ -736,8 +622,8 @@
 		}
 		{
 			title: "The Stones Themselves"
-			x: 0.25d
-			y: 3.75d
+			x: -0.75d
+			y: 5.25d
 			shape: "rsquare"
 			description: [
 				"&bNow, while you've been able to collect various Waystones around the game server, they aren't always plentiful. So, being able to make your own is a good thing."
@@ -748,18 +634,11 @@
 			]
 			dependencies: ["3C533A41BD14F645"]
 			id: "429DCA169BFD7877"
-			tasks: [
-				{
-					id: "1DF1FBC6F4D512B0"
-					type: "item"
-					item: "waystones:waystone"
-				}
-				{
-					id: "50A6240FBEFB0C3F"
-					type: "item"
-					item: "waystones:portstone"
-				}
-			]
+			tasks: [{
+				id: "50A6240FBEFB0C3F"
+				type: "item"
+				item: "waystones:portstone"
+			}]
 			rewards: [{
 				id: "61D595FA272FFD0C"
 				type: "choice"
@@ -768,8 +647,9 @@
 		}
 		{
 			title: "More Personal Stones"
+			icon: "waystones:warp_plate"
 			x: 0.25d
-			y: 4.75d
+			y: 5.25d
 			shape: "rsquare"
 			description: [
 				"&bIf you are wanting to make a bit more of a enclosed Waystone system... one that isn't connected to the 'main' system, then you want to make a Sharestone network."
@@ -800,6 +680,882 @@
 				id: "122B22B61184056E"
 				type: "choice"
 				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Finding the Chests"
+			x: -3.25d
+			y: -0.75d
+			shape: "rsquare"
+			subtitle: "What a Nice Box"
+			description: [
+				"&bNow finding ores is all well and good, those Bird Gems are quite annoying to find I hear. "
+				""
+				"&bBut what's more annoying is trying to find the right chests you need! The Vaults are full of them, of course, but not all what you are needing."
+				""
+				"&bThe Vault Chest Finder can be quite a useful tool to you in the Vaults, Bandit. They'll point colored lines towards the different chests, just gotta sort through what color is what."
+			]
+			dependencies: ["4645334A0EDD87AA"]
+			id: "653BD90756C79B00"
+			tasks: [{
+				id: "3A54A28CB0F6530F"
+				type: "item"
+				item: {
+					id: "adfinders:metal_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "301157942AD2A6B8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Monumental Finder"
+			x: -3.25d
+			y: -1.75d
+			shape: "rsquare"
+			subtitle: "The Most Important Thing to Find"
+			description: [
+				"&bChests, Ores, there's lots of em, they are easy to find or not, you'll trip over them at some point."
+				""
+				"&bCompleting the objective needs you to find one block in a giant room usually! Or one block in every giant room!"
+				""
+				"&bThe Vault Objective Finder will point towards your Monoliths, your Bounty Tables, your Alchemy Cauldrons, etc."
+				""
+				"&bThey'll also point towards neat things like Vault Pylons, Vendoors, etc!"
+			]
+			dependencies: ["653BD90756C79B00"]
+			id: "2E06F77F8D4C9A01"
+			tasks: [{
+				id: "139E1BBE65F9A308"
+				type: "item"
+				item: {
+					id: "adfinders:gem_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EEBF28C7F3E3C97"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Bigger...BIGGER!"
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			x: -2.25d
+			y: 5.25d
+			shape: "rsquare"
+			subtitle: "Room For Almost Everything"
+			description: [
+				"&l&4RESEARCH : &r&4BACKPACKS"
+				"&l&4RESEARCH : &r&4BIG BACKPACK"
+				""
+				"&bNeed more room? Time to stop stringing together pouches and just get a bigger bag, Bandit!"
+				""
+				"&bStill not enough? Go even bigger!"
+			]
+			dependencies: ["702F6166212848CD"]
+			id: "40EFE07AF82FA5A7"
+			tasks: [
+				{
+					id: "67A01A80AA7B0C56"
+					type: "item"
+					item: "sophisticatedbackpacks:diamond_backpack"
+				}
+				{
+					id: "302288EDD5D5D4C7"
+					type: "item"
+					item: "sophisticatedbackpacks:netherite_backpack"
+				}
+			]
+			rewards: [{
+				id: "4BEECBE8C3F53C85"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "B I G G E S T!"
+			x: -2.25d
+			y: 6.25d
+			shape: "rsquare"
+			subtitle: "...And The Kitchen Sink"
+			description: [
+				"&l&4RESEARCH : &r&4BIG BACKPACK"
+				""
+				"&bStill not enough room? Of course not, exploring always leads to lots of things to collect, lots of treasures to keep!"
+				""
+				"&bIt's costly, of course, but well worth it!"
+			]
+			dependencies: ["40EFE07AF82FA5A7"]
+			id: "13A6F773BA31E9BB"
+			tasks: [{
+				id: "562B3EA784A11194"
+				type: "item"
+				item: "woldsvaults:xl_backpack"
+			}]
+			rewards: [{
+				id: "4E993C237A0B4979"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			title: "Chipped Upgrades"
+			icon: "sophisticatedbackpacks:chipped/tinkerer_workbench_upgrade"
+			x: -4.25d
+			y: 6.25d
+			shape: "rsquare"
+			subtitle: "Not Like MicroChi...Oh Nevermind"
+			description: ["&bIf you are doing a big build and don't want to be dashing back to a crafting area often, you can make a bunch of Chipped workbench upgrades for your Sophisticated Backpack!"]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "0230A560CBDA8F6C"
+			tasks: [
+				{
+					id: "772FB9399A195CFC"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/shepherd_workbench_upgrade"
+				}
+				{
+					id: "1C81C3A57D49292B"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/philosopher_workbench_upgrade"
+				}
+				{
+					id: "4A7F1B11A3EB2B56"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/glassblower_workbench_upgrade"
+				}
+				{
+					id: "63879D0A0B16C32B"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
+				}
+				{
+					id: "224C00D57F3AF208"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/carpenter_workbench_upgrade"
+				}
+				{
+					id: "56492E07DBE4B8D9"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/tinkerer_workbench_upgrade"
+				}
+				{
+					id: "09D5C27CCE49BAE4"
+					type: "item"
+					item: "sophisticatedbackpacks:chipped/mason_workbench_upgrade"
+				}
+			]
+			rewards: [{
+				id: "2F3DDC9259F514CB"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Not Everything All At Once"
+			icon: "sophisticatedbackpacks:filter_upgrade"
+			x: -5.25d
+			y: 5.25d
+			shape: "rsquare"
+			subtitle: "Vetting Entrance"
+			description: [
+				"&bA powerful thing to set up early, Bandit, is filtering on your Backpacks!"
+				""
+				"&bUsing either the Filter Upgrade and/or Create's Filters, you can configure Backpacks to only accept specific items, or specific tags of items."
+				""
+				"&bAnd with the Void upgrade, you can have a maximum amount of an item before your Backpack will just destroy all excess of that item. Quite handy when you only want a couple stacks of something, like Vault Junk, but not thousands of it."
+				""
+				"&bIf you have an Upgrade that identifies or changes an item? Say, a Compacting upgrade or an Identification upgrade? And you want those changed items in a different Backpack? Use the Dropper Upgrade! It'll drop all items that match its filter so other bags can pick them up."
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "5343D6DE79BF7838"
+			tasks: [
+				{
+					id: "215B139A5B4E2EE7"
+					type: "item"
+					item: "sophisticatedbackpacks:filter_upgrade"
+				}
+				{
+					id: "0B17755998C38AF5"
+					type: "item"
+					item: "sophisticatedbackpacks:void_upgrade"
+				}
+				{
+					id: "02DE2694D0FF5B7C"
+					type: "item"
+					item: "sophisticatedbackpacks:drop_upgrade"
+				}
+			]
+			rewards: [{
+				id: "05C58FD314563FB6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "Dismantle and Diffuse"
+			icon: "sophisticatedbackpacks:diffuser_upgrade"
+			x: -4.25d
+			y: 3.25d
+			shape: "rsquare"
+			subtitle: "Getting Parts and Pieces"
+			description: [
+				"&bThere are special Vault machine Upgrades you can add to your Sophisticated Backpack to keep them neat and organized on the go. They are basically portable versions of the regular Vault machine."
+				""
+				"&bNote that these both work best when filtering for specifics, so that you don't lose excellent Gear or Materials."
+				""
+				"&bThe first is the Vault Diffuser, which will break down items that have a Soul Value."
+				""
+				"&bThe second is the Vault Recycler, which will break down Vault Gear."
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "22021C72011DC4BF"
+			tasks: [
+				{
+					id: "1CAD85F2E1F67007"
+					type: "item"
+					item: "sophisticatedbackpacks:recycler_upgrade"
+				}
+				{
+					id: "668105DCA5BB304A"
+					type: "item"
+					item: "sophisticatedbackpacks:diffuser_upgrade"
+				}
+			]
+			rewards: [{
+				id: "3EFC6F4B03E3D1F1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Identify Everything"
+			icon: "sophisticatedbackpacks:identification_upgrade"
+			x: -3.25d
+			y: 3.25d
+			shape: "rsquare"
+			subtitle: "Roll and Open That Box"
+			description: [
+				"&bExploring and looting Vaults gets you two major things : materials to craft with, and Gear to run Vaults better with!"
+				""
+				"&bBut as you get better at exploring, looting, and going faster in Vaults, you'll start amassing more materials and more Gear each run, which take longer to open up and identify."
+				""
+				"&bEnter the Vault Opener and Vault Identifier upgrades!"
+				""
+				"&bThe Vault Opener will open up those Jewel Bags and Card Booster Packs for you, while the Vault Identifier will examine any Unidentified Gear that enters that Backpack."
+				""
+				"&bIf you combine these with Filters and other Vault Backpack Upgrades, you can get a nice little automated setup that breaks down low tier Gear for you!"
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "6312DE91EE254E18"
+			tasks: [
+				{
+					id: "72CCA2EA1DA600D0"
+					type: "item"
+					item: "sophisticatedbackpacks:identification_upgrade"
+				}
+				{
+					id: "765F8993A0FE8F7C"
+					type: "item"
+					item: "sophisticatedbackpacks:opener_upgrade"
+				}
+			]
+		}
+		{
+			title: "Jingling Treasure Keys"
+			x: -5.25d
+			y: 3.25d
+			shape: "rsquare"
+			subtitle: "This one is for the Car...This one is for the lockbox..."
+			description: [
+				"&bThe FOP have their own special Treasure Keyring thing that lets you store Treasure Keys on it, and it'll automatically choose the right Key (if you have it) and open Treasure doors it's used on."
+				""
+				"&bBut you can do better with the Activator Upgrade! This'll use the appropriate key from the Backpack this is installed in when you Right Click any Treasure Door."
+				""
+				"&bNo need to fumble with a keyring, or dig out keys from the bottom of a huge Backpack!"
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "17C9C5E3099CDE97"
+			tasks: [{
+				id: "6D72AABAB3ED28F0"
+				type: "item"
+				item: "sophisticatedbackpacks:activator_upgrade"
+			}]
+			rewards: [{
+				id: "3052D255F5C44A7A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Basically Upgrading"
+			icon: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+			x: -4.25d
+			y: 4.25d
+			shape: "rsquare"
+			subtitle: "Built In Flashlight Not Included"
+			description: [
+				"&bWhile it's easy to craft and set down things like a Crafting Table or a Furnace, it's much smarter to have them built into your Backpack!"
+				""
+				"&bYou can also make an Anvil Upgrade to bring repairs into a Vault as well!"
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "7E67AE6AA0213099"
+			tasks: [
+				{
+					id: "37ED27715B18BC0B"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:crafting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
+					}
+				}
+				{
+					id: "5C070368DB3DB9D2"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:smelting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
+					}
+				}
+				{
+					id: "745C8A256556D538"
+					type: "item"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+				}
+			]
+			rewards: [{
+				id: "1BF4AC5DC978428A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Not Quite Advanced Upgrading"
+			icon: "sophisticatedbackpacks:stonecutter_upgrade"
+			x: -3.25d
+			y: 5.25d
+			shape: "rsquare"
+			subtitle: "Still No Flashlight..."
+			description: ["&bThere are more basic crafting Machines you can make Upgrades of, like the Blast Furnace or the Stone Cutter."]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "60EE40F46B855FDB"
+			tasks: [
+				{
+					id: "60F6B5733E652250"
+					type: "item"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+				}
+				{
+					id: "60B03E32E1196FB5"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:blasting_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
+					}
+				}
+				{
+					id: "35EF2EADE8DE3E2F"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:smoking_upgrade"
+						Count: 1b
+						ForgeCaps: {
+							"polymorph:stack_recipe_data": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1297482566EAAAEC"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Tooling Upgrades"
+			icon: "sophisticatedbackpacks:battery_upgrade"
+			x: -3.25d
+			y: 6.25d
+			shape: "rsquare"
+			subtitle: "The Right Tool In The Right Place"
+			description: [
+				"&l&4RESEARCH : &r&4BACKPACK UPGRADES 1"
+				"&l&4RESEARCH : &r&4MISC BAG UPGRADES"
+				""
+				"&bSome of the Upgrades you can add to your Backpacks are quite helpful with your tools."
+				""
+				"&bThe Battery Upgrade is great if you've unlocked some mods with energy dependant tools. While most of these will pale in comparison to the Vault Tools you can make, there's many Utility tools as well as Overworld tools that are great."
+				""
+				"&bThe Refill Upgrade is great if you are building or have a few blocks and food items in your hotbar you use constantly. It will refill items from the Backpack into the proper slot."
+				""
+				"&bAnd the Tool Swapper Upgrade can't be used in Vaults for... well, you want to use your Vault Tool anyways. But can be quite handy when exploring outside of Vaults, right? Just swaps your tool to the appropriate one for harvesting/breaking the block you are looking at."
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "7363C04CA3959DB8"
+			tasks: [
+				{
+					id: "22589B7A564E807E"
+					type: "item"
+					item: "sophisticatedbackpacks:battery_upgrade"
+				}
+				{
+					id: "63ABEDBEA2D20606"
+					type: "item"
+					item: "sophisticatedbackpacks:refill_upgrade"
+				}
+				{
+					id: "6AFC3EBFC8F1A6CE"
+					type: "item"
+					item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				}
+			]
+			rewards: [{
+				id: "23BAAF69E95D1CFF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Tank of Your Own"
+			icon: "sophisticatedbackpacks:tank_upgrade"
+			x: -5.25d
+			y: 4.25d
+			shape: "rsquare"
+			subtitle: "A Camelback And Then Some"
+			description: [
+				"&l&4RESEARCH : &r&4MISC BAG UPGRADES"
+				""
+				"&bWith the Pump and Tank Upgrades, you can turn part of your Backpack into a Liquid Tank! "
+				""
+				"&bThese let you move and store liquids to and from your Backpack, using the Tank as storage space."
+				""
+				"&bWith the Experience Pump, you can use the Tank to store Experience from yourself instead of another liquid."
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "7E850D23CFBC4CE1"
+			tasks: [
+				{
+					id: "0695CE69DD3ABD83"
+					type: "item"
+					item: "sophisticatedbackpacks:pump_upgrade"
+				}
+				{
+					id: "03495A2344F97730"
+					type: "item"
+					item: "sophisticatedbackpacks:xp_pump_upgrade"
+				}
+				{
+					id: "34D42647C1E5E29D"
+					type: "item"
+					item: "sophisticatedbackpacks:tank_upgrade"
+				}
+			]
+			rewards: [{
+				id: "4A8E82047403F8F2"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Storage Helpers"
+			icon: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			x: -5.25d
+			y: 6.25d
+			shape: "rsquare"
+			subtitle: "Cram More and More and More In!"
+			description: [
+				"&l&4RESEARCH : &r&4BACKPACK UPGRADES 1"
+				""
+				"&bHaving more inventory slots is all well and good, Bandit, but that isn't making use of the space effectively!"
+				""
+				"&bWhile out adventuring, you regularly find lots of one item. But a stack only holds so much. And each stack takes an inventory slot... so why not increase the number of stacks in a slot?"
+				""
+				"&bThe Stack Upgrade comes in multiple tiers, each one multiplying the number of stacks in a slot. And if you use multiple Stack upgrades, the next one will stack on top of the first, making them even better!"
+				""
+				"&bTo better utilize Backpack space, if you get a lot of an item that can 'compress' with a 2x2 or 3x3 recipe (like iron ingots into an iron block), then the Compacting Upgrade is your friend! It will automatically compress these items for you."
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "126454FAD4F09736"
+			tasks: [
+				{
+					id: "75F4C8D6622AF9ED"
+					type: "item"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+				{
+					id: "43F4DD8B46FBA36E"
+					type: "item"
+					item: "sophisticatedbackpacks:compacting_upgrade"
+				}
+			]
+			rewards: [{
+				id: "6CBA37FC0B6EB976"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Take Out Bag"
+			x: -3.25d
+			y: 4.25d
+			shape: "rsquare"
+			subtitle: "Feed Me Seymour"
+			description: [
+				"&l&4RESEARCH : &r&4BACKPACK UPGRADES 1"
+				""
+				"&bIf you are on the go and don't got the time to feed yourself (which, to be honest, you are stuck in a video game world, I totally understand, Bandit!) then you can use a Feeding Upgrade to avoid the boring stuff."
+				""
+				"&bThis Upgrade will automatically feed you food from the Backpack. Plain and simple."
+				""
+				"&bThough, that makes me wonder... you probably taste things being actually in there. But does it taste the same as in Real Life?"
+				""
+				"&bMaybe that's why everything tastes like chicken... oh no..."
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "22CD357473540E5F"
+			tasks: [{
+				id: "41066C8C51B51ED0"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "258574137B4BC5A3"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2640422954496342337L
+			}]
+		}
+		{
+			title: "The Limitless Upgrades"
+			icon: "sophisticatedbackpacks:everlasting_upgrade"
+			x: -4.25d
+			y: 5.25d
+			shape: "rsquare"
+			subtitle: "Is There No End?"
+			description: [
+				"&l&4RESEARCH : &r&4MISC BAG UPGRADES"
+				"&l&4RESEARCH : &r&4BAG INCEPTION"
+				""
+				"&bHey Bandit, I've talked with a few of the other researchers and the CEOs, and we've come up with some... special Backpack Upgrades for you!"
+				""
+				"&bNormally items that are left on the floor in the FOP Game Server are deleted after a few minutes."
+				""
+				"&bBut with the Everlasting Upgrade, your Backpack will be ignored if its fallen on the floor! Or if its fallen into the Void thats at the bottom of each dimension!"
+				""
+				"&bThe other one is the Inception Upgrade. Now, normally, you can't stack Backpacks inside of Backpacks. Things can get very silly, and even the FOP doesn't want the horrors that could create with their mess of a code."
+				""
+				"&bToo bad for them, with the Inception Upgrade, you now can!"
+			]
+			dependencies: ["14C1EE7794D7D6FC"]
+			id: "40B3A3213B83C1D6"
+			tasks: [
+				{
+					id: "31AF9D977A8AB643"
+					type: "item"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+				}
+				{
+					id: "50BA4234FA7F5BC1"
+					type: "item"
+					item: "sophisticatedbackpacks:inception_upgrade"
+				}
+			]
+			rewards: [{
+				id: "1585C46620804415"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2245246540467579945L
+			}]
+		}
+		{
+			x: 5.75d
+			y: 3.25d
+			shape: "diamond"
+			subtitle: "MOD : Animalistic (@animalistic_a)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "2F113EA9FE5C7D95"
+			tasks: [{
+				id: "756CC03F32E61CDF"
+				type: "item"
+				item: "animalistic_a:purple_talisman"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "MOD : Camera Mod (@camera)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "522284ADE5BFAC56"
+			tasks: [{
+				id: "45FC1C9ABF0EFD9F"
+				type: "item"
+				item: "camera:camera"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "MOD : Crafting On A Stick (@crafting_on_a_stick)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "494D2F75D843B656"
+			tasks: [{
+				id: "3538BA3EB3294F0D"
+				type: "item"
+				item: "crafting_on_a_stick:crafting_table"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 0.25d
+			shape: "diamond"
+			subtitle: "MOD : Critters and Companions (@crittersandcompanions)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "318FB927770F04F7"
+			tasks: [{
+				id: "4053033EF0B45AA8"
+				type: "item"
+				item: "crittersandcompanions:koi_fish"
+			}]
+		}
+		{
+			title: "Exploring Civilization"
+			x: -4.0d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "MOD : Explorer's Compass (@explorerscompass)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "5D7FD7BDFC0DA727"
+			tasks: [{
+				id: "658D4FF203D11DA7"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "MOD : Lootr"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "25336EE1954336D4"
+			tasks: [{
+				id: "0B8A70495B580715"
+				type: "observation"
+				title: "Look at a Lootr Chest"
+				icon: "lootr:lootr_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "lootr:lootr_chest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "MOD : Morph-o-Tool (@morphtool)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "7B96FFFDADE2AD5D"
+			tasks: [{
+				id: "517B855C590E86CF"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 0.25d
+			shape: "diamond"
+			subtitle: "MOD : Naturalist (@naturalist)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "4BC08C050D38E1A9"
+			tasks: [{
+				id: "7352968CCF216378"
+				type: "item"
+				item: "naturalist:teddy_bear"
+			}]
+		}
+		{
+			title: "Remnants of Those Before"
+			icon: "the_vault:vault_stone_bricks_cracked"
+			x: -1.75d
+			y: 0.25d
+			shape: "diamond"
+			subtitle: "MOD : OverVaults"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "74FD4B1F9F2EFCA2"
+			tasks: [{
+				id: "3DCE747FCA3733D0"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Exploring Community"
+			x: -5.5d
+			y: 1.75d
+			shape: "diamond"
+			subtitle: "Player Tracking Compass (@playertrackingcompass)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "09F17D5CDF9F2439"
+			tasks: [{
+				id: "2AC98E0029891645"
+				type: "item"
+				item: "playertrackingcompass:tracking_compass"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 0.25d
+			shape: "diamond"
+			subtitle: "MOD : Scannable (@scannable)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "4728E908F7E8A928"
+			tasks: [{
+				id: "1B5EB62196FD3497"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "MOD : Toolbelt (@toolbelt)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "674537CFEE0737E4"
+			tasks: [{
+				id: "5A78F181A3B6D9E1"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "MOD : Tropicraft (@tropicraft)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "3F571F2AAE26D449"
+			tasks: [{
+				id: "3C001FCF777A68E9"
+				type: "item"
+				item: "tropicraft:pina_colada"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.25d
+			shape: "diamond"
+			subtitle: "MOD : Ultimate Car Mod (@car)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "56D3F050E9FD9245"
+			tasks: [{
+				id: "46D1116D45924183"
+				type: "item"
+				item: "car:gas_station"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 3.25d
+			shape: "diamond"
+			subtitle: "MOD : ViesCraft Machines (@viescraftmachines)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "4101AF22C9DF793C"
+			tasks: [{
+				id: "7D959744B0C18F52"
+				type: "item"
+				item: "viescraftmachines:xegonite_shard"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 0.25d
+			shape: "diamond"
+			subtitle: "MOD : Ecologics (@ecologics)"
+			description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+			hide_dependency_lines: true
+			dependencies: ["45A4E38A1E2BA965"]
+			id: "25D40323E454A028"
+			tasks: [{
+				id: "35646C1A4843736A"
+				type: "item"
+				item: "ecologics:seashell"
 			}]
 		}
 	]
