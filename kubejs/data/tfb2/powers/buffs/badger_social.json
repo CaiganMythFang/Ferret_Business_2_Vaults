@@ -1,0 +1,16 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Less Exhaustion Near other players",
+    "value": -0.2,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=1..10]",
+          "comparison": "==",
+          "compare_to": 1
+  },
+    "name": "§2§nSocial Energy",
+    "description": "While you are territorial, you like to be social. You exhaust slower when near other players."
+}
