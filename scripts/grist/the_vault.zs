@@ -8,6 +8,15 @@ import mods.projecte.NSSResolver;
 
 // List of items
 val alchemyBroken as int[IItemStack] = {
+    <item:the_vault:magnet> : 0, 
+    <item:the_vault:jewel> : 0, 
+    <item:woldsvaults:trinket_pouch> : 0, 
+    <item:the_vault:trinket> : 0, 
+    <item:the_vault:augment> : 0, 
+    <item:the_vault:vault_catalyst_infused> : 0, 
+    <item:the_vault:deck_socket> : 0, 
+    <item:the_vault:card_deck> : 0, 
+    <item:the_vault:rang> : 0, 
     <item:the_vault:faceted_focus> : 0, 
     <item:the_vault:card> : 0,
     <item:the_vault:inscription> : 0,
@@ -37,6 +46,6 @@ val alchemyBroken as int[IItemStack] = {
 // For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
 for item, value in alchemyBroken {
     item.modifyTooltip((stack, tooltip, flag) => {
-        tooltip.insert(1, "§k_§rAlchemy: §4Broken");
+        tooltip.insert(1, "§k_§r§4Combine with Alchemy Crate to be able to Break Down");
     });
 }
