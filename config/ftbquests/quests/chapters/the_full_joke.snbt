@@ -1,0 +1,23 @@
+{
+	id: "58C46442CD9A5176"
+	group: "60BEB9317550F0F5"
+	order_index: 0
+	filename: "the_full_joke"
+	title: "[Z] The Full Joke"
+	subtitle: ["Avaritia, Am I Serious?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.25d
+		y: 0.5d
+		subtitle: "Avaritia"
+		dependencies: ["1E1457C794B6792E"]
+		id: "56818576839B88B6"
+		tasks: [{
+			id: "15430F3F2323E07E"
+			type: "item"
+			item: "avaritia:iron_singularity"
+		}]
+	}]
+	quest_links: [ ]
+}
