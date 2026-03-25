@@ -2,7 +2,7 @@
 [Gem]
 	#How far from a player in horizontal plane ores can be found
 	#Range: 1 ~ 64
-	scanRadius = 6
+	scanRadius = 32
 	#How far from a player in vertical plane ore veins can be found
 	#Range: 1 ~ 384
 	pingDepth = 32
@@ -11,10 +11,10 @@
 	veinMinSize = 1
 	#Minimal size of an ore deposit to get alarm
 	#Range: 1 ~ 1024
-	depositMinSize = 16
+	depositMinSize = 1
 	#How many hits the finder can withstand
 	#Range: 0 ~ 65535
-	durability = 4
+	durability = 0
 	#List of allowed targets. If set, forbidden targets will be ignored
 	allowedTargets = []
 	#List of forbidden targets
@@ -23,19 +23,19 @@
 [Metal]
 	#How far from a player in horizontal plane ores can be found
 	#Range: 1 ~ 64
-	scanRadius = 8
+	scanRadius = 32
 	#How far from a player in vertical plane ore veins can be found
 	#Range: 1 ~ 384
-	pingDepth = 48
+	pingDepth = 32
 	#Minimal size of an ore vein to be found
 	#Range: 1 ~ 128
 	veinMinSize = 1
 	#Minimal size of an ore deposit to get alarm
 	#Range: 1 ~ 1024
-	depositMinSize = 24
+	depositMinSize = 1
 	#How many hits the finder can withstand
 	#Range: 0 ~ 65535
-	durability = 4
+	durability = 0
 	#List of allowed targets. If set, forbidden targets will be ignored
 	allowedTargets = []
 	#List of forbidden targets
@@ -44,19 +44,19 @@
 [Mineral]
 	#How far from a player in horizontal plane ores can be found
 	#Range: 1 ~ 64
-	scanRadius = 7
+	scanRadius = 32
 	#How far from a player in vertical plane ore veins can be found
 	#Range: 1 ~ 384
-	pingDepth = 40
+	pingDepth = 32
 	#Minimal size of an ore vein to be found
 	#Range: 1 ~ 128
 	veinMinSize = 1
 	#Minimal size of an ore deposit to get alarm
 	#Range: 1 ~ 1024
-	depositMinSize = 32
+	depositMinSize = 1
 	#How many hits the finder can withstand
 	#Range: 0 ~ 65535
-	durability = 4
+	durability = 0
 	#List of allowed targets. If set, forbidden targets will be ignored
 	allowedTargets = []
 	#List of forbidden targets
