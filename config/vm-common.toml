@@ -1,29 +1,29 @@
 #Restock
 Restock = true
 #Use fixed items
-UseFixedItems = true
+UseFixedItems = false
 #Minable
 Minable = false
 #Add structure to Villages
-Villages = true
+Villages = false
 #Fixed items; item or item,amount,pay_item,cost,uses
-FixedItems = ["minecraft:diamond", "minecraft:iron_sword", "minecraft:bone", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air"]
+FixedItems = ["the_vault:crystal_budding,1,tfb2:liminal_coin,16,1", "the_vault:chromatic_iron_ore,8,tfb2:liminal_coin,2,5", "the_vault:vault_stone,64,tfb2:liminal_coin,1,10", "farmingforblockheads:market,1,tfb2:liminal_coin,16,1", "minestuck:candy_apple_faygo,6,tfb2:liminal_coin,1,1", "minestuck:cotton_candy_faygo,6,tfb2:liminal_coin,1,1", "minestuck:creme_soda_faygo,6,tfb2:liminal_coin,1,1", "minestuck:faygo_cola,6,tfb2:liminal_coin,1,1", "woldsvaults:vault_rock_candy,16,tfb2:liminal_coin,2,1", "minecraft:book,16,tfb2:liminal_coin,1,5", "minestuck:nonbinary_code,1,tfb2:liminal_coin,8,1", "minestuck:sbahj_poster,1,tfb2:liminal_coin,4,1", "minestuck:cake_mix,1,tfb2:liminal_coin,5,3", "auxiliaryblocks:lollipop_pink,8,tfb2:liminal_coin,2,1", "auxiliaryblocks:lollipop_blue,8,tfb2:liminal_coin,2,1", "auxiliaryblocks:lollipop_green,8,tfb2:liminal_coin,2,1", "farmersdelight:cake_slice,1,tfb2:liminal_coin,1,8", "farmersdelight:sweet_berry_cheesecake_slice,1,tfb2:liminal_coin,1,8", "farmersdelight:onion,8,tfb2:liminal_coin,1,5", "create:sweet_roll,2,tfb2:liminal_coin,1,5", "farmersdelight:kelp_roll_slice,5,tfb2:liminal_coin,1,5"]
 #Include Mods
-IncludeMods = ["*"]
+IncludeMods = []
 #Exclude Mods
 ExcludeMods = ["draconicevolution", "avaritia", "botania"]
 #Include Items
-IncludeItems = ["*"]
+IncludeItems = ["the_vault:crystal_budding", "the_vault:chromatic_iron_ore", "farmingforblockheads:market,1", "minestuck:candy_apple_faygo", "minestuck:cotton_candy_faygo", "minestuck:creme_soda_faygo", "minestuck:faygo_cola", "woldsvaults:vault_rock_candy", "minecraft:book", "minestuck:nonbinary_code", "minestuck:sbahj_poster", "minestuck:cake_mix", "auxiliaryblocks:lollipop_pink", "auxiliaryblocks:lollipop_blue", "auxiliaryblocks:lollipop_green", "farmersdelight:cake_slice", "farmersdelight:sweet_berry_cheesecake_slice", "farmersdelight:onion", "create:sweet_roll", "farmersdelight:kelp_roll_slice"]
 #Exclude Items
 ExcludeItems = ["minecraft:nether_star", "minecraft:beacon", "minecraft:bedrock", "minecraft:shulker_box", "minecraft:colorset*shulker_box", "minecraft:elytra", "minecraft:end_portal_frame", "minecraft:armorset*netherite", "minecraft:toolset*netherite", "minecraft:netherite_block", "minecraft:netherite_ingot", "vm:vending_machine"]
 #Add Items
-AddItems = [""]
+AddItems = ["the_vault:crystal_budding", "the_vault:chromatic_iron_ore", "farmingforblockheads:market,1", "minestuck:candy_apple_faygo", "minestuck:cotton_candy_faygo", "minestuck:creme_soda_faygo", "minestuck:faygo_cola", "woldsvaults:vault_rock_candy", "minecraft:book", "minestuck:nonbinary_code", "minestuck:sbahj_poster", "minestuck:cake_mix", "auxiliaryblocks:lollipop_pink", "auxiliaryblocks:lollipop_blue", "auxiliaryblocks:lollipop_green", "farmersdelight:cake_slice", "farmersdelight:sweet_berry_cheesecake_slice", "farmersdelight:onion", "create:sweet_roll", "farmersdelight:kelp_roll_slice"]
 #Include Creative Tab Groups
 IncludeGroups = ["*"]
 #Exclude Creative Tab Groups
 ExcludeGroups = ["!"]
 #Change item rarity value for pricing
-ItemRarity = ["minecraft:emerald_block=1", "minecraft:diamond_block=1", "minecraft:armorset*diamond=1", "minecraft:toolset*diamond=1", "minecraft:anvil=2", "minecraft:trident=3", "minecraft:bell=2", "minecraft:conduit=3", "minecraft:nautilus_shell=1", "eggset*peaceful=1", "eggset*monster=2", "minecraft:evoker_spawn_egg=3", "minecraft:netherite_scrap=2", "minecraft:ancient_debris=2", "minecraft:axolotl_bucket=1"]
+ItemRarity = ["the_vault:crystal_budding=3", "the_vault:chromatic_iron_ore=0", "farmingforblockheads:market=2", "minestuck:candy_apple_faygo=0", "minestuck:cotton_candy_faygo=0", "minestuck:creme_soda_faygo=0", "minestuck:faygo_cola=0", "woldsvaults:vault_rock_candy=0", "minecraft:book=0", "minestuck:nonbinary_code=2", "minestuck:sbahj_poster=1", "minestuck:cake_mix=1", "auxiliaryblocks:lollipop_pink=0", "auxiliaryblocks:lollipop_blue=0", "auxiliaryblocks:lollipop_green=0", "farmersdelight:cake_slice=0", "farmersdelight:sweet_berry_cheesecake_slice=0", "farmersdelight:onion=0", "create:sweet_roll=0", "farmersdelight:kelp_roll_slice=0"]
 #Custom item pricing
 ItemCost = [""]
 
@@ -41,23 +41,23 @@ ItemCost = [""]
 	CommonCost = 1
 	#Uncommon Cost
 	#Range: 0 ~ 128
-	UncommonCost = 16
+	UncommonCost = 2
 	#Rare Cost
 	#Range: 0 ~ 128
-	RareCost = 32
+	RareCost = 4
 	#Epic Cost
 	#Range: 0 ~ 128
-	EpicCost = 64
+	EpicCost = 8
 	#Common Uses
 	#Range: 0 ~ 32
-	CommonUses = 8
+	CommonUses = 16
 	#Uncommon Uses
 	#Range: 0 ~ 32
-	UncommonUses = 4
+	UncommonUses = 8
 	#Rare Uses
 	#Range: 0 ~ 32
-	RareUses = 2
+	RareUses = 4
 	#Epic Uses
 	#Range: 0 ~ 32
-	EpicUses = 1
+	EpicUses = 2
 
