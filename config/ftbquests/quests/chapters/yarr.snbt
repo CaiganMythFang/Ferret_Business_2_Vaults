@@ -26,6 +26,7 @@
 				""
 				"&7So how about we sail the digital seas and pirate the lot of it, yeah?"
 			]
+			dependencies: ["14E05D152CF5C051"]
 			id: "15363C5FC01E875C"
 			tasks: [{
 				id: "4A4AE474601F6684"
@@ -114,127 +115,66 @@
 			shape: "pentagon"
 			subtitle: "Staff Mistreatment"
 			description: [
-				"&7See that Code Snippet you found?  Hold it and Right Click to have your Q.U.E.S.T. Tablet examine it. You'll find a kind of Vulnerability. I programmed the Tablet to make it a bit easier to understand... and to hide what it actually is."
+				"&7Now then, those glitching blocks you got, Bandit, show the little cracks in the system. The little instabilities, the little weak points, call em what you will. "
 				""
-				"&7Yeah yeah I know, the images and tooltips are a bit silly. I wasn't sure what else to do, and they are kinda fun. "
+				"&7They aren't much on their own. Teeny tiny cracks. Most of them can't really be used for anything big."
 				""
-				"&7Start collecting those, we're going to need a whole lot over time. And the more you Salvage, the higher your skill, and the easier it'll be to find these Vulnerabilities."
+				"&7But start collecting them, Bandit. And keep collecting them. Each one is like a drop of water: half a dozen of them ain't much, but get a ton of them? Then you got a flood."
 				""
-				"&7Another way to find them is to talk to Villagers and start trading with them. Some may eventually have a bit of 'special' stock for you: A vulnerability."
+				"&7You've probably checked it out, but the Shop Tablet has a variety of items that'll need to spend Glitched stuff on, on top of the Ferret Dollars."
 				""
-				"&7Let's just say the FOP don't treat their staff, real or NPCs, very well."
+				"&7I'll make sure our systems don't tag glitched blocks with a Value, so you don't accidentally sell them to us."
 			]
 			dependencies: ["2723584BBFD0062D"]
 			id: "4F1D548DFF6D2C28"
 			tasks: [{
-				id: "394B6C665D72CC1D"
-				type: "item"
-				item: "kubejs:vulnerability_card"
-				count: 2L
-			}]
-			rewards: [{
-				id: "3F864A5CBC525669"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "35587E84F078AA6E"
+				type: "checkmark"
 			}]
 		}
 		{
 			title: "The Bigger They Are..."
-			icon: "majruszs_difficulty:wither_treasure_bag"
+			icon: "tfb2:glitched_ingot"
 			x: 5.0d
 			y: -1.75d
 			shape: "pentagon"
-			subtitle: "...the more stuff they can carry!"
+			subtitle: "...the bigger the weak spots!"
 			description: [
-				"&7Most any action or RPG game has its share of bosses, and the FOP Game Server is no different."
+				"&7As for the glitched items, the ones you primarily get from the Vault Card system, will be needed for other things in the SHOP Tablet."
 				""
-				"&7They have their own versions of the Wither and Ender Dragon we know already, but it seems they have at least thirty, or more (we aren't sure) bosses besides those!"
+				"&7We'll need a combination of both item and block glitches to properly break the system, so tuck all you find away."
 				""
-				"&7Lots of worlds to protect, I guess. But getting their stronger powers to play nice with the system layers has some issues. And if you defeat a boss, you should get a Code Snippet guaranteed."
+				"&7We'll also try to find new ways to find or generate these glitches, so keep your eyes open, Bandit."
 			]
 			dependencies: ["4F1D548DFF6D2C28"]
 			id: "0F59DB9FD98F0E2E"
 			tasks: [{
-				id: "544E9A34FEC4BFE9"
-				type: "item"
-				item: "kubejs:vulnerability_card"
-				count: 3L
-			}]
-			rewards: [{
-				id: "3CB4AEAB58641C15"
-				type: "choice"
-				table_id: 2640422954496342337L
+				id: "4722517896F0E07A"
+				type: "checkmark"
 			}]
 		}
 		{
 			title: "Crime"
-			x: 5.0d
+			x: 3.75d
 			y: -0.5d
 			shape: "pentagon"
 			subtitle: "or How To Pirate For Blockheads"
 			description: [
-				"&7Okay, you know how to find these vulnerabilities. You've started collecting them. But how are we gonna use them to unlock DLC so we don't gotta pay that ridiculous price?"
+				"&7Okay, so you know how to find the glitches and things. You've started collecting them. But how are we gonna use them to unlock Research DLC so you don't gotta pay that ridiculous price?"
 				""
-				"&7Well, thats a job for the researchers over here. Choose the DLC you want to unlock, send us the right number of Vulnerabilities, and voila, DLC!"
+				"&7We'll have to work with the system security unfortunately, so we can't help unlock ALL of the Research DLC for you... but we can give you a little boost via DLC Bypasses, found in the Shop Tablet."
 				""
-				"&7Your job? Just to find the Vulnerabilities and keep pumping in that Audobon Worm. But I do have to warn you, Bandit..."
+				"&7Your job? Follow the main questline, find the glitches, and keep pumping in that Audobon Worm. But I do have to warn you, Bandit..."
 				""
-				"&7The higher rank DLC is much more strongly protected, and thus will cost a lot more Tokens. It'll take a whole lot of Vulnerabilities to get around their security layers."
+				"&7A warning : Obtaining a Research DLC Bypass will be very expensive, in Ferret Dollars, in Glitches, and in Tokens."
 				""
-				"&7Oh, right! No matter how you unlock the DLC, we should be able to make it purchasable again from the Shop Tablet. But for, you know, Silver Ferret Coins instead of Tokens or Scrypto."
-			]
-			dependencies: ["30F6D2F31395772F"]
-			id: "29003EE631630364"
-			tasks: [{
-				id: "768CBB0461D508F1"
-				type: "item"
-				title: "Any 5 Vulnerability Tokens"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "tfb2:tfb2_vulnerability"
-					}
-				}
-				count: 5L
-			}]
-			rewards: [{
-				id: "6C80B91E9E24698A"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
-		}
-		{
-			title: "Name of the Game"
-			icon: {
-				id: "mekanismtools:refined_obsidian_pickaxe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 6.25d
-			y: -1.75d
-			shape: "pentagon"
-			subtitle: "Well, part of it"
-			description: [
-				"&7The last two ways you'll be able to find Vulnerabilities is by just... mining and fishing. Simple, but it shows just how much of this whole super megaserver is both held in an iron grip, and held together with duct tape."
-				""
-				"&7Mining certain ores, mostly ones that break into pieces like Coal or Redstone, give you a chance to find some Code Snippets."
-				""
-				"&7As for fishing? Self explanatory. Raise up your Fishing Skill from ProjectMMO, and you'll start getting Code Snippets instead of Cod Filets."
+				"&7Glitches and Tokens are better explained in the main questline, Bandit."
 			]
 			dependencies: ["0F59DB9FD98F0E2E"]
-			id: "30F6D2F31395772F"
+			id: "29003EE631630364"
 			tasks: [{
-				id: "7A83F82E36155880"
+				id: "493469ABBF3829F5"
 				type: "checkmark"
-				title: "Name of the Game"
-			}]
-			rewards: [{
-				id: "2CD164821D060313"
-				type: "choice"
-				table_id: 2640422954496342337L
 			}]
 		}
 		{
@@ -267,21 +207,21 @@
 			}]
 		}
 		{
-			icon: "calemiutils:coin_quarter"
-			x: 3.25d
+			icon: "tfb2:ferret_dollar"
+			x: 2.5d
 			y: -0.5d
 			shape: "square"
 			subtitle: "Don't Forget the Microtransactions!"
 			description: [
-				"&7And, of course, we can't forget the DLC the FOP has cut everything into..."
+				"&7And, of course, we can't forget the extra DLC the FOP have added on top of everything."
 				""
-				"&7The basic game, Minecraft, is only slightly gated. You can do most things, aside from Ores, Dimensions, etc, without buying DLC for 'vanilla' minecraft items. Oh, and anything Advent of Ascension? They think limiting Dimension and Ore access is enough."
+				"&7Many mods, especially decoration or building mods, are not gated behind Research or DLC. But most of the big, important ones you'll have to Research to unlock."
 				""
-				"&7Though, I don't think Kowa was able to unlock the highest end Minecraft stuff from DLC. Netherrite tools and armor will still require you to be an appropriate level to equip them."
+				"&7A mod being locked behind Research will usually lock all the recipes behind needing that Research. Not always, some Researched mods have decorative or minor items you can always craft."
 				""
-				"&7As for the DLC? Most mods are grouped with one or two others, but split into the stupid ranking system the FOP came up with."
+				"&7As for the DLC the FOP offer, some of it is unique, but most of it is just... shortcuts. Expensive shortcuts to get resources or gear etc."
 				""
-				"&7Good news? Most mods are only split between Red, Orange, and Yellow ranks. Anything higher rank can match up to high end AoA items, thus the DLC to gate it."
+				"&7Any of the unique DLC we'll try to offer pirated alternatives for you in the SHOP Tablet."
 			]
 			dependencies: ["132E43CB29BBE90C"]
 			id: "3538C7DDF1408271"
@@ -300,8 +240,6 @@
 				"&7So I'm going to unlock the Research and Development section for you now, Bandit."
 				""
 				"&7Each quest page here will cover one or more mods. Some Researchers or Research Teams may bundle multiple mods together to cover on a single page."
-				""
-				"&7Keep in mind you'll also need the DLC unlocked to start making items from the appropriate mods. "
 				""
 				"&7I'll more or less have the Q.U.E.S.T. Tablet sort the Research pages alphabetically to the main mod they cover. If it's a Research Group that covers multiple mods, like say both Pam's and Farmer's Delight... um... You'll figure it out! Research Groups will cover similar mods, really."
 			]
