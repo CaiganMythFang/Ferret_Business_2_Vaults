@@ -31,9 +31,13 @@
 			hide: true
 			id: "24E1C6762864AEC6"
 			tasks: [{
-				id: "0D30E727F6C00C98"
-				type: "item"
-				item: "the_vault:deck_station"
+				id: "5FEE142B67C8E47C"
+				type: "observation"
+				title: "Observe a Deck Station"
+				icon: "the_vault:deck_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:deck_station"
 			}]
 			rewards: [{
 				id: "33E3116058C5A4CC"
@@ -178,7 +182,7 @@
 				{
 					id: "6779AF47A0303B9C"
 					type: "observation"
-					title: "Find a Living Strongbox"
+					title: "Observe a Living Strongbox"
 					icon: "the_vault:living_strongbox"
 					timer: 0L
 					observe_type: 0
@@ -187,7 +191,7 @@
 				{
 					id: "288117154EDA4D3E"
 					type: "observation"
-					title: "Find a Gilded Strongbox"
+					title: "Observe a Gilded Strongbox"
 					icon: "the_vault:gilded_strongbox"
 					timer: 0L
 					observe_type: 0
@@ -196,7 +200,7 @@
 				{
 					id: "25AAE4DE14C6C422"
 					type: "observation"
-					title: "Find an Ornate Strongbox"
+					title: "Observe an Ornate Strongbox"
 					icon: "the_vault:ornate_strongbox"
 					timer: 0L
 					observe_type: 0
@@ -569,15 +573,15 @@
 		{
 			title: "A Rare Pedestal"
 			x: 0.5d
-			y: -4.25d
+			y: -5.25d
 			shape: "rsquare"
 			subtitle: "A Prize on Display"
 			description: [
-				"&dWhen you finally get into a Treasure Room, Bandit, you'll find one of three things: a Treasure Chest, a single Treasure Pedestal, or THREE Treasure Pedestals!"
+				"&dWhen you finally get into a Treasure Room, Bandit, ye'll find at least one of these Treasure Pedestals in em."
 				""
 				"&5Unlike the Treasure Chest, there is only one piece of loot on a Treasure Pedestal. But this is the only way to get two of the rarest treasure rewards: The Treasure Card Deck, and a unique Treasure Magnet."
 				""
-				"&dIf you get a Treasure Room with THREE Pedestals, you can only take one of them, so choose carefully, Bandit!"
+				"&dGetting more than one in a Treasure Room is good luck!"
 				""
 				"&5Even if its one item, these are usually good ways of finding Wold Star Chunks, which ye'll want for high end items, Bandit."
 			]
@@ -587,7 +591,7 @@
 			tasks: [{
 				id: "3F09F0C88FD56DCB"
 				type: "observation"
-				title: "Find a Treasure Pedestal"
+				title: "Observe a Treasure Pedestal"
 				icon: "the_vault:treasure_pedestal"
 				timer: 0L
 				observe_type: 0
@@ -662,14 +666,18 @@
 			id: "6BD38C7D2E0BE866"
 			tasks: [
 				{
-					id: "4BB709A7F36B1153"
-					type: "item"
-					item: "the_vault:card_essence_extractor"
-				}
-				{
 					id: "2E49B8C7376EA8AC"
 					type: "item"
 					item: "the_vault:card_juice"
+				}
+				{
+					id: "0666BC5438627E1F"
+					type: "observation"
+					title: "Observe a Card Upgrade Station"
+					icon: "the_vault:card_essence_extractor"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:card_essence_extractor"
 				}
 			]
 			rewards: [{
@@ -682,15 +690,17 @@
 		{
 			title: "A Chest of Wonder"
 			x: 0.5d
-			y: -5.25d
+			y: -4.25d
 			shape: "rsquare"
 			subtitle: "Treasure!"
 			description: [
-				"&dWhen you finally get into a Treasure Room, Bandit, you'll find one of two things: a Treasure Chest or a Treasure Pedestal."
+				"&dWhen you finally get into a Treasure Room, Bandit, you'll find a Treasure Chest, piles of coins, at least one Treasure Pedestal, and a bunch of Cardboard Boxes."
 				""
-				"&5Usually ye will find a Treasure Chest. Full of good loot in it, but not always the best loot."
+				"&5The Treasure Chest has 9 slots of goodies for ye, Bandit, rare things ye can usually only find in Treasure Rooms."
 				""
-				"&dBut these are usually good ways of finding Wold Star Chunks, which you'll want for high end items, Bandit."
+				"&dThese are usually good ways of finding Wold Star Chunks, which you'll want for high end items, Bandit."
+				""
+				"&5Don't forget to break those Cardboard Boxes open as well, ye can regularly find good Booster Packs in em."
 			]
 			hide_dependency_lines: true
 			dependencies: ["59965C1CF354E4CE"]
@@ -698,7 +708,7 @@
 			tasks: [{
 				id: "20ECE301325BCDB5"
 				type: "observation"
-				title: "Find a Treasure Chest"
+				title: "Observe a Treasure Chest"
 				icon: "the_vault:treasure_chest"
 				timer: 0L
 				observe_type: 0
@@ -985,13 +995,17 @@
 			dependencies: ["24E1C6762864AEC6"]
 			id: "377E8A477548EC14"
 			tasks: [{
-				id: "0D184D83F66708F8"
-				type: "item"
-				item: {
+				id: "3370A9D154066D77"
+				type: "observation"
+				title: "Observe a Card Binder"
+				icon: {
 					id: "the_vault:card_binder"
 					Count: 1b
 					tag: { }
 				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:card_binder"
 			}]
 			rewards: [{
 				id: "3BA77C87C7B8470E"
@@ -1055,9 +1069,13 @@
 			dependencies: ["24E1C6762864AEC6"]
 			id: "233B5362B5DA0C2A"
 			tasks: [{
-				id: "365C39233EDF3526"
-				type: "item"
-				item: "the_vault:unboxing_station"
+				id: "3B3787BB7D96676D"
+				type: "observation"
+				title: "Observe an Unboxing Station"
+				icon: "the_vault:unboxing_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:unboxing_station"
 			}]
 			rewards: [{
 				id: "35D515C8BA214BA0"
@@ -1333,7 +1351,7 @@
 		{
 			title: "Respec Your Companions"
 			x: 6.0d
-			y: -4.25d
+			y: -5.25d
 			shape: "rsquare"
 			subtitle: "No No No, Something Different!"
 			description: [
@@ -1370,7 +1388,7 @@
 				""
 				"&dYou can also dye the Companion Home the same way you dye Leather Armor (put any number of dyes + the home in a crafting table)."
 				""
-				"&5Companions can equip Companion Relics and Particles, which can be found as loot in Vault Chests and Treasure Sand."
+				"&5Companions can equip Companion Relics and Particles, which can be crafted in the Relic Crafting Table."
 				""
 				"&dCompanions also have Hearts. If you die in a Vault, your equipped Companion will lose a Heart as well. When a Companion has no hearts left, it will retire and can no longer help in a Vault."
 				""
@@ -1401,7 +1419,7 @@
 		}
 		{
 			title: "You're My Friend Now"
-			x: 5.5d
+			x: 5.0d
 			y: -5.25d
 			shape: "rsquare"
 			subtitle: "We're Getting Vault Burgers Later!"
@@ -1432,14 +1450,14 @@
 			shape: "rsquare"
 			subtitle: "A Tough Fought Reward"
 			description: [
-				"&5In the Entrance, you'll find an NPC called Tommy. This NPC will offer you 3 Skill loadouts, randomly chosen from over a couple dozen. Any skill points not used with the loadouts can be used with Skill Scrolls. You can also go in 'skillless', but this is VERY difficult!"
+				"&dIn the Entrance, you'll find an NPC called the Royale Drafter. This NPC will offer you 3 Skill loadouts, randomly chosen from over a couple dozen. Any skill points not used with the loadouts can be used with Skill Scrolls. You can also go in 'skillless', but this is VERY difficult!"
 				""
-				"&5After the loadout, Tommy will offer you two sets of Trinkets, which you can select one from each group. And finally, a choice of reward for completing the Royale Vault."
+				"&5After the loadout, the Royale Drafter will offer ye two sets of Trinkets, which ye can select one from each group. And finally, a choice of reward for completing the Royale Vault."
 				""
-				"&5You'll also have at least one Royale Loot Crate in the main room, containing up to 5 items from the following list : "
-				"&5 -Vault Gear, Skill Scrolls, Vault Modifiers, Vault Fruit, Food, and Blocks"
+				"&dYou'll also have at least one Royale Loot Crate in the main room, containing a starting Vault Gear loadout of  : "
+				"&d -1 Scrappy Weapon, 1 Paxel, 1 Scrappy set of Armor, Food, Healing, and Blocks."
 				""
-				"&5These Royale Loot Crates are also scattered in the Vault, looting them will help you gear up to complete the Vault."
+				"&5These Royale Loot Crates are also scattered in the Vault, looting them will help ye gear up to complete the Vault."
 			]
 			hide_dependency_lines: true
 			dependencies: ["19C410AA8DE76A9B"]
@@ -1506,7 +1524,7 @@
 			title: "A True Royale"
 			icon: "the_vault:crystal_seal_vault_royale_pvp"
 			x: 7.75d
-			y: -0.75d
+			y: -4.25d
 			shape: "rsquare"
 			subtitle: "No Bathrooms to Camp Though"
 			description: [
@@ -1552,8 +1570,8 @@
 		}
 		{
 			title: "A Roll of the Dungeon Dice"
-			x: 10.75d
-			y: -5.5d
+			x: 7.75d
+			y: -0.75d
 			shape: "rsquare"
 			subtitle: "Is This Gamblecore?"
 			description: [
@@ -1575,7 +1593,7 @@
 			tasks: [{
 				id: "50DACCC0D567BCCB"
 				type: "observation"
-				title: "Find an Imbuement Altar"
+				title: "Observe an Imbuement Altar"
 				icon: "the_vault:imbuement_altar"
 				timer: 0L
 				observe_type: 0
@@ -1640,6 +1658,114 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Companion Gear"
+			x: 6.0d
+			y: -4.25d
+			shape: "rsquare"
+			subtitle: "Little Accessories"
+			description: [
+				"&5As ye tackle Vaults with yer trusty companion, Bandit, ye'll find the occasional Companion Relic Fragment."
+				""
+				"&dYou can use these in a Relic Crafting Table to make Relics and Trails for your Companions to equip."
+			]
+			hide_dependency_lines: true
+			dependencies: ["171900B9A0193443"]
+			hide: true
+			id: "1C05A3B93067049D"
+			tasks: [{
+				id: "56AD2634355EC6D0"
+				type: "observation"
+				title: "Observe a Relic Crafting Table"
+				icon: "the_vault:relic_crafting_table"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:relic_crafting_table"
+			}]
+			rewards: [
+				{
+					id: "03C493D9674D8D5B"
+					type: "item"
+					item: "the_vault:companion_relic_fragment"
+				}
+				{
+					id: "53C258CD9DA7D1ED"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5632731352558517809L
+				}
+			]
+		}
+		{
+			title: "Decking Back Out"
+			x: 7.75d
+			y: 0.25d
+			shape: "rsquare"
+			subtitle: "No, No, I Change My Mind"
+			description: [
+				"&5Reclamation Altars can show up in Dungeons, and are used to remove modifiers from Decks."
+				""
+				"&dUsually these modifiers are added by adding a Deck Core to a Deck, and the Reclamation Altar can remove these for you."
+				""
+				"&5When ye use the Reclamation Altar, it will confirm which Deck ye currently have with ye. When confirmed, it will remove a random modifier from it."
+				""
+				"&dThere is a small chance for that Deck Core to return to your inventory."
+			]
+			hide_dependency_lines: true
+			dependencies: ["73F19D407DDBD157"]
+			hide: true
+			id: "3CCDD550DCC3FF3F"
+			tasks: [{
+				id: "467598D51CD26241"
+				type: "observation"
+				title: "Observe a Reclamation Altar"
+				icon: "the_vault:reclamation_altar"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:reclamation_altar"
+			}]
+			rewards: [{
+				id: "7640566980B029AC"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "Personalization"
+			x: 5.5d
+			y: 1.25d
+			shape: "rsquare"
+			subtitle: "Yes, They Spelled It With An S"
+			description: [
+				"&5The Customization Station is used to customize your own title in yer game. "
+				""
+				"&dYou can also set an icon/emblem for yourself, as well as a partical trail that follows behind you, much like Companions have."
+				""
+				"&5Yer title and emblem can be seen by others, as well as for yerself in text chat."
+				""
+				"&dMost title pieces, emblems, and trails are locked to start with, and need to be unlocked through various means. Highlighting the title piece you want will tell you how to obtain it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["504DC166104A8063"]
+			hide: true
+			id: "5BC2C5E33193C10A"
+			tasks: [{
+				id: "2DDFDC1C3B360701"
+				type: "observation"
+				title: "Observe a Customisation Table"
+				icon: "the_vault:player_customisation_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:player_customisation_station"
+			}]
+			rewards: [{
+				id: "6DA563AEC1E328E4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 	]

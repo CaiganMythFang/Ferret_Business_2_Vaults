@@ -199,11 +199,6 @@
 			id: "19220F4E56CB0A0F"
 			tasks: [
 				{
-					id: "3889F0DFD4AD19B5"
-					type: "item"
-					item: "the_vault:vault_altar"
-				}
-				{
 					id: "749233C0BD55DFBF"
 					type: "item"
 					title: "A Ready Vault Crystal"
@@ -227,6 +222,15 @@
 							}
 						}
 					}
+				}
+				{
+					id: "63AC2957E784CB37"
+					type: "observation"
+					title: "Look at a Vault Altar"
+					icon: "the_vault:vault_altar"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:vault_altar"
 				}
 			]
 			rewards: [{

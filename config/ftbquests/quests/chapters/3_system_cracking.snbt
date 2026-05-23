@@ -28,17 +28,26 @@
 				"&5Get all of em, Bandit, and find a Scavenger Altar (green glowing altar that spawns in most rooms). Right Click each stack to deposit it before the timer runs out."
 				""
 				"&dIf ya don't get enough in time, you'll want to leave via the Portal before the time runs out, Bandit."
+				""
+				"&5Highly suggest ye make and bring in a Scavenger Bag, Bandit. It'll hold all the Scav items ye find instead of filling yer pouches with em. "
 			]
 			dependencies: ["148669A61C9EFBF4"]
 			hide: true
 			id: "1881243BF68F0FAC"
-			tasks: [{
-				id: "288CE78D02906B90"
-				type: "woldsvaults:vault_level"
-				title: "Reach Level 20"
-				icon: "the_vault:scavenger_altar"
-				value: 20
-			}]
+			tasks: [
+				{
+					id: "288CE78D02906B90"
+					type: "woldsvaults:vault_level"
+					title: "Reach Level 20"
+					icon: "the_vault:scavenger_altar"
+					value: 20
+				}
+				{
+					id: "29C9416897D22864"
+					type: "item"
+					item: "woldsvaults:scavenger_pouch"
+				}
+			]
 			rewards: [{
 				id: "6F0925C1B31FC8B5"
 				type: "item"
@@ -70,7 +79,7 @@
 			tasks: [{
 				id: "4947C4D29A9DB40A"
 				type: "observation"
-				title: "Find a Vendoor"
+				title: "Observe a Vendoor"
 				icon: "the_vault:vendor_door"
 				timer: 0L
 				observe_type: 0
@@ -106,9 +115,13 @@
 			dependencies: ["1881243BF68F0FAC"]
 			id: "2EC8B80AE1A271D5"
 			tasks: [{
-				id: "0E348B08B753AA85"
-				type: "item"
-				item: "the_vault:artifact_projector_block"
+				id: "1A159CA6200BF44C"
+				type: "observation"
+				title: "Observe an Artifact Tome"
+				icon: "the_vault:artifact_projector_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:artifact_projector_block"
 			}]
 			rewards: [{
 				id: "57FE043DE4C905F7"
@@ -117,10 +130,10 @@
 			}]
 		}
 		{
-			title: "Inscribing a Path"
+			title: "Catalyzing a Future"
 			icon: "the_vault:vault_catalyst_infused"
-			x: -6.25d
-			y: 2.5d
+			x: -6.75d
+			y: 1.5d
 			shape: "rsquare"
 			subtitle: "Determined Destiny"
 			description: [
@@ -141,14 +154,18 @@
 			id: "46082D6F0590EDD4"
 			tasks: [
 				{
-					id: "3ECECEB3891A0EE3"
-					type: "item"
-					item: "the_vault:catalyst_infusion_table"
-				}
-				{
 					id: "40B665B067EE0A96"
 					type: "item"
 					item: "the_vault:vault_catalyst_fragment"
+				}
+				{
+					id: "777431CB0A796D7B"
+					type: "observation"
+					title: "Observe a Catalyst Infustion Table"
+					icon: "the_vault:catalyst_infusion_table"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:catalyst_infusion_table"
 				}
 			]
 			rewards: [
@@ -250,7 +267,8 @@
 			tasks: [{
 				id: "79772958EF616B60"
 				type: "observation"
-				icon: "tanukidecor:globe"
+				title: "Observe a Vault Globe"
+				icon: "the_vault:vault_globe"
 				timer: 0L
 				observe_type: 0
 				to_observe: "the_vault:vault_globe"
@@ -280,6 +298,7 @@
 			tasks: [{
 				id: "21817CFEE523A409"
 				type: "observation"
+				title: "Observe an Alchemy Archive"
 				icon: "the_vault:alchemy_archive"
 				timer: 0L
 				observe_type: 0
@@ -310,6 +329,7 @@
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
 			size: 0.75d
+			invisible: true
 			id: "6A45494E0B112308"
 			tasks: [{
 				id: "32825A31A93C868B"
@@ -317,7 +337,7 @@
 			}]
 		}
 		{
-			title: "Emberstone Gear"
+			title: "Inscribing a Path"
 			icon: {
 				id: "the_vault:inscription"
 				Count: 1b
@@ -355,14 +375,18 @@
 			id: "341E8BC988FE57D3"
 			tasks: [
 				{
-					id: "295C142B8C4F1875"
-					type: "item"
-					item: "the_vault:inscription_table"
-				}
-				{
 					id: "15FA75428A81A404"
 					type: "item"
 					item: "the_vault:inscription_piece"
+				}
+				{
+					id: "7E131B77F23655BD"
+					type: "observation"
+					title: "Observe an Inscription Table"
+					icon: "the_vault:inscription_table"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:inscription_table"
 				}
 			]
 			rewards: [
@@ -402,9 +426,13 @@
 			dependencies: ["1881243BF68F0FAC"]
 			id: "5A04F0E50CF5F17F"
 			tasks: [{
-				id: "77F0C183D71F09FA"
-				type: "item"
-				item: "the_vault:spirit_extractor"
+				id: "10EDEC96A6790AA3"
+				type: "observation"
+				title: "Observe a Spirit Extractor"
+				icon: "the_vault:spirit_extractor"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:spirit_extractor"
 			}]
 			rewards: [{
 				id: "60B3745CD09CE8C8"
@@ -537,9 +565,13 @@
 			dependencies: ["2EC8B80AE1A271D5"]
 			id: "1F97C49BAD78BAF3"
 			tasks: [{
-				id: "39F101A3D5D010BD"
-				type: "item"
-				item: "the_vault:transmog_table"
+				id: "3DFBB8988F7B69AE"
+				type: "observation"
+				title: "Observe a Transmogrification Table"
+				icon: "the_vault:transmog_table"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:transmog_table"
 			}]
 			rewards: [{
 				id: "325AFC4D9CA321F7"
@@ -592,7 +624,7 @@
 			title: "Many Builds"
 			icon: "the_vault:skill_altar"
 			x: -4.75d
-			y: -1.0d
+			y: -3.0d
 			shape: "rsquare"
 			subtitle: "Swap Like Gear"
 			description: [
@@ -664,9 +696,13 @@
 			dependencies: ["2EC8B80AE1A271D5"]
 			id: "5E426379F71796D7"
 			tasks: [{
-				id: "233B0C117DDBDB76"
-				type: "item"
-				item: "the_vault:wardrobe"
+				id: "0445239BD115F6A2"
+				type: "observation"
+				title: "Observe a Wardrobe"
+				icon: "the_vault:wardrobe"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:wardrobe"
 			}]
 			rewards: [{
 				id: "1C754D31405639E5"
@@ -789,7 +825,7 @@
 			tasks: [{
 				id: "3E8CDE870BD93874"
 				type: "observation"
-				title: "Find a Dungeon Door"
+				title: "Observe a Dungeon Door"
 				icon: {
 					id: "the_vault:dungeon_door"
 					Count: 1b
@@ -875,7 +911,7 @@
 		}
 		{
 			title: "Supremely Strong Anvil"
-			x: -2.75d
+			x: -4.75d
 			y: -1.0d
 			shape: "rsquare"
 			subtitle: "Fairly Looney, a Little Tooney"
@@ -892,9 +928,13 @@
 			dependencies: ["1881243BF68F0FAC"]
 			id: "2E6BE62F1163E67B"
 			tasks: [{
-				id: "3FD8D17F27D84BBE"
-				type: "item"
-				item: "the_vault:vault_anvil"
+				id: "019165DD99058262"
+				type: "observation"
+				title: "Observe a Vault Anvil"
+				icon: "the_vault:vault_anvil"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_anvil"
 			}]
 			rewards: [{
 				id: "1AD642B649D2277B"
@@ -959,9 +999,13 @@
 			dependencies: ["2EC8B80AE1A271D5"]
 			id: "458B00C55596073B"
 			tasks: [{
-				id: "5AF228E345A48CD9"
-				type: "item"
-				item: "the_vault:animatrix_block"
+				id: "062EC1F605362099"
+				type: "observation"
+				title: "Observe an Animatrix"
+				icon: "the_vault:animatrix_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:animatrix_block"
 			}]
 			rewards: [
 				{
@@ -1086,37 +1130,6 @@
 			}]
 		}
 		{
-			title: "Cap of the Gods"
-			x: -4.75d
-			y: -3.0d
-			shape: "rsquare"
-			subtitle: "Pray to My Altar"
-			description: [
-				"&dWhen you complete a God Altar, you will get a bonus modifier to the rest of that Vault, and the chance at gaining reputation with that God."
-				""
-				"&5But if you remember where that God Altar was, you can return to it to get a prize as well."
-				""
-				"&dThis is one of the few ways to get a God Capstone. When you add these to a Vault Crystal, they will highlight all altars of that God if you are in the same room as them."
-				""
-				"&5Aye, quite useful if you are trying to build God reputation for certain things."
-			]
-			hide_dependency_lines: true
-			dependencies: ["1799D40CDE8D8F82"]
-			id: "4606E122BFBD99C6"
-			tasks: [{
-				id: "60F0944ABB06D46A"
-				type: "item"
-				title: "Any God Capstone"
-				item: "the_vault:god_token"
-			}]
-			rewards: [{
-				id: "7939C8327262FA53"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
 			title: "Vendoor Vision"
 			x: -8.25d
 			y: -1.0d
@@ -1220,7 +1233,7 @@
 				"&5The whole Vault will be themed to that God, and all God Altars ye find will be for that God only."
 			]
 			hide_dependency_lines: true
-			dependencies: ["4606E122BFBD99C6"]
+			dependencies: ["1799D40CDE8D8F82"]
 			id: "55C6A431EBF09D21"
 			tasks: [
 				{
@@ -1298,9 +1311,13 @@
 			dependencies: ["59D6A7EF6A2A5123"]
 			id: "5B29F5CA1BCECFB6"
 			tasks: [{
-				id: "697130EA31CD36D6"
-				type: "item"
-				item: "the_vault:trinket_forge"
+				id: "715930A847963258"
+				type: "observation"
+				title: "Observe a Trinket Forge"
+				icon: "the_vault:trinket_forge"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:trinket_forge"
 			}]
 			rewards: [{
 				id: "6555FFDC32845DA2"
@@ -1368,9 +1385,13 @@
 			hide: true
 			id: "2FD33954095C8638"
 			tasks: [{
-				id: "215B0D7222B78010"
-				type: "item"
-				item: "woldsvaults:weaving_station"
+				id: "654F3C88C14756B9"
+				type: "observation"
+				title: "Observe a Weaving Station"
+				icon: "woldsvaults:weaving_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "woldsvaults:weaving_station"
 			}]
 			rewards: [{
 				id: "042C85DB15D7B00C"
@@ -1399,9 +1420,13 @@
 			hide: true
 			id: "3473933CA0BA9431"
 			tasks: [{
-				id: "43C5FE79B2B916BC"
-				type: "item"
-				item: "woldsvaults:mod_box_workstation"
+				id: "2E2E39CED92832BB"
+				type: "observation"
+				title: "Observe a Mod Box Workstation"
+				icon: "woldsvaults:mod_box_workstation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "woldsvaults:mod_box_workstation"
 			}]
 			rewards: [{
 				id: "3EE72AC1589B4D24"
@@ -1412,8 +1437,8 @@
 		}
 		{
 			title: "Fruit By The Vault"
-			x: -7.25d
-			y: 1.5d
+			x: -2.75d
+			y: -1.0d
 			shape: "rsquare"
 			subtitle: "Sweet, Sweet Time"
 			description: [
@@ -1464,54 +1489,22 @@
 				"&5In the Void Crucible interface, in the top tab, ye can look through the different themes and select blocks to blacklist and disable voiding on."
 				""
 				"&dThe bottom tab will show you all the items you have blacklisted, and you can click to remove them."
-				""
-				"&l&4(RESEARCH REQUIRED)"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
 			hide: true
 			id: "6CA424DD23A91F38"
 			tasks: [{
-				id: "3036A2BF403D688B"
-				type: "item"
-				item: "the_vault:vault_charm_controller"
+				id: "09F3193359B63E8E"
+				type: "observation"
+				title: "Observe a Void Crucible"
+				icon: "the_vault:vault_charm_controller"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_charm_controller"
 			}]
 			rewards: [{
 				id: "73D339C1F5AEB118"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 5632731352558517809L
-			}]
-		}
-		{
-			title: "Just Like New"
-			x: -2.75d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "Ignore The Scuff Marks"
-			description: [
-				"&5As you level higher, you will slow down in gaining levels, but increase the amount of equipment you find in a Vault."
-				""
-				"&5Eventually you'll find a piece of equipment that should last you long enough that you wear down the Durability to the breaking point."
-				""
-				"&5If you still have a piece of Gear you want to use longer when the Durability runs out, you'll want a Repair Core."
-				""
-				"&5Combine a Repair Core with the piece of equipment in an Anvil to repair it. It will consume a Repair slot on the equipment and refill the Durability."
-			]
-			hide_dependency_lines: true
-			dependencies: [
-				"29198B5EA727A867"
-				"1881243BF68F0FAC"
-			]
-			hide: true
-			id: "0CCBD4A4DBE2C736"
-			tasks: [{
-				id: "49FDF7B74CF66C95"
-				type: "item"
-				item: "the_vault:repair_core"
-			}]
-			rewards: [{
-				id: "68D1245AE859D950"
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 5632731352558517809L
@@ -1552,8 +1545,8 @@
 					SigilModel: "the_vault:sigil/adept_sigil#inventory"
 				}
 			}
-			x: -6.25d
-			y: 1.5d
+			x: -2.75d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "More Risk, More Reward"
 			description: [
@@ -1676,8 +1669,6 @@
 				"&5Hold the Filter Necklace and Right Click with it to open it up, and ye can fit plenty of Filters or Attribute Filters in."
 				""
 				"&dWhen worn, the Filter Necklace will only void blocks that match the settings in any filters you have inside it."
-				""
-				"&4&lThe Filter Necklace unlocks with the Void Crucible research!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6CA424DD23A91F38"]
@@ -1693,6 +1684,39 @@
 				type: "item"
 				item: "create:attribute_filter"
 				count: 2
+			}]
+		}
+		{
+			title: "Prebuilt Housing"
+			x: -6.25d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Like a 3D Printer....For Buildings"
+			description: [
+				"&dWhen you've unlocked the Inscription Table, you'll notice that there is a tab for Overworld Inscriptions."
+				""
+				"&5These craftable inscriptions are premade houses, bases, and other builds that you can spawn using the Architect's Crucible."
+				""
+				"&dPlace down the Architect's Crucible, and put in an Overworld Inscription. You can preview and move around the build before having it spawn the build."
+			]
+			hide_dependency_lines: true
+			dependencies: ["341E8BC988FE57D3"]
+			hide: true
+			id: "18098C9A8D3B9BF5"
+			tasks: [{
+				id: "3A8E4150FC99CCA7"
+				type: "observation"
+				title: "Observe an Architect's Crucible"
+				icon: "the_vault:schematic_terminal"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:schematic_terminal"
+			}]
+			rewards: [{
+				id: "7CFF13A5C763FA94"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 	]

@@ -8,10 +8,13 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
+		title: "Piercing the Heavens"
 		x: -0.25d
 		y: 0.5d
-		subtitle: "Avaritia"
-		dependencies: ["1E1457C794B6792E"]
+		shape: "hexagon"
+		subtitle: "MOD : Avaritia (@avaritia)"
+		description: ["&c[WIP : RESEARCH BEING CONDUCTED, QUESTS WILL BE ADDED LATER]"]
+		dependencies: ["3957537F29CC5BA6"]
 		id: "56818576839B88B6"
 		tasks: [{
 			id: "15430F3F2323E07E"

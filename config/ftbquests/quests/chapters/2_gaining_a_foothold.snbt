@@ -378,18 +378,18 @@
 				""
 				"&5Oh! The Raw Vaults, that's right. They contain a lot of the non-Vault resources you need to build a base and gear and machines. Like Iron, Diamonds, Stone, etc."
 				""
-				"&dRight, and Raw Vaults come from Budding Crystals, which grow like Amethyst. Budding Crystals are usually reserved for Skyvault users, but a tiny little code change and...you can make one, Bandit."
+				"&dRight, and Raw Vaults come from Budding Crystals, which grow like Amethyst. Budding Crystals are usually reserved for Skyvault users, but a tiny little code change and...you can now make one!"
 				""
 				"&5Wait, sis, if ye can...I remember those big Amethyst caves underground. Could ye...modify that a bit? Make one for the Budding Crystals?"
 				""
-				"&dWill do, bro."
+				"&dWill do, bro. Zap, and now you can find them underground too!"
 			]
 			dependencies: ["10F607F18CE03D39"]
 			id: "3E2831A2D27654C0"
 			tasks: [{
 				id: "758524279B807786"
 				type: "observation"
-				title: "Place and Look At a Budding Crystal"
+				title: "Observe a Budding Crystal"
 				icon: "the_vault:crystal_budding"
 				timer: 0L
 				observe_type: 0
@@ -404,7 +404,7 @@
 		{
 			title: "Recycling and Reusing"
 			x: -6.5d
-			y: -3.5d
+			y: -2.5d
 			shape: "rsquare"
 			subtitle: "Repurposed"
 			description: [
@@ -421,9 +421,13 @@
 			dependencies: ["7543E03FC25521E7"]
 			id: "29198B5EA727A867"
 			tasks: [{
-				id: "6D8D9704EC9248AF"
-				type: "item"
-				item: "the_vault:vault_recycler"
+				id: "0624F8EBEA7D786A"
+				type: "observation"
+				title: "Observe a Vault Recycler"
+				icon: "the_vault:vault_recycler"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_recycler"
 			}]
 			rewards: [{
 				id: "37FD980BB0198DF4"
@@ -523,19 +527,13 @@
 			dependencies: ["3011291910FDA2DC"]
 			dependency_requirement: "one_completed"
 			id: "148669A61C9EFBF4"
-			tasks: [
-				{
-					id: "5449035872332A83"
-					type: "checkmark"
-				}
-				{
-					id: "1DCAF4CEF586F554"
-					type: "woldsvaults:vault_level"
-					title: "Reach Level 20"
-					icon: "minecraft:skeleton_skull"
-					value: 20
-				}
-			]
+			tasks: [{
+				id: "1DCAF4CEF586F554"
+				type: "woldsvaults:vault_level"
+				title: "Reach Level 20"
+				icon: "minecraft:skeleton_skull"
+				value: 20
+			}]
 			rewards: [{
 				id: "7797EC090D62CFF3"
 				type: "choice"
@@ -572,9 +570,13 @@
 			]
 			id: "5F19CA4A2A21E708"
 			tasks: [{
-				id: "0ECCE31A31699702"
-				type: "item"
-				item: "the_vault:jewel_crafting_table"
+				id: "1911BF5F548ADBB8"
+				type: "observation"
+				title: "Observe a Jewel Crafting Table"
+				icon: "the_vault:jewel_crafting_table"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:jewel_crafting_table"
 			}]
 			rewards: [{
 				id: "35394C1533E28E4E"
@@ -603,9 +605,13 @@
 			dependencies: ["232779928B96328E"]
 			id: "3E4FCFC9637F8B61"
 			tasks: [{
-				id: "184F0D0442BC5BC8"
-				type: "item"
-				item: "the_vault:tool_station"
+				id: "2863933608E700CF"
+				type: "observation"
+				title: "Observe a Tool Station"
+				icon: "the_vault:tool_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:tool_station"
 			}]
 			rewards: [{
 				id: "70FDD9ABC8E0AAD9"
@@ -637,9 +643,13 @@
 			dependencies: ["7543E03FC25521E7"]
 			id: "76705D95215E5BCA"
 			tasks: [{
-				id: "469035E1A26F175F"
-				type: "item"
-				item: "the_vault:vault_enchanter"
+				id: "2E8C02053B857F63"
+				type: "observation"
+				title: "Observe a Vault Enchanter"
+				icon: "the_vault:vault_enchanter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_enchanter"
 			}]
 			rewards: [{
 				id: "16927F916C3E4B20"
@@ -671,9 +681,13 @@
 			dependencies: ["287AFB08CA4CC848"]
 			id: "7913E52AAC8DE521"
 			tasks: [{
-				id: "695A56A69F3C677C"
-				type: "item"
-				item: "the_vault:black_market"
+				id: "4D569048D87B18F3"
+				type: "observation"
+				title: "Observe a Black Market"
+				icon: "the_vault:black_market"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:black_market"
 			}]
 			rewards: [{
 				id: "6200612309E30D52"
@@ -705,9 +719,13 @@
 			dependencies: ["76B7D44E338DC9B7"]
 			id: "4C97356EDF3283CB"
 			tasks: [{
-				id: "702B00A63120D0C8"
-				type: "item"
-				item: "the_vault:crystal_workbench"
+				id: "7A5C931B34C985DF"
+				type: "observation"
+				title: "Observe a Crystal Workbench"
+				icon: "the_vault:crystal_workbench"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:crystal_workbench"
 			}]
 			rewards: [
 				{
@@ -749,14 +767,18 @@
 			id: "6473A9F33F692821"
 			tasks: [
 				{
-					id: "12D40CB9A0AFB768"
-					type: "item"
-					item: "the_vault:vault_artisan_station"
-				}
-				{
 					id: "10A57C9288A6ABCE"
 					type: "item"
 					item: "the_vault:wild_focus"
+				}
+				{
+					id: "47C080D6BF4BA314"
+					type: "observation"
+					title: "Observe a Vault Artisan Station"
+					icon: "the_vault:vault_artisan_station"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:vault_artisan_station"
 				}
 			]
 			rewards: [{
@@ -814,9 +836,13 @@
 			dependencies: ["600061B7D508477A"]
 			id: "347572D8EA734FDC"
 			tasks: [{
-				id: "20A5773E1C94635C"
-				type: "item"
-				item: "the_vault:alchemy_table"
+				id: "689680500F88380B"
+				type: "observation"
+				title: "Observe an Alchemy Table"
+				icon: "the_vault:alchemy_table"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:alchemy_table"
 			}]
 			rewards: [{
 				id: "6D69C45C9F32EBF9"
@@ -968,9 +994,13 @@
 			]
 			id: "5252A91CF03F9FFB"
 			tasks: [{
-				id: "3986068B1C8453DE"
-				type: "item"
-				item: "the_vault:vault_jewel_application_station"
+				id: "2FC53A989F783AE4"
+				type: "observation"
+				title: "Observe a Jewel Applicator"
+				icon: "the_vault:vault_jewel_application_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_jewel_application_station"
 			}]
 			rewards: [{
 				id: "61B1C995542D69E0"
@@ -1033,9 +1063,13 @@
 			dependencies: ["10F607F18CE03D39"]
 			id: "08E517D3A58B0E81"
 			tasks: [{
-				id: "67E8414855446E0C"
-				type: "item"
-				item: "the_vault:vault_diffuser"
+				id: "3CE7972FD920A98E"
+				type: "observation"
+				title: "Observe a Vault Soul Diffuser"
+				icon: "the_vault:vault_diffuser"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_diffuser"
 			}]
 			rewards: [{
 				id: "7CF59AE6AE796BB5"
@@ -1132,9 +1166,13 @@
 			dependencies: ["76B7D44E338DC9B7"]
 			id: "7B4E0CC53475C2C5"
 			tasks: [{
-				id: "035C593D99171247"
-				type: "item"
-				item: "the_vault:identification_stand"
+				id: "1ADFBF21B600CD78"
+				type: "observation"
+				title: "Observe an Identification Stand"
+				icon: "the_vault:identification_stand"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:identification_stand"
 			}]
 			rewards: [{
 				id: "78CFD254607A7A48"
@@ -1145,7 +1183,7 @@
 		{
 			title: "A Bounty of Missions"
 			icon: "the_vault:bounty_block"
-			x: -6.0d
+			x: -5.5d
 			y: -2.5d
 			shape: "rsquare"
 			subtitle: "Extra Effort, Extra Loot"
@@ -1167,14 +1205,18 @@
 			id: "1A438987A9D3D7AD"
 			tasks: [
 				{
-					id: "034F61DB02AC6A7D"
-					type: "item"
-					item: "the_vault:bounty_block"
-				}
-				{
 					id: "4B0D3D515D15D5FA"
 					type: "item"
 					item: "the_vault:bounty_pearl"
+				}
+				{
+					id: "1214642D08705751"
+					type: "observation"
+					title: "Observe a Bounty Table"
+					icon: "the_vault:bounty_block"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:bounty_block"
 				}
 			]
 			rewards: [{
@@ -1365,9 +1407,13 @@
 			dependencies: ["7543E03FC25521E7"]
 			id: "075AD2D046BFE367"
 			tasks: [{
-				id: "39B3958325926455"
-				type: "item"
-				item: "the_vault:vault_forge"
+				id: "496EAB0B28AE28FF"
+				type: "observation"
+				title: "Observe a Vault Forge"
+				icon: "the_vault:vault_forge"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:vault_forge"
 			}]
 			rewards: [{
 				id: "4D26ECA45A4C5059"
@@ -1529,7 +1575,7 @@
 			description: [
 				"&dOkay Bandit, this will seem quite expensive to you early on to build, I think it'll be quite useful at some point."
 				""
-				"&5This Augment Assembly Table will let ye craft any Themes you have unlocked."
+				"&5This Augment Station will let ye craft any Themes you have unlocked."
 				""
 				"&dYou can get Augment Pieces by recycling unused Augments."
 			]
@@ -1537,9 +1583,13 @@
 			dependencies: ["420733071145A568"]
 			id: "0DF63164F7EBCD97"
 			tasks: [{
-				id: "742DD8844D5AD687"
-				type: "item"
-				item: "woldsvaults:augment_crafting_table"
+				id: "3B9462738A21DB21"
+				type: "observation"
+				title: "Observe an Augment Station"
+				icon: "the_vault:augment_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "he_vault:augment_station"
 			}]
 			rewards: [{
 				id: "4E8DCD2AA086631C"
@@ -2766,7 +2816,7 @@
 		}
 		{
 			title: "Uniquely Found"
-			x: 2.25d
+			x: 1.75d
 			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Tucked Away for a Rainy Day"
@@ -2785,7 +2835,7 @@
 			tasks: [{
 				id: "6A36F4E0B8DA3824"
 				type: "observation"
-				title: "Find a Unique Crate"
+				title: "Observe a Unique Crate"
 				icon: "the_vault:unique_crate"
 				timer: 0L
 				observe_type: 0
@@ -2812,30 +2862,53 @@
 				""
 				"&dNor is always having to dig into your backpack to grab dropped items."
 				""
-				"&5So there's a few things ye can make to help out. The Debagnitizer will stop your Sophisticated Backpacks from auto picking up items in an area."
+				"&5So there's a few things ye can make to help out. The Bag Suppressor will stop your Sophisticated Backpacks from auto picking up items in an area."
 				""
-				"&dAnd the Demagnetizer will disable all Vault Magnets near it."
+				"&dAnd the Magnet Suppressor will disable all Vault Magnets near it."
 				""
-				"&5As for the hammer, ye can use the Dehammerizer to disable the area effect of yer hammer. Save yerself a big headache."
+				"&5As for the hammer, ye can use the Hammer Suppressor to disable the area effect of yer hammer. Save yerself a big headache."
+				""
+				"&dAnd to save an even bigger headache if you got pets or villagers, the Ability Suppressor turns most of your deadly, damaging abilities off too."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5FC0C65E68336246"]
 			id: "40B3DC65625197C4"
 			tasks: [
 				{
-					id: "51E7EAEE0120B591"
-					type: "item"
-					item: "the_vault:demagnetizer"
+					id: "57B9993F9ECD10AE"
+					type: "observation"
+					title: "Observe a Magnet Suppressor"
+					icon: "the_vault:demagnetizer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:demagnetizer"
 				}
 				{
-					id: "7FAA3F96102DBC40"
-					type: "item"
-					item: "the_vault:debagnetizer"
+					id: "1A4D3722695444F2"
+					type: "observation"
+					title: "Observe a Bag Suppressor"
+					icon: "the_vault:debagnetizer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:debagnetizer"
 				}
 				{
-					id: "2CFB49DD80033A6D"
-					type: "item"
-					item: "the_vault:dehammerizer"
+					id: "0A7E6EA82B051A45"
+					type: "observation"
+					title: "Observe a Hammer Suppressor"
+					icon: "the_vault:dehammerizer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:dehammerizer"
+				}
+				{
+					id: "4FC5530F1E56D77C"
+					type: "observation"
+					title: "Observe an Ability Suppressor"
+					icon: "the_vault:ability_suppressor"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:ability_suppressor"
 				}
 			]
 			rewards: [{
@@ -2883,7 +2956,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 3.75d
+			x: 4.25d
 			y: 2.0d
 			shape: "rsquare"
 			subtitle: "You Equals Me"
@@ -2987,9 +3060,13 @@
 			hide: true
 			id: "2A847F412902DA5B"
 			tasks: [{
-				id: "3FDF17BD0A6025A8"
-				type: "item"
-				item: "woldsvaults:chromatic_iron_vault_infuser"
+				id: "0A4EC82715C95DDD"
+				type: "observation"
+				title: "Observe a Chromatic Iron Vault Infuser"
+				icon: "woldsvaults:chromatic_iron_vault_infuser"
+				timer: 0L
+				observe_type: 0
+				to_observe: "woldsvaults:chromatic_iron_vault_infuser"
 			}]
 			rewards: [{
 				id: "55FC9E8CAA562232"
@@ -3027,14 +3104,18 @@
 			id: "5C112782F9CCABB1"
 			tasks: [
 				{
-					id: "60985E708BBD9CC4"
-					type: "item"
-					item: "the_vault:vault_coffee_machine"
-				}
-				{
 					id: "5928B54D6CF431BC"
 					type: "item"
 					item: "the_vault:empty_glass_cup"
+				}
+				{
+					id: "4C9EC949EC7B31CD"
+					type: "observation"
+					title: "Observe a Vault Drink Machine"
+					icon: "the_vault:vault_coffee_machine"
+					timer: 0L
+					observe_type: 0
+					to_observe: "the_vault:vault_coffee_machine"
 				}
 			]
 			rewards: [{
@@ -3283,13 +3364,13 @@
 			shape: "rsquare"
 			subtitle: "This Thing Says To Go North Left?"
 			description: [
-				"&5An helpful tool for navigating Vaults you can Research is the Vault Compass."
+				"&dBandit, a helpful tool for navigating Vaults you can Research is the Vault Compass."
 				""
-				"&5Not just a simple Compass that points to the Vault Portal anymore, the Vault Compass is a much more powerful tool. It can point to a variety of things, from special doors to objectives to other things."
+				"&5Tis not just a simple Compass that points to the Vault Portal, the Vault Compass is quite powerful. It can point to a variety of things, from special doors to objectives to other things."
 				""
-				"&5At first, the Compass can only point to the Vault Portal, but as you explore more Vaults, you'll unlock the ability to point the Compass  at other things."
+				"&dAt first, the Compass can only point to the Vault Portal, but as you explore more Vaults, you'll unlock the ability to point the Compass  at other things."
 				""
-				"&5You can set the target of the Compass outside the Vault for free, but changing it in the middle of a Vault will cost 10% of your Health. (You'll get this back after the Vault, of course)"
+				"&5Ye can set the target of the Compass outside the Vault for free, but changing it in the middle of a Vault will cost ye 10% of yer Health. (Ye'll get this back after the Vault, of course)"
 			]
 			hide_dependency_lines: true
 			dependencies: ["76B7D44E338DC9B7"]
@@ -3333,32 +3414,6 @@
 			}]
 		}
 		{
-			title: "Slightly Forgetful"
-			icon: {
-				id: "the_vault:respec_flask"
-				Count: 1b
-				tag: { }
-			}
-			x: 4.75d
-			y: 2.0d
-			shape: "rsquare"
-			subtitle: "Choosing Anew"
-			description: [
-				"&5Many skills have specializations ye can select. Nova has Toxic or Frost Nova, Earthquake has Landmine, etc."
-				""
-				"&dForgetting these specializations isn't as easy as spending a bit of gold to unlearn spent skill points, however. Even if you remove all the skill points spent in a skill, the Specialization will still be selected."
-				""
-				"&5Instead ye must craft a Choice Flask that matches the base skill of the specialization ye want to forget. Bottoms up!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["76B7D44E338DC9B7"]
-			id: "11A2FB37A31C035E"
-			tasks: [{
-				id: "01644E5CF5C31890"
-				type: "checkmark"
-			}]
-		}
-		{
 			title: "Safe Doll Extraction"
 			icon: "woldsvaults:doll_dismantler"
 			x: 4.75d
@@ -3378,6 +3433,68 @@
 			tasks: [{
 				id: "46C0C69B5C61E37F"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "Just Like New"
+			x: -6.5d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "Ignore The Scuff Marks"
+			description: [
+				"&5As you level higher, you will slow down in gaining levels, but increase the amount of equipment you find in a Vault."
+				""
+				"&5Eventually you'll find a piece of equipment that should last you long enough that you wear down the Durability to the breaking point."
+				""
+				"&5If you still have a piece of Gear you want to use longer when the Durability runs out, you'll want a Repair Core."
+				""
+				"&5Combine a Repair Core with the piece of equipment in an Anvil to repair it. It will consume a Repair slot on the equipment and refill the Durability."
+			]
+			hide_dependency_lines: true
+			dependencies: ["29198B5EA727A867"]
+			hide: true
+			id: "0CCBD4A4DBE2C736"
+			tasks: [{
+				id: "49FDF7B74CF66C95"
+				type: "item"
+				item: "the_vault:repair_core"
+			}]
+			rewards: [{
+				id: "68D1245AE859D950"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			title: "A Unique Display"
+			x: 2.75d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Showing Off a Bit"
+			description: [
+				"&dIf you want a great way to see what Uniques there are, how to find them, and display ones you have found, then look no further than the Unique Safe."
+				""
+				"&5In this, ye can see a list of every unique, along with a hint on where to find it. Ye can also select one that you've unlocked to display on a player mannequin above the Unique Safe."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7C06CB39886FCC9B"]
+			hide: true
+			id: "57482F02F417DCA5"
+			tasks: [{
+				id: "7A70EFB2918FB95E"
+				type: "observation"
+				title: "Observe a Unique Safe"
+				icon: "the_vault:unique_wardrobe"
+				timer: 0L
+				observe_type: 0
+				to_observe: "the_vault:unique_wardrobe"
+			}]
+			rewards: [{
+				id: "6D63DEC87CC99816"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
 			}]
 		}
 	]
