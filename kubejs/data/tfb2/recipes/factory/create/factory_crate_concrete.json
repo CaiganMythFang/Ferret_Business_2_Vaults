@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfb2:factory_crate_empty"
+  },
+  "transitionalItem": {
+    "item": "create:factory_crate_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfb2:factory_crate_incomplete"
+        },
+        {
+            "tag": "tfb2:concrete"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfb2:factory_crate_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "tfb2:factory_crate_concrete"
+    }
+  ],
+  "loops": 8
+}

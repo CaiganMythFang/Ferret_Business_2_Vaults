@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfb2:factory_crate_empty"
+  },
+  "transitionalItem": {
+    "item": "create:factory_crate_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfb2:factory_crate_incomplete"
+        },
+        {
+            "tag": "tfb2:sweet_treat"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfb2:factory_crate_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "tfb2:factory_crate_sweet_treat"
+    }
+  ],
+  "loops": 8
+}
