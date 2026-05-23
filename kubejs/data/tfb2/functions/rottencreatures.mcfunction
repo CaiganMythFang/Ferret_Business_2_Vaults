@@ -1,0 +1,14 @@
+summon item ~ ~ ~ {Item:{id:"rottencreatures:burned_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:corrupted_wart",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:dead_beard_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:frostbitten_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:frozen_rotten_flesh",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:glacial_hunter_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:immortal_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:magma_rotten_flesh",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:mummy_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:spear",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:swampy_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:tnt_barrel",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:treasure_chest",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rottencreatures:undead_miner_spawn_egg",Count:1b}} 

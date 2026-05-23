@@ -1,0 +1,16 @@
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_black",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_blue",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_brown",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_cyan",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_gray",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_green",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_light_blue",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_light_gray",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_lime",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_magenta",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_orange",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_pink",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_purple",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_red",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_white",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"elevatorid:elevator_yellow",Count:1b}} 

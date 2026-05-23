@@ -1,0 +1,17 @@
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:clam",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:dragonfly_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:dumbo_octopus_bucket",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:dumbo_octopus_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:ferret_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:koi_fish",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:koi_fish_bucket",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:koi_fish_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:leaf_insect_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:otter_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:pearl",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:pearl_necklace_1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:pearl_necklace_2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:pearl_necklace_3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:red_panda_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:sea_bunny_bucket",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crittersandcompanions:sea_bunny_spawn_egg",Count:1b}} 

@@ -1,0 +1,16 @@
+summon item ~ ~ ~ {Item:{id:"peripherals:advanced_disk_raid",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:anvil_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:beehive_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:disk_raid",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:enchanting_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:grinder",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:grindstone_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:induction_charger",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:loom_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:magnetic_card",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:magnetic_card_manipulator",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:spawner_card",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:spawner_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:trading_interface",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:xp_bottler",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"peripherals:xp_collector",Count:1b}} 

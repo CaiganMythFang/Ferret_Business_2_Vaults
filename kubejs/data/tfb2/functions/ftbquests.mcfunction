@@ -1,0 +1,12 @@
+summon item ~ ~ ~ {Item:{id:"ftbquests:barrier",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:book",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:custom_icon",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:detector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:loot_crate_opener",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:lootcrate",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:missing_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:screen_1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:screen_3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:screen_5",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:screen_7",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"ftbquests:stage_barrier",Count:1b}} 

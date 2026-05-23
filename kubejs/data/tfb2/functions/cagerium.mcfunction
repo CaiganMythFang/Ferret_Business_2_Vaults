@@ -1,0 +1,11 @@
+summon item ~ ~ ~ {Item:{id:"cagerium:binding_gemstone",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:binding_wood_plate",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:burning_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:cage",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:ender_dragon_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:iron_golem_spawn_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:ominous_skull",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:plate",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:skeleton_key",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:terrarium",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"cagerium:wither_spawn_egg",Count:1b}} 

@@ -1,0 +1,11 @@
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:alfheim_market",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:industrial_agglomeration_factory",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mana_battery",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mana_battery_creative",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mana_emerald",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mana_emerald_block",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mechanical_apothecary",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mechanical_brewery",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mechanical_daisy",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mechanical_mana_pool",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"botanicalmachinery:mechanical_runic_altar",Count:1b}} 

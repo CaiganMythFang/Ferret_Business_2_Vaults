@@ -1,0 +1,11 @@
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:crafting_manager",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:dump_module",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:modular_storage",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_control_module",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_module0",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_module1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_module2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_module3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_module6",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:storage_scanner",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsstorage:tablet_scanner",Count:1b}} 

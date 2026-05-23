@@ -1,0 +1,9 @@
+summon item ~ ~ ~ {Item:{id:"tinygates:and_gate_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:clock_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:counter_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:edge_detector_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:not_gate_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:or_gate_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:rs_latch_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:t_flip_flop_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"tinygates:xor_gate_item",Count:1b}} 

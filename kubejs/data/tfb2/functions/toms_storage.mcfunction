@@ -1,0 +1,17 @@
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.adv_wireless_terminal",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.crafting_terminal",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_cable",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_cable_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_cable_connector_filtered",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_cable_connector_framed",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_cable_framed",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_hopper_basic",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.inventory_proxy",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.level_emitter",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.open_crate",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.paint_kit",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.painted_trim",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.storage_terminal",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.trim",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"toms_storage:ts.wireless_terminal",Count:1b}} 

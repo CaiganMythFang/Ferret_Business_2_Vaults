@@ -1,0 +1,12 @@
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:apple_slices",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:bread_slice",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:chopped_beetroot",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:chopped_carrot",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:chopped_golden_carrot",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:enchanted_golden_apple_slices",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:golden_apple_slices",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:sandwich",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:sandwiching_station",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:spread",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:toasted_bread_slice",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"some_assembly_required:tomato_slices",Count:1b}} 

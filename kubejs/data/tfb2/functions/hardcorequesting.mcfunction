@@ -1,0 +1,15 @@
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:basic_bag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:enabled_quest_book",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:epic_bag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:good_bag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:greater_bag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:halfheart",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:heart",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:hqm_invalid_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:item_barrel",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:legendary_bag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:quarterheart",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:quest_book",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:quest_tracker",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:rottenheart",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"hardcorequesting:threequartsheart",Count:1b}} 

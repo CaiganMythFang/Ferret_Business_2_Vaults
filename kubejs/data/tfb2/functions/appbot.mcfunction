@@ -1,0 +1,14 @@
+summon item ~ ~ ~ {Item:{id:"appbot:creative_mana_cell",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:fluix_mana_pool",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_cell_housing",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_p2p_tunnel",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_storage_cell_16k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_storage_cell_1k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_storage_cell_256k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_storage_cell_4k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:mana_storage_cell_64k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:portable_mana_storage_cell_16k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:portable_mana_storage_cell_1k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:portable_mana_storage_cell_256k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:portable_mana_storage_cell_4k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appbot:portable_mana_storage_cell_64k",Count:1b}} 

@@ -1,0 +1,12 @@
+summon item ~ ~ ~ {Item:{id:"mobprocessor:augment_egg",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:looting_upgrade_1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:looting_upgrade_2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:looting_upgrade_3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:mob_processor",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:player_kill_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:speed_upgrade_1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:speed_upgrade_2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:speed_upgrade_3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:storage_upgrade_1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:storage_upgrade_2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"mobprocessor:storage_upgrade_3",Count:1b}} 

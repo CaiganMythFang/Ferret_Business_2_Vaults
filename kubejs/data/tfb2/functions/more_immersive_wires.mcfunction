@@ -1,0 +1,16 @@
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:ae_coil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:ae_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:ae_dense_coil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:ae_dense_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:ae_dense_relay",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:ae_relay",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:cc_coil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:cc_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:cc_modem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:cc_relay",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:id_coil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:id_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:id_relay",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:rs_coil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:rs_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"more_immersive_wires:rs_relay",Count:1b}} 

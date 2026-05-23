@@ -1,0 +1,16 @@
+summon item ~ ~ ~ {Item:{id:"itemfilters:always_false",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:always_true",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:and",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:block",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:custom",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:damage",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:id_regex",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:item_group",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:max_count",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:mod",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:not",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:or",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:strong_nbt",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:tag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:weak_nbt",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"itemfilters:xor",Count:1b}} 

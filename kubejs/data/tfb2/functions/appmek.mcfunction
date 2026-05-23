@@ -1,0 +1,13 @@
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_cell_housing",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_p2p_tunnel",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_storage_cell_16k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_storage_cell_1k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_storage_cell_256k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_storage_cell_4k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:chemical_storage_cell_64k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:creative_chemical_cell",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:portable_chemical_storage_cell_16k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:portable_chemical_storage_cell_1k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:portable_chemical_storage_cell_256k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:portable_chemical_storage_cell_4k",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"appmek:portable_chemical_storage_cell_64k",Count:1b}} 

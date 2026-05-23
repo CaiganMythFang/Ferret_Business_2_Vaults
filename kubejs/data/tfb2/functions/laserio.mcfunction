@@ -1,0 +1,16 @@
+summon item ~ ~ ~ {Item:{id:"laserio:card_energy",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:card_fluid",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:card_holder",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:card_item",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:card_redstone",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:filter_basic",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:filter_count",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:filter_mod",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:filter_tag",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:laser_connector",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:laser_node",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:laser_wrench",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:logic_chip",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:logic_chip_raw",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:overclocker_card",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"laserio:overclocker_node",Count:1b}} 

@@ -1,0 +1,15 @@
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_block",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_block_dense",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_block_powder",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_chunk_dense",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_paste",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_paste_container_creative",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_paste_container_t1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_paste_container_t2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:construction_paste_container_t3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:gadget_building",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:gadget_copy_paste",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:gadget_destruction",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:gadget_exchanging",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:template",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"buildinggadgets:template_manager",Count:1b}} 

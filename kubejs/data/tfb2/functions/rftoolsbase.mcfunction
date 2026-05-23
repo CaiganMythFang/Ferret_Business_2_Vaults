@@ -1,0 +1,17 @@
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:crafting_card",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:dimensionalshard",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:dimensionalshard_end",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:dimensionalshard_nether",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:dimensionalshard_overworld",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:filter_module",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:information_screen",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:infused_diamond",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:infused_enderpearl",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:machine_base",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:machine_frame",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:machine_infuser",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:manual",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:smartwrench",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:smartwrench_select",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:tablet",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"rftoolsbase:tablet_filled",Count:1b}} 

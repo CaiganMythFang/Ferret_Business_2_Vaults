@@ -1,0 +1,11 @@
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:admin_configurator",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:basic_flux_storage",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_block",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_configurator",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_controller",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_core",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_dust",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_plug",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:flux_point",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:gargantuan_flux_storage",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"fluxnetworks:herculean_flux_storage",Count:1b}} 

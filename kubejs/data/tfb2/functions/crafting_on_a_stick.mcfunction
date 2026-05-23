@@ -1,0 +1,9 @@
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:anvil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:cartography_table",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:chipped_anvil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:crafting_table",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:damaged_anvil",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:grindstone",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:loom",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:smithing_table",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"crafting_on_a_stick:stonecutter",Count:1b}} 

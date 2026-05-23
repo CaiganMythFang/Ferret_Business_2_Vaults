@@ -1,0 +1,9 @@
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:diamond_drill",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:drill",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:drilling_machine",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:extractor",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:netherite_drill",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:raw_diamond",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:raw_emerald",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:raw_redstone",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"createoreexcavation:vein_finder",Count:1b}} 

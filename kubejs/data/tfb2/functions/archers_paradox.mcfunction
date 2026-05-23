@@ -1,0 +1,15 @@
+summon item ~ ~ ~ {Item:{id:"archers_paradox:blaze_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:challenge_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:diamond_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:ender_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:explosive_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:frost_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:lightning_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:phantasmal_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:prismarine_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:quartz_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:shulker_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:slime_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:spore_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:training_arrow",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"archers_paradox:verdant_arrow",Count:1b}} 

@@ -1,0 +1,16 @@
+summon item ~ ~ ~ {Item:{id:"grapplemod:baseupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:block_grapple_modifier",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:doubleupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:forcefieldupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:grapplinghook",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:launcheritem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:limitsupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:longfallboots",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:magnetupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:motorupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:repeller",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:rocketupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:ropeupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:staffupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:swingupgradeitem",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"grapplemod:throwupgradeitem",Count:1b}} 

@@ -1,0 +1,12 @@
+summon item ~ ~ ~ {Item:{id:"pipez:advanced_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:basic_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:energy_pipe",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:filter_destination_tool",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:fluid_pipe",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:gas_pipe",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:improved_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:infinity_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:item_pipe",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:ultimate_upgrade",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:universal_pipe",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"pipez:wrench",Count:1b}} 

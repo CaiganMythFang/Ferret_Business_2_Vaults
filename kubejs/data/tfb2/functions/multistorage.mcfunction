@@ -1,0 +1,10 @@
+summon item ~ ~ ~ {Item:{id:"multistorage:assembler",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:chameleon",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:junkbox",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:queue",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:stacking",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:upgrade1",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:upgrade2",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:upgrade3",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:visualizer",Count:1b}} 
+summon item ~ ~ ~ {Item:{id:"multistorage:wrench",Count:1b}} 
