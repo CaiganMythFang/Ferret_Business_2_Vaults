@@ -10,16 +10,15 @@
       "entries": [
         {
           "type": "item",
-          "name": "cardsnboards:0",
-          "weight": null,
+          "name": "cardsnboards:coin_chip_5_0_0",
+          "weight": 100,
           "functions": [
             {
-              "function": "set_data",
-              "data": 1
-            },
-            {
               "function": "set_count",
-              "count": 100
+              "count": {
+                "min": 1,
+                "max": 4
+              }
             }
           ]
         }
