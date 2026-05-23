@@ -266,7 +266,7 @@
       "color1": "0xFF49d64f",
       "color2": "0xFF5b23b0"
     },
-     "shiny_pack": {
+    "shiny_pack": {
       "type": "floating_item_reward",
       "textColor": "0xFFffb400",
       "name": "Shiny Booster Pack",
@@ -925,6 +925,18 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+    "broodmother": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Broodmother",
+      "item": {
+        "id": "the_vault:shield",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:broodmother\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
     "ender_rings": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -932,6 +944,18 @@
       "item": {
         "id": "the_vault:focus",
         "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:ender_rings\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "shattering_jewel": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Shattering Jewel",
+      "item": {
+        "id": "the_vault:jewel",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:shattering_jewel\",\"the_vault:gear_roll_type\":\"Unique\"}",
         "count": 1
       },
       "color1": "0xFFED7B24",
@@ -1198,6 +1222,13 @@
       "tile": "the_vault:placeholder[type=gilded_chest,facing=up]{Hidden:1b,template_tags:[\"no_trap\"]}",
       "count": 16
     },
+    "gilded_chest_ww": {
+      "type": "tile_reward",
+      "name": "Gilded Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=gilded_chest,facing=up]{Hidden:1b,template_tags:[\"no_trap\"]}",
+      "count": 8
+    },
     "gilded_chest_bigger": {
       "type": "tile_reward",
       "name": "Gilded Chests",
@@ -1218,6 +1249,13 @@
       "textColor": "0xFFfff0a9",
       "tile": "the_vault:placeholder[type=ornate_chest,facing=up]{Hidden:1b,template_tags:[\"no_trap\"]}",
       "count": 16
+    },
+    "ornate_chest_ww": {
+      "type": "tile_reward",
+      "name": "Ornate Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=ornate_chest,facing=up]{Hidden:1b,template_tags:[\"no_trap\"]}",
+      "count": 8
     },
     "ornate_chest_bigger": {
       "type": "tile_reward",
@@ -1240,6 +1278,13 @@
       "tile": "the_vault:placeholder[type=coin_stacks,facing=up]{Hidden:1b}",
       "count": 16
     },
+     "coin_pile_ww": {
+      "type": "tile_reward",
+      "name": "Coin Piles",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=coin_stacks,facing=up]{Hidden:1b}",
+      "count": 16
+    },
     "coin_pile_bigger": {
       "type": "tile_reward",
       "name": "Coin Piles",
@@ -1255,6 +1300,13 @@
       "count": 10
     },
     "living_chest_big": {
+      "type": "tile_reward",
+      "name": "Living Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=living_chest,facing=up]{Hidden:1b,template_tags:[\"no_trap\"]}",
+      "count": 16
+    },
+     "living_chest_ww": {
       "type": "tile_reward",
       "name": "Living Chests",
       "textColor": "0xFFfff0a9",
@@ -1520,6 +1572,48 @@
       "count": 10,
       "spawner": "elevated"
     },
+    "add_low_level_guardians": {
+      "type": "mob_spawn",
+      "name": "Guardians",
+      "entity": {
+        "id": "the_vault:bruiser_guardian",
+        "Tags": [
+          "no_champion",
+          "ethereal_immune",
+          "no_drops"
+        ]
+      },
+      "count": 4,
+      "spawner": "elevated"
+    },
+    "add_low_2_level_guardians": {
+      "type": "mob_spawn",
+      "name": "Guardians",
+      "entity": {
+        "id": "the_vault:bruiser_guardian",
+        "Tags": [
+          "no_champion",
+          "ethereal_immune",
+          "no_drops"
+        ]
+      },
+      "count": 8,
+      "spawner": "elevated"
+    },
+    "add_high_level_guardians": {
+      "type": "mob_spawn",
+      "name": "Guardians",
+      "entity": {
+        "id": "the_vault:bruiser_guardian",
+        "Tags": [
+          "no_champion",
+          "ethereal_immune",
+          "no_drops"
+        ]
+      },
+      "count": 12,
+      "spawner": "elevated"
+    },
     "add_puzzle_guardians": {
       "type": "mob_spawn",
       "name": "Puzzle Guardians",
@@ -1700,6 +1794,11 @@
       },
       "count": 1,
       "spawner": "ground"
+    },
+    "double_everything": {
+      "type": "multiply_actions",
+      "name": "Double Rewards & Modifiers",
+      "textColor": "0xFFFF78DD"
     },
     "add_ravager_champion": {
       "type": "mob_spawn",
@@ -1986,6 +2085,10 @@
             {
               "value": "leg_battlestaff",
               "weight": 2
+            },
+            {
+              "value": "double_everything",
+              "weight": 4
             }
           ]
         },
@@ -2211,6 +2314,10 @@
             {
               "value": "leg_battlestaff",
               "weight": 2
+            },
+            {
+              "value": "double_everything",
+              "weight": 4
             }
           ]
         }
@@ -2232,10 +2339,6 @@
             },
             {
               "value": "shattering_jewel",
-              "weight": 1
-            },
-            {
-              "value": "suspension_focus",
               "weight": 1
             },
             {
@@ -2286,7 +2389,7 @@
               "value": "temporal_booster_pack_big",
               "weight": 6
             },
-             {
+            {
               "value": "shiny_pack",
               "weight": 2
             },
@@ -2381,6 +2484,10 @@
             {
               "value": "raid_rock_infinite_hard",
               "weight": 10
+            },
+            {
+              "value": "double_everything",
+              "weight": 4
             }
           ]
         }
@@ -2587,6 +2694,10 @@
             {
               "value": "leg_battlestaff",
               "weight": 2
+            },
+            {
+              "value": "double_everything",
+              "weight": 4
             }
           ]
         },
@@ -2812,6 +2923,10 @@
             {
               "value": "leg_battlestaff",
               "weight": 2
+            },
+            {
+              "value": "double_everything",
+              "weight": 4
             }
           ]
         }
@@ -3163,6 +3278,10 @@
             {
               "value": "ender_rings",
               "weight": 10
+            },
+            {
+              "value": "broodmother",
+              "weight": 10
             }
           ]
         },
@@ -3200,6 +3319,10 @@
             {
               "value": "ender_rings",
               "weight": 10
+            },
+            {
+              "value": "broodmother",
+              "weight": 10
             }
           ]
         }
@@ -3221,6 +3344,99 @@
             },
             {
               "value": "ornate_chest_big",
+              "weight": 100
+            }
+          ]
+        }
+      ]
+    },
+    "positive_wildwest": {
+      "type": "pool",
+      "levels": [
+        {
+          "level": 0,
+          "pool": [
+            {
+              "value": "gilded_chest_ww",
+              "weight": 100
+            },
+            {
+              "value": "ornate_chest_ww",
+              "weight": 100
+            },
+            {
+              "value": "living_chest_ww",
+              "weight": 100
+            },
+            {
+              "value": "coin_pile_ww",
+              "weight": 100
+            }
+          ]
+        }
+      ]
+    },
+    "positive_temple": {
+      "type": "pool",
+      "levels": [
+        {
+          "level": 0,
+          "pool": [
+            {
+              "value": "gilded_chest_big",
+              "weight": 100
+            },
+            {
+              "value": "ornate_chest_big",
+              "weight": 100
+            },
+            {
+              "value": "living_chest_big",
+              "weight": 100
+            },
+            {
+              "value": "coin_pile_big",
+              "weight": 100
+            }
+          ]
+        }
+      ]
+    },
+    "negative_temple": {
+      "type": "pool",
+      "levels": [
+        {
+          "level": 0,
+          "pool": [
+            {
+              "value": "add_low_level_guardians",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "pool": [
+            {
+              "value": "add_low_2_level_guardians",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "level": 50,
+          "pool": [
+            {
+              "value": "add_guardians",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "level": 90,
+          "pool": [
+            {
+              "value": "add_high_level_guardians",
               "weight": 100
             }
           ]
