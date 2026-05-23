@@ -1,0 +1,9 @@
+
+[visualizer]
+	#Maximum range in blocks to render the track visualizer overlay.
+	#Range: 16 ~ 256
+	rangeBlocks = 64
+	#Number of line segments used to render each bezier curve.
+	#Range: 8 ~ 256
+	bezierSampleCount = 64
+
