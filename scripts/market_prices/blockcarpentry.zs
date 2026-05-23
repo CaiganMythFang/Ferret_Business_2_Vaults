@@ -16,6 +16,8 @@ val priceTable as int[IItemStack] = {
     <item:blockcarpentry:texture_wrench> : 675,
     <item:blockcarpentry:chisel> : 225,
     <item:blockcarpentry:frame_bed> : 25,
+    <item:blockcarpentry:frame_sign> : 1,
+    <item:blockcarpentry:illusion_sign> : 1,
     <item:blockcarpentry:frame_button> : 1,
     <item:blockcarpentry:frame_carpet> : 5,
     <item:blockcarpentry:frame_chest> : 10,

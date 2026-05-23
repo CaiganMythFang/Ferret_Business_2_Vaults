@@ -8,6 +8,11 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:ars_nouveau:starbuncle_se> : 250,
+    <item:ars_nouveau:whirlisprig_se> : 250,
+    <item:ars_nouveau:wilden_guardian_se> : 250,
+    <item:ars_nouveau:wilden_hunter_se> : 250,
+    <item:ars_nouveau:wilden_stalker_se> : 250,
     <item:ars_nouveau:archmage_spell_book> : 597050,
     <item:ars_nouveau:enchanters_sword> : 212125,
     <item:ars_nouveau:potion_flask> : 272225,

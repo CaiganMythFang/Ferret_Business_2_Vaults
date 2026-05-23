@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:pipez:infinity_upgrade> : 0,
     <item:pipez:ultimate_upgrade> : 65900,
     <item:pipez:advanced_upgrade> : 26000,
     <item:pipez:basic_upgrade> : 3800,

@@ -8,6 +8,14 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:industrialforegoing:transporter> : 0,
+    <item:industrialforegoing:infinity_backpack> : 0,
+    <item:industrialforegoing:infinity_hammer> : 0,
+    <item:industrialforegoing:infinity_launcher> : 0,
+    <item:industrialforegoing:infinity_nuke> : 0,
+    <item:industrialforegoing:mob_duplicator> : 0,
+    <item:industrialforegoing:mob_imprisonment_tool> : 0,
+    <item:industrialforegoing:enchantment_factory> : 0,
     <item:industrialforegoing:fermented_ore_meat_bucket> : 675,
     <item:industrialforegoing:raw_ore_meat_bucket> : 675,
     <item:industrialforegoing:supreme_black_hole_tank> : 826725,

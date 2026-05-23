@@ -8,6 +8,11 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:farmingforblockheads:fertilized_farmland_healthy> : 1,
+    <item:farmingforblockheads:fertilized_farmland_healthy_stable> : 1,
+    <item:farmingforblockheads:fertilized_farmland_rich> : 1,
+    <item:farmingforblockheads:fertilized_farmland_rich_stable> : 1,
+    <item:farmingforblockheads:fertilized_farmland_stable> : 1,
     <item:farmingforblockheads:feeding_trough> : 650,
     <item:farmingforblockheads:market> : 3425,
     <item:farmingforblockheads:chicken_nest> : 50,

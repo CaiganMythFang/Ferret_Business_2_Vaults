@@ -8,6 +8,20 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:ae2:vibration_chamber> : 2425,
+    <item:ae2:void_card> : 13175,
+    <item:ae2:portable_fluid_cell_64k> : 197950,
+    <item:ae2:portable_item_cell_64k> : 1196075,
+    <item:ae2:portable_fluid_cell_256k> : 606000,
+    <item:ae2:portable_item_cell_1k> : 20375,
+    <item:ae2:portable_fluid_cell_1k> : 22250,
+    <item:ae2:portable_item_cell_256k> : 604125,
+    <item:ae2:portable_fluid_cell_4k> : 29675,
+    <item:ae2:portable_item_cell_4k> : 27800,
+    <item:ae2:dark_monitor> : 200,
+    <item:ae2:semi_dark_monitor> : 200,
+    <item:ae2:portable_fluid_cell_16k> : 69500,
+    <item:ae2:portable_item_cell_16k> : 67625,
     <item:ae2:creative_energy_cell> : 2630575,
     <item:ae2:256k_crafting_storage> : 589250,
     <item:ae2:cell_component_256k> : 586925,

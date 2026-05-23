@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:rftoolspower:dimensionalcell_creative> : 0,
     <item:rftoolspower:cell3> : 245850,
     <item:rftoolspower:dimensionalcell_advanced> : 100200,
     <item:rftoolspower:blazing_generator> : 34850,

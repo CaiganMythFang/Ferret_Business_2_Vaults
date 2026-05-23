@@ -8,6 +8,8 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:farmersdelight:rice_panicle> : 5,
+    <item:farmersdelight:rich_soil_farmland> : 1,
     <item:farmersdelight:netherite_knife> : 7850,
     <item:farmersdelight:crimson_cabinet> : 10,
     <item:farmersdelight:diamond_knife> : 1800,

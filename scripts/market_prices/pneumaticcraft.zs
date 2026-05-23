@@ -8,6 +8,21 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:pneumaticcraft:air_conditioning_upgrade> : 0,
+    <item:pneumaticcraft:creative_upgrade> : 0,
+    <item:pneumaticcraft:elytra_upgrade> : 0,
+    <item:pneumaticcraft:jet_boots_upgrade_1> : 0,
+    <item:pneumaticcraft:jet_boots_upgrade_2> : 0,
+    <item:pneumaticcraft:jet_boots_upgrade_3> : 0,
+    <item:pneumaticcraft:jet_boots_upgrade_4> : 0,
+    <item:pneumaticcraft:jet_boots_upgrade_5> : 0,
+    <item:pneumaticcraft:jumping_upgrade_2> : 0,
+    <item:pneumaticcraft:jumping_upgrade_3> : 0,
+    <item:pneumaticcraft:jumping_upgrade_4> : 0,
+    <item:pneumaticcraft:radiation_shielding_upgrade> : 0,
+    <item:pneumaticcraft:tag_filter> : 0,
+    <item:pneumaticcraft:thaumcraft_upgrade> : 0,
+    <item:pneumaticcraft:jumping_upgrade_1> : 0,
     <item:pneumaticcraft:spawner_core> : 5000,
     <item:pneumaticcraft:aerial_interface> : 1471375,
     <item:pneumaticcraft:creative_compressed_iron_block> : 1461575,

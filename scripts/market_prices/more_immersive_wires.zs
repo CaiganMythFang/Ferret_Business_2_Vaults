@@ -8,6 +8,9 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:more_immersive_wires:rs_relay> : 0,
+    <item:more_immersive_wires:rs_connector> : 0,
+    <item:more_immersive_wires:rs_coil> : 0,
     <item:more_immersive_wires:ae_coil> : 125,
     <item:more_immersive_wires:ae_connector> : 50,
     <item:more_immersive_wires:ae_dense_coil> : 125,

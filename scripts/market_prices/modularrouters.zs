@@ -8,6 +8,9 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:modularrouters:override_card> : 0,
+    <item:modularrouters:player_module> : 0,
+    <item:modularrouters:creative_module> : 0,
     <item:modularrouters:sender_module_3> : 199175,
     <item:modularrouters:vacuum_module> : 14350,
     <item:modularrouters:activator_module> : 1725,

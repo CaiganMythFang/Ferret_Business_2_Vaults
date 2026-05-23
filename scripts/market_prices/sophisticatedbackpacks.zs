@@ -8,6 +8,9 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:sophisticatedbackpacks:magnet_upgrade> : 0,
+    <item:sophisticatedbackpacks:advanced_magnet_upgrade> : 0,
+    <item:sophisticatedbackpacks:opener_upgrade> : 14125,
     <item:sophisticatedbackpacks:inception_upgrade> : 7638725,
     <item:sophisticatedbackpacks:advanced_compacting_upgrade> : 458925,
     <item:sophisticatedbackpacks:battery_upgrade> : 372700,

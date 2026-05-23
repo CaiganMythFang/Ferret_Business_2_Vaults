@@ -8,6 +8,11 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:wares:package> : 0,
+    <item:wares:delivery_agreement> : 0,
+    <item:wares:sealed_delivery_agreement> : 0,
+    <item:wares:expired_delivery_agreement> : 0,
+    <item:wares:completed_delivery_agreement> : 0,
     <item:wares:cardboard_box> : 2,
     <item:wares:delivery_table> : 50
 };

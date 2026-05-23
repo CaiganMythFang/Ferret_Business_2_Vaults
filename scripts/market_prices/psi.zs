@@ -8,6 +8,8 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:psi:cad> : 0,
+    <item:psi:cad_assembly_creative> : 0,
     <item:psi:cad_assembly_ebony_psimetal> : 70600,
     <item:psi:cad_assembly_ivory_psimetal> : 74125,
     <item:psi:cad_assembly_psimetal> : 46525,

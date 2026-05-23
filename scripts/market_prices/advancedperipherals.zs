@@ -22,6 +22,9 @@ val priceTable as int[IItemStack] = {
     <item:advancedperipherals:peripheral_casing> : 16000,
     <item:advancedperipherals:player_detector> : 16100,
     <item:advancedperipherals:redstone_integrator> : 17000,
+    <item:advancedperipherals:weak_automata_core> : 20200,
+    <item:advancedperipherals:overpowered_weak_automata_core> : 36425,
+    <item:advancedperipherals:rs_bridge> : 0,
     <item:advancedperipherals:computer_tool> : 300
 };
 

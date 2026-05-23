@@ -8,6 +8,18 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:viescraftmachines:admintool_texture_shifter> : 0,
+    <item:viescraftmachines:admintool_owner_eraser> : 0,
+    <item:viescraftmachines:admintool_max_maintenance> : 0,
+    <item:viescraftmachines:kit_service_energy_max> : 0,
+    <item:viescraftmachines:tool_name_changer> : 0,
+    <item:viescraftmachines:kit_service_energy_small> : 0,
+    <item:viescraftmachines:kit_service_durability_max> : 0,
+    <item:viescraftmachines:admintool_machine_remover> : 0,
+    <item:viescraftmachines:admintool_machine_breaker> : 0,
+    <item:viescraftmachines:admintool_complete_machine_sea> : 0,
+    <item:viescraftmachines:admintool_complete_machine_hauler> : 0,
+    <item:viescraftmachines:admintool_complete_machine_ground> : 0,
     <item:viescraftmachines:circuit_adaptive> : 2025,
     <item:viescraftmachines:circuit_logic> : 1000,
     <item:viescraftmachines:instruction_circuit_flying> : 2125,

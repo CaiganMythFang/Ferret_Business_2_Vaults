@@ -8,6 +8,14 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:create:mysterious_cuckoo_clock> : 3225,
+    <item:create:crushed_raw_aluminum> : 175,
+    <item:create:andesite_encased_cogwheel> : 50,
+    <item:create:andesite_encased_large_cogwheel> : 125,
+    <item:create:andesite_encased_shaft> : 25,
+    <item:create:brass_encased_cogwheel> : 50,
+    <item:create:brass_encased_large_cogwheel> : 125,
+    <item:create:brass_encased_shaft> : 25,
     <item:create:cart_assembler> : 252125,
     <item:create:creative_blaze_cake> : 1500650,
     <item:create:creative_motor> : 1581825,

@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:camera:image> : 1,
     <item:camera:camera> : 1350,
     <item:camera:album> : 10,
     <item:camera:image_frame> : 25

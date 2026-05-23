@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:hexcasting:akashic_connector> : 900,
     <item:hexcasting:abacus> : 225,
     <item:hexcasting:akashic_record> : 250,
     <item:hexcasting:amethyst_sconce> : 100,

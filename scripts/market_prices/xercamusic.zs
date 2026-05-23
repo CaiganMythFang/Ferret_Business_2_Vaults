@@ -8,6 +8,8 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:xercamusic:god> : 0,
+    <item:xercamusic:harp_mc> : 0,
     <item:xercamusic:metronome> : 2700,
     <item:xercamusic:redstone_guitar> : 25,
     <item:xercamusic:banjo> : 5,

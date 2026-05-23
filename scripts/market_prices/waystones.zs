@@ -8,6 +8,11 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:waystones:return_scroll> : 0,
+    <item:waystones:warp_scroll> : 0,
+    <item:waystones:bound_scroll> : 0,
+    <item:waystones:portstone> : 0,
+    <item:waystones:attuned_shard> : 0,
     <item:waystones:black_sharestone> : 6800,
     <item:waystones:blue_sharestone> : 6800,
     <item:waystones:brown_sharestone> : 6800,

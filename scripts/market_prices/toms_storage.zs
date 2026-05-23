@@ -8,6 +8,8 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:toms_storage:ts.painted_trim> : 0,
+    <item:toms_storage:ts.open_crate> : 10,
     <item:toms_storage:ts.adv_wireless_terminal> : 112550,
     <item:toms_storage:ts.crafting_terminal> : 33150,
     <item:toms_storage:ts.inventory_cable_connector> : 1350,

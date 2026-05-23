@@ -8,6 +8,18 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:quarryplus:remote_placer> : 0,
+    <item:quarryplus:frame> : 0,
+    <item:quarryplus:replacer_module> : 0,
+    <item:quarryplus:replacer> : 0,
+    <item:quarryplus:filler_module> : 0,
+    <item:quarryplus:repeat_tick_module> : 0,
+    <item:quarryplus:book_mover> : 0,
+    <item:quarryplus:creative_generator> : 0,
+    <item:quarryplus:dummy> : 0,
+    <item:quarryplus:remove_bedrock_module> : 0,
+    <item:quarryplus:dummy_replacer> : 0,
+    <item:quarryplus:spawner_controller> : 0,
     <item:quarryplus:adv_quarry> : 2361325,
     <item:quarryplus:adv_pump> : 984725,
     <item:quarryplus:quarry> : 686950,

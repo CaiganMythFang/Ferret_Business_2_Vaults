@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:peripherals:enchanting_interface> : 0,
     <item:peripherals:anvil_interface> : 36825,
     <item:peripherals:grinder> : 50775,
     <item:peripherals:spawner_interface> : 62625,

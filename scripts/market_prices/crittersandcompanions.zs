@@ -8,6 +8,14 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:crittersandcompanions:otter_spawn_egg> : 250,
+    <item:crittersandcompanions:dragonfly_spawn_egg> : 250,
+    <item:crittersandcompanions:leaf_insect_spawn_egg> : 250,
+    <item:crittersandcompanions:dumbo_octopus_spawn_egg> : 250,
+    <item:crittersandcompanions:red_panda_spawn_egg> : 250,
+    <item:crittersandcompanions:sea_bunny_spawn_egg> : 250,
+    <item:crittersandcompanions:koi_fish_spawn_egg> : 250,
+    <item:crittersandcompanions:koi_fish> : 25,
     <item:crittersandcompanions:clam> : 5,
     <item:crittersandcompanions:dumbo_octopus_bucket> : 700,
     <item:crittersandcompanions:ferret_spawn_egg> : 250,

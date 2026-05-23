@@ -8,6 +8,16 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:ecologics:pot> : 175,
+    <item:ecologics:thin_ice> : 1,
+    <item:ecologics:flowering_azalea_sign> : 2,
+    <item:ecologics:walnut_sign> : 2,
+    <item:ecologics:coconut_sign> : 2,
+    <item:ecologics:azalea_sign> : 2,
+    <item:ecologics:squirrel_spawn_egg> : 250,
+    <item:ecologics:penguin_spawn_egg> : 250,
+    <item:ecologics:coconut_crab_spawn_egg> : 250,
+    <item:ecologics:camel_spawn_egg> : 250,
     <item:ecologics:azalea_boat> : 5,
     <item:ecologics:azalea_button> : 1,
     <item:ecologics:azalea_door> : 2,

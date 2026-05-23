@@ -8,6 +8,11 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:ironchests:obsidian_chest_upgrade> : 0,
+    <item:ironchests:obsidian_chest> : 0,
+    <item:ironchests:crystal_chest> : 0,
+    <item:ironchests:crystal_chest_upgrade> : 0,
+    <item:ironchests:dirt_chest> : 0,
     <item:ironchests:netherite_chest> : 16950,
     <item:ironchests:netherite_chest_upgrade> : 8875,
     <item:ironchests:diamond_chest> : 12400,

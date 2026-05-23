@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:secretroomsmod:secret_dummy_block> : 0,
     <item:secretroomsmod:secret_daylight_detector> : 375,
     <item:secretroomsmod:secret_iron_door> : 450,
     <item:secretroomsmod:secret_iron_trapdoor> : 900,

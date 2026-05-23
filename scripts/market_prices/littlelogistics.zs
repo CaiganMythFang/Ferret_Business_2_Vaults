@@ -8,6 +8,8 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:littlelogistics:chunk_loader_barge> : 0,
+    <item:littlelogistics:chunk_loader_car> : 0,
     <item:littlelogistics:creative_capacitor> : 84600,
     <item:littlelogistics:automatic_switch_rail> : 175,
     <item:littlelogistics:automatic_tee_junction_rail> : 175,

@@ -8,6 +8,14 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:mekanismgenerators:bio_generator> : 1575,
+    <item:mekanismgenerators:advanced_solar_generator> : 58625,
+    <item:mekanismgenerators:module_solar_recharging_unit> : 0,
+    <item:mekanismgenerators:tritium_bucket> : 0,
+    <item:mekanismgenerators:deuterium_bucket> : 0,
+    <item:mekanismgenerators:fusion_fuel_bucket> : 0,
+    <item:mekanismgenerators:module_geothermal_generator_unit> : 0,
+    <item:mekanismgenerators:bioethanol_bucket> : 0,
     <item:mekanismgenerators:fusion_reactor_controller> : 461900,
     <item:mekanismgenerators:fusion_reactor_frame> : 10150,
     <item:mekanismgenerators:fusion_reactor_logic_adapter> : 10150,

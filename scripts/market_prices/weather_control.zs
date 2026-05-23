@@ -8,6 +8,11 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:weather_control:dw_online> : 0,
+    <item:weather_control:dw_active> : 0,
+    <item:weather_control:rm_online> : 0,
+    <item:weather_control:rm_active> : 0,
+    <item:weather_control:p_book> : 0,
     <item:weather_control:dwp> : 1139500,
     <item:weather_control:dw_offline> : 643750,
     <item:weather_control:dw_sensor> : 4129025,

@@ -8,6 +8,8 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:powah:binding_card> : 50,
+    <item:powah:blank_card> : 25,
     <item:powah:energy_cell_creative> : 3606175,
     <item:powah:battery_nitro> : 183525,
     <item:powah:energizing_rod_nitro> : 167800,

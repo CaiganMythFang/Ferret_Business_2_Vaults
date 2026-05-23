@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:twigs:stripped_bamboo_sign> : 100,
     <item:twigs:bloodstone> : 150,
     <item:twigs:bloodstone_slab> : 75,
     <item:twigs:bloodstone_stairs> : 150,

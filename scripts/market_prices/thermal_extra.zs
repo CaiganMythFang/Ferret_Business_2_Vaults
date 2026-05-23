@@ -8,6 +8,20 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:thermal_extra:potion_duration_augment_4> : 0,
+    <item:thermal_extra:potion_amplifier_augment_4> : 0,
+    <item:thermal_extra:potion_duration_augment_1> : 0,
+    <item:thermal_extra:potion_amplifier_augment_1> : 0,
+    <item:thermal_extra:potion_duration_augment_3> : 0,
+    <item:thermal_extra:potion_amplifier_augment_3> : 0,
+    <item:thermal_extra:potion_amplifier_augment_5> : 0,
+    <item:thermal_extra:potion_duration_augment_5> : 0,
+    <item:thermal_extra:potion_amplifier_augment_2> : 0,
+    <item:thermal_extra:potion_duration_augment_2> : 0,
+    <item:thermal_extra:twinite_bucket> : 0,
+    <item:thermal_extra:soul_infused_bucket> : 0,
+    <item:thermal_extra:shellite_bucket> : 0,
+    <item:thermal_extra:dragonsteel_bucket> : 0,
     <item:thermal_extra:fluid_tank_augment_5> : 485575,
     <item:thermal_extra:fluid_tank_augment_6> : 488775,
     <item:thermal_extra:machine_speed_augment_4> : 564175,

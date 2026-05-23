@@ -8,6 +8,19 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:botania:terra_plate> : 5200,
+    <item:botania:mossy_livingrock_bricks_slab> : 1,
+    <item:botania:mossy_livingrock_bricks_wall> : 1,
+    <item:botania:mossy_livingwood_planks> : 1,
+    <item:botania:mossy_livingrock_bricks_wall> : 1,
+    <item:botania:mossy_livingrock_bricks_stairs> : 1,
+    <item:botania:mossy_dreamwood_planks> : 1,
+    <item:botania:mossy_livingrock_bricks> : 1,
+    <item:botania:manasteel_nugget> : 25,
+    <item:botania:incense_stick> : 100,
+    <item:botania:floating_hydroangeas> : 75,
+    <item:botania:elementium_nugget> : 125,
+    <item:botania:brewery> : 2725,
     <item:botania:auto_crafting_halo> : 1000,
     <item:botania:crafting_halo> : 625,
     <item:botania:creative_pool> : 1800200,

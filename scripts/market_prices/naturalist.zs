@@ -8,6 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:naturalist:bluejay_spawn_egg> : 250,
     <item:naturalist:bear_spawn_egg> : 250,
     <item:naturalist:boar_spawn_egg> : 250,
     <item:naturalist:butterfly_spawn_egg> : 250,
