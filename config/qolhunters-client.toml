@@ -1,10 +1,6 @@
 
 #QOLHunters Configuration
 #SOME CHANGES REQUIRE A CLIENT RESTART
-["General Configs"]
-	#Show the Config Button in the Statistics Menu (H)
-	"Show Config Button" = true
-
 ["Client-Only Extensions"]
 	#Adds text overlays to the Vault modifiers, e.g. '+10% Damage' or 'Speed +1'
 	"Vault Modifier Text Overlays" = false
@@ -18,10 +14,10 @@
 	"Show Gear Cooldown Time" = true
 	#Allows you to cast multiple abilities with a single keybind
 	"Ability Multicast" = true
-	#Automatically open the next booster pack in your inventory after you select a card
-	"Chain Booster Packs" = true
 	#Autoswap to the correct treasure key when you right-click a treasure door with another key as long as the correct key is in your main inventory
 	"Treasure Key Swapper" = false
+	#Show the Config Button in the Statistics Menu (H)
+	"Show Config Button" = true
 	#Show duration in the cooldown overlay while ability is active (only works with abilities which cooldown starts after their duration ends)
 	"Ability Duration Overlay" = true
 	#Add search box to vault stations
@@ -41,9 +37,13 @@
 	#Zoom out further in zoomable vault screens (abilities, talents, researches, vault map).
 	"Zoom Out Further" = true
 	#Show ⌄ above jewel that would be chosen by identification stand.
-	"Autochosen Jewel" = false
+	"Autochosen Jewel" = true
 	#Show jewel weights that determine which jewel gets chosen by identification stand.
 	"Autochosen Weight" = false
+	#Require shift to view currently modified gear in artisan station in button tooltips.
+	"Artisan Gear Tooltip requires Shift" = false
+	#Automatically adjust greed trader offer size based on offer count and available space.
+	"Responsive Greed Trader Offers" = true
 
 	["Client-Only Extensions"."Scavenger Vaults"]
 		#Shows the number of scavenger items you have in your inventory
@@ -155,6 +155,17 @@
 		#Show Hunter Particles for Pylons
 		Pylons = true
 
+	["Client-Only Extensions"."Item Chaining"]
+		#Automatically open the next booster pack in your inventory after you select a card
+		"Chain Booster Packs" = true
+		#Automatically open the next jewel pouch in your inventory after you select a jewel
+		"Chain Jewel Pouches" = true
+		#Drops identified jewels from overstacked pouches instead of weirdly shuffling them in your inv 
+		#Debug option - should stay enabled normally.
+		"Improved Stacked Jewel Pouch Chaining" = true
+		#Automatically select the next antique in your inventory after you open one
+		"Chain Antiques" = true
+
 	["Client-Only Extensions"."Better Soul Value Tooltips"]
 		#Improves the descriptions of soul values in tooltips when holding SHIFT
 		"Enable Better Tooltips" = true
@@ -191,9 +202,12 @@
 		#Enable temporal modifier timer overlay
 		Enable = true
 		#Scale of the text
+		#Range: 0.0 ~ 5.0
 		Scale = 0.5
 		#Horizontal offset
+		#Range: -Infinity ~ Infinity
 		"X Offset" = 0.0
 		#Vertical offset
+		#Range: -Infinity ~ Infinity
 		"Y Offset" = 6.0
 

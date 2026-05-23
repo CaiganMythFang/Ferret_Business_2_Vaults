@@ -2,12 +2,6 @@
 ["VHRoller Client Config"]
 	#Remember the filter item when closing a gui.
 	rememberFilter = true
-	#Delay between each roll in milliseconds. Default is 250ms. Be careful, rolling too fast can send packets too quickly and lead to server disconnects or more.
-	#Range: 0 ~ 60000
-	rollDelay = 250
-	#After telling the server to roll, this is the delay between each check that the server has responded and it has successfully rolled. Default is 50ms.
-	#Range: 0 ~ 60000
-	rollAwait = 50
 	#What is the maximum price acceptable. If an item is above this price it will continue rolling. Default is 1,000,000.
 	#Range: > 1
 	maxPriceAbsolute = 1000000
@@ -21,4 +15,10 @@
 	#The maximum absolute price you are willing to pay for an item when auto-buying. Default is 1,000,000.
 	#Range: > 1
 	autoBuyMaxPriceAbsolute = 1000000
+	#Skip unavailable slots (Black Market Tweaks without expertise)
+	skipLockedSlots = true
+	#Show checkmarks for matching items
+	checkmarkMatching = true
+	#debug logs - very verbose
+	debugLogs = false
 

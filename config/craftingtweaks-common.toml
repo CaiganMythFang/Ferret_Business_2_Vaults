@@ -3,7 +3,7 @@
 	#Set this to true if you want the (de)compress feature to work outside of crafting GUIs (only works if installed on server)
 	compressAnywhere = false
 	#A list of modid:name entries that will not be crafted by the compress key.
-	compressBlacklist = ["minecraft:sandstone", "minecraft:iron_trapdoor"]
+	compressBlacklist = ["minecraft:sandstone", "minecraft:iron_trapdoor", "everycomp:ap/the_vault/driftwood_boards"]
 
 [client]
 	#This option is toggled by the 'Toggle Buttons' key that can be defined in the Controls settings.
