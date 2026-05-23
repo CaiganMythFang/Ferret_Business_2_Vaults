@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "GSG",
+    " G "
+  ],
+  "key": {
+    "L": { "item": "the_vault:vault_diamond_block" },
+    "G": { "item": "woldsvaults:chromatic_gold_ingot" },
+    "S": { "item": "the_vault:extraordinary_larimar" }
+  },
+  "result": {
+    "item": "mobprocessor:looting_upgrade_1",
+    "count": 1
+  }
+}

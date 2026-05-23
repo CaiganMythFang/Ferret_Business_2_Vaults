@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "create:sleepers"
+  },
+  "transitionalItem": {
+    "item": "create:incomplete_track"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          "item": "the_vault:perfect_larimar"
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_track"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          "item": "the_vault:chromatic_iron_ingot"
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_track"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:track",
+      "count": 64
+    }
+  ],
+  "loops": 2
+}

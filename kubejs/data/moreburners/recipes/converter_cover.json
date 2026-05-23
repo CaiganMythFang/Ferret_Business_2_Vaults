@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "moreburners:converter_cover",
+		"count": 1
+	},
+	"pattern": [
+		"CVC",
+		"VDV",
+		"CVC"
+	],
+	"key": {
+		"C": {
+			"tag": "forge:plates/brass"
+		},
+		"D": {
+			"tag": "forge:plates/obsidian"
+		},
+		"V": {
+			"item": "woldsvaults:chromatic_gold_ingot"
+		}
+	}
+}

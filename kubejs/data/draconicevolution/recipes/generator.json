@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS",
+    "TFT",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "T": {
+      "item": "the_vault:chromatic_steel_ingot"
+    },
+    "R": {
+      "item": "draconicevolution:draconium_core"
+    },
+    "F": {
+      "item": "woldsvaults:chromatic_iron_vault_infuser"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:generator"
+  }
+}

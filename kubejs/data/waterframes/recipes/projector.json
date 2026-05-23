@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IIL",
+    "IRL",
+    "IBL"
+  ],
+  "key": {
+    "I": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "R": {
+      "item": "minecraft:glowstone"
+    },
+    "L": {
+      "item": "the_vault:vault_diamond"
+    },
+    "B": {
+      "item": "waterframes:remote"
+    }
+  },
+  "result": {
+    "id": "waterframes:projector",
+    "item": "waterframes:projector",
+    "count": 1
+  }
+}

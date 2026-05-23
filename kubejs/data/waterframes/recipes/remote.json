@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "IRI",
+    "BBB"
+  ],
+  "key": {
+    "I": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "C": {
+      "item": "the_vault:vault_diamond_block"
+    },
+    "R": {
+      "item": "the_vault:vault_essence"
+    },
+    "B": {
+      "tag": "minecraft:buttons"
+    }
+  },
+  "result": {
+    "id": "waterframes:remote",
+    "item": "waterframes:remote",
+    "count": 1
+  }
+}

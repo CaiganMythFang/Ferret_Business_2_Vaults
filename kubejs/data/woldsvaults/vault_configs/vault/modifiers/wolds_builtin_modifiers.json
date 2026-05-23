@@ -1,5 +1,17 @@
 {
   "modifiers": {
+    "the_vault:modifier_type/empty": {
+      "woldsvaults:rotting": {
+        "properties": {},
+        "display": {
+          "name": "Rotting",
+          "color": "#EBFF8D",
+          "description": "This vault is starting to rot, it might go rotten with more fruit consumption!",
+          "descriptionFormatted": "This vault is starting to rot, it might go rotten with more fruit consumption!",
+          "icon": "the_vault:gui/modifiers/rotten"
+        }
+      }
+    },
     "the_vault:modifier_type/difficulty_lock": {
       "the_vault:piece_of_cake": {
         "properties": {
@@ -178,8 +190,8 @@
           "attemptsPerChunk": 1,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -196,8 +208,8 @@
           "attemptsPerChunk": 2,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -214,8 +226,8 @@
           "attemptsPerChunk": 1,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -232,8 +244,8 @@
           "attemptsPerChunk": 16,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -250,8 +262,8 @@
           "attemptsPerChunk": 7,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -268,8 +280,8 @@
           "attemptsPerChunk": 7,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -286,8 +298,8 @@
           "attemptsPerChunk": 6,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -304,8 +316,8 @@
           "attemptsPerChunk": 2,
           "requiresConditions": false,
           "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
+            "ORE",
+            "COMMON"
           ]
         },
         "display": {
@@ -1098,6 +1110,32 @@
           "description": "+75% Coin Piles",
           "descriptionFormatted": "+%d%% Coin Piles",
           "icon": "the_vault:gui/modifiers/wealthy"
+        }
+      },
+      "woldsvaults:flesh": {
+        "properties": {
+          "filter": "the_vault:flesh_chest",
+          "chance": 0.25
+        },
+        "display": {
+          "name": "Flesh",
+          "color": "#bd6d68",
+          "description": "+25% Flesh Chests",
+          "descriptionFormatted": "+%d%% Flesh Chests",
+          "icon": "woldsvaults:gui/modifiers/flesh"
+        }
+      },
+      "woldsvaults:hardened": {
+        "properties": {
+          "filter": "the_vault:hardened_chest",
+          "chance": 0.25
+        },
+        "display": {
+          "name": "Hardened",
+          "color": "#635858",
+          "description": "+25% Hardened Chests",
+          "descriptionFormatted": "+%d%% Hardened Chests",
+          "icon": "woldsvaults:gui/modifiers/hardened"
         }
       }
     },

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ERE",
+    "IXC",
+    "PRP"
+  ],
+  "key": {
+    "E": { "item": "ae2:engineering_processor" },
+    "R": { "item": "the_vault:black_chromatic_steel_block" },
+    "I": { "item": "ae2:import_bus" },
+    "C": { "item": "ae2:advanced_card" },
+    "P": { "item": "ae2:calculation_processor" },
+    "X": { "item": "the_vault:echo_pog" }
+  },
+  "result": {
+    "item": "ae2insertexportcard:insert_card",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "IMI",
+    " I "
+  ],
+  "key": {
+    "C": { "tag": "forge:chests" },
+    "M": { "item": "the_vault:extraordinary_larimar" },
+    "I": { "item": "the_vault:chromatic_steel_block" }
+  },
+  "result": {
+    "item": "mobprocessor:storage_upgrade_1",
+    "count": 1
+  }
+}

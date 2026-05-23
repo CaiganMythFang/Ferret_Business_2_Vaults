@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "TWT",
+    "SHS"
+  ],
+  "key": {
+    "S": {
+      "item": "the_vault:black_chromatic_steel_ingot"
+    },
+    "T": {
+      "tag": "forge:ingots/draconium"
+    },
+    "D": {
+      "item": "minecraft:netherite_sword"
+    },
+    "W": {
+      "item": "draconicevolution:wyvern_energy_core"
+    },
+    "H": {
+      "tag": "forge:heads"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:grinder"
+  }
+}

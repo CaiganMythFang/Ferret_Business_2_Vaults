@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "CDC",
+    "OXO"
+  ],
+  "key": {
+    "C": { "item": "cagerium:cage" },
+    "T": { "item": "cagerium:terrarium" },
+    "P": { "item": "cagerium:plate" },
+    "D": { "item": "the_vault:vault_diamond_block" },
+    "O": { "item": "woldsvaults:chromatic_gold_block" },
+    "X": { "item": "woldsvaults:pogominium_ingot" }
+  },
+  "result": {
+    "item": "mobprocessor:mob_processor",
+    "count": 1
+  }
+}

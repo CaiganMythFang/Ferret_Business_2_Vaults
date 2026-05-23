@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ICI",
+        "IRI",
+        "IBI"
+    ],
+    "key": {
+        "I": {
+          "item": "the_vault:black_chromatic_steel_ingot"
+        },
+        "C": {
+          "item": "the_vault:gem_pog"
+        },
+        "R": {
+          "item": "minecraft:tinted_glass"
+        },
+        "B": {
+          "item": "waterframes:remote"
+        }
+    },
+    "result": {
+        "id": "waterframes:frame",
+        "item": "waterframes:frame",
+        "count": 1
+    }
+}

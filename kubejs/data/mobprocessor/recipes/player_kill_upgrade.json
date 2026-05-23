@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "IMI",
+    " I "
+  ],
+  "key": {
+    "C": { "item": "minecraft:wither_skeleton_skull" },
+    "M": { "item": "the_vault:echo_pog" },
+    "I": { "item": "minecraft:diamond_sword" }
+  },
+  "result": {
+    "item": "mobprocessor:player_kill_upgrade",
+    "count": 1
+  }
+}

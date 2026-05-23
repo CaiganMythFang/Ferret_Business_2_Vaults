@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "GWG",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "the_vault:chromatic_iron_block"
+    },
+    "W": {
+      "tag": "forge:ingots/draconium"
+    },
+    "G": {
+      "item": "woldsvaults:chromatic_gold_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:module_core"
+  }
+}

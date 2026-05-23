@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "RWR",
+    "CMC"
+  ],
+  "key": {
+    "C": {
+      "item": "the_vault:chromatic_iron_ingot"
+    },
+    "P": {
+      "item": "draconicevolution:potentiometer"
+    },
+    "R": {
+      "item": "minecraft:bucket"
+    },
+    "W": {
+      "item": "draconicevolution:draconium_core"
+    },
+    "M": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:fluid_gate"
+  }
+}
