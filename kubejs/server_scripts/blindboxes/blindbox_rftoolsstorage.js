@@ -29,7 +29,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_rftoolsstorage_good') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:rftoolsstorage/rftoolsstorage_good');
-	event.player.tell(Text.lightPurple("You open up an Frog Deal Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Computer Mouse Fancy Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)

@@ -16,7 +16,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_luphieclutteredmod_decent') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:luphieclutteredmod/luphieclutteredmod_decent');
-	event.player.tell(Text.lightPurple("You open up an Capybara Centered Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Marten Centered Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)

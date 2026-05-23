@@ -16,7 +16,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_create_decent') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:create/create_decent');
-	event.player.tell(Text.lightPurple("You open up an Frog Bop Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Panda Hover Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)
@@ -42,7 +42,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_create_amazing') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:create/create_amazing');
-	event.player.tell(Text.lightPurple("You open up an Dormouse Bounce Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Civet Rip Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)

@@ -29,7 +29,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_lightmanscurrency_good') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:lightmanscurrency/lightmanscurrency_good');
-	event.player.tell(Text.lightPurple("You open up an Binturong Kick Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Genet Oasis Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)
@@ -42,7 +42,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_lightmanscurrency_amazing') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:lightmanscurrency/lightmanscurrency_amazing');
-	event.player.tell(Text.lightPurple("You open up an Frog Spooky Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Raccoon Dance Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)

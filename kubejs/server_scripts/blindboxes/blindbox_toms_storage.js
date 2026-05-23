@@ -16,7 +16,7 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:blindbox_toms_storage_decent') {
 	  
 	event.server.runCommandSilent('loot give ' + event.getEntity() + ' loot tfb2:toms_storage/toms_storage_decent');
-	event.player.tell(Text.lightPurple("You open up an Otter Hunt Blind Box!"));
+	event.player.tell(Text.lightPurple("You open up an Skunk Talk Blind Box!"));
 	  
 	if (!event.player.isCreativeMode()) { //if creative mode dont consume; not necessary
 	  event.item.setCount(event.item.getCount() - 1)
