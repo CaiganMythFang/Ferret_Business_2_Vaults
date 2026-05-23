@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:purple_concrete"
+    },
+    "B": {
+      "item": "minecraft:white_concrete"
+    },
+    "C": {
+      "item": "minecraft:ender_pearl"
+    },
+    "D": {
+      "item": "the_vault:vault_crystal"
+    }
+  },
+  "result": {
+    "item": "tfb2:liminal_tile",
+    "count": 4
+  }
+}
