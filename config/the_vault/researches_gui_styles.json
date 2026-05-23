@@ -1,22 +1,10 @@
 {
   "styles": {
-    "Companion Workstation": {
-      "x": -70,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/companion_workstation"
-    },
     "Mod Box Tinkering": {
-      "x": -120,
-      "y": 0,
+      "x": -170,
+      "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mod_box_tinkering"
-    },
-    "Augment Crafting": {
-      "x": -170,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/augment_crafting"
     },
     "Angel": {
       "x": 490,
@@ -120,20 +108,26 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/multistorage"
     },
+    "Curvy Pipes": {
+      "x": -70,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/curvy_pipes"
+    },
     "Traversal": {
-      "x": -170,
+      "x": -180,
       "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/traversal"
     },
     "Turrets": {
-      "x": -120,
+      "x": -130,
       "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/turrets"
     },
     "Animalistic": {
-      "x": -70,
+      "x": -80,
       "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/animalistic"
@@ -234,7 +228,7 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/pocket_storage"
     },
-    "Junk Management": {
+    "Soul Management": {
       "x": 300,
       "y": 0,
       "frameType": "RECTANGULAR",
@@ -372,12 +366,6 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/psi"
     },
-    "Mahou Tsukai": {
-      "x": 110,
-      "y": 310,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/mahou_tsukai"
-    },
     "Mining Gadgets": {
       "x": 85,
       "y": 270,
@@ -420,7 +408,7 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/create_mechanical_extruder"
     },
-    "Cagerium": {
+    "Mob Processing": {
       "x": 300,
       "y": 270,
       "frameType": "RECTANGULAR",
@@ -449,6 +437,12 @@
       "y": 440,
       "frameType": "STAR",
       "icon": "the_vault:gui/researches/automatic_genius"
+    },
+    "Draconic Evolution": {
+      "x": 300,
+      "y": 480,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/researches/draconic_evolution"
     },
     "Dark Utilities": {
       "x": 10,
@@ -529,8 +523,8 @@
       "icon": "the_vault:gui/researches/brew"
     },
      "Vault Decks": {
-      "x": -120,
-      "y": 40,
+      "x": -130,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_decks"
     }

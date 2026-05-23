@@ -1,24 +1,6 @@
 {
     "MOD_RESEARCHES": [
         {
-          "modIds": [
-            "vending_companions",
-            "companion_work_station"
-          ],
-          "restrictions": {
-            "restricts": {
-              "HITTABILITY": false,
-              "BLOCK_INTERACTABILITY": true,
-              "USABILITY": true,
-              "CRAFTABILITY": true,
-              "ENTITY_INTERACTABILITY": false
-            }
-          },
-          "name": "Companion Workstation",
-          "cost": 3,
-          "usesKnowledge": true
-        },
-        {
             "modIds": [
                 "chunkymcchunkface"
             ],
@@ -105,6 +87,21 @@
             "name": "Immersive Engineering",
             "cost": 3,
             "usesKnowledge": true
+        },
+        {
+          "modIds": [
+            "draconicevolution",
+            "draconicadditions"
+          ],
+          "restrictions": {
+            "restricts": {
+              "USABILITY": true,
+              "CRAFTABILITY": true
+            }
+          },
+          "name": "Draconic Evolution",
+          "cost": 16,
+          "usesKnowledge": true
         },
         {
             "modIds": [
@@ -791,6 +788,23 @@
             "usesKnowledge": true
         },
         {
+        "modIds": [
+            "curvy_pipes"
+        ],
+        "restrictions": {
+            "restricts": {
+                "HITTABILITY": false,
+                "BLOCK_INTERACTABILITY": true,
+                "USABILITY": false,
+                "CRAFTABILITY": true,
+                "ENTITY_INTERACTABILITY": false
+            }
+        },
+        "name": "Curvy Pipes",
+        "cost": 1,
+        "usesKnowledge": true
+        },
+        {
             "modIds": [
                 "animalistic_a"
             ],
@@ -821,23 +835,6 @@
                 }
             },
             "name": "Turrets",
-            "cost": 2,
-            "usesKnowledge": true
-        },
-        {
-            "modIds": [
-                "mahoutsukai"
-            ],
-            "restrictions": {
-                "restricts": {
-                    "HITTABILITY": false,
-                    "BLOCK_INTERACTABILITY": true,
-                    "USABILITY": true,
-                    "CRAFTABILITY": true,
-                    "ENTITY_INTERACTABILITY": false
-                }
-            },
-            "name": "Mahou Tsukai",
             "cost": 2,
             "usesKnowledge": true
         },
@@ -914,7 +911,13 @@
             },
             "name": "Pocket Storage",
             "cost": 3,
-            "usesKnowledge": true
+            "usesKnowledge": true,
+            "discoversModels": [
+                "the_vault:gear/armor/dank/helmet",
+                "the_vault:gear/armor/dank/chestplate",
+                "the_vault:gear/armor/dank/leggings",
+                "the_vault:gear/armor/dank/boots"
+            ]
         },
         {
             "modIds": [
@@ -1015,7 +1018,8 @@
         },
         {
             "modIds": [
-                "create"
+                "create",
+                "createbb"
             ],
             "restrictions": {
                 "restricts": {
@@ -1055,7 +1059,8 @@
         },
         {
             "modIds": [
-                "cagerium"
+                "cagerium",
+                "mobprocessor"
             ],
             "restrictions": {
                 "restricts": {
@@ -1066,7 +1071,7 @@
                     "ENTITY_INTERACTABILITY": false
                 }
             },
-            "name": "Cagerium",
+            "name": "Mob Processing",
             "cost": 2,
             "usesKnowledge": true
         },
@@ -1207,22 +1212,6 @@
     "CUSTOM_RESEARCHES": [
         {
           "itemRestrictions": {
-            "woldsvaults:augment_assembly_pedestal": {
-              "restricts": {
-                "HITTABILITY": false,
-                "USABILITY": false,
-                "CRAFTABILITY": true
-              }
-            }
-          },
-          "blockRestrictions": {},
-          "entityRestrictions": {},
-          "name": "Augment Crafting",
-          "cost": 1,
-          "usesKnowledge": true
-        },
-        {
-          "itemRestrictions": {
             "woldsvaults:mod_box_workstation": {
               "restricts": {
                 "HITTABILITY": false,
@@ -1355,75 +1344,18 @@
             ]
         },
         {
-            "itemRestrictions": {
-                "mekanism:formulaic_assemblicator": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "rftoolsutility:crafter1": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "rftoolsutility:crafter2": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "rftoolsutility:crafter3": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "thermal:machine_crafter": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "botania:crafting_halo": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "botania:auto_crafting_halo": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "botania:crafty_crate": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                }
-            },
-            "blockRestrictions": {},
-            "entityRestrictions": {},
-            "name": "Automatic Genius",
-            "cost": 1,
-            "usesKnowledge": true,
-            "discoversModels": [
-                "the_vault:gear/armor/atomatic/helmet",
-                "the_vault:gear/armor/atomatic/chestplate",
-                "the_vault:gear/armor/atomatic/leggings",
-                "the_vault:gear/armor/atomatic/boots"
-            ]
+          "itemRestrictions": {},
+          "blockRestrictions": {},
+          "entityRestrictions": {},
+          "name": "Automatic Genius",
+          "cost": 1,
+          "usesKnowledge": true,
+          "discoversModels": [
+            "the_vault:gear/armor/atomatic/helmet",
+            "the_vault:gear/armor/atomatic/chestplate",
+            "the_vault:gear/armor/atomatic/leggings",
+            "the_vault:gear/armor/atomatic/boots"
+          ]
         },
         {
             "itemRestrictions": {
@@ -1732,48 +1664,6 @@
         },
         {
             "itemRestrictions": {
-                "woldsvaults:filter_necklace": {
-                  "restricts": {
-                    "HITTABILITY": true,
-                    "USABILITY": true,
-                    "CRAFTABILITY": true
-                  }
-                },
-                "the_vault:vault_charm_controller": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "the_vault:vault_charm": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "the_vault:vault_charm_upgrade_tier_1": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "the_vault:vault_charm_upgrade_tier_2": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
-                "the_vault:vault_charm_upgrade_tier_3": {
-                    "restricts": {
-                        "HITTABILITY": true,
-                        "USABILITY": true,
-                        "CRAFTABILITY": true
-                    }
-                },
                 "the_vault:vault_harvester": {
                     "restricts": {
                         "HITTABILITY": true,
@@ -1791,14 +1681,10 @@
             },
             "blockRestrictions": {},
             "entityRestrictions": {},
-            "name": "Junk Management",
+            "name": "Soul Management",
             "cost": 1,
             "usesKnowledge": true,
             "discoversModels": [
-                "the_vault:gear/armor/dank/helmet",
-                "the_vault:gear/armor/dank/chestplate",
-                "the_vault:gear/armor/dank/leggings",
-                "the_vault:gear/armor/dank/boots"
             ]
         },
         {
