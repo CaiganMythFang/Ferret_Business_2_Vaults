@@ -552,7 +552,7 @@ craftingTable.remove(<item:refinedstorage:portable_grid>);
 
 
 // Iron Generators/Furnaces
-craftingTable.removeByModid("irongenerators");
+// craftingTable.removeByModid("irongenerators");
 craftingTable.remove(<item:ironfurnaces:heater>);
 craftingTable.remove(<item:ironfurnaces:item_heater>);
 craftingTable.remove(<item:ironfurnaces:item_copy>);
@@ -895,6 +895,7 @@ JEI.addIngredient(<item:alexsmobs:hemolymph_blaster>);
 
 //Framed Blocks
 JEI.hideMod("framedblocks");
+JEI.hideMod("refinedstorage");
 
 // Backpacks
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_magnet_upgrade>);

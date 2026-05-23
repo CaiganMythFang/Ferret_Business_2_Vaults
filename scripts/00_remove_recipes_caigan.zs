@@ -40,6 +40,9 @@ for item in NoCraftList {
 
 //List of items to remove recipes for AND hide in JEI, sorted by mod
 var HideList = [
+    <item:sophisticatedbackpacks:copper_backpack>,
+    <item:sophisticatedbackpacks:stack_upgrade_starter_tier>,
+    <item:grapplemod:longfallboots>,
     <item:projecte:alchemical_chest>,
     <item:projecte:alchemical_coal_block>,
     <item:projecte:mobius_fuel_block>,
@@ -157,7 +160,30 @@ var HideList = [
     <item:minestuck:green_stone_brick_iguana_right>, 
     <item:minestuck:green_stone_brick_iguana_left>, 
     <item:minestuck:green_stone_brick_turtle>, 
-    <item:minestuck:green_stone_brick_skaia>
+    <item:minestuck:green_stone_brick_skaia>,
+    <item:irongenerators:platin_generator>,
+    <item:irongenerators:refined_obsidian_generator>,
+    <item:irongenerators:uranium_generator>,
+    <item:irongenerators:steel_generator>,
+    <item:irongenerators:obsidian_generator>,
+    <item:irongenerators:osmium_generator>,
+    <item:irongenerators:bronze_generator>,
+    <item:irongenerators:netherrack_generator>,
+    <item:irongenerators:certus_quartz_generator>,
+    <item:irongenerators:unobtainium_generator>,
+    <item:irongenerators:tin_generator>,
+    <item:irongenerators:stone_generator>,
+    <item:irongenerators:enderium_generator>,
+    <item:irongenerators:skystone_generator>,
+    <item:irongenerators:signalum_generator>,
+    <item:irongenerators:copper_generator>,
+    <item:irongenerators:quartz_enriched_iron_generator>,
+    <item:irongenerators:infinity_generator>,
+    <item:irongenerators:invar_generator>,
+    <item:irongenerators:allthemodium_generator>,
+    <item:irongenerators:lead_generator>,
+    <item:irongenerators:dirt_generator>,
+    <item:irongenerators:vibranium_generator>
 ];
 
 // Run the list
