@@ -1,0 +1,39 @@
+{
+  "version": 4,
+  "options": {
+    "vault_curios_enhancements:inv_hud_shard_pouch": {
+      "displayMode": "always",
+      "hudPosition": {
+        "anchor": {
+          "horizontal": "right",
+          "vertical": "top"
+        },
+        "offsetX": -50.0,
+        "offsetY": 30.0
+      },
+      "size": 1.0,
+      "indicator": "bar",
+      "useOverlay": false,
+      "textPosition": "RIGHT"
+    },
+    "vault_curios_enhancements:inv_hud_coin_pouch": {
+      "displayMode": "always",
+      "hudPosition": {
+        "anchor": {
+          "horizontal": "right",
+          "vertical": "top"
+        },
+        "offsetX": -50.0,
+        "offsetY": 50.0
+      },
+      "size": 1.0,
+      "indicator": "bar",
+      "useOverlay": false,
+      "textPosition": "RIGHT"
+    },
+    "vault_curios_enhancements:short_coin_value": true,
+    "vault_curios_enhancements:short_shard_value": true,
+    "vault_curios_enhancements:colored_shard_text": false,
+    "vault_curios_enhancements:colored_coin_text": false
+  }
+}

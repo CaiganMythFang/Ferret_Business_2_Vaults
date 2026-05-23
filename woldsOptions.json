@@ -1,0 +1,51 @@
+{
+  "version": 4,
+  "options": {
+    "woldsvaults:inv_hud_trinket_green": {
+      "displayMode": "always",
+      "hudPosition": {
+        "anchor": {
+          "horizontal": "center",
+          "vertical": "bottom"
+        },
+        "offsetX": 0.5,
+        "offsetY": 0.5
+      },
+      "size": 1.0,
+      "indicator": "bar",
+      "useOverlay": false,
+      "textPosition": "RIGHT"
+    },
+    "woldsvaults:inv_hud_trinket_pouch": {
+      "displayMode": "always",
+      "hudPosition": {
+        "anchor": {
+          "horizontal": "center",
+          "vertical": "bottom"
+        },
+        "offsetX": 0.5,
+        "offsetY": 0.5
+      },
+      "size": 1.0,
+      "indicator": "bar",
+      "useOverlay": false,
+      "textPosition": "RIGHT"
+    },
+    "woldsvaults:inv_hud_lightman_wallet": {
+      "hudPosition": {
+        "anchor": {
+          "horizontal": "left",
+          "vertical": "top"
+        },
+        "offsetX": 0.0,
+        "offsetY": 0.0
+      },
+      "size": 1.0,
+      "enabled": true,
+      "showWalletIcon": true,
+      "alignment": "right",
+      "displayMode": "items",
+      "itemGap": 17
+    }
+  }
+}
