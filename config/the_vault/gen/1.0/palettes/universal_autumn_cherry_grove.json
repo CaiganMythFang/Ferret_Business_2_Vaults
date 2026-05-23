@@ -29,20 +29,18 @@
       "type": "weighted_target",
       "target": "minecraft:coarse_dirt",
       "output": {
-        "twigs:rocky_dirt": 50,
-        "minecraft:rooted_dirt": 40,
-        "botania:golden_grass": 30,
-        "tfb2:glitched_dirt": 1
+        "twigs:rocky_dirt": 5,
+        "minecraft:rooted_dirt": 4,
+        "botania:golden_grass": 3
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:grass_block",
       "output": {
-        "botania:golden_grass": 100,
-        "twigs:rocky_dirt": 10,
-        "minecraft:rooted_dirt": 20,
-        "tfb2:glitched_dirt": 1
+        "botania:golden_grass": 10,
+        "twigs:rocky_dirt": 1,
+        "minecraft:rooted_dirt": 2
       }
     },
     {
