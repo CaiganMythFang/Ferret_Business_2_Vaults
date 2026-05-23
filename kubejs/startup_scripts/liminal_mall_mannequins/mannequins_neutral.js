@@ -4,7 +4,8 @@
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_east')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (East)') 
        .tagItem('tfb2:mannequin_system')
        .randomTick(tick => {
@@ -32,7 +33,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_east', (item, advanced, text) => {
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_east_placeholder')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (East) Placeholder') 
        .tagItem('tfb2:mannequin_system')
        .notSolid()
@@ -49,7 +51,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_east_placeholder', (item, advanced, 
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_west')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (West)') 
        .tagItem('tfb2:mannequin_system')
        .randomTick(tick => {
@@ -77,7 +80,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_west', (item, advanced, text) => {
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_west_placeholder')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (West) Placeholder') 
        .tagItem('tfb2:mannequin_system')
        .notSolid()
@@ -94,7 +98,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_west_placeholder', (item, advanced, 
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_north')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (North)') 
        .tagItem('tfb2:mannequin_system')
        .randomTick(tick => {
@@ -122,7 +127,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_north', (item, advanced, text) => {
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_north_placeholder')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (North) Placeholder') 
        .tagItem('tfb2:mannequin_system')
        .notSolid()
@@ -139,7 +145,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_north_placeholder', (item, advanced,
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_south')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (South)') 
        .tagItem('tfb2:mannequin_system')
        .randomTick(tick => {
@@ -167,7 +174,8 @@ tooltip.addAdvanced('tfb2:mannequin_neutral_south', (item, advanced, text) => {
 onEvent('block.registry', event => {
   event.create('tfb2:mannequin_neutral_south_placeholder')
   	   .material('dragon_egg')
-       .hardness(0.5)
+       .hardness(200.0)
+       .noDrops()
        .displayName('Mannequin - Neutral (South) Placeholder') 
        .tagItem('tfb2:mannequin_system')
        .notSolid()
