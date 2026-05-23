@@ -631,11 +631,7 @@
           },
           {
             "type": "constant",
-            "id": "Cagerium"
-          },
-          {
-            "type": "constant",
-            "id": "Hostile Neural Networks"
+            "id": "Mob Processing"
           },
           {
             "type": "constant",
@@ -664,10 +660,6 @@
           {
             "type": "constant",
             "id": "Psi"
-          },
-          {
-            "type": "constant",
-            "id": "Mahou Tsukai"
           },
           {
             "type": "constant",
@@ -841,11 +833,50 @@
         "ignoreArrow": true,
         "lockedBy": []
       },
-      "Altar Automation": {
+      "Draconic Evolution": {
         "dependsOn": [
           {
             "type": "constant",
-            "id": "Applied Energistics"
+            "id": "RFTools Power"
+          },
+          {
+            "type": "constant",
+            "id": "Powah"
+          },
+          {
+            "type": "constant",
+            "id": "Flux Networks"
+          },
+          {
+            "type": "constant",
+            "id": "Thermal Dynamos"
+          },
+          {
+            "type": "constant",
+            "id": "Mekanism Generators"
+          },
+          {
+            "type": "constant",
+            "id": "Botania Flux Field"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Altar Automation": {
+        "dependsOn": [
+          {
+            "type": "either",
+            "gates": [
+              {
+                "type": "constant",
+                "id": "Refined Storage"
+              },
+              {
+                "type": "constant",
+                "id": "Applied Energistics"
+              }
+            ]
           }
         ],
         "ignoreArrow": true,
@@ -903,6 +934,14 @@
             "id": "Blight"
           }
         ],
+        "dependsOn": []
+      },
+      "Lightning_Damage": {
+        "lockedBy": [{ "type": "constant", "id": "Lightning_Stun" }],
+        "dependsOn": []
+      },
+      "Lightning_Stun": {
+        "lockedBy": [{ "type": "constant", "id": "Lightning_Damage" }],
         "dependsOn": []
       }
     }
