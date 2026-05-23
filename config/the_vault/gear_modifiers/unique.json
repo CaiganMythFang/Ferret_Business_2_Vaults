@@ -330,8 +330,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 400,
-              "max": 800,
+              "min": 2000,
+              "max": 3000,
               "step": 1
             }
           },
@@ -340,8 +340,8 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 801,
-              "max": 1600,
+              "min": 3000,
+              "max": 5000,
               "step": 1
             }
           },
@@ -350,8 +350,8 @@
             "maxLevel": -1,
             "weight": 1000,
             "value": {
-              "min": 1601,
-              "max": 2400,
+              "min": 6000,
+              "max": 10000,
               "step": 1
             }
           }
@@ -3378,6 +3378,34 @@
         ]
       },
       {
+        "attribute": "the_vault:broodmother_web",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:u_broodmother_web",
+        "tags": ["noLegendary", "noImbuement"],
+        "tiers": [
+          {
+          "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+          "value": {
+            "chance": { "min": 0.2, "max": 0.7, "step": 0.05 },
+            "percentAttackDamage": { "min": 0.20, "max": 0.60, "step":
+            0.05 }
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "chance": { "min": 0.2, "max": 0.7, "step": 0.05 },
+              "percentAttackDamage": { "min": 0.6, "max": 1.2, "step":
+              0.05 }
+            }
+          }
+        ]
+      },
+      {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:mod_fear",
@@ -5719,8 +5747,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": -0.75,
-              "max": -0.5,
+              "min": -0.5,
+              "max": -0.75,
               "step": 0.05
             }
           },
@@ -5729,8 +5757,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": -1.0,
-              "max": -0.75,
+              "min": -0.75,
+              "max": -1.0,
               "step": 0.05
             }
           }
@@ -5868,8 +5896,8 @@
             "maxLevel": 49,
             "weight": 100,
             "value": {
-              "min": -0.5,
-              "max": -0.25,
+              "min": -0.25,
+              "max": -0.5,
               "step": 0.05
             }
           },
@@ -5878,8 +5906,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": -0.75,
-              "max": -0.5,
+              "min": -0.5,
+              "max": -0.75,
               "step": 0.05
             }
           },
@@ -5888,8 +5916,8 @@
             "maxLevel": -1,
             "weight": 100,
             "value": {
-              "min": -1.0,
-              "max": -0.75,
+              "min": -0.75,
+              "max": -1.0,
               "step": 0.05
             }
           }

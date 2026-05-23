@@ -62,7 +62,7 @@
           {
             "minLevel": 80,
             "maxLevel": -1,
-            "weight": 25,
+            "weight": 4,
             "value": {
               "flag": true
             }
@@ -76,7 +76,7 @@
         "tags": [],
         "tiers": [
           {
-            "minLevel": 80,
+            "minLevel": 96,
             "maxLevel": -1,
             "weight": 75,
             "value": {
@@ -1092,7 +1092,7 @@
               "duration": 200,
               "radius": 5.0,
               "color": 3080192,
-              "affectsOwner": true,
+              "affectsOwner": false,
               "triggerChance": 0.02
             }
           },
@@ -1115,7 +1115,7 @@
               "duration": 240,
               "radius": 5.0,
               "color": 3080192,
-              "affectsOwner": true,
+              "affectsOwner": false,
               "triggerChance": 0.02
             }
           }
