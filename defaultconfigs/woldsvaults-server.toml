@@ -1,0 +1,39 @@
+
+["Doll Mixer Settings"]
+	#Controls how much energy the Doll Dismantler can store inside the block. (default: 1000)
+	#Range: > 0
+	dollDismantlerEnergyStorage = 1000
+	#Controls how much energy the Doll Dismantler uses while blending. (default: 16)
+	#Range: > 0
+	dollDismantlerEnergyConsumption = 16
+	#Controls how much energy the Doll Dismantler can receive/extract (default: 100)
+	#Range: > 0
+	dollDismantlerEnergyTransfer = 100
+	#Controls how many stacks per tick the doll dismantler extracts (default: 5)
+	#Range: 1 ~ 100
+	dollDismantlerExtractionSpeed = 5
+
+["Crate Cracker Settings"]
+	#Controls how much energy the Crate Cracker can store inside the block. (default: 1000)
+	#Range: > 0
+	crateCrackerEnergyStorage = 1000
+	#Controls how much energy the Crate Cracker uses while extracting. (default: 16)
+	#Range: > 0
+	crateCrackerEnergyConsumption = 16
+	#Controls how much energy the Crate Cracker can receive/extract (default: 100)
+	#Range: > 0
+	crateCrackerEnergyTransfer = 100
+	#Controls how many stacks per tick the Crate Cracker extracts (default: 5)
+	#Range: 1 ~ 100
+	crateCrackerExtractionSpeed = 5
+
+["Gameplay Settings"]
+	#Whether Gateway Pearls should be able to be used normally (right-clicking to use them on ground) (default: false)
+	enableNormalGatewayPearls = true
+	#How long the cooldown for Scannable scanner should be, in ticks (default: 1200)
+	scannableScannerCooldown = 1200
+
+["Admin Settings"]
+	#Whether to enable Server Killer that will automatically shut down server after 30 seconds, useful if your server is hanging on shutdown. (default: false)
+	enableServerKiller = false
+
