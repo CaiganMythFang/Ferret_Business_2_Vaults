@@ -8,8 +8,7 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
-    <item:craftingstation:crafting_station> : 350,
-    <item:craftingstation:crafting_station_slab> : 350
+    <item:naturescompass:naturescompass> : 500
 };
 
 // For each item in the map, check if we're in release mode. If we are, anything below 26 EMC/FMC becomes unburnable for EMC
