@@ -961,7 +961,7 @@
             },
             "weight": 16
           },
-           {
+          {
             "value": {
               "entries": [
                 {
@@ -1320,7 +1320,7 @@
             },
             "weight": 0
           },
- {
+          {
             "value": {
               "entries": [
                 {
@@ -2258,7 +2258,7 @@
             },
             "weight": 3
           },
-   {
+          {
             "value": {
               "entries": [
                 {
@@ -2593,7 +2593,29 @@
                 "max": 14
               }
             },
-            "weight": 0
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/temple",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 22,
+                "max": 22
+              }
+            },
+            "weight": 12
           },
           {
             "value": {
@@ -2749,7 +2771,7 @@
             },
             "weight": 10
           },
-   {
+          {
             "value": {
               "entries": [
                 {
@@ -3090,6 +3112,28 @@
             "value": {
               "entries": [
                 {
+                  "pool": "the_vault:vault/rooms/challenge/temple",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 22,
+                "max": 22
+              }
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
                   "pool": "the_vault:vault/rooms/challenge/factory",
                   "count": 1,
                   "color": 15769088
@@ -3372,7 +3416,7 @@
             },
             "weight": 8
           },
-    {
+          {
             "value": {
               "entries": [
                 {
@@ -3796,7 +3840,7 @@
             },
             "weight": 20
           },
- {
+          {
             "value": {
               "entries": [
                 {
@@ -4138,7 +4182,29 @@
                 "max": 14
               }
             },
-            "weight": 0
+            "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/temple",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 22,
+                "max": 22
+              }
+            },
+            "weight": 12
           },
           {
             "value": {
@@ -4206,7 +4272,7 @@
             },
             "weight": 12
           },
-    {
+          {
             "value": {
               "entries": [
                 {
@@ -4567,7 +4633,7 @@
         ]
       }
     ],
-    "the_vault:wild_west": [
+    "the_vault:wildwest": [
       {
         "level": 0,
         "pool": [
@@ -4591,7 +4657,36 @@
                 "max": 14
               }
             },
-            "weight": 0
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:temple": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/temple",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 22,
+                "max": 22
+              }
+            },
+            "weight": 12
           }
         ]
       }
@@ -4965,6 +5060,7 @@
     "the_vault:vault/rooms/raw/farm": 17,
     "the_vault:vault/rooms/raw/emerald_caves": 18,
     "the_vault:vault/rooms/omega/pixel": 21,
+    "the_vault:vault/rooms/challenge/temple": 22,
     "the_vault:vault/rooms/challenge/memory": 23,
     "the_vault:vault/rooms/omega/playzone": 94,
     "the_vault:vault/rooms/omega/arcade": 95,
