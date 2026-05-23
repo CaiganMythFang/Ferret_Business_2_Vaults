@@ -1,5 +1,8 @@
 
 let with_chicken = [
+    'culturaldelights:chicken_taco',
+    'culturaldelights:chicken_roll',
+    'culturaldelights:chicken_roll_slice',
     'minecraft:chicken',
     'minecraft:cooked_chicken',
     'farmersdelight:chicken_sandwich',

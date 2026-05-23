@@ -1,5 +1,18 @@
 
 let mixed_food = [
+    'culturaldelights:egg_roll',
+    'culturaldelights:beef_burrito',
+    'culturaldelights:calamari_roll',
+    'culturaldelights:chicken_roll',
+    'culturaldelights:pork_wrap',
+    'culturaldelights:pufferfish_roll',
+    'culturaldelights:rice_ball',
+    'culturaldelights:fish_taco',
+    'culturaldelights:fried_eggplant_pasta',
+    'culturaldelights:mutton_sandwich',
+    'culturaldelights:spicy_curry',
+    'culturaldelights:tropical_roll',
+    'culturaldelights:chicken_roll_slice',
     'minecraft:cake',
     'minecraft:pumpkin_pie',
     'minecraft:rabbit_stew',

@@ -1,5 +1,6 @@
 
 let with_berries = [
+    'culturaldelights:rice_ball',
     'minecraft:melon_slice',
     'minecraft:sweet_berries',
     'minecraft:glow_berries',

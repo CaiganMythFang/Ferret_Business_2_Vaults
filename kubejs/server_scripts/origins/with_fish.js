@@ -1,5 +1,15 @@
 
 let with_fish = [
+    'culturaldelights:rice_ball',
+    'culturaldelights:raw_calamari',
+    'culturaldelights:cooked_calamari',
+    'culturaldelights:cooked_squid',
+    'culturaldelights:glow_squid',
+    'culturaldelights:fish_taco',
+    'culturaldelights:calamari_roll',
+    'culturaldelights:squid',
+    'culturaldelights:tropical_roll',
+    'culturaldelights:pufferfish_roll',
     'minecraft:cod',
     'minecraft:salmon',
     'minecraft:tropical_fish',

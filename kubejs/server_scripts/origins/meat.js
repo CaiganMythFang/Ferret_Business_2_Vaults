@@ -1,5 +1,10 @@
 
 let meat = [
+    'culturaldelights:cooked_squid',
+    'culturaldelights:cooked_calamari',
+    'culturaldelights:squid',
+    'culturaldelights:glow_squid',
+    'culturaldelights:raw_calamari',
     'minecraft:porkchop',
     'minecraft:cooked_porkchop',
     'minecraft:cod',
