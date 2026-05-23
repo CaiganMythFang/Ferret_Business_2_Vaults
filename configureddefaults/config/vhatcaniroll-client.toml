@@ -1,0 +1,74 @@
+#show hold [key] to view rolls tooltip
+showHoverTooltip = true
+
+[Button]
+	#open VHat can I roll? from vault screen
+	vaultScreenButton = true
+	#x position of the button
+	#Range: > -2147483648
+	buttonPositionX = 5
+	#y position of the button (109 default, 130 for QOL Hunters)
+	#Range: > -2147483648
+	buttonPositionY = 130
+
+[Debug]
+	#QOL Hunters conflict resolution (shouldn't be disabled unless it causes issues)
+	QOLHuntersConflictResolution = true
+	#vhcir won't show chance/weight for affixes in these groups
+	affixTagGroupBlacklist = ["CRAFTED_PREFIX", "CRAFTED_SUFFIX"]
+	#override max level
+	#Range: > -1
+	maxLevelOverride = -1
+	#debug unique gear
+	debugUniqueGear = false
+	#debug cards
+	debugCards = false
+	#debug etchings
+	debugEtchings = false
+
+["Hidden Categories"]
+	#show unobtainable crafted modifiers (above current lvl)
+	showUnobtainableCrafted = false
+	#show crafted modifiers (no longer obtainable in the base pack)
+	showCraftedModifiers = false
+	#show ability enhancements
+	showAbilityEnhancements = false
+
+["UI Size"]
+	#height of the gear screen
+	#Range: 0.0 ~ 1.0
+	screenHeight = 0.95
+	#width of the gear screen
+	#Range: > 250
+	screenWidth = 370
+	#height of the card screen
+	#Range: 0.0 ~ 1.0
+	cardScreenHeight = 0.95
+	#width of the card screen
+	#Range: > 250
+	cardScreenWidth = 450
+
+["Weights & Chances"]
+	#show gear roll weight
+	showGearWeight = false
+	#show gear roll chance
+	showGearChance = true
+	#show card roll weight
+	showCardWeight = false
+	#show card roll chance
+	showCardChance = true
+
+[Integration]
+	#replace artisan station modifier list with VHat Can I Roll? version
+	replaceArtisanModifierList = false
+	#width of the artisan modifier list
+	#Range: > 100
+	artisanModifierListWidth = 157
+	#width of the sealer modifier list
+	#Range: > 100
+	sealerModifierListWidth = 157
+	#adds modifier list to the gear sealer
+	sealerModifierList = true
+	#replace unique codex tooltip
+	replaceUniqueCodexTooltip = true
+
