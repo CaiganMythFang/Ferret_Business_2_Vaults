@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_integratedcrafting_decent')
-		.displayName('Decent Blind Box - Lizard Trail')
+		.displayName('Decent Blind Box - Pangolin Build')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_integratedcrafting_good')
-		.displayName('Good Blind Box - Kangaroo Generate')
+		.displayName('Good Blind Box - Rat Love')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

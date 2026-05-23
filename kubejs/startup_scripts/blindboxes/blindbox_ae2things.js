@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ae2things_good')
-		.displayName('Good Blind Box - Aardvark Run')
+		.displayName('Good Blind Box - Rat Dance')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ae2things_amazing')
-		.displayName('Amazing Blind Box - Chipmunk Leap')
+		.displayName('Amazing Blind Box - Dingo Patch')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

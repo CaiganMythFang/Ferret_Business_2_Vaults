@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_fluxnetworks_decent')
-		.displayName('Decent Blind Box - Fennec Weird')
+		.displayName('Decent Blind Box - Tiger Deal')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_fluxnetworks_amazing')
-		.displayName('Amazing Blind Box - Horse Climb')
+		.displayName('Amazing Blind Box - Hyena Slip')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

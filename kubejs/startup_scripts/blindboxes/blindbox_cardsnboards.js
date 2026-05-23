@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_cardsnboards_decent')
-		.displayName('Decent Blind Box - Chipmunk Oasis')
+		.displayName('Decent Blind Box - Chipmunk Deal')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

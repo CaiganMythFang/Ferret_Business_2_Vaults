@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_easy_piglins_decent')
-		.displayName('Decent Blind Box - Ferret Board')
+		.displayName('Decent Blind Box - Rat Tortilla')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_easy_piglins_good')
-		.displayName('Good Blind Box - Hamster Tortilla')
+		.displayName('Good Blind Box - Ferret Board')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_bobberdetector_decent')
-		.displayName('Decent Blind Box - Dormouse Scroll')
+		.displayName('Decent Blind Box - Capybara Hunt')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

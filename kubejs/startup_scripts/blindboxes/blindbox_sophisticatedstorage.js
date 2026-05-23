@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_sophisticatedstorage_decent')
-		.displayName('Decent Blind Box - Hippopotamus Generate')
+		.displayName('Decent Blind Box - Lion Talk')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

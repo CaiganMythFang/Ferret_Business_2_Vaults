@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_grapplemod_good')
-		.displayName('Good Blind Box - Capybara Jig')
+		.displayName('Good Blind Box - Genet Chain')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

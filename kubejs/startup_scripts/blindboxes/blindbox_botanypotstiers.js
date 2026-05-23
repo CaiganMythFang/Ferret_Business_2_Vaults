@@ -2,7 +2,7 @@
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_botanypotstiers_amazing')
-		.displayName('Amazing Blind Box - Dormouse Work')
+		.displayName('Amazing Blind Box - Capybara Slip')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

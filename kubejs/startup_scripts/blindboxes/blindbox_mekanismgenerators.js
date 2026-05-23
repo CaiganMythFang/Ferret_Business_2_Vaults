@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_mekanismgenerators_amazing')
-		.displayName('Amazing Blind Box - Horse Bop')
+		.displayName('Amazing Blind Box - Hamster Crime')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

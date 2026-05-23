@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_entangled_decent')
-		.displayName('Decent Blind Box - Alpaca Climb')
+		.displayName('Decent Blind Box - Skunk Love')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

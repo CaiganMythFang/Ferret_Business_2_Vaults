@@ -2,7 +2,7 @@
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_angelring_good')
-		.displayName('Good Blind Box - Otter Spin')
+		.displayName('Good Blind Box - Genet Glance')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_projecte_decent')
-		.displayName('Decent Blind Box - Binturong Spring')
+		.displayName('Decent Blind Box - Rabbit Hover')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_projecte_good')
-		.displayName('Good Blind Box - Hamster Drink')
+		.displayName('Good Blind Box - Dragon Bop')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_projecte_amazing')
-		.displayName('Amazing Blind Box - Llama Link')
+		.displayName('Amazing Blind Box - Marten Bounce')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

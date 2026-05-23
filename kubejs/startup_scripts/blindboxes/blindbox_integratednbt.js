@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_integratednbt_decent')
-		.displayName('Decent Blind Box - Fox Logic')
+		.displayName('Decent Blind Box - Binturong Climb')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

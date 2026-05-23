@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_littlelogistics_decent')
-		.displayName('Decent Blind Box - Genet Drink')
+		.displayName('Decent Blind Box - Dormouse Blush')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

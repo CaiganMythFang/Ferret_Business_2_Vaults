@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ironchests_decent')
-		.displayName('Decent Blind Box - Iguana Scroll')
+		.displayName('Decent Blind Box - Bee Hunt')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ironchests_good')
-		.displayName('Good Blind Box - Horse Patch')
+		.displayName('Good Blind Box - Genet Haul')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

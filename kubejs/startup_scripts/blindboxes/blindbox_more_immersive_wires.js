@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_more_immersive_wires_decent')
-		.displayName('Decent Blind Box - Hippopotamus Trail')
+		.displayName('Decent Blind Box - Meerkat Chain')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

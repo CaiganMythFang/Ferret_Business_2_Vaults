@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_occultism_amazing')
-		.displayName('Amazing Blind Box - Mink Patch')
+		.displayName('Amazing Blind Box - Dingo Fierce')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

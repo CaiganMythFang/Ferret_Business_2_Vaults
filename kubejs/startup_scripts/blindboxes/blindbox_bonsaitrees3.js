@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_bonsaitrees3_decent')
-		.displayName('Decent Blind Box - Aardwolf Work')
+		.displayName('Decent Blind Box - Rabbit Deal')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

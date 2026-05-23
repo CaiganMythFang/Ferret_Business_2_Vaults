@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_modularrouters_good')
-		.displayName('Good Blind Box - Kangaroo Fierce')
+		.displayName('Good Blind Box - Civet Strike')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_modularrouters_amazing')
-		.displayName('Amazing Blind Box - Llama Flop')
+		.displayName('Amazing Blind Box - Kangaroo Talk')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

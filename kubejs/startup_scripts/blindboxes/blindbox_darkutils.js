@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_darkutils_decent')
-		.displayName('Decent Blind Box - Mink Work')
+		.displayName('Decent Blind Box - Alligator Spring')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_darkutils_good')
-		.displayName('Good Blind Box - Motmot Hunt')
+		.displayName('Good Blind Box - Weasel Drive')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

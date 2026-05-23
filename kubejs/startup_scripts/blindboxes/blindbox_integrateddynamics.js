@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_integrateddynamics_decent')
-		.displayName('Decent Blind Box - Culpeo Spooky')
+		.displayName('Decent Blind Box - Dingo Golf')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_integrateddynamics_good')
-		.displayName('Good Blind Box - Lion Drive')
+		.displayName('Good Blind Box - Toucan Hover')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_davespotioneering_decent')
-		.displayName('Decent Blind Box - Genet Hover')
+		.displayName('Decent Blind Box - Fennec Boop')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_davespotioneering_good')
-		.displayName('Good Blind Box - Mink Boop')
+		.displayName('Good Blind Box - Chinchilla Flop')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

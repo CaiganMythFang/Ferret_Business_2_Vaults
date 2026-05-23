@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_quarryplus_amazing')
-		.displayName('Amazing Blind Box - Chipmunk Smoke')
+		.displayName('Amazing Blind Box - Skunk Boop')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

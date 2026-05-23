@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ars_nouveau_good')
-		.displayName('Good Blind Box - Wolf Dance')
+		.displayName('Good Blind Box - Fox Flop')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

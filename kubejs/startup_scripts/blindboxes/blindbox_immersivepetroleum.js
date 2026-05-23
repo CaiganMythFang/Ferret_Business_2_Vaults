@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_immersivepetroleum_good')
-		.displayName('Good Blind Box - Lizard Slip')
+		.displayName('Good Blind Box - Binturong Drive')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

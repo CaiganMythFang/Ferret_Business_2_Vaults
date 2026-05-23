@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_powah_decent')
-		.displayName('Decent Blind Box - Gryphon Deal')
+		.displayName('Decent Blind Box - Caracal Crime')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_powah_good')
-		.displayName('Good Blind Box - Raccoon Trot')
+		.displayName('Good Blind Box - Otter Illogic')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_powah_amazing')
-		.displayName('Amazing Blind Box - Panda Fancy')
+		.displayName('Amazing Blind Box - Butterfly Eldritch')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

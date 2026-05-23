@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_appbot_decent')
-		.displayName('Decent Blind Box - Motmot Bop')
+		.displayName('Decent Blind Box - Civet Drive')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_appbot_good')
-		.displayName('Good Blind Box - Llama Smoke')
+		.displayName('Good Blind Box - Motmot Bop')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_dyenamics_decent')
-		.displayName('Decent Blind Box - Meerkat Scroll')
+		.displayName('Decent Blind Box - Hippopotamus Boop')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

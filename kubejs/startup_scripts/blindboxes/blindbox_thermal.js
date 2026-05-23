@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_thermal_decent')
-		.displayName('Decent Blind Box - Iguana Illogic')
+		.displayName('Decent Blind Box - Hare Horror')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_thermal_good')
-		.displayName('Good Blind Box - Mandrill Slip')
+		.displayName('Good Blind Box - Dragon Love')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

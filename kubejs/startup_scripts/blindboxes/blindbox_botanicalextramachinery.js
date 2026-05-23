@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_botanicalextramachinery_decent')
-		.displayName('Decent Blind Box - Butterfly Patch')
+		.displayName('Decent Blind Box - Otter Haul')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_botanicalextramachinery_good')
-		.displayName('Good Blind Box - Mink Run')
+		.displayName('Good Blind Box - Culpeo Shoot')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_botanicalextramachinery_amazing')
-		.displayName('Amazing Blind Box - Hyena Inject')
+		.displayName('Amazing Blind Box - Hippopotamus Strike')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

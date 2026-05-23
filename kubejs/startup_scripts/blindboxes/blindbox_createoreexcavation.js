@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_createoreexcavation_decent')
-		.displayName('Decent Blind Box - Lion Deal')
+		.displayName('Decent Blind Box - Crab Talk')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_createoreexcavation_amazing')
-		.displayName('Amazing Blind Box - Wolf Generate')
+		.displayName('Amazing Blind Box - Genet Horror')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

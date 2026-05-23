@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_naturalist_decent')
-		.displayName('Decent Blind Box - Bear Haunt')
+		.displayName('Decent Blind Box - Rabbit Bounce')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

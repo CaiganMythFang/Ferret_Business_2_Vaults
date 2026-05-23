@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_psi_decent')
-		.displayName('Decent Blind Box - Dormouse Hunt')
+		.displayName('Decent Blind Box - Caracal Shoot')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_psi_good')
-		.displayName('Good Blind Box - Iguana Scrungle')
+		.displayName('Good Blind Box - Meerkat Trot')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

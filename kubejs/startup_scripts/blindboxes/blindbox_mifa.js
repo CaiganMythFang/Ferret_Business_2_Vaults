@@ -2,7 +2,7 @@
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_mifa_good')
-		.displayName('Good Blind Box - Butterfly Run')
+		.displayName('Good Blind Box - Dragon Talk')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

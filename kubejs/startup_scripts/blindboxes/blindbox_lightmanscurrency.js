@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_lightmanscurrency_decent')
-		.displayName('Decent Blind Box - Crab Grin')
+		.displayName('Decent Blind Box - Hyena Talk')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

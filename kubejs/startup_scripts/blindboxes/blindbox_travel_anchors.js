@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_travel_anchors_decent')
-		.displayName('Decent Blind Box - Panda Hug')
+		.displayName('Decent Blind Box - Culpeo Jump')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

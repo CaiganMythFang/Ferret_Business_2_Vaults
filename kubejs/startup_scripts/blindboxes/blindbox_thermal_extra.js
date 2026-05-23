@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_thermal_extra_good')
-		.displayName('Good Blind Box - Chipmunk Rip')
+		.displayName('Good Blind Box - Fennec Trot')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_thermal_extra_amazing')
-		.displayName('Amazing Blind Box - Aardvark Plant')
+		.displayName('Amazing Blind Box - Hippopotamus Blush')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

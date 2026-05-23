@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_create_good')
-		.displayName('Good Blind Box - Dragon Fly')
+		.displayName('Good Blind Box - Badger Spring')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

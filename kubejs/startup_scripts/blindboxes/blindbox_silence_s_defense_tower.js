@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_silence_s_defense_tower_decent')
-		.displayName('Decent Blind Box - Raccoon Tortilla')
+		.displayName('Decent Blind Box - Dormouse Race')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

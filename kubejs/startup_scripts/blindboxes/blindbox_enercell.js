@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_enercell_decent')
-		.displayName('Decent Blind Box - Bee Race')
+		.displayName('Decent Blind Box - Caracal Rescue')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

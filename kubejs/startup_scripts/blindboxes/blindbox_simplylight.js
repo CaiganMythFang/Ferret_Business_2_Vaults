@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_simplylight_decent')
-		.displayName('Decent Blind Box - Motmot Logic')
+		.displayName('Decent Blind Box - Jerboa Scrungle')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

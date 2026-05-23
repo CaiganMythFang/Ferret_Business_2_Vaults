@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_irongenerators_good')
-		.displayName('Good Blind Box - Mandrill Board')
+		.displayName('Good Blind Box - Hare Deal')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_irongenerators_amazing')
-		.displayName('Amazing Blind Box - Caracal Build')
+		.displayName('Amazing Blind Box - Computer Mouse Glance')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

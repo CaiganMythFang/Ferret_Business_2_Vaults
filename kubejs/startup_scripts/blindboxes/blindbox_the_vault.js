@@ -1,4 +1,4 @@
-// the_vault Blind Box
+// buildscape Blind Box
 // cheap
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_the_vault_cheap')
@@ -15,7 +15,7 @@ onEvent('item.tooltip', tooltip => {
 	})
 });
 
-// the_vault Blind Box
+// buildscape Blind Box
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_the_vault_decent')
@@ -32,11 +32,11 @@ onEvent('item.tooltip', tooltip => {
 	})
 });
 
-// the_vault Blind Box
+// buildscape Blind Box
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_the_vault_good')
-		.displayName('Good Blind Box - Butterfly Bounce')
+		.displayName('Good Blind Box - Tiger Scrungle')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -49,11 +49,11 @@ onEvent('item.tooltip', tooltip => {
 	})
 });
 
-// the_vault Blind Box
+// buildscape Blind Box
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_the_vault_amazing')
-		.displayName('Amazing Blind Box - Bear Glance')
+		.displayName('Amazing Blind Box - Culpeo Run')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_cookingforblockheads_decent')
-		.displayName('Decent Blind Box - Mink Slide')
+		.displayName('Decent Blind Box - Squirrel Leap')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

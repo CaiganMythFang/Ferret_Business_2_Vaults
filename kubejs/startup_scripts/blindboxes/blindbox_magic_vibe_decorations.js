@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_magic_vibe_decorations_decent')
-		.displayName('Decent Blind Box - Dormouse Leap')
+		.displayName('Decent Blind Box - Rat Peak')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

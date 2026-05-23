@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_createdieselgenerators_decent')
-		.displayName('Decent Blind Box - Frog Spring')
+		.displayName('Decent Blind Box - Aardvark Eldritch')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

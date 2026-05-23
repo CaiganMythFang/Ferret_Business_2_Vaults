@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_createdeco_good')
-		.displayName('Good Blind Box - Dragon Drop')
+		.displayName('Good Blind Box - Echidna Context')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

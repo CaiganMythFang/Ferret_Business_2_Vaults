@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_rftoolsbase_decent')
-		.displayName('Decent Blind Box - Dragon Glare')
+		.displayName('Decent Blind Box - Dingo Watch')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_rftoolsbase_good')
-		.displayName('Good Blind Box - Butterfly Jump')
+		.displayName('Good Blind Box - Aardvark Haunt')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

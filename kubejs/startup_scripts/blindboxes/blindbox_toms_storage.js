@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_toms_storage_good')
-		.displayName('Good Blind Box - Dingo Kick')
+		.displayName('Good Blind Box - Hare Board')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_toms_storage_amazing')
-		.displayName('Amazing Blind Box - Mandrill Flop')
+		.displayName('Amazing Blind Box - Genet Hug')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

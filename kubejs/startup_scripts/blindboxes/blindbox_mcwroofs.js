@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_mcwroofs_decent')
-		.displayName('Decent Blind Box - Alligator Drop')
+		.displayName('Decent Blind Box - Kangaroo Link')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

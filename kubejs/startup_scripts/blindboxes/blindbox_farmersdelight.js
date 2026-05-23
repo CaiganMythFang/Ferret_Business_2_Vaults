@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_farmersdelight_decent')
-		.displayName('Decent Blind Box - Dragon Slide')
+		.displayName('Decent Blind Box - Caracal Dance')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

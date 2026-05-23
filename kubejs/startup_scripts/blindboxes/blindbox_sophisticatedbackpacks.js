@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_sophisticatedbackpacks_decent')
-		.displayName('Decent Blind Box - Pangolin Scroll')
+		.displayName('Decent Blind Box - Squirrel Spin')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

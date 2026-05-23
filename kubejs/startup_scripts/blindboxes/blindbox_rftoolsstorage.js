@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_rftoolsstorage_decent')
-		.displayName('Decent Blind Box - Pangolin Deal')
+		.displayName('Decent Blind Box - Genet Generate')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

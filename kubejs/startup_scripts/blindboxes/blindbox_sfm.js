@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_sfm_decent')
-		.displayName('Decent Blind Box - Aardvark Hunt')
+		.displayName('Decent Blind Box - Raccoon Bounce')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

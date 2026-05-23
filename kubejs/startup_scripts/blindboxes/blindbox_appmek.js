@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_appmek_amazing')
-		.displayName('Amazing Blind Box - Computer Mouse Farm')
+		.displayName('Amazing Blind Box - Mouse Peak')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

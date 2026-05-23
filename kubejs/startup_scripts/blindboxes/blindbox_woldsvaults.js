@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_woldsvaults_good')
-		.displayName('Good Blind Box - Motmot Kick')
+		.displayName('Good Blind Box - Lizard Chain')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_woldsvaults_amazing')
-		.displayName('Amazing Blind Box - Culpeo Context')
+		.displayName('Amazing Blind Box - Marten Boop')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

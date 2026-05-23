@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ae2_decent')
-		.displayName('Decent Blind Box - Caracal Leap')
+		.displayName('Decent Blind Box - Panda Generate')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ae2_good')
-		.displayName('Good Blind Box - Hamster Trot')
+		.displayName('Good Blind Box - Rabbit Drink')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_ae2_amazing')
-		.displayName('Amazing Blind Box - Dragon Haul')
+		.displayName('Amazing Blind Box - Tiger Weird')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

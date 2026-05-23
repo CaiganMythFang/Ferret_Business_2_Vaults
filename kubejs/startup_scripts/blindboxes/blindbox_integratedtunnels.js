@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_integratedtunnels_decent')
-		.displayName('Decent Blind Box - Mandrill Eldritch')
+		.displayName('Decent Blind Box - Alpaca Centered')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

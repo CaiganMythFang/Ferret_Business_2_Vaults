@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_archers_paradox_decent')
-		.displayName('Decent Blind Box - Pangolin Slip')
+		.displayName('Decent Blind Box - Skunk Deal')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

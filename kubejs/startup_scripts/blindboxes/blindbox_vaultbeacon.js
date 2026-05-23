@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_vaultbeacon_decent')
-		.displayName('Decent Blind Box - Toucan Deal')
+		.displayName('Decent Blind Box - Gryphon Link')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_vaultbeacon_good')
-		.displayName('Good Blind Box - Jerboa Boop')
+		.displayName('Good Blind Box - Ferret Inject')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

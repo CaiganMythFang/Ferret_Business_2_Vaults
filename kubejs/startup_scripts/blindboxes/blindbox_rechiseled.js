@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_rechiseled_decent')
-		.displayName('Decent Blind Box - Motmot Hover')
+		.displayName('Decent Blind Box - Lion Glance')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_rechiseled_good')
-		.displayName('Good Blind Box - Lizard Spin')
+		.displayName('Good Blind Box - Alpaca Fancy')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')

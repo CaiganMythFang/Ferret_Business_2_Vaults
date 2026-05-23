@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_cfm_decent')
-		.displayName('Decent Blind Box - Lion Grin')
+		.displayName('Decent Blind Box - Marten Plant')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

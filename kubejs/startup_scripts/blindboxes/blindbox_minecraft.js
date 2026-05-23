@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_minecraft_decent')
-		.displayName('Decent Blind Box - Aardwolf Boop')
+		.displayName('Decent Blind Box - Rabbit Haul')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -36,7 +36,7 @@ onEvent('item.tooltip', tooltip => {
 // good
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_minecraft_good')
-		.displayName('Good Blind Box - Mandrill Fancy')
+		.displayName('Good Blind Box - Hamster Build')
 		.maxStackSize(64)
 		.rarity(RARITY_RARE)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_minecraft_amazing')
-		.displayName('Amazing Blind Box - Alligator Slide')
+		.displayName('Amazing Blind Box - Genet Bop')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

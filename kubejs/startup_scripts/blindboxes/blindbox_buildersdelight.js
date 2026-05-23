@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_buildersdelight_decent')
-		.displayName('Decent Blind Box - Alligator Spin')
+		.displayName('Decent Blind Box - Tiger Leap')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

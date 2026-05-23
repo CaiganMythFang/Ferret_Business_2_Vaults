@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_incorporeal_decent')
-		.displayName('Decent Blind Box - Dormouse Fierce')
+		.displayName('Decent Blind Box - Bear Trail')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
@@ -53,7 +53,7 @@ onEvent('item.tooltip', tooltip => {
 // amazing
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_incorporeal_amazing')
-		.displayName('Amazing Blind Box - Badger Boop')
+		.displayName('Amazing Blind Box - Rat Haul')
 		.maxStackSize(64)
 		.rarity(RARITY_EPIC)
 		.group('tfb2')

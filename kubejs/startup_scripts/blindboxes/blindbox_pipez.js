@@ -19,7 +19,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_pipez_decent')
-		.displayName('Decent Blind Box - Alpaca Steal')
+		.displayName('Decent Blind Box - Bear Bop')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

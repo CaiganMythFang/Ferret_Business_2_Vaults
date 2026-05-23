@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_vaultintegrations_decent')
-		.displayName('Decent Blind Box - Weasel Illogic')
+		.displayName('Decent Blind Box - Fennec Fierce')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

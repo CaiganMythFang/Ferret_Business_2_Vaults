@@ -138,7 +138,7 @@ onEvent('item.tooltip', tooltip => {
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_everycomp_decent')
-		.displayName('Decent Blind Box - Frog Hug')
+		.displayName('Decent Blind Box - Lion Oasis')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')

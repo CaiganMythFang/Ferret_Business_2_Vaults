@@ -2,7 +2,7 @@
 // decent
 onEvent('item.registry', event => {
 	event.create('tfb2:blindbox_tinygates_decent')
-		.displayName('Decent Blind Box - Culpeo Bop')
+		.displayName('Decent Blind Box - Otter Drop')
 		.maxStackSize(64)
 		.rarity(RARITY_UNCOMMON)
 		.group('tfb2')
