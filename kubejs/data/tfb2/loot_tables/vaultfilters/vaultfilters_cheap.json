@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "vaultfilters_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "vaultfilters:card_pack_augment",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "vaultfilters:jewel_pouch_augment",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}
