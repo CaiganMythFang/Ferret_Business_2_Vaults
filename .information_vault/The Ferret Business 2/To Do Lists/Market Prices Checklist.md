@@ -1,0 +1,181 @@
+- [x] The Vault
+- [x] Minecraft
+- [x] Wolds Vaults
+- [x] Applied Energistics 2
+- [x] Architects Palette
+- [x] Block Carpentry
+- [x] Botania
+- [x] Building Gadgets
+- [x] Camera
+- [x] Comforts
+- [x] Compressium
+- [x] Cooking for Blockheads
+- [x] Create
+- [x] Dark Utilities
+- [x] Decorative Blocks
+- [x] Easy Villagers
+- [x] Ecologics
+- [x] Elevator
+- [x] Every Comp
+- [x] Macaw Bridges
+- [x] Macaw Doors
+- [x] Macaw Fences
+- [x] Macaw Furniture
+- [x] Macaw LIghts
+- [x] Macaw Trapdoors
+- [x] Macaw Windows
+- [x] Mekanism
+- [x] Mekanism Generators
+- [x] Mining Gadgets
+- [x] Modular Routers
+- [x] Mr Crayfish's Furniture Mod
+- [x] Neon Craft 2
+- [x] Pipez
+- [x] Powah
+- [x] Quark
+- [x] RFTools Base
+- [x] RFTools Storage
+- [ ] RSRequestify (disable!)
+- [ ] Refined Storage (disable!)
+- [x] Simply Light
+- [x] Sophisticated Backpacks
+- [ ] Storage Drawers (disable!)
+- [x] Supplementaries
+- [x] Thermal Expansion
+- [x] Trashcans
+- [x] Torchmaster
+- [x] Twigs
+- [x] Waystones
+- [x] Cagerium
+- [ ] ispawner
+- [x] Iron Furnaces
+- [ ] Auxiliary Blocks
+- [x] Easy Piglins
+- [x] Botany Pots (make blind bags, server down atm!)
+- [x] Alex's Mobs
+- [x] Iron Generators
+- [x] Fairy Lights
+- [x] Enercell
+- [x] Flux Networks
+- [x] AE2 Things
+- [x] Chipped
+- [x] Botany Pots Tiers (make blind bags, server down atm!)
+- [x] Casino Craft
+- [x] Cloud Storage
+- [x] Luphie Cluttered Mod
+- [ ] Compressed Creativity
+- [x] Decocraft
+- [x] Dyenamics
+- [x] Dyenamics and Friends
+- [x] Entangled
+- [ ] Explorer's Compass
+- [ ] FTBQuests
+- [x] Iam Music Player
+- [x] Immersive Aircraft
+- [x] Just Enough Calculation
+- [x] Laser IO
+- [x] Lightman's Currency
+- [x] Macaw Paths
+- [x] Macaw Roofs
+- [x] More Mekanism Processing
+- [x] Pneumaticraft
+- [x] Small Ships
+- [x] Scannable
+- [x] Sophisticated Storage
+- [x] Super Factory Manager
+- [x] Wares
+- [x] Weather Control
+- [x] Botanical Machinery
+- [x] Hex Casting
+- [x] Integrated NBT
+- [x] Integrated Dynamics
+- [x] Integrated Terminals
+- [x] Integrated Tunnels
+- [ ] Mystical Agriculture
+- [x] Tom's Storage
+- [x] Dave's Building Mod
+- [ ] Grimoire of Gaia
+- [ ] KubeJS
+- [x] Minestuck
+- [ ] Tropicraft
+- [ ] Copycats
+- [ ] Crafting on a Stick
+- [ ] Effortless Building
+- [ ] Farming for Blockheads
+- [ ] Immersive Paintings
+- [ ] Incorporeal
+- [ ] PSI
+- [ ] Coffee Delight
+- [ ] Delightful
+- [ ] Extended Crafting
+- [ ] Farmer's Delight
+- [ ] Farmer's Respite
+- [ ] Tanuki Decor
+- [ ] Ultimate Car Mod
+- [ ] Toolbelt
+- [ ] Yungs Cave Biomes
+- [ ] Hardcore Questing Mod
+- [ ] AE2 Additions
+- [ ] Computercraft
+- [ ] Applied Botanics
+- [ ] Ars Nouveau
+- [ ] Botanical Extra Machinery
+- [ ] Computercraft Vault
+- [ ] Experience Obelisk
+- [ ] Create Additions
+- [ ] Create Deco
+- [ ] Create Diesel Generators
+- [ ] Create ore Excavation
+- [ ] Railways
+- [ ] Daves Potioneering
+- [ ] Industrial Foregoing
+- [ ] Iron Chests
+- [ ] Just Another Void Dim
+- [ ] Lightman's Currency Tech
+- [ ] Little Logistics
+- [ ] Mega Cells
+- [ ] Peripherals
+- [ ] Mystical Agradditions
+- [ ] Occultism
+- [ ] Quarry Plus
+- [x] RFTools Power
+- [x] RFTools Utility
+- [ ] Rechiseled
+- [ ] Rechiseled Create
+- [ ] Secret Rooms
+- [ ] Thermal Dynamics
+- [ ] Thermal Extra
+- [ ] Tiny Redstone
+- [ ] Avaritia
+- [ ] Control Engineering
+- [ ] Immersive Engineering
+- [ ] Immersive Petroleum
+- [ ] More Immersive Wires
+- [ ] Grappling Hook Mod
+- [ ] Culinary Construct
+- [ ] Xerca's Music Maker Mod
+- [ ] Advanced Finders
+- [ ] Mahou Tsukai
+- [ ] Multi Storage
+- [ ] Pocket Storage
+- [ ] Gateways to Eternity
+- [ ] Summoning Rituals
+- [ ] Animalistic
+- [ ] Silence's Defense Turrets
+- [ ] Create: Broken Bad
+- [ ] Viescraft machines
+- [ ] A Man with Plushies
+- [ ] Gaming Deco
+- [ ] Magic Vibe Decorations
+- [ ] builder's Delight
+- [ ] Technoblade Plushies
+- [ ] Vault Beacon
+- [ ] MOA Decor Art
+- [ ] MOA Decor Science
+- [ ] MOA Decor Cookery
+- [ ] Kacy's Cosmetics
+- [ ] Weaver's Cosmetics
+- [ ] Cosmetic Armors
+- [ ] Cards n Boards
+- [ ] More Industrial Foregoing Addons
+- [ ] Public Transport Mod

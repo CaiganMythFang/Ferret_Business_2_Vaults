@@ -2,7 +2,6 @@ onEvent("recipes", event => {
     event.remove({ output: 'the_vault:angel_block' })
     event.remove({ id: 'the_vault:vault_catalyst_reroll' })
     event.remove({id: 'the_vault:infused_eternal_soul'})
-    event.remove({output: 'the_vault:coin_pouch'})
     event.remove({id: 'the_vault:echoing_ingot'})
     event.remove({id: 'the_vault:smelt_etching'})
     event.remove({id: 'the_vault:crystal_seal_ordinator_run'})
@@ -81,8 +80,6 @@ onEvent("recipes", event => {
     }).id('the_vault:vault_charm_controller')
 
     event.shapeless('the_vault:capstone_vendoor_hunter', ['woldsvaults:capstone_vendoors']).id('woldsvaults:vendoor_capstone_conversion')
-
-    event.shapeless('9x the_vault:vault_diamond', ['the_vault:vault_diamond_block'])
 
     event.shapeless('the_vault:vault_palladium', ['9x the_vault:vault_platinum'])
     event.shapeless('the_vault:vault_iridium', ['9x the_vault:vault_palladium'])

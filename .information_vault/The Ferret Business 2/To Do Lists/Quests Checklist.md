@@ -1,0 +1,762 @@
+- [ ] A Man With Plushies
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] AE Additions
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] AE2 QoL Recipes
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] AE2 Things
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] AEInfinityBooster
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] Advanced Finders
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Advanced Peripherals
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Angel Ring 2
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Animalistic
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Applied Botanics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Applied Cooking
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Applied Energistics 2
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Applied Mekanistics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Archer's Paradox
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Architect's Palette
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Ars Creo
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ]  Ars Nouveau
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Auxiliary Blocks
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Avaritia
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Better Combat
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Better Tridents
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] BlockCarpentry
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Bobber Detector
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Bonsai Trees 3
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Botania
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Botanical Extra Machinery
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Botanical Machinery
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] BotanyPots
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] BotanyPotsTiers
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Brewin' and Chewin'
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Builder's Delight
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Building Gadgets
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] CC Vault
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] CC: Tweaked
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] CC:C Bridge
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] CIT Resewn
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Camera Mod
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] CardsNBoards
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] CasinoCraft
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Chipped
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Chunky McChunkFace
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Cloud Storage
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Cluttered
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Coffee Delight
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Cognition
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Comforts
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Compressed Creativity
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Compressium
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Control Engineering
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] CookingForBlockheads
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] CosmeticArmours
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Crafting On A Stick
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Crafting Station
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create Crafts & Additions
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create Deco
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create Diesel Generators
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create Enchantment Industry
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create Mechanical Extruder
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create Ore Excavation
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create: Broken Bad
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create: Copycats+
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Create: Steam 'n Rails
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Critters and Companions
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Cultural Delights
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Custom Machinery
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] DarkUtilities
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Dave's Building Extended
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Dave's Potioneering
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Decocraft
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Decorative Blocks
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Delightful
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Display Case Mod
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Dyenamics
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Easy Piglins
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Easy Villagers
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Eccentric Tome
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Ecologics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Effortless Building
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Elevator Mod
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Enercell
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Ensorcellation
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Entangled
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Every Compat
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Explorer's Compass
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Extended Crafting
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Extreme Sound Muffler
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Factory Blocks Mod
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] Fairy Lights
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Farmer's Delight
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Farmer's Respite
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Farming for Blockheads
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Flux Networks
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Fruit Bag - VH Addon
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] GamingDeco
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Gateways To Eternity
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Grappling Hook Mod
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Hex Casting
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Hexal
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Iam Music Player
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Immersive Aircraft
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Immersive Engineering
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Immersive Paintings
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Immersive Petroleum
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Incorporeal 3
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Industrial Foregoing
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Integrated NBT
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] IntegratedCrafting
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] IntegratedDynamics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] IntegratedTerminals
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] IntegratedTunnels
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Iron Chests: Restocked
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Iron Furnaces
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Iron Generators
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Item Filters
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Item Locks
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Joy of Painting
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Just Another Void Dim
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Just Enough Calculation
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Just Zoom
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Kacys Cosmetics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Laser Bridges & Doors
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] LaserIO
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Lightman's Currency
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Lightman's Currency Tech
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Literal Sky Block
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Little Contraptions
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Little Logistics
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Lootr
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] LostCities
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MEGA Cells
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MOA DECOR: ART
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MOA DECOR: COOKERY
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MOA DECOR: HOLIDAYS
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MOA DECOR: SCIENCE
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Bridges
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Doors
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Fences and Walls
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Furniture
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Lights and Lamps
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Paintings
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Paths and Pavings
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Roofs
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Trapdoors
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Macaw's Windows
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Magic Vibe Decorations
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mahou Tsukai
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mannequins
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mantle
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Measurements
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mekanism
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mekanism: Generators
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Minestuck
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Mining Gadgets
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MmmMmmMmmMmm
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Modonomicon
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Modular Routers
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] More Immersive Wires
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] More Industrial Foregoing Addons
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] More Mekanism Processing
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] More Overlays Updated
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] More Peripherals
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Morph-o-Tool
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] MrCrayfish's Furniture Mod
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Multi-Storage
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mystical Agradditions
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mystical Agriculture
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mystical Agriculture Tiered Crystals
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Mystical Customization
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Naturalist
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Nature's Compass
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Neon Craft 2
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Notes
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Occultism
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Open Parties and Claims
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] Origins
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] OverVaults
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] ParCool!
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Pipez
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Player Tracking Compass
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] PneumaticCraft: Repressurized
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Pocket Storage
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Polymorph
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Powah
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] ProjectE
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] ProjectExtended
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Psi
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Psionic Utilities
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Psionicolor
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] Quark
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Quark Oddities
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] QuarryPlus
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] RFToolsBase
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] RFToolsPower
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] RFToolsStorage
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] RFToolsUtility
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Rechiseled
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Rechiseled: Chipped
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Rechiseled: Create
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [x] ScalingBingoSeals
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Scannable
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Secret Rooms 6
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Silence's Turrets
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Simply Light
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Small Ships
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] SmartResearchCost
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Snad
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Some Assembly Required
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] Sophisticated Backpacks
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [x] Sophisticated Backpacks Vault Hunters Addon
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Sophisticated Storage
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Sophisticated Vault Storage
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Sophisticated Vault Upgrades
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Summoning Rituals
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Super Factory Manager
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Supplementaries
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Tanuki Decor
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] The Vault
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] The Weirding Gadget
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Thermal Dynamics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Thermal Expansion
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Thermal Series
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Thermal: Extra
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Time In A Bottle
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Tiny Gates
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Tips
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Tom's Simple Storage Mod
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Tool Belt
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Torchmaster
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Transmog
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Trash Cans
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Travel Anchors
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Tropicraft
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Twigs
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Ultimate Car Mod
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] VHat Can I Roll?
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Vault Beacon
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Vault Curios Enhancements
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Vault Filters
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] VaultMapper
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Vaultar HUD
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Vending Machine
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] ViesCraft Machines
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Waddles
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [x] Wares
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [x] Waystones
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Weather Control
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] Weaver's Cosmetics
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] Wolds Vaults Official Mod
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] Xerca's Music Maker Mod
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [x] [TFB]Anthro Origins
+- [x] -- Quest Page
+- [x] -- Full Quests
+- [ ] cagerium
+- [x] -- Quest Page
+- [ ] -- Full Quests
+- [ ] iSpawner
+- [ ] -- Quest Page
+- [ ] -- Full Quests
+- [ ] technoblade plushies
+- [x] -- Quest Page
+- [ ] -- Full Quests
