@@ -6,6 +6,17 @@
         {
           "value": {
             "OFFER": {
+              "item": "tfb2:token_vendor"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 5
+          },
+          "weight": 15
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:battlestaff",
               "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:bamboo_fightstick\",\"the_vault:gear_roll_type\":\"Unique\"}"
             },
@@ -186,6 +197,17 @@
     {
       "MIN_LEVEL": 30,
       "TRADE_POOL": [
+        {
+          "value": {
+            "OFFER": {
+              "item": "tfb2:token_vendor"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 5
+          },
+          "weight": 15
+        },
         {
           "value": {
             "OFFER": {
@@ -645,6 +667,17 @@
     {
       "MIN_LEVEL": 50,
       "TRADE_POOL": [
+        {
+          "value": {
+            "OFFER": {
+              "item": "tfb2:token_vendor"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 5
+          },
+          "weight": 15
+        },
         {
           "value": {
             "OFFER": {
@@ -1527,6 +1560,17 @@
     {
       "MIN_LEVEL": 65,
       "TRADE_POOL": [
+        {
+          "value": {
+            "OFFER": {
+              "item": "tfb2:token_vendor"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 5
+          },
+          "weight": 15
+        },
         {
           "value": {
             "OFFER": {
