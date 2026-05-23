@@ -32,7 +32,6 @@ let sweet_treat = [
     'minestuck:carrot_cake', 
     'createaddition:honey_cake', 
     'createaddition:cake_base_baked', 
-    'mahoutsukai:faecake', 
     'createaddition:chocolate_cake', 
     'magic_vibe_decorations:halloweenpies', 
     'farmersrespite:strong_green_tea', 

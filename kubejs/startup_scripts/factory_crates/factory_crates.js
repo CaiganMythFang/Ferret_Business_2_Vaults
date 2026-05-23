@@ -15,6 +15,21 @@ tooltip.addAdvanced('tfb2:factory_crate_empty', (item, advanced, text) => {
     })
 });
 
+// Incomplete Crate
+onEvent('item.registry', event => {
+    event.create('tfb2:factory_crate_incomplete')
+        .displayName('Factory Crate - Incomplete')
+        .maxStackSize(64)
+        .rarity(RARITY_UNCOMMON)
+        .group('tfb2')
+});
+  
+onEvent('item.tooltip', tooltip => {
+tooltip.addAdvanced('tfb2:factory_crate_incomplete', (item, advanced, text) => {
+    text.add(1, [Text.of('A partially filled factory crate!').lightPurple()])
+    })
+});
+
 // Chair
 onEvent('block.registry', event => {
   event.create('tfb2:factory_crate_chairs')
