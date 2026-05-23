@@ -6,6 +6,11 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/test_table.json"
     },
     {
+      "id": "the_vault:empty",
+      "name": "Empty",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/empty.json"
+    },
+    {
       "id": "the_vault:ancient_copper_golem",
       "name": "Ancient Copper Golem",
       "1.0": "config/the_vault/gen/1.0/loot_tables/ancient_copper_golem.json"
@@ -76,9 +81,24 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/coin_pile_30.json"
     },
     {
+      "id": "the_vault:coin_pile_treasure",
+      "name": "Coin Pile Treasure Room",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/coin_pile_treasure.json"
+    },
+    {
       "id": "the_vault:treasure_sand_lvl0",
       "name": "Treasure Sand Level 0",
       "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_sand_0.json"
+    },
+    {
+      "id": "the_vault:treasure_pillar",
+      "name": "Treasure Pillar",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_pillar.json"
+    },
+    {
+      "id": "the_vault:treasure_pillar_map",
+      "name": "Treasure Pillar (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_pillar_map.json"
     },
     {
       "id": "the_vault:tombstone_loot",
@@ -155,6 +175,26 @@
       "name": "Treasure Chest Lvl50",
       "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_50.json"
     },
+     {
+      "id": "the_vault:treasure_chest_idona",
+      "name": "Treasure Chest Idona",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_idona.json"
+    },
+    {
+      "id": "the_vault:treasure_chest_wendarr",
+      "name": "Treasure Chest Wendarr",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_wendarr.json"
+    },
+    {
+      "id": "the_vault:treasure_chest_tenos",
+      "name": "Treasure Chest Tenos",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_tenos.json"
+    },
+    {
+      "id": "the_vault:treasure_chest_velara",
+      "name": "Treasure Chest Velara",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_velara.json"
+    },
     {
       "id": "the_vault:treasure_chest_stand_lvl50",
       "name": "Treasure Stand Lvl50",
@@ -170,10 +210,20 @@
       "name": "Dungeon Stand Lvl75",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/dungeon_pedestal_75.json"
     },
+     {
+      "id": "the_vault:dungeon_pedestal_map",
+      "name": "Dungeon Stand (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/dungeon_pedestal_map.json"
+    },
     {
       "id": "the_vault:hellish_sand",
       "name": "Hellish Sand Level 0",
       "1.0": "config/the_vault/gen/1.0/loot_tables/hellish_sand.json"
+    },
+     {
+      "id": "the_vault:hellish_sand_idona",
+      "name": "Hellish Sand (Idona)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/hellish_sand_idona.json"
     },
     {
       "id": "the_vault:digsite_sand_lvl0",
@@ -655,6 +705,11 @@
       "name": "Woldian Leaves",
       "1.0": "config/the_vault/gen/1.0/loot_tables/iskallian_leaves.json"
     },
+      {
+      "id": "the_vault:iskallian_leaves_velara",
+      "name": "Woldian Leaves (Velara)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/iskallian_leaves_velara.json"
+    },
     {
       "id": "the_vault:vendor_pedestal_0",
       "name": "Vendor Pedestal Lvl0",
@@ -700,6 +755,11 @@
       "name": "Gilded Dungeon Barrel",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/gilded.json"
     },
+      {
+      "id": "the_vault:gilded_dungeon_barrel_map",
+      "name": "Gilded Dungeon Barrel (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/gilded_map.json"
+    },
     {
       "id": "the_vault:gilded_dungeon_barrel_lvl50",
       "name": "Gilded Dungeon Barrel lvl50",
@@ -710,10 +770,20 @@
       "name": "Ornate Dungeon Barrel",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/ornate.json"
     },
+      {
+      "id": "the_vault:ornate_dungeon_barrel_map",
+      "name": "Ornate Dungeon Barrel (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/ornate_map.json"
+    },
     {
       "id": "the_vault:living_dungeon_barrel",
       "name": "Living Dungeon Barrel",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/living.json"
+    },
+    {
+      "id": "the_vault:living_dungeon_barrel_map",
+      "name": "Living Dungeon Barrel (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/living_map.json"
     },
     {
       "id": "the_vault:base_crate_0_brazier",
@@ -876,89 +946,44 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/royale_crate.json"
     },
     {
-      "id": "the_vault:base_crate_100_boss",
-      "name": "[TFB]Guardians Crate 100",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_100_boss.json"
-    },
-    {
       "id": "the_vault:royale_loot_cards",
       "name": "Royale Cards",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_cards.json"
-    },
-    {
-      "id": "the_vault:base_crate_100_brazier",
-      "name": "[TFB]Brazier Crate 100",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_100_brazier.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_cards.json"
     },
     {
       "id": "the_vault:royale_loot_trinket",
       "name": "Royale Trinket",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_trinket.json"
-    },
-    {
-      "id": "the_vault:base_crate_100_elixir",
-      "name": "[TFB]Elixir Crate 100",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_100_elixir.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_trinket.json"
     },
     {
       "id": "the_vault:royale_loot_gear",
       "name": "Royale Gear",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_gear.json"
-    },
-    {
-      "id": "the_vault:base_crate_cursed_0_brutal",
-      "name": "[TFB]Brutal Crate 0",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_0_brutal.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_gear.json"
     },
     {
       "id": "the_vault:royale_loot_legendary",
       "name": "Royale Legendary Gear",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_legendary.json"
-    },
-    {
-      "id": "the_vault:base_crate_cursed_2_50_ballistic",
-      "name": "[TFB]Ballistic Crate 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_2_50_ballistic.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_legendary.json"
     },
     {
       "id": "the_vault:royale_loot_multiplier",
       "name": "Royale Multiplier",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_multiplier.json"
-    },
-    {
-      "id": "the_vault:base_crate_cursed_2_50_brutal",
-      "name": "[TFB]Brutal Crate 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_2_50_brutal.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_multiplier.json"
     },
     {
       "id": "the_vault:royale_loot_fruit",
       "name": "Royale Fruit",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_fruit.json"
-    },
-    {
-      "id": "the_vault:base_crate_cursed_2_50_enchanted",
-      "name": "[TFB]Enchanted Crate 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_2_50_enchanted.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_fruit.json"
     },
     {
       "id": "the_vault:royale_loot_treasure_key",
       "name": "Royale Treasure Key",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_treasure_key.json"
-    },
-    {
-      "id": "the_vault:base_crate_cursed_2_50_offering",
-      "name": "[TFB]Offering Crate 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_2_50_offering.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_treasure_key.json"
     },
     {
       "id": "the_vault:royale_loot_gems",
       "name": "Royale Treasure Key",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/royale_loot_gems.json"
-    },
-    {
-      "id": "the_vault:base_crate_cursed_2_100_ballistic",
-      "name": "[TFB]Ballistic Crate 100",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_2_100_ballistic.json"
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_gems.json"
     },
     {
       "id": "the_vault:royale_start_crate",
@@ -1010,6 +1035,41 @@
       "name": "Dungeon Boss",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss.json"
     },
+     {
+      "id": "the_vault:dungeon_boss_map",
+      "name": "Dungeon Boss (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon_boss_map.json"
+    },
+    {
+      "id": "the_vault:wooden_dungeon_barrel",
+      "name": "Wooden Barrel",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/wooden.json"
+    },
+     {
+      "id": "the_vault:wooden_dungeon_barrel_map",
+      "name": "Wooden Barrel (Map)",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/wooden_map.json"
+    },
+    {
+      "id": "the_vault:time_trial_reward_crate",
+      "name": "Time Trial Reward Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/time_trial_reward_crate.json"
+    },
+    {
+      "id": "the_vault:royale_wooden",
+      "name": "Royale Wooden Chests",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/wooden.json"
+    },
+    {
+      "id": "the_vault:royale_special",
+      "name": "Royale Special Chests",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/special.json"
+    },
+    {
+      "id": "the_vault:royale_ores",
+      "name": "Royale Ores",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/royale/ores.json"
+    },
     {
       "id": "the_vault:base_crate_cursed_2_100_brutal",
       "name": "[TFB]Brutal Crate 100",
@@ -1041,79 +1101,9 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_cursed_20_offering.json"
     },
     {
-      "id": "the_vault:gilded_chest_lvl0_dungeon",
-      "name": "[TFB]Gilded Dungeon 0",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_0_dungeon.json"
-    },
-    {
-      "id": "the_vault:gilded_chest_lvl20_dungeon",
-      "name": "[TFB]Gilded Dungeon 20",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_20_dungeon.json"
-    },
-    {
-      "id": "the_vault:gilded_chest_lvl50_dungeon",
-      "name": "[TFB]Gilded Dungeon 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_50_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl0_dungeon",
-      "name": "[TFB]Living Dungeon 0",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_0_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl10_dungeon",
-      "name": "[TFB]Living Dungeon 10",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_10_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl20_dungeon",
-      "name": "[TFB]Living Dungeon 20",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_20_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl30_dungeon",
-      "name": "[TFB]Living Dungeon 30",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_30_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl40_dungeon",
-      "name": "[TFB]Living Dungeon 40",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_40_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl50_dungeon",
-      "name": "[TFB]Living Dungeon 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_50_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl60_dungeon",
-      "name": "[TFB]Living Dungeon 60",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_60_dungeon.json"
-    },
-    {
-      "id": "the_vault:living_chest_lvl70_dungeon",
-      "name": "[TFB]Living Dungeon 70",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_70_dungeon.json"
-    },
-    {
-      "id": "the_vault:ornate_chest_lvl0_dungeon",
-      "name": "[TFB]Ornate Dungeon 0",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_0_dungeon.json"
-    },
-    {
-      "id": "the_vault:ornate_chest_lvl20_dungeon",
-      "name": "[TFB]Ornate Dungeon 20",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_20_dungeon.json"
-    },
-    {
-      "id": "the_vault:ornate_chest_lvl30_dungeon",
-      "name": "[TFB]Ornate Dungeon 30",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_30_dungeon.json"
-    },
-    {
-      "id": "the_vault:ornate_chest_lvl50_dungeon",
-      "name": "[TFB]Ornate Dungeon 50",
-      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_50_dungeon.json"
+      "id": "the_vault:base_crate_100_boss",
+      "name": "[TFB]Guardians Crate 100",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_100_boss.json"
     }
   ]
 }

@@ -779,17 +779,6 @@
               }
             },
             {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:modifier_scroll",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
               "weight": 6,
               "item": {
                 "id": "the_vault:opportunistic_focus",
@@ -926,7 +915,7 @@
               "item": {
                 "id": "woldsvaults:layout_manipulator",
                 "nbt": {
-                  "level": 150
+                  "pool": "default"
                 },
                 "count": {
                   "type": "uniform",

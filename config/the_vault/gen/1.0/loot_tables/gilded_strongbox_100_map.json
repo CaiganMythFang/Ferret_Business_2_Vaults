@@ -9,6 +9,17 @@
       "pool": [
         { "weight": 70,
           "pool": [
+              {
+              "weight": 1,
+              "item": {
+                "id": "tfb2:token_chest",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
             {
               "weight": 6,
               "item": {

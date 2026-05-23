@@ -61,6 +61,50 @@
                   "max": 16
                   }
                 }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "tfb2:trade_order_cheap",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "tfb2:trade_order_decent",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "tfb2:trade_order_good",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "tfb2:trade_order_amazing",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
             }
           ]
         },
