@@ -57,6 +57,10 @@ global.BLACK_LIST = {
 	'ae2:creative_item_cell': true,
 	'ae2:creative_fluid_cell': true,
 	'quark:soul_bead': true,
+	'grapplemod:longfallboots': true,
+	'minestuck:sburb_code': true,
+	'minestuck:server_disk': true,
+	'minestuck:client_disk': true,
 
 
 
