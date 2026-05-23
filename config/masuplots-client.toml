@@ -1,0 +1,23 @@
+
+#Boundary rendering
+[render]
+	#Range: 1 ~ 256
+	boundary_distance = 24
+	#Range: 0.001 ~ 1.0
+	beam_width = 0.05
+	#Range: 0.001 ~ 1.0
+	ground_stripe_thickness = 0.06
+	color_available = "D5A850"
+	color_owned = "FFD97A"
+	color_grace = "F0B446"
+	color_frozen = "B86840"
+	color_repossessed = "B84040"
+	color_trusted = "B486D6"
+
+#UI / sound effects
+[ui]
+	play_enter_sound = true
+	enter_sound = "minecraft:block.note_block.bell"
+	#Range: 0.0 ~ 1.0
+	enter_sound_volume = 0.4
+
