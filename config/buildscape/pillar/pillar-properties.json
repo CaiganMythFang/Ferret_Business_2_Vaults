@@ -11,8 +11,8 @@
   // When use_pattern is true, pattern-specific parameters (pattern_speed, pattern_spread, etc.) are used
   "use_pattern": true,
   
-  // Available patterns: "default", "beam", "spiral", "fountain", "pulse", "ring", "burst"
-  //   "default" - Random spread in all directions
+  // Available patterns: "beam", "spiral", "fountain", "pulse", "ring", "burst"
+  //   "ring" - Default ring of particles
   //   "beam" - Straight upward beam with subtle spread
   //   "spiral" - Particles spiral upward in a helix pattern
   //   "fountain" - Particles spread outward then fall down
@@ -39,7 +39,7 @@
   // Dye colors are applied in order - particles will cycle through all applied dye colors
   // Each pillar can have its own dye colors, independent of other pillars
   // To reset a pillar's colors, break and replace it
-  "particle_color": ["#FFB81C", "#FFFFFF", "#FFFF00"],
+  "particle_color": ["#FFB81C", "#FFFFFF", "#FFFF00", "#E8FEFD", "#FF5C00", "#3CDFFF"],
   
   // Maximum number of colors to use from particle_color array (1-7)
   // Particles will cycle through colors from first to max_particle_color
