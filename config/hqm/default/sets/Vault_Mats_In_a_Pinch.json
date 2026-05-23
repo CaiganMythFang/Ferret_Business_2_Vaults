@@ -2,19 +2,19 @@
   "name": "Vault Mats In a Pinch",
   "quests": [
     {
-      "uuid": "4a5387dd-40ce-460d-8d2d-3eab68ccd96c",
+      "uuid": "895fed63-c18a-4a26-a407-1d8ae5ab46f7",
       "name": {
-        "text": " Mod Box",
+        "text": " Opportunistic Focus",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    Mod Boxes contain random items from any mod you\u0027ve obtained the Research DLC for.\n    If you don\u0027t have any researched, you will get Knowledge Shards instead.",
+        "text": "    Resets the Crafting Potential, which is needed to reroll gear in the Vault Artisan Table.",
         "isTranslationKey": false
       },
-      "x": 92,
-      "y": 64,
+      "x": 157,
+      "y": 104,
       "icon": {
-        "id": "the_vault:mod_box",
+        "id": "the_vault:opportunistic_focus",
         "Count": 1
       },
       "repeat": {
@@ -24,19 +24,19 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 100 Ferret Dollars",
-            "isTranslationKey": true
+            "text": "Cost : 50 Ferret Dollars",
+            "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_hundred_dollar",
+                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "tfb2:token_market",
+                "id": "tfb2:token_dungeon",
                 "Count": 1
               }
             }
@@ -49,7 +49,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "the_vault:mod_box",
+          "id": "the_vault:opportunistic_focus",
           "Count": 1
         }
       ],
@@ -57,20 +57,21 @@
       "commandrewards": []
     },
     {
-      "uuid": "44bdb49a-22fe-4945-9767-ec18f65def93",
+      "uuid": "d4da2980-f265-4733-a64b-224443456404",
       "name": {
-        "text": " Augment Box",
+        "text": " Unidentified Vault Trident",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    Augment boxes contain a random Augment, which you can apply to your Vault Crystal to change the theme.",
+        "text": " ",
         "isTranslationKey": false
       },
-      "x": 113,
-      "y": 39,
+      "x": 192,
+      "y": 133,
       "icon": {
-        "id": "woldsvaults:augment_box",
-        "Count": 1
+        "id": "the_vault:trident",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
       },
       "repeat": {
         "type": "INSTANT"
@@ -79,19 +80,20 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 100 Ferret Dollars",
+            "text": "Cost : 15 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_hundred_dollar",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
-              }
+              },
+              "required": 15
             },
             {
               "item": {
-                "id": "tfb2:token_market",
+                "id": "tfb2:token_raw",
                 "Count": 1
               }
             }
@@ -104,8 +106,291 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "woldsvaults:augment_box",
+          "id": "the_vault:trident",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "25a17713-3d13-4edf-a96a-e8fd9319f7b8",
+      "name": {
+        "text": " Unidentified Vault Axe",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 122,
+      "y": 133,
+      "icon": {
+        "id": "the_vault:axe",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:axe",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c79e1031-d30c-4d1d-ac0a-811ea605f8a6",
+      "name": {
+        "text": " Neuralizer",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    The Neuralizer is used to reset your Expertise points so you can choose different ones.",
+        "isTranslationKey": false
+      },
+      "x": 284,
+      "y": 67,
+      "icon": {
+        "id": "the_vault:neuralizer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 500 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:token_boss",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:neuralizer",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aabe06db-aef7-4a81-98b8-69b130a2edf6",
+      "name": {
+        "text": " Adaptive Focus",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Used to bring a piece of Vault Gear to your current level. \n    Useful for leveling up gear you purchase from this shop.",
+        "isTranslationKey": false
+      },
+      "x": 122,
+      "y": 104,
+      "icon": {
+        "id": "the_vault:adaptive_focus",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 50 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_dungeon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:adaptive_focus",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2627b131-8f62-40fc-9939-fc2a59cd9b18",
+      "name": {
+        "text": " Unidentified Vaultarang",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 226,
+      "y": 133,
+      "icon": {
+        "id": "the_vault:rang",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:rang",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e75e4419-d3f0-4271-90e7-d94c9cacd551",
+      "name": {
+        "text": " Unidentified Vault Boots",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 192,
+      "y": 162,
+      "icon": {
+        "id": "the_vault:boots",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:boots",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
         }
       ],
       "rewardchoice": [],
@@ -192,6 +477,64 @@
         {
           "id": "woldsvaults:omega_box",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7174fdb0-5cc7-45ac-985d-26e7381bf2df",
+      "name": {
+        "text": " Unidentified Vault Shield",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 226,
+      "y": 162,
+      "icon": {
+        "id": "the_vault:shield",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:shield",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
         }
       ],
       "rewardchoice": [],
@@ -451,23 +794,20 @@
       "commandrewards": []
     },
     {
-      "uuid": "d0e8325a-4a77-4997-a035-2b07e17886e1",
+      "uuid": "467b05df-420b-46ed-8d85-f3b2b88ac5e4",
       "name": {
-        "text": " Inscription Box",
+        "text": " Unidentified Artifact",
         "isTranslationKey": false
       },
       "description": {
-        "text": "    Contains a random Inscription, which can be applied to Vault Crystals to guarantee certain special rooms.",
+        "text": "    The main goal of Vault Hunters is to collect all 25 Artifact pieces so that you can face the Herald.",
         "isTranslationKey": false
       },
-      "x": 134,
-      "y": 39,
+      "x": 219,
+      "y": 67,
       "icon": {
-        "id": "woldsvaults:inscription_box",
+        "id": "the_vault:unidentified_artifact",
         "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -479,14 +819,19 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
-              },
-              "required": 3
+              }
             },
             {
               "item": {
-                "id": "tfb2:token_vendor",
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_hacked",
                 "Count": 1
               }
             }
@@ -499,8 +844,66 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "woldsvaults:inscription_box",
+          "id": "the_vault:unidentified_artifact",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb55ee46-fb6f-4b4b-885c-8522b6c03012",
+      "name": {
+        "text": " Unidentified Vault Sack",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 192,
+      "y": 191,
+      "icon": {
+        "id": "the_vault:loot_sack",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:loot_sack",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
         }
       ],
       "rewardchoice": [],
@@ -610,6 +1013,64 @@
       "commandrewards": []
     },
     {
+      "uuid": "32558e8f-d4f2-4431-bdd3-70cd3e3a8ea3",
+      "name": {
+        "text": " Unidentified Magnet",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 226,
+      "y": 191,
+      "icon": {
+        "id": "the_vault:magnet",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:magnet",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "39754f54-919c-4d7d-af5b-b13636cdc27f",
       "name": {
         "text": " Altar Recatalyzer",
@@ -619,7 +1080,7 @@
         "text": "    Altar Recatalyzers can be used on an Altar to re-roll the ingredients. \n\n    You can do this by Sneak + Right Clicking the Recatalyzer on the Altar. ",
         "isTranslationKey": false
       },
-      "x": 188,
+      "x": 179,
       "y": 40,
       "icon": {
         "id": "woldsvaults:altar_recatalyzer",
@@ -660,6 +1121,866 @@
         {
           "id": "woldsvaults:altar_recatalyzer",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "317262a1-d9a6-477d-9633-1f6b509e522f",
+      "name": {
+        "text": " Unidentified Vault Helmet",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 162,
+      "icon": {
+        "id": "the_vault:helmet",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:helmet",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e404eb9c-e882-4af7-a16f-12664806f483",
+      "name": {
+        "text": " Unidentified Vault Leggings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 162,
+      "icon": {
+        "id": "the_vault:leggings",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:leggings",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8248206-aa58-45b8-9acb-33bd6b29feba",
+      "name": {
+        "text": " Glazed Vault Rock",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Glazed Vault Rocks create Cake Vaults. ",
+        "isTranslationKey": false
+      },
+      "x": 234,
+      "y": 16,
+      "icon": {
+        "id": "the_vault:crystal_seal_cake",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 150 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_vendor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:crystal_seal_cake",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cf0ee349-2dfc-416c-b549-9b41e478478e",
+      "name": {
+        "text": " Unidentified Vault Chestplate",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 123,
+      "y": 162,
+      "icon": {
+        "id": "the_vault:chestplate",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:chestplate",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a5387dd-40ce-460d-8d2d-3eab68ccd96c",
+      "name": {
+        "text": " Mod Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Mod Boxes contain random items from any mod you\u0027ve obtained the Research DLC for.\n    If you don\u0027t have any researched, you will get Knowledge Shards instead.",
+        "isTranslationKey": false
+      },
+      "x": 92,
+      "y": 64,
+      "icon": {
+        "id": "the_vault:mod_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:mod_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "05898636-1f64-4325-b810-ec74e898fa69",
+      "name": {
+        "text": " Chaotic Vault Rock",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Chaotic Vault Rocks create Chaos themed vaults, where every room and hallway can be a different theme.",
+        "isTranslationKey": false
+      },
+      "x": 269,
+      "y": 16,
+      "icon": {
+        "id": "the_vault:vault_catalyst_chaos",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 150 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:vault_catalyst_chaos",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "44bdb49a-22fe-4945-9767-ec18f65def93",
+      "name": {
+        "text": " Augment Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Augment boxes contain a random Augment, which you can apply to your Vault Crystal to change the theme.",
+        "isTranslationKey": false
+      },
+      "x": 113,
+      "y": 39,
+      "icon": {
+        "id": "woldsvaults:augment_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:augment_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "011eb90e-534d-4121-a283-874c79879ed9",
+      "name": {
+        "text": " Unidentified Vault Sword",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 133,
+      "icon": {
+        "id": "the_vault:sword",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:sword",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "afe497d2-8e92-4835-ae1b-d344661ebda0",
+      "name": {
+        "text": " Pyretic Focus",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Improves the rarity of Vault Gear. Higher rarity means more affix slots.",
+        "isTranslationKey": false
+      },
+      "x": 191,
+      "y": 104,
+      "icon": {
+        "id": "the_vault:pyretic_focus",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 50 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:token_vendor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:pyretic_focus",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc6fd4d6-b4ea-4833-a094-892f95c62f6d",
+      "name": {
+        "text": " Unidentified Focus",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 124,
+      "y": 191,
+      "icon": {
+        "id": "the_vault:focus",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:focus",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "689a0254-0e57-4939-b18f-88ce3a904782",
+      "name": {
+        "text": " Unidentified Treasure Key",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Treasure Keys are needed to open Treasure Doors, which only start showing up in the Vault after level 50.",
+        "isTranslationKey": false
+      },
+      "x": 252,
+      "y": 67,
+      "icon": {
+        "id": "the_vault:unidentified_treasure_key",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 300 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "tfb2:token_market",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:unidentified_treasure_key",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9ba31810-e01c-4fd9-87a6-63b0b6903145",
+      "name": {
+        "text": " Unidentified Wand",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 191,
+      "icon": {
+        "id": "the_vault:wand",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:wand",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8c7bee0b-41a9-4ce6-9fe1-179634039f7e",
+      "name": {
+        "text": " Unidentified Vault Plushie",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 191,
+      "icon": {
+        "id": "the_vault:plushie",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:plushie",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d0e8325a-4a77-4997-a035-2b07e17886e1",
+      "name": {
+        "text": " Inscription Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    Contains a random Inscription, which can be applied to Vault Crystals to guarantee certain special rooms.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 39,
+      "icon": {
+        "id": "woldsvaults:inscription_box",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 150 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "tfb2:token_vendor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "woldsvaults:inscription_box",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "05d55bdd-e69e-4130-bfdc-fae4902884ca",
+      "name": {
+        "text": " Unidentified Vault Battlestaff",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": " ",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 133,
+      "icon": {
+        "id": "the_vault:battlestaff",
+        "Count": 1,
+        "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": {
+            "text": "Cost : 15 Ferret Dollars",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:ferret_dollar",
+                "Count": 1
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "tfb2:token_raw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:battlestaff",
+          "Count": 1,
+          "tag": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
         }
       ],
       "rewardchoice": [],
