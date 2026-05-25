@@ -409,24 +409,9 @@
 			dependencies: ["0B8CCC44B66134C8"]
 			id: "5E7F06957E99F158"
 			tasks: [{
-				id: "3EB2C4112F7355D0"
-				type: "item"
-				item: "aoa3:copper_coin"
-				count: 500L
-				consume_items: false
+				id: "00F30C53C17E0F9B"
+				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "5E14CD7800806A05"
-					type: "item"
-					item: "kubejs:unlock_food_orange"
-				}
-				{
-					id: "5B625817699793F4"
-					type: "command"
-					command: "/ftbquests change_progress @p complete 03C6DFAD60CB38C4"
-				}
-			]
 		}
 		{
 			title: "SPECIES CHANGE - LION"
