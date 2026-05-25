@@ -6,4 +6,6 @@ onEvent("item.tags", event => {
     event.add('origins:badger_diggable', '#forge:cobblestone')
     event.add('origins:badger_diggable', '#forge:stone')
     event.add('origins:badger_diggable', '#forge:sandstone')
+    event.add('origins:badger_diggable', '#forge:sand')
+    event.add('origins:badger_diggable', '#forge:gravel')
 })
