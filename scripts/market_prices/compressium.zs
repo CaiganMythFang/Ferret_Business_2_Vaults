@@ -1,3 +1,4 @@
+import crafttweaker.api.text.TextComponent;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
