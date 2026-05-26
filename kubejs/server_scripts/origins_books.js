@@ -244,6 +244,6 @@ onEvent('item.right_click', event => {
   if (event.item.id == 'tfb2:origins_book_human') {
 	  
 	event.server.runCommandSilent('origin set ' + event.getEntity() + ' origins:origin origins:human');
-	event.player.tell(Text.lightPurple("You have set your species to : Human!"));
+	event.player.tell(Text.lightPurple("You have set your species to : Human(Power User)!"));
   }
 });
