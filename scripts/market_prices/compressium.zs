@@ -440,33 +440,23 @@ for item, value in priceTable {
             CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
             <tag:items:projectextended:blacklist_condenser>.add(item);
             <tag:items:projectextended:blacklist_learning>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(1, "FMC TOO LARGE TO SAFELY TRANSFER");
-            });
+            item.addTooltip(new TextComponent("FMC TOO LARGE TO SAFELY TRANSFER").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
         if (value > 999 && value < 10001) {
             <tag:items:tfb2:fop_miniscule>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(2, "FOP Digitization Value: Miniscule");
-            });
+            item.addTooltip(new TextComponent("FOP Digitization Value: Miniscule").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
         if (value > 10000 && value < 25001) {
             <tag:items:tfb2:fop_small>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(2, "FOP Digitization Value: Small");
-            });
+            item.addTooltip(new TextComponent("FOP Digitization Value: Small").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
         if (value > 25000 && value < 75001) {
             <tag:items:tfb2:fop_medium>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(2, "FOP Digitization Value: Medium");
-            });
+            item.addTooltip(new TextComponent("FOP Digitization Value: Medium").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
         if (value > 75000) {
             <tag:items:tfb2:fop_large>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(2, "FOP Digitization Value: Large");
-            });
+            item.addTooltip(new TextComponent("FOP Digitization Value: Large").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
     } else {
         if (value < 1 ) {
@@ -481,9 +471,7 @@ for item, value in priceTable {
             CustomEMC.setEMCValue(NSSResolver.fromItem(item), 0);
             <tag:items:projectextended:blacklist_condenser>.add(item);
             <tag:items:projectextended:blacklist_learning>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(1, "FMC TOO LARGE TO SAFELY TRANSFER");
-            });
+            item.addTooltip(new TextComponent("FMC TOO LARGE TO SAFELY TRANSFER").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
         if (value > 10000 && value < 25001) {
             <tag:items:tfb2:fop_small>.add(item);
@@ -493,15 +481,11 @@ for item, value in priceTable {
         }
         if (value > 25000 && value < 75001) {
             <tag:items:tfb2:fop_medium>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(2, "FOP Digitization Value: Medium");
-            });
+            item.addTooltip(new TextComponent("FOP Digitization Value: Medium").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
         if (value > 75000) {
             <tag:items:tfb2:fop_large>.add(item);
-            item.modifyTooltip((stack, tooltip, flag) => {
-                tooltip.insert(2, "FOP Digitization Value: Large");
-            });
+            item.addTooltip(new TextComponent("FOP Digitization Value: Large").withStyle(style => style.withColor(<constant:minecraft:formatting:white>)));
         }
     }
 }
