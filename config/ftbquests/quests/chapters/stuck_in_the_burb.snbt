@@ -134,11 +134,11 @@
 				""
 				"&7Try it with ONE cobblestone. You can usually Captchalogue up to a full stack, but not always. "
 				""
-				"&7Now, putting items into your Sylladex is easy. Taking them out is... a bit different. Starting out, your Sylladex starts in \"Stack\" mode. You can see what mode you are in by looking in the upper right of your Sylladex."
+				"&7Now, putting items into your Sylladex is easy. Taking them out is... a bit different. Starting out, your Sylladex starts in \"Queue\" mode. You can see what mode you are in by looking in the upper right of your Sylladex."
 				""
-				"&7In Stack mode, items are added to the left side of of the Sylladex. Each new item pushes the previous items to the right, \"stacking\" them onto each other."
+				"&7In Queue mode, items are added to the left side of of the Sylladex. Each new item pushes the previous items to the right, creating an orderly line."
 				""
-				"&7In \"Stack\" mode, you can only remove the left most item. If you Left Click the item, you pull it out of the Card and into your inventory. If you RIGHT Click, you remove the card WITH the item! Do that now, you'll need that soon."
+				"&7In \"Queue\" mode, you can only remove the RIGHT most item. If you Left Click the item, you pull it out of the Card and into your inventory. If you RIGHT Click, you remove the card WITH the item! Do that now, you'll need that soon."
 			]
 			dependencies: ["679B9480C543F403"]
 			id: "6A21DB08C3F1E5A7"
@@ -4292,11 +4292,11 @@
 			y: -5.75d
 			shape: "square"
 			description: [
-				"&7Like I mentioned, your Sylladex starts off in Queue mode, which acts like a stack of books. Things get added to the left side, and only the left most item can be taken out."
+				"&7Like I mentioned, your Sylladex starts off in Queue mode, like a line at the cashier. You add an item to the left, and can only take out the right most item."
 				""
 				"&7But you can change the mode of how items are stored and retrieved from your Sylladex by changing its Modus. The other simple Modus you can swap to is Stack."
 				""
-				"&7With Queue Modus, it's like a line at the cashier. You add an item to the left, and can only take out the right most item."
+				"&7With Stack Modus, its like stacking books. You add items to the left, stacking them on top of previous items. And you can only remove things from the top of the stack."
 				""
 				"&7To change the Modus of your Sylladex, take the Modus card, and hit G to open your Minestuck menu. Place the new Modus card into the Sylladex spot you usually add new Captchalogue cards to, and hit Use Item. It'll swap the new Modus in and your old Modus out."
 			]
