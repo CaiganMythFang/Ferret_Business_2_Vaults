@@ -83,7 +83,7 @@ onEvent('block.registry', event => {
   event.create('tfb2:glitched_purple_terracotta')
   	   .material('dragon_egg')
        .hardness(0.5)
-       .displayName('Glitched Snow Block') 
+       .displayName('Glitched Purple Terracotta') 
        .tagItem('tfb2:glitched_block')
   })
   
