@@ -18,7 +18,7 @@
 			},
 			{
 				"char": "s",
-				"block": "decocraft:toilet_white[facing=south]",
+				"block": "moa_decor_bath:inodoro[facing=south]",
 				"Description": "Toilet - South Facing"
 			},
 			{
@@ -51,7 +51,7 @@
 			},
 			{
 				"char": "0",
-				"block": "decocraft:toilet_paper_black[facing=south]",
+				"block": "moa_decor_bath:portapapelhigienico[facing=south]",
 				"Description": ""
 			},
 			{
@@ -62,22 +62,48 @@
 			},
 			{
 				"char": "r",
-				"block": "decocraft:toilet_white[facing=north]",
+				"block": "moa_decor_bath:inodoro[facing=north]",
 				"Description": "Toilet north facing"
 			},
 			{
 				"char": "5",
-				"block": "decocraft:bathroom_unisex[facing=west]",
+				"blocks": [
+					{
+						"block": "moa_decor_bath:l_bhombres[facing=west]",
+						"random": 50.0
+					},
+					{
+						"block": "moa_decor_bath:inodoro[facing=west]",
+						"random": 50.0
+					},
+					{
+						"random": 50.0,
+						"block": "moa_decor_bath:l_bhombres[facing=west]"
+					}
+				],
 				"Description": "Unisex Bathroom Sign - West Facing"
 			},
 			{
 				"char": "V",
-				"block": "decocraft:toilet_paper_black[facing=north]",
+				"block": "moa_decor_bath:portapapelhigienico[facing=north]",
 				"Description": ""
 			},
 			{
 				"char": "6",
-				"block": "decocraft:bathroom_unisex[facing=east]",
+				"blocks": [
+					{
+						"block": "moa_decor_bath:l_bhombres[facing=east]",
+						"random": 50.0
+					},
+					{
+						"block": "moa_decor_bath:inodoro[facing=east]",
+						"random": 50.0
+					},
+					{
+						"random": 50.0,
+						"block": "moa_decor_bath:l_bhombres[facing=east]"
+					}
+				],
 				"Description": "Unisex Bathroom Sign - East Facing"
 			},
 			{

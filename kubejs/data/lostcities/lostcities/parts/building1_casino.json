@@ -39,7 +39,7 @@
 			},
 			{
 				"char": "s",
-				"block": "decocraft:chair_borje_mw_red[facing=east]",
+				"block": "mcwfurnitures:stripped_crimson_striped_chair[facing=east]",
 				"Description": "Chair - East Facing",
 				"Color": "8d2d2dff"
 			},
@@ -81,16 +81,16 @@
 				"Description": "Basic Slot machine - South Facing",
 				"blocks": [
 					{
-						"block": "decocraft:slot_machine_blue[facing=south]",
+						"block": "casinocraft:arcade_slot_blue[facing=south]",
 						"random": 50.0
 					},
 					{
-						"block": "decocraft:slot_machine_red[facing=south]",
+						"block": "casinocraft:arcade_slot_red[facing=south]",
 						"random": 50.0
 					},
 					{
 						"random": 50.0,
-						"block": "decocraft:slot_machine_green[facing=south]"
+						"block": "lightmanscurrency:slot_machine[facing=south]"
 					}
 				],
 				"Color": "7dc4d7ff"
@@ -130,7 +130,7 @@
 			},
 			{
 				"char": "N",
-				"block": "decocraft:casino_wheel[facing=south]",
+				"block": "casinocraft:cardtable_base_green[facing=south]",
 				"Description": "Wheel",
 				"Color": "ff0707ff"
 			},
@@ -185,16 +185,16 @@
 				"Color": "59cbcdff",
 				"blocks": [
 					{
-						"block": "decocraft:slot_machine_blue[facing=west]",
+						"block": "casinocraft:arcade_slot_blue[facing=west]",
 						"random": 50.0
 					},
 					{
-						"block": "decocraft:slot_machine_red[facing=west]",
+						"block": "casinocraft:arcade_slot_red[facing=west]",
 						"random": 50.0
 					},
 					{
 						"random": 50.0,
-						"block": "decocraft:slot_machine_green[facing=west]"
+						"block": "lightmanscurrency:slot_machine[facing=west]"
 					}
 				]
 			}

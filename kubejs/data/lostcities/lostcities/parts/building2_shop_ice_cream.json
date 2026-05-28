@@ -52,15 +52,9 @@
 			},
 			{
 				"char": "e",
-				"block": "decocraft:fridge_small_silver[facing=south]",
+				"block": "moa_decor_cookery:refrigerador[facing=south]",
 				"Description": "Fridge - Style 1",
 				"Color": "a5a5a5ff"
-			},
-			{
-				"char": "V",
-				"block": "decocraft:diner_table_round_cyan[facing=north]",
-				"Description": "Cyan Table",
-				"Color": "6fa9baff"
 			},
 			{
 				"char": "3",
@@ -68,14 +62,8 @@
 				"Description": "Fridge - Style 2 Top"
 			},
 			{
-				"char": "^",
-				"block": "decocraft:neon_lamp_ice_pop[facing=west]",
-				"Description": "Neon ice Cream Sign - West Facing",
-				"Color": "dcdba6ff"
-			},
-			{
 				"char": "O",
-				"block": "decocraft:diner_counter_light_gray[facing=south]",
+				"block": "cfm:cyan_kitchen_counter[facing=south]",
 				"Description": "Counter Top - South Facing",
 				"Color": "adadadff"
 			},
@@ -83,10 +71,6 @@
 				"char": "8",
 				"Description": "Banana Split",
 				"blocks": [
-					{
-						"block": "decocraft:banana_split[facing=north]",
-						"random": 5.0
-					},
 					{
 						"block": "moa_decor_cookery:tazadecafe",
 						"random": 5.0
@@ -103,33 +87,9 @@
 			},
 			{
 				"char": "s",
-				"block": "decocraft:diner_counter_light_gray[facing=east]",
+				"block": "cfm:cyan_kitchen_counter[facing=east]",
 				"Description": "Diner Counter - East Facing",
 				"Color": "adadadff"
-			},
-			{
-				"char": "]",
-				"block": "decocraft:neon_lamp_ice_pop[facing=east]",
-				"Description": "Neon Ice Cream Sign - East Facing",
-				"Color": "dcdba6ff"
-			},
-			{
-				"char": "U",
-				"block": "decocraft:chair_borje_bw_cyan[facing=east]",
-				"Description": "Cyan Chair - Facing East",
-				"Color": "6fa9baff"
-			},
-			{
-				"char": "H",
-				"block": "decocraft:arcade_machine_snake[facing=south]",
-				"Description": "Arcade Machine",
-				"Color": "363636ff"
-			},
-			{
-				"char": "[",
-				"block": "decocraft:neon_lamp_open[facing=west]",
-				"Description": "Neon Open Sign - West Facing",
-				"Color": "3f4e76ff"
 			},
 			{
 				"char": "E",
@@ -137,20 +97,9 @@
 				"Description": "Vending Machine - South Facing - Bottom"
 			},
 			{
-				"char": "0",
-				"block": "decocraft:chair_borje_bw_cyan[facing=west]",
-				"Description": "Cyan Chair - West Facing",
-				"Color": "6fa9baff"
-			},
-			{
 				"char": "N",
-				"block": "decocraft:display_counter_bottom_white[facing=south]",
+				"block": "cfm:cyan_kitchen_counter[facing=south]",
 				"Description": "Display Counter - White - Bottom"
-			},
-			{
-				"char": "&",
-				"block": "decocraft:neon_lamp_open[facing=east]",
-				"Description": ""
 			},
 			{
 				"char": "r",
@@ -163,26 +112,8 @@
 				"Description": ""
 			},
 			{
-				"char": "6",
-				"Description": "",
-				"blocks": [
-					{
-						"block": "decocraft:display_counter_top_icecream_2[facing=south]",
-						"random": 42.0
-					},
-					{
-						"block": "decocraft:display_counter_top_icecream_3[facing=south]",
-						"random": 42.0
-					},
-					{
-						"random": 100.0,
-						"block": "decocraft:display_counter_top_icecream_1[facing=south]"
-					}
-				]
-			},
-			{
 				"char": "P",
-				"block": "decocraft:diner_counter_corner_light_gray[facing=south]",
+				"block": "cfm:cyan_kitchen_counter[facing=south]",
 				"Description": "Counter Top Corner - South Facing",
 				"Color": "adadadff"
 			},
@@ -274,8 +205,8 @@
 			"4n            q4",
 			"$#k          m#$",
 			" #k          m# ",
-			"^#k          m#&",
-			"[#k          m#]",
+			" #k          m# ",
+			" #k          m# ",
 			" #k          m# ",
 			"$#k          m#$",
 			"4f            j4",

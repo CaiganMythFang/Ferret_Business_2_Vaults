@@ -1,0 +1,92 @@
+{
+  "palette": [
+    {
+        "char": "⃐",
+        "block": "casinocraft:arcade_base_red[facing=north]"
+    },
+    {
+        "char": "⃑",
+        "block": "casinocraft:arcade_base_red[facing=south]"
+    },
+    {
+        "char": "⃒",
+        "block": "casinocraft:arcade_base_red[facing=east]"
+    },
+    {
+        "char": "⃓",
+        "block": "casinocraft:arcade_base_red[facing=west]"
+    },
+    {
+        "char": "⃔",
+        "blocks": [
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_red[facing=north]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_purple[facing=north]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_lime[facing=north]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "⃕",
+        "blocks": [
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_red[facing=south]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_purple[facing=south]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_lime[facing=south]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "⃖",
+        "blocks": [
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_red[facing=east]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_purple[facing=east]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_lime[facing=east]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "⃗",
+        "blocks": [
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_red[facing=west]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_purple[facing=west]"
+            },
+            {
+                "random": 18.0,
+                "block": "casinocraft:arcade_base_lime[facing=west]"
+            }
+        ],
+        "Color": "4141bfff"
+    }
+  ]
+}

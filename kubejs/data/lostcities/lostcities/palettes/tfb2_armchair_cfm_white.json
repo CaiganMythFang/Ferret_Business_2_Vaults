@@ -1,0 +1,64 @@
+{
+  "palette": [
+    {
+        "char": "ឤ",
+        "block": "cfm:white_sofa[facing=north]",
+        "Description": "Armchair - North Facing"
+    },
+    {
+        "char": "ឥ",
+        "block": "cfm:white_sofa[facing=south]",
+        "Description": "Armchair - South Facing"
+    },
+    {
+        "char": "ឦ",
+        "block": "cfm:white_sofa[facing=east]",
+        "Description": "Armchair - East Facing"
+    },
+    {
+        "char": "ឧ",
+        "block": "cfm:white_sofa[facing=west]",
+        "Description": "Armchair - West Facing"
+    },
+    {
+        "char": "ឨ",
+        "blocks": [
+            {
+                "random": 4.0,
+                "block": "cfm:white_sofa[facing=north]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "ឩ",
+        "blocks": [
+            {
+                "random": 4.0,
+                "block": "cfm:white_sofa[facing=south]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "ឪ",
+        "blocks": [
+            {
+                "random": 4.0,
+                "block": "cfm:white_sofa[facing=east]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "ឫ",
+        "blocks": [
+            {
+                "random": 4.0,
+                "block": "cfm:white_sofa[facing=west]"
+            }
+        ],
+        "Color": "4141bfff"
+    }
+  ]
+}

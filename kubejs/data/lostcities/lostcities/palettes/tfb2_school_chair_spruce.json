@@ -1,0 +1,60 @@
+{
+  "palette": [
+    {
+        "char": "ᨀ",
+        "block": "redeco:spruce_chair[facing=north]"
+    },
+    {
+        "char": "ᨁ",
+        "block": "redeco:spruce_chair[facing=south]"
+    },
+    {
+        "char": "ᨂ",
+        "block": "redeco:spruce_chair[facing=east]"
+    },
+    {
+        "char": "ᨃ",
+        "block": "redeco:spruce_chair[facing=west]"
+    },
+    {
+        "char": "ᨄ",
+        "blocks": [
+            {
+                "random": 8.0,
+                "block": "redeco:spruce_chair[facing=north]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "ᨅ",
+        "blocks": [
+            {
+                "random": 8.0,
+                "block": "redeco:spruce_chair[facing=south]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "ᨆ",
+        "blocks": [
+            {
+                "random": 8.0,
+                "block": "redeco:spruce_chair[facing=east]"
+            }
+        ],
+        "Color": "4141bfff"
+    },
+    {
+        "char": "ᨇ",
+        "blocks": [
+            {
+                "random": 8.0,
+                "block": "redeco:spruce_chair[facing=west]"
+            }
+        ],
+        "Color": "4141bfff"
+    }
+  ]
+}

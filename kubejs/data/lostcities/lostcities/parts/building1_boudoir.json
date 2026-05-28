@@ -57,7 +57,7 @@
 				"Description": "Safes",
 				"blocks": [
 					{
-						"block": "decocraft:safe[facing=east]",
+						"block": "supplementaries:safe[facing=east]",
 						"random": 64.0
 					},
 					{
@@ -94,17 +94,17 @@
 			},
 			{
 				"char": "ƨ",
-				"block": "decocraft:vanity_left_white[facing=north]",
+				"block": "everycomp:cfm/the_vault/stripped_chromatic_desk_cabinet[facing=north]",
 				"Description": "Vanity Bottom Left"
 			},
 			{
 				"char": "⚴",
-				"block": "decocraft:vanity_center_white[facing=north]",
+				"block": "tanukidecor:regal_vanity[facing=north]",
 				"Description": "Vanity Bottom Center"
 			},
 			{
 				"char": "?",
-				"block": "decocraft:vanity_right_white[facing=north]",
+				"block": "everycomp:cfm/the_vault/stripped_chromatic_desk_cabinet[facing=north]",
 				"Description": "Vanity Bottom Right"
 			},
 			{
@@ -115,19 +115,19 @@
 			},
 			{
 				"char": "☮",
-				"block": "decocraft:couch_left_pink[facing=east]",
+				"block": "cfm:pink_sofa[facing=east]",
 				"Description": "East couch - Left",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": "ɬ",
-				"block": "decocraft:couch_middle_pink[facing=east]",
+				"block": "cfm:pink_sofa[facing=east]",
 				"Description": "East couch - Center",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": "Ć",
-				"block": "decocraft:couch_right_pink[facing=east]",
+				"block": "cfm:pink_sofa[facing=east]",
 				"Description": "East couch - Right",
 				"Color": "e9a9e7ff"
 			},
@@ -157,25 +157,25 @@
 			},
 			{
 				"char": "Ŧ",
-				"block": "decocraft:couch_right_pink[facing=west]",
+				"block": "cfm:pink_sofa[facing=west]",
 				"Description": "East Couch Right",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": "⚣",
-				"block": "decocraft:couch_middle_pink[facing=west]",
+				"block": "cfm:pink_sofa[facing=west]",
 				"Description": "East Couch Center",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": "♾",
-				"block": "decocraft:couch_left_pink[facing=west]",
+				"block": "cfm:pink_sofa[facing=west]",
 				"Description": "East couch Left",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": "Ţ",
-				"block": "decocraft:closet_3_spruce[facing=west]",
+				"block": "mcwfurnitures:stripped_oak_drawer[facing=west]",
 				"Description": "Cabinet",
 				"Color": "8a6633ff"
 			},
@@ -186,19 +186,19 @@
 			},
 			{
 				"char": "♸",
-				"block": "decocraft:couch_right_pink[facing=south]",
+				"block": "cfm:pink_sofa[facing=south]",
 				"Description": "South Facing Couch Right",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": "¼",
-				"block": "decocraft:couch_middle_pink[facing=south]",
+				"block": "cfm:pink_sofa[facing=south]",
 				"Description": "South Facing couch Center",
 				"Color": "e9a9e7ff"
 			},
 			{
 				"char": ",",
-				"block": "decocraft:couch_left_pink[facing=south]",
+				"block": "cfm:pink_sofa[facing=south]",
 				"Description": "South Facing couch Left",
 				"Color": "e9a9e7ff"
 			},
@@ -220,14 +220,8 @@
 				"Color": "83725cff"
 			},
 			{
-				"char": "⛫",
-				"block": "decocraft:makeup[facing=north]",
-				"Description": "Makeup",
-				"Color": "b73039ff"
-			},
-			{
 				"char": "ɫ",
-				"block": "decocraft:table_lamp_white[facing=east]",
+				"block": "another_furniture:white_lamp[facing=east]",
 				"Description": "Lamp"
 			},
 			{
@@ -244,13 +238,13 @@
 			},
 			{
 				"char": "ř",
-				"block": "decocraft:table_lamp_tall_pink[facing=west]",
+				"block": "mcwlights:pink_lamp[facing=west]",
 				"Description": "Pink Table Lamp",
 				"Color": "fbbbffff"
 			},
 			{
 				"char": "☚",
-				"block": "decocraft:hanging_lamp_3_gold",
+				"block": "redeco:yellow_lamp",
 				"Description": "Chandelier",
 				"Color": "eef35fff"
 			}
@@ -306,7 +300,7 @@
 			"#9           83#",
 			"#8           93#",
 			"#9           83#",
-			"#8        ⛫  83#",
+			"#8           83#",
 			"#989898E8989893#",
 			"#333333  l33333#",
 			"################"

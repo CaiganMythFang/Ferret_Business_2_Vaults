@@ -83,11 +83,6 @@
 				"Description": ""
 			},
 			{
-				"char": "O",
-				"block": "decocraft:arcade_machine_tetris[facing=west]",
-				"Description": "Arcade Machine"
-			},
-			{
 				"char": "q",
 				"block": "trashcans:item_trash_can[waterlogged=false]",
 				"Description": "Trash Can",
@@ -108,40 +103,6 @@
 				"char": "j",
 				"block": "luphieclutteredmod:luphie_retro_cafe_shelf[facing=south,waterlogged=false]",
 				"Description": ""
-			},
-			{
-				"char": "&",
-				"Description": "Dispenser",
-				"blocks": [
-					{
-						"block": "decocraft:mason_jar_dispenser_lemonade[facing=west]",
-						"random": 18
-					},
-					{
-						"block": "decocraft:mason_jar_dispenser_orangeade[facing=west]",
-						"random": 18
-					},
-					{
-						"random": 18,
-						"block": "decocraft:mason_jar_dispenser_jamaica[facing=west]"
-					},
-					{
-						"random": 18,
-						"block": "decocraft:mason_jar_dispenser_horchata[facing=west]"
-					},
-					{
-						"random": 18,
-						"block": "decocraft:mason_jar_dispenser_limeade[facing=west]"
-					},
-					{
-						"random": 18,
-						"block": "decocraft:mason_jar_dispenser_lemonade_pink[facing=west]"
-					},
-					{
-						"random": 21,
-						"block": "decocraft:mason_jar_dispenser_tamarind[facing=west]"
-					}
-				]
 			},
 			{
 				"char": "o",
@@ -242,7 +203,7 @@
 			"#ee      6   ee#",
 			"#ee          8 #",
 			"#ee          ee#",
-			"#ee  e      &ee#",
+			"#ee  e       ee#",
 			"#ee ee[      ne#",
 			"#e  ee      ⚈ee#",
 			"$e  ee     U⚈ee$",

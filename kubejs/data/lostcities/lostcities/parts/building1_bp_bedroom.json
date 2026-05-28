@@ -52,12 +52,8 @@
 						"block": "mcwfurnitures:stripped_oak_double_drawer[facing=west]"
 					},
 					{
-						"random": 25.0,
+						"random": 125.0,
 						"block": "mcwfurnitures:stripped_oak_lower_triple_drawer[facing=west]"
-					},
-					{
-						"random": 1000.0,
-						"block": "decocraft:vanity_left_oak[facing=north]"
 					}
 				],
 				"Description": ""
@@ -75,12 +71,8 @@
 						"block": "mcwfurnitures:stripped_oak_double_drawer[facing=west]"
 					},
 					{
-						"random": 25.0,
+						"random": 125.0,
 						"block": "mcwfurnitures:stripped_oak_lower_triple_drawer[facing=west]"
-					},
-					{
-						"random": 1000.0,
-						"block": "decocraft:vanity_right_oak[facing=north]"
 					}
 				],
 				"Description": ""
@@ -90,16 +82,12 @@
 				"loot": "lost_city_dresser",
 				"blocks": [
 					{
-						"random": 25.0,
+						"random": 65.0,
 						"block": "cfm:stripped_oak_bedside_cabinet[facing=east]"
 					},
 					{
-						"random": 25.0,
+						"random": 95.0,
 						"block": "cfm:oak_bedside_cabinet[facing=east]"
-					},
-					{
-						"random": 1000.0,
-						"block": "decocraft:closet_3_oak[facing=west]"
 					}
 				],
 				"Description": ""
@@ -111,7 +99,7 @@
 			},
 			{
 				"char": "M",
-				"block": "decocraft:vanity_center_oak[facing=north]",
+				"block": "tanukidecor:regal_vanity[facing=north]",
 				"Description": ""
 			},
 			{
@@ -144,11 +132,11 @@
 				"blocks": [
 					{
 						"random": 25.0,
-						"block": "decocraft:chair_2_oak[facing=south]"
+						"block": "everycomp:mcfur/the_vault/burnt_chair[facing=south]"
 					},
 					{
 						"random": 1000.0,
-						"block": "decocraft:chair_2_spruce[facing=south]"
+						"block": "mcwfurnitures:stripped_dark_oak_chair[facing=south]"
 					}
 				],
 				"Description": ""
@@ -180,30 +168,26 @@
 			},
 			{
 				"char": "R",
-				"block": "decocraft:double_bed_spruce_black[bed=0,facing=east]",
+				"block": "luphieclutteredmod:luphie_darkwood_quilted_bed[bed=0,facing=east]",
 				"Description": ""
 			},
 			{
 				"char": "S",
 				"blocks": [
 					{
-						"random": 25.0,
+						"random": 75.0,
 						"block": "cfm:oak_bedside_cabinet[facing=west,waterlogged=false]"
 					},
 					{
-						"random": 25.0,
+						"random": 75.0,
 						"block": "cfm:stripped_oak_bedside_cabinet[facing=west,waterlogged=false]"
-					},
-					{
-						"random": 1000.0,
-						"block": "decocraft:bedside_table_white[facing=east]"
 					}
 				],
 				"Description": ""
 			},
 			{
 				"char": "T",
-				"block": "decocraft:closet_7_oak[facing=east]",
+				"block": "mcwfurnitures:dark_oak_cupboard_counter[facing=east]",
 				"Description": ""
 			},
 			{
@@ -211,11 +195,11 @@
 				"blocks": [
 					{
 						"random": 25.0,
-						"block": "decocraft:chair_2_oak[facing=east]"
+						"block": "everycomp:mcfur/the_vault/burnt_chair[facing=east]"
 					},
 					{
 						"random": 1000.0,
-						"block": "decocraft:chair_2_spruce[facing=east]"
+						"block": "mcwfurnitures:stripped_dark_oak_chair[facing=east]"
 					}
 				],
 				"Description": ""
@@ -227,17 +211,17 @@
 			},
 			{
 				"char": "Y",
-				"block": "decocraft:table_lamp_white",
+				"block": "redeco:white_lamp",
 				"Description": ""
 			},
 			{
 				"char": "Z",
-				"block": "decocraft:sconce_2_black[facing=north]",
+				"block": "tanukidecor:regal_wall_lamp[facing=north]",
 				"Description": ""
 			},
 			{
 				"char": "c",
-				"block": "decocraft:sconce_2_black[facing=south]",
+				"block": "tanukidecor:regal_wall_lamp[facing=south]",
 				"Description": ""
 			},
 			{
@@ -260,7 +244,7 @@
 			},
 			{
 				"char": "g",
-				"block": "decocraft:globe_antique[facing=east]",
+				"block": "moa_decor_science:globoterraqueo[facing=east]",
 				"Description": ""
 			},
 			{
@@ -317,7 +301,7 @@
 			"#6 ƒ m      U33#",
 			"#3S         O33#",
 			"#3           33#",
-			"#6             #",
+			"#6T            #",
 			"#3T          33#",
 			"#3          P33#",
 			"#6✤         U33#",
@@ -335,8 +319,8 @@
 			"#6   h      U33#",
 			"#3Y          33#",
 			"#3           33#",
-			"#6             #",
-			"#3           33#",
+			"#6T            #",
+			"#3T          33#",
 			"#3           33#",
 			"#6          U33#",
 			"#3           33#",
@@ -352,8 +336,8 @@
 			"#3           33#",
 			"#6d          33#",
 			"#3           33#",
-			"#3           33#",
-			"#6           66#",
+			"#3T          33#",
+			"#6T          66#",
 			"#3           33#",
 			"#3           33#",
 			"#6           33#",

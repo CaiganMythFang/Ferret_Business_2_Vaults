@@ -57,13 +57,8 @@
 			},
 			{
 				"char": "N",
-				"block": "decocraft:diner_counter_corner_black[facing=north]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=north]",
 				"Description": ""
-			},
-			{
-				"char": "V",
-				"block": "decocraft:diner_chair_gray[facing=north]",
-				"Description": "Diner Chair - North Facing"
 			},
 			{
 				"char": "7",
@@ -76,18 +71,8 @@
 				"Description": "Cutting Board"
 			},
 			{
-				"char": "U",
-				"block": "decocraft:restaurant_table_1_black[facing=east]",
-				"Description": "Restaurant Table"
-			},
-			{
-				"char": "&",
-				"block": "decocraft:restaurant_table_1_black[facing=south]",
-				"Description": ""
-			},
-			{
 				"char": "6",
-				"block": "decocraft:bottom_cabinet_corner_outer_1_black[facing=east]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=east]",
 				"Description": ""
 			},
 			{
@@ -102,12 +87,12 @@
 			},
 			{
 				"char": "5",
-				"block": "decocraft:diner_counter_black[facing=east]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=east]",
 				"Description": ""
 			},
 			{
 				"char": "3",
-				"block": "decocraft:diner_counter_black[facing=south]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=south]",
 				"Description": ""
 			},
 			{
@@ -117,7 +102,7 @@
 			},
 			{
 				"char": "P",
-				"block": "decocraft:diner_counter_corner_black[facing=east]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=east]",
 				"Description": ""
 			},
 			{
@@ -130,54 +115,19 @@
 				"Description": "Sushi",
 				"blocks": [
 					{
-						"block": "decocraft:nigiri[facing=north]",
-						"random": 5.0
-					},
-					{
-						"block": "decocraft:tempura_shrimp",
-						"random": 5.0
-					},
-					{
-						"random": 5.0,
-						"block": "decocraft:nori_roll"
-					},
-					{
-						"random": 5.0,
-						"block": "decocraft:sushi_mix"
-					},
-					{
-						"random": 5.0,
-						"block": "decocraft:rice_roll"
-					},
-					{
-						"random": 5.0,
+						"random": 35.0,
 						"block": "moa_decor_cookery:sushi"
 					},
 					{
-						"random": 111.0,
+						"random": 151.0,
 						"block": "minecraft:air"
 					}
 				],
 				"Color": "45784aff"
 			},
 			{
-				"char": "e",
-				"block": "decocraft:diner_chair_gray[facing=east]",
-				"Description": ""
-			},
-			{
-				"char": "E",
-				"block": "decocraft:diner_chair_gray[facing=south]",
-				"Description": "Diner Chair - South Facing"
-			},
-			{
 				"char": "0",
-				"block": "decocraft:diner_counter_black[facing=west]",
-				"Description": ""
-			},
-			{
-				"char": "r",
-				"block": "decocraft:restaurant_table_1_black[facing=north]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=west]",
 				"Description": ""
 			},
 			{
@@ -187,12 +137,7 @@
 			},
 			{
 				"char": "^",
-				"block": "decocraft:diner_counter_corner_black[facing=south]",
-				"Description": ""
-			},
-			{
-				"char": "s",
-				"block": "decocraft:diner_chair_gray[facing=west]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=south]",
 				"Description": ""
 			},
 			{
@@ -202,17 +147,12 @@
 			},
 			{
 				"char": "8",
-				"block": "decocraft:diner_counter_corner_black[facing=west]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=west]",
 				"Description": ""
 			},
 			{
 				"char": "O",
-				"block": "decocraft:diner_counter_black[facing=north]",
-				"Description": ""
-			},
-			{
-				"char": "H",
-				"block": "decocraft:restaurant_table_1_black[facing=west]",
+				"block": "everycomp:cfm/auxiliaryblocks/gloomy_kitchen_counter[facing=north]",
 				"Description": ""
 			}
 		]

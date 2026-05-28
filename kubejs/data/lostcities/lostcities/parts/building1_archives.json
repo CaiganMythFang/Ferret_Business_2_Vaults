@@ -42,7 +42,7 @@
 			},
 			{
 				"char": "H",
-				"block": "decocraft:filing_cabinet_ebony[facing=west]",
+				"block": "furnitureexpanded:file_cabinet[facing=west]",
 				"Description": "Filing Cabinet - West Facing",
 				"Color": "3b3b3bff"
 			},
@@ -54,7 +54,7 @@
 			},
 			{
 				"char": "E",
-				"block": "decocraft:filing_cabinet_ebony[facing=east]",
+				"block": "furnitureexpanded:file_cabinet[facing=east]",
 				"Description": "Filing Cabinet - East Facing",
 				"Color": "3b3b3bff"
 			},
@@ -66,7 +66,7 @@
 			},
 			{
 				"char": "k",
-				"block": "decocraft:office_chair_spruce[facing=east]",
+				"block": "mcwfurnitures:spruce_striped_chair[facing=east]",
 				"Description": "Office Chair",
 				"Color": "967654ff"
 			},
@@ -88,23 +88,15 @@
 				"Color": "667e87ff",
 				"blocks": [
 					{
-						"block": "decocraft:book_stack_1[facing=west]",
-						"random": 20
+						"random": 30,
+						"block": "moa_decor_science:libroytintero[facing=west]"
 					},
 					{
-						"block": "decocraft:book_stack_2[facing=west]",
-						"random": 20
+						"random": 30,
+						"block": "moa_decor_science:libros[facing=west]"
 					},
 					{
-						"random": 20,
-						"block": "decocraft:book_stack_3[facing=west]"
-					},
-					{
-						"random": 20,
-						"block": "decocraft:book_stack_4[facing=west]"
-					},
-					{
-						"random": 20,
+						"random": 30,
 						"block": "magic_vibe_decorations:booksstacksmall"
 					},
 					{
@@ -120,7 +112,7 @@
 			},
 			{
 				"char": "m",
-				"block": "decocraft:modular_desk_right_spruce[facing=west]",
+				"block": "cfm:spruce_desk_cabinet[facing=west]",
 				"Description": "Desk Right Side",
 				"Color": "7e6243ff"
 			},
@@ -144,7 +136,7 @@
 			},
 			{
 				"char": "n",
-				"block": "decocraft:modular_desk_left_spruce[facing=west]",
+				"block": "cfm:spruce_desk[facing=west]",
 				"Description": "Desk Left Side",
 				"Color": "7e6243ff"
 			},
