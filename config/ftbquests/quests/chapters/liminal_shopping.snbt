@@ -70,37 +70,6 @@
 			}]
 		}
 		{
-			title: "Crafty Deco"
-			x: -2.0d
-			y: 0.75d
-			shape: "rsquare"
-			subtitle: "MOD : Decocraft (@decocraft)"
-			description: [
-				"&7Decocraft is, or was, one of the most expansive deocration mods that the FOP 'copied' into their Game Server."
-				""
-				"&7It covered everything from house furniture to shop fixtures to even big display pieces."
-			]
-			dependencies: ["3EB5B79FC05245E2"]
-			id: "7D1367BDA36C4915"
-			tasks: [{
-				id: "76B543ECE2B049F0"
-				type: "item"
-				title: "Collect Any Decocraft Item"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "tfb2:decocraft"
-					}
-				}
-			}]
-			rewards: [{
-				id: "30F93523A6776EA3"
-				type: "item"
-				item: "tfb2:liminal_coin"
-			}]
-		}
-		{
 			title: "Gamer Mode"
 			x: -0.75d
 			y: -2.5d
