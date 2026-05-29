@@ -1,0 +1,147 @@
+{
+  "pools": [
+    {
+      "name": "furnitureexpanded_cheap",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "furnitureexpanded:basket",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:bathroom_sink",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:cardbox",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:clock_sign",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:file_cabinet",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:mirror",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:paper_holder",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:saw",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:sawdust",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:shower_box",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:tape",
+          "weight": 200
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:toilet",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:towel_bar",
+          "weight": 200,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "furnitureexpanded:trash_can",
+          "weight": 200
+        }
+      ]
+    }
+  ]
+}
