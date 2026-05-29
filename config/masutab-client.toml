@@ -1,0 +1,24 @@
+
+[display]
+	#Opacity of the compact strip background (0.0 = transparent, 1.0 = opaque)
+	#Range: 0.0 ~ 1.0
+	stripOpacity = 0.6
+	#Enable smooth scrolling animation in the panel
+	smoothScrolling = true
+	#Whether server groups start collapsed in the panel
+	defaultCollapsed = false
+
+[buttons]
+	#Show the MSG button on player rows
+	showMsgButton = true
+	#Show the TPA button on same-server player rows
+	showTpaButton = true
+	#Show the PARTY button on same-server player rows
+	showPartyButton = true
+	#Show the TRADE button on same-server player rows
+	showTradeButton = true
+	#Show the LIVE button on streaming player rows
+	showLiveButton = true
+	#Show the TRAVEL button on server group headers
+	showTravelButton = true
+
