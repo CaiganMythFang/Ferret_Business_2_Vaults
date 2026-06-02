@@ -1886,10 +1886,10 @@
         },
         {
             "itemRestrictions": {
-                "lightmanscurrency:wallet_gold": {
+                "lightmanscurrency:wallet_gold" : {
                     "restricts": {
                         "HITTABILITY": false,
-                        "USABILITY": true,
+                        "USABILITY": false,
                         "CRAFTABILITY": true
                     }
                 },
@@ -1989,7 +1989,7 @@
             "blockRestrictions": {},
             "entityRestrictions": {},
             "name": "Big Backpacks",
-            "cost": 2,
+            "cost": 3,
             "usesKnowledge": true
         },
         {
