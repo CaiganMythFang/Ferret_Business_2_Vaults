@@ -3507,6 +3507,25 @@
 				table_id: 5632731352558517809L
 			}]
 		}
+		{
+			title: "Never Tell Me the Odds"
+			icon: "tfb2:blindboxblindbox"
+			x: -7.75d
+			y: -0.75d
+			shape: "gear"
+			dependencies: ["69C663CDD23190A9"]
+			size: 0.75d
+			id: "4846A7DEA2396E44"
+			tasks: [{
+				id: "2839AED2AE49623D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7A58055E36D8D74A"
+				type: "item"
+				item: "tfb2:blindboxblindbox"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
