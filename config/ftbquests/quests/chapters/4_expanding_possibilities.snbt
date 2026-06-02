@@ -156,11 +156,21 @@
 				icon: "the_vault:ascension_forge"
 				value: 65
 			}]
-			rewards: [{
-				id: "23DBA4E6D64B3903"
-				type: "item"
-				item: "the_vault:soul_flame"
-			}]
+			rewards: [
+				{
+					id: "23DBA4E6D64B3903"
+					type: "item"
+					item: "the_vault:soul_flame"
+				}
+				{
+					id: "58663DAF727C241B"
+					type: "gamestage"
+					title: "Gamestage - Late"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "story_late"
+				}
+			]
 		}
 		{
 			title: "Strong Like Box"
