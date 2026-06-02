@@ -53,17 +53,27 @@
 				}
 				consume_items: true
 			}]
-			rewards: [{
-				id: "16397A2DB65F2B3C"
-				type: "item"
-				item: {
-					id: "the_vault:card_deck"
-					Count: 1b
-					tag: {
-						id: "vhapi:hacked_backpack_01"
+			rewards: [
+				{
+					id: "16397A2DB65F2B3C"
+					type: "item"
+					item: {
+						id: "the_vault:card_deck"
+						Count: 1b
+						tag: {
+							id: "vhapi:hacked_backpack_01"
+						}
 					}
 				}
-			}]
+				{
+					id: "3A5C48FED77FCBC2"
+					type: "gamestage"
+					title: "Blind Box Stage - Early"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "story_early"
+				}
+			]
 		}
 		{
 			title: "Research for that too?"
