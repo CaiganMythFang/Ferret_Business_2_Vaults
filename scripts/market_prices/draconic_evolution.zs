@@ -105,7 +105,7 @@ val priceTable as int[IItemStack] = {
     <item:draconicevolution:chaotic_pickaxe> : 865405248,
     <item:draconicevolution:chaotic_shovel> : 865405248,
     <item:draconicevolution:reactor_stabilizer> : 1326287782,
-    <item:draconicevolution:dragon_heart> : 1725479850,
+    <item:draconicevolution:dragon_heart> : 0,
     <item:draconicevolution:creative_capacitor> : 1867722132
 };
 
