@@ -776,6 +776,23 @@
           "icon": "the_vault:gui/modifiers/pandora"
         }
       },
+      "woldsvaults:cardboard_boxes": {
+        "properties": {
+          "output": "the_vault:cardboard_box{LootTable:\"the_vault:cardboard_box\"}",
+          "attemptsPerChunk": 3,
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
+        },
+        "display": {
+          "name": "Moving Day",
+          "color": "#ffae00",
+          "description": "Spawns Cardboard Boxes inside the vault",
+          "icon": "the_vault:gui/modifiers/pandora"
+        }
+      },
       "the_vault:coin_pile": {
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
@@ -1658,12 +1675,12 @@
       },
       "the_vault:goblin_quantity": {
         "properties": {
-          "percentage": 1.0
+          "percentage": 2.0
         },
         "display": {
           "name": "Goblin Hoard",
           "color": "#ffcc73",
-          "description": "+100% Item Quantity",
+          "description": "+200% Item Quantity",
           "descriptionFormatted": "+%d%% Item Quantity",
           "icon": "the_vault:gui/modifiers/item_quant_2"
         }
@@ -1755,12 +1772,12 @@
       },
       "the_vault:hoard": {
         "properties": {
-          "percentage": 0.5
+          "percentage": 1.0
         },
         "display": {
           "name": "Hoard",
           "color": "#ffaf23",
-          "description": "+50% Item Quantity",
+          "description": "+100% Item Quantity",
           "descriptionFormatted": "+%d%% Item Quantity",
           "icon": "the_vault:gui/modifiers/item_quant_4"
         }
@@ -2052,7 +2069,7 @@
           "name": "Critical Mobs",
           "color": "#dc693c",
           "description": "+7.5% Mob Critical Strike Chance",
-          "descriptionFormatted": "+%d%% Mob Critical Strike Chance",
+          "descriptionFormatted": "+7.5 Mob Critical Strike Chance",
           "icon": "the_vault:gui/modifiers/destructive"
         }
       },
@@ -2635,13 +2652,13 @@
         "properties": {
           "damage": 3.0,
           "movementSpeed": 0.1,
-          "maxHealth": 2.0,
+          "maxHealth": 3.0,
           "doHealthReduction": true
         },
         "display": {
           "name": "Frenzy",
           "color": "#FC7C5C",
-          "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 1",
+          "description": "+300% Mob Damage, +10% Mob Speed, Mobs take Double Damage",
           "icon": "the_vault:gui/modifiers/frenzy"
         }
       },
@@ -2649,7 +2666,7 @@
         "properties": {
           "damage": 2.0,
           "movementSpeed": 0.25,
-          "maxHealth": 2.0,
+          "maxHealth": 1.0,
           "doHealthReduction": false
         },
         "display": {
@@ -2669,7 +2686,7 @@
         "display": {
           "name": "Overpower",
           "color": "#e6fffe",
-          "description": "Mobs spawn with 1 heart!",
+          "description": "Mobs take double damage!",
           "icon": "the_vault:gui/modifiers/overpower"
         }
       }
@@ -2677,12 +2694,12 @@
     "the_vault:modifier_type/spawner_mobs": {
       "the_vault:mob_increase": {
         "properties": {
-          "increase": 1.0
+          "increase": 0.5
         },
         "display": {
           "name": "Onslaught",
           "color": "#FC7C5C",
-          "description": "+20% Mob Spawns",
+          "description": "+50% Mob Spawns",
           "descriptionFormatted": "+%d%% increased amount of mob spawns",
           "icon": "the_vault:gui/modifiers/mob_increase"
         }
@@ -2725,12 +2742,12 @@
       },
       "the_vault:unhinged_mob_increase": {
         "properties": {
-          "increase": 3.0
+          "increase": 1.5
         },
         "display": {
           "name": "Super Onslaught",
           "color": "#FC7C5C",
-          "description": "+200% Mob Spawns",
+          "description": "+150% Mob Spawns",
           "descriptionFormatted": "+%d%% increased amount of mob spawns",
           "icon": "the_vault:gui/modifiers/mob_increase"
         }
@@ -4610,6 +4627,18 @@
           "icon": "the_vault:gui/modifiers/experienced"
         }
       },
+      "the_vault:bingo_xp": {
+        "properties": {
+          "addend": 0.1
+        },
+        "display": {
+          "name": "Bingo Experience",
+          "color": "#DB7C00",
+          "description": "+10% Vault XP Gained",
+          "descriptionFormatted": "+%d%% Vault XP Gained",
+          "icon": "the_vault:gui/modifiers/experienced"
+        }
+      },
       "the_vault:noxp": {
         "properties": {
           "addend": -10000.0
@@ -5335,7 +5364,7 @@
       "the_vault:challenge_bingo": {
         "properties": {
           "children": {
-            "the_vault:bingo_challenge": 5,
+            "the_vault:challenge_stack": 4,
             "the_vault:bingo_quantity": 1,
             "the_vault:bingo_rarity": 1,
             "the_vault:champion_chance": 2
@@ -5344,7 +5373,7 @@
         "display": {
           "name": "Challenging Bingo!",
           "color": "#B71C1C",
-          "description": "Every Challenging BINGO adds 10% item rarity and quantity, and adds 5 stacks of Bingo Challenge, and adds 20% more chance for champions.",
+          "description": "Every Challenging BINGO adds 10% item rarity and quantity, and adds 4 Challenge Stacks, and adds 20% more chance for champions.",
           "icon": "the_vault:gui/modifiers/bingo"
         }
       },
@@ -5610,13 +5639,14 @@
           "children": {
             "the_vault:bingo_quantity": 1,
             "the_vault:bingo_rarity": 1,
-            "the_vault:soul_boost": 1
+            "the_vault:soul_boost": 1,
+            "the_vault:bingo_xp": 1
           }
         },
         "display": {
           "name": "Bingo!",
           "color": "#bbf333",
-          "description": "Every BINGO Increases Item Quantity & Rarity by 10%, and boosts soul chance by 25%",
+          "description": "Every BINGO Increases Item Quantity & Rarity by 10%, Experienced Gain by 10%, and boosts soul chance by 25%",
           "icon": "the_vault:gui/modifiers/bingo"
         }
       },
@@ -5772,7 +5802,8 @@
             "the_vault:furious_mobs": 2,
             "the_vault:chunky_mobs2": 1,
             "the_vault:cake_layer_mobspeed": 2,
-            "the_vault:critical_mobs": 1
+            "the_vault:critical_mobs": 1,
+            "the_vault:bingo_xp": 1
           }
         },
         "display": {
@@ -5862,7 +5893,8 @@
           "children": {
             "the_vault:furious_mobs": 8,
             "the_vault:chunky_mobs": 8,
-            "the_vault:cake_layer_mobspeed": 4
+            "the_vault:cake_layer_mobspeed": 4,
+            "the_vault:mob_increase": 1
           }
         },
         "display": {
@@ -8346,6 +8378,20 @@
           "description": "Blindness can't be prevented",
           "descriptionFormatted": "Blindness can't be prevented",
           "icon": "the_vault:gui/modifiers/impossible"
+        }
+      }
+    },
+    "woldsvaults:modifier_type/overpower": {
+      "woldsvaults:cull": {
+        "properties": {
+          "maxHealth": 2.0
+        },
+        "display": {
+          "name": "Cull",
+          "color": "#e6fffe",
+          "description": "Mobs spawn at 1 hp",
+          "descriptionFormatted": "Mobs spawn at 1 hp",
+          "icon": "the_vault:gui/modifiers/overpower"
         }
       }
     }
