@@ -1,0 +1,29 @@
+{
+    "name": "Chalk Grist (Raw Vaults)",
+    "icon": "tfb2:grist_chalk",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 5,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_chalk"
+          },
+          "text": "Chalk is typically found in monster drops like bones, string, and gunpowder."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "tag:minecraft:wool",
+          "item_2": "tag:minecraft:candles",
+          "item_3": "tag:minecraft:beds",
+          "item_4": "thermal:carrot_block",
+          "item_5": "quark:gunpowder_sack",
+          "item_6": "tag:minecraft:banners",
+          "item_7": "minecraft:bone",
+          "item_8": "minecraft:string",
+          "item_9": "thermal:niter",
+          "item_10": "tag:forge:raw_materials/aluminum"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Uranium Grist (Normal Vaults)",
+    "icon": "tfb2:grist_uranium",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 18,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_uranium"
+          },
+          "text": "Uranium is most commonly found certain mob drops, Bottles o' Enchanting, and of course... uranium itself."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:shulker_shell",
+          "item_2": "supplementaries:brass_lantern"
+        }
+    ]
+}

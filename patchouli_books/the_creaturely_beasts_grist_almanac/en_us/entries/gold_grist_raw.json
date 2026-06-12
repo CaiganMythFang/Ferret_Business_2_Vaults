@@ -1,0 +1,25 @@
+{
+    "name": "Gold Grist (Raw Vaults)",
+    "icon": "tfb2:grist_gold",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 9,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_gold"
+          },
+          "text": "Gold is typically found in gold items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "tag:minecraft:candles",
+          "item_2": "minecraft:gilded_blackstone",
+          "item_3": "supplementaries:candle_holder",
+          "item_4": "minecraft:light_weighted_pressure_plate",
+          "item_5": "minecraft:netherite_ingot",
+          "item_6": "minecraft:raw_gold"
+        }
+    ]
+}

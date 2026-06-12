@@ -1,0 +1,29 @@
+{
+    "name": "Amber Grist (Normal Vaults)",
+    "icon": "tfb2:grist_amber",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 1,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_amber"
+          },
+          "text": "Amber Grist is typically found in fruits, vegetables, and some animal products."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:charcoal",
+          "item_2": "minecraft:candle",
+          "item_3": "minecraft:cactus",
+          "item_4": "minecraft:pointed_dripstone",
+          "item_5": "minecraft:white_bed",
+          "item_6": "supplementaries:candle_holder",
+          "item_8": "thermal:carrot_block",
+          "item_9": "thermal:apple_block",
+          "item_10": "thermal:potato_block",
+          "item_11": "minecraft:shulker_shell"
+        }
+    ]
+}

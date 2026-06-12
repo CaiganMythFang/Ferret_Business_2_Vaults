@@ -1,0 +1,24 @@
+{
+    "name": "The World Grist (Normal Vaults)",
+    "icon": "tfb2:grist_the_world",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 29,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_the_world"
+          },
+          "text": "The World is a Vault only grist that is typically found in Driftwood, Magic Silk, Vault Essence, and Eternal Souls."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "the_vault:driftwood",
+          "item_2": "the_vault:magic_silk",
+          "item_3": "the_vault:vault_essence",
+          "item_4": "the_vault:eternal_soul",
+          "item_5": "the_vault:jewel"
+        }
+    ]
+}

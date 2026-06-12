@@ -1,0 +1,20 @@
+{
+    "name": "Quartz Grist (Normal Vaults)",
+    "icon": "tfb2:grist_quartz",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 13,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_quartz"
+          },
+          "text": "Quartz is most commonly found as Nether Quartz and related items, as well as other crystaline items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:quartz_block"
+        }
+    ]
+}

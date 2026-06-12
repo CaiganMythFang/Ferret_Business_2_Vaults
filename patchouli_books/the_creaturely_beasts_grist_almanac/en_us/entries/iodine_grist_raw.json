@@ -1,0 +1,33 @@
+{
+    "name": "Iodine Grist (Raw Vaults)",
+    "icon": "tfb2:grist_iodine",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 10,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_iodine"
+          },
+          "text": "Iodine is typically found in creature drops like meat and leather, monster drops like body parts, mushrooms, and more."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:book",
+          "item_2": "supplementaries:rope",
+          "item_3": "supplementaries:sack",
+          "item_4": "minecraft:spore_blossom",
+          "item_5": "minecraft:beef",
+          "item_6": "minecraft:chicken",
+          "item_7": "minecraft:porkchop",
+          "item_8": "minecraft:leather",
+          "item_9": "minecraft:rotten_flesh",
+          "item_10": "minecraft:spider_eye",
+          "item_11": "minecraft:pink_tulip",
+          "item_12": "minecraft:brown_mushroom",
+          "item_13": "minecraft:red_mushroom_block",
+          "item_14": "minecraft:bread"
+        }
+    ]
+}

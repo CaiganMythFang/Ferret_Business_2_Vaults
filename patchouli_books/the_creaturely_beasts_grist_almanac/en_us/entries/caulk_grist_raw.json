@@ -1,0 +1,24 @@
+{
+    "name": "Caulk Grist (Raw Vaults)",
+    "icon": "tfb2:grist_caulk",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 4,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_caulk"
+          },
+          "text": "Caulk is typically found in some plants, creatures, and metals."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:soul_sand",
+          "item_2": "minecraft:magma_block",
+          "item_3": "minecraft:melon_slice",
+          "item_4": "minecraft:spore_blossom",
+          "item_5": "tag:forge:raw_materials/tin"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Scrappy Grist (Raw Vaults)",
+    "icon": "tfb2:grist_scrappy",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 28,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_scrappy"
+          },
+          "text": "Scrappy is a Normal Vault only grist that is typically found in Vault Plating, Silver Scrap, Focuses, and Vault Gear."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults"
+        }
+    ]
+}

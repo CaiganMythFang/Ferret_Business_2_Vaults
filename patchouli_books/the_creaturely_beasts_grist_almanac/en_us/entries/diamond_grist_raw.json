@@ -1,0 +1,25 @@
+{
+    "name": "Diamond Grist (Raw Vaults)",
+    "icon": "tfb2:grist_diamond",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 7,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_diamond"
+          },
+          "text": "Diamond is typically found in, of course, diamonds, and other valuable gems."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:enchanting_table",
+          "item_2": "minecraft:diamond",
+          "item_3": "minecraft:emerald",
+          "item_4": "minecraft:ender_pearl",
+          "item_5": "minecraft:nether_star",
+          "item_6": "minecraft:prismarine_crystals"
+        }
+    ]
+}

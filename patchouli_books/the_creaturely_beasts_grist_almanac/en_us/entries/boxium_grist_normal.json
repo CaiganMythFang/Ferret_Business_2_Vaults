@@ -1,0 +1,22 @@
+{
+    "name": "Boxium Grist (Normal Vaults)",
+    "icon": "tfb2:grist_boxium",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 20,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_boxium"
+          },
+          "text": "Boxium is a Vault only grist that is typically found in Chest Scrolls, Loot Boxes, and Bounty Pearls."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "the_vault:wooden_chest_scroll",
+          "item_2": "the_vault:mod_box",
+          "item_2": "the_vault:bounty_pearl"
+        }
+    ]
+}

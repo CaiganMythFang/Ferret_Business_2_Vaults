@@ -1,0 +1,28 @@
+{
+    "name": "Mercury Grist (Raw Vaults)",
+    "icon": "tfb2:grist_mercury",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 12,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_mercury"
+          },
+          "text": "Mercury is most commonly found in Zinc, Osmium, and Silver item, as well as some natural items like Dripleafs and Shroomlights."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "supplementaries:brass_lantern",
+          "item_2": "supplementaries:blackstone_lamp",
+          "item_3": "minecraft:big_dripleaf",
+          "item_4": "minecraft:ender_pearl",
+          "item_5": "minecraft:sculk_sensor",
+          "item_6": "tag:forge:raw_materials/silver",
+          "item_7": "tag:forge:raw_materials/zinc",
+          "item_8": "tag:forge:raw_materials/osmium",
+          "item_9": "rftoolsbase:dimensionalshard"
+        }
+    ]
+}

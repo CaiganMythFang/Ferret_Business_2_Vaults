@@ -1,0 +1,23 @@
+{
+    "name": "Vitamin V Grist (Normal Vaults)",
+    "icon": "tfb2:grist_vitaminv",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 30,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_vitaminv"
+          },
+          "text": "Vitamin V is a Normal Vault only grist that is typically found in Vault Burgers, Vault Fruit, Vault Meat, and Knowledge Essence."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "tag:the_vault:burger_parts",
+          "item_2": "tag:the_vault:fruits",
+          "item_3": "the_vault:vault_meat",
+          "item_4": "the_vault:knowledge_star_essence"
+        }
+    ]
+}

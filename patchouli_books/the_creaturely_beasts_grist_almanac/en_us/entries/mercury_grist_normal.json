@@ -1,0 +1,21 @@
+{
+    "name": "Mercury Grist (Normal Vaults)",
+    "icon": "tfb2:grist_mercury",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 12,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_mercury"
+          },
+          "text": "Mercury is most commonly found in Zinc, Osmium, and Silver item, as well as some natural items like Dripleafs and Shroomlights."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "supplementaries:brass_lantern",
+          "item_2": "supplementaries:blackstone_lamp"
+        }
+    ]
+}

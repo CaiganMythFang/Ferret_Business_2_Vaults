@@ -1,0 +1,20 @@
+{
+    "name": "Diamond Grist (Normal Vaults)",
+    "icon": "tfb2:grist_diamond",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 7,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_diamond"
+          },
+          "text": "Diamond is typically found in, of course, diamonds, and other valuable gems."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:enchanting_table"
+        }
+    ]
+}

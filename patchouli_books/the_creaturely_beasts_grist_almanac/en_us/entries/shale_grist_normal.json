@@ -1,0 +1,24 @@
+{
+    "name": "Shale Grist (Normal Vaults)",
+    "icon": "tfb2:grist_shale",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 15,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_shale"
+          },
+          "text": "Shale is most commonly found in Clay and Copper items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:shulker_shell",
+          "item_2": "supplementaries:brass_lantern",
+          "item_3": "minecraft:lightning_rod",
+          "item_4": "ecologics:pot",
+          "item_5": "tag:minecraft:terracotta"
+        }
+    ]
+}

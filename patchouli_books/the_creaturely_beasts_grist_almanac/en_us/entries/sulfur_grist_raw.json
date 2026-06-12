@@ -1,0 +1,26 @@
+{
+    "name": "Sulfur Grist (Raw Vaults)",
+    "icon": "tfb2:grist_sulfur",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 16,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_sulfur"
+          },
+          "text": "Sulfur is most commonly found in Gunpowder and similar items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:soul_soil",
+          "item_2": "quark:gunpowder_sack",
+          "item_3": "minecraft:gunpowder",
+          "item_4": "minecraft:glow_berries",
+          "item_5": "minecraft:netherite_ingot",
+          "item_6": "tag:forge:raw_materials/nickel",
+          "item_7": "tag:forge:gems/sulfur"
+        }
+    ]
+}

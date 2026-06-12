@@ -1,0 +1,32 @@
+{
+    "name": "Cobalt Grist (Raw Vaults)",
+    "icon": "tfb2:grist_cobalt",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 6,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_cobalt"
+          },
+          "text": "Cobalt is typically found in water, ice, and various crystaline items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:enchanting_table",
+          "item_2": "minecraft:snow",
+          "item_3": "minecraft:sea_pickle",
+          "item_4": "minecraft:tube_coral_block",
+          "item_5": "thermal:apatite",
+          "item_6": "tag:forge:raw_materials/lead",
+          "item_7": "tag:forge:raw_materials/osmium",
+          "item_8": "ae2:certus_quartz_crystal",
+          "item_9": "ae2:certus_quartz_dust",
+          "item_10": "mekanism:fluorite_gem",
+          "item_11": "minecraft:prismarine",
+          "item_12": "minecraft:prismarine_crystals",
+          "item_13": "minecraft:turtle_egg"
+        }
+    ]
+}

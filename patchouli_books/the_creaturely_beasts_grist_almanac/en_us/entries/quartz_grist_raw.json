@@ -1,0 +1,24 @@
+{
+    "name": "Quartz Grist (Raw Vaults)",
+    "icon": "tfb2:grist_quartz",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 13,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_quartz"
+          },
+          "text": "Quartz is most commonly found as Nether Quartz and related items, as well as other crystaline items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:quartz_block",
+          "item_2": "minecraft:quartz",
+          "item_3": "ae2:certus_quartz_crystal",
+          "item_4": "ae2:certus_quartz_dust",
+          "item_5": "rftoolsbase:dimensionalshard"
+        }
+    ]
+}

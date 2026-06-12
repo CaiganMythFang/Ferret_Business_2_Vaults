@@ -1,0 +1,19 @@
+{
+    "name": "Rainbownium Grist (Raw Vaults)",
+    "icon": "tfb2:grist_rainbownium",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 27,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_rainbownium"
+          },
+          "text": "Rainbownium is a Normal Vault only grist that is typically found in certain gem-like items like Bounty Pearls and Smashed Vault Gems."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults"
+        }
+    ]
+}

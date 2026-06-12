@@ -1,0 +1,21 @@
+{
+    "name": "Ruby Grist (Normal Vaults)",
+    "icon": "tfb2:grist_ruby",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 14,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_ruby"
+          },
+          "text": "Ruby is most commonly found in Red Mushroom related items, as well as in Emeralds."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:red_mushroom",
+          "item_2": "botania:red_mushroom"
+        }
+    ]
+}

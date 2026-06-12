@@ -1,0 +1,25 @@
+{
+    "name": "Chalk Grist (Normal Vaults)",
+    "icon": "tfb2:grist_chalk",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 5,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_chalk"
+          },
+          "text": "Chalk is typically found in monster drops like bones, string, and gunpowder."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "tag:minecraft:wool",
+          "item_2": "tag:minecraft:candles",
+          "item_3": "tag:minecraft:beds",
+          "item_4": "thermal:carrot_block",
+          "item_5": "quark:gunpowder_sack",
+          "item_6": "tag:minecraft:banners"
+        }
+    ]
+}

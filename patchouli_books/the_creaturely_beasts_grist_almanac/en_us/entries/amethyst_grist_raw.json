@@ -1,0 +1,25 @@
+{
+    "name": "Amethyst Grist (Raw Vaults)",
+    "icon": "tfb2:grist_amethyst",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 2,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_amethyst"
+          },
+          "text": "Amethyst Grist is typically found in amethyst and other crystal items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:amethyst_block",
+          "item_2": "minecraft:shulker_shell",
+          "item_3": "auxiliaryblocks:yellow_crystal,auxiliaryblocks:white_crystal,auxiliaryblocks:violet_crystal,auxiliaryblocks:red_crystal",
+          "item_4": "minecraft:lapis_lazuli",
+          "item_5": "minecraft:tube_coral_block",
+          "item_6": "minecraft:prismarine_crystals"
+        }
+    ]
+}

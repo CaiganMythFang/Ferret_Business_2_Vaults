@@ -1,0 +1,19 @@
+{
+    "name": "Zillium Grist (Raw Vaults)",
+    "icon": "tfb2:grist_zillium",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 19,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_zillium"
+          },
+          "text": "Zillium is a special type of grist not usually found in Vaults at all."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Tar Grist (Normal Vaults)",
+    "icon": "tfb2:grist_tar",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 17,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_tar"
+          },
+          "text": "Tar is most commonly found in Charcoal, Coal, and other burning items, as well as black dyed items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "decorative_blocks:brazier",
+          "item_2": "minecraft:brewing_stand",
+          "item_3": "minecraft:grindstone",
+          "item_4": "supplementaries:brass_lantern",
+          "item_5": "minecraft:enchanting_table"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Ego Grist (Normal Vaults)",
+    "icon": "tfb2:grist_ego",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 24,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_ego"
+          },
+          "text": "Ego is a Normal Vault only grist that is typically found in many Vault Gems including Bird Gems, Black Opal, as well as in various Focus and Knowledge Essence."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "tag:woldsvaults:player_gems",
+          "item_2": "the_vault:gem_black_opal",
+          "item_3": "tag:the_vault:focuses",
+          "item_4": "the_vault:knowledge_star_essence",
+          "item_5": "tag:the_vault:vault_gear"
+        }
+    ]
+}

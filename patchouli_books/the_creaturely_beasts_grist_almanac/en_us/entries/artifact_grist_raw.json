@@ -1,0 +1,20 @@
+{
+    "name": "Artifact Grist (Raw Vaults)",
+    "icon": "tfb2:grist_artifact",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 3,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_artifact"
+          },
+          "text": "Artifact is a rare grist, typically found in player heads."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:player_head"
+        }
+    ]
+}

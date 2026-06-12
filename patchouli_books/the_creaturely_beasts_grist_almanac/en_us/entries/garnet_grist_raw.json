@@ -1,0 +1,23 @@
+{
+    "name": "Garnet Grist (Raw Vaults)",
+    "icon": "tfb2:grist_garnet",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 8,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_garnet"
+          },
+          "text": "Garnet is typically found in certain red things like Redstone and Roses."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:redstone",
+          "item_2": "minecraft:pink_tulip",
+          "item_3": "viescraftmachines:xegonite_shard",
+          "item_4": "minecraft:rose_bush"
+        }
+    ]
+}

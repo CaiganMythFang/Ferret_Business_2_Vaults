@@ -1,0 +1,25 @@
+{
+    "name": "Marble Grist (Raw Vaults)",
+    "icon": "tfb2:grist_marble",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 11,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_marble"
+          },
+          "text": "Marble is most commonly found as Moss in Vaults, as well as in Vault Essence."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:moss_block",
+          "item_2": "rftoolsbase:dimensionalshard",
+          "item_3": "mekanism:fluorite_gem",
+          "item_4": "thermal:cinnabar",
+          "item_5": "thermal:niter",
+          "item_6": "create:white_sail"
+        }
+    ]
+}

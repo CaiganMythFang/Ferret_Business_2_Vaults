@@ -1,0 +1,21 @@
+{
+    "name": "Sulfur Grist (Normal Vaults)",
+    "icon": "tfb2:grist_sulfur",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 16,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_sulfur"
+          },
+          "text": "Sulfur is most commonly found in Gunpowder and similar items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:soul_soil",
+          "item_2": "quark:gunpowder_sack"
+        }
+    ]
+}

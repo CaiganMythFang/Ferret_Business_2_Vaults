@@ -1,0 +1,24 @@
+{
+    "name": "Morkite Grist (Normal Vaults)",
+    "icon": "tfb2:grist_morkite",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 26,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_morkite"
+          },
+          "text": "Morkite is a Vault only grist that is typically found in common Vault Gems and Vault Gear."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "the_vault:gem_larimar",
+          "item_2": "the_vault:gem_benitoite",
+          "item_3": "the_vault:gem_wutodie",
+          "item_4": "woldsvaults:smashed_vault_gem",
+          "item_3": "tag:the_vault:vault_gear"
+        }
+    ]
+}

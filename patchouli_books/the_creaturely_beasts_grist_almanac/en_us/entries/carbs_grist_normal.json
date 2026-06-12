@@ -1,0 +1,24 @@
+{
+    "name": "Carbs Grist (Normal Vaults)",
+    "icon": "tfb2:grist_carbs",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 21,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_carbs"
+          },
+          "text": "Carbs is a Vault only grist that is typically found Carbon, Driftwood, and Vault Diamonds."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "the_vault:carbon_nugget",
+          "item_2": "the_vault:carbon",
+          "item_3": "the_vault:driftwood",
+          "item_4": "the_vault:vault_diamond",
+          "item_5": "tag:the_vault:vault_gear"
+        }
+    ]
+}

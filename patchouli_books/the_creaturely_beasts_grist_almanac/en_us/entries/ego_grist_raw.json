@@ -1,0 +1,19 @@
+{
+    "name": "Ego Grist (Raw Vaults)",
+    "icon": "tfb2:grist_ego",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 24,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_ego"
+          },
+          "text": "Ego is a Normal Vault only grist that is typically found in Mystery Eggs, Seals, and Artifacts."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults"
+        }
+    ]
+}

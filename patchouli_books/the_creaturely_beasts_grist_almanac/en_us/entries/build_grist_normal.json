@@ -1,0 +1,23 @@
+{
+    "name": "Build Grist (Normal Vaults)",
+    "icon": "tfb2:grist_build",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 0,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_build"
+          },
+          "text": "Build Grist is the most common type of Grist."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:cobblestone",
+          "item_2": "minecraft:dirt",
+          "item_3": "minecraft:sand",
+          "item_4": "minecraft:gravel"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Amethyst Grist (Normal Vaults)",
+    "icon": "tfb2:grist_amethyst",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 2,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_amethyst"
+          },
+          "text": "Amethyst Grist is typically found in amethyst and other crystal items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:amethyst_block",
+          "item_2": "minecraft:shulker_shell",
+          "item_3": "auxiliaryblocks:yellow_crystal,auxiliaryblocks:white_crystal,auxiliaryblocks:violet_crystal,auxiliaryblocks:red_crystal"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Fopium Grist (Normal Vaults)",
+    "icon": "tfb2:grist_fopium",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 25,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_fopium"
+          },
+          "text": "Fopium is a Normal Vault only grist that is typically found in Vault Coins and Vault Gear."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "the_vault:vault_bronze,the_vault:vault_silver,the_vault:vault_gold,the_vault:vault_platinum,the_vault:vault_palladium,the_vault:vault_iridium",
+          "item_2": "the_vault:jewel",
+          "item_3": "tag:the_vault:vault_gear"
+        }
+    ]
+}

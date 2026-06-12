@@ -1,0 +1,27 @@
+{
+    "name": "Rust Grist (Normal Vaults)",
+    "icon": "tfb2:grist_rust",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 14,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_rust"
+          },
+          "text": "Rust is most commonly found in Iron and other metal items."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:iron_bars",
+          "item_2": "decorative_blocks:bar_panel",
+          "item_3": "architects_palette:plating_block",
+          "item_4": "architects_palette:pipe",
+          "item_5": "minecraft:cauldron",
+          "item_6": "decorative_blocks:brazier",
+          "item_7": "minecraft:lantern",
+          "item_8": "supplementaries:goblet"
+        }
+    ]
+}

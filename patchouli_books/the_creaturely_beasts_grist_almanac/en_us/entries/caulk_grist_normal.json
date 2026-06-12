@@ -1,0 +1,20 @@
+{
+    "name": "Caulk Grist (Normal Vaults)",
+    "icon": "tfb2:grist_caulk",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 4,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_caulk"
+          },
+          "text": "Caulk is typically found in some plants, creatures, and metals."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "minecraft:soul_sand"
+        }
+    ]
+}

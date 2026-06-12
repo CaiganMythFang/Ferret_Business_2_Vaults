@@ -1,0 +1,28 @@
+{
+    "name": "Uranium Grist (Raw Vaults)",
+    "icon": "tfb2:grist_uranium",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 18,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_uranium"
+          },
+          "text": "Uranium is most commonly found certain mob drops, Bottles o' Enchanting, and of course... uranium itself."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "minecraft:shulker_shell",
+          "item_2": "supplementaries:brass_lantern",
+          "item_3": "minecraft:experience_bottle",
+          "item_4": "minecraft:blaze_rod",
+          "item_5": "minecraft:ender_pearl",
+          "item_6": "minecraft:sculk_sensor",
+          "item_7": "tag:forge:raw_materials/uraninite",
+          "item_8": "tag:forge:raw_materials/uranium",
+          "item_9": "minecraft:nether_star"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Chroma Grist (Raw Vaults)",
+    "icon": "tfb2:grist_chroma",
+    "category": "patchouli:raw_vaults",
+    "sortnum": 22,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_chroma"
+          },
+          "text": "Chroma is typically found in Chromatic Iron."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Raw Vaults",
+          "item_1": "the_vault:raw_chromatic_iron"
+        }
+    ]
+}

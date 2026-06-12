@@ -1,0 +1,22 @@
+{
+    "name": "Deserialized Grist (Normal Vaults)",
+    "icon": "tfb2:grist_deserialized",
+    "category": "patchouli:normal_vaults",
+    "sortnum": 23,
+    "pages": [
+        {
+          "type": "patchouli:spotlight",
+          "item": {
+            "item": "tfb2:grist_deserialized"
+          },
+          "text": "Deserialized is a Vault only grist that is typically found in Mystery Eggs, Seals, and Artifacts."
+        },
+        {
+          "type": "patchouli:item_list",
+          "location_text": "$(n)$(l)Normal Vaults",
+          "item_1": "the_vault:mystery_egg",
+          "item_2": "tag:the_vault:seals",
+          "item_3": "the_vault:unidentified_artifact"
+        }
+    ]
+}
