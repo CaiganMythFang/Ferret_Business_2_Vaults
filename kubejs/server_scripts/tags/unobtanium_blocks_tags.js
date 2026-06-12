@@ -1,0 +1,27 @@
+
+let unobtanium_blocks = [
+    'architects_palette:unobtanium_block',
+    'woldsvaults:white_unobtanium_block',
+    'woldsvaults:orange_unobtanium_block',
+    'woldsvaults:magenta_unobtanium_block',
+    'woldsvaults:light_blue_unobtanium_block',
+    'woldsvaults:yellow_unobtanium_block',
+    'woldsvaults:lime_unobtanium_block',
+    'woldsvaults:pink_unobtanium_block',
+    'woldsvaults:gray_unobtanium_block',
+    'woldsvaults:light_gray_unobtanium_block',
+    'woldsvaults:cyan_unobtanium_block',
+    'woldsvaults:purple_unobtanium_block',
+    'woldsvaults:blue_unobtanium_block',
+    'woldsvaults:brown_unobtanium_block',
+    'woldsvaults:green_unobtanium_block',
+    'woldsvaults:red_unobtanium_block',
+    'woldsvaults:black_unobtanium_block',
+    'woldsvaults:rainbow_unobtanium_block'
+]
+
+onEvent("item.tags", event => {
+    unobtanium_blocks.forEach(id => {
+        event.add('tfb2:unobtanium_blocks', `${id}`)
+    })
+})
