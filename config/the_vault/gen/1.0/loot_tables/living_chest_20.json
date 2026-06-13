@@ -150,6 +150,17 @@
         { "weight": 8,
           "pool": [
             {
+              "weight": 20,
+              "item": {
+                "id": "tfb2:grist_candy_bag",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
               "weight": 60,
               "item": {
                 "id": "the_vault:living_rock",
