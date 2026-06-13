@@ -650,11 +650,24 @@
 				type: "item"
 				item: "minestuck:grist_widget"
 			}]
-			rewards: [{
-				id: "4540056C6470E594"
-				type: "choice"
-				table_id: 2640422954496342337L
-			}]
+			rewards: [
+				{
+					id: "4540056C6470E594"
+					type: "choice"
+					table_id: 2640422954496342337L
+				}
+				{
+					id: "4A96600279764D49"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:the_creaturely_beasts_grist_almanac"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Nuclear Cooking"
