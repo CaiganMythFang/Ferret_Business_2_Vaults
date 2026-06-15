@@ -16,9 +16,8 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:podzol": 35,
-                "regions_unexplored:alpha_leaves": 35,
-                "auxiliaryblocks:mossy_dirt": 30
+                "minecraft:podzol": 45,
+                "auxiliaryblocks:mossy_dirt": 40
             }
         },
         {
@@ -35,7 +34,6 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "regions_unexplored:alpha_grass_block": 65,
                 "minecraft:moss_block": 5
             }
         },
@@ -124,7 +122,7 @@
             "type": "weighted_target",
             "target": "minecraft:shroomlight",
             "output": {
-                "regions_unexplored:alpha_leaves": 1
+                "minecraft:air": 1
             }
         },
         {
