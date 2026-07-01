@@ -10,18 +10,20 @@ onEvent('recipes', event => {
         .input('5x the_vault:gem_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
+        .altar(`1x minecraft:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
         .input('5x the_vault:chromatic_steel_ingot')
-        .input(`2x minecraft:${egg}_spawn_egg`)
+        .input(`1x minecraft:${egg}_spawn_egg`)
         .input('2x the_vault:gem_pog')
         .input('2x the_vault:perfect_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .altar(`1x minecraft:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t3`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
         .input('1x the_vault:echoing_ingot')
-        .input(`2x minecraft:${egg}_spawn_egg`)
+        .input(`1x minecraft:${egg}_spawn_egg`)
         .input('2x the_vault:extraordinary_painite')
       })
       
@@ -35,18 +37,20 @@ onEvent('recipes', event => {
         .input('5x the_vault:gem_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
+        .altar(`1x cloudstorage:spawn_egg_${egg}`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
         .input('5x the_vault:chromatic_steel_ingot')
-        .input(`2x cloudstorage:spawn_egg_${egg}`)
+        .input(`1x cloudstorage:spawn_egg_${egg}`)
         .input('2x the_vault:gem_pog')
         .input('2x the_vault:perfect_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .altar(`1x cloudstorage:spawn_egg_${egg}`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t3`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
         .input('1x the_vault:echoing_ingot')
-        .input(`2x cloudstorage:spawn_egg_${egg}`)
+        .input(`1x cloudstorage:spawn_egg_${egg}`)
         .input('2x the_vault:extraordinary_painite')
       })
       
@@ -60,18 +64,20 @@ onEvent('recipes', event => {
         .input('5x the_vault:gem_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
+        .altar(`1x thermal:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
         .input('5x the_vault:chromatic_steel_ingot')
-        .input(`2x thermal:${egg}_spawn_egg`)
+        .input(`1x thermal:${egg}_spawn_egg`)
         .input('2x the_vault:gem_pog')
         .input('2x the_vault:perfect_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .altar(`1x thermal:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t3`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
         .input('1x the_vault:echoing_ingot')
-        .input(`2x thermal:${egg}_spawn_egg`)
+        .input(`1x thermal:${egg}_spawn_egg`)
         .input('2x the_vault:extraordinary_painite')
       })
       
@@ -85,18 +91,20 @@ onEvent('recipes', event => {
         .input('5x the_vault:gem_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
+        .altar(`1x cagerium:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
         .input('5x the_vault:chromatic_steel_ingot')
-        .input(`2x cagerium:${egg}_spawn_egg`)
+        .input(`1x cagerium:${egg}_spawn_egg`)
         .input('2x the_vault:gem_pog')
         .input('2x the_vault:perfect_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .altar(`1x cagerium:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t3`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
         .input('1x the_vault:echoing_ingot')
-        .input(`2x cagerium:${egg}_spawn_egg`)
+        .input(`1x cagerium:${egg}_spawn_egg`)
         .input('2x the_vault:extraordinary_painite')
       })
       
@@ -110,18 +118,20 @@ onEvent('recipes', event => {
         .input('5x the_vault:gem_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
+        .altar(`1x quark:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t1`}))
         .input('5x the_vault:chromatic_steel_ingot')
-        .input(`2x quark:${egg}_spawn_egg`)
+        .input(`1x quark:${egg}_spawn_egg`)
         .input('2x the_vault:gem_pog')
         .input('2x the_vault:perfect_painite')
         
      event.recipes.summoningrituals
-        .altar(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
+        .altar(`1x quark:${egg}_spawn_egg`)
         .itemOutput(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t3`}))
+        .input(Item.of('gateways:gate_pearl', 1, {gateway: `gateways:${egg}_gate_t2`}))
         .input('1x the_vault:echoing_ingot')
-        .input(`2x quark:${egg}_spawn_egg`)
+        .input(`1x quark:${egg}_spawn_egg`)
         .input('2x the_vault:extraordinary_painite')
       })
         // more code
