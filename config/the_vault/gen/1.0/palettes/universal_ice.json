@@ -57,7 +57,8 @@
           "type": "weighted_target",
           "target": "minecraft:grass_block",
           "output": {
-            "minecraft:snow_block": 1
+            "minecraft:snow_block": 100,
+            "tfb2:glitched_snow_block": 1
           }
         },
         {
@@ -65,7 +66,8 @@
           "type": "weighted_target",
           "target": "minecraft:grass_block",
           "output": {
-            "minecraft:snow_block": 39
+            "minecraft:snow_block": 100,
+            "tfb2:glitched_snow_block": 1
           }
         }
       ]

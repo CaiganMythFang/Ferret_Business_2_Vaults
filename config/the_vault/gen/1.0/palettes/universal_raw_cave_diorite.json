@@ -48,8 +48,9 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:coarse_dirt": 4,
-                "auxiliaryblocks:rocky_dirt": 1
+                "minecraft:coarse_dirt": 400,
+                "auxiliaryblocks:rocky_dirt": 100,
+                "tfb2:glitched_dirt": 5
             }
         },
         {

@@ -46,10 +46,11 @@
       "type": "weighted_target",
       "target": "minecraft:grass_block",
       "output": {
-        "minecraft:stone": 2,
-        "minecraft:andesite": 2,
-        "create:cut_tuff": 1,
-        "minecraft:tuff": 1
+        "minecraft:stone": 200,
+        "minecraft:andesite": 200,
+        "create:cut_tuff": 100,
+        "minecraft:tuff": 100,
+        "tfb2:glitched_vault_cobble": 6
       }
     },
     {
