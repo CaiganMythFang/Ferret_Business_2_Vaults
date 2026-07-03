@@ -8,8 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_basalt": 1,
-                "minecraft:deepslate": 1
+                "minecraft:smooth_basalt": 100,
+                "minecraft:deepslate": 100,
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
 	{
@@ -19,15 +20,17 @@
                 "minecraft:andesite": 70,
                 "minecraft:stone": 20,
                 "minecraft:cobblestone": 5,
-                "minecraft:mossy_cobblestone": 5
+                "minecraft:mossy_cobblestone": 5,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:moss_block": 1,
-                "minecraft:mossy_cobblestone": 1
+                "minecraft:moss_block": 100,
+                "minecraft:mossy_cobblestone": 100,
+                "tfb2:glitched_vault_cobble": 2
             }
         },
         {

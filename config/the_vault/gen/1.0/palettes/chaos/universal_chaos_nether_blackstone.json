@@ -12,28 +12,31 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:polished_blackstone_bricks": 5,
-                "supplementaries:blackstone_tile": 3,
-                "minecraft:polished_blackstone": 2
+                "minecraft:polished_blackstone_bricks": 50,
+                "supplementaries:blackstone_tile": 30,
+                "minecraft:polished_blackstone": 20,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "architects_palette:weeping_blackstone": 2,
-                "architects_palette:sunstone": 1,
-                "minecraft:magma_block": 2,
-                "minecraft:blackstone": 5
+                "architects_palette:weeping_blackstone": 20,
+                "architects_palette:sunstone": 10,
+                "minecraft:magma_block": 20,
+                "minecraft:blackstone": 50,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:shroomlight": 1,
-                "auxiliaryblocks:orange_gelatin": 2,
-                "auxiliaryblocks:orange_crystal": 2
+                "minecraft:shroomlight": 100,
+                "auxiliaryblocks:orange_gelatin": 200,
+                "auxiliaryblocks:orange_crystal": 200,
+               "tfb2:glitched_crimsite": 5
             }
         },
         {

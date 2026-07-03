@@ -12,9 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_basalt": 1,
-                "minecraft:blackstone": 1,
-                "minecraft:polished_blackstone": 1
+                "minecraft:smooth_basalt": 100,
+                "minecraft:blackstone": 100,
+                "minecraft:polished_blackstone": 100,
+                "tfb2:glitched_deepslate_cobble": 3
             }
         },
         {
@@ -25,50 +26,48 @@
                 "create:polished_cut_deepslate": 200,
                 "minecraft:polished_deepslate": 200,
                 "minecraft:cobbled_deepslate": 100,
-                "tfb2:glitched_deepslate_cobble": 8
+                "tfb2:glitched_deepslate_cobble": 7
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "architects_palette:hadaline_pillar": 8,
-                "architects_palette:hadaline_lamp": 1,
-                "minecraft:nether_wart_block": 8,
-                "auxiliaryblocks:red_gelatin": 4,
-                "auxiliaryblocks:red_crystal": 4
+                "architects_palette:hadaline_pillar": 80,
+                "architects_palette:hadaline_lamp": 10,
+                "minecraft:nether_wart_block": 80,
+                "auxiliaryblocks:red_gelatin": 40,
+                "auxiliaryblocks:red_crystal": 40,
+                "tfb2:glitched_crimsite": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "the_vault:vault_cobblestone": 100,
-                "auxiliaryblocks:asphalt": 100,
-                "the_vault:polished_vault_stone": 100,
-                "tfb2:glitched_vault_cobble": 3
+                "the_vault:vault_cobblestone": 1,
+                "auxiliaryblocks:asphalt": 1,
+                "the_vault:polished_vault_stone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "create:cut_crimsite": 40,
-                "create:cut_crimsite_bricks": 20,
-                "create:crimsite": 10,
-                "create:polished_cut_crimsite": 20,
-                "tfb2:glitched_crimsite": 1
+                "create:cut_crimsite": 4,
+                "create:cut_crimsite_bricks": 2,
+                "create:crimsite": 1,
+                "create:polished_cut_crimsite": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "create:cut_crimsite": 40,
-                "create:cut_crimsite_bricks": 20,
-                "create:crimsite": 10,
-                "create:polished_cut_crimsite": 20,
-                "tfb2:glitched_crimsite": 1
+                "create:cut_crimsite": 4,
+                "create:cut_crimsite_bricks": 2,
+                "create:crimsite": 1,
+                "create:polished_cut_crimsite": 2
             }
         },
         {

@@ -14,7 +14,8 @@
                 "chipped:moss_block_6": 30,
                 "chipped:moss_block_5": 30,
                 "chipped:moss_block_8": 30,
-                "chipped:moss_block_11": 30
+                "chipped:moss_block_11": 30,
+                "tfb2:glitched_dirt": 1
             }
         },
 	{
@@ -26,18 +27,20 @@
                 "minecraft:spruce_planks": 25,
                 "decorative_blocks:dark_oak_beam": 50,
                 "minecraft:stripped_dark_oak_wood": 25,
-                "minecraft:dark_oak_planks": 25
+                "minecraft:dark_oak_planks": 25,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "twigs:cracked_bricks": 2,
-                "minecraft:bricks": 3,
-                "minecraft:granite": 2,
-                "minecraft:polished_granite": 2,
-                "minecraft:orange_terracotta": 1
+                "twigs:cracked_bricks": 20,
+                "minecraft:bricks": 30,
+                "minecraft:granite": 20,
+                "minecraft:polished_granite": 20,
+                "minecraft:orange_terracotta": 10,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {

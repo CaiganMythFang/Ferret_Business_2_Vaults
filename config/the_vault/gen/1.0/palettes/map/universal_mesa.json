@@ -12,22 +12,25 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:orange_terracotta": 1
+                "minecraft:orange_terracotta": 100,
+                "tfb2:glitched_crimsite": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:gray_terracotta": 1,
-                "minecraft:brown_terracotta": 1
+                "minecraft:gray_terracotta": 100,
+                "minecraft:brown_terracotta": 100,
+                "tfb2:glitched_dark_oak_log": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:yellow_terracotta": 1
+                "minecraft:yellow_terracotta": 100,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {

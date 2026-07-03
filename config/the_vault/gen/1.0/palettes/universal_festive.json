@@ -12,7 +12,8 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 1
+            "minecraft:snow_block": 100,
+            "tfb2:glitched_snow_block": 1
           }
         },
         {
@@ -20,7 +21,8 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 9
+            "minecraft:snow_block": 100,
+            "tfb2:glitched_snow_block": 1
           }
         }
       ]
@@ -29,19 +31,21 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "auxiliaryblocks:drippy_icing_block": 2,
-        "quark:white_corundum": 1,
-        "auxiliaryblocks:white_crystal": 1,
-        "ecologics:snow_bricks": 1
+        "auxiliaryblocks:drippy_icing_block": 200,
+        "quark:white_corundum": 100,
+        "auxiliaryblocks:white_crystal": 100,
+        "ecologics:snow_bricks": 100,
+        "tfb2:glitched_snow_block": 5
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "auxiliaryblocks:red_gelatin": 2,
-        "auxiliaryblocks:red_crystal": 2,
-        "auxiliaryblocks:lime_gelatin": 1
+        "auxiliaryblocks:red_gelatin": 200,
+        "auxiliaryblocks:red_crystal": 200,
+        "auxiliaryblocks:lime_gelatin": 100,
+        "tfb2:glitched_snow_block": 5
       }
     },
     {
@@ -63,9 +67,8 @@
       "type": "weighted_target",
       "target": "minecraft:coarse_dirt",
       "output": {
-        "architects_palette:dark_oak_boards": 200,
-        "minecraft:brown_terracotta": 100,
-        "tfb2:glitched_dark_oak_log": 2
+        "architects_palette:dark_oak_boards": 2,
+        "minecraft:brown_terracotta": 1
       }
     },
     {

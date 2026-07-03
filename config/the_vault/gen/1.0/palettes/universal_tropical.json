@@ -11,7 +11,7 @@
                 "tropicraft:purified_sand": 100,
                 "tropicraft:mineral_sand": 100,
                 "chipped:andesite_7": 300,
-                "tfb2:glitched_sandstone": 2
+                "tfb2:glitched_sandstone": 4
             }
         },
         {
@@ -20,25 +20,26 @@
             "output": {
                 "chipped:stone_67": 55,
                 "chipped:andesite_7": 30,
-                "chipped:mossy_cobblestone_21": 15
+                "chipped:mossy_cobblestone_21": 15,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "create:cut_tuff": 2,
-                "minecraft:tuff": 1
+                "create:cut_tuff": 200,
+                "minecraft:tuff": 100,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 145,
-                "tropicraft:mineral_sand": 125,
-                "tropicraft:purified_sand": 130,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:sand": 45,
+                "tropicraft:mineral_sand": 25,
+                "tropicraft:purified_sand": 30
             }
         },
         {

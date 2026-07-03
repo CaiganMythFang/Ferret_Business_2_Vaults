@@ -13,25 +13,28 @@
             "target": "minecraft:stone",
             "output": {
                 "minecraft:deepslate": 55,
-                "create:layered_deepslate": 45
+                "create:layered_deepslate": 45,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
 	    {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "auxiliaryblocks:lab_dark_gray": 2,
-                "minecraft:deepslate": 3,
-                "minecraft:cobbled_deepslate": 3,
-                "minecraft:deepslate_bricks": 2
+                "auxiliaryblocks:lab_dark_gray": 20,
+                "minecraft:deepslate": 30,
+                "minecraft:cobbled_deepslate": 30,
+                "minecraft:deepslate_bricks": 20,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:deepslate_tiles": 1,
-                "minecraft:deepslate_bricks": 1
+                "minecraft:deepslate_tiles": 100,
+                "minecraft:deepslate_bricks": 100,
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
         {

@@ -12,27 +12,30 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:blue_terracotta": 3,
-                "minecraft:gray_concrete": 3,
-                "architects_palette:stripped_twisted_wood": 1
+                "minecraft:blue_terracotta": 300,
+                "minecraft:gray_concrete": 300,
+                "architects_palette:stripped_twisted_wood": 100,
+                "tfb2:glitched_purple_terracotta": 7
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:basalt": 1,
-                "create:cut_tuff": 1,
-                "minecraft:gray_concrete": 1
+                "minecraft:basalt": 100,
+                "create:cut_tuff": 100,
+                "minecraft:gray_concrete": 100,
+                "tfb2:glitched_deepslate_cobble": 3
             }
         },
 	{
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:andesite": 1,
-                "minecraft:stone": 1,
-                "minecraft:cobblestone": 1
+                "minecraft:andesite": 100,
+                "minecraft:stone": 100,
+                "minecraft:cobblestone": 100,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
         {

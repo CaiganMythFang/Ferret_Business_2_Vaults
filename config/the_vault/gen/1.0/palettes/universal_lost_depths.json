@@ -12,22 +12,25 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:black_concrete": 1
+                "minecraft:black_concrete": 100,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
 	    {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:black_concrete": 1
+                "minecraft:black_concrete": 100,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "architects_palette:unobtanium_block": 1,
-                "minecraft:purple_concrete": 2
+                "architects_palette:unobtanium_block": 100,
+                "minecraft:purple_concrete": 200,
+                "tfb2:glitched_purple_terracotta": 3
             }
         },
         {

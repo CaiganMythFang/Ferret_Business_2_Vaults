@@ -12,30 +12,33 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_basalt": 1,
-                "minecraft:blackstone": 1,
-                "minecraft:polished_blackstone": 1
+                "minecraft:smooth_basalt": 66,
+                "minecraft:blackstone": 66,
+                "minecraft:polished_blackstone": 66,
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "create:cut_deepslate": 2,
-                "create:polished_cut_deepslate": 2,
-                "minecraft:polished_deepslate": 2,
-                "minecraft:cobbled_deepslate": 1
+                "create:cut_deepslate": 200,
+                "create:polished_cut_deepslate": 200,
+                "minecraft:polished_deepslate": 200,
+                "minecraft:cobbled_deepslate": 100,
+                "tfb2:glitched_deepslate_cobble": 6
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "architects_palette:hadaline_pillar": 8,
-                "architects_palette:hadaline_lamp": 1,
-                "minecraft:nether_wart_block": 8,
-                "auxiliaryblocks:red_gelatin": 4,
-                "auxiliaryblocks:red_crystal": 4
+                "architects_palette:hadaline_pillar": 80,
+                "architects_palette:hadaline_lamp": 10,
+                "minecraft:nether_wart_block": 80,
+                "auxiliaryblocks:red_gelatin": 40,
+                "auxiliaryblocks:red_crystal": 40,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {

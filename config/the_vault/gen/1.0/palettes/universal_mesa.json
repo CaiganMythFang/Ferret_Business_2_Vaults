@@ -12,22 +12,25 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:terracotta": 1
+                "minecraft:terracotta": 100,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:gray_terracotta": 1,
-                "minecraft:brown_terracotta": 1
+                "minecraft:gray_terracotta": 100,
+                "minecraft:brown_terracotta": 100,
+                "tfb2:glitched_purple_terracotta": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:yellow_terracotta": 1
+                "minecraft:yellow_terracotta": 100,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {
@@ -55,10 +58,9 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 400,
-                "minecraft:rooted_dirt": 100,
-                "minecraft:dirt": 200,
-                "tfb2:glitched_dirt": 3
+                "minecraft:coarse_dirt": 4,
+                "minecraft:rooted_dirt": 1,
+                "minecraft:dirt": 2
             }
         },
         {
@@ -100,8 +102,7 @@
             "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
-                "minecraft:spruce_log": 199,
-                "tfb2:glitched_dark_oak_log": 1
+                "minecraft:spruce_log": 1
             }
         },
         {

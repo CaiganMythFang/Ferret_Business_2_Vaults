@@ -12,10 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "quark:smooth_soul_sandstone": 150,
-                "quark:soul_sandstone_bricks": 120,
-                "quark:soul_sandstone": 130,
-                "tfb2:glitched_sandstone": 3
+                "quark:smooth_soul_sandstone": 50,
+                "quark:soul_sandstone_bricks": 20,
+                "quark:soul_sandstone": 30,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
@@ -24,16 +24,17 @@
             "output": {
                 "minecraft:soul_soil": 300,
                 "minecraft:dark_oak_wood": 100,
-                "minecraft:brown_terracotta": 100,
-                "tfb2:glitched_dark_oak_log": 3
+                "minecraft:brown_terracotta": 100
+                "tfb2:glitched_dark_oak_log": 5
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:black_terracotta": 3,
-                "quark:black_shingles": 2
+                "minecraft:black_terracotta": 300,
+                "quark:black_shingles": 200,
+                "tfb2:glitched_vault_cobble": 5
             }
         },
         {

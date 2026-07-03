@@ -8,25 +8,28 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "auxiliaryblocks:blue_pastel": 1,
-                "auxiliaryblocks:smooth_blue_pastel": 1
+                "auxiliaryblocks:blue_pastel": 100,
+                "auxiliaryblocks:smooth_blue_pastel": 100,
+                "tfb2:glitched_purple_terracotta": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "ecologics:snow_bricks": 2,
-                "everycomp:ap/the_vault/chromatic_boards": 1
+                "ecologics:snow_bricks": 200,
+                "everycomp:ap/the_vault/chromatic_boards": 100,
+                "tfb2:glitched_snow_block": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "everycomp:ap/the_vault/chromatic_boards": 3,
-                "ecologics:snow_bricks": 2,
-                "minecraft:snow_block": 1
+                "everycomp:ap/the_vault/chromatic_boards": 300,
+                "ecologics:snow_bricks": 200,
+                "minecraft:snow_block": 100,
+                "tfb2:glitched_snow_block": 6
             }
         },
         {

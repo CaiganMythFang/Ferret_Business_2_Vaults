@@ -8,9 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:stripped_dark_oak_wood": 175,
-                "architects_palette:spruce_boards": 125,
-                "tfb2:glitched_dark_oak_log": 2
+                "minecraft:stripped_dark_oak_wood": 75,
+                "architects_palette:spruce_boards": 25,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
 	{
@@ -20,16 +20,18 @@
                 "minecraft:andesite": 45,
                 "minecraft:stone": 20,
                 "minecraft:cobblestone": 30,
-                "minecraft:mossy_cobblestone": 5
+                "minecraft:mossy_cobblestone": 5,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:orange_gelatin": 1,
-                "minecraft:honeycomb_block": 1,
-                "auxiliaryblocks:orange_crystal": 1
+                "auxiliaryblocks:orange_gelatin": 100,
+                "minecraft:honeycomb_block": 100,
+                "auxiliaryblocks:orange_crystal": 100,
+                "tfb2:glitched_crimsite": 3
             }
         },
         {
@@ -51,11 +53,10 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 400,
-                "minecraft:rooted_dirt": 200,
-                "minecraft:dripstone_block": 200,
-                "auxiliaryblocks:mossy_dirt": 200,
-                "tfb2:glitched_dirt": 3
+                "minecraft:coarse_dirt": 40,
+                "minecraft:rooted_dirt": 20,
+                "minecraft:dripstone_block": 20,
+                "auxiliaryblocks:mossy_dirt": 20
             }
         },
         {
@@ -88,10 +89,9 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:stripped_dark_oak_wood": 450,
-                "minecraft:moss_block": 300,
-                "minecraft:mossy_cobblestone": 250,
-                "tfb2:glitched_dark_oak_log": 3
+                "minecraft:stripped_dark_oak_wood": 45,
+                "minecraft:moss_block": 30,
+                "minecraft:mossy_cobblestone": 25
             }
         },
         {

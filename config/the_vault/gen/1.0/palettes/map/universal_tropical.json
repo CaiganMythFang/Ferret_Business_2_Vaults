@@ -8,9 +8,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "tropicraft:purified_sand": 1,
-                "tropicraft:mineral_sand": 1,
-                "chipped:andesite_7": 3
+                "tropicraft:purified_sand": 100,
+                "tropicraft:mineral_sand": 100,
+                "chipped:andesite_7": 300,
+                "tfb2:glitched_sandstone": 5
             }
         },
         {
@@ -19,15 +20,17 @@
             "output": {
                 "chipped:stone_67": 55,
                 "chipped:andesite_7": 30,
-                "chipped:mossy_cobblestone_21": 15
+                "chipped:mossy_cobblestone_21": 15,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "create:cut_tuff": 2,
-                "minecraft:tuff": 1
+                "create:cut_tuff": 200,
+                "minecraft:tuff": 100,
+                "tfb2:glitched_dirt": 3
             }
         },
         {

@@ -10,26 +10,29 @@
             "output": {
                 "minecraft:mossy_cobblestone": 35,
                 "auxiliaryblocks:mossy_stone": 35,
-                "minecraft:moss_block": 30
+                "minecraft:moss_block": 30,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "create:cut_tuff": 4,
-                "minecraft:dead_brain_coral_block": 3,
-                "minecraft:dead_tube_coral_block": 3
+                "create:cut_tuff": 40,
+                "minecraft:dead_brain_coral_block": 30,
+                "minecraft:dead_tube_coral_block": 30,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "architects_palette:algal_bricks": 1,
-                "architects_palette:overgrown_algal_bricks": 1,
-                "quark:green_shingles": 1,
-                "quark:midori_block": 1
+                "architects_palette:algal_bricks": 100,
+                "architects_palette:overgrown_algal_bricks": 100,
+                "quark:green_shingles": 100,
+                "quark:midori_block": 100,
+                "tfb2:glitched_vault_cobble": 4
             }
         },
         {

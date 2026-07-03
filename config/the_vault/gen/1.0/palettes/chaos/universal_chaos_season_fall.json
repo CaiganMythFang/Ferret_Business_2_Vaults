@@ -10,7 +10,8 @@
             "output": {
                 "twigs:mossy_bricks": 35,
                 "auxiliaryblocks:mossy_dirt": 35,
-                "minecraft:moss_block": 30
+                "minecraft:moss_block": 30,
+                "tfb2:glitched_dirt": 1
             }
         },
 	{
@@ -19,7 +20,8 @@
             "output": {
                 "decorative_blocks:spruce_beam": 50,
                 "minecraft:stripped_spruce_wood": 25,
-                "minecraft:spruce_planks": 25
+                "minecraft:spruce_planks": 25,
+                "tfb2:glitched_dark_oak_log": 1
                 
             }
         },
@@ -27,11 +29,12 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "twigs:cracked_bricks": 2,
-                "minecraft:bricks": 3,
-                "minecraft:granite": 2,
-                "minecraft:polished_granite": 2,
-                "minecraft:terracotta": 1
+                "twigs:cracked_bricks": 20,
+                "minecraft:bricks": 30,
+                "minecraft:granite": 20,
+                "minecraft:polished_granite": 20,
+                "minecraft:terracotta": 10,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {

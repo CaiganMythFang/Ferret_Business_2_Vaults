@@ -12,25 +12,28 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "create:cut_asurine": 1,
-        "create:asurine": 1
+        "create:cut_asurine": 100,
+        "create:asurine": 100,
+        "tfb2:glitched_purple_terracotta": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "create:asurine": 5,
-        "create:polished_cut_asurine": 3,
-        "minecraft:blue_ice": 1
+        "create:asurine": 50,
+        "create:polished_cut_asurine": 30,
+        "minecraft:blue_ice": 10,
+        "tfb2:glitched_purple_terracotta": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "minecraft:blue_ice": 2,
-        "minecraft:packed_ice": 1
+        "minecraft:blue_ice": 200,
+        "minecraft:packed_ice": 100,
+        "tfb2:glitched_snow_block": 3
       }
     },
     {

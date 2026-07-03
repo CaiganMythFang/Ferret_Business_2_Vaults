@@ -8,26 +8,29 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "auxiliaryblocks:rocky_sand": 1,
-                "auxiliaryblocks:dirty_sand": 1,
-                "minecraft:andesite": 3
+                "auxiliaryblocks:rocky_sand": 49,
+                "auxiliaryblocks:dirty_sand": 49,
+                "minecraft:andesite": 149,
+                "tfb2:glitched_sandstone": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stone": 55,
-                "minecraft:andesite": 30,
-                "minecraft:cobblestone": 15
+                "minecraft:stone": 109,
+                "minecraft:andesite": 59,
+                "minecraft:cobblestone": 29,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "create:cut_tuff": 2,
-                "minecraft:tuff": 1
+                "create:cut_tuff": 132,
+                "minecraft:tuff": 66,
+                 "tfb2:glitched_sandstone": 2
             }
         },
         {

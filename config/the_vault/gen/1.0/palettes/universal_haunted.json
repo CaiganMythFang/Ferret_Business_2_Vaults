@@ -10,7 +10,8 @@
             "output": {
                 "create:cut_scorchia": 45,
                 "architects_palette:algal_bricks": 35,
-                "architects_palette:overgrown_algal_bricks": 20
+                "architects_palette:overgrown_algal_bricks": 20,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
@@ -20,7 +21,8 @@
                 "minecraft:tuff": 40,
                 "architects_palette:tuff_bricks": 30,
                 "architects_palette:chiseled_tuff": 15,
-                "minecraft:dead_brain_coral_block": 15
+                "minecraft:dead_brain_coral_block": 15,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
@@ -30,36 +32,34 @@
                 "architects_palette:cracked_olivestone_tiles": 50,
                 "architects_palette:olivestone_bricks": 30,
                 "quark:midori_pillar": 10,
-                "minecraft:dark_prismarine": 10
+                "minecraft:dark_prismarine": 10,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 80,
-                "auxiliaryblocks:dirty_sand": 35,
-                "auxiliaryblocks:rocky_sand": 45,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:sand": 45,
+                "auxiliaryblocks:dirty_sand": 25,
+                "auxiliaryblocks:rocky_sand": 30
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "architects_palette:dark_oak_boards": 350,
-                "minecraft:stripped_dark_oak_wood": 350,
-                "minecraft:dark_oak_planks": 200,
-                "minecraft:coarse_dirt": 100,
-                "tfb2:glitched_dark_oak_log": 3
+                "architects_palette:dark_oak_boards": 35,
+                "minecraft:stripped_dark_oak_wood": 35,
+                "minecraft:dark_oak_planks": 20,
+                "minecraft:coarse_dirt": 10
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 1
             }
         },
         {

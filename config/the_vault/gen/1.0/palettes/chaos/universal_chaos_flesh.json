@@ -12,26 +12,29 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "create:cut_crimsite": 1,
-                "create:crimsite": 1
+                "create:cut_crimsite": 100,
+                "create:crimsite": 100,
+                "tfb2:glitched_crimsite": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stripped_crimson_hyphae": 11,
-                "minecraft:stripped_crimson_stem": 7,
-                "architects_palette:salmon_scales": 2
+                "minecraft:stripped_crimson_hyphae": 110,
+                "minecraft:stripped_crimson_stem": 70,
+                "architects_palette:salmon_scales": 20,
+                "tfb2:glitched_crimsite": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:bone_block": 1,
-                "architects_palette:osseous_pillar": 1,
-                "architects_palette:osseous_skull": 1
+                "minecraft:bone_block": 100,
+                "architects_palette:osseous_pillar": 100,
+                "architects_palette:osseous_skull": 100,
+                "tfb2:glitched_snow_block": 3
             }
         },
         {

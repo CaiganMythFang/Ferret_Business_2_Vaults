@@ -10,14 +10,15 @@
             "output": {
                 "the_vault:vault_stone_bricks": 300,
                 "the_vault:polished_vault_stone": 100,
-                "tfb2:glitched_vault_cobble": 2
+                "tfb2:glitched_vault_cobble": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:white_crystal": 1
+                "auxiliaryblocks:white_crystal": 100,
+                "tfb2:glitched_snow_block": 1
             }
         },
 		{
@@ -26,32 +27,29 @@
             "output": {
                 "the_vault:vault_stone_bricks": 300,
                 "the_vault:polished_vault_stone": 100,
-                "auxiliaryblocks:white_crystal": 10,
-                "tfb2:glitched_vault_cobble": 4
+                "auxiliaryblocks:white_crystal": 100,
+                "tfb2:glitched_vault_cobble": 5
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "the_vault:vault_cobblestone": 199,
-                "tfb2:glitched_vault_cobble": 1
+                "the_vault:vault_cobblestone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "the_vault:vault_stone": 199,
-                "tfb2:glitched_vault_cobble": 1
+                "the_vault:vault_stone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "the_vault:vault_cobblestone": 199,
-                "tfb2:glitched_vault_cobble": 1
+                "the_vault:vault_cobblestone": 1
             }
         },
         {
@@ -96,8 +94,7 @@
             "type": "weighted_target",
             "target": "minecraft:birch_log",
             "output": {
-                "minecraft:oak_log": 199,
-                "tfb2:glitched_dark_oak_log": 1
+                "minecraft:oak_log": 1
             }
         },
         {

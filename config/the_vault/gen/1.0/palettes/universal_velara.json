@@ -12,25 +12,28 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "the_vault:velara_brick": 1,
-                "quark:stripped_azalea_wood": 1
+                "the_vault:velara_brick": 100,
+                "quark:stripped_azalea_wood": 100,
+                "tfb2:glitched_dark_oak_log": 2
             }
         },
 	{
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:lime_concrete": 1,
-                "the_vault:velara_dark_smooth_brick": 1,
-                "the_vault:velara_gem_block": 1
+                "minecraft:lime_concrete": 100,
+                "the_vault:velara_dark_smooth_brick": 100,
+                "the_vault:velara_gem_block": 100,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:green_crystal": 1,
-                "auxiliaryblocks:lime_gelatin": 1
+                "auxiliaryblocks:green_crystal": 100,
+                "auxiliaryblocks:lime_gelatin": 100,
+                "tfb2:glitched_vault_cobble": 2
             }
         },
         {
@@ -618,6 +621,13 @@
             }
         },
         {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder{type: GATE}",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
             "type": "reference",
             "id": "the_vault:generic/room_base"
         },
@@ -628,10 +638,6 @@
         {
             "type": "reference",
             "id": "the_vault:generic/common_elite_spawners"
-        },
-        {
-            "type": "reference",
-            "id": "the_vault:gate_lock/base"
         }
     ],
     "entity_processors": [],

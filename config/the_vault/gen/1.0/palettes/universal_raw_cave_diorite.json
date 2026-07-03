@@ -8,18 +8,20 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:stone": 1,
-                "minecraft:diorite": 1,
-                "minecraft:calcite": 1
+                "minecraft:stone": 100,
+                "minecraft:diorite": 100,
+                "minecraft:calcite": 100,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
 	    {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stone": 7,
-                "architects_palette:heavy_cracked_stone_bricks": 2,
-                "minecraft:cobblestone": 1
+                "minecraft:stone": 70,
+                "architects_palette:heavy_cracked_stone_bricks": 20,
+                "minecraft:cobblestone": 10,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
@@ -29,7 +31,8 @@
                 "minecraft:diorite": 499999,
                 "create:cut_diorite": 250000,
                 "minecraft:calcite": 250000,
-				"auxiliaryblocks:purple_diorite": 1
+				"auxiliaryblocks:purple_diorite": 1,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {
@@ -53,8 +56,7 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 1
             }
         },
         {

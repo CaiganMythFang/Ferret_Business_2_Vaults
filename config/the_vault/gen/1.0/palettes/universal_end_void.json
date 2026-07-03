@@ -12,9 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "quark:waxed_violet_corundum": 2,
-                "mcwwindows:purple_mosaic_glass": 1,
-                "auxiliaryblocks:purple_gelatin": 2
+                "quark:waxed_violet_corundum": 200,
+                "mcwwindows:purple_mosaic_glass": 100,
+                "auxiliaryblocks:purple_gelatin": 200,
+                "tfb2:glitched_purple_terracotta": 5
             }
         },
         {
@@ -23,15 +24,16 @@
             "output": {
                 "minecraft:deepslate_tiles": 55,
                 "auxiliaryblocks:black_crystal": 25,
-                "quark:waxed_black_corundum": 20
+                "quark:waxed_black_corundum": 20,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
 	{
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:deepslate": 85,
-                "create:layered_deepslate": 75,
+                "minecraft:deepslate": 55,
+                "create:layered_deepslate": 45,
                 "tfb2:glitched_deepslate_cobble": 1
             }
         },
@@ -89,10 +91,9 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "quark:waxed_violet_corundum": 200,
-                "mcwwindows:purple_mosaic_glass": 100,
-                "auxiliaryblocks:purple_gelatin": 200,
-                "tfb2:glitched_purple_terracotta": 4
+                "quark:waxed_violet_corundum": 2,
+                "mcwwindows:purple_mosaic_glass": 1,
+                "auxiliaryblocks:purple_gelatin": 2
             }
         },
         {

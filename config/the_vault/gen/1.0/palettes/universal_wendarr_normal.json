@@ -8,26 +8,29 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "the_vault:wendarr_brick_chiseled": 1,
-                "the_vault:wendarr_dark_smooth_brick": 2,
-                "the_vault:wendarr_gem_block": 1
+                "the_vault:wendarr_brick_chiseled": 100,
+                "the_vault:wendarr_dark_smooth_brick": 200,
+                "the_vault:wendarr_gem_block": 100,
+                "tfb2:glitched_crimsite": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_red_sandstone": 1,
-                "quark:red_sandstone_bricks": 1
+                "minecraft:smooth_red_sandstone": 100,
+                "quark:red_sandstone_bricks": 100,
+                "tfb2:glitched_crimsite": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "the_vault:wendarr_light_smooth_brick": 1,
-                "auxiliaryblocks:orange_gelatin": 2,
-                "auxiliaryblocks:orange_crystal": 2
+                "the_vault:wendarr_light_smooth_brick": 100,
+                "auxiliaryblocks:orange_gelatin": 200,
+                "auxiliaryblocks:orange_crystal": 200,
+                "tfb2:glitched_crimsite": 5
             }
         },
         {
@@ -41,19 +44,17 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:sand": 199,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:sand": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:sandstone": 100,
-                "architects_palette:gilded_sandstone": 100,
-                "architects_palette:chiseled_gilded_sandstone": 100,
-                "architects_palette:gilded_sandstone_pillar": 100,
-                "tfb2:glitched_sandstone": 2
+                "minecraft:sandstone": 1,
+                "architects_palette:gilded_sandstone": 1,
+                "architects_palette:chiseled_gilded_sandstone": 1,
+                "architects_palette:gilded_sandstone_pillar": 1
             }
         },
         {

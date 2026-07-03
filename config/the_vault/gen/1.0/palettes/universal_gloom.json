@@ -10,7 +10,7 @@
             "output": {
                 "minecraft:smooth_basalt": 100,
                 "minecraft:deepslate": 100,
-                "tfb2:glitched_deepslate_cobble": 1
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
 	{
@@ -19,15 +19,17 @@
             "output": {
                 "auxiliaryblocks:gloomy_dark_andesite": 60,
                 "auxiliaryblocks:gloomy_dark_stone": 70,
-                "auxiliaryblocks:gloomy_dark_cobblestone": 5
+                "auxiliaryblocks:gloomy_dark_cobblestone": 5,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:gloomy_bricks": 4,
-                "auxiliaryblocks:gloomy_cracked_bricks": 1
+                "auxiliaryblocks:gloomy_bricks": 400,
+                "auxiliaryblocks:gloomy_cracked_bricks": 100,
+                "tfb2:glitched_deepslate_cobble": 5
             }
         },
         {
@@ -41,16 +43,14 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "auxiliaryblocks:gloomy_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "auxiliaryblocks:gloomy_dirt": 65
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "auxiliaryblocks:gloomy_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "auxiliaryblocks:gloomy_dirt": 1
             }
         },
         {

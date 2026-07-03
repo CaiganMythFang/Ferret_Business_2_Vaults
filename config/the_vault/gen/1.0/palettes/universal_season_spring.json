@@ -10,7 +10,7 @@
             "output": {
                 "minecraft:stripped_crimson_hyphae": 100,
                 "minecraft:purple_terracotta": 100,
-                "tfb2:glitched_purple_terracotta": 1
+                "tfb2:glitched_purple_terracotta": 2
             }
         },
         {
@@ -19,18 +19,19 @@
             "output": {
                 "minecraft:honeycomb_block": 35,
                 "minecraft:honey_block": 35,
-                "the_vault:chromatic_planks": 30
+                "the_vault:chromatic_planks": 30,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "the_vault:chromatic_planks": 110,
-                "the_vault:stripped_chromatic_log": 110,
-                "everycomp:ap/the_vault/chromatic_boards": 130,
-                "minecraft:snow_block": 150,
-                "tfb2:glitched_snow_block": 3
+                "the_vault:chromatic_planks": 10,
+                "the_vault:stripped_chromatic_log": 10,
+                "everycomp:ap/the_vault/chromatic_boards": 30,
+                "minecraft:snow_block": 50,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {
@@ -45,18 +46,16 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "auxiliaryblocks:mossy_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "auxiliaryblocks:mossy_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 135,
-                "minecraft:dirt": 130,
-                "auxiliaryblocks:rocky_dirt": 135,
-                "tfb2:glitched_dirt": 2
+                "minecraft:coarse_dirt": 35,
+                "minecraft:dirt": 30,
+                "auxiliaryblocks:rocky_dirt": 35
             }
         },
         {

@@ -12,10 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:smooth_sandstone": 60,
-                "minecraft:sandstone": 60,
-                "auxiliaryblocks:dirty_sand": 40,
-                "quark:sandstone_bricks": 20,
+                "minecraft:smooth_sandstone": 30,
+                "minecraft:sandstone": 30,
+                "auxiliaryblocks:dirty_sand": 20,
+                "quark:sandstone_bricks": 10,
                 "tfb2:glitched_sandstone": 1
             }
         },
@@ -26,18 +26,19 @@
                 "minecraft:smooth_sandstone": 100,
                 "minecraft:sandstone": 100,
                 "quark:sandstone_bricks": 100,
-                "tfb2:glitched_sandstone": 2
+                "tfb2:glitched_sandstone": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:smooth_red_sandstone": 1,
-                "minecraft:yellow_terracotta": 1,
-                "minecraft:orange_terracotta": 1,
-                "minecraft:terracotta": 1,
-                "minecraft:red_sandstone": 1
+                "minecraft:smooth_red_sandstone": 100,
+                "minecraft:yellow_terracotta": 100,
+                "minecraft:orange_terracotta": 100,
+                "minecraft:terracotta": 100,
+                "minecraft:red_sandstone": 100,
+                "tfb2:glitched_purple_terracotta": 5
             }
         },
         {
@@ -51,18 +52,16 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:sandstone": 199,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "auxiliaryblocks:cobbled_sandstone": 60,
-                "auxiliaryblocks:dirty_sand": 80,
-                "auxiliaryblocks:rocky_sand": 40,
-                "tfb2:glitched_sandstone": 1
+                "auxiliaryblocks:cobbled_sandstone": 3,
+                "auxiliaryblocks:dirty_sand": 4,
+                "auxiliaryblocks:rocky_sand": 1
             }
         },
         {

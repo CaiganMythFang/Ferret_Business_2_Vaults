@@ -8,17 +8,18 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "auxiliaryblocks:blue_pastel": 1,
-        "auxiliaryblocks:green_pastel": 1,
-        "auxiliaryblocks:yellow_pastel": 1,
-        "auxiliaryblocks:pink_pastel": 1
+        "auxiliaryblocks:blue_pastel": 100,
+        "auxiliaryblocks:green_pastel": 100,
+        "auxiliaryblocks:yellow_pastel": 100,
+        "auxiliaryblocks:pink_pastel": 100,
+        "tfb2:glitched_snow_block": 4
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:snow_block": 199,
+        "minecraft:snow_block": 100,
         "tfb2:glitched_snow_block": 1
       }
     },
@@ -26,10 +27,11 @@
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "botania:chiseled_red_quartz": 1,
-        "botania:chiseled_sunny_quartz": 1,
-        "botania:chiseled_elf_quartz": 1,
-        "botania:chiseled_mana_quartz": 1
+        "botania:chiseled_red_quartz": 100,
+        "botania:chiseled_sunny_quartz": 100,
+        "botania:chiseled_elf_quartz": 100,
+        "botania:chiseled_mana_quartz": 100,
+        "tfb2:glitched_snow_block": 4
       }
     },
     {

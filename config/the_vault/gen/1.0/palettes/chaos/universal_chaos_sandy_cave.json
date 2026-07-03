@@ -11,7 +11,8 @@
                 "minecraft:smooth_sandstone": 35,
                 "auxiliaryblocks:dirty_sand": 35,
                 "minecraft:andesite": 25,
-                "auxiliaryblocks:rocky_sand": 15
+                "auxiliaryblocks:rocky_sand": 15,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
@@ -20,18 +21,20 @@
             "output": {
                 "minecraft:stone": 55,
                 "minecraft:andesite": 30,
-                "minecraft:cobblestone": 15
+                "minecraft:cobblestone": 15,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:smooth_red_sandstone": 1,
-                "minecraft:yellow_terracotta": 1,
-                "minecraft:orange_terracotta": 1,
-                "minecraft:terracotta": 1,
-                "minecraft:red_sandstone": 1
+                "minecraft:smooth_red_sandstone": 100,
+                "minecraft:yellow_terracotta": 100,
+                "minecraft:orange_terracotta": 100,
+                "minecraft:terracotta": 100,
+                "minecraft:red_sandstone": 100,
+                "tfb2:glitched_purple_terracotta": 5
             }
         },
         {

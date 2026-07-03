@@ -8,26 +8,29 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:andesite": 1,
-                "create:cut_andesite": 1,
-                "minecraft:stone": 1
+                "minecraft:andesite": 100,
+                "create:cut_andesite": 100,
+                "minecraft:stone": 100,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
 	    {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stone": 7,
-                "architects_palette:heavy_cracked_stone_bricks": 2,
-                "minecraft:cobblestone": 1
+                "minecraft:stone": 70,
+                "architects_palette:heavy_cracked_stone_bricks": 20,
+                "minecraft:cobblestone": 10,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:andesite": 1,
-                "create:cut_andesite": 1
+                "minecraft:andesite": 100,
+                "create:cut_andesite": 100,
+                "tfb2:glitched_vault_cobble": 2
             }
         },
         {
@@ -43,17 +46,15 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:coarse_dirt": 140,
-                "auxiliaryblocks:rocky_dirt": 110,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 4,
+                "auxiliaryblocks:rocky_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 1
             }
         },
         {

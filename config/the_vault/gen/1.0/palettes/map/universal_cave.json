@@ -12,8 +12,9 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:tuff": 1,
-                "create:cut_tuff": 1
+                "minecraft:tuff": 100,
+                "create:cut_tuff": 100,
+                "tfb2:glitched_vault_cobble": 2
             }
         },
 	    {
@@ -22,15 +23,17 @@
             "output": {
                 "minecraft:stone": 30,
                 "minecraft:andesite": 55,
-                "minecraft:cobblestone": 15
+                "minecraft:cobblestone": 15,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:cobbled_deepslate": 1,
-                "minecraft:smooth_basalt": 1
+                "minecraft:cobbled_deepslate": 100,
+                "minecraft:smooth_basalt": 100,
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
         {

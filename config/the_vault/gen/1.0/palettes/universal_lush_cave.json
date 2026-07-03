@@ -10,7 +10,7 @@
             "output": {
                 "minecraft:smooth_basalt": 100,
                 "minecraft:deepslate": 100,
-                "tfb2:glitched_deepslate_cobble": 1
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
 	{
@@ -20,15 +20,17 @@
                 "minecraft:andesite": 70,
                 "minecraft:stone": 20,
                 "minecraft:cobblestone": 5,
-                "minecraft:mossy_cobblestone": 5
+                "minecraft:mossy_cobblestone": 5,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:moss_block": 1,
-                "minecraft:mossy_cobblestone": 1
+                "minecraft:moss_block": 100,
+                "minecraft:mossy_cobblestone": 100,
+                "tfb2:glitched_dirt": 2
             }
         },
         {
@@ -43,18 +45,16 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:coarse_dirt": 80,
-                "minecraft:rooted_dirt": 80,
-                "minecraft:dripstone_block": 60,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 40,
+                "minecraft:rooted_dirt": 40,
+                "minecraft:dripstone_block": 20
             }
         },
         {

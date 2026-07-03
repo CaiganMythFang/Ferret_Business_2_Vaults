@@ -14,7 +14,8 @@
             "output": {
                 "twigs:polished_calcite": 30,
                 "create:cut_calcite": 35,
-                "minecraft:calcite": 35
+                "minecraft:calcite": 35,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {
@@ -22,27 +23,27 @@
             "target": "minecraft:cobblestone",
             "output": {
                 "minecraft:diorite": 75,
-                "auxiliaryblocks:purple_diorite": 25
+                "auxiliaryblocks:purple_diorite": 25,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:purple_gelatin": 100,
-                "auxiliaryblocks:dark_purple_diorite": 300,
-                "minecraft:amethyst_block": 200,
-                "twigs:polished_amethyst_bricks": 200,
-                "tfb2:glitched_purple_terracotta": 4
+                "auxiliaryblocks:purple_gelatin": 10,
+                "auxiliaryblocks:dark_purple_diorite": 30,
+                "minecraft:amethyst_block": 20,
+                "twigs:polished_amethyst_bricks": 20,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "auxiliaryblocks:purple_pastel": 175,
-                "auxiliaryblocks:smooth_purple_pastel": 125,
-                "tfb2:glitched_purple_terracotta": 1
+                "auxiliaryblocks:purple_pastel": 75,
+                "auxiliaryblocks:smooth_purple_pastel": 25
             }
         },
         {

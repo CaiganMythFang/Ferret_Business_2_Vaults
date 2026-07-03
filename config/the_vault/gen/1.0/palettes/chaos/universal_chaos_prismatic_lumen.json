@@ -6,9 +6,19 @@
     },
     {
       "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "minestuck:chalk": 400,
+        "minestuck:polished_chalk": 100,
+        "tfb2:glitched_snow_block": 5
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "chipped:calcite_1": 1
+        "chipped:calcite_1": 99,
+        "tfb2:glitched_snow_block": 1
       }
     },
     {
@@ -20,9 +30,46 @@
     },
     {
       "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "minestuck:mossy_chalk_bricks": 500,
+        "minestuck:polished_chalk": 100,
+        "tfb2:glitched_snow_block": 6
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "minestuck:mossy_chalk_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "minestuck:mossy_chalk_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:stone_slab",
       "output": {
         "minecraft:stone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_slab",
+      "output": {
+        "minestuck:chalk_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "minestuck:chalk_slab": 1
       }
     },
     {
@@ -116,6 +163,20 @@
       "output": {
         "auxiliaryblocks:blue_crystal": 4,
         "quark:waxed_blue_corundum": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_log",
+      "output": {
+        "luphieclutteredmod:stripped_luphie_glow_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_wood",
+      "output": {
+        "luphieclutteredmod:stripped_luphie_glow_log": 1
       }
     },
     {
@@ -309,6 +370,20 @@
       "target": "minecraft:bookshelf",
       "output": {
         "everycomp:q/the_vault/chromatic_bookshelf": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:azalea_log",
+      "output": {
+        "luphieclutteredmod:stripped_luphie_glow_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:azalea_fence",
+      "output": {
+        "luphieclutteredmod:stripped_luphie_glow_log": 1
       }
     },
     {

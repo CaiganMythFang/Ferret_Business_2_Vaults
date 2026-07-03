@@ -12,7 +12,8 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 1
+            "minecraft:snow_block": 99,
+            "tfb2:glitched_snow_block": 1
           }
         },
         {
@@ -20,7 +21,8 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 9
+            "minecraft:snow_block": 99,
+            "tfb2:glitched_snow_block": 1
           }
         }
       ]
@@ -30,7 +32,8 @@
       "target": "minecraft:cobblestone",
       "output": {
         "minecraft:tuff": 1,
-        "minecraft:andesite": 1
+        "minecraft:andesite": 99,
+        "tfb2:glitched_vault_cobble": 1
       }
     },
     {

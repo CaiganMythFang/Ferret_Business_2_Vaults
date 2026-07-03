@@ -9,7 +9,8 @@
             "target": "minecraft:cobblestone",
             "output": {
                 "minecraft:stripped_dark_oak_wood": 75,
-                "architects_palette:spruce_boards": 25
+                "architects_palette:spruce_boards": 25,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
 	{
@@ -19,16 +20,18 @@
                 "minecraft:andesite": 45,
                 "minecraft:stone": 20,
                 "minecraft:cobblestone": 30,
-                "minecraft:mossy_cobblestone": 5
+                "minecraft:mossy_cobblestone": 5,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:orange_gelatin": 1,
-                "minecraft:honeycomb_block": 1,
-                "auxiliaryblocks:orange_crystal": 1
+                "auxiliaryblocks:orange_gelatin": 100,
+                "minecraft:honeycomb_block": 100,
+                "auxiliaryblocks:orange_crystal": 100,
+                "tfb2:glitched_crimsite": 3
             }
         },
         {

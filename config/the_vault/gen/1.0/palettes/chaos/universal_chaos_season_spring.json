@@ -8,8 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stripped_crimson_hyphae": 1,
-                "minecraft:purple_terracotta": 1
+                "minecraft:stripped_crimson_hyphae": 100,
+                "minecraft:purple_terracotta": 100,
+                "tfb2:glitched_purple_terracotta": 2
             }
         },
         {
@@ -18,17 +19,19 @@
             "output": {
                 "minecraft:honeycomb_block": 35,
                 "minecraft:honey_block": 35,
-                "the_vault:chromatic_planks": 30
+                "the_vault:chromatic_planks": 30,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "the_vault:chromatic_planks": 1,
-                "the_vault:stripped_chromatic_log": 1,
-                "everycomp:ap/the_vault/chromatic_boards": 3,
-                "minecraft:snow_block": 5
+                "the_vault:chromatic_planks": 10,
+                "the_vault:stripped_chromatic_log": 10,
+                "everycomp:ap/the_vault/chromatic_boards": 30,
+                "minecraft:snow_block": 50,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {

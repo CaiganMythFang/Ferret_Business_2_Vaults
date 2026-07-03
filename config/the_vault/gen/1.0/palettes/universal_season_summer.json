@@ -8,11 +8,12 @@
             "type": "weighted_target",
             "target": "minecraft:oak_planks",
             "output": {
-                "minecraft:spruce_planks": 1,
-                "ecologics:walnut_planks": 1,
-                "everycomp:ap/ecologics/walnut_boards": 1,
-                "architects_palette:spruce_boards": 1,
-                "quark:stick_block": 1
+                "minecraft:spruce_planks": 100,
+                "ecologics:walnut_planks": 100,
+                "everycomp:ap/ecologics/walnut_boards": 100,
+                "architects_palette:spruce_boards": 100,
+                "quark:stick_block": 100,
+                "tfb2:glitched_dark_oak_log": 5
             }
         },
         {
@@ -21,16 +22,17 @@
             "output": {
                 "architects_palette:oak_boards": 100,
                 "minecraft:oak_planks": 100,
-                "tfb2:glitched_dark_oak_log": 1
+                "tfb2:glitched_dark_oak_log": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "ecologics:stripped_coconut_log": 4,
-                "everycomp:ap/ecologics/coconut_boards": 3,
-                "ecologics:coconut_planks": 3
+                "ecologics:stripped_coconut_log": 40,
+                "everycomp:ap/ecologics/coconut_boards": 30,
+                "ecologics:coconut_planks": 30,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
@@ -54,10 +56,9 @@
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:smooth_sandstone": 135,
-                "minecraft:sand": 135,
-                "auxiliaryblocks:dirty_sand": 130,
-                "tfb2:glitched_sandstone": 1
+                "minecraft:smooth_sandstone": 35,
+                "minecraft:sand": 35,
+                "auxiliaryblocks:dirty_sand": 30
             }
         },
         {

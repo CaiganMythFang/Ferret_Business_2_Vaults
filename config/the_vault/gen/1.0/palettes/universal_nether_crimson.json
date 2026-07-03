@@ -12,10 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:netherrack": 750,
-                "minecraft:crimson_hyphae": 150,
-                "minecraft:crimson_planks": 100,
-                "tfb2:glitched_crimsite": 5
+                "minecraft:netherrack": 75,
+                "minecraft:crimson_hyphae": 15,
+                "minecraft:crimson_planks": 10,
+                "tfb2:glitched_crimsite": 1
             }
         },
         {
@@ -24,7 +24,8 @@
             "output": {
                 "minecraft:blackstone": 80,
                 "minecraft:shroomlight": 10,
-                "minecraft:magma_block": 10
+                "minecraft:magma_block": 10,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
@@ -33,7 +34,8 @@
             "output": {
                 "minecraft:blackstone": 60,
                 "minecraft:polished_blackstone": 20,
-                "architects_palette:weeping_blackstone": 20
+                "architects_palette:weeping_blackstone": 20,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
@@ -47,8 +49,7 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:netherrack": 200,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:netherrack": 1
             }
         },
         {
@@ -84,10 +85,9 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:netherrack": 145,
-                "minecraft:crimson_hyphae": 35,
-                "minecraft:crimson_planks": 30,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:netherrack": 75,
+                "minecraft:crimson_hyphae": 15,
+                "minecraft:crimson_planks": 10
             }
         },
         {

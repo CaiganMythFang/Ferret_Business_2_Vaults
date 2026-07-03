@@ -22,10 +22,10 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:sandstone": 120,
-        "minecraft:smooth_sandstone": 130,
-        "auxiliaryblocks:rocky_sand": 110,
-        "auxiliaryblocks:cobbled_sandstone": 120,
+        "minecraft:sandstone": 20,
+        "minecraft:smooth_sandstone": 30,
+        "auxiliaryblocks:rocky_sand": 10,
+        "auxiliaryblocks:cobbled_sandstone": 20,
         "tfb2:glitched_sandstone": 1
       }
     },
@@ -33,27 +33,28 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:sandstone": 120,
-        "minecraft:smooth_sandstone": 130,
-        "auxiliaryblocks:rocky_sand": 110,
-        "auxiliaryblocks:cobbled_sandstone": 120,
-        "auxiliaryblocks:cyan_gelatin": 140,
-        "quark:glow_shroom_block": 120,
-        "minecraft:cyan_concrete": 110,
-        "auxiliaryblocks:lab_cyan": 110,
-        "auxiliaryblocks:blue_crystal": 120,
-        "tfb2:glitched_sandstone": 4
+        "minecraft:sandstone": 20,
+        "minecraft:smooth_sandstone": 30,
+        "auxiliaryblocks:rocky_sand": 10,
+        "auxiliaryblocks:cobbled_sandstone": 20,
+        "auxiliaryblocks:cyan_gelatin": 40,
+        "quark:glow_shroom_block": 20,
+        "minecraft:cyan_concrete": 10,
+        "auxiliaryblocks:lab_cyan": 10,
+        "auxiliaryblocks:blue_crystal": 20,
+        "tfb2:glitched_sandstone": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "auxiliaryblocks:cyan_gelatin": 4,
-        "quark:glow_shroom_block": 2,
-        "minecraft:cyan_concrete": 1,
-        "auxiliaryblocks:lab_cyan": 1,
-        "auxiliaryblocks:blue_crystal": 2
+        "auxiliaryblocks:cyan_gelatin": 40,
+        "quark:glow_shroom_block": 20,
+        "minecraft:cyan_concrete": 10,
+        "auxiliaryblocks:lab_cyan": 10,
+        "auxiliaryblocks:blue_crystal": 20,
+        "tfb2:glitched_purple_terracotta": 1
       }
     },
     {
@@ -76,20 +77,18 @@
       "type": "weighted_target",
       "target": "minecraft:grass_block",
       "output": {
-        "minecraft:sand": 140,
-        "auxiliaryblocks:rocky_sand": 120,
-        "auxiliaryblocks:dirty_sand": 110,
-        "auxiliaryblocks:cobbled_sandstone": 110,
-        "tfb2:glitched_sandstone": 2
+        "minecraft:sand": 4,
+        "auxiliaryblocks:rocky_sand": 2,
+        "auxiliaryblocks:dirty_sand": 1,
+        "auxiliaryblocks:cobbled_sandstone": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:dirt",
       "output": {
-        "minecraft:sand": 100,
-        "auxiliaryblocks:dirty_sand": 100,
-        "tfb2:glitched_sandstone": 1
+        "minecraft:sand": 1,
+        "auxiliaryblocks:dirty_sand": 1
       }
     },
     {

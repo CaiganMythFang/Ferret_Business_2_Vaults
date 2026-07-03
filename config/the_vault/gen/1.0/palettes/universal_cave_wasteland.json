@@ -14,7 +14,8 @@
             "output": {
                 "minecraft:stone": 45,
                 "create:cut_tuff": 35,
-                "architects_palette:heavy_cracked_stone_bricks": 25
+                "architects_palette:heavy_cracked_stone_bricks": 25,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
 	    {
@@ -23,7 +24,8 @@
             "output": {
                 "minecraft:stone_bricks": 55,
                 "minecraft:stone": 35,
-                "minecraft:andesite": 10
+                "minecraft:andesite": 10,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
@@ -32,7 +34,8 @@
             "output": {
                 "minecraft:stone_bricks": 35,
                 "minecraft:cracked_stone_bricks": 35,
-                "architects_palette:heavy_stone_bricks": 30
+                "architects_palette:heavy_stone_bricks": 30,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
@@ -48,19 +51,17 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:coarse_dirt": 65,
-                "minecraft:podzol": 65,
-                "minecraft:soul_soil": 60,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 35,
+                "minecraft:podzol": 35,
+                "minecraft:soul_soil": 30
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:dirt": 100,
-                "minecraft:rooted_dirt": 100,
-                "tfb2:glitched_dirt": 1
+                "minecraft:dirt": 1,
+                "minecraft:rooted_dirt": 1
             }
         },
         {
@@ -92,9 +93,8 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "create:cut_deepslate_bricks": 95,
-                "minecraft:deepslate_bricks": 85,
-                "tfb2:glitched_deepslate_cobble": 1
+                "create:cut_deepslate_bricks": 55,
+                "minecraft:deepslate_bricks": 45
             }
         },
         {

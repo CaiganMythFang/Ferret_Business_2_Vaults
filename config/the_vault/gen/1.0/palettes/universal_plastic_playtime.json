@@ -9,23 +9,26 @@
             "target": "minecraft:cobblestone",
             "output": {
                 
-                "minecraft:light_gray_concrete": 1
+                "minecraft:light_gray_concrete": 100,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
 	    {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "auxiliaryblocks:smooth_gray_pastel": 1
+                "auxiliaryblocks:smooth_gray_pastel": 100,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:lab_yellow": 3,
-                "auxiliaryblocks:lab_cyan": 1,
-                "minecraft:pink_concrete": 1
+                "auxiliaryblocks:lab_yellow": 300,
+                "auxiliaryblocks:lab_cyan": 100,
+                "minecraft:pink_concrete": 100,
+                "tfb2:glitched_crimsite": 5
             }
         },
         {

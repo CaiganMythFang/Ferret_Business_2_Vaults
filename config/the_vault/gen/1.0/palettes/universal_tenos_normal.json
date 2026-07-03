@@ -8,27 +8,30 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "the_vault:tenos_gem_block": 1,
-        "architects_palette:warped_boards": 1,
-        "the_vault:tenos_dark_smooth_brick": 2,
-        "minecraft:cyan_concrete": 1
+        "the_vault:tenos_gem_block": 100,
+        "architects_palette:warped_boards": 100,
+        "the_vault:tenos_dark_smooth_brick": 200,
+        "minecraft:cyan_concrete": 100,
+        "tfb2:glitched_purple_terracotta": 5
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "the_vault:tenos_light_smooth_brick": 1,
-        "the_vault:tenos_brick_chiseled": 1,
-        "the_vault:tenos_brick": 1
+        "the_vault:tenos_light_smooth_brick": 100,
+        "the_vault:tenos_brick_chiseled": 100,
+        "the_vault:tenos_brick": 100,
+        "tfb2:glitched_purple_terracotta": 3
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "auxiliaryblocks:cyan_gelatin": 1,
-        "auxiliaryblocks:blue_crystal": 1
+        "auxiliaryblocks:cyan_gelatin": 100,
+        "auxiliaryblocks:blue_crystal": 100,
+        "tfb2:glitched_purple_terracotta": 2
       }
     },
     {

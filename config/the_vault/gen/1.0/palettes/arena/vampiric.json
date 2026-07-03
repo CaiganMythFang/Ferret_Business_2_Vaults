@@ -4,25 +4,28 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:deepslate": 1,
-        "minecraft:cobbled_deepslate": 1
+        "minecraft:deepslate": 99,
+        "minecraft:cobbled_deepslate": 99,
+        "tfb2:glitched_deepslate_cobble": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:smooth_sandstone",
       "output": {
-        "minecraft:stone": 1,
-        "auxiliaryblocks:rocky_stone": 1,
-        "auxiliaryblocks:gray_pastel": 1
+        "minecraft:stone": 66,
+        "auxiliaryblocks:rocky_stone": 66,
+        "auxiliaryblocks:gray_pastel": 66,
+        "tfb2:glitched_deepslate_cobble": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite",
       "output": {
-        "minecraft:blackstone": 1,
-        "minecraft:polished_blackstone": 1
+        "minecraft:blackstone": 99,
+        "minecraft:polished_blackstone": 99,
+        "tfb2:glitched_deepslate_cobble": 2
       }
     },
     {

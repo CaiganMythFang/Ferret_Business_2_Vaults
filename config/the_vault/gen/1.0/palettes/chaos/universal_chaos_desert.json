@@ -8,30 +8,33 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:smooth_sandstone": 3,
-                "minecraft:sandstone": 3,
-                "auxiliaryblocks:dirty_sand": 2,
-                "quark:sandstone_bricks": 1
+                "minecraft:smooth_sandstone": 30,
+                "minecraft:sandstone": 30,
+                "auxiliaryblocks:dirty_sand": 20,
+                "quark:sandstone_bricks": 10,
+                "tfb2:glitched_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_sandstone": 1,
-                "minecraft:sandstone": 1,
-                "quark:sandstone_bricks": 1
+                "minecraft:smooth_sandstone": 100,
+                "minecraft:sandstone": 100,
+                "quark:sandstone_bricks": 100,
+                "tfb2:glitched_sandstone": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:smooth_red_sandstone": 1,
-                "minecraft:yellow_terracotta": 1,
-                "minecraft:orange_terracotta": 1,
-                "minecraft:terracotta": 1,
-                "minecraft:red_sandstone": 1
+                "minecraft:smooth_red_sandstone": 100,
+                "minecraft:yellow_terracotta": 100,
+                "minecraft:orange_terracotta": 100,
+                "minecraft:terracotta": 100,
+                "minecraft:red_sandstone": 100,
+                "tfb2:glitched_purple_terracotta": 5
             }
         },
         {

@@ -8,23 +8,26 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:andesite": 5,
-        "auxiliaryblocks:gray_pastel": 1
+        "minecraft:andesite": 500,
+        "auxiliaryblocks:gray_pastel": 100,
+        "tfb2:glitched_vault_cobble": 6
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:tuff": 1
+        "minecraft:tuff": 99,
+        "tfb2:glitched_vault_cobble": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "minecraft:packed_ice": 3,
-        "minecraft:blue_ice": 1
+        "minecraft:packed_ice": 300,
+        "minecraft:blue_ice": 100,
+        "tfb2:glitched_snow_block": 4
       }
     },
     {

@@ -12,7 +12,7 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "chipped:deepslate_1": 199,
+        "chipped:deepslate_1": 99,
         "tfb2:glitched_deepslate_cobble": 1
       }
     },
@@ -20,8 +20,38 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "the_vault:polished_vault_stone": 199,
+        "the_vault:polished_vault_stone": 99,
         "tfb2:glitched_vault_cobble": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gray_concrete",
+      "output": {
+        "minecraft:white_stained_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "minecraft:deepslate": 99,
+        "tfb2:glitched_deepslate_cobble": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "minecraft:deepslate": 3,
+        "chipped:deepslate_1": 2
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "minecraft:deepslate": 1
       }
     },
     {
@@ -43,6 +73,13 @@
       "target": "minecraft:spruce_slab",
       "output": {
         "create:polished_cut_deepslate_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_wool",
+      "output": {
+        "minestuck:polished_chalk": 1
       }
     },
     {
@@ -280,6 +317,13 @@
       "target": "minecraft:cobblestone_stairs",
       "output": {
         "minecraft:cobbled_deepslate_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_stone_bricks",
+      "output": {
+        "chipped:mossy_cobblestone_7": 1
       }
     },
     {

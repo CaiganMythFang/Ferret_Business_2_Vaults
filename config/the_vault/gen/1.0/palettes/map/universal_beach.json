@@ -8,9 +8,10 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "auxiliaryblocks:rocky_sand": 1,
-                "auxiliaryblocks:dirty_sand": 1,
-                "minecraft:andesite": 3
+                "auxiliaryblocks:rocky_sand": 100,
+                "auxiliaryblocks:dirty_sand": 100,
+                "minecraft:andesite": 300,
+                "tfb2:glitched_sandstone": 5
             }
         },
         {
@@ -19,15 +20,17 @@
             "output": {
                 "minecraft:stone": 55,
                 "minecraft:andesite": 30,
-                "minecraft:cobblestone": 15
+                "minecraft:cobblestone": 15,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "create:cut_tuff": 2,
-                "minecraft:tuff": 1
+                "create:cut_tuff": 200,
+                "minecraft:tuff": 100,
+                "tfb2:glitched_vault_cobble": 3
             }
         },
         {

@@ -10,47 +10,48 @@
             "output": {
                 "minecraft:mossy_cobblestone": 35,
                 "auxiliaryblocks:mossy_stone": 35,
-                "minecraft:moss_block": 30
+                "minecraft:moss_block": 30,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "create:cut_tuff": 4,
-                "minecraft:dead_brain_coral_block": 3,
-                "minecraft:dead_tube_coral_block": 3
+                "create:cut_tuff": 40,
+                "minecraft:dead_brain_coral_block": 30,
+                "minecraft:dead_tube_coral_block": 30,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "architects_palette:algal_bricks": 1,
-                "architects_palette:overgrown_algal_bricks": 1,
-                "quark:green_shingles": 1,
-                "quark:midori_block": 1
+                "architects_palette:algal_bricks": 100,
+                "architects_palette:overgrown_algal_bricks": 100,
+                "quark:green_shingles": 100,
+                "quark:midori_block": 100,
+                "tfb2:glitched_vault_cobble": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 120,
-                "auxiliaryblocks:dirty_sand": 140,
-                "auxiliaryblocks:rocky_sand": 140,
-                "tfb2:glitched_sandstone": 2
+                "minecraft:sand": 2,
+                "auxiliaryblocks:dirty_sand": 4,
+                "auxiliaryblocks:rocky_sand": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:spruce_wood": 100,
-                "minecraft:stripped_dark_oak_wood": 100,
-                "minecraft:dark_oak_planks": 100,
-                "architects_palette:dark_oak_boards": 100,
-                "tfb2:glitched_dark_oak_log": 2
+                "minecraft:spruce_wood": 1,
+                "minecraft:stripped_dark_oak_wood": 1,
+                "minecraft:dark_oak_planks": 1,
+                "architects_palette:dark_oak_boards": 1
             }
         },
         {

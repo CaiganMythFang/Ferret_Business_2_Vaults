@@ -12,7 +12,8 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 1
+            "minecraft:snow_block": 99,
+            "tfb2:glitched_snow_block": 1
           }
         },
         {
@@ -20,8 +21,9 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 9,
-            "minecraft:powder_snow": 1
+            "minecraft:snow_block": 90,
+            "minecraft:powder_snow": 10,
+            "tfb2:glitched_snow_block": 1
           }
         }
       ]
@@ -30,10 +32,11 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "auxiliaryblocks:drippy_icing_block": 2,
-        "quark:white_corundum": 1,
-        "auxiliaryblocks:white_crystal": 1,
-        "ecologics:snow_bricks": 1
+        "auxiliaryblocks:drippy_icing_block": 200,
+        "quark:white_corundum": 100,
+        "auxiliaryblocks:white_crystal": 100,
+        "ecologics:snow_bricks": 100,
+        "tfb2:glitched_snow_block": 5
       }
     },
     {

@@ -8,27 +8,30 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:stone": 1,
-                "minecraft:granite": 1,
-                "minecraft:terracotta": 1
+                "minecraft:stone": 100,
+                "minecraft:granite": 100,
+                "minecraft:terracotta": 100,
+                "tfb2:glitched_dirt": 3
             }
         },
 	    {
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:stone": 7,
-                "architects_palette:heavy_cracked_stone_bricks": 2,
-                "minecraft:cobblestone": 1
+                "minecraft:stone": 70,
+                "architects_palette:heavy_cracked_stone_bricks": 20,
+                "minecraft:cobblestone": 10,
+                "tfb2:glitched_vault_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:granite": 2,
-                "create:cut_granite": 1,
-                "minecraft:terracotta": 1
+                "minecraft:granite": 200,
+                "create:cut_granite": 100,
+                "minecraft:terracotta": 100,
+                "tfb2:glitched_dirt": 4
             }
         },
         {
@@ -44,17 +47,15 @@
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:coarse_dirt": 141,
-                "auxiliaryblocks:rocky_dirt": 111,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 4,
+                "auxiliaryblocks:rocky_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:coarse_dirt": 199,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 1
             }
         },
         {
@@ -83,10 +84,9 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:coarse_dirt": 111,
-                "minecraft:rooted_dirt": 111,
-                "minecraft:granite": 121,
-                "tfb2:glitched_dirt": 1
+                "minecraft:coarse_dirt": 1,
+                "minecraft:rooted_dirt": 1,
+                "minecraft:granite": 2
             }
         },
         {

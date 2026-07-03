@@ -15,7 +15,7 @@
                 "minecraft:polished_blackstone_bricks": 100,
                 "supplementaries:blackstone_tile": 60,
                 "minecraft:polished_blackstone": 40,
-                "tfb2:glitched_deepslate_cobble": 1
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
         {
@@ -26,25 +26,25 @@
                 "architects_palette:sunstone": 20,
                 "minecraft:magma_block": 40,
                 "minecraft:blackstone": 100,
-                "tfb2:glitched_deepslate_cobble": 1
+                "tfb2:glitched_deepslate_cobble": 2
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:shroomlight": 1,
-                "auxiliaryblocks:orange_gelatin": 2,
-                "auxiliaryblocks:orange_crystal": 2
+                "minecraft:shroomlight": 100,
+                "auxiliaryblocks:orange_gelatin": 200,
+                "auxiliaryblocks:orange_crystal": 200,
+                "tfb2:glitched_crimsite": 5
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:crimson_nylium": 100,
-                "minecraft:netherrack": 300,
-                "tfb2:glitched_crimsite": 2
+                "minecraft:crimson_nylium": 1,
+                "minecraft:netherrack": 3
             }
         },
         {

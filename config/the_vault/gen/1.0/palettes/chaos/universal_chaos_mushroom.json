@@ -10,23 +10,26 @@
             "output": {
                 "minecraft:moss_block": 50,
                 "minecraft:dark_oak_leaves": 25,
-                "minecraft:mushroom_stem": 25
+                "minecraft:mushroom_stem": 25,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
 	{
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:dark_oak_log": 6,
-                "minecraft:stripped_dark_oak_log": 4
+                "minecraft:dark_oak_log": 60,
+                "minecraft:stripped_dark_oak_log": 40,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:brown_mushroom_block": 7,
-                "minecraft:terracotta": 3
+                "minecraft:brown_mushroom_block": 70,
+                "minecraft:terracotta": 30,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {

@@ -4,24 +4,27 @@
       "type": "weighted_target",
       "target": "minecraft:smooth_sandstone",
       "output": {
-        "minecraft:dirt": 1,
-        "minecraft:rooted_dirt": 1
+        "minecraft:dirt": 99,
+        "minecraft:rooted_dirt": 99,
+        "tfb2:glitched_dirt": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:light_gray_concrete_powder": 1
+        "minecraft:light_gray_concrete_powder": 199,
+        "tfb2:glitched_deepslate_cobble": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite",
       "output": {
-        "minecraft:stone": 1,
-        "minecraft:andesite": 1,
-        "minecraft:light_gray_concrete_powder": 1
+        "minecraft:stone": 66,
+        "minecraft:andesite": 66,
+        "minecraft:light_gray_concrete_powder": 66,
+        "tfb2:glitched_deepslate_cobble": 2
       }
     },
     {

@@ -12,9 +12,10 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "the_vault:idona_brick_chiseled": 1,
-                "the_vault:idona_gem_block": 1,
-                "the_vault:idona_dark_smooth_brick": 2
+                "the_vault:idona_brick_chiseled": 100,
+                "the_vault:idona_gem_block": 100,
+                "the_vault:idona_dark_smooth_brick": 200,
+                "tfb2:glitched_crimsite": 4
             }
         },
         {
@@ -24,15 +25,16 @@
                 "minecraft:red_nether_bricks": 200,
                 "minecraft:nether_wart_block": 200,
                 "the_vault:idona_light_smooth_brick": 100,
-                "tfb2:glitched_crimsite": 2
+                "tfb2:glitched_crimsite": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:red_crystal": 1,
-                "auxiliaryblocks:red_gelatin": 1
+                "auxiliaryblocks:red_crystal": 100,
+                "auxiliaryblocks:red_gelatin": 100,
+                "tfb2:glitched_crimsite": 2
             }
         },
         {

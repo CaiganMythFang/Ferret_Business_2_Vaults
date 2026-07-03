@@ -8,8 +8,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "chipped:stripped_dark_oak_log_2": 1,
-                "chipped:stripped_spruce_log_7": 1
+                "chipped:stripped_dark_oak_log_2": 100,
+                "chipped:stripped_spruce_log_7": 100,
+                "tfb2:glitched_dark_oak_log": 2
             }
         },
         {
@@ -17,17 +18,19 @@
             "target": "minecraft:cobblestone",
             "output": {
                 "minecraft:podzol": 45,
-                "auxiliaryblocks:mossy_dirt": 40
+                "auxiliaryblocks:mossy_dirt": 40,
+                "tfb2:glitched_dirt": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "chipped:dark_oak_planks_8": 1,
-                "chipped:stripped_dark_oak_log_4": 1,
-                "architects_palette:spruce_boards": 3,
-                "minecraft:rooted_dirt": 5
+                "chipped:dark_oak_planks_8": 10,
+                "chipped:stripped_dark_oak_log_4": 10,
+                "architects_palette:spruce_boards": 30,
+                "minecraft:rooted_dirt": 50,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {

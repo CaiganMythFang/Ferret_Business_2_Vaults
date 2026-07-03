@@ -8,13 +8,14 @@
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "create:cut_scorchia": 10,
-                "create:scorchia": 10,
-                "architects_palette:algal_bricks": 10,
-                "architects_palette:olivestone_bricks": 10,
-                "architects_palette:olivestone_tiles": 5,
-                "architects_palette:cracked_olivestone_tiles": 5,
-                "ecologics:walnut_fence": 5
+                "create:cut_scorchia": 100,
+                "create:scorchia": 100,
+                "architects_palette:algal_bricks": 100,
+                "architects_palette:olivestone_bricks": 100,
+                "architects_palette:olivestone_tiles": 50,
+                "architects_palette:cracked_olivestone_tiles": 50,
+                "ecologics:walnut_fence": 50,
+                "tfb2:glitched_dirt": 6
             }
         },
         {
@@ -24,7 +25,8 @@
                 "ecologics:walnut_planks": 25,
                 "ecologics:walnut_wood": 25,
                 "everycomp:ap/ecologics/walnut_boards": 25,
-                "ecologics:stripped_walnut_wood": 25
+                "ecologics:stripped_walnut_wood": 25,
+                "tfb2:glitched_dark_oak_log": 1
             }
         },
         {
@@ -35,28 +37,27 @@
                 "auxiliaryblocks:cyan_gelatin": 20,
                 "minecraft:cyan_concrete": 10,
                 "auxiliaryblocks:lab_cyan": 10,
-                "auxiliaryblocks:cyan_plastic": 10
+                "auxiliaryblocks:cyan_plastic": 10,
+                "tfb2:glitched_purple_terracotta": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 80,
-                "auxiliaryblocks:dirty_sand": 60,
-                "auxiliaryblocks:rocky_sand": 60,
-                "tfb2:glitched_sandstone": 2
+                "minecraft:sand": 40,
+                "auxiliaryblocks:dirty_sand": 30,
+                "auxiliaryblocks:rocky_sand": 30
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "minecraft:spruce_planks": 250,
-                "minecraft:stripped_spruce_wood": 250,
-                "architects_palette:spruce_boards": 250,
-                "decorative_blocks:spruce_beam": 250,
-                "tfb2:glitched_dark_oak_log": 3
+                "minecraft:spruce_planks": 25,
+                "minecraft:stripped_spruce_wood": 25,
+                "architects_palette:spruce_boards": 25,
+                "decorative_blocks:spruce_beam": 25
             }
         },
         {

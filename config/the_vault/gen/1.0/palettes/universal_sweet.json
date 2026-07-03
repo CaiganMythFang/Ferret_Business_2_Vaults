@@ -9,7 +9,8 @@
             "target": "minecraft:stone",
             "output": {
                 "auxiliaryblocks:smooth_pink_pastel": 35,
-                "auxiliaryblocks:pink_pastel": 65
+                "auxiliaryblocks:pink_pastel": 65,
+                "tfb2:glitched_snow_block": 1
             }
         },
         {
@@ -18,44 +19,41 @@
             "output": {
                 "minecraft:smooth_quartz": 100,
                 "minecraft:snow_block": 300,
-                "tfb2:glitched_snow_block": 2
+                "tfb2:glitched_snow_block": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "auxiliaryblocks:violet_crystal": 120,
-                "auxiliaryblocks:magenta_gelatin": 120,
-                "minecraft:pink_concrete": 110,
-                "quark:myalite_crystal": 110,
-                "tfb2:glitched_purple_terracotta": 2
+                "auxiliaryblocks:violet_crystal": 200,
+                "auxiliaryblocks:magenta_gelatin": 200,
+                "minecraft:pink_concrete": 100,
+                "quark:myalite_crystal": 100,
+                "tfb2:glitched_purple_terracotta": 6
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:stripped_crimson_hyphae": 300,
-                "architects_palette:crimson_boards": 100,
-                "tfb2:glitched_crimsite": 2
+                "minecraft:stripped_crimson_hyphae": 3,
+                "architects_palette:crimson_boards": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:crimson_planks": 199,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:crimson_planks": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "architects_palette:dark_oak_boards": 300,
-                "minecraft:brown_terracotta": 100,
-                "tfb2:glitched_dark_oak_log": 2
+                "architects_palette:dark_oak_boards": 3,
+                "minecraft:brown_terracotta": 1
             }
         },
         {

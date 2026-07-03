@@ -12,9 +12,9 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:netherrack": 175,
-                "minecraft:crimson_planks": 115,
-                "minecraft:warped_hyphae": 110,
+                "minecraft:netherrack": 75,
+                "minecraft:crimson_planks": 15,
+                "minecraft:warped_hyphae": 10,
                 "tfb2:glitched_crimsite": 1
             }
         },
@@ -25,16 +25,17 @@
                 "architects_palette:twisting_blackstone": 60,
                 "twigs:twisting_polished_blackstone_bricks": 20,
                 "minecraft:shroomlight": 10,
-                "minecraft:magma_block": 10
+                "minecraft:magma_block": 10,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:blackstone": 160,
-                "minecraft:polished_blackstone": 140,
-                "tfb2:glitched_deepslate_cobble": 2
+                "minecraft:blackstone": 60,
+                "minecraft:polished_blackstone": 40,
+                "tfb2:glitched_deepslate_cobble": 1
             }
         },
         {
@@ -48,8 +49,7 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:netherrack": 199,
-                "tfb2:glitched_crimsite": 1
+                "minecraft:netherrack": 1
             }
         },
         {
@@ -85,10 +85,9 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:netherrack": 175,
-                "minecraft:crimson_planks": 115,
-                "minecraft:warped_hyphae": 110,
-                "tfb2:glitched_crimsite": 2
+                "minecraft:netherrack": 75,
+                "minecraft:crimson_planks": 15,
+                "minecraft:warped_hyphae": 10
             }
         },
         {

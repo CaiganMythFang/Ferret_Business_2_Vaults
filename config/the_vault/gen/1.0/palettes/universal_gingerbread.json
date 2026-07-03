@@ -8,23 +8,26 @@
       "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "minecraft:brown_concrete": 1,
-        "auxiliaryblocks:gingerbread_block": 1
+        "minecraft:brown_concrete": 100,
+        "auxiliaryblocks:gingerbread_block": 100,
+        "tfb2:glitched_dark_oak_log": 2
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "minecraft:brown_terracotta": 3,
-        "quark:brown_shingles": 1
+        "minecraft:brown_terracotta": 300,
+        "quark:brown_shingles": 100,
+        "tfb2:glitched_dark_oak_log": 4
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gray_concrete",
       "output": {
-        "minecraft:black_terracotta": 1
+        "minecraft:black_terracotta": 100,
+        "tfb2:glitched_vault_cobble": 1
       }
     },
     {
