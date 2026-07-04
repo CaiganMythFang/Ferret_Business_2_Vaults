@@ -618,8 +618,8 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 75 Ferret Dollars",
-            "isTranslationKey": true
+            "text": "Cost : 35 Ferret Dollars",
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -627,7 +627,7 @@
                 "id": "tfb2:ferret_dollar",
                 "Count": 1
               },
-              "required": 75
+              "required": 35
             },
             {
               "item": {
@@ -713,13 +713,17 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 25 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
               },
-              "required": 3
+              "required": 25
             }
           ]
         }
@@ -813,19 +817,13 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 150 Ferret Dollars",
+            "text": "Cost : 100 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
                 "id": "tfb2:ferret_hundred_dollar",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
               }
             },
@@ -932,7 +930,7 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 100 Ferret Dollars",
+            "text": "Cost : 50 Ferret Dollars",
             "isTranslationKey": false
           },
           "longDescription": {
@@ -942,7 +940,7 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_hundred_dollar",
+                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
               }
             }
@@ -994,7 +992,7 @@
                 "id": "tfb2:ferret_dollar",
                 "Count": 1
               },
-              "required": 25
+              "required": 20
             }
           ]
         }
@@ -1093,15 +1091,16 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 50 Ferret Dollars",
+            "text": "Cost : 25 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
-              }
+              },
+              "required": 25
             },
             {
               "item": {
@@ -1500,15 +1499,16 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 100 Ferret Dollars",
+            "text": "Cost : 40 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_hundred_dollar",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
-              }
+              },
+              "required": 40
             },
             {
               "item": {
@@ -1901,7 +1901,7 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
               "required": 3

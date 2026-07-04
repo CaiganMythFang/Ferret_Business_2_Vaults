@@ -71,13 +71,13 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost: 250 Ferret Dollars",
+            "text": "Cost: 100 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
               "required": 5
@@ -452,6 +452,10 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 30 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "longDescription": {
             "text": "    Higher tier Debit Cards can be obtained by combining 4 of the previous tier. The Tiers are as follows : \n    Copper \u003e Iron \u003e Gold \u003e Diamond \u003e Platinum \u003e Singularity\n    Higher tiers hold much more FMC.",
             "isTranslationKey": true
@@ -459,9 +463,10 @@
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_dollar",
                 "Count": 1
-              }
+              },
+              "required": 30
             }
           ]
         }
@@ -502,7 +507,7 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 500 Ferret Dollars",
+            "text": "Cost : 150 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
@@ -512,6 +517,12 @@
                 "Count": 1
               },
               "required": 5
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
             }
           ]
         }
@@ -552,13 +563,13 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 100 Ferret Dollars",
+            "text": "Cost : 50 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_hundred_dollar",
+                "id": "tfb2:ferret_fifty_dollar",
                 "Count": 1
               }
             }
@@ -601,7 +612,7 @@
         {
           "type": "CONSUME",
           "description": {
-            "text": "Cost : 250 Ferret Dollars",
+            "text": "Cost : 100 Ferret Dollars",
             "isTranslationKey": false
           },
           "items": [
@@ -611,12 +622,6 @@
                 "Count": 1
               },
               "required": 2
-            },
-            {
-              "item": {
-                "id": "tfb2:ferret_fifty_dollar",
-                "Count": 1
-              }
             }
           ]
         }
@@ -907,13 +912,17 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 200 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
-                "id": "tfb2:ferret_fifty_dollar",
+                "id": "tfb2:ferret_hundred_dollar",
                 "Count": 1
               },
-              "required": 5
+              "required": 2
             },
             {
               "item": {
@@ -971,6 +980,10 @@
       "tasks": [
         {
           "type": "CONSUME",
+          "description": {
+            "text": "Cost : 100 Ferret Dollars",
+            "isTranslationKey": false
+          },
           "longDescription": {
             "text": "    Buying a new one will also take time. We need about one day to rebuild the systems to keep them from being detected. Especially because we are ensuring that if one TFB Shipping System is compromised, none of the others are discovered.",
             "isTranslationKey": true
@@ -982,12 +995,6 @@
                 "Count": 1
               },
               "required": 2
-            },
-            {
-              "item": {
-                "id": "tfb2:ferret_fifty_dollar",
-                "Count": 1
-              }
             }
           ]
         }
