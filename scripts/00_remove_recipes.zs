@@ -697,10 +697,10 @@ craftingTable.removeByName("minecraft:suspicious_stew");
 // craftingTable.remove(<item:mininggadgets:upgrade_silk>);
 
 // Building Gadgets
-craftingTable.remove(<item:buildinggadgets:gadget_destruction>);
-craftingTable.remove(<item:buildinggadgets:gadget_building>);
-craftingTable.remove(<item:buildinggadgets:gadget_copy_paste>);
-craftingTable.remove(<item:buildinggadgets:gadget_exchanging>);
+// craftingTable.remove(<item:buildinggadgets:gadget_destruction>);
+// craftingTable.remove(<item:buildinggadgets:gadget_building>);
+// craftingTable.remove(<item:buildinggadgets:gadget_copy_paste>);
+// craftingTable.remove(<item:buildinggadgets:gadget_exchanging>);
 
 // RFTools
 craftingTable.remove(<item:rftoolsbase:crafting_card>);
