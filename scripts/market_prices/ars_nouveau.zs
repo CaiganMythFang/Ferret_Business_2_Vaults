@@ -27,7 +27,7 @@ val priceTable as int[IItemStack] = {
     <item:ars_nouveau:apprentice_spell_book> : 65100,
     <item:ars_nouveau:basic_spell_turret> : 46750,
     <item:ars_nouveau:enchanters_mirror> : 46725,
-    <item:ars_nouveau:enchanting_apparatus> : 39600,
+    <item:ars_nouveau:enchanting_apparatus> : 78025,
     <item:ars_nouveau:familiar_bookwyrm> : 5300,
     <item:ars_nouveau:familiar_drygmy> : 5300,
     <item:ars_nouveau:familiar_starbuncle> : 5300,
