@@ -303,7 +303,7 @@
 		{
 			title: "Pirate Broadcast Research DLC Bypass #7"
 			icon: "tfb2:research_pirate"
-			x: -5.75d
+			x: -6.75d
 			y: 3.0d
 			shape: "rsquare"
 			hide_dependency_lines: true
@@ -4467,6 +4467,53 @@
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 8451258590426621307L
+			}]
+		}
+		{
+			title: "Pirate Broadcast Research DLC Bypass #8"
+			icon: "tfb2:research_pirate"
+			x: -4.75d
+			y: 3.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["4639742CB50AF1A2"]
+			hide: true
+			id: "298F0775D984019C"
+			tasks: [
+				{
+					id: "64C6B63B65B687E4"
+					type: "item"
+					item: "tfb2:token_hacked"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "0178AD6A6E73A5D5"
+					type: "item"
+					item: "tfb2:ferret_dollar"
+					count: 10000L
+					consume_items: true
+				}
+				{
+					id: "4714C835B2B43C0F"
+					type: "item"
+					title: "Any Glitched Resource"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfb2:glitched_resources"
+						}
+					}
+					count: 3200L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "413AF2C49EEECE8E"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 4318856103801419682L
 			}]
 		}
 	]
