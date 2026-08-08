@@ -8,16 +8,16 @@
       },
       "pool": [
         {
-          "weight": 100,
+          "weight": 1,
           "pool": [
             {
-              "weight": 20,
+              "weight": 1,
               "item": {
-                "id": "tfb2:token_hacked",
+                "id": "the_vault:eternal_soul",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 2,
+                  "max": 4
                 }
               }
             }
@@ -25,11 +25,11 @@
         }
       ]
     },
-    {
+     {
       "roll": {
         "type": "uniform",
         "min": 1,
-        "max": 1
+        "max": 2
       },
       "pool": [
         {
@@ -38,7 +38,40 @@
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:eternal_soul",
+                "id": "the_vault:red_vault_essence",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:green_vault_essence",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:yellow_vault_essence",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:blue_vault_essence",
                 "count": {
                   "type": "uniform",
                   "min": 2,
@@ -400,6 +433,62 @@
                 "id": "the_vault:booster_pack",
                 "nbt": {
                   "id": "the_vault:mega_evolution_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:hellish_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:grove_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:library_pack"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:museum_pack"
                 },
                 "count": {
                   "type": "uniform",

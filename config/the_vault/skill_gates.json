@@ -1,191 +1,6 @@
 {
   "SKILL_GATES": {
     "entries": {
-      "Regeneration": {
-        "dependsOn": [],
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Vampirism"
-          }
-        ]
-      },
-      "Vampirism": {
-        "dependsOn": [],
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Regeneration"
-          }
-        ]
-      },
-      "Parry": {
-        "dependsOn": [],
-        "lockedBy": []
-      },
-      "Resistance": {
-        "dependsOn": [],
-        "lockedBy": []
-      },
-      "Carapace": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Resistance"
-          }
-        ],
-        "lockedBy": []
-      },
-      "Ninja": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Parry"
-          }
-        ],
-        "lockedBy": []
-      },
-      "Fire_Resistance": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Water_Breathing"
-          }
-        ],
-        "lockedBy": []
-      },
-      "Treasure_Hunter": {
-        "dependsOn": [],
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Artisan"
-          }
-        ]
-      },
-      "Artisan": {
-        "dependsOn": [],
-        "lockedBy": []
-      },
-      "Careless": {
-        "lockedBy": [],
-        "dependsOn": []
-      },
-      "Angel": {
-        "lockedBy": [],
-        "dependsOn": []
-      },
-      "Fatal_Strike_Chance": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Fatal_Strike_Damage"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Fatal_Strike_Damage": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Fatal_Strike_Chance"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Thorns_Damage": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Thorns_Chance"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Thorns_Chance": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Thorns_Damage"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Last_Stand": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Berserking"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Berserking": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Last_Stand"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Nucleus": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Daze"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Daze": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Nucleus"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Weakness_Affinity": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Slowness_Affinity"
-          },
-          {
-            "type": "constant",
-            "id": "Wither_Affinity"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Slowness_Affinity": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Weakness_Affinity"
-          },
-          {
-            "type": "constant",
-            "id": "Wither_Affinity"
-          }
-        ],
-        "dependsOn": []
-      },
-      "Wither_Affinity": {
-        "lockedBy": [
-          {
-            "type": "constant",
-            "id": "Slowness_Affinity"
-          },
-          {
-            "type": "constant",
-            "id": "Weakness_Affinity"
-          }
-        ],
-        "dependsOn": []
-      },
       "Mekanism Generators": {
         "dependsOn": [
           {
@@ -211,212 +26,6 @@
           {
             "type": "constant",
             "id": "Mekanism"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Applied Compatability": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Applied Energistics"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Applied Botanics": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Applied Energistics"
-          },
-          {
-            "type": "constant",
-            "id": "Botania"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Advanced Peripherals": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "ComputerCraft"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Compressed Creativity": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Create"
-          },
-          {
-            "type": "constant",
-            "id": "PneumaticCraft"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Applied Mekanistics": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Applied Energistics"
-          },
-          {
-            "type": "constant",
-            "id": "Mekanism"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Incorporeal": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Botania"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Botanical Machinery": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Botania"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Mystical Agriculture": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Botania"
-          },
-          {
-            "type": "constant",
-            "id": "Bonsai Pots"
-          },
-          {
-            "type": "constant",
-            "id": "Botany Pots"
-          },
-          {
-            "type": "constant",
-            "id": "Botanical Machinery"
-          },
-          {
-            "type": "constant",
-            "id": "Botania Flux Field"
-          },
-          {
-            "type": "constant",
-            "id": "Incorporeal"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "QuarryPlus": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Oops, All Iron Mods"
-          },
-          {
-            "type": "constant",
-            "id": "Mekanism"
-          },
-          {
-            "type": "constant",
-            "id": "Digital Miner"
-          },
-          {
-            "type": "constant",
-            "id": "Create Ore Excavation"
-          },
-          {
-            "type": "constant",
-            "id": "Mining Gadgets"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Create Ore Excavation": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Create"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Create Diesel Generators": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Create"
-          },
-          {
-            "type": "constant",
-            "id": "Create Crafts and Additions"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Create Mechanical Extruder": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Create"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Create Crafts and Additions": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Create"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Mega Cells": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Applied Energistics"
-          },
-          {
-            "type": "constant",
-            "id": "Mekanism"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Scanner": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Advanced Finders"
           }
         ],
         "ignoreArrow": true,
@@ -462,50 +71,6 @@
           {
             "type": "constant",
             "id": "Belts"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Misc Bag Upgrades": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Backpacks"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
-      "Bag Inception": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "Big Backpacks"
-          },
-          {
-            "type": "constant",
-            "id": "Junk Management"
-          },
-          {
-            "type": "constant",
-            "id": "Soul Harvester"
-          },
-          {
-            "type": "constant",
-            "id": "Backpack Upgrades 1"
-          },
-          {
-            "type": "constant",
-            "id": "Advanced Finders"
-          },
-          {
-            "type": "constant",
-            "id": "Misc Bag Upgrades"
-          },
-          {
-            "type": "constant",
-            "id": "Scanner"
           }
         ],
         "ignoreArrow": true,
@@ -833,36 +398,6 @@
         "ignoreArrow": true,
         "lockedBy": []
       },
-      "Draconic Evolution": {
-        "dependsOn": [
-          {
-            "type": "constant",
-            "id": "RFTools Power"
-          },
-          {
-            "type": "constant",
-            "id": "Powah"
-          },
-          {
-            "type": "constant",
-            "id": "Flux Networks"
-          },
-          {
-            "type": "constant",
-            "id": "Thermal Dynamos"
-          },
-          {
-            "type": "constant",
-            "id": "Mekanism Generators"
-          },
-          {
-            "type": "constant",
-            "id": "Botania Flux Field"
-          }
-        ],
-        "ignoreArrow": true,
-        "lockedBy": []
-      },
       "Altar Automation": {
         "dependsOn": [
           {
@@ -881,6 +416,195 @@
         ],
         "ignoreArrow": true,
         "lockedBy": []
+      },
+      "Regeneration": {
+        "dependsOn": [],
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Vampirism"
+          }
+        ]
+      },
+      "Vampirism": {
+        "dependsOn": [],
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Regeneration"
+          }
+        ]
+      },
+      "Parry": {
+        "dependsOn": [],
+        "lockedBy": []
+      },
+      "Resistance": {
+        "dependsOn": [],
+        "lockedBy": []
+      },
+      "Carapace": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Resistance"
+          }
+        ],
+        "lockedBy": []
+      },
+      "Ninja": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Parry"
+          }
+        ],
+        "lockedBy": []
+      },
+      "Fire_Resistance": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Water_Breathing"
+          }
+        ],
+        "lockedBy": []
+      },
+      "Treasure_Hunter": {
+        "dependsOn": [],
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Artisan"
+          }
+        ]
+      },
+      "Artisan": {
+        "dependsOn": [],
+        "lockedBy": []
+      },
+      "Careless": {
+        "lockedBy": [],
+        "dependsOn": []
+      },
+      "Angel": {
+        "lockedBy": [],
+        "dependsOn": []
+      },
+      "Fatal_Strike_Chance": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Fatal_Strike_Damage"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Fatal_Strike_Damage": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Fatal_Strike_Chance"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Thorns_Damage": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Thorns_Chance"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Thorns_Chance": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Thorns_Damage"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Last_Stand": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Berserking"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Berserking": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Last_Stand"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Stoneskin": {
+        "lockedBy": [],
+        "dependsOn": []
+      },
+      "Nucleus": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Daze"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Daze": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Nucleus"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Weakness_Affinity": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Slowness_Affinity"
+          },
+          {
+            "type": "constant",
+            "id": "Wither_Affinity"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Slowness_Affinity": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Weakness_Affinity"
+          },
+          {
+            "type": "constant",
+            "id": "Wither_Affinity"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Wither_Affinity": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Slowness_Affinity"
+          },
+          {
+            "type": "constant",
+            "id": "Weakness_Affinity"
+          }
+        ],
+        "dependsOn": []
       },
       "Methodical": {
         "lockedBy": [
@@ -943,6 +667,352 @@
       "Lightning_Stun": {
         "lockedBy": [{ "type": "constant", "id": "Lightning_Damage" }],
         "dependsOn": []
+      },
+      "Ethereal": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Quickening"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Quickening": {
+        "lockedBy": [
+          {
+            "type": "constant",
+            "id": "Ethereal"
+          }
+        ],
+        "dependsOn": []
+      },
+      "Trap_Disarm": {
+        "lockedBy": [],
+        "dependsOn": []
+      },
+      "Clean_Escape": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "talent_points_spent",
+            "amount": 15
+          }
+        ]
+      },
+      "Executioner": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "talent_points_spent",
+            "amount": 5
+          }
+        ]
+      },
+      "Battle_Trance": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "talent_points_spent",
+            "amount": 40
+          },
+          {
+            "type": "constant",
+            "id": "Might_II"
+          }
+        ]
+      },
+      "Treasure_Sense": {
+        "lockedBy": [],
+        "dependsOn": [
+          {
+            "type": "talent_points_spent",
+            "amount": 40
+          }
+        ]
+      },
+      "Lingering_Fumes": {
+        "lockedBy": [],
+        "dependsOn": []
+      },
+      "Applied Compatability": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Applied Energistics"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Applied Botanics": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Applied Energistics"
+          },
+          {
+            "type": "constant",
+            "id": "Botania"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Advanced Peripherals": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "ComputerCraft"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Compressed Creativity": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Create"
+          },
+          {
+            "type": "constant",
+            "id": "PneumaticCraft"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Applied Mekanistics": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Applied Energistics"
+          },
+          {
+            "type": "constant",
+            "id": "Mekanism"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Incorporeal": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Botania"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Botanical Machinery": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Botania"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Mystical Agriculture": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Botania"
+          },
+          {
+            "type": "constant",
+            "id": "Bonsai Pots"
+          },
+          {
+            "type": "constant",
+            "id": "Botany Pots"
+          },
+          {
+            "type": "constant",
+            "id": "Botanical Machinery"
+          },
+          {
+            "type": "constant",
+            "id": "Botania Flux Field"
+          },
+          {
+            "type": "constant",
+            "id": "Incorporeal"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "QuarryPlus": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Oops, All Iron Mods"
+          },
+          {
+            "type": "constant",
+            "id": "Mekanism"
+          },
+          {
+            "type": "constant",
+            "id": "Digital Miner"
+          },
+          {
+            "type": "constant",
+            "id": "Create Ore Excavation"
+          },
+          {
+            "type": "constant",
+            "id": "Mining Gadgets"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Create Ore Excavation": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Create"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Create Diesel Generators": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Create"
+          },
+          {
+            "type": "constant",
+            "id": "Create Crafts and Additions"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Create Mechanical Extruder": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Create"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Create Crafts and Additions": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Create"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Mega Cells": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Applied Energistics"
+          },
+          {
+            "type": "constant",
+            "id": "Mekanism"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Scanner": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Advanced Finders"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Misc Bag Upgrades": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Backpacks"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Bag Inception": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "Big Backpacks"
+          },
+          {
+            "type": "constant",
+            "id": "Junk Management"
+          },
+          {
+            "type": "constant",
+            "id": "Soul Harvester"
+          },
+          {
+            "type": "constant",
+            "id": "Backpack Upgrades 1"
+          },
+          {
+            "type": "constant",
+            "id": "Advanced Finders"
+          },
+          {
+            "type": "constant",
+            "id": "Misc Bag Upgrades"
+          },
+          {
+            "type": "constant",
+            "id": "Scanner"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Draconic Evolution": {
+        "dependsOn": [
+          {
+            "type": "constant",
+            "id": "RFTools Power"
+          },
+          {
+            "type": "constant",
+            "id": "Powah"
+          },
+          {
+            "type": "constant",
+            "id": "Flux Networks"
+          },
+          {
+            "type": "constant",
+            "id": "Thermal Dynamos"
+          },
+          {
+            "type": "constant",
+            "id": "Mekanism Generators"
+          },
+          {
+            "type": "constant",
+            "id": "Botania Flux Field"
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
       }
     }
   }

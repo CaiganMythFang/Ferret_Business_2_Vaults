@@ -1298,13 +1298,148 @@
       "the_vault:bronze_nuke": {
         "properties": {
           "filter": "",
-          "lootTable": "the_vault:bronze_table"
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:bronze_table"
+            }
+          ],
+          "chance": 1,
+          "singleItem": false
         },
         "display": {
           "name": "Coin Explosion",
           "color": "#e6fffe",
           "description": "Killing a mob will have it drop bronze or silver!",
           "icon": "the_vault:gui/modifiers/kill_coin"
+        }
+      },
+      "the_vault:wooden_mob_drops": {
+        "properties": {
+          "filter": "",
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:wooden_chest_lvl0"
+            },
+            {
+              "level": 20,
+              "lootTable": "the_vault:wooden_chest_lvl20"
+            },
+            {
+              "level": 30,
+              "lootTable": "the_vault:wooden_chest_lvl30"
+            }
+          ],
+          "chance": 0.1,
+          "singleItem": true
+        },
+        "display": {
+          "name": "Wooden Mob Drops",
+          "color": "#c7b281",
+          "description": "Killing a mob has a 10% chance to drop Wooden Chest loot.",
+          "descriptionFormatted": "Killing a mob has a %d%% chance to drop Wooden Chest loot.",
+          "icon": "the_vault:gui/modifiers/wooden_chests"
+        }
+      },
+      "the_vault:gilded_mob_drops": {
+        "properties": {
+          "filter": "",
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:gilded_chest_lvl0"
+            },
+            {
+              "level": 20,
+              "lootTable": "the_vault:gilded_chest_lvl20"
+            },
+            {
+              "level": 50,
+              "lootTable": "the_vault:gilded_chest_lvl50"
+            }
+          ],
+          "chance": 0.1,
+          "singleItem": true
+        },
+        "display": {
+          "name": "Gilded Mob Drops",
+          "color": "#FFEC00",
+          "description": "Killing a mob has a 10% chance to drop Gilded Chest loot.",
+          "descriptionFormatted": "Killing a mob has a %d%% chance to drop Gilded Chest loot.",
+          "icon": "the_vault:gui/modifiers/gilded_chests"
+        }
+      },
+      "the_vault:ornate_mob_drops": {
+        "properties": {
+          "filter": "",
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:ornate_chest_lvl0"
+            },
+            {
+              "level": 20,
+              "lootTable": "the_vault:ornate_chest_lvl20"
+            },
+            {
+              "level": 30,
+              "lootTable": "the_vault:ornate_chest_lvl30"
+            },
+            {
+              "level": 50,
+              "lootTable": "the_vault:ornate_chest_lvl50"
+            },
+            {
+              "level": 65,
+              "lootTable": "the_vault:ornate_chest_lvl65"
+            }
+          ],
+          "chance": 0.1,
+          "singleItem": true
+        },
+        "display": {
+          "name": "Ornate Mob Drops",
+          "color": "#c90d73",
+          "description": "Killing a mob has a 10% chance to drop Ornate Chest loot.",
+          "descriptionFormatted": "Killing a mob has a %d%% chance to drop Ornate Chest loot.",
+          "icon": "the_vault:gui/modifiers/ornate_chests"
+        }
+      },
+      "the_vault:living_mob_drops": {
+        "properties": {
+          "filter": "",
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:living_chest_lvl0"
+            },
+            {
+              "level": 10,
+              "lootTable": "the_vault:living_chest_lvl10"
+            },
+            {
+              "level": 20,
+              "lootTable": "the_vault:living_chest_lvl20"
+            },
+            {
+              "level": 30,
+              "lootTable": "the_vault:living_chest_lvl30"
+            },
+            {
+              "level": 40,
+              "lootTable": "the_vault:living_chest_lvl40"
+            }
+          ],
+          "chance": 0.1,
+          "singleItem": true
+        },
+        "display": {
+          "name": "Living Mob Drops",
+          "color": "#38d800",
+          "description": "Killing a mob has a 10% chance to drop Living Chest loot.",
+          "descriptionFormatted": "Killing a mob has a %d%% chance to drop Living Chest loot.",
+          "icon": "the_vault:gui/modifiers/living_chests"
         }
       }
     },
@@ -3246,6 +3381,36 @@
           "icon": "the_vault:gui/modifiers/hunger"
         }
       },
+      "woldsvaults:unlucky_aura": {
+        "properties": {
+          "effect": "minecraft:unluck",
+          "effectAmplifier": 2,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Jinxed",
+          "color": "#5032a8",
+          "description": "You aren't feeling very lucky...",
+          "descriptionFormatted": "+%d Unluck",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "woldsvaults:doomed_aura": {
+        "properties": {
+          "effect": "minecraft:unluck",
+          "effectAmplifier": 6,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Doomed",
+          "color": "#5032a8",
+          "description": "It seems almost all the luck has been sucked out of the Vault...",
+          "descriptionFormatted": "+%d Unluck",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
       "the_vault:lucky": {
         "properties": {
           "effect": "minecraft:luck",
@@ -3257,6 +3422,21 @@
           "name": "Lucky",
           "color": "#b3ff20",
           "description": "+1 Luck",
+          "descriptionFormatted": "+%d Luck",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "woldsvaults:super_lucky": {
+        "properties": {
+          "effect": "minecraft:luck",
+          "effectAmplifier": 4,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Four-Leafed Clover",
+          "color": "#b3ff20",
+          "description": "+4 Luck",
           "descriptionFormatted": "+%d Luck",
           "icon": "the_vault:gui/modifiers/lucky"
         }
@@ -6471,6 +6651,60 @@
           "icon": "the_vault:gui/modifiers/armed"
         }
       },
+      "woldsvaults:armed_chest_special": {
+        "properties": {
+          "chance": 0.04,
+          "amounts": [
+            {
+              "value": 1,
+              "weight": 2
+            }
+          ],
+          "entities": [
+            {
+              "value": {
+                "type": "thermal:slime_grenade",
+                "randomMotion": true
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "thermal:explosive_grenade",
+                "randomMotion": true
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "thermal:fire_grenade",
+                "randomMotion": true
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "thermal:ender_grenade",
+                "randomMotion": true
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "type": "thermal:lightning_grenade",
+                "randomMotion": true
+              },
+              "weight": 4
+            }
+          ]
+        },
+        "display": {
+          "name": "Armed",
+          "color": "#33691E",
+          "description": "Grenades sometimes drop from chests.",
+          "icon": "the_vault:gui/modifiers/armed"
+        }
+      },
       "the_vault:bingo_slime_grenade_chest": {
         "properties": {
           "chance": 0.09,
@@ -6577,7 +6811,7 @@
       },
       "the_vault:surprise_boxes": {
         "properties": {
-          "chance": 0.5,
+          "chance": 0.25,
           "amounts": [
             {
               "value": 1,
@@ -6948,6 +7182,204 @@
           "color": "#33691E",
           "description": "Candy mobs wildly spawn constantly.",
           "icon": "the_vault:gui/modifiers/candy"
+        }
+      },
+      "woldsvaults:rage_cage": {
+        "properties": {
+          "chance": 0.5,
+          "ticksPerCheck": 100,
+          "amounts": [
+            {
+              "value": 2,
+              "weight": 2
+            },
+            {
+              "value": 3,
+              "weight": 6
+            },
+            {
+              "value": 4,
+              "weight": 4
+            },
+            {
+              "value": 5,
+              "weight": 2
+            },
+            {
+              "value": 6,
+              "weight": 1
+            }
+          ],
+          "entities": [
+            {
+              "value": {
+                "type": "the_vault:vault_spider",
+                "randomMotion": false
+              },
+              "weight": 8
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_creeper",
+                "randomMotion": false
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_drowned",
+                "randomMotion": false
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_husk",
+                "randomMotion": false
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_piglin",
+                "randomMotion": false
+              },
+              "weight": 8
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_skeleton",
+                "randomMotion": false
+              },
+              "weight": 8
+            },
+            {
+              "value": {
+                "type": "the_vault:skeleton_vanguard",
+                "randomMotion": false
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_stray",
+                "randomMotion": false
+              },
+              "weight": 6
+            },
+            {
+              "value": {
+                "type": "the_vault:t3_zombie",
+                "randomMotion": false
+              },
+              "weight": 10
+            },
+            {
+              "value": {
+                "type": "the_vault:vault_fighter_3",
+                "randomMotion": false
+              },
+              "weight": 10
+            },
+            {
+              "value": {
+                "type": "the_vault:vault_fighter_7",
+                "randomMotion": false
+              },
+              "weight": 10
+            },
+            {
+              "value": {
+                "type": "minecraft:witch",
+                "randomMotion": false
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "type": "tropicraft:eih",
+                "randomMotion": false
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "grimoireofgaia:minotaur",
+                "randomMotion": false
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "dungeons_mobs:redstone_cube",
+                "randomMotion": false
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "dungeons_mobs:redstone_golem",
+                "randomMotion": false
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "type": "dungeons_mobs:necromancer",
+                "randomMotion": false
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "type": "grimoireofgaia:banshee",
+                "randomMotion": false
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "type": "grimoireofgaia:mummy",
+                "randomMotion": false
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "type": "grimoireofgaia:wither_cow",
+                "randomMotion": false
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "type": "dungeons_mobs:royal_guard",
+                "randomMotion": false
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "grimoireofgaia:bone_knight",
+                "randomMotion": false
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "type": "cloudstorage:bloviator",
+                "randomMotion": false
+              },
+              "weight": 1
+            }
+          ],
+          "cap": 10
+        },
+        "display": {
+          "name": "Rage Cage",
+          "color": "#33691E",
+          "description": "Mobs wildly spawn constantly.",
+          "icon": "the_vault:gui/modifiers/retro"
         }
       },
       "the_vault:classic_retro": {
@@ -8230,6 +8662,34 @@
       }
     },
     "the_vault:modifier_type/pool_reference_weight": {
+      "woldsvaults:challenge_fortune_small": {
+        "properties": {
+          "references": [
+            "the_vault:vault/rooms/challenge_rooms"
+          ],
+          "weightMultiplier": 3.0
+        },
+        "display": {
+          "name": "Challenge Vein",
+          "color": "#FF4500",
+          "description": "3x Challenge Room Chance",
+          "icon": "the_vault:gui/modifiers/challenge_fortune"
+        }
+      },
+      "woldsvaults:omega_fortune_small": {
+        "properties": {
+          "references": [
+            "the_vault:vault/rooms/omega_rooms"
+          ],
+          "weightMultiplier": 4.0
+        },
+        "display": {
+          "name": "Omega Vein",
+          "color": "#6AFF00",
+          "description": "4x Omega Room Chance",
+          "icon": "the_vault:gui/modifiers/omega_fortune"
+        }
+      },
       "the_vault:omega_fortune": {
         "properties": {
           "references": [
@@ -8252,9 +8712,9 @@
           "weightMultiplier": 5.0
         },
         "display": {
-          "name": "Challenge Vein",
+          "name": "Challenge Bloom",
           "color": "#FF4500",
-          "description": "10x Challenge Room Chance",
+          "description": "5x Challenge Room Chance",
           "icon": "the_vault:gui/modifiers/challenge_fortune"
         }
       }
@@ -8392,6 +8852,58 @@
           "description": "Mobs spawn at 1 hp",
           "descriptionFormatted": "Mobs spawn at 1 hp",
           "icon": "the_vault:gui/modifiers/overpower"
+        }
+      }
+    },
+    "the_vault:modifier_type/chest_loot": {
+      "the_vault:coin_chest_loot": {
+        "properties": {
+          "chance": 0.1,
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:coin_pile_lvl0"
+            },
+            {
+              "level": 30,
+              "lootTable": "the_vault:coin_pile_lvl30"
+            }
+          ],
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ]
+        },
+        "display": {
+          "name": "Coin Chest Loot",
+          "color": "#ffae00",
+          "description": "Wooden, Gilded, Living, and Ornate chests have a 10% chance to generate Coin Pile loot.",
+          "descriptionFormatted": "Wooden, Gilded, Living, and Ornate chests have a %d%% chance to generate Coin Pile loot.",
+          "icon": "the_vault:gui/modifiers/bonus_coin"
+        }
+      }
+    },
+    "the_vault:modifier_type/chest_mob_spawn": {
+      "the_vault:dweller_chests": {
+        "properties": {
+          "chance": 0.05,
+          "mob": "minecraft:cow",
+          "spawnRadius": 4,
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ]
+        },
+        "display": {
+          "name": "Dweller Chests",
+          "color": "#AA0000",
+          "description": "Looting chests have a 5% chance to spawn a dweller.",
+          "descriptionFormatted": "Looting chests have a %d%% chance to spawn a dweller.",
+          "icon": "the_vault:gui/modifiers/impossible"
         }
       }
     }

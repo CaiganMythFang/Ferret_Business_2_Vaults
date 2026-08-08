@@ -51,7 +51,12 @@
         "botania:*rock_?",
         "botania:*wood_?",
         "botania:vine_ball",
-        "botania:fel_pumpkin"
+        "botania:fel_pumpkin",
+        "botania:*_ingot"
+    ],
+    "Botania Machinery": [
+        "botanicalextramachinery:*_ingot",
+        "botanicalextramachinery:*_ingot_block"
     ],
     "Cloud Storage": [
         "cloudstorage:balloon_bit",
@@ -91,12 +96,18 @@
         "create:*scorchia*",
         "create:*veridium*"
     ],
+    "Draconic Evolution": [
+        "draconicevolution:*_ingot",
+        "draconicevolution:*_block"
+    ],
     "Immersive Engineering": [
         "immersiveengineering:ore_*",
         "immersiveengineering:deepslate_ore_*",
         "immersiveengineering:*storage*",
         "immersiveengineering:sheetmetal*",
-        "immersiveengineering:slab_*"
+        "immersiveengineering:slab_*",
+        "immersiveengineering:ingot_*",
+        "immersiveengineering:block_*"
     ],
     "Incorporeal": [
         "botania:*_carpet"
@@ -119,12 +130,19 @@
     ],
     "Mekanism": [
         "mekanism:block_*",
-        "mekanism:*_ore"
+        "mekanism:*_ore",
+        "mekanism:ingot_*",
+        "moremekanismprocessing:*_ingot"
     ],
     "Occultism": [
         "occultism:*_ore",
         "occultism:*_ore_deepslate",
-        "occultism:*_block"
+        "occultism:*_block",
+        "occultism:*_ingot"
+    ],
+    "Pneumaticcraft": [
+        "pneumaticcraft:ingot_*",
+        "pneumaticcraft:*_block"
     ]
   }
 }

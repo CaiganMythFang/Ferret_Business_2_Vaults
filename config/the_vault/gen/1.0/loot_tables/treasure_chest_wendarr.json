@@ -32,6 +32,29 @@
                 "id": "the_vault:mod_box",
                 "count": {
                   "type": "uniform",
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "woldsvaults:yellow_vault_essence",
+                "count": {
+                  "type": "uniform",
+                  "min": 4,
+                  "max": 8
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:booster_pack",
+                "nbt": "{\"id\": \"the_vault:museum_pack\"}",
+                "count": {
+                  "type": "uniform",
                   "min": 1,
                   "max": 1
                 }
@@ -344,6 +367,36 @@
                   "min": 1,
                   "max": 1
                 }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:deck_socket",
+                "nbt": {
+                  "Modifier": "@treasure_sand",
+                  "ModifierRoll": "greater"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:map",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_treasure_map",
+                  "the_vault:map_tier": -1
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
               }
             }
           ]
