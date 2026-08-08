@@ -886,6 +886,7 @@ craftingTable.remove(<item:modularrouters:player_module>);
 //JEI.hideIngredient
 // Alexsmobs
 JEI.hideMod("alexsmobs");
+JEI.addIngredient(<item:the_vault:respec_flask>);
 JEI.addIngredient(<item:alexsmobs:rainbow_glass>);
 JEI.addIngredient(<item:alexsmobs:spawn_egg_flutter>);
 JEI.addIngredient(<item:alexsmobs:dimensional_carver>);
@@ -925,15 +926,9 @@ JEI.hideIngredient(<item:botania:elementium_helmet>);
 JEI.hideIngredient(<item:botania:elementium_chestplate>);
 JEI.hideIngredient(<item:botania:elementium_leggings>);
 JEI.hideIngredient(<item:botania:elementium_boots>);
-JEI.hideIngredient(<item:botania:holy_cloak>);
-JEI.hideIngredient(<item:botania:unholy_cloak>);
-JEI.hideIngredient(<item:botania:balance_cloak>);
 JEI.hideIngredient(<item:botania:invisibility_cloak>);
-JEI.hideIngredient(<item:botania:mana_ring_greater>);
 JEI.hideIngredient(<item:botania:magnet_ring_greater>);
-JEI.hideIngredient(<item:botania:aura_ring_greater>);
 JEI.hideIngredient(<item:botania:ender_dagger>);
-JEI.hideIngredient(<item:botania:speed_up_belt>);
 JEI.hideIngredient(<item:botania:itemfinder>);
 JEI.hideIngredient(<item:botania:rainbow_rod>);
 JEI.hideIngredient(<item:botania:gravity_rod>);
@@ -944,7 +939,6 @@ JEI.hideIngredient(<item:botania:mana_gun>);
 JEI.hideIngredient(<item:botania:diva_charm>);
 JEI.hideIngredient(<item:botania:thunder_sword>);
 JEI.hideIngredient(<item:botania:king_key>);
-JEI.hideIngredient(<item:botania:knockback_belt>);
 JEI.hideIngredient(<item:botania:crystal_bow>);
 JEI.hideIngredient(<item:botania:livingwood_bow>);
 JEI.hideIngredient(<item:botania:slingshot>);
@@ -952,14 +946,8 @@ JEI.hideIngredient(<item:botania:flight_tiara>);
 JEI.hideIngredient(<item:botania:dice>);
 JEI.hideIngredient(<item:botania:flugel_eye>);
 JEI.hideIngredient(<item:botania:glass_pickaxe>);
-JEI.hideIngredient(<item:botania:travel_belt>);
-JEI.hideIngredient(<item:botania:super_travel_belt>);
 JEI.hideIngredient(<item:botania:ice_pendant>);
-JEI.hideIngredient(<item:botania:lava_pendant>);
-JEI.hideIngredient(<item:botania:super_lava_pendant>);
-JEI.hideIngredient(<item:botania:cloud_pendant>);
 JEI.hideIngredient(<item:botania:super_cloud_pendant>);
-JEI.hideIngredient(<item:botania:third_eye>);
 JEI.hideIngredient(<item:botania:goddess_charm>);
 JEI.hideIngredient(<item:botania:ancient_will_ahrim>);
 JEI.hideIngredient(<item:botania:ancient_will_dharok>);
@@ -987,7 +975,6 @@ JEI.hideIngredient(<item:botania:terra_pick>);
 JEI.hideIngredient(<item:botania:terra_axe>);
 JEI.hideIngredient(<item:botania:terra_sword>);
 JEI.hideIngredient(<item:botania:mana_cookie>);
-JEI.hideIngredient(<item:botania:crafty_crate>);
 JEI.hideIngredient(<item:botania:thorn_chakram>);
 JEI.hideIngredient(<item:botania:flare_chakram>);
 JEI.hideIngredient(<item:botania:brew_vial>.withTag({brewKey: "botania:resistance" as string}));
@@ -1012,18 +999,6 @@ JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:blood
 JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:regen_weak" as string}));
 JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:regen" as string}));
 JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:soul_cross" as string}));
-for ring in rings {
-  JEI.hideIngredient(<item:botania:${ring}_ring>);
-}
-
-// Botania addons - Added by Caigan
-JEI.hideIngredient(<item:incorporeal:potion_soul_core>);
-JEI.hideIngredient(<item:incorporeal:bound_ender_pearl>);
-JEI.hideIngredient(<item:incorporeal:enterbrilliance>);
-JEI.hideIngredient(<item:incorporeal:computational_lens_pattern>);
-JEI.hideIngredient(<item:incorporeal:data_monocle>);
-JEI.hideIngredient(<item:incorporeal:datastone_block>);
-JEI.hideIngredient(<item:incorporeal:pointed_datastone>);
 
 JEI.hideIngredient(<item:waystones:portstone>);
 JEI.hideIngredient(<item:waystones:return_scroll>);
