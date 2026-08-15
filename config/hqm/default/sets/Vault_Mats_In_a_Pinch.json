@@ -1591,6 +1591,71 @@
       "commandrewards": []
     },
     {
+      "uuid": "65386376-b95d-4512-a262-512c33903c72",
+      "name": {
+        "text": " Companion Egg",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "    We\u0027ve been able to procure some Companion Eggs, Bandit.\n\n    Technically you start finding these at level 50. We can only offer \"Legendary\" skin eggs for the time being.",
+        "isTranslationKey": false
+      },
+      "x": 252,
+      "y": 98,
+      "icon": {
+        "id": "the_vault:companion_egg",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tfb2:token_bingo",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_hundred_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:ferret_fifty_dollar",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tfb2:hqm_glitched",
+                "Count": 1
+              },
+              "required": 25,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2dd55773-23fe-4275-9671-1f1168837b58"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "the_vault:companion_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "afe497d2-8e92-4835-ae1b-d344661ebda0",
       "name": {
         "text": " Pyretic Focus",
