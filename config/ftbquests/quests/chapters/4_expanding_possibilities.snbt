@@ -1328,7 +1328,7 @@
 		{
 			title: "A Little Buddy"
 			icon: "the_vault:companion_egg"
-			x: 5.5d
+			x: 5.0d
 			y: -3.25d
 			shape: "rsquare"
 			subtitle: "You Got a Friend in Me"
@@ -1773,6 +1773,40 @@
 			}]
 			rewards: [{
 				id: "6DA563AEC1E328E4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5632731352558517809L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.25d
+			shape: "rsquare"
+			description: [
+				"&dWe got a new tool for you, Bandit! Something I whipped up after talking with my brother about an old ability the FOPGame Server used to have."
+				""
+				"&5Aye, they were called Eternals. Could summon yerself a fighter to help you get through Vaults. Give it the appearance of yer friends or popular players."
+				""
+				"&dYeah, though they kind of deprecated it because of some bugs. One being... sometimes you'd get ghost copies of your Eternal running around. Lots of em after a while."
+				""
+				"&5Then my sis and I got talking, and came up with the idea... what if ye could have an army of Companions?"
+				""
+				"&dAnd Voila, the Companion Codex! You can store your companions in this block, and get yourself a Companion Crest from it. Equip that on your head instead of a companion and boom, little companion army!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["171900B9A0193443"]
+			id: "566DCAE24582C485"
+			tasks: [{
+				id: "2F760C2262BDCAFC"
+				type: "observation"
+				title: "Look at a Companion Codex"
+				icon: "companioncodex:companion_codex"
+				timer: 0L
+				observe_type: 0
+				to_observe: "companioncodex:companion_codex"
+			}]
+			rewards: [{
+				id: "07257AFDB8856E65"
 				type: "choice"
 				exclude_from_claim_all: true
 				table_id: 5632731352558517809L
