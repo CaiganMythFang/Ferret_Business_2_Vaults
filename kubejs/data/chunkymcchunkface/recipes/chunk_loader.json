@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GLG",
+    "BSB",
+    "OIO"
+  ],
+  "key": {
+    "G": {
+      "item": "the_vault:gem_larimar"
+    },
+    "L": {
+      "item": "the_vault:perfect_larimar"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "S": {
+      "item": "the_vault:chromatic_steel_block"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "I": {
+      "item": "the_vault:chromatic_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "chunkymcchunkface:chunk_loader",
+    "count": 1
+  }
+}

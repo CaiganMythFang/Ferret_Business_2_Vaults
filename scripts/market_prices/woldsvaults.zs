@@ -9,6 +9,13 @@ import mods.projecte.NSSResolver;
 
 // Item  to EMC/FMC value map.
 val priceTable as int[IItemStack] = {
+    <item:woldsvaults:yellow_vault_essence> : 17250,
+    <item:woldsvaults:blue_vault_essence> : 14075,
+    <item:woldsvaults:green_vault_essence> : 7875,
+    <item:woldsvaults:deco_god_altar_velara> : 5950,
+    <item:woldsvaults:deco_god_altar_idona> : 14875,
+    <item:woldsvaults:deco_god_altar_wendarr> : 1715700,
+    <item:woldsvaults:deco_god_altar_tenos> : 12540,
     <item:woldsvaults:crate_cracker> : 37025,
     <item:woldsvaults:monolith> : 9050,
     <item:woldsvaults:doll_dismantler> : 12625,
