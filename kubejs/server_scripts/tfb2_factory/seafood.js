@@ -6,7 +6,10 @@ let seafood = [
     'minecraft:cod',
     'crittersandcompanions:koi_fish', 
     'crittersandcompanions:clam', 
-    'ecologics:crab_claw'
+    'ecologics:crab_claw',
+    'culturaldelights:raw_calamari',
+    'culturaldelights:squid',
+    'culturaldelights:glow_squid'
 ]
 
 onEvent("item.tags", event => {
