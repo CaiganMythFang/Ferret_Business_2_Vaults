@@ -1314,6 +1314,26 @@
           "icon": "the_vault:gui/modifiers/kill_coin"
         }
       },
+       "woldsvaults:gem_mob_drops": {
+        "properties": {
+          "filter": "",
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "woldsvaults:mob_gem_drops"
+            }
+          ],
+          "chance": 0.1,
+          "singleItem": true
+        },
+        "display": {
+          "name": "Gem Mob Drops",
+          "color": "#c90d73",
+          "description": "Killing a mob has a 10% chance to drop a non-player gem.",
+          "descriptionFormatted": "Killing a mob has a %d%% chance to drop a non-player gem.",
+          "icon": "the_vault:gui/modifiers/plentiful"
+        }
+      },
       "the_vault:wooden_mob_drops": {
         "properties": {
           "filter": "",
@@ -3353,6 +3373,32 @@
       }
     },
     "the_vault:modifier_type/player_effect": {
+      "woldsvaults:water_breathing": {
+        "properties": {
+          "effect": "minecraft:water_breathing",
+          "effectAmplifier": 1
+        },
+        "display": {
+          "name": "Water Breathing",
+          "color": "#47402d",
+          "description": "Somehow you can breathe underwater!",
+          "descriptionFormatted": "Permanent Water Breathing Effect",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "woldsvaults:slippery_floors": {
+        "properties": {
+          "effect": "ecologics:slippery",
+          "effectAmplifier": 0
+        },
+        "display": {
+          "name": "Icy Floors",
+          "color": "#47402d",
+          "description": "Slippery ice coats everything!",
+          "descriptionFormatted": "Permanent Blindness Effect",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
        "woldsvaults:lights_out": {
         "properties": {
           "effect": "minecraft:nausea",
@@ -3370,6 +3416,21 @@
         "properties": {
           "effect": "minecraft:hunger",
           "effectAmplifier": 6,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Hunger",
+          "color": "#E8DACD",
+          "description": "Hunger",
+          "descriptionFormatted": "+%d Hunger",
+          "icon": "the_vault:gui/modifiers/hunger"
+        }
+      },
+      "the_vault:hunger_mini": {
+        "properties": {
+          "effect": "minecraft:hunger",
+          "effectAmplifier": 1,
           "operator": "add",
           "type": "icon_only"
         },
@@ -4893,6 +4954,18 @@
       }
     },
     "the_vault:modifier_type/experience_multiplier": {
+      "woldsvaults:double_xp": {
+        "properties": {
+          "addend": 2
+        },
+        "display": {
+          "name": "Double XP",
+          "color": "#DB7C00",
+          "description": "x2 Vault XP Gained",
+          "descriptionFormatted": "x%d%% Vault XP Gained",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
       "the_vault:true_noxp": {
         "properties": {
           "addend": 0
@@ -5115,7 +5188,7 @@
         "display": {
           "name": "Living",
           "color": "#38d800",
-          "description": "+5% Living Chests",
+          "description": "+1% Living Chests",
           "descriptionFormatted": "+%d%% Living Chests",
           "icon": "the_vault:gui/modifiers/living"
         }
@@ -5141,7 +5214,7 @@
         "display": {
           "name": "Wooden",
           "color": "#c7b281",
-          "description": "+5% Wooden Chests",
+          "description": "+1% Wooden Chests",
           "descriptionFormatted": "+%d%% Wooden Chests",
           "icon": "the_vault:gui/modifiers/wooden"
         }
@@ -5284,7 +5357,7 @@
         "display": {
           "name": "Wealthy",
           "color": "#ffae00",
-          "description": "+10% Coin Piles",
+          "description": "+1% Coin Piles",
           "descriptionFormatted": "+%d%% Coin Piles",
           "icon": "the_vault:gui/modifiers/wealthy"
         }
@@ -5317,7 +5390,7 @@
       },
       "the_vault:champion_domain": {
         "properties": {
-          "chance": 0.1
+          "chance": 0.5
         },
         "display": {
           "name": "Champion's Domain",
@@ -6536,6 +6609,20 @@
           "icon": "the_vault:gui/modifiers/god_token_wendarr"
         }
       },
+      "the_vault:tenos_favour": {
+        "properties": {
+          "children": {
+            "the_vault:treasure": 1,
+            "the_vault:hoard": 1
+          }
+        },
+        "display": {
+          "name": "Tenos's Favour",
+          "color": "#d89e01",
+          "description": "+50% Item Quantity and +100% Item Rarity",
+          "icon": "the_vault:gui/modifiers/god_token_tenos"
+        }
+      },
       "the_vault:incredible_chests": {
         "properties": {
           "children": {
@@ -6681,13 +6768,6 @@
                 "randomMotion": true
               },
               "weight": 4
-            },
-            {
-              "value": {
-                "type": "thermal:ender_grenade",
-                "randomMotion": true
-              },
-              "weight": 1
             },
             {
               "value": {
