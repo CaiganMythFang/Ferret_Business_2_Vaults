@@ -165,7 +165,7 @@ onEvent("recipes", event => {
         "ingredients": [
             { "item": "ae2:dense_energy_cell" },
             { "item": "woldsvaults:wold_star" },
-            { "item": "woldsvaults:wold_star" },
+            { "item": "the_vault:omega_pog" },
             { "item": "the_vault:omega_pog" },
             { "item": "compressium:vault_diamond_block_1" },
             { "item": "ae2:singularity" }
@@ -238,7 +238,17 @@ onEvent("recipes", event => {
         }
     })
 
-
+    event.shaped(Item.of('ars_nouveau:creative_source_jar'),
+        [
+            'SXS',
+            'GLG',
+            'SSS'
+        ], {
+        S: 'the_vault:black_chromatic_steel_block',
+        G: 'the_vault:gem_glass_echo',
+        L: 'ars_nouveau:source_jar',
+        X: 'woldsvaults:wold_star',
+    }).id('ars_nouveau:creative_source_jar')
 
 
 

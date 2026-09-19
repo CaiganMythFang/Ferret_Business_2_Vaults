@@ -43,8 +43,7 @@ let removedOutputsDE = [
     /draconicevolution:.*_collection_module/,
     /draconicevolution:.*_filter_module/,
     /draconicevolution:.*_aoe_module/,
-    /draconicevolution:.*_speed_module/,
-    /draconicevolution:.(basic|wyvern)_relay_crystal/
+    /draconicevolution:.*_speed_module/
 ];
 onEvent("recipes", event => {
     removedOutputsDE.forEach(id => {

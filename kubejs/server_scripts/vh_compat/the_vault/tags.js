@@ -1,9 +1,4 @@
 onEvent('item.tags', event => {
-
-    //Vanilla mining compat
-    event.add('forge:axes', 'the_vault:axe')
-    event.add('forge:swords', 'the_vault:sword')
-
     event.add('the_vault:vault_ores', 'the_vault:ore_larimar')
     event.add('the_vault:vault_ores', 'the_vault:ore_benitoite')
     event.add('the_vault:vault_ores', 'the_vault:ore_alexandrite')
@@ -118,6 +113,10 @@ onEvent('item.tags', event => {
     event.add('the_vault:spawnegg', 'thermal:blitz_spawn_egg')
     event.add('the_vault:spawnegg', 'thermal:basalz_spawn_egg')
     event.add('the_vault:spawnegg', 'tropicraft:iguana_spawn_egg')
+    event.add('the_vault:spawnegg', 'ars_nouveau:starbuncle_se')
+    event.add('the_vault:spawnegg', 'ars_nouveau:wilden_stalker_se')
+    event.add('the_vault:spawnegg', 'ars_nouveau:wilden_guardian_se')
+    event.add('the_vault:spawnegg', 'woldsvaults:drygmy_spawn_egg')
 })
 
 onEvent('block.tags', event => {
