@@ -4,7 +4,8 @@
       "thermal:*_block",
       "thermal:*_ore",
       "thermal:*_rockwool",
-      "thermal:*slag*"
+      "thermal:*slag*",
+      "thermal:raw_*"
     ],
     "Applied Energistics": [
         "ae2:*_ore",
@@ -75,6 +76,7 @@
         "create:*copycat*",
         "create:*_ore",
         "create:*door",
+        "create:*_ingot",
         "create:*_block",
         "create:*_tiles",
         "create:*_shingles",
@@ -97,6 +99,9 @@
         "create:*veridium*",
         "create:clipboard"
     ],
+    "Create Crafts and Additions": [
+        "createaddition:*_ingot"
+    ],
     "Draconic Evolution": [
         "draconicevolution:*_ingot",
         "draconicevolution:*_block"
@@ -108,7 +113,8 @@
         "immersiveengineering:sheetmetal*",
         "immersiveengineering:slab_*",
         "immersiveengineering:ingot_*",
-        "immersiveengineering:block_*"
+        "immersiveengineering:block_*",
+        "immersiveengineering:raw_*"
     ],
     "Incorporeal": [
         "botania:*_carpet"
@@ -133,17 +139,29 @@
         "mekanism:block_*",
         "mekanism:*_ore",
         "mekanism:ingot_*",
-        "moremekanismprocessing:*_ingot"
+        "moremekanismprocessing:*_ingot",
+        "moremekanismprocessing:raw_*"
     ],
     "Occultism": [
         "occultism:*_ore",
         "occultism:*_ore_deepslate",
         "occultism:*_block",
-        "occultism:*_ingot"
+        "occultism:*_ingot",
+        "occultism:*raw_*"
     ],
     "Pneumaticcraft": [
         "pneumaticcraft:ingot_*",
         "pneumaticcraft:*_block"
+    ],
+    "Mystical Agriculture": [
+        "mysticalagriculture:*_ingot",
+        "mysticalagriculture:*_block",
+        "mysticalagradditions:*_ingot",
+        "mysticalagradditions:*_block"
+    ],
+    "Psi": [
+        "psi:*_block",
+        "psi:*psimetal"
     ]
   }
 }
